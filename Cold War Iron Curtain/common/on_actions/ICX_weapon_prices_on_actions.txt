@@ -1,0 +1,12 @@
+# Saves started before the arms price change still hold the old, much higher prices.
+# This brings them down within a week. New games already use the prices in on_startup_defines.txt.
+on_actions = {
+	on_weekly = {
+		effect = {
+			if = {
+				limit = { check_variable = { global.WPTierFour > 1 } }
+				ICX_set_weapon_prices = yes
+			}
+		}
+	}
+}

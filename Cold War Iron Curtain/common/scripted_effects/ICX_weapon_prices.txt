@@ -1,0 +1,40 @@
+# Iron Curtain Expanded: realistic arms prices (Iron Curtain money is in billions).
+# Used to update old saves. Keep these numbers the same as on_startup_defines.txt.
+ICX_set_weapon_prices = {
+	set_global_flag = ICX_cheap_arms_v1
+	set_variable = { global.WPTierOne = 0.03 }
+	set_variable = { global.WPTierOneLarge = global.WPTierOne }
+	multiply_variable = { global.WPTierOneLarge = global.LargePer }
+	set_variable = { global.WPTierOneBulk = global.WPTierOne }
+	multiply_variable = { global.WPTierOneBulk = global.BulkPer }
+	set_variable = { global.WPTierTwo = 0.06 }
+	set_variable = { global.WPTierTwoLarge = global.WPTierTwo }
+	multiply_variable = { global.WPTierTwoLarge = global.LargePer }
+	set_variable = { global.WPTierTwoBulk = global.WPTierTwo }
+	multiply_variable = { global.WPTierTwoBulk = global.BulkPer }
+	set_variable = { global.WPTierThree = 0.15 }
+	set_variable = { global.WPTierThreeLarge = global.WPTierThree }
+	multiply_variable = { global.WPTierThreeLarge = global.LargePer }
+	set_variable = { global.WPTierThreeBulk = global.WPTierThree }
+	multiply_variable = { global.WPTierThreeBulk = global.BulkPer }
+	set_variable = { global.WPTierFour = 0.4 }
+	set_variable = { global.WPTierFourLarge = global.WPTierFour }
+	multiply_variable = { global.WPTierFourLarge = global.LargePer }
+	set_variable = { global.WPTierFourBulk = global.WPTierFour }
+	multiply_variable = { global.WPTierFourBulk = global.BulkPer }
+	set_variable = { global.WPTierFive = 0.7 }
+	set_variable = { global.WPTierFiveLarge = global.WPTierFive }
+	multiply_variable = { global.WPTierFiveLarge = global.LargePer }
+	set_variable = { global.WPTierFiveBulk = global.WPTierFive }
+	multiply_variable = { global.WPTierFiveBulk = global.BulkPer }
+	set_variable = { global.WPTierSix = 1.5 }
+	set_variable = { global.WPTierSixLarge = global.WPTierSix }
+	multiply_variable = { global.WPTierSixLarge = global.LargePer }
+	set_variable = { global.WPTierSixBulk = global.WPTierSix }
+	multiply_variable = { global.WPTierSixBulk = global.BulkPer }
+	set_variable = { global.WPTierSeven = 2.5 }
+	set_variable = { global.WPTierSevenLarge = global.WPTierSeven }
+	multiply_variable = { global.WPTierSevenLarge = global.LargePer }
+	set_variable = { global.WPTierSevenBulk = global.WPTierSeven }
+	multiply_variable = { global.WPTierSevenBulk = global.BulkPer }
+}

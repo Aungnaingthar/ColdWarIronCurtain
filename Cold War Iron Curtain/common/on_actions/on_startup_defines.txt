@@ -2711,21 +2711,21 @@ on_actions = {
 			#Agency-related Variables#
 			set_variable = { upgrades_per_operative = 10 }
 			
-			###WEAPON PURCHASE PRICES###
+			###WEAPON PURCHASE PRICES### (in billions; lowered to realistic Cold War arms prices, e.g. 20 jets = $0.4B)
 			#Guns, support equipment, towed support weapons
-			set_variable = { WPTierOne = 10 }
+			set_variable = { WPTierOne = 0.03 }
 			#Trucks, light sp support weapons, medium support weapons
-			set_variable = { WPTierTwo = 20 }
+			set_variable = { WPTierTwo = 0.06 }
 			#IFVs, Heavy Support Weapons, Medium SP Weapons
-			set_variable = { WPTierThree = 40 }
+			set_variable = { WPTierThree = 0.15 }
 			#Jets, Tanks
-			set_variable = { WPTierFour = 80 }
+			set_variable = { WPTierFour = 0.4 }
 			#Bombers
-			set_variable = { WPTierFive = 120 }
+			set_variable = { WPTierFive = 0.7 }
 			#Frigates (x4), Destroyers (x2) Single-Small Submarines (x2)
-			set_variable = { WPTierSix = 250 }
+			set_variable = { WPTierSix = 1.5 }
 			#Cruisers, Light Carriers
-			set_variable = { WPTierSeven = 350 }
+			set_variable = { WPTierSeven = 2.5 }
 			
 			set_variable = { LargePer = 5 } #Large Purchase Price
 			set_variable = { BulkPer = 20 } #Bulk Purchase Price
