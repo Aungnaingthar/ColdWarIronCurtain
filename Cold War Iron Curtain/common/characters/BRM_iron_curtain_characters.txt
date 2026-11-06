@@ -1,0 +1,125 @@
+# Burma characters for the Iron Curtain submod.
+# Leaders use Iron Curtain's portraits where they exist. Ideologies are Iron Curtain sub-ideologies.
+
+characters = {
+	BRM_ne_win_rc = {
+		name = BRM_ne_win_rc
+		portraits = {
+			civilian = { large = "gfx/leaders/BRM/Ne_Win_60s.dds" }
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { BRM_number_one }
+			expire = "2099.1.1.1"
+			id = -1
+		}
+	}
+	BRM_brigadier_aung_gyi = {
+		name = BRM_brigadier_aung_gyi
+		portraits = {
+			civilian = { large = "gfx/leaders/BRM_expanded/BRM_brigadier_aung_gyi.dds" }
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { BRM_reform_general }
+			expire = "2099.1.1.1"
+			id = -1
+		}
+	}
+	BRM_ba_swe = {
+		name = BRM_ba_swe
+		portraits = {
+			civilian = { large = "gfx/leaders/BRM/Ba_Swe_50s.dds" }
+		}
+		country_leader = {
+			ideology = democratic_socialist
+			traits = { BRM_socialist_planner }
+			expire = "2099.1.1.1"
+			id = -1
+		}
+	}
+	BRM_thakin_than_tun = {
+		name = BRM_thakin_than_tun
+		portraits = {
+			civilian = { large = "gfx/leaders/BRM/Than_Tun_40s.dds" }
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { BRM_peoples_commander }
+			expire = "2099.1.1.1"
+			id = -1
+		}
+	}
+	BRM_saw_maung = {
+		name = BRM_saw_maung
+		portraits = {
+			civilian = { large = "gfx/leaders/BRM/Saw_Maung_80s.dds" }
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { BRM_slorc_chairman }
+			expire = "2099.1.1.1"
+			id = -1
+		}
+	}
+	BRM_than_shwe = {
+		name = BRM_than_shwe
+		portraits = {
+			civilian = { large = "gfx/leaders/BRM/Than_Shwe_90s.dds" }
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { BRM_senior_general }
+			expire = "2099.1.1.1"
+			id = -1
+		}
+	}
+	BRM_thein_sein = {
+		name = BRM_thein_sein
+		portraits = {
+			civilian = { large = "gfx/leaders/BRM_expanded/BRM_thein_sein.dds" }
+		}
+		country_leader = {
+			ideology = dominant_party_democracy
+			traits = { BRM_reformer_president }
+			expire = "2099.1.1.1"
+			id = -1
+		}
+	}
+	BRM_aung_san_suu_kyi = {
+		name = BRM_aung_san_suu_kyi
+		portraits = {
+			civilian = { large = "gfx/leaders/BRM/Aung_San_Suu_Kyi_00s.dds" }
+		}
+		country_leader = {
+			ideology = liberal_democracy
+			traits = { BRM_the_lady }
+			expire = "2099.1.1.1"
+			id = -1
+		}
+	}
+	BRM_min_aung_hlaing = {
+		name = BRM_min_aung_hlaing
+		portraits = {
+			civilian = { large = "gfx/leaders/BRM_expanded/BRM_min_aung_hlaing.dds" }
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { BRM_commander_in_chief }
+			expire = "2099.1.1.1"
+			id = -1
+		}
+	}
+	BRM_duwa_lashi_la = {
+		name = BRM_duwa_lashi_la
+		portraits = {
+			civilian = { large = "gfx/leaders/BRM_expanded/BRM_duwa_lashi_la.dds" }
+		}
+		country_leader = {
+			ideology = liberal_democracy
+			traits = { BRM_federalist_leader }
+			expire = "2099.1.1.1"
+			id = -1
+		}
+	}
+}

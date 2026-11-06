@@ -1,0 +1,105 @@
+BRM_diplomacy_category = {
+	# ---------------- trade agreement with ANY country ----------------
+	BRM_propose_trade = {
+		icon = generic_economy
+		target_trigger = {
+			FROM = {
+				exists = yes
+				NOT = { tag = ROOT }
+				NOT = { has_war_with = ROOT }
+				has_variable = currentMoney
+				NOT = { has_variable = BRM_trade_months }
+				OR = { is_major = yes is_neighbor_of = ROOT has_opinion = { target = ROOT value > 0 } check_variable = { currentMoney > 20 } }
+			}
+		}
+		visible = { NOT = { has_country_flag = BRM_dip_pending } }
+		fire_only_once = no
+		days_re_enable = 60
+		complete_effect = {
+			set_country_flag = { flag = BRM_dip_pending days = 30 value = 1 }
+			FROM = { country_event = { id = brmdip.1 days = 1 } }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	# ---------------- economic aid from a richer country ----------------
+	BRM_request_economic_aid = {
+		icon = generic_economy
+		target_trigger = {
+			FROM = {
+				exists = yes
+				NOT = { tag = ROOT }
+				NOT = { has_war_with = ROOT }
+				check_variable = { currentMoney > 10 }
+				OR = { tag = USA tag = SOV tag = PRC tag = JAP tag = ENG tag = WGR tag = FRA tag = RAJ tag = SAU }
+			}
+		}
+		visible = { NOT = { has_country_flag = BRM_dip_pending } }
+		fire_only_once = no
+		days_re_enable = 365
+		complete_effect = {
+			set_country_flag = { flag = BRM_dip_pending days = 30 value = 1 }
+			FROM = { country_event = { id = brmdip.10 days = 1 } }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	# ---------------- military aid ----------------
+	BRM_request_military_aid = {
+		icon = generic_army_support
+		target_trigger = {
+			FROM = {
+				exists = yes
+				NOT = { tag = ROOT }
+				NOT = { has_war_with = ROOT }
+				OR = { tag = USA tag = SOV tag = PRC tag = ENG tag = JAP tag = WGR tag = FRA tag = RAJ }
+			}
+		}
+		visible = { NOT = { has_country_flag = BRM_dip_pending } }
+		fire_only_once = no
+		days_re_enable = 365
+		complete_effect = {
+			set_country_flag = { flag = BRM_dip_pending days = 30 value = 1 }
+			FROM = { country_event = { id = brmdip.20 days = 1 } }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	# ---------------- defensive alliance (ideology matters) ----------------
+	BRM_propose_alliance = {
+		icon = generic_political_discourse
+		target_trigger = {
+			FROM = {
+				exists = yes
+				NOT = { tag = ROOT }
+				NOT = { has_war_with = ROOT }
+				OR = { is_neighbor_of = ROOT is_major = yes has_opinion = { target = ROOT value > 25 } }
+			}
+		}
+		visible = { NOT = { has_country_flag = BRM_dip_pending } }
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			set_country_flag = { flag = BRM_dip_pending days = 30 value = 1 }
+			FROM = { country_event = { id = brmdip.30 days = 1 } }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	# ---------------- ask the United States to lift sanctions ----------------
+	BRM_ask_lift_sanctions = {
+		icon = generic_political_discourse
+		visible = { has_idea = BRM_western_sanctions NOT = { has_country_flag = BRM_dip_pending } }
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			set_country_flag = { flag = BRM_dip_pending days = 30 value = 1 }
+			USA = { country_event = { id = brmdip.40 days = 1 } }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	# ---------------- information: active trade agreements ----------------
+	BRM_trade_status = {
+		icon = generic_economy
+		target_trigger = { FROM = { has_variable = BRM_trade_months } }
+		available = { always = no }
+		complete_effect = { }
+		ai_will_do = { factor = 0 }
+	}
+}

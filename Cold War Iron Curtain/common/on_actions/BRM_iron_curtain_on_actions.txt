@@ -1,0 +1,43 @@
+# Burma submod on_actions.
+on_actions = {
+	# Swaps Iron Curtain's icon-less Burma spirits for pictured copies, adds the
+	# Burmese characteristic spirit, a leader trait and advisors, and handles the 1980 start.
+	on_startup = {
+		effect = {
+			if = {
+				limit = { country_exists = BRM }
+				BRM = { BRM_game_start_setup = yes }
+			}
+		}
+	}
+	# Every week: restore the Burma tree if Iron Curtain replaced it (January 1960 or older saves),
+	# and upgrade saves started with an older version of this mod.
+	on_weekly_BRM = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_focus_tree = BRM_iron_curtain_focus }
+					OR = {
+						has_focus_tree = empty_focus
+						has_focus_tree = generic_focus
+					}
+				}
+				load_focus_tree = { tree = BRM_iron_curtain_focus keep_completed = yes }
+			}
+			if = {
+				limit = { NOT = { has_country_flag = BRM_expanded_v3 } }
+				set_country_flag = BRM_expanded_v3
+				set_country_flag = focus_tree_60_reset
+				BRM_recruit_advisors = yes
+			}
+		}
+	}
+	on_monthly_BRM = {
+		effect = {
+			# repayments for loans to and from other countries
+			BRM_process_loans = yes
+			# trade agreements earn money, sanctions cost money
+			BRM_process_trade = yes
+		}
+	}
+}

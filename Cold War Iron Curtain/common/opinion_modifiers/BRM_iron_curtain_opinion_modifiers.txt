@@ -1,0 +1,11 @@
+opinion_modifiers = {
+	BRM_pauk_phaw_opinion = { value = 30 }
+	BRM_western_friend = { value = 30 }
+	BRM_soviet_friend = { value = 30 }
+	BRM_respected_neutral = { value = 15 }
+	BRM_regional_partner = { value = 20 }
+	BRM_loan_partner = { value = 15 }
+	BRM_loan_default = { value = -50 decay = 1 }
+	BRM_trade_agreement = { value = 15 }
+	BRM_aid_donor = { value = 20 decay = 0.1 }
+}

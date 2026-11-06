@@ -1,0 +1,12 @@
+BRM_development_category = {
+	icon = generic_economy
+	allowed = { original_tag = BRM }
+}
+BRM_finance_category = {
+	icon = generic_economy
+	allowed = { original_tag = BRM }
+}
+BRM_diplomacy_category = {
+	icon = generic_political_discourse
+	allowed = { original_tag = BRM }
+}

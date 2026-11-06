@@ -1,0 +1,27 @@
+# Ideology comparisons (current scope vs FROM)
+BRMX_same_ideology_as_from = {
+	OR = { AND = { has_government = democratic FROM = { has_government = democratic } } AND = { has_government = communism FROM = { has_government = communism } } AND = { has_government = fascism FROM = { has_government = fascism } } AND = { has_government = neutrality FROM = { has_government = neutrality } } AND = { has_government = socialist FROM = { has_government = socialist } } AND = { has_government = Social_Democratic FROM = { has_government = Social_Democratic } } AND = { has_government = Social_Liberalism FROM = { has_government = Social_Liberalism } } AND = { has_government = liberal FROM = { has_government = liberal } } AND = { has_government = centrist FROM = { has_government = centrist } } AND = { has_government = Liberal_Conservatism FROM = { has_government = Liberal_Conservatism } } AND = { has_government = Christian_Democratic FROM = { has_government = Christian_Democratic } } AND = { has_government = conservative FROM = { has_government = conservative } } AND = { has_government = nationalist FROM = { has_government = nationalist } } AND = { has_government = monarchism FROM = { has_government = monarchism } } AND = { has_government = maoism FROM = { has_government = maoism } } AND = { has_government = trotskyism FROM = { has_government = trotskyism } } AND = { has_government = islamism FROM = { has_government = islamism } } AND = { has_government = radical_shiaism FROM = { has_government = radical_shiaism } } AND = { has_government = Salafism FROM = { has_government = Salafism } } }
+}
+BRMX_same_bloc_as_from = {
+	OR = {
+		BRMX_same_ideology_as_from = yes
+		AND = { OR = { has_government = democratic has_government = Social_Democratic has_government = Social_Liberalism has_government = liberal has_government = centrist has_government = Liberal_Conservatism has_government = Christian_Democratic has_government = conservative } FROM = { OR = { has_government = democratic has_government = Social_Democratic has_government = Social_Liberalism has_government = liberal has_government = centrist has_government = Liberal_Conservatism has_government = Christian_Democratic has_government = conservative } } }
+		AND = { OR = { has_government = communism has_government = maoism has_government = trotskyism has_government = socialist } FROM = { OR = { has_government = communism has_government = maoism has_government = trotskyism has_government = socialist } } }
+	}
+}
+BRMX_opposite_bloc_to_from = {
+	OR = {
+		AND = { OR = { has_government = democratic has_government = Social_Democratic has_government = Social_Liberalism has_government = liberal has_government = centrist has_government = Liberal_Conservatism has_government = Christian_Democratic has_government = conservative } FROM = { OR = { has_government = communism has_government = maoism has_government = trotskyism has_government = socialist } } }
+		AND = { OR = { has_government = communism has_government = maoism has_government = trotskyism has_government = socialist } FROM = { OR = { has_government = democratic has_government = Social_Democratic has_government = Social_Liberalism has_government = liberal has_government = centrist has_government = Liberal_Conservatism has_government = Christian_Democratic has_government = conservative } } }
+	}
+}
+BRMX_burma_military_rule = {
+	original_tag = BRM
+	has_government = neutrality
+	OR = {
+		has_completed_focus = BRM_revolutionary_council
+		has_completed_focus = BRM_slorc
+		has_completed_focus = BRM_state_administration_council
+	}
+	NOT = { has_completed_focus = BRM_thein_sein_reforms }
+}

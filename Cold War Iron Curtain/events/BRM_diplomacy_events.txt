@@ -1,0 +1,272 @@
+add_namespace = brmdip
+
+############ TRADE AGREEMENT ############
+# The other country decides (ROOT = them, FROM = Burma)
+country_event = {
+	id = brmdip.1
+	title = brmdip.1.t
+	desc = brmdip.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmdip.1.a
+		ai_chance = {
+			base = 40
+			modifier = { factor = 2 has_opinion = { target = FROM value > 25 } }
+			modifier = { factor = 1.5 BRMX_same_bloc_as_from = yes }
+			modifier = { factor = 0.5 BRMX_opposite_bloc_to_from = yes }
+			modifier = { factor = 0.3 has_opinion = { target = FROM value < -40 } }
+			modifier = { factor = 1.5 is_major = yes }
+		}
+		set_variable = { BRM_trade_months = 120 }
+		add_opinion_modifier = { target = FROM modifier = BRM_trade_agreement }
+		FROM = { add_opinion_modifier = { target = PREV modifier = BRM_trade_agreement } }
+		if = {
+			limit = { OR = { has_opinion = { target = FROM value > 25 } BRMX_same_bloc_as_from = yes } }
+			FROM = { country_event = { id = brmdip.2 } }
+		}
+		else = { FROM = { country_event = { id = brmdip.3 } } }
+	}
+	option = {
+		name = brmdip.1.b
+		ai_chance = { base = 30 }
+		if = {
+			limit = { OR = { BRMX_opposite_bloc_to_from = yes has_opinion = { target = FROM value < -25 } } }
+			FROM = { country_event = { id = brmdip.4 } }
+		}
+		else = { FROM = { country_event = { id = brmdip.5 } } }
+	}
+}
+country_event = { id = brmdip.2 title = brmdip.2.t desc = brmdip.2.d picture = GFX_report_event_generic_sign_treaty1 is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+country_event = { id = brmdip.3 title = brmdip.3.t desc = brmdip.3.d picture = GFX_report_event_generic_sign_treaty1 is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+country_event = { id = brmdip.4 title = brmdip.4.t desc = brmdip.4.d picture = GFX_report_event_generic_read_write is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+country_event = { id = brmdip.5 title = brmdip.5.t desc = brmdip.5.d picture = GFX_report_event_generic_read_write is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+
+############ ECONOMIC AID ############
+country_event = {
+	id = brmdip.10
+	title = brmdip.10.t
+	desc = brmdip.10.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmdip.10.a
+		ai_chance = {
+			base = 30
+			modifier = { factor = 3 has_opinion = { target = FROM value > 40 } }
+			modifier = { factor = 2 BRMX_same_bloc_as_from = yes }
+			modifier = { factor = 0.2 BRMX_opposite_bloc_to_from = yes }
+			modifier = { factor = 0.3 FROM = { has_idea = BRM_western_sanctions } OR = { tag = USA tag = ENG tag = FRA tag = WGR tag = JAP } }
+		}
+		subtract_from_variable = { currentMoney = 0.5 }
+		FROM = { add_to_variable = { currentMoney = 0.5 } country_event = { id = brmdip.11 } }
+		add_opinion_modifier = { target = FROM modifier = BRM_aid_donor }
+	}
+	option = {
+		name = brmdip.10.b
+		ai_chance = { base = 40 }
+		if = {
+			limit = { OR = { BRMX_opposite_bloc_to_from = yes FROM = { has_idea = BRM_western_sanctions } } }
+			FROM = { country_event = { id = brmdip.12 } }
+		}
+		else = { FROM = { country_event = { id = brmdip.13 } } }
+	}
+}
+country_event = { id = brmdip.11 title = brmdip.11.t desc = brmdip.11.d picture = GFX_report_event_generic_sign_treaty1 is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+country_event = { id = brmdip.12 title = brmdip.12.t desc = brmdip.12.d picture = GFX_report_event_generic_read_write is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+country_event = { id = brmdip.13 title = brmdip.13.t desc = brmdip.13.d picture = GFX_report_event_generic_read_write is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+
+############ MILITARY AID ############
+country_event = {
+	id = brmdip.20
+	title = brmdip.20.t
+	desc = brmdip.20.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmdip.20.a
+		ai_chance = {
+			base = 25
+			modifier = { factor = 3 has_opinion = { target = FROM value > 40 } }
+			modifier = { factor = 2 BRMX_same_bloc_as_from = yes }
+			modifier = { factor = 0.1 BRMX_opposite_bloc_to_from = yes }
+			modifier = { factor = 0.1 FROM = { has_idea = BRM_western_sanctions } OR = { tag = USA tag = ENG tag = FRA tag = WGR tag = JAP } }
+		}
+		FROM = {
+			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1500 producer = PREV }
+			army_experience = 10
+			country_event = { id = brmdip.21 }
+		}
+		add_opinion_modifier = { target = FROM modifier = BRM_aid_donor }
+	}
+	option = {
+		name = brmdip.20.b
+		ai_chance = { base = 40 }
+		FROM = { country_event = { id = brmdip.22 } }
+	}
+}
+country_event = { id = brmdip.21 title = brmdip.21.t desc = brmdip.21.d picture = GFX_report_event_generic_sign_treaty1 is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+country_event = { id = brmdip.22 title = brmdip.22.t desc = brmdip.22.d picture = GFX_report_event_generic_read_write is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+
+############ ALLIANCE ############
+country_event = {
+	id = brmdip.30
+	title = brmdip.30.t
+	desc = brmdip.30.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmdip.30.a
+		ai_chance = {
+			base = 10
+			modifier = { factor = 5 BRMX_same_ideology_as_from = yes }
+			modifier = { factor = 2 BRMX_same_bloc_as_from = yes }
+			modifier = { factor = 2 has_opinion = { target = FROM value > 50 } }
+			modifier = { factor = 0 BRMX_opposite_bloc_to_from = yes }
+		}
+		if = {
+			limit = { is_faction_leader = yes }
+			add_to_faction = FROM
+		}
+		else = {
+			give_guarantee = FROM
+			FROM = { give_guarantee = PREV }
+		}
+		FROM = { country_event = { id = brmdip.31 } }
+	}
+	option = {
+		name = brmdip.30.b
+		ai_chance = { base = 50 }
+		if = {
+			limit = { NOT = { BRMX_same_bloc_as_from = yes } }
+			FROM = { country_event = { id = brmdip.32 } }
+		}
+		else = { FROM = { country_event = { id = brmdip.33 } } }
+	}
+}
+country_event = { id = brmdip.31 title = brmdip.31.t desc = brmdip.31.d picture = GFX_report_event_generic_sign_treaty1 is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+country_event = { id = brmdip.32 title = brmdip.32.t desc = brmdip.32.d picture = GFX_report_event_generic_read_write is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+country_event = { id = brmdip.33 title = brmdip.33.t desc = brmdip.33.d picture = GFX_report_event_generic_read_write is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+
+############ LIFT SANCTIONS (asked of the USA) ############
+country_event = {
+	id = brmdip.40
+	title = brmdip.40.t
+	desc = brmdip.40.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	option = {
+		name = brmdip.40.a
+		ai_chance = {
+			base = 5
+			modifier = { factor = 20 FROM = { NOT = { BRMX_burma_military_rule = yes } } }
+		}
+		FROM = { remove_ideas = BRM_western_sanctions country_event = { id = brmdip.41 } }
+	}
+	option = {
+		name = brmdip.40.b
+		ai_chance = { base = 50 }
+		FROM = { country_event = { id = brmdip.42 } }
+	}
+}
+country_event = { id = brmdip.41 title = brmdip.41.t desc = brmdip.41.d picture = GFX_report_event_generic_sign_treaty1 is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+country_event = { id = brmdip.42 title = brmdip.42.t desc = brmdip.42.d picture = GFX_report_event_generic_read_write is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
+
+############ RANDOM COLD WAR EVENTS FOR BURMA ############
+# The United States invites Burma into SEATO (1954-56)
+country_event = {
+	id = brmdip.50
+	title = brmdip.50.t
+	desc = brmdip.50.d
+	picture = GFX_report_event_generic_sign_treaty1
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1954.9.1 date < 1956.12.31 country_exists = USA is_in_faction = no NOT = { has_government = communism } NOT = { has_government = maoism } }
+	mean_time_to_happen = { days = 60 }
+	option = { name = brmdip.50.a BRM_join_usa_bloc = yes USA = { add_opinion_modifier = { target = ROOT modifier = BRM_western_friend } } add_stability = -0.03 }
+	option = { name = brmdip.50.b add_stability = 0.03 BRM_set_china_target = yes if = { limit = { has_event_target = BRM_china } event_target:BRM_china = { add_opinion_modifier = { target = ROOT modifier = BRM_pauk_phaw_opinion } } } }
+}
+# Moscow offers cheap arms (1955-1990, random)
+country_event = {
+	id = brmdip.51
+	title = brmdip.51.t
+	desc = brmdip.51.d
+	picture = GFX_report_event_generic_sign_treaty1
+	trigger = { tag = BRM date > 1955.6.1 date < 1990.1.1 country_exists = SOV NOT = { has_war_with = SOV } NOT = { has_country_flag = BRM_soviet_arms_cd } NOT = { is_in_faction_with = USA } }
+	mean_time_to_happen = { days = 900 }
+	immediate = { set_country_flag = { flag = BRM_soviet_arms_cd days = 1800 value = 1 } }
+	option = { name = brmdip.51.a trigger = { check_variable = { currentMoney > 0.2 } } subtract_from_variable = { currentMoney = 0.2 } add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 2500 producer = SOV } SOV = { add_opinion_modifier = { target = ROOT modifier = BRM_soviet_friend } } }
+	option = { name = brmdip.51.b add_political_power = 25 }
+}
+# Western sanctions on military rule (after 1988 / 2021 style crackdowns)
+country_event = {
+	id = brmdip.52
+	title = brmdip.52.t
+	desc = brmdip.52.d
+	picture = GFX_report_event_generic_read_write
+	trigger = { tag = BRM country_exists = USA NOT = { has_idea = BRM_western_sanctions } BRMX_burma_military_rule = yes OR = { has_completed_focus = BRM_slorc has_completed_focus = BRM_state_administration_council } NOT = { has_country_flag = BRM_sanctions_cd } }
+	mean_time_to_happen = { days = 45 }
+	immediate = { set_country_flag = { flag = BRM_sanctions_cd days = 3650 value = 1 } }
+	option = { name = brmdip.52.a add_ideas = BRM_western_sanctions add_war_support = 0.03 }
+}
+# Washington proposes a trade deal anyway (pragmatism), any time after 1960
+country_event = {
+	id = brmdip.53
+	title = brmdip.53.t
+	desc = brmdip.53.d
+	picture = GFX_report_event_generic_sign_treaty1
+	trigger = { tag = BRM date > 1960.1.1 country_exists = USA NOT = { has_war_with = USA } USA = { NOT = { has_variable = BRM_trade_months } } NOT = { has_country_flag = BRM_us_trade_cd } }
+	mean_time_to_happen = { days = 1500 }
+	immediate = { set_country_flag = { flag = BRM_us_trade_cd days = 3650 value = 1 } }
+	option = { name = brmdip.53.a USA = { set_variable = { BRM_trade_months = 120 } add_opinion_modifier = { target = ROOT modifier = BRM_trade_agreement } } }
+	option = { name = brmdip.53.b add_stability = 0.02 }
+}
+# China offers infrastructure loans (1961 interest-free loan; Belt and Road after 2013)
+country_event = {
+	id = brmdip.54
+	title = brmdip.54.t
+	desc = brmdip.54.d
+	picture = GFX_report_event_generic_sign_treaty1
+	trigger = { tag = BRM country_exists = PRC NOT = { has_war_with = PRC } PRC = { NOT = { has_variable = BRM_burma_owes } } OR = { AND = { date > 1961.1.1 date < 1962.6.1 } AND = { date > 2013.9.1 date < 2020.1.1 } } NOT = { has_country_flag = BRM_china_loan_cd } }
+	mean_time_to_happen = { days = 90 }
+	immediate = { set_country_flag = { flag = BRM_china_loan_cd days = 3650 value = 1 } }
+	option = {
+		name = brmdip.54.a
+		add_to_variable = { currentMoney = 1 }
+		PRC = { set_variable = { BRM_burma_owes = 1.2 } set_variable = { BRM_burma_pay = 0.01 } set_variable = { BRM_burma_missed = 0 } set_variable = { BRM_burma_rate = 2 } set_variable = { BRM_burma_borrowed = 1 } add_opinion_modifier = { target = ROOT modifier = BRM_pauk_phaw_opinion } }
+		BRM_build_infra = yes
+	}
+	option = { name = brmdip.54.b add_stability = 0.02 }
+}
+# Japanese investment mission (1970-2000)
+country_event = {
+	id = brmdip.55
+	title = brmdip.55.t
+	desc = brmdip.55.d
+	picture = GFX_report_event_generic_factory
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1970.1.1 date < 2000.1.1 country_exists = JAP NOT = { has_war_with = JAP } NOT = { has_idea = BRM_western_sanctions } }
+	mean_time_to_happen = { days = 1200 }
+	option = { name = brmdip.55.a BRM_build_office = yes JAP = { add_opinion_modifier = { target = ROOT modifier = BRM_trade_agreement } } }
+	option = { name = brmdip.55.b add_political_power = 25 }
+}
+# Border trade boom with Thailand and China (1990s+)
+country_event = {
+	id = brmdip.56
+	title = brmdip.56.t
+	desc = brmdip.56.d
+	picture = GFX_report_event_generic_factory
+	trigger = { tag = BRM date > 1988.1.1 NOT = { has_country_flag = BRM_border_trade_cd } }
+	mean_time_to_happen = { days = 1800 }
+	immediate = { set_country_flag = { flag = BRM_border_trade_cd days = 3650 value = 1 } }
+	option = { name = brmdip.56.a add_to_variable = { currentMoney = 0.3 } add_stability = 0.02 }
+}
+# Sanctions lifted after real reforms
+country_event = {
+	id = brmdip.57
+	title = brmdip.57.t
+	desc = brmdip.57.d
+	picture = GFX_report_event_generic_sign_treaty1
+	trigger = { tag = BRM has_idea = BRM_western_sanctions NOT = { BRMX_burma_military_rule = yes } }
+	mean_time_to_happen = { days = 120 }
+	option = { name = brmdip.57.a remove_ideas = BRM_western_sanctions USA = { add_opinion_modifier = { target = ROOT modifier = BRM_western_friend } } }
+}

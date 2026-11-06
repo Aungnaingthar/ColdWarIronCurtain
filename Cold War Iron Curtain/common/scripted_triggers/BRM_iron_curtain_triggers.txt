@@ -1,0 +1,10 @@
+BRM_has_internal_conflict = {
+	OR = {
+		has_idea = BRM_internal_conflict_1
+		has_idea = BRM_internal_conflict_2
+		has_idea = BRM_internal_conflict_3
+		has_idea = BRM_civil_strife_1
+		has_idea = BRM_civil_strife_2
+		has_idea = BRM_civil_strife_3
+	}
+}

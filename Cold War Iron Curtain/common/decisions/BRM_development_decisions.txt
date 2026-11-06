@@ -1,0 +1,271 @@
+BRM_development_category = {
+	BRM_buy_industrial_park = {
+		icon = generic_construction
+		available = { any_owned_state = { is_core_of = ROOT free_building_slots = { building = industrial_complex size > 0 include_locked = yes } } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.399 } }
+		custom_cost_text = BRM_cost_BRM_buy_industrial_park
+		fire_only_once = no
+		days_re_enable = 60
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.4 }
+			add_money_with_tooltip_effect = yes
+			BRM_build_civ = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_buy_office_park = {
+		icon = generic_construction
+		available = { any_owned_state = { is_core_of = ROOT free_building_slots = { building = office_park size > 0 include_locked = yes } } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.599 } }
+		custom_cost_text = BRM_cost_BRM_buy_office_park
+		fire_only_once = no
+		days_re_enable = 90
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.6 }
+			add_money_with_tooltip_effect = yes
+			BRM_build_office = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_buy_agri_complex = {
+		icon = generic_construction
+		available = { any_owned_state = { is_core_of = ROOT free_building_slots = { building = agri_industrial_complex size > 0 include_locked = yes } } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.249 } }
+		custom_cost_text = BRM_cost_BRM_buy_agri_complex
+		fire_only_once = no
+		days_re_enable = 60
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.25 }
+			add_money_with_tooltip_effect = yes
+			BRM_build_agri = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_buy_arms_factory = {
+		icon = generic_construction
+		available = { any_owned_state = { is_core_of = ROOT free_building_slots = { building = arms_factory size > 0 include_locked = yes } } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.449 } }
+		custom_cost_text = BRM_cost_BRM_buy_arms_factory
+		fire_only_once = no
+		days_re_enable = 90
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.45 }
+			add_money_with_tooltip_effect = yes
+			BRM_build_mil = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_buy_power_plant = {
+		icon = generic_construction
+		available = { any_owned_state = { is_core_of = ROOT free_building_slots = { building = fossil_fuel_powerplant size > 0 include_locked = yes } } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.349 } }
+		custom_cost_text = BRM_cost_BRM_buy_power_plant
+		fire_only_once = no
+		days_re_enable = 90
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.35 }
+			add_money_with_tooltip_effect = yes
+			BRM_build_power = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_buy_water_infra = {
+		icon = generic_construction
+		available = { any_owned_state = { is_core_of = ROOT free_building_slots = { building = water_infrastructure size > 0 include_locked = yes } } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.149 } }
+		custom_cost_text = BRM_cost_BRM_buy_water_infra
+		fire_only_once = no
+		days_re_enable = 60
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.15 }
+			add_money_with_tooltip_effect = yes
+			BRM_build_water = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_buy_roads = {
+		icon = generic_construction
+		available = { any_owned_state = { is_core_of = ROOT free_building_slots = { building = infrastructure size > 0 include_locked = yes } } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.119 } }
+		custom_cost_text = BRM_cost_BRM_buy_roads
+		fire_only_once = no
+		days_re_enable = 45
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.12 }
+			add_money_with_tooltip_effect = yes
+			BRM_build_infra = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_buy_municipal_infra = {
+		icon = generic_construction
+		available = { any_owned_state = { is_core_of = ROOT free_building_slots = { building = state_infrastructure size > 0 include_locked = yes } } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.149 } }
+		custom_cost_text = BRM_cost_BRM_buy_municipal_infra
+		fire_only_once = no
+		days_re_enable = 60
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.15 }
+			add_money_with_tooltip_effect = yes
+			BRM_build_state_infra = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_buy_foreign_arms = {
+		icon = generic_construction
+		custom_cost_trigger = { check_variable = { currentMoney > 0.249 } }
+		custom_cost_text = BRM_cost_BRM_buy_foreign_arms
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.25 }
+			add_money_with_tooltip_effect = yes
+			army_experience = 10
+			add_timed_idea = { idea = BRM_arms_imports days = 180 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_buy_aircraft = {
+		icon = generic_construction
+		custom_cost_trigger = { check_variable = { currentMoney > 0.349 } }
+		custom_cost_text = BRM_cost_BRM_buy_aircraft
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.35 }
+			add_money_with_tooltip_effect = yes
+			air_experience = 20
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_buy_patrol_boats = {
+		icon = generic_construction
+		custom_cost_trigger = { check_variable = { currentMoney > 0.199 } }
+		custom_cost_text = BRM_cost_BRM_buy_patrol_boats
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.2 }
+			add_money_with_tooltip_effect = yes
+			navy_experience = 20
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_fund_monasteries = {
+		icon = generic_construction
+		custom_cost_trigger = { check_variable = { currentMoney > 0.029 } }
+		custom_cost_text = BRM_cost_BRM_fund_monasteries
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.03 }
+			add_money_with_tooltip_effect = yes
+			add_stability = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_rural_development = {
+		icon = generic_construction
+		custom_cost_trigger = { check_variable = { currentMoney > 0.099 } }
+		custom_cost_text = BRM_cost_BRM_rural_development
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.1 }
+			add_money_with_tooltip_effect = yes
+			add_stability = 0.02
+			add_manpower = 2000
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_fund_research = {
+		icon = generic_construction
+		custom_cost_trigger = { check_variable = { currentMoney > 0.199 } }
+		custom_cost_text = BRM_cost_BRM_fund_research
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			set_temp_variable = { money_to_gain = -0.2 }
+			add_money_with_tooltip_effect = yes
+			add_timed_idea = { idea = BRM_research_grants days = 180 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_sell_rice_reserves = {
+		icon = generic_construction
+		visible = { OR = { has_idea = BRM_rice_exports has_idea = BRM_rice_exports_2 has_idea = BRM_rice_exports_3 } }
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			set_temp_variable = { money_to_gain = 0.2 }
+			add_money_with_tooltip_effect = yes
+			add_political_power = -25
+		}
+		ai_will_do = { factor = 1 }
+	}
+}
+
+BRM_finance_category = {
+	BRM_offer_loan = {
+		icon = generic_economy
+		target_trigger = {
+			FROM = {
+			exists = yes
+			NOT = { tag = ROOT }
+			NOT = { has_war_with = ROOT }
+			NOT = { has_variable = BRM_owed_to_burma }
+			OR = {
+				is_neighbor_of = ROOT
+				has_opinion = { target = ROOT value > 24 }
+			}
+		}
+		}
+		visible = { NOT = { has_country_flag = BRM_loan_pending } }
+		available = { check_variable = { currentMoney > 0.5 } }
+		fire_only_once = no
+		days_re_enable = 30
+		complete_effect = {
+			FROM = { save_global_event_target_as = BRM_loan_partner }
+			country_event = { id = brmfin.1 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	BRM_request_loan = {
+		icon = generic_economy
+		target_trigger = {
+			FROM = {
+			exists = yes
+			NOT = { tag = ROOT }
+			NOT = { has_war_with = ROOT }
+			NOT = { has_variable = BRM_burma_owes }
+			check_variable = { currentMoney > 3 }
+			OR = {
+				tag = USA tag = SOV tag = PRC tag = JAP tag = ENG tag = WGR tag = FRA tag = SAU tag = RAJ
+				has_opinion = { target = ROOT value > 24 }
+			}
+		}
+		}
+		visible = { NOT = { has_country_flag = BRM_loan_pending } }
+		fire_only_once = no
+		days_re_enable = 30
+		complete_effect = {
+			FROM = { save_global_event_target_as = BRM_loan_partner }
+			country_event = { id = brmfin.10 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	BRM_loan_info_lent = {
+		icon = generic_economy
+		target_trigger = { FROM = { has_variable = BRM_owed_to_burma } }
+		available = { always = no }
+		complete_effect = { }
+		ai_will_do = { factor = 0 }
+	}
+	BRM_loan_info_borrowed = {
+		icon = generic_economy
+		target_trigger = { FROM = { has_variable = BRM_burma_owes } }
+		available = { always = no }
+		complete_effect = { }
+		ai_will_do = { factor = 0 }
+	}
+}

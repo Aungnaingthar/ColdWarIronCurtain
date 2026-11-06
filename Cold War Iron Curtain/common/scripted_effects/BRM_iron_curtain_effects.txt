@@ -1,0 +1,445 @@
+# Helper effects for the Burma focus tree (Iron Curtain submod).
+# Settings that depend on Iron Curtain are in BRM_SETTINGS_edit_me.txt.
+
+################################################################
+# GAME START
+################################################################
+BRM_game_start_setup = {
+	if = {
+		limit = { NOT = { has_country_flag = BRM_focus_mod_setup } }
+		set_country_flag = BRM_focus_mod_setup
+		# Iron Curtain wipes the focus tree of countries without a 1960s tree in January 1960.
+		# This flag makes Iron Curtain skip Burma, so the Burma tree stays.
+		set_country_flag = focus_tree_60_reset
+		# Iron Curtain's own Burma spirits have no pictures ("NO ICON?").
+		# Swap them for identical copies that have pictures; the focus tree removes them.
+		BRM_swap_iron_curtain_spirits = yes
+		add_ideas = BRM_golden_land_heritage
+		BRM_add_starting_leader_trait = yes
+		BRM_recruit_advisors = yes
+		if = {
+			limit = { date > 1979.6.1 }
+			BRM_setup_1980_start = yes
+		}
+	}
+}
+
+BRM_swap_iron_curtain_spirits = {
+	if = { limit = { has_idea = BRM_internal_conflict_1 } swap_ideas = { remove_idea = BRM_internal_conflict_1 add_idea = BRM_civil_strife_1 } }
+	if = { limit = { has_idea = BRM_internal_conflict_2 } swap_ideas = { remove_idea = BRM_internal_conflict_2 add_idea = BRM_civil_strife_2 } }
+	if = { limit = { has_idea = BRM_internal_conflict_3 } swap_ideas = { remove_idea = BRM_internal_conflict_3 add_idea = BRM_civil_strife_3 } }
+	if = { limit = { has_idea = BRM_Kuomintang_Tensions_3 } swap_ideas = { remove_idea = BRM_Kuomintang_Tensions_3 add_idea = BRM_kmt_tension_3 } }
+	if = { limit = { has_idea = BRM_Kuomintang_Tensions_2 } swap_ideas = { remove_idea = BRM_Kuomintang_Tensions_2 add_idea = BRM_kmt_tension_2 } }
+	if = { limit = { has_idea = BRM_Kuomintang_Tensions_1 } swap_ideas = { remove_idea = BRM_Kuomintang_Tensions_1 add_idea = BRM_kmt_tension_1 } }
+	if = { limit = { has_idea = MYR_Military_Dysfunction } swap_ideas = { remove_idea = MYR_Military_Dysfunction add_idea = BRM_military_dysfunction } }
+}
+
+# 1980 bookmark: the 1949-1979 history has already happened (Ne Win's coup, the BSPP,
+# the 1974 constitution, neutrality). Those focuses are marked complete without rewards.
+BRM_setup_1980_start = {
+	unlock_national_focus = BRM_union_of_burma
+	unlock_national_focus = BRM_crossroads
+	unlock_national_focus = BRM_ne_win_commander
+	unlock_national_focus = BRM_caretaker_government
+	unlock_national_focus = BRM_revolutionary_council
+	unlock_national_focus = BRM_burmese_way
+	unlock_national_focus = BRM_found_bspp
+	unlock_national_focus = BRM_system_of_correlation
+	unlock_national_focus = BRM_enterprise_nationalization
+	unlock_national_focus = BRM_peoples_councils
+	unlock_national_focus = BRM_military_enterprises
+	unlock_national_focus = BRM_socialist_republic
+	unlock_national_focus = BRM_divided_world
+	unlock_national_focus = BRM_strict_neutrality
+	unlock_national_focus = BRM_bandung_spirit
+	unlock_national_focus = BRM_u_thant
+	unlock_national_focus = BRM_rebuild_golden_land
+	unlock_national_focus = BRM_rangoon_port
+	unlock_national_focus = BRM_railways
+	unlock_national_focus = BRM_tatmadaw
+	unlock_national_focus = BRM_counterinsurgency
+	unlock_national_focus = BRM_light_infantry_divisions
+	unlock_national_focus = BRM_ka_pa_sa
+	unlock_national_focus = BRM_fritz_werner
+	unlock_national_focus = BRM_ubaf
+	unlock_national_focus = BRM_riverine_navy
+	add_ideas = { BRM_burmese_way_2 BRM_bandung_spirit_spirit BRM_jungle_fighters }
+	# By 1980 the Kuomintang had been driven out (1961) and the army was no longer dysfunctional
+	BRM_remove_kmt_tensions = yes
+	BRM_remove_military_dysfunction = yes
+	BRM_step_internal_conflict = yes
+}
+
+################################################################
+# BUILDINGS (vanilla style: adds a slot, then builds)
+################################################################
+BRM_build_civ = {
+	random_owned_controlled_state = {
+		limit = {
+			is_core_of = ROOT
+			free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+	}
+}
+BRM_build_mil = {
+	random_owned_controlled_state = {
+		limit = {
+			is_core_of = ROOT
+			free_building_slots = { building = arms_factory size > 0 include_locked = yes }
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+	}
+}
+BRM_build_dockyard = {
+	random_owned_controlled_state = {
+		limit = {
+			is_core_of = ROOT
+			is_coastal = yes
+			free_building_slots = { building = dockyard size > 0 include_locked = yes }
+		}
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = { type = dockyard level = 1 instant_build = yes }
+	}
+}
+BRM_build_infra = {
+	random_owned_controlled_state = {
+		limit = {
+			is_core_of = ROOT
+			free_building_slots = { building = infrastructure size > 0 }
+		}
+		add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+	}
+}
+BRM_capital_air_base = {
+	capital_scope = {
+		add_building_construction = { type = air_base level = 2 instant_build = yes }
+	}
+}
+
+################################################################
+# INTERNAL CONFLICT (Iron Curtain's spirit + our pictured copy)
+################################################################
+BRM_step_internal_conflict = {
+	if = { limit = { has_idea = BRM_internal_conflict_1 } swap_ideas = { remove_idea = BRM_internal_conflict_1 add_idea = BRM_civil_strife_2 } }
+	else_if = { limit = { has_idea = BRM_internal_conflict_2 } swap_ideas = { remove_idea = BRM_internal_conflict_2 add_idea = BRM_civil_strife_3 } }
+	else_if = { limit = { has_idea = BRM_internal_conflict_3 } remove_ideas = BRM_internal_conflict_3 }
+	else_if = { limit = { has_idea = BRM_civil_strife_1 } swap_ideas = { remove_idea = BRM_civil_strife_1 add_idea = BRM_civil_strife_2 } }
+	else_if = { limit = { has_idea = BRM_civil_strife_2 } swap_ideas = { remove_idea = BRM_civil_strife_2 add_idea = BRM_civil_strife_3 } }
+	else_if = { limit = { has_idea = BRM_civil_strife_3 } remove_ideas = BRM_civil_strife_3 }
+}
+BRM_remove_internal_conflict = {
+	remove_ideas = { BRM_internal_conflict_1 BRM_internal_conflict_2 BRM_internal_conflict_3 BRM_civil_strife_1 BRM_civil_strife_2 BRM_civil_strife_3 }
+}
+
+################################################################
+# KUOMINTANG TENSIONS
+################################################################
+BRM_step_kmt_tensions = {
+	if = { limit = { has_idea = BRM_Kuomintang_Tensions_3 } swap_ideas = { remove_idea = BRM_Kuomintang_Tensions_3 add_idea = BRM_kmt_tension_2 } }
+	else_if = { limit = { has_idea = BRM_Kuomintang_Tensions_2 } swap_ideas = { remove_idea = BRM_Kuomintang_Tensions_2 add_idea = BRM_kmt_tension_1 } }
+	else_if = { limit = { has_idea = BRM_Kuomintang_Tensions_1 } remove_ideas = BRM_Kuomintang_Tensions_1 }
+	else_if = { limit = { has_idea = BRM_kmt_tension_3 } swap_ideas = { remove_idea = BRM_kmt_tension_3 add_idea = BRM_kmt_tension_2 } }
+	else_if = { limit = { has_idea = BRM_kmt_tension_2 } swap_ideas = { remove_idea = BRM_kmt_tension_2 add_idea = BRM_kmt_tension_1 } }
+	else_if = { limit = { has_idea = BRM_kmt_tension_1 } remove_ideas = BRM_kmt_tension_1 }
+}
+BRM_remove_kmt_tensions = {
+	remove_ideas = { BRM_Kuomintang_Tensions_1 BRM_Kuomintang_Tensions_2 BRM_Kuomintang_Tensions_3 BRM_kmt_tension_1 BRM_kmt_tension_2 BRM_kmt_tension_3 }
+}
+
+################################################################
+# MILITARY DYSFUNCTION
+################################################################
+BRM_ease_military_dysfunction = {
+	if = { limit = { has_idea = MYR_Military_Dysfunction } swap_ideas = { remove_idea = MYR_Military_Dysfunction add_idea = BRM_military_dysfunction_2 } }
+	else_if = { limit = { has_idea = BRM_military_dysfunction } swap_ideas = { remove_idea = BRM_military_dysfunction add_idea = BRM_military_dysfunction_2 } }
+}
+BRM_remove_military_dysfunction = {
+	remove_ideas = { MYR_Military_Dysfunction BRM_military_dysfunction BRM_military_dysfunction_2 }
+}
+
+BRM_remove_all_internal_debuffs = {
+	BRM_remove_internal_conflict = yes
+	BRM_remove_kmt_tensions = yes
+	BRM_remove_military_dysfunction = yes
+}
+
+################################################################
+# ECONOMIC SYSTEM (uses Iron Curtain's own economy effects)
+# Feudalism: early (21) -> developed (22) -> late (23) -> modern economy
+################################################################
+BRM_economy_step_up = {
+	custom_effect_tooltip = BRM_economy_step_up_tt
+	hidden_effect = {
+		if = { limit = { check_variable = { economic_x_axis = 21 } } convert_to_feudal_2 = yes }
+		else_if = { limit = { check_variable = { economic_x_axis = 22 } } convert_to_feudal_3 = yes }
+		else_if = { limit = { check_variable = { economic_x_axis = 23 } } convert_to_normal_axis = yes }
+	}
+}
+BRM_economy_leave_feudalism = {
+	custom_effect_tooltip = BRM_economy_leave_feudalism_tt
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { economic_x_axis > 20 } check_variable = { economic_x_axis < 24 } }
+			convert_to_normal_axis = yes
+		}
+	}
+}
+# Orientation of a modern economy (only works once Burma has left feudalism)
+BRM_econ_planned = {
+	custom_effect_tooltip = BRM_econ_planned_tt
+	hidden_effect = { if = { limit = { check_variable = { economic_x_axis < 19 } } step_towards_planned = yes } }
+}
+BRM_econ_market = {
+	custom_effect_tooltip = BRM_econ_market_tt
+	hidden_effect = { if = { limit = { check_variable = { economic_x_axis < 19 } } step_towards_market = yes } }
+}
+BRM_econ_public = {
+	custom_effect_tooltip = BRM_econ_public_tt
+	hidden_effect = { if = { limit = { check_variable = { economic_x_axis < 19 } } step_towards_public = yes } }
+}
+BRM_econ_private = {
+	custom_effect_tooltip = BRM_econ_private_tt
+	hidden_effect = { if = { limit = { check_variable = { economic_x_axis < 19 } } step_towards_private = yes } }
+}
+
+################################################################
+# LATER ERAS
+################################################################
+BRM_weaken_spring_revolution = {
+	if = {
+		limit = { has_idea = BRM_spring_revolution }
+		swap_ideas = { remove_idea = BRM_spring_revolution add_idea = BRM_spring_revolution_2 }
+	}
+}
+
+################################################################
+# BLOCS
+################################################################
+BRM_join_usa_bloc = {
+	if = {
+		limit = { country_exists = USA USA = { is_faction_leader = yes } }
+		USA = { add_to_faction = ROOT }
+	}
+	else_if = {
+		limit = { country_exists = USA }
+		USA = { give_guarantee = ROOT }
+	}
+}
+BRM_join_soviet_bloc = {
+	if = {
+		limit = { country_exists = SOV SOV = { is_faction_leader = yes } }
+		SOV = { add_to_faction = ROOT }
+	}
+	else_if = {
+		limit = { country_exists = SOV }
+		SOV = { give_guarantee = ROOT }
+	}
+}
+BRM_join_china_bloc = {
+	BRM_set_china_target = yes
+	if = {
+		limit = { has_event_target = BRM_china event_target:BRM_china = { is_faction_leader = yes } }
+		event_target:BRM_china = { add_to_faction = ROOT }
+	}
+	else_if = {
+		limit = { has_event_target = BRM_china }
+		event_target:BRM_china = { give_guarantee = ROOT }
+		add_opinion_modifier = { target = event_target:BRM_china modifier = BRM_pauk_phaw_opinion }
+	}
+}
+
+################################################################
+# LEADER TRAITS AND ADVISORS
+################################################################
+# Iron Curtain's starting leaders are created without traits; give the sitting leader one.
+BRM_add_starting_leader_trait = {
+	if = {
+		limit = { date < 1958.1.1 has_government = socialist }
+		add_country_leader_trait = BRM_buddhist_statesman
+	}
+	else_if = {
+		limit = { has_government = neutrality }
+		add_country_leader_trait = BRM_number_one
+	}
+}
+BRM_recruit_advisors = {
+	# advisors are now appointed in the Cabinet / Military Staff slots (ideas), nothing to recruit
+	set_country_flag = BRM_advisors_are_ideas
+}
+
+################################################################
+# MORE BUILDINGS (Iron Curtain building types)
+################################################################
+BRM_build_office = {
+	random_owned_controlled_state = {
+		limit = { is_core_of = ROOT free_building_slots = { building = office_park size > 0 include_locked = yes } }
+		prioritize = { 288 }
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = { type = office_park level = 1 instant_build = yes }
+	}
+}
+BRM_build_agri = {
+	random_owned_controlled_state = {
+		limit = { is_core_of = ROOT free_building_slots = { building = agri_industrial_complex size > 0 include_locked = yes } }
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = { type = agri_industrial_complex level = 1 instant_build = yes }
+	}
+}
+BRM_build_power = {
+	random_owned_controlled_state = {
+		limit = { is_core_of = ROOT free_building_slots = { building = fossil_fuel_powerplant size > 0 include_locked = yes } }
+		add_building_construction = { type = fossil_fuel_powerplant level = 1 instant_build = yes }
+	}
+}
+BRM_build_water = {
+	random_owned_controlled_state = {
+		limit = { is_core_of = ROOT free_building_slots = { building = water_infrastructure size > 0 include_locked = yes } }
+		add_building_construction = { type = water_infrastructure level = 1 instant_build = yes }
+	}
+}
+BRM_build_state_infra = {
+	random_owned_controlled_state = {
+		limit = { is_core_of = ROOT free_building_slots = { building = state_infrastructure size > 0 include_locked = yes } }
+		add_building_construction = { type = state_infrastructure level = 1 instant_build = yes }
+	}
+}
+
+################################################################
+# LOANS BETWEEN COUNTRIES (money is Iron Curtain's currentMoney, in billions)
+# 10-year loans, simple interest, repaid monthly (120 payments)
+################################################################
+BRM_send_loan_offer = {
+	# Burma lends at 5% a year: total = amount x 1.5
+	set_variable = { BRM_pending_rate = 5 }
+	set_variable = { BRM_pending_total = BRM_pending_amount }
+	multiply_variable = { BRM_pending_total = 1.5 }
+	set_variable = { BRM_pending_payment = BRM_pending_total }
+	divide_variable = { BRM_pending_payment = 120 }
+	# the money leaves our treasury now (held until they answer; refunded if they refuse)
+	subtract_from_variable = { currentMoney = BRM_pending_amount }
+	set_country_flag = { flag = BRM_loan_pending days = 30 value = 1 }
+	global_event_target:BRM_loan_partner = { country_event = { id = brmfin.2 days = 1 } }
+}
+BRM_send_loan_request = {
+	# total = amount x (1 + rate/10)
+	set_variable = { BRM_pending_total = BRM_pending_rate }
+	divide_variable = { BRM_pending_total = 10 }
+	add_to_variable = { BRM_pending_total = 1 }
+	multiply_variable = { BRM_pending_total = BRM_pending_amount }
+	set_variable = { BRM_pending_payment = BRM_pending_total }
+	divide_variable = { BRM_pending_payment = 120 }
+	set_country_flag = { flag = BRM_loan_pending days = 30 value = 1 }
+	global_event_target:BRM_loan_partner = { country_event = { id = brmfin.11 days = 1 } }
+}
+
+BRM_process_loans = {
+	set_variable = { BRM_total_receivable = 0 }
+	set_variable = { BRM_total_payable = 0 }
+	set_variable = { BRM_loan_income = 0 }
+	set_variable = { BRM_loan_payments = 0 }
+	# --- money other countries owe Burma ---
+	every_country = {
+		limit = { has_variable = BRM_owed_to_burma }
+		if = {
+			limit = { check_variable = { currentMoney > BRM_pay_to_burma } }
+			subtract_from_variable = { currentMoney = BRM_pay_to_burma }
+			subtract_from_variable = { BRM_owed_to_burma = BRM_pay_to_burma }
+			ROOT = {
+				add_to_variable = { currentMoney = PREV.BRM_pay_to_burma }
+				add_to_variable = { BRM_loan_income = PREV.BRM_pay_to_burma }
+			}
+			set_variable = { BRM_missed_to_burma = 0 }
+		}
+		else = {
+			add_to_variable = { BRM_missed_to_burma = 1 }
+		}
+		if = {
+			limit = { check_variable = { BRM_missed_to_burma > 5 } }
+			ROOT = { country_event = { id = brmfin.5 } }
+			BRM_clear_loan_to_burma = yes
+		}
+		else_if = {
+			limit = { check_variable = { BRM_owed_to_burma < 0.0005 } }
+			ROOT = { country_event = { id = brmfin.6 } }
+			BRM_clear_loan_to_burma = yes
+		}
+		else = {
+			ROOT = { add_to_variable = { BRM_total_receivable = PREV.BRM_owed_to_burma } }
+		}
+	}
+	# --- money Burma owes other countries ---
+	every_country = {
+		limit = { has_variable = BRM_burma_owes }
+		if = {
+			limit = { ROOT = { check_variable = { currentMoney > PREV.BRM_burma_pay } } }
+			ROOT = {
+				subtract_from_variable = { currentMoney = PREV.BRM_burma_pay }
+				add_to_variable = { BRM_loan_payments = PREV.BRM_burma_pay }
+			}
+			add_to_variable = { currentMoney = BRM_burma_pay }
+			subtract_from_variable = { BRM_burma_owes = BRM_burma_pay }
+			set_variable = { BRM_burma_missed = 0 }
+		}
+		else = {
+			add_to_variable = { BRM_burma_missed = 1 }
+		}
+		if = {
+			limit = { check_variable = { BRM_burma_missed > 5 } }
+			ROOT = { country_event = { id = brmfin.14 } }
+			BRM_clear_loan_from_burma = yes
+		}
+		else_if = {
+			limit = { check_variable = { BRM_burma_owes < 0.0005 } }
+			ROOT = { country_event = { id = brmfin.15 } }
+			BRM_clear_loan_from_burma = yes
+		}
+		else = {
+			ROOT = { add_to_variable = { BRM_total_payable = PREV.BRM_burma_owes } }
+		}
+	}
+}
+BRM_clear_loan_to_burma = {
+	clear_variable = BRM_owed_to_burma
+	clear_variable = BRM_pay_to_burma
+	clear_variable = BRM_missed_to_burma
+	remove_opinion_modifier = { target = BRM modifier = BRM_loan_partner }
+}
+BRM_clear_loan_from_burma = {
+	clear_variable = BRM_burma_owes
+	clear_variable = BRM_burma_pay
+	clear_variable = BRM_burma_missed
+}
+
+################################################################
+# TRADE AGREEMENTS AND SANCTIONS (monthly)
+################################################################
+BRM_process_trade = {
+	set_variable = { BRM_trade_income = 0 }
+	every_country = {
+		limit = { has_variable = BRM_trade_months }
+		subtract_from_variable = { BRM_trade_months = 1 }
+		add_to_variable = { currentMoney = 0.02 }
+		ROOT = {
+			add_to_variable = { currentMoney = 0.02 }
+			add_to_variable = { BRM_trade_income = 0.02 }
+		}
+		if = {
+			limit = { OR = { check_variable = { BRM_trade_months < 1 } has_war_with = ROOT } }
+			clear_variable = BRM_trade_months
+			remove_opinion_modifier = { target = ROOT modifier = BRM_trade_agreement }
+			ROOT = { remove_opinion_modifier = { target = PREV modifier = BRM_trade_agreement } }
+		}
+	}
+	if = {
+		limit = { has_idea = BRM_western_sanctions }
+		subtract_from_variable = { currentMoney = 0.05 }
+		# Western countries end their trade deals with a sanctioned Burma
+		every_country = {
+			limit = { has_variable = BRM_trade_months OR = { tag = USA tag = ENG tag = FRA tag = WGR tag = CAN tag = AST } }
+			clear_variable = BRM_trade_months
+		}
+	}
+}

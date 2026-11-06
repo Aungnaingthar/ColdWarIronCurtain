@@ -1,0 +1,111 @@
+#####################################################################
+#  BURMA FOCUS TREE - SETTINGS
+#  Already set up for Cold War: Iron Curtain (checked against its files):
+#    Burma tag = BRM, mainland China = PRC, ruling party in 1949 = socialist
+#    Ideology groups used: socialist, neutrality, communism, liberal, Social_Democratic
+#  You only need to edit this file if a future Iron Curtain update renames things.
+#####################################################################
+
+
+# 1) Government changes for each political path.
+#    The U Nu path keeps the starting socialist (AFPFL) government, so it has no entry here.
+
+# Ne Win's Revolutionary Council (1962 coup) - military_junta is under neutrality
+BRM_go_military_rule = {
+	recruit_character = BRM_ne_win_rc
+	add_popularity = { ideology = neutrality popularity = 0.25 }
+	set_politics = { ruling_party = neutrality elections_allowed = no }
+	promote_character = BRM_ne_win_rc
+}
+
+# Aung Gyi takes over the Revolutionary Council (alternative)
+BRM_go_reformist_junta = {
+	recruit_character = BRM_brigadier_aung_gyi
+	set_politics = { ruling_party = neutrality elections_allowed = no }
+	promote_character = BRM_brigadier_aung_gyi
+	retire_character = BRM_ne_win_rc
+}
+
+# Ba Swe and the Stable AFPFL (alternative democratic socialism)
+BRM_go_stable_afpfl = {
+	recruit_character = BRM_ba_swe
+	set_politics = { ruling_party = socialist elections_allowed = yes }
+	promote_character = BRM_ba_swe
+}
+
+# Communist victory under Thakin Than Tun (alternative)
+BRM_go_communist = {
+	recruit_character = BRM_thakin_than_tun
+	add_popularity = { ideology = communism popularity = 0.25 }
+	set_politics = { ruling_party = communism elections_allowed = no }
+	promote_character = BRM_thakin_than_tun
+}
+
+# Raises communist support (used before the revolution)
+BRM_boost_communists = {
+	add_popularity = { ideology = communism popularity = 0.15 }
+}
+
+
+# 2) LATER ERAS (1975 - 2030s)
+
+# SLORC, Senior General Saw Maung (1988)
+BRM_go_slorc = {
+	recruit_character = BRM_saw_maung
+	set_politics = { ruling_party = neutrality elections_allowed = no }
+	promote_character = BRM_saw_maung
+}
+# SPDC, Senior General Than Shwe (1992/1997)
+BRM_go_spdc = {
+	recruit_character = BRM_than_shwe
+	set_politics = { ruling_party = neutrality elections_allowed = no }
+	promote_character = BRM_than_shwe
+}
+# President Thein Sein (2011) - dominant_party_democracy (USDP) is under neutrality
+BRM_go_thein_sein = {
+	recruit_character = BRM_thein_sein
+	set_politics = { ruling_party = neutrality elections_allowed = yes }
+	promote_character = BRM_thein_sein
+}
+# NLD government (2016)
+BRM_go_nld = {
+	recruit_character = BRM_aung_san_suu_kyi
+	add_popularity = { ideology = liberal popularity = 0.35 }
+	set_politics = { ruling_party = liberal elections_allowed = yes }
+	promote_character = BRM_aung_san_suu_kyi
+}
+# State Administration Council, Min Aung Hlaing (2021)
+BRM_go_sac = {
+	recruit_character = BRM_min_aung_hlaing
+	add_popularity = { ideology = neutrality popularity = 0.15 }
+	set_politics = { ruling_party = neutrality elections_allowed = no }
+	promote_character = BRM_min_aung_hlaing
+}
+# 8888 succeeds: NLD transitional government (alternative)
+BRM_go_8888_democracy = {
+	recruit_character = BRM_aung_san_suu_kyi
+	add_popularity = { ideology = liberal popularity = 0.35 }
+	set_politics = { ruling_party = liberal elections_allowed = yes }
+	promote_character = BRM_aung_san_suu_kyi
+}
+# National Unity Government takes over (alternative)
+BRM_go_nug = {
+	recruit_character = BRM_duwa_lashi_la
+	add_popularity = { ideology = liberal popularity = 0.30 }
+	set_politics = { ruling_party = liberal elections_allowed = yes }
+	promote_character = BRM_duwa_lashi_la
+}
+# Communist Party allows free elections (alternative)
+BRM_go_com_democracy = {
+	add_popularity = { ideology = Social_Democratic popularity = 0.30 }
+	set_politics = { ruling_party = Social_Democratic elections_allowed = yes }
+}
+
+
+# 3) Mainland China's country tag in Iron Curtain is PRC.
+BRM_set_china_target = {
+	if = {
+		limit = { country_exists = PRC }
+		PRC = { save_event_target_as = BRM_china }
+	}
+}

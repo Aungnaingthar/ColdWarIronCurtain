@@ -1,0 +1,215 @@
+add_namespace = brmfin
+
+##########################################################################
+# BURMA LENDS MONEY
+##########################################################################
+# Burma chooses how much to lend
+country_event = {
+	id = brmfin.1
+	title = brmfin.1.t
+	desc = brmfin.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmfin.1.a
+		trigger = { check_variable = { currentMoney > 0.5 } }
+		set_variable = { BRM_pending_amount = 0.5 }
+		BRM_send_loan_offer = yes
+	}
+	option = {
+		name = brmfin.1.b
+		trigger = { check_variable = { currentMoney > 1 } }
+		set_variable = { BRM_pending_amount = 1 }
+		BRM_send_loan_offer = yes
+	}
+	option = {
+		name = brmfin.1.c
+		trigger = { check_variable = { currentMoney > 2 } }
+		set_variable = { BRM_pending_amount = 2 }
+		BRM_send_loan_offer = yes
+	}
+	option = {
+		name = brmfin.1.e
+	}
+}
+
+# The other country decides
+country_event = {
+	id = brmfin.2
+	title = brmfin.2.t
+	desc = brmfin.2.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmfin.2.a
+		ai_chance = {
+			base = 50
+			modifier = { factor = 4 check_variable = { currentMoney < 5 } }
+			modifier = { factor = 0.2 has_opinion = { target = FROM value < 0 } }
+		}
+		add_to_variable = { currentMoney = FROM.BRM_pending_amount }
+		set_variable = { BRM_owed_to_burma = FROM.BRM_pending_total }
+		set_variable = { BRM_rate_to_burma = 5 }
+		set_variable = { BRM_lent_by_burma = FROM.BRM_pending_amount }
+		set_variable = { BRM_pay_to_burma = FROM.BRM_pending_payment }
+		set_variable = { BRM_missed_to_burma = 0 }
+		add_opinion_modifier = { target = FROM modifier = BRM_loan_partner }
+		FROM = { country_event = { id = brmfin.3 } }
+	}
+	option = {
+		name = brmfin.2.b
+		ai_chance = {
+			base = 50
+			modifier = { factor = 3 check_variable = { currentMoney > 20 } }
+		}
+		FROM = { country_event = { id = brmfin.4 } }
+	}
+}
+
+country_event = {
+	id = brmfin.3
+	title = brmfin.3.t
+	desc = brmfin.3.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	immediate = { clr_country_flag = BRM_loan_pending }
+	option = { name = brmfin.3.a }
+}
+country_event = {
+	id = brmfin.4
+	title = brmfin.4.t
+	desc = brmfin.4.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	immediate = {
+		clr_country_flag = BRM_loan_pending
+		add_to_variable = { currentMoney = BRM_pending_amount }
+	}
+	option = { name = brmfin.4.a }
+}
+# A borrower defaulted (FROM = the borrower)
+country_event = {
+	id = brmfin.5
+	title = brmfin.5.t
+	desc = brmfin.5.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	option = {
+		name = brmfin.5.a
+		FROM = { add_opinion_modifier = { target = ROOT modifier = BRM_loan_default } }
+		add_opinion_modifier = { target = FROM modifier = BRM_loan_default }
+	}
+}
+# A borrower finished repaying (FROM = the borrower)
+country_event = {
+	id = brmfin.6
+	title = brmfin.6.t
+	desc = brmfin.6.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = { name = brmfin.6.a }
+}
+
+##########################################################################
+# BURMA BORROWS MONEY
+##########################################################################
+country_event = {
+	id = brmfin.10
+	title = brmfin.10.t
+	desc = brmfin.10.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			# friendly governments lend cheaply (3%), others at 6%
+			if = {
+				limit = {
+					OR = {
+						global_event_target:BRM_loan_partner = { has_opinion = { target = ROOT value > 49 } }
+						AND = { has_completed_focus = BRM_pauk_phaw global_event_target:BRM_loan_partner = { tag = PRC } }
+						AND = { has_completed_focus = BRM_western_partnership global_event_target:BRM_loan_partner = { OR = { tag = USA tag = ENG tag = JAP } } }
+						AND = { has_completed_focus = BRM_moscow_friendship global_event_target:BRM_loan_partner = { tag = SOV } }
+					}
+				}
+				set_variable = { BRM_pending_rate = 3 }
+			}
+			else = { set_variable = { BRM_pending_rate = 6 } }
+		}
+	}
+	option = { name = brmfin.10.a set_variable = { BRM_pending_amount = 0.5 } BRM_send_loan_request = yes }
+	option = { name = brmfin.10.b set_variable = { BRM_pending_amount = 1 } BRM_send_loan_request = yes }
+	option = { name = brmfin.10.c set_variable = { BRM_pending_amount = 2 } BRM_send_loan_request = yes }
+	option = { name = brmfin.10.e set_variable = { BRM_pending_amount = 5 } BRM_send_loan_request = yes }
+}
+
+country_event = {
+	id = brmfin.11
+	title = brmfin.11.t
+	desc = brmfin.11.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmfin.11.a
+		trigger = { check_variable = { currentMoney > FROM.BRM_pending_amount } }
+		ai_chance = {
+			base = 50
+			modifier = { factor = 3 has_opinion = { target = FROM value > 49 } }
+			modifier = { factor = 0.3 has_opinion = { target = FROM value < 0 } }
+			modifier = { factor = 0.1 check_variable = { currentMoney < 5 } }
+		}
+		subtract_from_variable = { currentMoney = FROM.BRM_pending_amount }
+		FROM = { add_to_variable = { currentMoney = BRM_pending_amount } }
+		set_variable = { BRM_burma_owes = FROM.BRM_pending_total }
+		set_variable = { BRM_burma_pay = FROM.BRM_pending_payment }
+		set_variable = { BRM_burma_missed = 0 }
+		set_variable = { BRM_burma_rate = FROM.BRM_pending_rate }
+		set_variable = { BRM_burma_borrowed = FROM.BRM_pending_amount }
+		FROM = { country_event = { id = brmfin.12 } }
+	}
+	option = {
+		name = brmfin.11.b
+		ai_chance = { base = 50 }
+		FROM = { country_event = { id = brmfin.13 } }
+	}
+}
+
+country_event = {
+	id = brmfin.12
+	title = brmfin.12.t
+	desc = brmfin.12.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	immediate = { clr_country_flag = BRM_loan_pending }
+	option = { name = brmfin.12.a }
+}
+country_event = {
+	id = brmfin.13
+	title = brmfin.13.t
+	desc = brmfin.13.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	immediate = { clr_country_flag = BRM_loan_pending }
+	option = { name = brmfin.13.a }
+}
+# Burma defaulted (FROM = the lender)
+country_event = {
+	id = brmfin.14
+	title = brmfin.14.t
+	desc = brmfin.14.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	option = {
+		name = brmfin.14.a
+		add_stability = -0.05
+		FROM = { add_opinion_modifier = { target = ROOT modifier = BRM_loan_default } }
+	}
+}
+# Burma finished repaying (FROM = the lender)
+country_event = {
+	id = brmfin.15
+	title = brmfin.15.t
+	desc = brmfin.15.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = { name = brmfin.15.a }
+}

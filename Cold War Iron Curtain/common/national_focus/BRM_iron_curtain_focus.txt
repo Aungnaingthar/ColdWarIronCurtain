@@ -1,0 +1,3370 @@
+# Burma (BRM) national focus tree - submod for Iron Curtain (1949 start)
+# Generated file. Effects that depend on Iron Curtain's ideology names live in
+# common/scripted_effects/BRM_SETTINGS_edit_me.txt
+
+focus_tree = {
+	id = BRM_iron_curtain_focus
+
+	country = {
+		factor = 0
+		modifier = { add = 100 tag = BRM }
+	}
+
+	default = no
+	reset_on_civilwar = no
+	continuous_focus_position = { x = 50 y = 3400 }
+
+	shortcut = {
+		name = BRM_shortcut_army
+		target = BRM_tatmadaw
+		scroll_wheel_factor = 0.75
+	}
+	shortcut = {
+		name = BRM_shortcut_air
+		target = BRM_ubaf
+		scroll_wheel_factor = 0.75
+	}
+	shortcut = {
+		name = BRM_shortcut_navy
+		target = BRM_riverine_navy
+		scroll_wheel_factor = 0.75
+	}
+	shortcut = {
+		name = BRM_shortcut_unity
+		target = BRM_end_civil_war
+		scroll_wheel_factor = 0.75
+	}
+	shortcut = {
+		name = BRM_shortcut_politics
+		target = BRM_union_of_burma
+		scroll_wheel_factor = 0.75
+	}
+	shortcut = {
+		name = BRM_shortcut_foreign
+		target = BRM_divided_world
+		scroll_wheel_factor = 0.75
+	}
+	shortcut = {
+		name = BRM_shortcut_economy
+		target = BRM_rebuild_golden_land
+		scroll_wheel_factor = 0.75
+	}
+	shortcut = {
+		name = BRM_shortcut_later
+		target = BRM_new_generation
+		scroll_wheel_factor = 0.75
+	}
+
+	focus = {
+		id = BRM_tatmadaw
+		icon = GFX_Burmese_army
+		x = 6
+		y = 0
+		cost = 10
+		completion_reward = {
+			army_experience = 10
+			add_war_support = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_counterinsurgency
+		icon = GFX_Counter_Insurgency
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_tatmadaw }
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = { name = BRM_counterinsurgency bonus = 0.5 uses = 1 category = land_doctrine }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_light_infantry_divisions
+		icon = GFX_burmese_ground_force
+		x = 1
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_counterinsurgency }
+		completion_reward = {
+			add_ideas = BRM_jungle_fighters
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_long_range_patrols
+		icon = GFX_Jungle_wolf
+		x = 0
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_light_infantry_divisions }
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = { name = BRM_long_range_patrols bonus = 0.5 uses = 1 category = land_doctrine }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_mountain_warfare
+		icon = GFX_mountain_troops
+		x = 2
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_light_infantry_divisions }
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = { name = BRM_mountain_warfare bonus = 0.5 uses = 1 category = land_doctrine }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_peoples_war_doctrine
+		icon = GFX_Guerilla_propaganda
+		x = 0
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_long_range_patrols }
+		mutually_exclusive = { focus = BRM_conventional_defence }
+		completion_reward = {
+			add_ideas = BRM_peoples_war_spirit
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_conventional_defence
+		icon = GFX_generic_focus_military_massed_infantry
+		x = 2
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_mountain_warfare }
+		mutually_exclusive = { focus = BRM_peoples_war_doctrine }
+		completion_reward = {
+			add_ideas = BRM_conventional_spirit
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_people_militias
+		icon = GFX_persistence_of_the_militia
+		x = 0
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_peoples_war_doctrine }
+		completion_reward = {
+			add_manpower = 5000
+			add_timed_idea = { idea = BRM_militias days = 730 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_burma_rifles
+		icon = GFX_Tiger_Divisions
+		x = 2
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_conventional_defence }
+		completion_reward = {
+			army_experience = 15
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_riverine_operations
+		icon = GFX_Naval_Infantry
+		x = 1
+		y = 6
+		cost = 10
+		prerequisite = { focus = BRM_people_militias focus = BRM_burma_rifles }
+		completion_reward = {
+			army_experience = 10
+			navy_experience = 10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_jungle_masters
+		icon = GFX_FocusJungleWarfare
+		x = 1
+		y = 7
+		cost = 12
+		prerequisite = { focus = BRM_riverine_operations }
+		completion_reward = {
+			swap_ideas = { remove_idea = BRM_jungle_fighters add_idea = BRM_jungle_fighters_2 }
+			army_experience = 15
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_ka_pa_sa
+		icon = GFX_Rebuild_Arms_Industry
+		x = 4
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_tatmadaw }
+		completion_reward = {
+			BRM_build_mil = yes
+			add_tech_bonus = { name = BRM_ka_pa_sa bonus = 0.5 uses = 1 category = infantry_weapons }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_fritz_werner
+		icon = GFX_goal_WGR_deal
+		x = 4
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_ka_pa_sa }
+		completion_reward = {
+			BRM_build_mil = yes
+			country_event = { id = brm.50 days = 3 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_ba63_rifle
+		icon = GFX_generic_focus_military_rifle_in_hand
+		x = 4
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_fritz_werner }
+		available = { date > 1960.1.1 }
+		completion_reward = {
+			add_tech_bonus = { name = BRM_ba63_rifle bonus = 0.5 uses = 2 category = infantry_weapons }
+			army_experience = 5
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_ordnance_factories
+		icon = GFX_Construct_Munitions_Plants
+		x = 4
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_ba63_rifle }
+		completion_reward = {
+			BRM_build_mil = yes
+			BRM_build_mil = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_self_reliant_arms
+		icon = GFX_Malaysian_Arms_Industry
+		x = 4
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_ordnance_factories }
+		completion_reward = {
+			BRM_build_mil = yes
+			add_tech_bonus = { name = BRM_self_reliant_arms bonus = 0.5 uses = 1 category = artillery }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_ma_rifles
+		icon = GFX_RAJ_rifles_guns_cannons
+		x = 4
+		y = 6
+		cost = 10
+		prerequisite = { focus = BRM_self_reliant_arms }
+		available = { date > 1990.1.1 }
+		completion_reward = {
+			BRM_build_mil = yes
+			add_tech_bonus = { name = BRM_ma_rifles bonus = 0.5 uses = 2 category = infantry_weapons }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_artillery_corps
+		icon = GFX_generic_focus_military_rocket_artillery
+		x = 6
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_tatmadaw }
+		completion_reward = {
+			add_tech_bonus = { name = BRM_artillery_corps bonus = 0.5 uses = 2 category = artillery }
+			army_experience = 5
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_armoured_corps
+		icon = GFX_generic_army_tanks2
+		x = 6
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_artillery_corps }
+		completion_reward = {
+			add_tech_bonus = { name = BRM_armoured_corps bonus = 0.5 uses = 2 category = armor }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_motor_transport
+		icon = GFX_generic_mobile_trucks
+		x = 6
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_armoured_corps }
+		completion_reward = {
+			add_tech_bonus = { name = BRM_motor_transport bonus = 0.5 uses = 1 category = motorized_equipment }
+			BRM_build_infra = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_mechanised_infantry
+		icon = GFX_TanksAcrosstheBorder
+		x = 6
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_motor_transport }
+		available = { date > 1985.1.1 }
+		completion_reward = {
+			add_tech_bonus = { name = BRM_mechanised_infantry bonus = 0.5 uses = 1 category = armor }
+			army_experience = 10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_defence_services_academy
+		icon = GFX_Form_Bundeswehr_Command_Staff_Academy
+		x = 8
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_tatmadaw }
+		completion_reward = {
+			army_experience = 15
+			BRM_ease_military_dysfunction = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_officer_training
+		icon = GFX_rise_of_the_free_officers
+		x = 8
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_defence_services_academy }
+		completion_reward = {
+			army_experience = 10
+			add_manpower = 2000
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_national_service
+		icon = GFX_Pass_the_Conscription_Act
+		x = 7
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_officer_training }
+		mutually_exclusive = { focus = BRM_volunteer_army }
+		completion_reward = {
+			add_ideas = BRM_national_service_spirit
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_volunteer_army
+		icon = GFX_usa_50_recruit_volunteers
+		x = 9
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_officer_training }
+		mutually_exclusive = { focus = BRM_national_service }
+		completion_reward = {
+			add_ideas = BRM_volunteer_army_spirit
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_regional_commands
+		icon = GFX_Central_command_cks
+		x = 8
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_national_service focus = BRM_volunteer_army }
+		completion_reward = {
+			army_experience = 15
+			add_stability = 0.02
+			BRM_remove_military_dysfunction = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_military_intelligence
+		icon = GFX_generic_focus_other_intelligence_report
+		x = 8
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_regional_commands }
+		completion_reward = {
+			add_stability = 0.03
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_supply_corps
+		icon = GFX_Improve_supply_distribution_methods
+		x = 10
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_tatmadaw }
+		completion_reward = {
+			army_experience = 5
+			BRM_build_infra = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_army_medical_corps
+		icon = GFX_Expand_Medical_Access
+		x = 10
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_supply_corps }
+		completion_reward = {
+			add_manpower = 3000
+			add_stability = 0.01
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_signal_corps
+		icon = GFX_generic_focus_military_field_radio
+		x = 10
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_army_medical_corps }
+		completion_reward = {
+			add_tech_bonus = { name = BRM_signal_corps bonus = 0.5 uses = 1 category = electronics }
+			army_experience = 5
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_armed_forces_day
+		icon = GFX_FocusBorderTroops
+		x = 10
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_signal_corps }
+		completion_reward = {
+			add_war_support = 0.05
+			add_stability = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_modern_tatmadaw
+		icon = GFX_Burma_MLA
+		x = 5
+		y = 8
+		cost = 12
+		prerequisite = { focus = BRM_jungle_masters }
+		prerequisite = { focus = BRM_self_reliant_arms }
+		prerequisite = { focus = BRM_regional_commands }
+		completion_reward = {
+			army_experience = 25
+			add_ideas = BRM_modern_tatmadaw_spirit
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_tatmadaw_21st_century
+		icon = GFX_generic_focus_military_tank_and_jet
+		x = 5
+		y = 9
+		cost = 10
+		prerequisite = { focus = BRM_modern_tatmadaw }
+		prerequisite = { focus = BRM_mechanised_infantry }
+		available = { date > 2000.1.1 }
+		completion_reward = {
+			army_experience = 25
+			add_tech_bonus = { name = BRM_tatmadaw_21st_century bonus = 0.5 uses = 2 category = land_doctrine }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_ubaf
+		icon = GFX_Burmese_airforce
+		x = 16
+		y = 0
+		cost = 10
+		completion_reward = {
+			air_experience = 25
+			BRM_capital_air_base = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_spitfire_squadrons
+		icon = GFX_Scouting_aircraft
+		x = 13
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_ubaf }
+		completion_reward = {
+			air_experience = 15
+			add_tech_bonus = { name = BRM_spitfire_squadrons bonus = 0.5 uses = 1 category = air_equipment }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_sea_fury
+		icon = GFX_Extsblish_thunderjet_squadrons
+		x = 13
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_spitfire_squadrons }
+		available = { date > 1955.1.1 }
+		completion_reward = {
+			air_experience = 15
+			add_tech_bonus = { name = BRM_sea_fury bonus = 0.5 uses = 1 category = air_equipment }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_jet_age
+		icon = GFX_Jet_Research
+		x = 13
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_sea_fury }
+		available = { date > 1957.1.1 }
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = { name = BRM_jet_age bonus = 0.5 uses = 2 category = air_equipment }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_f7_fighters
+		icon = GFX_Soviet_MiG_21
+		x = 13
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_jet_age }
+		available = { date > 1990.1.1 }
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = { name = BRM_f7_fighters bonus = 0.5 uses = 2 category = air_equipment }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_mig29
+		icon = GFX_Generic_Jet
+		x = 13
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_f7_fighters }
+		available = { date > 2000.1.1 }
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = { name = BRM_mig29 bonus = 0.5 uses = 2 category = air_equipment }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_su30
+		icon = GFX_SOV_focus_on_jet_interceptors
+		x = 13
+		y = 6
+		cost = 10
+		prerequisite = { focus = BRM_mig29 }
+		available = { date > 2020.1.1 }
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = { name = BRM_su30 bonus = 0.5 uses = 2 category = air_equipment }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_air_transport
+		icon = GFX_generic_focus_military_transport_aircraft
+		x = 15
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_ubaf }
+		completion_reward = {
+			air_experience = 10
+			army_experience = 5
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_helicopters
+		icon = GFX_generic_focus_military_helicopter_assault
+		x = 15
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_air_transport }
+		available = { date > 1960.1.1 }
+		completion_reward = {
+			air_experience = 15
+			army_experience = 10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_coin_air
+		icon = GFX_Deploy_the_Airforce
+		x = 15
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_helicopters }
+		available = { date > 1975.1.1 }
+		completion_reward = {
+			air_experience = 15
+			add_tech_bonus = { name = BRM_coin_air bonus = 0.5 uses = 1 category = cat_air_doctrine }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_ground_attack
+		icon = GFX_generic_focus_military_helicopter_swarm
+		x = 15
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_coin_air }
+		available = { date > 1990.1.1 }
+		completion_reward = {
+			air_experience = 20
+			add_tech_bonus = { name = BRM_ground_attack bonus = 0.5 uses = 1 category = air_equipment }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_air_bases
+		icon = GFX_Expand_Airfields
+		x = 17
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_ubaf }
+		completion_reward = {
+			BRM_capital_air_base = yes
+			random_owned_controlled_state = { limit = { is_core_of = ROOT is_capital = no } add_building_construction = { type = air_base level = 3 instant_build = yes } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_air_academy
+		icon = GFX_KMT_50s_Taiwan_Air_Force_Academy
+		x = 17
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_air_bases }
+		completion_reward = {
+			air_experience = 25
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_aircraft_plant
+		icon = GFX_PRC_50s_A_Leap_Forward_for_The_Aviation_Industry
+		x = 17
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_air_academy }
+		available = { date > 1995.1.1 }
+		completion_reward = {
+			BRM_build_mil = yes
+			add_tech_bonus = { name = BRM_aircraft_plant bonus = 0.5 uses = 1 category = air_equipment }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_radar_network
+		icon = GFX_usa_50_naval_illuminator_radar
+		x = 19
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_air_bases }
+		completion_reward = {
+			add_tech_bonus = { name = BRM_radar_network bonus = 0.5 uses = 1 category = electronics }
+			air_experience = 10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_air_defence
+		icon = GFX_generic_focus_military_anti_aircraft_battery
+		x = 19
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_radar_network }
+		completion_reward = {
+			capital_scope = { add_building_construction = { type = anti_air_building level = 2 instant_build = yes } }
+			air_experience = 10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_modern_air_force
+		icon = GFX_Strategic_Bomber_Command_Restructuring
+		x = 16
+		y = 5
+		cost = 12
+		prerequisite = { focus = BRM_jet_age }
+		prerequisite = { focus = BRM_helicopters }
+		prerequisite = { focus = BRM_air_academy }
+		completion_reward = {
+			add_ideas = BRM_air_force_spirit
+			air_experience = 25
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_riverine_navy
+		icon = GFX_burmese_navy
+		x = 24
+		y = 0
+		cost = 10
+		completion_reward = {
+			navy_experience = 25
+			BRM_build_dockyard = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_river_gunboats
+		icon = GFX_POR_British_River_Class_Frigates
+		x = 21
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_riverine_navy }
+		completion_reward = {
+			navy_experience = 15
+			add_tech_bonus = { name = BRM_river_gunboats bonus = 0.5 uses = 1 category = naval_equipment }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_delta_flotillas
+		icon = GFX_HUM_Repair_Leftover_IJA_Patrol_Craft
+		x = 21
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_river_gunboats }
+		completion_reward = {
+			navy_experience = 10
+			add_stability = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_naval_infantry
+		icon = GFX_merchant_marines_PDG
+		x = 21
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_delta_flotillas }
+		completion_reward = {
+			navy_experience = 10
+			army_experience = 10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_amphibious_operations
+		icon = GFX_generic_marines2
+		x = 21
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_naval_infantry }
+		completion_reward = {
+			add_tech_bonus = { name = BRM_amphibious_operations bonus = 0.5 uses = 1 category = land_doctrine }
+			navy_experience = 10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_sinmalaik_dockyard
+		icon = GFX_Fund_Burmese_shipyards_and_ports
+		x = 23
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_riverine_navy }
+		completion_reward = {
+			BRM_build_dockyard = yes
+			BRM_build_dockyard = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_patrol_craft
+		icon = GFX_burma_navy
+		x = 23
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_sinmalaik_dockyard }
+		completion_reward = {
+			navy_experience = 15
+			add_tech_bonus = { name = BRM_patrol_craft bonus = 0.5 uses = 1 category = naval_equipment }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_anawrahta_corvettes
+		icon = GFX_NavalEffort
+		x = 23
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_patrol_craft }
+		available = { date > 1998.1.1 }
+		completion_reward = {
+			navy_experience = 20
+			add_tech_bonus = { name = BRM_anawrahta_corvettes bonus = 0.5 uses = 2 category = naval_equipment }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_aung_zeya_frigate
+		icon = GFX_SAF_President_Class_Frigates
+		x = 23
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_anawrahta_corvettes }
+		available = { date > 2008.1.1 }
+		completion_reward = {
+			navy_experience = 25
+			BRM_build_dockyard = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_first_submarine
+		icon = GFX_SAF_Daphne_Class_Submarines
+		x = 23
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_aung_zeya_frigate }
+		available = { date > 2019.1.1 }
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = { name = BRM_first_submarine bonus = 0.5 uses = 1 category = naval_equipment }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_andaman_patrol
+		icon = GFX_NavalOperations
+		x = 25
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_riverine_navy }
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = { name = BRM_andaman_patrol bonus = 0.5 uses = 1 category = naval_doctrine }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_naval_training
+		icon = GFX_generic_naval_academy
+		x = 25
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_andaman_patrol }
+		completion_reward = {
+			navy_experience = 25
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_offshore_protection
+		icon = GFX_Generic_Maritime_Trade
+		x = 25
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_naval_training }
+		available = { date > 1998.1.1 }
+		completion_reward = {
+			navy_experience = 15
+			add_stability = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_maritime_boundary
+		icon = GFX_Enforce_Fishing_Rights
+		x = 25
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_offshore_protection }
+		available = { date > 2012.1.1 }
+		completion_reward = {
+			random_owned_controlled_state = { limit = { is_core_of = ROOT is_coastal = yes } add_resource = { type = oil amount = 4 } }
+			add_stability = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_coastal_defence
+		icon = GFX_SOV_Modernize_Crimean_Coastal_Defense
+		x = 27
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_riverine_navy }
+		completion_reward = {
+			navy_experience = 10
+			add_war_support = 0.02
+			add_tech_bonus = { name = BRM_coastal_defence bonus = 0.5 uses = 1 category = artillery }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_naval_aviation
+		icon = GFX_usa_50_naval_helicopters
+		x = 27
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_coastal_defence }
+		available = { date > 2010.1.1 }
+		completion_reward = {
+			navy_experience = 15
+			air_experience = 10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_bay_of_bengal_navy
+		icon = GFX_BluewaterNavy
+		x = 24
+		y = 6
+		cost = 12
+		prerequisite = { focus = BRM_amphibious_operations }
+		prerequisite = { focus = BRM_patrol_craft }
+		prerequisite = { focus = BRM_naval_training }
+		completion_reward = {
+			add_ideas = BRM_navy_spirit
+			navy_experience = 25
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_end_civil_war
+		icon = GFX_usa_fp_generic_peace_talks
+		x = 33
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_political_power = 50
+			add_war_support = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_crush_insurrections
+		icon = GFX_Continue_the_conventional_war
+		x = 32
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_end_civil_war }
+		mutually_exclusive = { focus = BRM_panglong_spirit }
+		completion_reward = {
+			army_experience = 15
+			add_war_support = 0.03
+			BRM_step_internal_conflict = yes
+		}
+		ai_will_do = { factor = 6 }
+	}
+
+	focus = {
+		id = BRM_panglong_spirit
+		icon = GFX_rebel_agreement
+		x = 34
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_end_civil_war }
+		mutually_exclusive = { focus = BRM_crush_insurrections }
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.03
+			BRM_step_internal_conflict = yes
+		}
+		ai_will_do = { factor = 4 }
+	}
+
+	focus = {
+		id = BRM_white_flag_communists
+		icon = GFX_Indochinese_Guerillas
+		x = 30
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_crush_insurrections focus = BRM_panglong_spirit }
+		completion_reward = {
+			if = { limit = { has_completed_focus = BRM_peoples_revolution }
+				add_political_power = 75
+			}
+			else_if = { limit = { has_completed_focus = BRM_crush_insurrections }
+				army_experience = 10
+			}
+			else = {
+				add_stability = 0.03
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_karen_question
+		icon = GFX_incorperate_Karan_Generals
+		x = 32
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_crush_insurrections focus = BRM_panglong_spirit }
+		completion_reward = {
+			if = { limit = { has_completed_focus = BRM_crush_insurrections }
+				army_experience = 10
+				add_war_support = 0.02
+			}
+			else = {
+				add_stability = 0.03
+				add_political_power = 50
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_kachin_chin_hills
+		icon = GFX_GDR_Protect_Ethnic_Minorities
+		x = 34
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_crush_insurrections focus = BRM_panglong_spirit }
+		completion_reward = {
+			add_manpower = 4000
+			if = { limit = { has_completed_focus = BRM_crush_insurrections }
+				army_experience = 10
+			}
+			else = {
+				add_timed_idea = { idea = BRM_minority_trust days = 730 }
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_shan_states
+		icon = GFX_promise_wide_autonomy
+		x = 36
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_crush_insurrections focus = BRM_panglong_spirit }
+		completion_reward = {
+			add_political_power = 25
+			BRM_step_kmt_tensions = yes
+			if = { limit = { has_completed_focus = BRM_crush_insurrections }
+				add_war_support = 0.03
+			}
+			else = {
+				add_stability = 0.03
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_nationalities_settlement
+		icon = GFX_strenth_in_unity
+		x = 33
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_karen_question }
+		prerequisite = { focus = BRM_kachin_chin_hills }
+		prerequisite = { focus = BRM_shan_states }
+		completion_reward = {
+			BRM_step_internal_conflict = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_expel_kmt
+		icon = GFX_Crush_KMT
+		x = 36
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_shan_states }
+		completion_reward = {
+			BRM_remove_kmt_tensions = yes
+			BRM_set_china_target = yes
+			if = { limit = { has_event_target = BRM_china }
+				event_target:BRM_china = { add_opinion_modifier = { target = ROOT modifier = BRM_pauk_phaw_opinion } }
+			}
+			if = { limit = { has_completed_focus = BRM_crush_insurrections }
+				army_experience = 15
+			}
+			else = {
+				add_political_power = 50
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_golden_triangle
+		icon = GFX_Golden_Triangle_Opium_Flower
+		x = 38
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_shan_states }
+		completion_reward = {
+			BRM_step_kmt_tensions = yes
+			if = { limit = { has_completed_focus = BRM_crush_insurrections }
+				add_manpower = 5000
+			}
+			else = {
+				add_stability = 0.02
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_dismantle_opium
+		icon = GFX_no_opium_plox
+		x = 38
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_golden_triangle }
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_national_reconciliation
+		icon = GFX_generic_focus_diplomacy_peace_talks
+		x = 32
+		y = 4
+		cost = 12
+		prerequisite = { focus = BRM_nationalities_settlement }
+		prerequisite = { focus = BRM_white_flag_communists }
+		completion_reward = {
+			BRM_remove_internal_conflict = yes
+			if = { limit = { has_completed_focus = BRM_panglong_spirit }
+				add_ideas = BRM_federal_union
+			}
+			else = {
+				add_ideas = BRM_iron_union
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_union_restored
+		icon = GFX_BRM_victory_in_civil_war
+		x = 34
+		y = 5
+		cost = 12
+		prerequisite = { focus = BRM_national_reconciliation }
+		prerequisite = { focus = BRM_expel_kmt }
+		prerequisite = { focus = BRM_dismantle_opium }
+		completion_reward = {
+			BRM_remove_all_internal_debuffs = yes
+			add_ideas = BRM_union_restored_spirit
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_union_of_burma
+		icon = GFX_The_Road_to_Independence
+		x = 49
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_crossroads
+		icon = GFX_Election_system_Debate
+		x = 49
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_union_of_burma }
+		completion_reward = {
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_afpfl_government
+		icon = GFX_AFPFL_Victory
+		x = 41
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_crossroads }
+		mutually_exclusive = { focus = BRM_ne_win_commander focus = BRM_stable_afpfl focus = BRM_talks_with_thakins }
+		completion_reward = {
+			add_ideas = BRM_fragile_democracy
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 5 }
+	}
+
+	focus = {
+		id = BRM_pyidawtha
+		icon = GFX_Welfare_State
+		x = 41
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_afpfl_government }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			add_stability = 0.03
+			BRM_econ_public = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_general_elections
+		icon = GFX_BRM_1956_election
+		x = 41
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_pyidawtha }
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_state_religion
+		icon = GFX_ProBuddha
+		x = 40
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_general_elections }
+		mutually_exclusive = { focus = BRM_secular_union }
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_secular_union
+		icon = GFX_Religous_Unity
+		x = 42
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_general_elections }
+		mutually_exclusive = { focus = BRM_state_religion }
+		completion_reward = {
+			add_stability = 0.03
+			add_timed_idea = { idea = BRM_minority_trust days = 730 }
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = BRM_federal_seminar
+		icon = GFX_goal_BEL_FederalParliament
+		x = 41
+		y = 6
+		cost = 10
+		prerequisite = { focus = BRM_state_religion focus = BRM_secular_union }
+		completion_reward = {
+			add_stability = 0.03
+			if = { limit = { BRM_has_internal_conflict = yes }
+				BRM_step_internal_conflict = yes
+			}
+			else = {
+				add_political_power = 50
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_colombo_plan
+		icon = GFX_usa_50_provide_econ_loans
+		x = 41
+		y = 7
+		cost = 10
+		prerequisite = { focus = BRM_federal_seminar }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			add_tech_bonus = { name = BRM_colombo_plan bonus = 0.5 uses = 1 category = industry }
+			BRM_build_office = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_democracy_endures
+		icon = GFX_Work_with_U_Nu
+		x = 41
+		y = 8
+		cost = 12
+		prerequisite = { focus = BRM_colombo_plan }
+		completion_reward = {
+			swap_ideas = { remove_idea = BRM_fragile_democracy add_idea = BRM_fragile_democracy_2 }
+			add_research_slot = 1
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_ne_win_commander
+		icon = GFX_Win_dictatorship
+		x = 46
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_crossroads }
+		mutually_exclusive = { focus = BRM_afpfl_government focus = BRM_stable_afpfl focus = BRM_talks_with_thakins }
+		completion_reward = {
+			army_experience = 15
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 8 }
+	}
+
+	focus = {
+		id = BRM_caretaker_government
+		icon = GFX_Junta_Focus
+		x = 46
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_ne_win_commander }
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_revolutionary_council
+		icon = GFX_usa_50_a_successful_coup
+		x = 46
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_caretaker_government }
+		completion_reward = {
+			BRM_go_military_rule = yes
+			add_ideas = BRM_military_rule
+			add_political_power = 100
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_burmese_way
+		icon = GFX_Buddhist_Socialism
+		x = 44
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_revolutionary_council }
+		mutually_exclusive = { focus = BRM_aung_gyi }
+		completion_reward = {
+			swap_ideas = { remove_idea = BRM_military_rule add_idea = BRM_burmese_way_spirit }
+			add_stability = 0.03
+			BRM_econ_planned = yes
+			BRM_econ_public = yes
+		}
+		ai_will_do = { factor = 8 }
+	}
+
+	focus = {
+		id = BRM_found_bspp
+		icon = GFX_Force_Left_wing_party_mergers
+		x = 44
+		y = 6
+		cost = 10
+		prerequisite = { focus = BRM_burmese_way }
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_system_of_correlation
+		icon = GFX_Buddhist_Communist_Movement
+		x = 43
+		y = 7
+		cost = 10
+		prerequisite = { focus = BRM_found_bspp }
+		completion_reward = {
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_enterprise_nationalization
+		icon = GFX_NationalizeTrade
+		x = 45
+		y = 7
+		cost = 10
+		prerequisite = { focus = BRM_found_bspp }
+		completion_reward = {
+			BRM_build_mil = yes
+			add_political_power = 25
+			BRM_econ_public = yes
+			BRM_econ_public = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_peoples_councils
+		icon = GFX_Socialist_Consolidation
+		x = 43
+		y = 8
+		cost = 10
+		prerequisite = { focus = BRM_system_of_correlation }
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.03
+			add_war_support = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_military_enterprises
+		icon = GFX_Communist_Heavy_Industry
+		x = 45
+		y = 8
+		cost = 10
+		prerequisite = { focus = BRM_enterprise_nationalization }
+		completion_reward = {
+			BRM_build_mil = yes
+			army_experience = 10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_socialist_republic
+		icon = GFX_Burmese_socialist_realism
+		x = 44
+		y = 9
+		cost = 12
+		prerequisite = { focus = BRM_peoples_councils }
+		prerequisite = { focus = BRM_military_enterprises }
+		completion_reward = {
+			swap_ideas = { remove_idea = BRM_burmese_way_spirit add_idea = BRM_burmese_way_2 }
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_pragmatic_socialism
+		icon = GFX_Generic_Market_Socialism
+		x = 44
+		y = 10
+		cost = 10
+		prerequisite = { focus = BRM_socialist_republic }
+		completion_reward = {
+			BRM_build_civ = yes
+			add_research_slot = 1
+			add_tech_bonus = { name = BRM_pragmatic_socialism bonus = 0.5 uses = 2 category = industry }
+			BRM_econ_market = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_aung_gyi
+		icon = GFX_Reshuffle_the_Junta
+		x = 48
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_revolutionary_council }
+		mutually_exclusive = { focus = BRM_burmese_way }
+		completion_reward = {
+			BRM_go_reformist_junta = yes
+			swap_ideas = { remove_idea = BRM_military_rule add_idea = BRM_military_technocracy }
+			BRM_econ_market = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_foreign_capital
+		icon = GFX_Foriegn_Investment
+		x = 47
+		y = 6
+		cost = 10
+		prerequisite = { focus = BRM_aung_gyi }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			BRM_econ_private = yes
+			BRM_build_office = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_professional_officers
+		icon = GFX_usa_50_embolden_free_officers
+		x = 49
+		y = 6
+		cost = 10
+		prerequisite = { focus = BRM_aung_gyi }
+		completion_reward = {
+			army_experience = 20
+			add_stability = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_free_rice_trade
+		icon = GFX_NUN_Expand_Rice
+		x = 47
+		y = 7
+		cost = 10
+		prerequisite = { focus = BRM_foreign_capital }
+		completion_reward = {
+			BRM_build_civ = yes
+			add_stability = 0.03
+			BRM_econ_market = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_technocrat_ministries
+		icon = GFX_POR_Empower_the_Economic_Technocrats
+		x = 49
+		y = 7
+		cost = 10
+		prerequisite = { focus = BRM_professional_officers }
+		completion_reward = {
+			add_political_power = 50
+			add_tech_bonus = { name = BRM_technocrats bonus = 0.5 uses = 1 category = industry }
+			add_tech_bonus = { name = BRM_technocrats bonus = 0.5 uses = 1 category = electronics }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_developmental_state
+		icon = GFX_Planning_for_the_New_Economic_System
+		x = 48
+		y = 8
+		cost = 12
+		prerequisite = { focus = BRM_free_rice_trade }
+		prerequisite = { focus = BRM_technocrat_ministries }
+		completion_reward = {
+			swap_ideas = { remove_idea = BRM_military_technocracy add_idea = BRM_military_technocracy_2 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_irrawaddy_tiger
+		icon = GFX_Begin_international_market_research
+		x = 48
+		y = 9
+		cost = 10
+		prerequisite = { focus = BRM_developmental_state }
+		completion_reward = {
+			BRM_build_civ = yes
+			add_research_slot = 1
+			BRM_build_office = yes
+			BRM_build_office = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_stable_afpfl
+		icon = GFX_Ba_Swe
+		x = 52
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_crossroads }
+		mutually_exclusive = { focus = BRM_afpfl_government focus = BRM_ne_win_commander focus = BRM_talks_with_thakins }
+		completion_reward = {
+			BRM_go_stable_afpfl = yes
+			add_ideas = BRM_democratic_socialism
+			BRM_econ_planned = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_socialist_party
+		icon = GFX_Socialist_Electoral_Reform
+		x = 52
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_stable_afpfl }
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_trade_union_congress
+		icon = GFX_Legalize_Unions
+		x = 51
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_socialist_party }
+		completion_reward = {
+			add_stability = 0.03
+			add_manpower = 3000
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_industrial_development_corp
+		icon = GFX_Industrial_Reconstruction_MLA
+		x = 53
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_socialist_party }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_mil = yes
+			BRM_econ_public = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_planned_industrialization
+		icon = GFX_Five_Year_Plan
+		x = 52
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_trade_union_congress }
+		prerequisite = { focus = BRM_industrial_development_corp }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_social_democratic_union
+		icon = GFX_focus_socialist_realism
+		x = 52
+		y = 6
+		cost = 12
+		prerequisite = { focus = BRM_planned_industrialization }
+		completion_reward = {
+			swap_ideas = { remove_idea = BRM_democratic_socialism add_idea = BRM_democratic_socialism_2 }
+			add_research_slot = 1
+			add_tech_bonus = { name = BRM_social_democracy bonus = 0.5 uses = 2 category = industry }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_talks_with_thakins
+		icon = GFX_Cooperate_with_NUF
+		x = 56
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_crossroads }
+		mutually_exclusive = { focus = BRM_afpfl_government focus = BRM_ne_win_commander focus = BRM_stable_afpfl }
+		completion_reward = {
+			add_political_power = 50
+			BRM_boost_communists = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_unite_the_flags
+		icon = GFX_BCP
+		x = 56
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_talks_with_thakins }
+		completion_reward = {
+			add_political_power = 50
+			BRM_boost_communists = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_peoples_revolution
+		icon = GFX_Peaceful_struggle
+		x = 56
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_unite_the_flags }
+		completion_reward = {
+			BRM_go_communist = yes
+			add_ideas = BRM_peoples_democracy
+			BRM_step_internal_conflict = yes
+			BRM_econ_planned = yes
+			BRM_econ_planned = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_land_to_tiller
+		icon = GFX_PRC_50s_Land_Reform
+		x = 56
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_peoples_revolution }
+		completion_reward = {
+			add_stability = 0.05
+			BRM_build_civ = yes
+			BRM_econ_public = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_maoist_model
+		icon = GFX_Learn_from_our_chinese_comrades
+		x = 55
+		y = 6
+		cost = 10
+		prerequisite = { focus = BRM_land_to_tiller }
+		mutually_exclusive = { focus = BRM_soviet_model }
+		completion_reward = {
+			add_manpower = 10000
+			army_experience = 15
+			BRM_set_china_target = yes
+			if = { limit = { has_event_target = BRM_china }
+				event_target:BRM_china = { add_opinion_modifier = { target = ROOT modifier = BRM_pauk_phaw_opinion } }
+			}
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_soviet_model
+		icon = GFX_Soviet_AdvisorsCoolerversion
+		x = 57
+		y = 6
+		cost = 10
+		prerequisite = { focus = BRM_land_to_tiller }
+		mutually_exclusive = { focus = BRM_maoist_model }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_mil = yes
+			SOV = { add_opinion_modifier = { target = ROOT modifier = BRM_soviet_friend } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_peoples_democratic_republic
+		icon = GFX_Centrally_Planned_Economy
+		x = 56
+		y = 7
+		cost = 12
+		prerequisite = { focus = BRM_maoist_model focus = BRM_soviet_model }
+		completion_reward = {
+			swap_ideas = { remove_idea = BRM_peoples_democracy add_idea = BRM_peoples_democracy_2 }
+			add_stability = 0.05
+			add_research_slot = 1
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_divided_world
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
+		x = 63
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_strict_neutrality
+		icon = GFX_HUM_Maintain_Strict_Neutrality
+		x = 60
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_divided_world }
+		mutually_exclusive = { focus = BRM_moscow_friendship focus = BRM_pauk_phaw focus = BRM_western_partnership }
+		completion_reward = {
+			add_ideas = BRM_neutral_burma
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	focus = {
+		id = BRM_pauk_phaw
+		icon = GFX_Recognize_the_PRC
+		x = 62
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_divided_world }
+		mutually_exclusive = { focus = BRM_moscow_friendship focus = BRM_strict_neutrality focus = BRM_western_partnership }
+		completion_reward = {
+			add_political_power = 25
+			BRM_set_china_target = yes
+			if = { limit = { has_event_target = BRM_china }
+				event_target:BRM_china = { add_opinion_modifier = { target = ROOT modifier = BRM_pauk_phaw_opinion } }
+				add_opinion_modifier = { target = event_target:BRM_china modifier = BRM_pauk_phaw_opinion }
+			}
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_western_partnership
+		icon = GFX_usa_50_expand_foreign_aid_recipients
+		x = 64
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_divided_world }
+		mutually_exclusive = { focus = BRM_moscow_friendship focus = BRM_pauk_phaw focus = BRM_strict_neutrality }
+		completion_reward = {
+			add_political_power = 25
+			USA = { add_opinion_modifier = { target = ROOT modifier = BRM_western_friend } }
+			add_opinion_modifier = { target = USA modifier = BRM_western_friend }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_moscow_friendship
+		icon = GFX_Soviet_Proposal
+		x = 66
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_divided_world }
+		mutually_exclusive = { focus = BRM_pauk_phaw focus = BRM_strict_neutrality focus = BRM_western_partnership }
+		completion_reward = {
+			add_political_power = 25
+			SOV = { add_opinion_modifier = { target = ROOT modifier = BRM_soviet_friend } }
+			add_opinion_modifier = { target = SOV modifier = BRM_soviet_friend }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_bandung_spirit
+		icon = GFX_The_bandung_conference
+		x = 60
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_strict_neutrality }
+		completion_reward = {
+			swap_ideas = { remove_idea = BRM_neutral_burma add_idea = BRM_bandung_spirit_spirit }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_u_thant
+		icon = GFX_generic_focus_diplomacy_un_approval
+		x = 60
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_bandung_spirit }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.03
+			every_other_country = { limit = { has_opinion = { target = ROOT value > -50 } } add_opinion_modifier = { target = ROOT modifier = BRM_respected_neutral } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_southeast_asian_pact
+		icon = GFX_Non_aligned_Movement
+		x = 60
+		y = 4
+		cost = 12
+		prerequisite = { focus = BRM_u_thant }
+		available = { is_in_faction = no }
+		completion_reward = {
+			create_faction = BRM_sea_pact_faction
+			add_political_power = 50
+			every_neighbor_country = { add_opinion_modifier = { target = ROOT modifier = BRM_regional_partner } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_boundary_treaty
+		icon = GFX_Chinese_Proposal
+		x = 62
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_pauk_phaw }
+		completion_reward = {
+			add_stability = 0.03
+			BRM_set_china_target = yes
+			if = { limit = { has_event_target = BRM_china }
+				event_target:BRM_china = { add_opinion_modifier = { target = ROOT modifier = BRM_pauk_phaw_opinion } }
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_chinese_aid
+		icon = GFX_increased_Chinese_Involvement
+		x = 62
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_boundary_treaty }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_infra = yes
+			BRM_build_infra = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_join_chinese_camp
+		icon = GFX_generic_focus_diplomacy_chinese_hotline
+		x = 62
+		y = 4
+		cost = 12
+		prerequisite = { focus = BRM_chinese_aid }
+		completion_reward = {
+			BRM_join_china_bloc = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_japanese_reparations
+		icon = GFX_generic_focus_diplomacy_japanese_delegation
+		x = 64
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_western_partnership }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_american_arms
+		icon = GFX_usa_50_send_advisors
+		x = 64
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_japanese_reparations }
+		completion_reward = {
+			army_experience = 15
+			add_timed_idea = { idea = BRM_american_aid days = 730 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_join_seato
+		icon = GFX_usa_50_establish_seato
+		x = 64
+		y = 4
+		cost = 12
+		prerequisite = { focus = BRM_american_arms }
+		completion_reward = {
+			BRM_join_usa_bloc = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_soviet_technical_aid
+		icon = GFX_SOV_Technical_Aid
+		x = 66
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_moscow_friendship }
+		completion_reward = {
+			add_tech_bonus = { name = BRM_soviet_aid bonus = 0.5 uses = 1 category = industry }
+			add_timed_idea = { idea = BRM_soviet_aid days = 730 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_soviet_arms
+		icon = GFX_focus_soviet_advisors
+		x = 66
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_soviet_technical_aid }
+		completion_reward = {
+			army_experience = 15
+			BRM_build_mil = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_join_soviet_bloc
+		icon = GFX_Reaffirm_allegiance_to_the_soviet_union
+		x = 66
+		y = 4
+		cost = 12
+		prerequisite = { focus = BRM_soviet_arms }
+		completion_reward = {
+			BRM_join_soviet_bloc = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_rebuild_golden_land
+		icon = GFX_Economic_Reconstruction_Generic
+		x = 79
+		y = 0
+		cost = 10
+		completion_reward = {
+			BRM_build_civ = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_rice_bowl
+		icon = GFX_generic_focus_agriculture_rice_field_workers
+		x = 70
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_rebuild_golden_land }
+		completion_reward = {
+			add_ideas = BRM_rice_exports
+			add_stability = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_irrigation
+		icon = GFX_generic_focus_agriculture_irrigation
+		x = 69
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_rice_bowl }
+		completion_reward = {
+			BRM_build_infra = yes
+			BRM_build_infra = yes
+			add_stability = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_land_reform
+		icon = GFX_Commit_to_Land_Reform
+		x = 71
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_rice_bowl }
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 25
+			BRM_economy_step_up = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_agricultural_bank
+		icon = GFX_Agriculture_2
+		x = 70
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_irrigation }
+		prerequisite = { focus = BRM_land_reform }
+		completion_reward = {
+			BRM_build_civ = yes
+			swap_ideas = { remove_idea = BRM_rice_exports add_idea = BRM_rice_exports_2 }
+			BRM_economy_step_up = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_fertilizer_plants
+		icon = GFX_Mass_fertilizer_production
+		x = 69
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_agricultural_bank }
+		available = { date > 1970.1.1 }
+		completion_reward = {
+			BRM_build_civ = yes
+			add_stability = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_green_revolution
+		icon = GFX_generic_focus_agriculture_crop_science
+		x = 71
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_agricultural_bank }
+		available = { date > 1970.1.1 }
+		completion_reward = {
+			add_stability = 0.03
+			if = { limit = { has_idea = BRM_rice_exports_2 } swap_ideas = { remove_idea = BRM_rice_exports_2 add_idea = BRM_rice_exports_3 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_teak_board
+		icon = GFX_Lumber_Industry
+		x = 73
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_rebuild_golden_land }
+		completion_reward = {
+			add_ideas = BRM_teak_exports
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_fisheries
+		icon = GFX_Fishing_Industry
+		x = 73
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_teak_board }
+		completion_reward = {
+			add_stability = 0.03
+			add_political_power = 25
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_rangoon_port
+		icon = GFX_modernize_ports
+		x = 75
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_rebuild_golden_land }
+		completion_reward = {
+			BRM_build_dockyard = yes
+			BRM_build_infra = yes
+			BRM_build_office = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_railways
+		icon = GFX_Jungle_Railway
+		x = 74
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_rangoon_port }
+		completion_reward = {
+			BRM_build_infra = yes
+			BRM_build_infra = yes
+			BRM_build_infra = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_ava_bridge
+		icon = GFX_Railway_Reconstruction
+		x = 76
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_rangoon_port }
+		completion_reward = {
+			BRM_build_infra = yes
+			BRM_build_infra = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_rural_roads
+		icon = GFX_FocusBuildRoads
+		x = 75
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_railways }
+		prerequisite = { focus = BRM_ava_bridge }
+		completion_reward = {
+			BRM_build_infra = yes
+			BRM_build_infra = yes
+			add_stability = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_expressway
+		icon = GFX_Pave_every_road
+		x = 75
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_rural_roads }
+		available = { date > 2005.1.1 }
+		completion_reward = {
+			BRM_build_infra = yes
+			BRM_build_infra = yes
+			BRM_build_infra = yes
+			BRM_build_civ = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_electricity_board
+		icon = GFX_1st_Electric_Program
+		x = 78
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_rebuild_golden_land }
+		completion_reward = {
+			BRM_build_infra = yes
+			add_political_power = 25
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_baluchaung
+		icon = GFX_Hydroelectric_Dam_Development
+		x = 77
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_electricity_board }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_economy_step_up = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_gas_power
+		icon = GFX_PRC_50s_Construct_Thermal_Power_Plants
+		x = 79
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_electricity_board }
+		available = { date > 1975.1.1 }
+		completion_reward = {
+			BRM_build_civ = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_rural_electrification
+		icon = GFX_Generic_Hydropower
+		x = 78
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_baluchaung focus = BRM_gas_power }
+		completion_reward = {
+			add_stability = 0.05
+			BRM_build_infra = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_yeywa_dam
+		icon = GFX_Hydroelectric_Dams_New
+		x = 78
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_rural_electrification }
+		available = { date > 2005.1.1 }
+		completion_reward = {
+			BRM_build_civ = yes
+			add_tech_bonus = { name = BRM_yeywa_dam bonus = 0.5 uses = 1 category = industry }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_geological_survey
+		icon = GFX_generic_focus_construction_mining_tools
+		x = 83
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_rebuild_golden_land }
+		completion_reward = {
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_yenangyaung_oil
+		icon = GFX_goal_oil_derrick
+		x = 81
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_geological_survey }
+		completion_reward = {
+			random_owned_controlled_state = { limit = { is_core_of = ROOT } add_resource = { type = oil amount = 6 } }
+			country_event = { id = brm.51 days = 3 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_mawchi_mine
+		icon = GFX_Tin_Production
+		x = 83
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_geological_survey }
+		completion_reward = {
+			random_owned_controlled_state = { limit = { is_core_of = ROOT } add_resource = { type = tungsten amount = 6 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_tenasserim_rubber
+		icon = GFX_RubberExpansion
+		x = 85
+		y = 2
+		cost = 10
+		prerequisite = { focus = BRM_geological_survey }
+		completion_reward = {
+			random_owned_controlled_state = { limit = { is_core_of = ROOT } add_resource = { type = rubber amount = 4 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_syriam_refinery
+		icon = GFX_PRC_50s_Construct_Oil_Refineries
+		x = 80
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_yenangyaung_oil }
+		completion_reward = {
+			BRM_build_civ = yes
+			random_owned_controlled_state = { limit = { is_core_of = ROOT } add_resource = { type = oil amount = 2 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_pinpet_iron
+		icon = GFX_Mining_Pits
+		x = 82
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_mawchi_mine }
+		completion_reward = {
+			random_owned_controlled_state = { limit = { is_core_of = ROOT } add_resource = { type = steel amount = 4 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_mergui_tin
+		icon = GFX_Malaysian_Mining_Industry
+		x = 83
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_mawchi_mine }
+		completion_reward = {
+			random_owned_controlled_state = { limit = { is_core_of = ROOT } add_resource = { type = tungsten amount = 3 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_monywa_copper
+		icon = GFX_Copper
+		x = 84
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_mawchi_mine }
+		completion_reward = {
+			BRM_build_civ = yes
+			add_political_power = 25
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_jade_and_rubies
+		icon = GFX_generic_focus_construction_mine_entrance
+		x = 85
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_tenasserim_rubber }
+		completion_reward = {
+			add_timed_idea = { idea = BRM_gem_revenues days = 730 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_ywama_steel
+		icon = GFX_Expand_Steel_Production
+		x = 82
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_pinpet_iron }
+		completion_reward = {
+			random_owned_controlled_state = { limit = { is_core_of = ROOT } add_resource = { type = steel amount = 2 } }
+			add_tech_bonus = { name = BRM_ywama_steel bonus = 0.5 uses = 1 category = industry }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_state_industry
+		icon = GFX_Communist_Steel_Mills
+		x = 77
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_rural_electrification }
+		mutually_exclusive = { focus = BRM_mixed_economy }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_mil = yes
+			BRM_build_mil = yes
+			BRM_econ_planned = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_mixed_economy
+		icon = GFX_Capitalism
+		x = 79
+		y = 5
+		cost = 10
+		prerequisite = { focus = BRM_rural_electrification }
+		mutually_exclusive = { focus = BRM_state_industry }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			BRM_econ_market = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_textile_mills
+		icon = GFX_KOR_50s_support_textile_industry
+		x = 76
+		y = 6
+		cost = 10
+		prerequisite = { focus = BRM_state_industry focus = BRM_mixed_economy }
+		completion_reward = {
+			BRM_build_civ = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_pharmaceuticals
+		icon = GFX_Further_Subsidy_Pharmaceutical_Companies
+		x = 76
+		y = 7
+		cost = 10
+		prerequisite = { focus = BRM_textile_mills }
+		completion_reward = {
+			add_manpower = 5000
+			add_stability = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_cement_works
+		icon = GFX_Cement
+		x = 78
+		y = 6
+		cost = 10
+		prerequisite = { focus = BRM_state_industry focus = BRM_mixed_economy }
+		completion_reward = {
+			add_timed_idea = { idea = BRM_cement_boom days = 730 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_heavy_industries
+		icon = GFX_Expand_Heavy_Industry
+		x = 78
+		y = 7
+		cost = 10
+		prerequisite = { focus = BRM_cement_works }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_mil = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_automobile_assembly
+		icon = GFX_Auto_Factories
+		x = 78
+		y = 8
+		cost = 10
+		prerequisite = { focus = BRM_heavy_industries }
+		completion_reward = {
+			BRM_build_civ = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_industrial_zones
+		icon = GFX_Invest_in_modern_industry
+		x = 80
+		y = 6
+		cost = 10
+		prerequisite = { focus = BRM_state_industry focus = BRM_mixed_economy }
+		prerequisite = { focus = BRM_ywama_steel }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			add_political_power = 25
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_electronics_assembly
+		icon = GFX_export_factories
+		x = 80
+		y = 7
+		cost = 10
+		prerequisite = { focus = BRM_industrial_zones }
+		available = { date > 1990.1.1 }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_end_colonial_economy
+		icon = GFX_redistribute_colonial_assets
+		x = 78
+		y = 9
+		cost = 12
+		prerequisite = { focus = BRM_industrial_zones }
+		prerequisite = { focus = BRM_heavy_industries }
+		prerequisite = { focus = BRM_agricultural_bank }
+		completion_reward = {
+			BRM_economy_leave_feudalism = yes
+			add_ideas = BRM_self_reliant_economy
+			add_tech_bonus = { name = BRM_end_colonial_economy bonus = 0.5 uses = 2 category = industry }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_rangoon_university
+		icon = GFX_universities
+		x = 87
+		y = 1
+		cost = 10
+		prerequisite = { focus = BRM_rebuild_golden_land }
+		completion_reward = {
+			add_ideas = BRM_rangoon_university_spirit
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_rangoon_institute_tech
+		icon = GFX_SOV_Expand_numbers_of_Technical_Students
+		x = 87
+		y = 2
+		cost = 12
+		prerequisite = { focus = BRM_rangoon_university }
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_atomic_energy_centre
+		icon = GFX_Nuclear_Research_Lab
+		x = 87
+		y = 3
+		cost = 10
+		prerequisite = { focus = BRM_rangoon_institute_tech }
+		available = { date > 1955.1.1 }
+		completion_reward = {
+			add_tech_bonus = { name = BRM_atomic_energy_centre bonus = 0.5 uses = 1 category = electronics }
+			add_tech_bonus = { name = BRM_atomic_energy_centre bonus = 0.5 uses = 1 category = industry }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_regional_universities
+		icon = GFX_Invest_in_Education
+		x = 87
+		y = 4
+		cost = 10
+		prerequisite = { focus = BRM_atomic_energy_centre }
+		completion_reward = {
+			swap_ideas = { remove_idea = BRM_rangoon_university_spirit add_idea = BRM_university_network_spirit }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_new_generation
+		icon = GFX_Social_Modernization
+		x = 50
+		y = 12
+		cost = 10
+		prerequisite = { focus = BRM_democracy_endures focus = BRM_pragmatic_socialism focus = BRM_irrawaddy_tiger focus = BRM_social_democratic_union focus = BRM_peoples_democratic_republic }
+		available = { date > 1975.1.1 }
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_crisis_of_1987
+		icon = GFX_Monetary_Reform
+		x = 42
+		y = 13
+		cost = 10
+		prerequisite = { focus = BRM_new_generation }
+		available = { date > 1985.1.1 has_completed_focus = BRM_revolutionary_council }
+		completion_reward = {
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_8888_uprising
+		icon = GFX_Urban_Guerilla_BRM
+		x = 42
+		y = 14
+		cost = 10
+		prerequisite = { focus = BRM_crisis_of_1987 }
+		available = { date > 1988.1.1 }
+		completion_reward = {
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_slorc
+		icon = GFX_declare_martial_law
+		x = 41
+		y = 15
+		cost = 10
+		prerequisite = { focus = BRM_8888_uprising }
+		mutually_exclusive = { focus = BRM_8888_victory }
+		completion_reward = {
+			BRM_go_slorc = yes
+			add_ideas = BRM_international_isolation
+			add_stability = 0.05
+			add_war_support = 0.05
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = BRM_8888_victory
+		icon = GFX_new_democratic_elections
+		x = 43
+		y = 15
+		cost = 10
+		prerequisite = { focus = BRM_8888_uprising }
+		mutually_exclusive = { focus = BRM_slorc }
+		completion_reward = {
+			BRM_go_8888_democracy = yes
+			add_political_power = 100
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_ceasefire_deals
+		icon = GFX_usa_50_a_ceasefire
+		x = 40
+		y = 16
+		cost = 10
+		prerequisite = { focus = BRM_slorc }
+		completion_reward = {
+			add_stability = 0.05
+			add_manpower = 5000
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_spdc
+		icon = GFX_Enact_Martial_Law
+		x = 41
+		y = 16
+		cost = 10
+		prerequisite = { focus = BRM_slorc }
+		available = { date > 1992.1.1 }
+		completion_reward = {
+			BRM_go_spdc = yes
+			add_political_power = 100
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_naypyidaw
+		icon = GFX_Relocate_the_Capital
+		x = 41
+		y = 17
+		cost = 10
+		prerequisite = { focus = BRM_spdc }
+		available = { date > 2005.1.1 }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_infra = yes
+			BRM_build_infra = yes
+			add_stability = 0.02
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_constitution_2008
+		icon = GFX_KOR_push_for_constitutional_amendment
+		x = 41
+		y = 18
+		cost = 10
+		prerequisite = { focus = BRM_naypyidaw }
+		available = { date > 2008.1.1 }
+		completion_reward = {
+			set_cosmetic_tag = BRM_myanmar
+			add_political_power = 100
+			add_stability = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_thein_sein_reforms
+		icon = GFX_Introduce_Limited_Democratic_Reforms
+		x = 41
+		y = 19
+		cost = 10
+		prerequisite = { focus = BRM_constitution_2008 }
+		available = { date > 2011.1.1 }
+		completion_reward = {
+			BRM_go_thein_sein = yes
+			remove_ideas = BRM_international_isolation
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			USA = { add_opinion_modifier = { target = ROOT modifier = BRM_western_friend } }
+			BRM_econ_market = yes
+			BRM_econ_private = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_election_2015
+		icon = GFX_focus_generic_election
+		x = 41
+		y = 20
+		cost = 10
+		prerequisite = { focus = BRM_thein_sein_reforms }
+		available = { date > 2015.6.1 }
+		completion_reward = {
+			BRM_go_nld = yes
+			add_ideas = BRM_democratic_opening
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_transition_holds
+		icon = GFX_Face_the_Road_to_Democracy
+		x = 40
+		y = 21
+		cost = 10
+		prerequisite = { focus = BRM_election_2015 }
+		mutually_exclusive = { focus = BRM_state_administration_council }
+		available = { date > 2021.1.1 }
+		completion_reward = {
+			swap_ideas = { remove_idea = BRM_democratic_opening add_idea = BRM_democratic_opening_2 }
+			BRM_build_civ = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_state_administration_council
+		icon = GFX_Army_Officers_Coup_Attempt
+		x = 42
+		y = 21
+		cost = 10
+		prerequisite = { focus = BRM_election_2015 }
+		mutually_exclusive = { focus = BRM_transition_holds }
+		available = { date > 2021.1.1 }
+		completion_reward = {
+			BRM_go_sac = yes
+			remove_ideas = BRM_democratic_opening
+			add_ideas = BRM_spring_revolution
+			add_war_support = 0.10
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_junta_elections
+		icon = GFX_Election_Rigging
+		x = 41
+		y = 22
+		cost = 10
+		prerequisite = { focus = BRM_state_administration_council }
+		mutually_exclusive = { focus = BRM_federal_democracy_charter }
+		available = { date > 2025.11.1 }
+		completion_reward = {
+			BRM_weaken_spring_revolution = yes
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_federal_democracy_charter
+		icon = GFX_Face_Criticism_for_a_Coup_Against_the_Federal_Government
+		x = 43
+		y = 22
+		cost = 10
+		prerequisite = { focus = BRM_state_administration_council }
+		mutually_exclusive = { focus = BRM_junta_elections }
+		completion_reward = {
+			BRM_go_nug = yes
+			BRM_weaken_spring_revolution = yes
+			add_stability = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_national_peace
+		icon = GFX_Peaceful_managment
+		x = 42
+		y = 23
+		cost = 12
+		prerequisite = { focus = BRM_junta_elections focus = BRM_federal_democracy_charter }
+		completion_reward = {
+			remove_ideas = BRM_spring_revolution
+			remove_ideas = BRM_spring_revolution_2
+			if = { limit = { has_completed_focus = BRM_federal_democracy_charter NOT = { has_idea = BRM_federal_democracy } }
+				add_ideas = BRM_federal_democracy
+			}
+			else_if = { limit = { NOT = { has_idea = BRM_union_secured } }
+				add_ideas = BRM_union_secured
+			}
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_1990_parliament
+		icon = GFX_goal_generic_parliament2
+		x = 43
+		y = 16
+		cost = 10
+		prerequisite = { focus = BRM_8888_victory }
+		available = { date > 1990.1.1 }
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.05
+			add_ideas = BRM_democratic_opening
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_democratic_succession
+		icon = GFX_generic_focus_politics_parliament_handshake
+		x = 46
+		y = 13
+		cost = 10
+		prerequisite = { focus = BRM_new_generation }
+		available = { OR = { has_completed_focus = BRM_democracy_endures has_completed_focus = BRM_social_democratic_union } }
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_second_generation_reforms
+		icon = GFX_POR_Free_Market_Reforms
+		x = 46
+		y = 14
+		cost = 10
+		prerequisite = { focus = BRM_democratic_succession }
+		available = { date > 1980.1.1 }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			BRM_econ_market = yes
+			BRM_econ_private = yes
+			BRM_build_office = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_federal_constitution
+		icon = GFX_Federal_Constitutional_Court
+		x = 45
+		y = 17
+		cost = 10
+		prerequisite = { focus = BRM_1990_parliament focus = BRM_second_generation_reforms }
+		completion_reward = {
+			add_stability = 0.05
+			if = { limit = { NOT = { has_idea = BRM_federal_democracy } } add_ideas = BRM_federal_democracy }
+			if = { limit = { has_idea = BRM_democratic_opening } swap_ideas = { remove_idea = BRM_democratic_opening add_idea = BRM_democratic_opening_2 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_socialist_camp_collapses
+		icon = GFX_usa80_behind_the_iron_curtain
+		x = 54
+		y = 13
+		cost = 10
+		prerequisite = { focus = BRM_new_generation }
+		available = { date > 1989.1.1 has_completed_focus = BRM_peoples_democratic_republic }
+		completion_reward = {
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_market_socialism
+		icon = GFX_Market_Liberalization
+		x = 53
+		y = 14
+		cost = 10
+		prerequisite = { focus = BRM_socialist_camp_collapses }
+		mutually_exclusive = { focus = BRM_multiparty_transition }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			add_tech_bonus = { name = BRM_market_socialism bonus = 0.5 uses = 1 category = industry }
+			BRM_econ_market = yes
+			BRM_econ_market = yes
+			BRM_build_office = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = BRM_multiparty_transition
+		icon = GFX_generic_focus_politics_parliamentary_accord
+		x = 55
+		y = 14
+		cost = 10
+		prerequisite = { focus = BRM_socialist_camp_collapses }
+		mutually_exclusive = { focus = BRM_market_socialism }
+		completion_reward = {
+			BRM_go_com_democracy = yes
+			add_ideas = BRM_democratic_opening
+			add_stability = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_join_asean
+		icon = GFX_Asian_relations_warming
+		x = 50
+		y = 18
+		cost = 10
+		prerequisite = { focus = BRM_ceasefire_deals focus = BRM_federal_constitution focus = BRM_market_socialism focus = BRM_multiparty_transition }
+		available = { date > 1997.1.1 }
+		completion_reward = {
+			add_ideas = BRM_asean_member
+			every_neighbor_country = { add_opinion_modifier = { target = ROOT modifier = BRM_regional_partner } }
+			BRM_build_office = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_yadana_gas
+		icon = GFX_NorthernGas
+		x = 48
+		y = 19
+		cost = 10
+		prerequisite = { focus = BRM_join_asean }
+		available = { date > 1998.1.1 }
+		completion_reward = {
+			random_owned_controlled_state = { limit = { is_core_of = ROOT } add_resource = { type = oil amount = 8 } }
+			BRM_build_civ = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_shwe_gas
+		icon = GFX_SOV_Develop_Oil_and_Gas_In_Transurals
+		x = 48
+		y = 20
+		cost = 10
+		prerequisite = { focus = BRM_yadana_gas }
+		available = { date > 2013.1.1 }
+		completion_reward = {
+			random_owned_controlled_state = { limit = { is_core_of = ROOT } add_resource = { type = oil amount = 6 } }
+			BRM_set_china_target = yes
+			if = { limit = { has_event_target = BRM_china }
+				event_target:BRM_china = { add_opinion_modifier = { target = ROOT modifier = BRM_pauk_phaw_opinion } }
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_kyaukphyu
+		icon = GFX_SAF_Shipyard_expansion
+		x = 48
+		y = 21
+		cost = 10
+		prerequisite = { focus = BRM_shwe_gas }
+		available = { date > 2018.1.1 }
+		completion_reward = {
+			BRM_build_dockyard = yes
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			BRM_build_infra = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_nargis_lessons
+		icon = GFX_usa_80_humanitarian_disaster
+		x = 50
+		y = 19
+		cost = 10
+		prerequisite = { focus = BRM_join_asean }
+		available = { date > 2008.1.1 }
+		completion_reward = {
+			add_stability = 0.05
+			BRM_build_infra = yes
+			BRM_build_infra = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_mobile_revolution
+		icon = GFX_Construct_radio_towers
+		x = 50
+		y = 20
+		cost = 10
+		prerequisite = { focus = BRM_nargis_lessons }
+		available = { date > 2014.1.1 }
+		completion_reward = {
+			add_ideas = BRM_telecom_revolution
+			add_tech_bonus = { name = BRM_mobile_revolution bonus = 0.5 uses = 2 category = electronics }
+			BRM_build_office = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_thilawa_sez
+		icon = GFX_EncourageIndustrialInvestment
+		x = 50
+		y = 21
+		cost = 10
+		prerequisite = { focus = BRM_mobile_revolution }
+		available = { date > 2015.1.1 }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			BRM_build_office = yes
+			BRM_build_office = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_myitsone_question
+		icon = GFX_raise_river_embankment
+		x = 52
+		y = 19
+		cost = 10
+		prerequisite = { focus = BRM_join_asean }
+		available = { date > 2011.1.1 }
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_nationwide_ceasefire
+		icon = GFX_generic_focus_diplomacy_dove_and_telephone
+		x = 52
+		y = 20
+		cost = 10
+		prerequisite = { focus = BRM_myitsone_question }
+		available = { date > 2015.1.1 }
+		completion_reward = {
+			add_stability = 0.05
+			add_manpower = 5000
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_peace_conference
+		icon = GFX_rebel_agreement
+		x = 52
+		y = 21
+		cost = 10
+		prerequisite = { focus = BRM_nationwide_ceasefire }
+		available = { date > 2016.1.1 }
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 75
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_rakhine_commission
+		icon = GFX_Generic_Refugee_Focus
+		x = 54
+		y = 22
+		cost = 10
+		prerequisite = { focus = BRM_peace_conference }
+		available = { date > 2017.1.1 }
+		completion_reward = {
+			add_stability = 0.05
+			add_timed_idea = { idea = BRM_minority_trust days = 730 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_vision_2030
+		icon = GFX_Travel_Modernization
+		x = 50
+		y = 23
+		cost = 12
+		prerequisite = { focus = BRM_kyaukphyu }
+		prerequisite = { focus = BRM_thilawa_sez }
+		prerequisite = { focus = BRM_peace_conference }
+		available = { date > 2025.1.1 NOT = { has_idea = BRM_spring_revolution } NOT = { has_idea = BRM_spring_revolution_2 } }
+		completion_reward = {
+			add_ideas = BRM_vision_2030_spirit
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			BRM_build_office = yes
+			BRM_build_office = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_power_grid
+		icon = GFX_SOV_expand_hydroelectric_power_grid
+		x = 48
+		y = 24
+		cost = 10
+		prerequisite = { focus = BRM_vision_2030 }
+		available = { date > 2027.1.1 }
+		completion_reward = {
+			BRM_build_civ = yes
+			BRM_build_civ = yes
+			BRM_build_infra = yes
+			BRM_build_infra = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_digital_union
+		icon = GFX_goal_generic_computers
+		x = 50
+		y = 24
+		cost = 10
+		prerequisite = { focus = BRM_vision_2030 }
+		available = { date > 2027.1.1 }
+		completion_reward = {
+			add_research_slot = 1
+			add_tech_bonus = { name = BRM_digital_union bonus = 0.5 uses = 2 category = electronics }
+			BRM_build_office = yes
+			BRM_build_office = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_asean_leadership
+		icon = GFX_generic_focus_diplomacy_asia_hotline
+		x = 52
+		y = 24
+		cost = 10
+		prerequisite = { focus = BRM_vision_2030 }
+		available = { date > 2026.1.1 }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.03
+			every_neighbor_country = { add_opinion_modifier = { target = ROOT modifier = BRM_regional_partner } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = BRM_golden_land_reborn
+		icon = GFX_Jewels_of_Asia_Unchained
+		x = 50
+		y = 25
+		cost = 15
+		prerequisite = { focus = BRM_power_grid }
+		prerequisite = { focus = BRM_digital_union }
+		prerequisite = { focus = BRM_asean_leadership }
+		available = { date > 2030.1.1 }
+		completion_reward = {
+			swap_ideas = { remove_idea = BRM_vision_2030_spirit add_idea = BRM_golden_land_reborn_spirit }
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+}

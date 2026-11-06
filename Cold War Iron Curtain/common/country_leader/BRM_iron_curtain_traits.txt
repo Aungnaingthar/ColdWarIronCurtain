@@ -1,0 +1,124 @@
+# Burma leader and advisor traits (Iron Curtain submod)
+leader_traits = {
+	##### country leaders #####
+	BRM_buddhist_statesman = {	# U Nu
+		random = no
+		stability_factor = 0.05
+		political_power_gain = 0.10
+		ai_will_do = { factor = 1 }
+	}
+	BRM_number_one = {	# Ne Win, "Number One" / "the Old Man"
+		random = no
+		war_support_factor = 0.05
+		army_org_factor = 0.03
+		political_power_gain = 0.10
+		ai_will_do = { factor = 1 }
+	}
+	BRM_socialist_planner = {	# Ba Swe
+		random = no
+		production_speed_buildings_factor = 0.05
+		stability_factor = 0.03
+		ai_will_do = { factor = 1 }
+	}
+	BRM_peoples_commander = {	# Thakin Than Tun
+		random = no
+		conscription_factor = 0.05
+		war_support_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	BRM_reform_general = {	# Aung Gyi
+		random = no
+		production_speed_buildings_factor = 0.05
+		research_speed_factor = 0.03
+		ai_will_do = { factor = 1 }
+	}
+	BRM_slorc_chairman = {	# Saw Maung
+		random = no
+		stability_factor = 0.03
+		war_support_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	BRM_senior_general = {	# Than Shwe
+		random = no
+		army_org_factor = 0.05
+		political_power_gain = 0.10
+		ai_will_do = { factor = 1 }
+	}
+	BRM_reformer_president = {	# Thein Sein
+		random = no
+		research_speed_factor = 0.05
+		stability_factor = 0.03
+		ai_will_do = { factor = 1 }
+	}
+	BRM_the_lady = {	# Aung San Suu Kyi, "The Lady"
+		random = no
+		stability_factor = 0.08
+		political_power_gain = 0.10
+		ai_will_do = { factor = 1 }
+	}
+	BRM_commander_in_chief = {	# Min Aung Hlaing
+		random = no
+		army_org_factor = 0.05
+		war_support_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	BRM_federalist_leader = {	# Duwa Lashi La
+		random = no
+		conscription_factor = 0.05
+		stability_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+
+	##### advisors #####
+	BRM_un_diplomat = {	# U Thant
+		random = no
+		political_power_gain = 0.10
+		stability_factor = 0.02
+		ai_will_do = { factor = 1 }
+	}
+	BRM_industrial_architect = {	# Kyaw Nyein
+		random = no
+		production_speed_industrial_complex_factor = 0.10
+		ai_will_do = { factor = 1 }
+	}
+	BRM_development_economist = {	# Hla Myint
+		random = no
+		consumer_goods_factor = -0.03
+		research_speed_factor = 0.02
+		ai_will_do = { factor = 1 }
+	}
+	BRM_peace_poet = {	# Thakin Kodaw Hmaing
+		random = no
+		stability_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	BRM_legal_scholar = {	# Dr Maung Maung
+		random = no
+		political_power_gain = 0.10
+		ai_will_do = { factor = 1 }
+	}
+	BRM_karen_commander = {	# General Smith Dun
+		random = no
+		army_defence_factor = 0.05
+		conscription_factor = 0.03
+		ai_will_do = { factor = 1 }
+	}
+	BRM_navy_founder = {	# Commodore Than Pe
+		random = no
+		navy_org_factor = 0.05
+		naval_speed_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	BRM_air_pioneer = {	# Air Commodore Tommy Clift
+		random = no
+		air_superiority_efficiency = 0.05
+		air_mission_efficiency = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	BRM_staff_planner = {	# Brigadier Tin Pe
+		random = no
+		planning_speed = 0.10
+		army_org_factor = 0.02
+		ai_will_do = { factor = 1 }
+	}
+}

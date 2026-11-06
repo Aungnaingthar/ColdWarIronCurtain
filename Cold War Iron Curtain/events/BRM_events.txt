@@ -1,0 +1,433 @@
+add_namespace = brm
+
+country_event = {
+	id = brm.1
+	title = brm.1.t
+	desc = brm.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1949.1.25 date < 1949.7.1 }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.1.a
+		ai_chance = { factor = 10 }
+		army_experience = 10
+		add_war_support = 0.03
+	}
+	option = {
+		name = brm.1.b
+		ai_chance = { factor = 5 }
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = brm.2
+	title = brm.2.t
+	desc = brm.2.d
+	picture = GFX_report_event_generic_read_write
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1949.2.1 date < 1949.8.1 }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.2.a
+		ai_chance = { factor = 10 }
+		army_experience = 15
+	}
+	option = {
+		name = brm.2.b
+		ai_chance = { factor = 5 }
+		add_stability = 0.03
+	}
+}
+
+country_event = {
+	id = brm.4
+	title = brm.4.t
+	desc = brm.4.d
+	picture = GFX_report_event_generic_read_write
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1949.12.1 date < 1950.7.1 }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.4.a
+		ai_chance = { factor = 10 }
+		BRM_set_china_target = yes
+		if = { limit = { has_event_target = BRM_china } event_target:BRM_china = { add_opinion_modifier = { target = ROOT modifier = BRM_pauk_phaw_opinion } } }
+		add_political_power = 25
+	}
+	option = {
+		name = brm.4.b
+		ai_chance = { factor = 5 }
+		USA = { add_opinion_modifier = { target = ROOT modifier = BRM_western_friend } }
+	}
+}
+
+country_event = {
+	id = brm.5
+	title = brm.5.t
+	desc = brm.5.d
+	picture = GFX_report_event_generic_rally
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1952.8.1 date < 1953.6.1 }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.5.a
+		ai_chance = { factor = 10 }
+		add_stability = 0.03
+	}
+	option = {
+		name = brm.5.b
+		ai_chance = { factor = 5 }
+		add_tech_bonus = { name = BRM_pyidawtha_conference bonus = 0.5 uses = 1 category = industry }
+	}
+}
+
+country_event = {
+	id = brm.6
+	title = brm.6.t
+	desc = brm.6.d
+	picture = GFX_report_event_generic_sign_treaty1
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1953.3.1 date < 1954.6.1 OR = { has_idea = BRM_kmt_tension_3 has_idea = BRM_kmt_tension_2 has_idea = BRM_Kuomintang_Tensions_3 has_idea = BRM_Kuomintang_Tensions_2 } }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.6.a
+		ai_chance = { factor = 10 }
+		add_political_power = 50
+		BRM_step_kmt_tensions = yes
+	}
+	option = {
+		name = brm.6.b
+		ai_chance = { factor = 5 }
+		add_stability = 0.02
+		BRM_step_kmt_tensions = yes
+	}
+}
+
+country_event = {
+	id = brm.7
+	title = brm.7.t
+	desc = brm.7.d
+	picture = GFX_report_event_generic_sign_treaty1
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1954.10.1 date < 1955.6.1 NOT = { has_completed_focus = BRM_japanese_reparations } }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.7.a
+		ai_chance = { factor = 10 }
+		BRM_build_civ = yes
+	}
+	option = {
+		name = brm.7.b
+		ai_chance = { factor = 5 }
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = brm.8
+	title = brm.8.t
+	desc = brm.8.d
+	picture = GFX_report_event_generic_rally
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1954.5.1 date < 1955.3.1 }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.8.a
+		ai_chance = { factor = 10 }
+		add_stability = 0.04
+	}
+	option = {
+		name = brm.8.b
+		ai_chance = { factor = 5 }
+		add_stability = 0.02
+		add_political_power = 25
+	}
+}
+
+country_event = {
+	id = brm.9
+	title = brm.9.t
+	desc = brm.9.d
+	picture = GFX_report_event_generic_sign_treaty1
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1955.4.1 date < 1955.9.1 }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.9.a
+		ai_chance = { factor = 10 }
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = brm.10
+	title = brm.10.t
+	desc = brm.10.d
+	picture = GFX_report_event_generic_rally
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1955.12.1 date < 1956.6.1 }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.10.a
+		ai_chance = { factor = 10 }
+		SOV = { add_opinion_modifier = { target = ROOT modifier = BRM_soviet_friend } }
+		add_political_power = 25
+	}
+	option = {
+		name = brm.10.b
+		ai_chance = { factor = 5 }
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = brm.11
+	title = brm.11.t
+	desc = brm.11.d
+	picture = GFX_report_event_generic_read_write
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1958.4.1 date < 1958.12.1 NOT = { has_completed_focus = BRM_revolutionary_council } NOT = { has_completed_focus = BRM_peoples_revolution } }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.11.a
+		ai_chance = { factor = 10 }
+		add_stability = 0.03
+	}
+	option = {
+		name = brm.11.b
+		ai_chance = { factor = 5 }
+		add_political_power = 50
+	}
+	option = {
+		name = brm.11.c
+		ai_chance = { factor = 5 }
+		army_experience = 10
+	}
+}
+
+country_event = {
+	id = brm.12
+	title = brm.12.t
+	desc = brm.12.d
+	picture = GFX_report_event_generic_sign_treaty1
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1960.9.1 date < 1961.6.1 NOT = { has_completed_focus = BRM_boundary_treaty } }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.12.a
+		ai_chance = { factor = 10 }
+		add_stability = 0.03
+		BRM_set_china_target = yes
+		if = { limit = { has_event_target = BRM_china } event_target:BRM_china = { add_opinion_modifier = { target = ROOT modifier = BRM_pauk_phaw_opinion } } }
+	}
+}
+
+country_event = {
+	id = brm.13
+	title = brm.13.t
+	desc = brm.13.d
+	picture = GFX_report_event_generic_sign_treaty1
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1961.11.1 date < 1962.6.1 }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.13.a
+		ai_chance = { factor = 10 }
+		add_political_power = 75
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = brm.14
+	title = brm.14.t
+	desc = brm.14.d
+	picture = GFX_report_event_generic_rally
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1961.12.1 date < 1962.3.1 }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.14.a
+		ai_chance = { factor = 10 }
+		add_stability = 0.02
+		add_war_support = 0.01
+	}
+}
+
+country_event = {
+	id = brm.15
+	title = brm.15.t
+	desc = brm.15.d
+	picture = GFX_report_event_generic_read_write
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1975.7.1 date < 1976.3.1 }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.15.a
+		ai_chance = { factor = 10 }
+		add_political_power = -25
+		add_stability = 0.04
+	}
+	option = {
+		name = brm.15.b
+		ai_chance = { factor = 5 }
+		add_stability = 0.01
+	}
+}
+
+country_event = {
+	id = brm.16
+	title = brm.16.t
+	desc = brm.16.d
+	picture = GFX_report_event_gathering_protesters
+	fire_only_once = yes
+	trigger = { tag = BRM date > 2007.8.15 date < 2008.3.1 has_completed_focus = BRM_slorc NOT = { has_completed_focus = BRM_thein_sein_reforms } }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.16.a
+		ai_chance = { factor = 10 }
+		add_war_support = 0.03
+		add_political_power = 25
+	}
+	option = {
+		name = brm.16.b
+		ai_chance = { factor = 5 }
+		add_stability = 0.03
+		add_political_power = -25
+	}
+}
+
+country_event = {
+	id = brm.17
+	title = brm.17.t
+	desc = brm.17.d
+	picture = GFX_report_event_generic_read_write
+	fire_only_once = yes
+	trigger = { tag = BRM date > 2008.5.2 date < 2008.9.1 }
+	mean_time_to_happen = { days = 3 }
+	immediate = {
+		add_stability = -0.03
+	}
+	option = {
+		name = brm.17.a
+		ai_chance = { factor = 10 }
+		add_stability = 0.05
+		USA = { add_opinion_modifier = { target = ROOT modifier = BRM_western_friend } }
+	}
+	option = {
+		name = brm.17.b
+		ai_chance = { factor = 5 }
+		add_political_power = 25
+		add_war_support = 0.02
+	}
+}
+
+country_event = {
+	id = brm.18
+	title = brm.18.t
+	desc = brm.18.d
+	picture = GFX_report_event_generic_rally
+	fire_only_once = yes
+	trigger = { tag = BRM date > 2010.11.1 date < 2011.6.1 has_completed_focus = BRM_slorc }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.18.a
+		ai_chance = { factor = 10 }
+		add_stability = 0.03
+		USA = { add_opinion_modifier = { target = ROOT modifier = BRM_western_friend } }
+	}
+}
+
+country_event = {
+	id = brm.19
+	title = brm.19.t
+	desc = brm.19.d
+	picture = GFX_report_event_generic_rally
+	fire_only_once = yes
+	trigger = { tag = BRM date > 2013.12.1 date < 2014.3.1 }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.19.a
+		ai_chance = { factor = 10 }
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = brm.20
+	title = brm.20.t
+	desc = brm.20.d
+	picture = GFX_report_event_generic_sign_treaty1
+	fire_only_once = yes
+	trigger = { tag = BRM date > 2014.1.1 date < 2014.12.1 has_completed_focus = BRM_join_asean }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.20.a
+		ai_chance = { factor = 10 }
+		add_political_power = 50
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = brm.21
+	title = brm.21.t
+	desc = brm.21.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	fire_only_once = yes
+	trigger = { tag = BRM date > 2023.10.27 date < 2024.6.1 has_idea = BRM_spring_revolution }
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = brm.21.a
+		ai_chance = { factor = 10 }
+		add_political_power = 25
+		BRM_set_china_target = yes
+		if = { limit = { has_event_target = BRM_china } event_target:BRM_china = { add_opinion_modifier = { target = ROOT modifier = BRM_pauk_phaw_opinion } } }
+	}
+	option = {
+		name = brm.21.b
+		ai_chance = { factor = 5 }
+		add_war_support = 0.05
+	}
+}
+
+country_event = {
+	id = brm.50
+	title = brm.50.t
+	desc = brm.50.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+	option = {
+		name = brm.50.a
+		ai_chance = { factor = 10 }
+		add_tech_bonus = { name = BRM_fritz_werner bonus = 0.5 uses = 2 category = infantry_weapons }
+	}
+	option = {
+		name = brm.50.b
+		ai_chance = { factor = 5 }
+		army_experience = 10
+		add_war_support = 0.02
+	}
+}
+
+country_event = {
+	id = brm.51
+	title = brm.51.t
+	desc = brm.51.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+	option = {
+		name = brm.51.a
+		ai_chance = { factor = 10 }
+		add_political_power = 50
+		add_stability = 0.02
+	}
+	option = {
+		name = brm.51.b
+		ai_chance = { factor = 5 }
+		BRM_build_civ = yes
+	}
+}
+
