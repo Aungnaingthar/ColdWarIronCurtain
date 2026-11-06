@@ -1,0 +1,9 @@
+# The Military Industry (MIO) trait tree window uses GFX_MIO_details_background,
+# which nothing defined, so the window was drawn black. This gives it a
+# vanilla-style blue-grey background.
+spriteTypes = {
+	spriteType = {
+		name = "GFX_MIO_details_background"
+		textureFile = "gfx/interface/ICX/mio_details_bg.dds"
+	}
+}
