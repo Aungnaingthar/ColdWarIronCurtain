@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = HUN_60s_Kadar_The_Sweet_60s_in_Hungary
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		x = 19
 		y = 0
@@ -22,7 +22,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Solidify_Eastern_Ties
-		icon = GFX_unknown
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 1.00
 		mutually_exclusive = {
 			focus = HUN_60s_Kadar_The_Ferryman_of_Europe
@@ -39,7 +39,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Ferryman_of_Europe
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		mutually_exclusive = {
 			focus = HUN_60s_Kadar_Solidify_Eastern_Ties
@@ -56,7 +56,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Handle_Rising_Anti_Kadar_Sentiment
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		x = 19
 		y = 9
@@ -74,7 +74,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Rethinking_Military_Strategy
-		icon = GFX_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 4.00
 		x = 27
 		y = 0
@@ -86,7 +86,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Rebuilding_Our_Air_Force
-		icon = GFX_unknown
+		icon = GFX_bulgarian_air_force
 		cost = 2.00
 		x = 36
 		y = 0
@@ -98,7 +98,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Unexpected_Cultural_Impacts_of_Goulash_Communism
-		icon = GFX_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 4.00
 		x = 39
 		y = 5
@@ -113,7 +113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Reforming_the_Economic_Mechanism
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 2.00
 		x = 64
 		y = 0
@@ -124,7 +124,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_A_Planned_Economy_without_a_Plan
-		icon = GFX_goal_unknown
+		icon = GFX_PlannedEconomy
 		cost = 4.00
 		x = 64
 		y = 7
@@ -139,7 +139,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_New_Economic_Mechanism
-		icon = GFX_goal_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 14.00
 		x = 72
 		y = 9
@@ -159,7 +159,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expand_East_German_Trade
-		icon = GFX_unknown
+		icon = GFX_East_German_Steel
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Solidify_Eastern_Ties
@@ -191,7 +191,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expand_Czechoslovakian_Trade
-		icon = GFX_unknown
+		icon = GFX_Generic_Trade
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expand_East_German_Trade
@@ -223,7 +223,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Deepen_Polish_Trade_Ties
-		icon = GFX_unknown
+		icon = GFX_POR_Increase_Trade_Ties_with_South_Africa
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expand_East_German_Trade
@@ -255,7 +255,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Yesterdays_Foe_Todays_Friend
-		icon = GFX_unknown
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expand_Czechoslovakian_Trade
@@ -284,7 +284,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expand_Soviet_Aid
-		icon = GFX_unknown
+		icon = GFX_Soviet_Industrial_Aid
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Solidify_Eastern_Ties
@@ -302,7 +302,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Reinvigorate_Soviet_Trade
-		icon = GFX_unknown
+		icon = GFX_Generic_Soviet_Trade
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expand_Soviet_Aid
@@ -319,7 +319,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Pursue_Further_COMECON_Integration
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Reinvigorate_Soviet_Trade
@@ -334,7 +334,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Regain_Bloc_Normal_Status
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Ferryman_of_Europe
@@ -360,7 +360,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Reassure_the_Soviets
-		icon = GFX_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Regain_Bloc_Normal_Status
@@ -385,7 +385,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expand_Western_Diplomacy
-		icon = GFX_unknown
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Ferryman_of_Europe
@@ -513,7 +513,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Meet_with_De_Gaulle
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expand_Western_Diplomacy
@@ -541,7 +541,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Attempt_to_Soften_East_West_Relations
-		icon = GFX_unknown
+		icon = GFX_generic_focus_diplomacy_east_west_europe_accord
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Reassure_the_Soviets
@@ -559,7 +559,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Start_Trading_With_the_West
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Attempt_to_Soften_East_West_Relations
@@ -574,7 +574,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Consider_Western_Loans
-		icon = GFX_unknown
+		icon = GFX_Generic_Trade
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Attempt_to_Soften_East_West_Relations
@@ -589,7 +589,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Prepare_For_the_8th_Party_Congress
-		icon = GFX_unknown
+		icon = GFX_focus_generic_election
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Sweet_60s_in_Hungary
@@ -605,7 +605,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Maintaining_Intra_Bloc_Relationships
-		icon = GFX_unknown
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Prepare_For_the_8th_Party_Congress
@@ -680,7 +680,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Western_Question
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Maintaining_Intra_Bloc_Relationships
@@ -695,7 +695,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Reign_in_the_Paranoia
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Prepare_For_the_8th_Party_Congress
@@ -711,7 +711,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Re_Thinking_Our_Strategy
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Reign_in_the_Paranoia
@@ -732,7 +732,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_VIII_Party_Congress
-		icon = GFX_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Western_Question
@@ -758,7 +758,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Declare_General_Amnesty
-		icon = GFX_unknown
+		icon = GFX_Tiger_Divisions
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_VIII_Party_Congress
@@ -780,7 +780,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Curtail_the_Secret_Police
-		icon = GFX_unknown
+		icon = GFX_Strengthen_the_Secret_Police
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Declare_General_Amnesty
@@ -801,7 +801,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Initiate_Small_Scale_Liberalization
-		icon = GFX_unknown
+		icon = GFX_INO_Small_Scale_Farm_Mechanization
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_VIII_Party_Congress
@@ -822,7 +822,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Realigning_Our_Foreign_Policy
-		icon = GFX_unknown
+		icon = GFX_Turkish_foreign_policy_SRT
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Initiate_Small_Scale_Liberalization
@@ -837,7 +837,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Address_Growing_Party_Unrest
-		icon = GFX_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Handle_Rising_Anti_Kadar_Sentiment
@@ -860,7 +860,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Attempt_to_Cement_Kadars_Authority
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Address_Growing_Party_Unrest
@@ -879,7 +879,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Examine_Household_Goods_Availability
-		icon = GFX_unknown
+		icon = GFX_SOV_encourage_production_of_cultural_and_household_goods
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Unexpected_Cultural_Impacts_of_Goulash_Communism
@@ -894,7 +894,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Household_Radios_and_Televisions
-		icon = GFX_unknown
+		icon = GFX_Utilize_Mass_Media_For_Propaganda
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Examine_Household_Goods_Availability
@@ -920,7 +920,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Continue_Using_Soviet_Weapons
-		icon = GFX_unknown
+		icon = GFX_usa_80_continue_using_isi
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Rethinking_Military_Strategy
@@ -939,7 +939,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Buy_Into_Soviet_Armor_Development
-		icon = GFX_unknown
+		icon = GFX_Buy_Soviet_MigsADR
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Continue_Using_Soviet_Weapons
@@ -974,7 +974,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Import_the_Volga
-		icon = GFX_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Household_Radios_and_Televisions
@@ -990,7 +990,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expand_Our_Air_Bases
-		icon = GFX_unknown
+		icon = GFX_goal_generic_AirBases
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Buy_Into_Soviet_Armor_Development
@@ -1017,7 +1017,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Import_East_German_Cars
-		icon = GFX_unknown
+		icon = GFX_East_German_Steel
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Import_the_Volga
@@ -1042,7 +1042,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Hungarian_Games_For_Hungarian_Families
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Examine_Household_Goods_Availability
@@ -1057,7 +1057,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Increase_Soviet_Reliance
-		icon = GFX_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Rethinking_Military_Strategy
@@ -1079,7 +1079,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Rely_on_Soviet_Designs
-		icon = GFX_unknown
+		icon = GFX_Rely_on_Soviet_Imports
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Increase_Soviet_Reliance
@@ -1098,7 +1098,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Role_of_Commodities_in_Socialist_Society
-		icon = GFX_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Examine_Household_Goods_Availability
@@ -1132,7 +1132,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Made_in_Hungary
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Role_of_Commodities_in_Socialist_Society
@@ -1147,7 +1147,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Reduce_Military_Expenditures
-		icon = GFX_unknown
+		icon = GFX_Reduce_Compulsory_Military_Service
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Rethinking_Military_Strategy
@@ -1162,7 +1162,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Shifting_Our_Resources
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Reduce_Military_Expenditures
@@ -1177,7 +1177,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Join_the_Soviets_in_Prague
-		icon = GFX_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Shifting_Our_Resources
@@ -1211,7 +1211,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Bolster_Domestic_Forces
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expand_Our_Air_Bases
@@ -1244,7 +1244,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Education_Through_Media
-		icon = GFX_unknown
+		icon = GFX_universities
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Unexpected_Cultural_Impacts_of_Goulash_Communism
@@ -1266,7 +1266,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Enshrine_Sellars
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Education_Through_Media
@@ -1287,7 +1287,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Pursue_Helicopter_Innovations
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Rebuilding_Our_Air_Force
@@ -1306,7 +1306,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Bring_the_Mi_4_to_Hungary
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Pursue_Helicopter_Innovations
@@ -1328,7 +1328,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Develop_Aerial_Transport_Capabilities
-		icon = GFX_unknown
+		icon = GFX_Railway_Reconstruction
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Bring_the_Mi_4_to_Hungary
@@ -1350,7 +1350,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expand_Capacity_of_Schools
-		icon = GFX_unknown
+		icon = GFX_Invest_in_Education
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Education_Through_Media
@@ -1365,7 +1365,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Stay_the_Course
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expand_Capacity_of_Schools
@@ -1384,7 +1384,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Ideology_Doesnt_Belong_In_the_Classroom
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expand_Capacity_of_Schools
@@ -1402,7 +1402,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Mold_the_Workers_of_Tomorrow
-		icon = GFX_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Stay_the_Course
@@ -1418,7 +1418,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Fund_Comprehensive_Engineering_Education
-		icon = GFX_unknown
+		icon = GFX_GDR_Expand_Funding_For_Electronic_Engineering_Education
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Mold_the_Workers_of_Tomorrow
@@ -1437,7 +1437,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Force_Peasants_Into_the_Classroom
-		icon = GFX_unknown
+		icon = GFX_Agriculture_2
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Mold_the_Workers_of_Tomorrow
@@ -1452,7 +1452,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Utilize_Soviet_Jet_Technology
-		icon = GFX_unknown
+		icon = GFX_Generic_Jet
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Rebuilding_Our_Air_Force
@@ -1471,7 +1471,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Receive_Czech_IL_28s
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Utilize_Soviet_Jet_Technology
@@ -1493,7 +1493,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Form_Magyar_Aviation_Clubs
-		icon = GFX_unknown
+		icon = GFX_Expand_Airfields
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Receive_Czech_IL_28s
@@ -1513,7 +1513,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Adapt_Western_Advertisement_Methods
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Education_Through_Media
@@ -1530,7 +1530,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expand_Technical_and_Vocational_Education
-		icon = GFX_unknown
+		icon = GFX_Prioritize_Technical_Education
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Mold_the_Workers_of_Tomorrow
@@ -1549,7 +1549,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Develop_Hungarian_MIG_19s
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Utilize_Soviet_Jet_Technology
@@ -1571,7 +1571,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_A_Hungarian_Musical_Golden_Age
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Unexpected_Cultural_Impacts_of_Goulash_Communism
@@ -1587,7 +1587,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Magyar_Rock_and_Roll
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_A_Hungarian_Musical_Golden_Age
@@ -1609,7 +1609,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Consumerism_In_Our_Music
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Magyar_Rock_and_Roll
@@ -1624,7 +1624,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Innovate_Anti_Air_Technology
-		icon = GFX_unknown
+		icon = GFX_Deploy_the_Airforce
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Rebuilding_Our_Air_Force
@@ -1646,7 +1646,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Further_Expanding_Air_Force_Bases
-		icon = GFX_unknown
+		icon = GFX_goal_generic_AirBases
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Develop_Hungarian_MIG_19s
@@ -1684,7 +1684,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Reinforce_the_Gyor_Air_Base
-		icon = GFX_unknown
+		icon = GFX_goal_generic_AirBases
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Innovate_Anti_Air_Technology
@@ -1711,7 +1711,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Import_the_Strela
-		icon = GFX_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Reinforce_the_Gyor_Air_Base
@@ -1733,7 +1733,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Magyar_Radio_Es_Televizio
-		icon = GFX_unknown
+		icon = GFX_Construct_radio_towers
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_A_Hungarian_Musical_Golden_Age
@@ -1749,7 +1749,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Rural_Television
-		icon = GFX_unknown
+		icon = GFX_Construct_radio_towers
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Magyar_Radio_Es_Televizio
@@ -1764,7 +1764,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Establish_MTV_Archives
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Magyar_Radio_Es_Televizio
@@ -1779,7 +1779,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Our_First_Colored_Broadcast
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Establish_MTV_Archives
@@ -1797,7 +1797,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Unequal_Equality
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Unexpected_Cultural_Impacts_of_Goulash_Communism
@@ -1812,7 +1812,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Debate_of_Hungarian_Suffrage
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Unequal_Equality
@@ -1827,7 +1827,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Magyar_Mothers_Nothing_More
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Debate_of_Hungarian_Suffrage
@@ -1854,7 +1854,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Mothers_of_Our_Workers
-		icon = GFX_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Magyar_Mothers_Nothing_More
@@ -1870,7 +1870,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Repeal_Old_Legislation
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Magyar_Mothers_Nothing_More
@@ -1893,7 +1893,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_An_Equal_Counterpart
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Debate_of_Hungarian_Suffrage
@@ -1911,7 +1911,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_In_the_Home_and_the_Factory
-		icon = GFX_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_An_Equal_Counterpart
@@ -1926,7 +1926,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Reviewing_the_Status_of_Our_Infrastructure
-		icon = GFX_goal_unknown
+		icon = GFX_Begin_infrastructure_efforts
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Reforming_the_Economic_Mechanism
@@ -1940,7 +1940,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expanding_the_Budapest_Metro
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Reviewing_the_Status_of_Our_Infrastructure
@@ -1960,7 +1960,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expanding_the_Budapest_Nyugati_Tram_Line
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expanding_the_Budapest_Metro
@@ -1980,7 +1980,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expand_the_Miskolc_Tram_System
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_the_Topke_System
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expanding_the_Budapest_Nyugati_Tram_Line
@@ -2000,7 +2000,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Extend_Nagy_Lajos_Kiraly_Utjas_Side_Tracks
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expanding_the_Budapest_Nyugati_Tram_Line
@@ -2020,7 +2020,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Queer_Magyars
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Unequal_Equality
@@ -2035,7 +2035,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Maintain_the_Database
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Queer_Magyars
@@ -2054,7 +2054,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Traditional_Hungarian_Sexual_Values
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Maintain_the_Database
@@ -2077,7 +2077,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_NEw_Tram_Lines_in_Debrecen
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expanding_the_Budapest_Nyugati_Tram_Line
@@ -2097,7 +2097,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Ignore_Growing_Dissent
-		icon = GFX_unknown
+		icon = GFX_focus_internal_dissent
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Maintain_the_Database
@@ -2113,7 +2113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Childrens_Railway
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBuildRoads
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Reviewing_the_Status_of_Our_Infrastructure
@@ -2127,7 +2127,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_New_Domestic_Engines
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Childrens_Railway
@@ -2145,7 +2145,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_MAV_Class_V43
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 6.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_New_Domestic_Engines
@@ -2161,7 +2161,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expanding_Rural_Infrastructure
-		icon = GFX_goal_unknown
+		icon = GFX_Begin_infrastructure_efforts
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_MAV_Class_V43
@@ -2195,7 +2195,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_A_United_Hungary
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Queer_Magyars
@@ -2214,7 +2214,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Destroy_the_Database
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_A_United_Hungary
@@ -2229,7 +2229,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Full_Legalization_of_Hungarian_Homosexuality
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_A_United_Hungary
@@ -2252,7 +2252,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expanding_Hungarian_Infrastructure
-		icon = GFX_goal_unknown
+		icon = GFX_Railway_Reconstruction
 		cost = 6.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Reviewing_the_Status_of_Our_Infrastructure
@@ -2266,7 +2266,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Construct_the_Arpad_Bridge
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBuildRoads
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expanding_Hungarian_Infrastructure
@@ -2286,7 +2286,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Erzsebet_Bridge
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBuildRoads
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Construct_the_Arpad_Bridge
@@ -2306,7 +2306,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Salesman_of_the_Eastern_Bloc
-		icon = GFX_goal_unknown
+		icon = GFX_Renegotiate_Eastern_Bloc_Trade
 		cost = 6.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_A_Planned_Economy_without_a_Plan
@@ -2321,7 +2321,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Unexpected_Recovery
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Reforming_the_Economic_Mechanism
@@ -2344,7 +2344,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Loosening_the_Reigns
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 6.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Unexpected_Recovery
@@ -2364,7 +2364,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Consumer_Socialism
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Consumer_Socialism
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Loosening_the_Reigns
@@ -2387,7 +2387,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Self_Service_and_Retail_Expansion_Planning
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Consumer_Socialism
@@ -2408,7 +2408,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expanding_our_Light_Industry
-		icon = GFX_goal_unknown
+		icon = GFX_Reinvigorate_light_industry_in_Thessaloniki
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Loosening_the_Reigns
@@ -2433,7 +2433,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Abolish_the_Directories
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 6.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Expanding_our_Light_Industry
@@ -2447,7 +2447,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Begin_Enterprise_Mergers
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 6.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Abolish_the_Directories
@@ -2468,7 +2468,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Goulash_Politics_for_Goulash_Communism
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_armed_communism
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_A_Planned_Economy_without_a_Plan
@@ -2498,7 +2498,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Limit_the_Reach_of_Economic_Planning
-		icon = GFX_goal_unknown
+		icon = GFX_Planning_for_the_New_Economic_System
 		cost = 6.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Goulash_Politics_for_Goulash_Communism
@@ -2512,7 +2512,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Refrigerator_Socialism
-		icon = GFX_goal_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 6.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Limit_the_Reach_of_Economic_Planning
@@ -2543,7 +2543,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Promote_Proper_Economic_Behavior
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Refrigerator_Socialism
@@ -2559,7 +2559,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Bolstering_Ties
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 3.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Loosening_the_Reigns
@@ -2573,7 +2573,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Trade_Deficit_Problem
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Bolstering_Ties
@@ -2587,7 +2587,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Open_Trade_with_the_West
-		icon = GFX_goal_unknown
+		icon = GFX_Open_the_Central_African_Fair_Trade_in_Bulawayo
 		cost = 6.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Trade_Deficit_Problem
@@ -2668,7 +2668,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Denounce_Capitalist_Consumerism
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_A_Planned_Economy_without_a_Plan
@@ -2719,7 +2719,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_A_Society_of_Consumers_Not_a_Society_of_Consumption
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Denounce_Capitalist_Consumerism
@@ -2745,7 +2745,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_A_Proper_Member_of_Socialist_Society
-		icon = GFX_goal_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_A_Society_of_Consumers_Not_a_Society_of_Consumption
@@ -2776,7 +2776,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Welfare_Experimentation
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_A_Proper_Member_of_Socialist_Society
@@ -2791,7 +2791,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_No_Collusion_with_the_Enemy
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Trade_Deficit_Problem
@@ -2881,7 +2881,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Business_of_Socialism
-		icon = GFX_goal_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_New_Economic_Mechanism
@@ -2903,7 +2903,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_A_Competitive_Market
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Business_of_Socialism
@@ -2916,7 +2916,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Horizontal_Business_Integration
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_A_Competitive_Market
@@ -2936,7 +2936,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Question_of_Agricultural_Collectivization
-		icon = GFX_goal_unknown
+		icon = GFX_End_Agricultural_Collectivization_Efforts
 		cost = 1.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Reforming_the_Economic_Mechanism
@@ -2950,7 +2950,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Continuing_the_Status_Quo
-		icon = GFX_goal_unknown
+		icon = TIB_KMT_50s_To_Finish_with_Status_Quo
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Question_of_Agricultural_Collectivization
@@ -2973,7 +2973,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Khruschevs_Seven_Year_Plan
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Seven_Year_Plan
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Continuing_the_Status_Quo
@@ -2990,7 +2990,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Salesman_of_the_Peoples_Republic
-		icon = GFX_goal_unknown
+		icon = GFX_Found_the_Peoples_Democratic_Republic_of_Malaysia
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Business_of_Socialism
@@ -3010,7 +3010,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Competing_for_Consumeres
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 6.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Salesman_of_the_Peoples_Republic
@@ -3032,7 +3032,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Expanding_Goulash_Communism
-		icon = GFX_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Curtail_the_Secret_Police
@@ -3051,7 +3051,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Remaining_Hardliners
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Promote_Reformers_to_High_Party_Positions
@@ -3067,7 +3067,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Promote_Reformers_to_High_Party_Positions
-		icon = GFX_unknown
+		icon = GFX_SOV_Introduce_Regional_Leaders_Into_High_Governing_Positions
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Address_Growing_Party_Unrest
@@ -3095,7 +3095,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_A_Letter_to_the_Soviets
-		icon = GFX_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Remaining_Hardliners
@@ -3115,7 +3115,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_New_Protections_for_Women
-		icon = GFX_unknown
+		icon = GFX_GDR_Amend_The_Law_on_Maternal_and_Child_Protection_and_Womens_Rights
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_An_Equal_Counterpart
@@ -3138,7 +3138,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Recruit_Soviet_Professors
-		icon = GFX_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Fund_Comprehensive_Engineering_Education
@@ -3170,7 +3170,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Introduce_Russian_Language_Studies
-		icon = GFX_unknown
+		icon = GFX_Encourage_Russian_Language_Education
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Force_Peasants_Into_the_Classroom
@@ -3188,7 +3188,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Magyar_Cultural_Exports
-		icon = GFX_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Made_in_Hungary
@@ -3316,7 +3316,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_Peoples_Advertising
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Self_Service_and_Retail_Expansion_Planning
@@ -3332,7 +3332,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Pricing_Reform
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 2.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Peoples_Advertising
@@ -3349,7 +3349,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_A_New_Course
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Question_of_Agricultural_Collectivization
@@ -3372,7 +3372,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Goulash_Communism_in_the_Fields
-		icon = GFX_goal_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_A_New_Course
@@ -3389,7 +3389,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_New_Economic_Mechanism_in_our_Fields
-		icon = GFX_goal_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Goulash_Communism_in_the_Fields
@@ -3410,7 +3410,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Consumer_Oriented_Agriculture
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_agriculture_irrigation
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_New_Economic_Mechanism_in_our_Fields
@@ -3427,7 +3427,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Permit_Private_Lots
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Consumer_Oriented_Agriculture
@@ -3464,7 +3464,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Allow_Farmers_to_Purchase_their_own_Equipment
-		icon = GFX_goal_unknown
+		icon = GFX_COL_Purchase_US_Military_Equipments
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Permit_Private_Lots
@@ -3494,7 +3494,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Wait_for_the_Results
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Allow_Farmers_to_Purchase_their_own_Equipment
@@ -3529,7 +3529,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Allow_for_Private_Enterprises
-		icon = GFX_goal_unknown
+		icon = GFX_PromotePrivateEnterprises
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Salesman_of_the_Eastern_Bloc
@@ -3566,7 +3566,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Attempt_to_Out_Produce_Demand
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Allow_for_Private_Enterprises
@@ -3580,7 +3580,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Abandon_Restructuring_Producer_Prices
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Attempt_to_Out_Produce_Demand
@@ -3596,7 +3596,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Raising_the_Standard_of_Living
-		icon = GFX_goal_unknown
+		icon = GFX_Focus_on_Improving_Living_Standards
 		cost = 10.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_The_Business_of_Socialism
@@ -3621,7 +3621,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_Launch_New_Infrastructure_Projects
-		icon = GFX_goal_unknown
+		icon = GFX_Begin_infrastructure_efforts
 		cost = 6.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Raising_the_Standard_of_Living
@@ -3640,7 +3640,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_60s_Kadar_The_NEM_Golden_Age
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 6.00
 		prerequisite = {
 			focus = HUN_60s_Kadar_Competing_for_Consumeres

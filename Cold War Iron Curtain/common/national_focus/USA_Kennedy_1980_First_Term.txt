@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_KENNEDY80_The_Kennedy_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Federalize_Welfare
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_The_Kennedy_Administration
@@ -41,7 +41,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Housing_Act_of_1981
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_housing_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Federalize_Welfare
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Declare_Six_Month_Freeze_on_Inflation
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_The_Kennedy_Administration
@@ -79,7 +79,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Increase_Funding_for_the_Mental_Health_Systems_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_increase_contra_funding
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Declare_Six_Month_Freeze_on_Inflation
@@ -98,7 +98,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Handgun_Registration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Increase_Funding_for_the_Mental_Health_Systems_Act
@@ -117,7 +117,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Automanufacturing_Domestic_Content_Bill
-		icon = GFX_goal_unknown
+		icon = GFX_Revive_the_Automanufacturing_Domestic_Content_Bill
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Handgun_Registration_Act
@@ -133,7 +133,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Reverse_Oil_Deregulation_Policies
-		icon = GFX_goal_unknown
+		icon = GFX_Hydroelectric_Dam_Development
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Declare_Six_Month_Freeze_on_Inflation
@@ -149,7 +149,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Hike_Agricultural_Subsidies
-		icon = GFX_goal_unknown
+		icon = GFX_Agricultural_Subsidies
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Reverse_Oil_Deregulation_Policies
@@ -168,7 +168,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_National_Minimum_Drinking_Age_Act
-		icon = GFX_goal_unknown
+		icon = GFX_National_Security_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Hike_Agricultural_Subsidies
@@ -187,7 +187,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Halt_New_Nuclear_Plant_Construction
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_construction_of_verkhnetagilskaya_regional_thermal_power_plants
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Hike_Agricultural_Subsidies
@@ -203,7 +203,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Energy_Development_Act_of_1982
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp80_japan_united_states_energy_cooperation
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_National_Minimum_Drinking_Age_Act
@@ -222,7 +222,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Address_the_AIDS_Crisis
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Energy_Development_Act_of_1982
@@ -238,7 +238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Clean_Energy_Production_Act_of_1983
-		icon = GFX_goal_unknown
+		icon = GFX_Amend_the_Clean_Air_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Push_for_Medicare_For_All
@@ -254,7 +254,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Launch_New_Mass_Transit_Reforms
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Urban_Revitilization_Act
@@ -273,7 +273,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Enforce_the_Spirit_of_Humphrey_Hawkins_Full_Employment_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Revenue_Adjustment_Act_of_1984
@@ -298,7 +298,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Urban_Revitilization_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Energy_Development_Act_of_1982
@@ -317,7 +317,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Appoint_Rohatyn_as_Federal_Reserve_Chairman
-		icon = GFX_goal_unknown
+		icon = GFX_Appoint_Hans_Speidel_as_Chairman
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Urban_Revitilization_Act
@@ -341,7 +341,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Revenue_Adjustment_Act_of_1984
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Appoint_Rohatyn_as_Federal_Reserve_Chairman
@@ -357,7 +357,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Medical_Education_Reform_Act_of_1984
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Launch_New_Mass_Transit_Reforms
@@ -374,7 +374,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Push_for_Medicare_For_All
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Automanufacturing_Domestic_Content_Bill

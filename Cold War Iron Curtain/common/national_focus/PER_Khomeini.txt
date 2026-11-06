@@ -1,6 +1,6 @@
 shared_focus = {
 	id = PER_return_of_khomeini
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	cost = 5
@@ -16,7 +16,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_distrust_khomeini
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -41,7 +41,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_mobilize_the_immortaL_guards
-	icon = GFX_unknown
+	icon = GFX_PRC_Mobilize_Red_Guard
 	completion_reward = {
 	}
 	prerequisite = {
@@ -60,7 +60,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_crush_the_protest
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -117,7 +117,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_storm_meks_headquarters
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -136,7 +136,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_oppose_the_influence_of_the_soviet_union
-	icon = GFX_unknown
+	icon = GFX_Reaffirm_allegiance_to_the_soviet_union
 	completion_reward = {
 	}
 	prerequisite = {
@@ -158,7 +158,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_ties_with_the_west
-	icon = GFX_unknown
+	icon = GFX_TUR_Closer_Ties_With_West
 	completion_reward = {
 	}
 	prerequisite = {
@@ -177,7 +177,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_request_joining_nato
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -215,7 +215,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_promote_tourism_of_iran_programs
-	icon = GFX_unknown
+	icon = GFX_Promote_red_tourism
 	completion_reward = {
 	}
 	prerequisite = {
@@ -253,7 +253,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_the_nato_councils_response
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -278,7 +278,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_nato_accepts
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -303,7 +303,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_iran_on_its_own
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -328,7 +328,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_arrest_khomeini
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -347,7 +347,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_detain_shia_islamist_clergy
-	icon = GFX_unknown
+	icon = GFX_Religous_Unity
 	completion_reward = {
 	}
 	prerequisite = {
@@ -366,7 +366,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_banish_the_islamists
-	icon = GFX_unknown
+	icon = GFX_Religous_Unity
 	completion_reward = {
 	}
 	prerequisite = {
@@ -388,7 +388,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_ban_clergy_activities
-	icon = GFX_unknown
+	icon = GFX_Religous_Unity
 	completion_reward = {
 	}
 	prerequisite = {
@@ -407,7 +407,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_execute_all_islamists
-	icon = GFX_unknown
+	icon = GFX_ProBuddha
 	completion_reward = {
 	}
 	prerequisite = {
@@ -429,7 +429,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_safegaurd_iranian_security_and_prosperity
-	icon = GFX_unknown
+	icon = GFX_Stamp_out_Corruption
 	completion_reward = {
 	}
 	prerequisite = {
@@ -448,7 +448,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_a_secular_iran
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -470,7 +470,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_shah_flees
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	mutually_exclusive = {
@@ -495,7 +495,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_shah_stays
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -520,7 +520,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_call_upon_the_loyalist_forces
-	icon = GFX_unknown
+	icon = GFX_usa_fp80_call_for_a_multinational_peace_force
 	completion_reward = {
 	}
 	prerequisite = {
@@ -539,7 +539,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_protests_of_tehrani_college_students
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -558,7 +558,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_disrupt_khomeinis_public_speech
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -577,7 +577,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_kurdish_independency_movement
-	icon = GFX_unknown
+	icon = GFX_strenth_in_unity
 	completion_reward = {
 	}
 	prerequisite = {
@@ -596,7 +596,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_sunni_clergy_raises_unrest_in_balochistan
-	icon = GFX_unknown
+	icon = GFX_ProBuddha
 	completion_reward = {
 	}
 	prerequisite = {
@@ -615,7 +615,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_convince_general_huyser
-	icon = GFX_unknown
+	icon = GFX_generic_focus_military_massed_infantry
 	completion_reward = {
 	}
 	prerequisite = {
@@ -643,7 +643,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_us_intervention
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -662,7 +662,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_reclaim_kurdistan
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -681,7 +681,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_reclaim_balochistan
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -700,7 +700,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_control_riots_in_tehran
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -719,7 +719,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_reza_pahlavi_heir_of_the_crown
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -743,7 +743,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_execute_khomeini
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -761,7 +761,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_execute_rajavi
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -779,7 +779,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_death_of_the_shahanshah_aryamahr
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -800,7 +800,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_bazargan_temporary_pm
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -819,7 +819,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_shahs_health_decline
-	icon = GFX_unknown
+	icon = GFX_Expand_Medical_Access
 	completion_reward = {
 	}
 	prerequisite = {
@@ -838,7 +838,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_formation_of_islamic_revolutionary_council
-	icon = GFX_unknown
+	icon = GFX_Religous_Unity
 	completion_reward = {
 	}
 	prerequisite = {
@@ -876,7 +876,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_forming_the_irgc
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -895,7 +895,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_trials_and_executions_of_imperial_loyalists
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -939,7 +939,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_wilayat_e_faqih
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -996,7 +996,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_ban_all_royalist_activities
-	icon = GFX_unknown
+	icon = GFX_goal_generic_parliament2
 	completion_reward = {
 	}
 	prerequisite = {
@@ -1037,7 +1037,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_repress_the_sunnis
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 	}
 	prerequisite = {
@@ -1059,7 +1059,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_repress_the_bahais
-	icon = GFX_unknown
+	icon = GFX_focus_crush_bahai
 	completion_reward = {
 	}
 	prerequisite = {
@@ -1078,7 +1078,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_repress_the_balochis
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -1097,7 +1097,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_ban_western_based_parties
-	icon = GFX_unknown
+	icon = GFX_SOVw_Force_Western_Communist_Parties_to_Revolt
 	completion_reward = {
 	}
 	prerequisite = {
@@ -1116,7 +1116,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_betray_the_us
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -1135,7 +1135,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_the_hostage_crisis
-	icon = GFX_unknown
+	icon = GFX_IranianHostageCrisis
 	completion_reward = {
 	}
 	prerequisite = {

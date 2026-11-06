@@ -892,7 +892,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_condemn_north_korea
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_North_Korea
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_cultural_revolution
@@ -1552,7 +1552,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_appint_borge
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_deploy_guards_to_miskito
@@ -1566,7 +1566,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_take_costa_Rica
-		icon = GFX_goal_unknown
+		icon = GFX_Central_Bank_Costa_Rica
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_appint_borge
@@ -1577,7 +1577,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_honduras_takeover
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_appint_borge
@@ -1758,7 +1758,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_turn_into_dprk
-		icon = GFX_goal_unknown
+		icon = GFX_Turn_the_Komsomol_into_a_spy_network
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_radical_revolutioin
@@ -1789,7 +1789,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_consolidate_power
-		icon = GFX_goal_unknown
+		icon = GFX_hussein_consolidates_power
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_turn_into_dprk
@@ -1931,7 +1931,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_east_germany
-		icon = GFX_goal_unknown
+		icon = GFX_Coal_East_Germany
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_avanche
@@ -3328,7 +3328,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_fight_drug_use
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_use_drug_money_funding
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_cult_of_sandino
@@ -3910,7 +3910,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_invest_in_defence
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_neutrality_in_sino_soviet
@@ -3924,7 +3924,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_recruit_Children
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_invest_in_defence
@@ -3935,7 +3935,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_purge_party
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_invest_in_defence
@@ -3973,7 +3973,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_sun_god
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_anti_intellectiuism
@@ -3987,7 +3987,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NICC_complete_tranfomation
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = NICC_recruit_Children

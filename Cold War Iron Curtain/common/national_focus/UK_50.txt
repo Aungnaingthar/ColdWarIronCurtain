@@ -362,6 +362,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Halt_Pay_Pauses
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -482,6 +483,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Encourage_Paid_Holidays
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -647,6 +649,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Popularize_Holiday_Camps
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -675,6 +678,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Permissive_Society
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -3019,6 +3023,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Stimulate_Household_Savings
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -3161,6 +3166,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Abandon_Devaluation_Policies
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -3371,6 +3377,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Pupils_Registration_Regulations
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -3431,6 +3438,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Inaugurate_Premium_Bonds
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -3447,6 +3455,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Subsidize_Unilever_Innovation
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -3509,6 +3518,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Encourage_Marketing_Department_Openings
+		icon = GFX_Generic_Trade
 		search_filters = {
 			IC_FILTER
 		}
@@ -3574,6 +3584,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Open_Dunlop_Facilities
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -3614,6 +3625,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Restrict_Bank_of_England_Credit_Allocation
+		icon = GFX_Economic_Reconstruction_Generic
 		search_filters = {
 			IC_FILTER
 		}
@@ -3713,6 +3725,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Set_Up_Radcliffe_Commission
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -3728,6 +3741,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Allow_Sterling_Pound_Convertibility
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -3835,6 +3849,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Metropolitan_Vickers_Train_Engines_Modernization
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -3856,6 +3871,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Develop_Fulmer_Reasearch_Institute_Mineral_Fund
+		icon = GFX_Generic_Trade
 		search_filters = {
 			IC_FILTER
 		}
@@ -3877,6 +3893,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Stimulate_English_Electric_Computer_Research
+		icon = GFX_goal_oil_derrick
 		search_filters = {
 			IC_FILTER
 		}
@@ -3947,6 +3964,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Aid_Marconi_Instrument_LTD
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = { 
 			IC_FILTER
 		}
@@ -3968,6 +3986,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UK50_Connect_Calder_Hall_Chapelcross_Reactors
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -4679,7 +4698,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_FV_214_Conqueror
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -4704,7 +4723,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_Expand_Centurion_Production
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -4721,7 +4740,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_Adopt_the_L1A1
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -4785,7 +4804,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_The_Daring_class_Destroyers
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_kolin_class_destroyer
 		search_filters = {
 			IC_FILTER
 		}
@@ -4856,7 +4875,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_Develop_the_Tiger_Class_Cruisers
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_groznykynda_class_cruiser
 		search_filters = {
 			IC_FILTER
 		}
@@ -4900,7 +4919,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_Vickers_Valiant
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -4922,7 +4941,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_Fission_Nuclear_Tests
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -5019,7 +5038,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_Produce_the_DH_112_Venom
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -5041,7 +5060,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_The_Hawker_Hunter
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -5063,7 +5082,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_The_Gloster_Javelin
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -5091,7 +5110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ENG_The_Avro_Vulcan
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}

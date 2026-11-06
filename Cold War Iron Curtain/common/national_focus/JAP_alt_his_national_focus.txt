@@ -12,7 +12,7 @@ focus_tree = {
 ### Ishii Branch ##########################
 	focus = {
 		id = JAP_The_Ishii_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_The_Yoshida_Administration
 		cost = 10.00
 		x = 26
 		y = 0
@@ -28,7 +28,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Solidify_American_Economic_Ties
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Massive_American_Economic_Aid
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_The_Ishii_Administration
@@ -68,7 +68,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Seek_Trade_Treaties_with_Australia_and_New_Zealand
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Increase_Chinese_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Solidify_American_Economic_Ties
@@ -88,7 +88,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Launch_Anti_Corruption_Campaign
-		icon = GFX_goal_unknown
+		icon = GFX_KMT_50s_Taiwan_anti_corruption_campaigns
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Seek_Trade_Treaties_with_Australia_and_New_Zealand
@@ -102,7 +102,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Restrict_Military_Expansion
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Solidify_American_Economic_Ties
@@ -116,7 +116,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Push_to_Reduce_Factional_LDP_Infighting
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_End_Factional_Favouritism
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Restrict_Military_Expansion
@@ -135,7 +135,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Increase_Collaboration_with_the_Keiretsus
-		icon = GFX_goal_unknown
+		icon = GFX_usa80_increase_collaboration_with_far_right_elements
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Push_to_Reduce_Factional_LDP_Infighting
@@ -162,7 +162,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Establish_Comprehensive_Trade_Treaty_with_Taiwan
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Increase_Chinese_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_The_Ishii_Administration
@@ -178,7 +178,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Reverse_Hatoyamas_Centralization_Reforms
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_The_Reverse_Course
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Establish_Comprehensive_Trade_Treaty_with_Taiwan
@@ -191,7 +191,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Appeasing_the_LDP_Base
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_The_Ishii_Administration
@@ -206,7 +206,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Propose_Banning_Nikkyoso
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Appeasing_the_LDP_Base
@@ -220,7 +220,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Encourage_Development_in_Hokkaido
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_encourage_foreign_investments
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Propose_Banning_Nikkyoso
@@ -245,7 +245,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Increase_Rural_Farm_Subsidies_Alt
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Increase_Rural_Farm_Subsisidies
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Appeasing_the_LDP_Base
@@ -265,7 +265,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Slash_Taxes
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Increase_Rural_Farm_Subsidies_Alt
@@ -281,7 +281,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Sideline_the_Constitutional_Reform_Committee
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Ramp_Up_the_Constitutional_Debate
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Slash_Taxes
@@ -298,7 +298,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_A_New_Security_Treaty
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_The_Treaty_of_San_Francisco_and_Mutual_Security_Treaty
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Sideline_the_Constitutional_Reform_Committee
@@ -319,7 +319,7 @@ focus_tree = {
 ### Matsumura Branch ####################
 	focus = {
 		id = JAP_The_Matsumura_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_The_Yoshida_Administration
 		cost = 10.00
 		x = 25
 		y = 0
@@ -338,7 +338,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Expand_Economic_Subsidies_for_Underdeveloped_Regions
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Massive_American_Economic_Aid
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_The_Matsumura_Administration
@@ -354,7 +354,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_The_Agricultural_Basic_Law
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Law_for_the_Reconstruction_of_Agricultural_Finances
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Expand_Economic_Subsidies_for_Underdeveloped_Regions
@@ -392,7 +392,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Increase_Technological_Investments
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_encourage_foreign_investments
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_The_Agricultural_Basic_Law
@@ -408,7 +408,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Institute_Progressive_Taxation
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Expand_Economic_Subsidies_for_Underdeveloped_Regions
@@ -424,7 +424,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Establish_Universal_Pensions
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Push_Through_Universal_Healthcare
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Institute_Progressive_Taxation
@@ -440,7 +440,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Abolish_the_Economic_Reconstruction_Forum
-		icon = GFX_goal_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Establish_Universal_Pensions
@@ -455,7 +455,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_The_Dream_of_Restoring_Relations_with_Beijing
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Establish_Diplomatic_Relations_with_Eastern_Europe
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_The_Matsumura_Administration
@@ -480,7 +480,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Japan_China_Joint_Communique
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_A_Peaceful_Japan
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_The_Dream_of_Restoring_Relations_with_Beijing
@@ -495,7 +495,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Strengthen_the_Bancho_Seisaku_Kenkyujo
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_The_Matsumura_Administration
@@ -508,7 +508,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Shelve_Kishis_Constitutional_Agenda
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Ramp_Up_the_Constitutional_Debate
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Strengthen_the_Bancho_Seisaku_Kenkyujo
@@ -522,7 +522,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Revert_Centralization_Reforms
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_School_Curriculum_and_Teachers_Efficiency_Rating_System_Reforms
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Shelve_Kishis_Constitutional_Agenda
@@ -535,7 +535,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Seek_a_Compromise_at_Miike
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Strengthen_the_Bancho_Seisaku_Kenkyujo
@@ -548,7 +548,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Withdraw_Support_from_Pro_Taiwanese_LDP_Canidates
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Withdraw_the_Police_Duties_Bill
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Seek_a_Compromise_at_Miike
@@ -562,7 +562,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Sever_Ties_with_Taiwan
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_prc_severs_taiwan_strait
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Japan_China_Joint_Communique
@@ -596,7 +596,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Push_Through_Universal_Healthcare_Alt
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Push_Through_Universal_Healthcare
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Revert_Centralization_Reforms
@@ -612,7 +612,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Expand_Agricultural_Modernizaion_Efforts_and_Subsidies
-		icon = GFX_goal_unknown
+		icon = GFX_Agricultural_Subsidies
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Push_America_to_Rethink_Position_on_China
@@ -630,7 +630,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Strengthen_Trade_Relations_with_China
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Increase_Chinese_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Japan_China_Joint_Communique
@@ -658,7 +658,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Stengthen_the_Fishing_Industry
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Sino_Japanese_Fishing_Agreement
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Push_America_to_Rethink_Position_on_China
@@ -675,7 +675,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Push_America_to_Rethink_Position_on_China
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Remove_the_Opposition_From_Committee_Chair_Positions
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Strengthen_Trade_Relations_with_China
@@ -693,7 +693,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Propose_Formal_Peace_Treaty_with_Beijing
-		icon = GFX_goal_unknown
+		icon = GFX_Japanese_peace_treaty_compromise
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Stengthen_the_Fishing_Industry

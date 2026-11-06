@@ -28,7 +28,7 @@ focus_tree = {
 	focus = {
 		id = USA_FORD_Appoint_Rockefeller_VP
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -45,7 +45,7 @@ focus_tree = {
 	focus = {
 		id = USA_FORD_Whip_Inflation_Now
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		search_filters = {
 			IC_FILTER
 		}
@@ -91,7 +91,7 @@ focus_tree = {
 	focus = {
 		id = USA_FORD_Metric_Conversion_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -187,7 +187,7 @@ focus_tree = {
 	focus = {
 		id = USA_FORD_Individuals_with_Disabilities_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -208,7 +208,7 @@ focus_tree = {
 	focus = {
 		id = USA_FORD_Pardon_Nixon
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_usa_nixon
 		search_filters = {
 			IC_FILTER
 		}
@@ -273,7 +273,7 @@ focus_tree = {
 	focus = {
 		id = USA_FORD_Federal_Land_Reform
 		text_icon = USA_focus_style
-		icon = GFX_unknown
+		icon = GFX_Commit_to_Land_Reform
 		search_filters = {
 			IC_FILTER
 		}
@@ -292,7 +292,7 @@ focus_tree = {
 	focus = {
 		id = USA_FORD_The_End_of_the_National_Nightmare
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_The_Road_to_Independence
 		search_filters = {
 			IC_FILTER
 		}

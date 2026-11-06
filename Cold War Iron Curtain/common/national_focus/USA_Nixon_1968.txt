@@ -80,7 +80,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON68_Foriegn_Military_Sales_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_usa_nixon
 		search_filters = {
 			IC_FILTER
 		}
@@ -154,7 +154,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON68_National_Environmental_Policy_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Farm_Policy_Reform_Act
 		search_filters = {
 			IC_FILTER
 		}
@@ -235,7 +235,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON68_Declare_War_on_Cancer
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_declare_war_on_FARC
 		search_filters = {
 			IC_FILTER
 		}
@@ -272,7 +272,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON68_Native_Self_Determination
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_the_fight_for_self_determination
 		search_filters = {
 			IC_FILTER
 		}
@@ -350,7 +350,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON68_Establish_the_Office_of_Minority_Business_Enterprise
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Establish_the_Belgian_Office_for_the_Increase_of_Productivity
 		search_filters = {
 			IC_FILTER
 		}
@@ -370,7 +370,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON68_Fight_Water_Pollution
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_usa_nixon
 		search_filters = {
 			IC_FILTER
 		}

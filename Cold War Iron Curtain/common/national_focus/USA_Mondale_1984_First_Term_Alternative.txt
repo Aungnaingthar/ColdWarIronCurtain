@@ -15,7 +15,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_MONDALEALT84_The_Mondale_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		x = 5
 		y = 0
@@ -27,7 +27,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Declare_a_Nuclear_Freeze
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_The_Mondale_Administration
@@ -46,7 +46,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Automanufacturing_Domestic_Content_Bill
-		icon = GFX_goal_unknown
+		icon = GFX_Revive_the_Automanufacturing_Domestic_Content_Bill
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Declare_a_Nuclear_Freeze
@@ -62,7 +62,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Education_Excellence_Fund
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Science
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_The_Mondale_Administration
@@ -77,7 +77,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Mass_Transit_Modernization_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Education_Excellence_Fund
@@ -97,7 +97,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Food_Stamp_Expansion_Act
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_agriculture_irrigation
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Mass_Transit_Modernization_Act
@@ -116,7 +116,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Attack_Wasteful_Military_Expenses
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Food_Stamp_Expansion_Act
@@ -134,7 +134,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Establish_an_Education_Corps
-		icon = GFX_goal_unknown
+		icon = GFX_USA_50s_The_United_States_Marine_Corps
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Education_Excellence_Fund
@@ -150,7 +150,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_The_Bradley_Gephardt_Tax_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Establish_an_Education_Corps
@@ -170,7 +170,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_The_Comprehensive_Anti_Apartheid_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_safeguard_anti_apartheid_movement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_The_Bradley_Gephardt_Tax_Reform_Act
@@ -188,7 +188,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Enviromental_Protection_Act
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_The_Bradley_Gephardt_Tax_Reform_Act
@@ -202,7 +202,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Womens_Economic_Equity_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_The_Comprehensive_Anti_Apartheid_Act
@@ -221,7 +221,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Worker_Displacement_Relief_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Refugee_Relief_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Womens_Economic_Equity_Act
@@ -237,7 +237,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Solidify_Pro_Union_NLRB
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_solidify_new_syrian_regime
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_The_Civil_Rights_Restoration_Act
@@ -256,7 +256,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_AIDS_Research_and_Relief_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Farm_Policy_Reform_Act
@@ -275,7 +275,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE84_Corporate_Fair_Tax_Act_Alt
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Expand_Childhood_Healthcare_access
@@ -294,7 +294,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Farm_Policy_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Farm_Policy_Reform_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Womens_Economic_Equity_Act
@@ -313,7 +313,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Electronic_Communications_Privacy_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Electronic_Industry_Subsidies_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Farm_Policy_Reform_Act
@@ -332,7 +332,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Expand_Childhood_Healthcare_access
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Electronic_Communications_Privacy_Act
@@ -348,7 +348,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_Fight_for_the_ERA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_the_fight_for_self_determination
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_AIDS_Research_and_Relief_Act
@@ -365,7 +365,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALEALT84_The_Civil_Rights_Restoration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALEALT84_Attack_Wasteful_Military_Expenses

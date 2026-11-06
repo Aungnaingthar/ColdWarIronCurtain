@@ -25,7 +25,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Reject_Special_Interests
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -43,7 +43,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Roll_Back_the_Welfare_State
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Begin_to_roll_back_state_repression
 		search_filters = {
 			IC_FILTER
 		}
@@ -60,7 +60,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Limit_Influence_of_Unions
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_POR_Limit_Foriegn_Economic_Influence
 		search_filters = {
 			IC_FILTER
 		}
@@ -84,7 +84,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Empower_States_Rights
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_American_States_Rights
 		search_filters = {
 			IC_FILTER
 		}
@@ -107,7 +107,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Reduce_Government_Overreach
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -127,7 +127,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_National_Historic_Preservation_Act
 		text_icon = USA_focus_style
-		icon = GFX_unknown
+		icon = GFX_National_Security_Act
 		search_filters = {
 			IC_FILTER
 		}
@@ -144,7 +144,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Privitzation_of_Social_Security
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_social_security_act_50
 		search_filters = {
 			IC_FILTER
 		}
@@ -218,7 +218,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Reduce_Government_Spending
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp84_encourage_higher_european_defense_spending
 		search_filters = {
 			IC_FILTER
 		}
@@ -243,7 +243,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_National_Park_Foundation_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_national_science_foundation
 		search_filters = {
 			IC_FILTER
 		}
@@ -260,7 +260,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Restore_Consciousness_to_Government
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -302,7 +302,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Privitize_the_TVA
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_goal_freedom_of_the_press
 		search_filters = {
 			IC_FILTER
 		}

@@ -246,7 +246,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Promote_Ebert
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Promote_Consumer_Goods_Production
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Sideline_Ulbricht

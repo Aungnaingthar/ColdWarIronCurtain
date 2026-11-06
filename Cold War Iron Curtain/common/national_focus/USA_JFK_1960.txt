@@ -25,7 +25,7 @@ focus_tree = {
 	focus = {
 		id = USA_jfk60_Betray_Organized_Crime
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Crackdown_on_Organized_Crime
 		search_filters = {
 			IC_FILTER
 		}
@@ -42,7 +42,7 @@ focus_tree = {
 	focus = {
 		id = USA_jfk60_Establish_the_Peace_Corps
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_USA_50s_The_United_States_Marine_Corps
 		search_filters = {
 			IC_FILTER
 		}
@@ -107,7 +107,7 @@ focus_tree = {
 	focus = {
 		id = USA_jfk60_Invest_in_Appalachia
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		search_filters = {
 			IC_FILTER
 		}
@@ -230,7 +230,7 @@ focus_tree = {
 	focus = {
 		id = USA_jfk60_Deploy_Troops_to_Ole_Miss
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Deploy_Bundeswehr_Troops
 		search_filters = {
 			IC_FILTER
 		}
@@ -317,7 +317,7 @@ focus_tree = {
 	focus = {
 		id = USA_jfk60_Clean_Air_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Amend_the_Clean_Air_Act
 		search_filters = {
 			IC_FILTER
 		}
@@ -364,7 +364,7 @@ focus_tree = {
 	focus = {
 		id = USA_jfk60_Civil_Rights_Act_of_1964
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		search_filters = {
 			IC_FILTER
 		}

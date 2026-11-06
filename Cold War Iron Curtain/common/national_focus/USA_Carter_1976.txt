@@ -48,7 +48,7 @@ focus_tree = {
 	focus = {
 		id = USA_CARTER_Push_for_Clean_Power
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Hydroelectric_Dam_Development
 		search_filters = {
 			IC_FILTER
 		}
@@ -116,7 +116,7 @@ focus_tree = {
 	focus = {
 		id = USA_CARTER_Establish_the_Department_of_Energy
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp80_japan_united_states_energy_cooperation
 		search_filters = {
 			IC_FILTER
 		}
@@ -366,7 +366,7 @@ focus_tree = {
 	focus = {
 		id = USA_CARTER_Bayh_Dole_Act
 		text_icon = USA_focus_style
-		icon = GFX_unknown
+		icon = GFX_usa_80_icon_bob_dole
 		search_filters = {
 			IC_FILTER
 		}
@@ -456,7 +456,7 @@ focus_tree = {
 	focus = {
 		id = USA_CARTER_CERCLA_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}

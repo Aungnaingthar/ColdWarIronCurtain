@@ -1,6 +1,6 @@
 shared_focus = {
 	id = PER_oil_crisis
-	icon = GFX_unknown
+	icon = GFX_goal_oil_derrick
 	completion_reward = {
 	}
 	cost = 5
@@ -13,7 +13,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_increase_oil_prices
-	icon = GFX_unknown
+	icon = GFX_reject_price_increase
 	completion_reward = {
 		set_temp_variable = { money_change_temp = 10 } cwic_change_money = yes
 		custom_effect_tooltip = PER_oil_prices_10_billion_tt
@@ -48,7 +48,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_prepare_to_become_alternative_to_arabian_league
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 		SAU = {
 			add_opinion_modifier = {
@@ -95,7 +95,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_increase_iranian_oil_production
-	icon = GFX_unknown
+	icon = GFX_generic_focus_production_oil_barrel
 	completion_reward = {
 		add_ideas = PER_increased_oil_production
 	}
@@ -112,7 +112,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_make_new_oil_depots
-	icon = GFX_unknown
+	icon = GFX_goal_oil_derrick
 	completion_reward = {
 		413 = {
 			add_building_construction = {
@@ -149,7 +149,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_discuss_terms_with_the_cabinet
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 		add_stability = 0.01
 	}
@@ -168,7 +168,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_new_opec_contracts
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 	}
 	prerequisite = {
@@ -184,7 +184,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_oil_for_the_west
-	icon = GFX_unknown
+	icon = GFX_goal_oil_derrick
 	completion_reward = {
 	}
 	prerequisite = {
@@ -200,7 +200,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_send_oil_to_tokyo
-	icon = GFX_unknown
+	icon = GFX_goal_oil_derrick
 	completion_reward = {
 		282 = {
 			add_resource = {
@@ -232,7 +232,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_assist_singapore
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 		336 = {
 			add_resource = {
@@ -264,7 +264,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_help_western_germany_with_oil
-	icon = GFX_unknown
+	icon = GFX_Hydroelectric_Dam_Development
 	completion_reward = {
 		51 = {
 			add_resource = {
@@ -332,7 +332,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_oil_lease_for_the_US
-	icon = GFX_unknown
+	icon = GFX_1st_Electric_Program
 	completion_reward = {
 		1200 = {
 			add_resource = {
@@ -368,7 +368,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_assist_venzuela
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 		307 = {
 			add_resource = {
@@ -400,7 +400,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_save_the_western_block
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 		every_other_country  = {
 			limit = {
@@ -433,7 +433,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_the_persian_oil_producer
-	icon = GFX_unknown
+	icon = GFX_Hydroelectric_Dam_Development
 	completion_reward = {
 		add_ideas = PER_oil_producer
 	}
@@ -450,7 +450,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_oil_for_the_east
-	icon = GFX_unknown
+	icon = GFX_1st_Electric_Program
 	completion_reward = {
 	}
 	prerequisite = {
@@ -466,7 +466,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_embargo_the_us
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 		add_opinion_modifier = {
 			target = USA
@@ -492,7 +492,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_send_oil_to_the_soviet_union
-	icon = GFX_unknown
+	icon = GFX_Reaffirm_allegiance_to_the_soviet_union
 	completion_reward = {
 		219 = {
 			add_resource = {
@@ -524,7 +524,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_help_eastern_germany_with_their_issues
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 		744 = {
 			add_resource = {
@@ -556,7 +556,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_embargo_west_germany
-	icon = GFX_unknown
+	icon = GFX_Debate_Allied_Forces_in_West_Germany
 	completion_reward = {
 		add_opinion_modifier = {
 			target = WGR
@@ -582,7 +582,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_embargo_the_UK
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 		add_opinion_modifier = {
 			target = ENG
@@ -608,7 +608,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_embargo_south_vietnam
-	icon = GFX_unknown
+	icon = GFX_Buddhist_Persicution_in_South_Vietnam
 	completion_reward = {
 		add_opinion_modifier = {
 			target = VIE
@@ -634,7 +634,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_encourage_continuation_of_arab_embargos
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 		add_opinion_modifier = {
 			target = IRQ
@@ -674,7 +674,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_save_the_eastern_block
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	completion_reward = {
 		add_opinion_modifier = {
 			target = SOV
@@ -720,7 +720,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = PER_make_opec_invalid
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	completion_reward = {
 		every_other_country  = {
 			limit = {

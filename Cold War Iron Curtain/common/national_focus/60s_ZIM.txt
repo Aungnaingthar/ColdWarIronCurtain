@@ -1055,7 +1055,7 @@ focus_tree = {
 		id = ZIM_60s_The_Centre_Party
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_Form_Coalition_with_Centre_Party
 		search_filters = {
 			IC_FILTER
 		}

@@ -583,7 +583,7 @@ focus_tree = {
 		id = COG_Rising_Nationalist_Fervor
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_The_Road_to_Independence
 		search_filters = {
 			IC_FILTER
 		}
@@ -1432,7 +1432,7 @@ focus_tree = {
 		id = COG_Le_Pari_Congolais
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}

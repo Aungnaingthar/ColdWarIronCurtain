@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_WALLACE80_The_Wallace_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Hike_Military_Spending
-		icon = GFX_goal_unknown
+		icon = GFX_Force_eastern_European_military_spending_limitation
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_The_Wallace_Administration
@@ -49,7 +49,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Garn_St_Germain_Depository_Institutions_Act
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Hike_Military_Spending
@@ -64,7 +64,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Ramp_Up_the_War_On_Drugs
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_ramping_up_the_war_on_drugs
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_The_Wallace_Administration
@@ -79,7 +79,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Expand_the_Office_of_Economic_Planning
-		icon = GFX_goal_unknown
+		icon = GFX_Planning_for_the_New_Economic_System
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Ramp_Up_the_War_On_Drugs
@@ -96,7 +96,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Introduce_Constitutional_Amendment_to_Overturn_Roe
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_push_for_constitutional_amendment
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Expand_the_Office_of_Economic_Planning
@@ -116,7 +116,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Increase_NASA_Funding
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_increase_contra_funding
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Introduce_Constitutional_Amendment_to_Overturn_Roe
@@ -131,7 +131,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_An_End_to_Foriegn_Giveaways
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Ramp_Up_the_War_On_Drugs
@@ -147,7 +147,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Increase_Food_Stamp_Rates
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_cyclone_keep_current_rate
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Expand_the_Office_of_Economic_Planning
@@ -166,7 +166,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Crackdown_on_Trusts_and_Non_Taxable_Entities
-		icon = GFX_goal_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Increase_Food_Stamp_Rates
@@ -185,7 +185,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Bailout_Agricultural_Banks
-		icon = GFX_goal_unknown
+		icon = GFX_Agriculture_2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Increase_Food_Stamp_Rates
@@ -201,7 +201,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Tighten_the_Monetary_Supply
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Bailout_Agricultural_Banks
@@ -220,7 +220,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_A_New_Deal_for_the_American_Farmer
-		icon = GFX_goal_unknown
+		icon = GFX_goal_USA_deal
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Tighten_the_Monetary_Supply
@@ -236,7 +236,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_TVA_Modernization_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Construct_radio_towers
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Railway_Revitilization_Act
@@ -252,7 +252,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Railway_Revitilization_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Begin_infrastructure_efforts
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_A_New_Deal_for_the_American_Farmer
@@ -271,7 +271,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Comprehensive_Crime_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Stamp_out_Corruption
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Ban_Foriegn_Car_Imports
@@ -287,7 +287,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Revamp_American_Trade_Policy
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Expand_the_Mississippi_River_Levee_System
@@ -307,7 +307,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_A_New_Day_for_America
-		icon = GFX_goal_unknown
+		icon = GFX_goal_USA_america_economic_miracle
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_TVA_Modernization_Act
@@ -327,7 +327,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Revenue_Adjustment_Act_of_1983
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Expand_the_Mississippi_River_Levee_System
@@ -346,7 +346,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Ban_Foriegn_Car_Imports
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Revenue_Adjustment_Act_of_1983
@@ -365,7 +365,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_WALLACE80_Expand_the_Mississippi_River_Levee_System
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_expand_tracking_systems
 		cost = 10.00
 		prerequisite = {
 			focus = USA_WALLACE80_Increase_NASA_Funding

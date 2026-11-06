@@ -245,7 +245,7 @@ focus_tree = {
 	focus = {
 		id = USA_KEFAUVER_Ban_the_Sale_of_Switchblades
 		text_icon = USA_focus_style
-		icon = GFX_unknown
+		icon = GFX_usa_truman_kefauver_hearings
 		search_filters = {
 			IC_FILTER
 		}

@@ -115,7 +115,7 @@ focus_tree = {
 		id = CAN_The_Canadian_Armed_Forces
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_Armed_Forces
 		search_filters = {
 			IC_FILTER
 		}
@@ -533,7 +533,7 @@ focus_tree = {
 		id = CAN_Liberal_Victory
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}
@@ -587,7 +587,7 @@ focus_tree = {
 		id = CAN_Liberal_Victory_53
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		search_filters = {
 			IC_FILTER
 		}
@@ -628,7 +628,7 @@ focus_tree = {
 		id = CAN_Liberal_Victory_57
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -664,7 +664,7 @@ focus_tree = {
 		id = CAN_Liberal_Victory_58
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}
@@ -1163,7 +1163,7 @@ focus_tree = {
 		id = CAN_Fund_the_Avro_Arrow_Project
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_production_worker_with_arrow
 		search_filters = {
 			IC_FILTER
 		}
@@ -1591,7 +1591,7 @@ focus_tree = {
 		id = CAN_Restoration_of_the_Wheat_Board_Act
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_Commit_to_Reform
 		search_filters = {
 			IC_FILTER
 		}
@@ -2360,7 +2360,7 @@ focus_tree = {
 		id = CAN_The_Canadian_Army
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_Tiger_Divisions
 		search_filters = {
 			IC_FILTER
 		}
@@ -2478,7 +2478,7 @@ focus_tree = {
 		id = CAN_The_Royal_Canadian_Navy
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_CAN_Royal_AF
 		search_filters = {
 			IC_FILTER
 		}
@@ -3341,7 +3341,7 @@ focus_tree = {
 		id = CAN_Social_Planning
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -3685,7 +3685,7 @@ focus_tree = {
 		id = CAN_Restoring_the_Supremacy_of_Parliament
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_Commit_to_Reform
 		search_filters = {
 			IC_FILTER
 		}
@@ -3846,7 +3846,7 @@ focus_tree = {
 		id = CAN_Join_the_Organizaiton_of_American_States
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_American_States_Rights
 		search_filters = {
 			IC_FILTER
 		}
@@ -3943,7 +3943,7 @@ focus_tree = {
 		id = CAN_Cancel_the_Avro_Arrow
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_production_worker_with_arrow
 		search_filters = {
 			IC_FILTER
 		}

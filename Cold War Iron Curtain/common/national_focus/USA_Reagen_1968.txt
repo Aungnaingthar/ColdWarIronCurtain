@@ -106,7 +106,7 @@ focus_tree = {
 	focus = {
 		id = USA_Reagen68_Terminate_Bussing_Programs
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}

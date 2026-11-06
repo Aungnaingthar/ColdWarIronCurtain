@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = GDR_The_Second_Five_Year_Plan
 	focus = {
 		id = GDR_First_Secretary_Dahlem
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 7
 		y = 0
@@ -31,7 +31,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Announce_an_End_to_the_Work_Quota_Increase
-		icon = GFX_goal_unknown
+		icon = GFX_Announce_End_to_Harsh_Work_Quotas
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_First_Secretary_Dahlem
@@ -52,7 +52,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Establishing_a_National_Founding_Myth
-		icon = GFX_goal_unknown
+		icon = GFX_National_Foundation_Myth
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Announce_an_End_to_the_Work_Quota_Increase
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Promote_German_Socialist_Heroes
-		icon = GFX_goal_unknown
+		icon = GFX_Promote_Socialist_Heroes
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Establishing_a_National_Founding_Myth
@@ -94,7 +94,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Promote_Spanish_Civil_War_Veterans_within_the_SED
-		icon = GFX_goal_unknown
+		icon = GFX_Sideline_Spanish_Civil_War_Veterans
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Promote_German_Socialist_Heroes
@@ -119,7 +119,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Empower_the_Committee_of_Anti_Fascist_Resistance_Fighters
-		icon = GFX_goal_unknown
+		icon = GFX_Stalin_Dismantle_The_Jewish_Anti_Fascist_Committee
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Establishing_a_National_Founding_Myth
@@ -141,7 +141,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Expand_Military_Training_Programs
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Military_Training_Programs
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Empower_the_Committee_of_Anti_Fascist_Resistance_Fighters
@@ -161,7 +161,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_The_Cult_of_the_Spanish_Civil_War
-		icon = GFX_goal_unknown
+		icon = GFX_Cult_of_Spanish_Civil_War
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Promote_Spanish_Civil_War_Veterans_within_the_SED
@@ -189,7 +189,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Launch_the_Ulbricht_Show_Trials
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Put_Ulbricht_on_Trial
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Announce_an_End_to_the_Work_Quota_Increase
@@ -210,7 +210,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Relax_Stasi_Repression
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Relax_Church_Repression
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Launch_the_Ulbricht_Show_Trials
@@ -231,7 +231,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Revitalizing_the_West_Commission
-		icon = GFX_goal_unknown
+		icon = GFX_Reevaluate_the_West_Commission
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Announce_an_End_to_the_Work_Quota_Increase
@@ -251,7 +251,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Expand_KPD_Funding
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_KPD_Funding
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Revitalizing_the_West_Commission
@@ -277,7 +277,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reject_Fascist_Collaboration
-		icon = GFX_goal_unknown
+		icon = GFX_Reject_Fascist_Cooperation
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Expand_KPD_Funding
@@ -301,7 +301,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Outreach_to_the_Deutsche_Reichspartei
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Launch_an_Outreach_to_the_EKD
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Expand_KPD_Funding
@@ -326,7 +326,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Start_an_Arms_Race_Against_Bonn
-		icon = GFX_goal_unknown
+		icon = GFX_Arms_Race_against_bonn
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Revitalizing_the_West_Commission
@@ -351,7 +351,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reinstate_Purged_Volkspolizei
-		icon = GFX_goal_unknown
+		icon = GFX_focus_gdr_volkspolizei
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Start_an_Arms_Race_Against_Bonn
@@ -376,7 +376,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Rely_on_Soviet_Imports_and_Transfers
-		icon = GFX_goal_unknown
+		icon = GFX_Rely_on_Soviet_Imports
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Request_Further_Soviet_Military_Aid
@@ -404,7 +404,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Begin_Rebuilding_the_German_Arms_Industry
-		icon = GFX_goal_unknown
+		icon = GFX_Begin_Rebuilding
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Request_Further_Soviet_Military_Aid
@@ -465,7 +465,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_The_New_International_Brigades
-		icon = GFX_goal_unknown
+		icon = GFX_The_New_International_Brigades
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Begin_Rebuilding_the_German_Arms_Industry
@@ -489,7 +489,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Request_Further_Soviet_Military_Aid
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Request_Soviet_Aid_in_Factory_Modernization
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Relax_Stasi_Repression
@@ -519,7 +519,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reevaluating_Church_Policy
-		icon = GFX_goal_unknown
+		icon = GFX_The_Partys_Policy_on_Church_Questions
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Reject_Fascist_Collaboration
@@ -542,7 +542,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Provide_Incentives_for_Recruits
-		icon = GFX_goal_unknown
+		icon = GFX_Provide_Incentives_for_LPG_Adoption
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Start_an_Arms_Race_Against_Bonn

@@ -1364,7 +1364,7 @@ focus_tree = {
 		id = DOC_PM_Adoula
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -1558,7 +1558,7 @@ focus_tree = {
 		id = DOC_The_Angering_of_the_Lumumbaists
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -2415,7 +2415,7 @@ focus_tree = {
 		id = DOC_I_Am_The_State
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -2671,7 +2671,7 @@ focus_tree = {
 		id = DOC_Purge_Mobutu
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -2711,7 +2711,7 @@ focus_tree = {
 		id = DOC_Strengthen_Belgian_Ties
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_Strengthen_ties_with_kim_and_mao
 		search_filters = {
 			IC_FILTER
 		}
@@ -2769,7 +2769,7 @@ focus_tree = {
 		id = DOC_Strengthen_Ties_with_South_Africa
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_POR_Increase_Trade_Ties_with_South_Africa
 		search_filters = {
 			IC_FILTER
 		}

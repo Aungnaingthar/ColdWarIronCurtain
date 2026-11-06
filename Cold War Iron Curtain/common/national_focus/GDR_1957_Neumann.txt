@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = GDR_The_Second_Five_Year_Plan
 	focus = {
 		id = GDR_First_Secretary_Neumann
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		x = 7
 		y = 0
@@ -31,7 +31,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Re_Appoint_Hoenecker_to_FDJ_Leadership
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Purge_FDJ_Leadership_Positions
 		cost = 10.00
 		mutually_exclusive = {
 			focus = GDR_Keep_Hoeneker_Sidelined

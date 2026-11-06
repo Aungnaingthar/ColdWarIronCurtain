@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = Affirm_the_American_Mutual_Assistance_Treaty
-		icon = GFX_goal_unknown
+		icon = GFX_Sino_Soviet_Treaty_of_Friendship_Alliance_and_Mutual_Assistance
 		cost = 10
 		x = 8
 		y = 0
@@ -31,7 +31,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Finish_Import_Export_Development_Ban
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 10
 		x = 18
 		y = 0
@@ -41,7 +41,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Open_Door_Policy
-		icon = GFX_goal_unknown
+		icon = GFX_RUS_Open_Door_Diplomacy
 		cost = 10
 		x = 22
 		y = 0
@@ -51,7 +51,7 @@ focus_tree = {
 	}
 	focus = {
 		id = The_Tubman_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		x = 41
 		y = 0
@@ -61,7 +61,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Build_Communication_Facilities
-		icon = GFX_goal_unknown
+		icon = TIB_KMT_50s_Build_Communication_Network_in_Ngari
 		cost = 10
 		prerequisite = {
 			focus = Expand_Monrovia_Port
@@ -79,7 +79,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Connect_The_Domestic_Roads
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBuildRoads
 		cost = 10
 		prerequisite = {
 			focus = Pave_Monrovia_Infrastructure
@@ -98,7 +98,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Rig_The_1955_Election
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_rig_vietnamese_elections
 		cost = 10
 		available = {
 			date > 1955.5.1
@@ -114,7 +114,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Enact_Excess_Tax_Proposal
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 10
 		prerequisite = {
 			focus = Affirm_the_American_Mutual_Assistance_Treaty
@@ -132,7 +132,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Congratulate_Steadman_For_Working_With_Our_Interest
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Affirm_the_American_Mutual_Assistance_Treaty
@@ -158,7 +158,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Reopen_Soviet_Relations_With_Volkov
-		icon = GFX_goal_unknown
+		icon = GFX_Soviet_Relations
 		cost = 10
 		prerequisite = {
 			focus = Enact_Excess_Tax_Proposal
@@ -175,7 +175,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Invite_American_Economic_Advice
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_take_advices_from_american_advisors
 		cost = 10
 		prerequisite = {
 			focus = Congratulate_Steadman_For_Working_With_Our_Interest
@@ -197,7 +197,7 @@ focus_tree = {
 	}
 	focus = {
 		id = European_Grants_And_Loan_Assistance
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10
 		prerequisite = {
 			focus = Reopen_Soviet_Relations_With_Volkov
@@ -238,7 +238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = American_Grant_And_Loan_Assistance
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 10
 		prerequisite = {
 			focus = Reopen_Soviet_Relations_With_Volkov
@@ -268,7 +268,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Invite_Nato_Military_Advisors
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_nato_invite_germany
 		cost = 10
 		prerequisite = {
 			focus = European_Grants_And_Loan_Assistance
@@ -287,7 +287,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Establish_The_USA_Training_Mission
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = European_Grants_And_Loan_Assistance
@@ -307,7 +307,7 @@ focus_tree = {
 	}
 	focus = {
 		id = A_Good_Neighbor_Policy
-		icon = GFX_goal_unknown
+		icon = GFX_goal_rho_neighbors
 		cost = 10
 		prerequisite = {
 			focus = Invite_Nato_Military_Advisors
@@ -321,7 +321,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Negotiate_With_Firestone
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10
 		prerequisite = {
 			focus = Finish_Import_Export_Development_Ban
@@ -342,7 +342,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Strike_For_Better_Labor_Divisions
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBorderTroops
 		cost = 10
 		prerequisite = {
 			focus = Negotiate_With_Firestone
@@ -358,7 +358,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Exploit_More_Rubber
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Negotiate_With_Firestone
@@ -375,7 +375,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Retain_Firestone_Industry_Secrets
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10
 		prerequisite = {
 			focus = Strike_For_Better_Labor_Divisions
@@ -389,7 +389,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Encourage_American_And_German_Investment
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_encourage_american_corporate_investment
 		cost = 10
 		prerequisite = {
 			focus = Retain_Firestone_Industry_Secrets
@@ -409,7 +409,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Found_LAMCO
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Retain_Firestone_Industry_Secrets
@@ -426,7 +426,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Build_LAMCO_Railway_To_Nimba
-		icon = GFX_goal_unknown
+		icon = GFX_Build_New_Railways
 		cost = 10
 		prerequisite = {
 			focus = Found_LAMCO
@@ -444,7 +444,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Invite_Lebanese_Businessmen
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Encourage_American_And_German_Investment
@@ -460,7 +460,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Found_National_Ore_Company
-		icon = GFX_goal_unknown
+		icon = GFX_The_Road_to_Independence
 		cost = 10
 		prerequisite = {
 			focus = Retain_Firestone_Industry_Secrets
@@ -477,7 +477,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Expand_Buchanan_Port
-		icon = GFX_goal_unknown
+		icon = GFX_NavalOperations
 		cost = 10
 		prerequisite = {
 			focus = Found_National_Ore_Company
@@ -498,7 +498,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Expand_Mercantile_Ship_Registry
-		icon = GFX_goal_unknown
+		icon = GFX_BluewaterNavy
 		cost = 10
 		prerequisite = {
 			focus = Build_LAMCO_Railway_To_Nimba
@@ -518,7 +518,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Grow_Sugarcane
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Expand_Mercantile_Ship_Registry
@@ -538,7 +538,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Expand_Rice_Production
-		icon = GFX_goal_unknown
+		icon = GFX_SWK_Expand_Rice_Production
 		cost = 10
 		prerequisite = {
 			focus = Expand_Mercantile_Ship_Registry
@@ -558,7 +558,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Assassination_Attempt_1955
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_assassination_attempt_on_chang_myon
 		cost = 10
 		x = 41
 		y = 14
@@ -568,7 +568,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Tubman_Survives
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Assassination_Attempt_1955
@@ -581,7 +581,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Arrest_Raymond_Horace
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Tubman_Survives
@@ -603,7 +603,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Arrest_More_Consirators
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Arrest_Raymond_Horace
@@ -625,7 +625,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Huntdown_Coleman
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Tubman_Survives
@@ -647,7 +647,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Establish_The_Special_Security_Service
-		icon = GFX_goal_unknown
+		icon = GFX_SOVw_Expand_the_Power_of_the_Security_Services
 		cost = 10
 		prerequisite = {
 			focus = Huntdown_Coleman
@@ -660,7 +660,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Amend_Term_Limits
-		icon = GFX_goal_unknown
+		icon = GFX_term_limit
 		cost = 10
 		prerequisite = {
 			focus = Arrest_More_Consirators
@@ -677,7 +677,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Upheld_Indigeonous_Voting_Rights
-		icon = GFX_goal_unknown
+		icon = GFX_SAF_Colored_Voting_Rights
 		cost = 10
 		prerequisite = {
 			focus = Amend_Term_Limits
@@ -693,7 +693,7 @@ focus_tree = {
 	}
 	focus = {
 		id = National_Unification_Policy
-		icon = GFX_goal_unknown
+		icon = GFX_The_Road_to_Independence
 		cost = 10
 		prerequisite = {
 			focus = The_Tubman_Administration
@@ -706,7 +706,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Repress_Opposition
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = The_Tubman_Administration
@@ -728,7 +728,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Promote_Women_In_Government_Posts
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = National_Unification_Policy
@@ -768,7 +768,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Rig_The_1951_Elections
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_rig_vietnamese_elections
 		cost = 10
 		available = {
 			date > 1951.5.1
@@ -784,7 +784,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Open_Positions_to_Non_Americo-Liberians
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Rig_The_1951_Elections
@@ -800,7 +800,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Monopolize_The_TWP_Into_All_Government_Positions
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_Introduce_Regional_Leaders_Into_High_Governing_Positions
 		cost = 10
 		prerequisite = {
 			focus = Rig_The_1951_Elections
@@ -816,7 +816,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Higher_Education_For_Americo-Liberians_Only
-		icon = GFX_goal_unknown
+		icon = GFX_ExpandHigherEducation
 		cost = 10
 		prerequisite = {
 			focus = Open_Positions_to_Non_Americo-Liberians
@@ -832,7 +832,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Increase_Rural_Healthcare_Access
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_Kickstart_Rural_Healthcare
 		cost = 10
 		prerequisite = {
 			focus = Open_Positions_to_Non_Americo-Liberians
@@ -849,7 +849,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Reduce_Stereotypes_of_Non_Americo-Liberians
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Increase_Rural_Healthcare_Access
@@ -866,7 +866,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Snap_Election_of_1955
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		cost = 10
 		prerequisite = {
 			focus = Assassination_Attempt_1955
@@ -880,7 +880,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Ellen_Mills_Scarbough
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Snap_Election_of_1955
@@ -896,7 +896,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Pardon_Assassination_Plotters
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Ellen_Mills_Scarbough
@@ -912,7 +912,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Imprison_Assassination_Conspirators
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Ellen_Mills_Scarbough
@@ -937,7 +937,7 @@ focus_tree = {
 	}
 	focus = {
 		id = First_Women_Elected_In_Liberia
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10
 		prerequisite = {
 			focus = Pardon_Assassination_Plotters
@@ -975,7 +975,7 @@ focus_tree = {
 	}
 	focus = {
 		id = State_Funding_of_Rural_Hospitals
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Medical_Access
 		cost = 10
 		prerequisite = {
 			focus = First_Women_Elected_In_Liberia
@@ -988,7 +988,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Invest_In_Early_Education
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Education
 		cost = 10
 		prerequisite = {
 			focus = State_Funding_of_Rural_Hospitals
@@ -1010,7 +1010,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Open_Cirriculum_to_All_Liberian_History
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Invest_In_Early_Education
@@ -1026,7 +1026,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Pro_Americo-Liberian_Propganda
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Invest_In_Early_Education
@@ -1042,7 +1042,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Promote_More_Women_In_Government
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Open_Cirriculum_to_All_Liberian_History
@@ -1056,7 +1056,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Impress_The_UN_And_OAU
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Promote_More_Women_In_Government
@@ -1069,7 +1069,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Fight_TWP_Corruption
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_court_of_law
 		cost = 10
 		prerequisite = {
 			focus = Promote_More_Women_In_Government
@@ -1083,7 +1083,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Deepen_American_Financial_Aid
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp_generic_financial_aid
 		cost = 10
 		prerequisite = {
 			focus = Impress_The_UN_And_OAU
@@ -1099,7 +1099,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Worker_Protections_In_LAMCO
-		icon = GFX_goal_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 10
 		prerequisite = {
 			focus = Deepen_American_Financial_Aid
@@ -1112,7 +1112,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Liberia_Is_Rentier_State
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Deepen_American_Financial_Aid
@@ -1125,7 +1125,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Renew_American_Security_Assistance
-		icon = GFX_goal_unknown
+		icon = GFX_Stamp_out_Corruption
 		cost = 10
 		prerequisite = {
 			focus = Worker_Protections_In_LAMCO
@@ -1139,7 +1139,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Host_Pan-African_Conferences
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Renew_American_Security_Assistance
@@ -1241,7 +1241,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NATOs_African_Outpost
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Renew_American_Security_Assistance
@@ -1257,7 +1257,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Decentralize_Political_Power
-		icon = GFX_goal_unknown
+		icon = GFX_goal_oil_derrick
 		cost = 10
 		prerequisite = {
 			focus = Increase_Rural_Healthcare_Access
@@ -1275,7 +1275,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Train_Primary_And_Secondary_Educators
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Education
 		cost = 10
 		prerequisite = {
 			focus = Decentralize_Political_Power
@@ -1289,7 +1289,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Expand_Monrovia_Port
-		icon = GFX_goal_unknown
+		icon = GFX_BluewaterNavy
 		cost = 10
 		prerequisite = {
 			focus = Train_Primary_And_Secondary_Educators
@@ -1318,7 +1318,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Pave_Monrovia_Infrastructure
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBuildRoads
 		cost = 10
 		prerequisite = {
 			focus = Train_Primary_And_Secondary_Educators
@@ -1333,7 +1333,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Create_Liberia_Water_And_Sewer_Corporation
-		icon = GFX_goal_unknown
+		icon = GFX_Create_water_Commission
 		cost = 10
 		prerequisite = {
 			focus = Expand_Monrovia_Port
@@ -1355,7 +1355,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Bring_More_Loyalist_To_Government
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Create_Liberia_Water_And_Sewer_Corporation
@@ -1374,7 +1374,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Invest_Into_University_of_Liberia
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 10
 		prerequisite = {
 			focus = Create_Liberia_Water_And_Sewer_Corporation
@@ -1390,7 +1390,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Strengthen_Ties_With_Nkrumah
-		icon = GFX_goal_unknown
+		icon = GFX_Strengthen_ties_with_kim_and_mao
 		cost = 10
 		prerequisite = {
 			focus = Bring_More_Loyalist_To_Government
@@ -1415,7 +1415,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Maintain_Landowner_Voting_Clause
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Amend_Term_Limits
@@ -1435,7 +1435,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Give_Hinterlands_County_Status
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Maintain_Landowner_Voting_Clause
@@ -1449,7 +1449,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Fight_Spread_Of_African_Socalism
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Give_Hinterlands_County_Status
@@ -1465,7 +1465,7 @@ focus_tree = {
 	}
 	focus = {
 		id = State_Visit_To_The_Netherlands
-		icon = GFX_goal_unknown
+		icon = GFX_state_visit_to_wuhan
 		cost = 10
 		prerequisite = {
 			focus = Give_Hinterlands_County_Status
@@ -1478,7 +1478,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Recognize_Taiwan
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Encourage_Timber_Industry
@@ -1505,7 +1505,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Open_Palm_Oil_Processing_In_Monrovia
-		icon = GFX_goal_unknown
+		icon = GFX_goal_oil_derrick
 		cost = 10
 		prerequisite = {
 			focus = State_Visit_To_The_Netherlands
@@ -1525,7 +1525,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Remove_Regional_Law_Distinction
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_court_of_law
 		cost = 10
 		prerequisite = {
 			focus = Fight_Spread_Of_African_Socalism
@@ -1538,7 +1538,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Recognize_Israel
-		icon = GFX_goal_unknown
+		icon = GFX_ARG_Recognize_Israel
 		cost = 10
 		prerequisite = {
 			focus = Encourage_Timber_Industry
@@ -1565,7 +1565,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Encourage_Timber_Industry
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 10
 		prerequisite = {
 			focus = Fight_Spread_Of_African_Socalism
@@ -1588,7 +1588,7 @@ focus_tree = {
 	}
 	focus = {
 		id = The_Growth_Will_Last_Forever
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Recognize_Israel
@@ -1604,7 +1604,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Widen_Political_Base_Beyond_TWP
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Recognize_Taiwan
@@ -1621,7 +1621,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Father_of_Liberia
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = The_Growth_Will_Last_Forever
@@ -1641,7 +1641,7 @@ focus_tree = {
 	}
 	focus = {
 		id = William_Tolbert
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Snap_Election_of_1955
@@ -1657,7 +1657,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Mother_Of_Liberia
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Host_Pan-African_Conferences
@@ -1677,7 +1677,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Unlock_Indigenous_Government_Posts
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = William_Tolbert
@@ -1693,7 +1693,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Increase_Americo-Liberian_Privileges
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = William_Tolbert
@@ -1709,7 +1709,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Secure_Peaceful_Transition
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Unlock_Indigenous_Government_Posts
@@ -1723,7 +1723,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Purge_Assassination_Plotters
-		icon = GFX_goal_unknown
+		icon = GFX_GRE_Purge_Military_Plotters
 		cost = 10
 		prerequisite = {
 			focus = Secure_Peaceful_Transition
@@ -1745,7 +1745,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Nepotism_In_Executive_Posts
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Purge_Assassination_Plotters
@@ -1758,7 +1758,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Meet_Carribean_Baptists
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Purge_Assassination_Plotters
@@ -1771,7 +1771,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Fight_Corruption
-		icon = GFX_goal_unknown
+		icon = GFX_focus_police
 		cost = 10
 		prerequisite = {
 			focus = Purge_Assassination_Plotters
@@ -1785,7 +1785,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Open_Relations_With_Socailists
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10
 		prerequisite = {
 			focus = Introduce_Term_Limits
@@ -1807,7 +1807,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Establish_Second_World_Relations
-		icon = GFX_goal_unknown
+		icon = GFX_Relations_with_the_socialist_world
 		cost = 10
 		prerequisite = {
 			focus = Introduce_Term_Limits
@@ -1830,7 +1830,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Reduce_American_Dependence
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Introduce_Term_Limits
@@ -1847,7 +1847,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Introduce_Term_Limits
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_Introduce_Legal_Term_Limits
 		cost = 10
 		prerequisite = {
 			focus = Meet_Carribean_Baptists
@@ -1875,7 +1875,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Renegotiate_Firestone_Tax
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 10
 		prerequisite = {
 			focus = Fight_Indigenous_Poverty
@@ -1891,7 +1891,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Fight_Indigenous_Poverty
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Increase_Healthcare_Quality
@@ -1904,7 +1904,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Increase_Healthcare_Quality
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_Increase_Funding_For_Urban_Healthcare
 		cost = 10
 		prerequisite = {
 			focus = Establish_Second_World_Relations
@@ -1923,7 +1923,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Win_War_Against_Ignorance
-		icon = GFX_goal_unknown
+		icon = GFX_AmericanWarAgainstPRC
 		cost = 10
 		prerequisite = {
 			focus = Renegotiate_Firestone_Tax
@@ -1945,7 +1945,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Give_Up_And_Embrace_TWP_Corruption
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_court_of_law
 		cost = 10
 		prerequisite = {
 			focus = Renegotiate_Firestone_Tax
@@ -1960,7 +1960,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Liberian_Beacon_of_Hope_For_Americo-Liberian_Policy
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Give_Up_And_Embrace_TWP_Corruption
@@ -1987,7 +1987,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Host_Second_Conference_of_American_States
-		icon = GFX_goal_unknown
+		icon = GFX_Second_Party_Conference
 		cost = 10
 		prerequisite = {
 			focus = Father_of_Liberia
@@ -2089,7 +2089,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Rig_1959_Elections
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_rig_vietnamese_elections
 		cost = 10
 		available = {
 			date > 1959.5.1
@@ -2106,7 +2106,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Free_Liberia_Elections_1959
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_allow_free_elections
 		cost = 10
 		x = 64
 		y = 0
@@ -2116,7 +2116,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Didwho_Welleh_Twe_1959
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Free_Liberia_Elections_1959
@@ -2129,7 +2129,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Enfranchise_All_Liberians
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Didwho_Welleh_Twe_1959
@@ -2146,7 +2146,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Empower_The_Kru
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Enfranchise_All_Liberians
@@ -2162,7 +2162,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Refill_Legislature_With_All_Tribes
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Enfranchise_All_Liberians
@@ -2178,7 +2178,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Split_United_Peoples_Party
-		icon = GFX_goal_unknown
+		icon = GFX_united_party
 		cost = 10
 		prerequisite = {
 			focus = Empower_The_Kru
@@ -2195,7 +2195,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Renounce_The_Hut_Tax
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 10
 		prerequisite = {
 			focus = Split_United_Peoples_Party
@@ -2208,7 +2208,7 @@ focus_tree = {
 	}
 	focus = {
 		id = William_Davies_Bright_1959
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Free_Liberia_Elections_1959
@@ -2221,7 +2221,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Ellen_Mills_Scarbough_1959
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Free_Liberia_Elections_1959
@@ -2234,7 +2234,7 @@ focus_tree = {
 	}
 	focus = {
 		id = William_Tolbert_1959
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = Free_Liberia_Elections_1959
@@ -2247,7 +2247,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Ensure_Another_Peaceful_Transition
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = William_Davies_Bright_1959
@@ -2262,7 +2262,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Pardon_Didwho_Welleh_Twe
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Ensure_Another_Peaceful_Transition
@@ -2278,7 +2278,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Keep_Twe_Exiled
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = Ensure_Another_Peaceful_Transition
@@ -2294,7 +2294,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Return_Of_Two_Party_System
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10
 		prerequisite = {
 			focus = Pardon_Didwho_Welleh_Twe
@@ -2308,7 +2308,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Equalize_Economic_Prosperity
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 10
 		prerequisite = {
 			focus = Return_Of_Two_Party_System
@@ -2324,7 +2324,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Promise_New_Reforms
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10
 		prerequisite = {
 			focus = Renounce_The_Hut_Tax

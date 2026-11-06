@@ -12,7 +12,7 @@ focus_tree = {
         id = ETR_CW
         completion_reward = {
 		}
-        icon = GFX_unknown
+        icon = GFX_generic_focus_politics_press_statement
         cost = 4
         x = 10
         y = 0
@@ -22,7 +22,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Emergency_Powers
-        icon = GFX_unknown
+        icon = GFX_Yeltsin_Emergency_Powers
         cost = 4
         x = 0
         y = 1
@@ -46,7 +46,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Work_Marshall
-        icon = GFX_unknown
+        icon = GFX_generic_focus_politics_paperwork_and_telephone
         cost = 4
         x = -6
         y = 1
@@ -63,7 +63,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Trust_Sinkiang
-        icon = GFX_unknown
+        icon = GFX_generic_focus_politics_press_statement
         cost = 4
         x = -2
         y = 1
@@ -83,7 +83,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Trust_Rebellion
-        icon = GFX_unknown
+        icon = GFX_generic_focus_politics_press_statement
         cost = 4
         x = 2
         y = 1
@@ -103,7 +103,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Xinjiang_Expedition
-        icon = GFX_unknown
+        icon = GFX_generic_focus_politics_paperwork_and_telephone
         cost = 4
         x = -1
         y = 2
@@ -124,7 +124,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Offer_Amnesty
-        icon = GFX_unknown
+        icon = GFX_GDR_An_Offer_of_Mass_Amnesty
         cost = 4
         x = 1
         y = 2
@@ -152,7 +152,7 @@ focus_tree = {
         id = ETR_Finish_Communists
         completion_reward = {
 		}
-        icon = GFX_unknown
+        icon = GFX_Socialist_Consolidation
         cost = 4
         x = 0
         y = 3
@@ -169,7 +169,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Ban_Far_Left
-        icon = GFX_unknown
+        icon = GFX_generic_focus_politics_paperwork_and_telephone
         cost = 4
         x = -2
         y = 1
@@ -248,7 +248,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Denounce_Soviet
-        icon = GFX_unknown
+        icon = GFX_Socialist_Consolidation
         cost = 4
         x = 2
         y = 1
@@ -272,7 +272,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Ally_Muhammad
-        icon = GFX_unknown
+        icon = GFX_generic_focus_politics_press_statement
         cost = 7
         x = -1
         y = 1
@@ -295,7 +295,7 @@ focus_tree = {
         id = ETR_Promote_Ethnic
         completion_reward = {
 		}
-        icon = GFX_unknown
+        icon = GFX_generic_focus_politics_paperwork_and_telephone
         cost = 4
         x = 1
         y = 1
@@ -334,7 +334,7 @@ focus_tree = {
         id = ETR_Appeal_Anti
         completion_reward = {
 		}
-        icon = GFX_unknown
+        icon = GFX_generic_focus_politics_paperwork_and_telephone
         cost = 4
         x = 6
         y = 1
@@ -350,7 +350,7 @@ focus_tree = {
         id = ETR_Request_KMT
         completion_reward = {
 		}
-        icon = GFX_unknown
+        icon = GFX_ETR_KMT_victory
         cost = 4
         x = -2
         y = 1
@@ -364,7 +364,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Invite_NATO
-        icon = GFX_unknown
+        icon = GFX_usa_50_nato_invite_germany
         cost = 4
         x = 2
         y = 1
@@ -383,7 +383,7 @@ focus_tree = {
         id = ETR_Study_KMT
         completion_reward = {
 		}
-        icon = GFX_unknown
+        icon = GFX_ETR_KMT_victory
         cost = 4
         x = -1
         y = 2
@@ -402,7 +402,7 @@ focus_tree = {
         id = ETR_Aksai_Chin
         completion_reward = {
 		}
-        icon = GFX_unknown
+        icon = GFX_PRC_50s_Ask_for_Aksai_Chin
         cost = 4
         x = 1
         y = 2
@@ -419,7 +419,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Reorganize_Army
-        icon = GFX_unknown
+        icon = GFX_ETR_Army
         cost = 4
         x = 0
         y = 3

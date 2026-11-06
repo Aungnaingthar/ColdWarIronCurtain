@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = KMP_Year_Zero
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		x = 15
 		y = 0
@@ -18,7 +18,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Dreams_of_the_Past
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 51
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Fate_of_Lon_Nols_Regime
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 22
 		y = 2
@@ -34,7 +34,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Establish_the_Revolutionary_Army_of_Kampuchea
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBorderTroops
 		cost = 10.00
 		x = 73
 		y = 0
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Mayaguez_Incident
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 41
 		y = 6
@@ -50,7 +50,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Purifying_Kampuchea
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 88
 		y = 0
@@ -58,7 +58,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Evacuate_Phnom_Penh
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Year_Zero
@@ -69,7 +69,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_8_Points
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Evacuate_Phnom_Penh
@@ -80,7 +80,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Abolish_Money
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_8_Points
@@ -91,7 +91,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Close_Markets
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Abolish_Money
@@ -102,7 +102,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Execute_Sangharaja_Huot_Tat
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_8_Points
@@ -113,7 +113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Close_the_Wats
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Execute_Sangharaja_Huot_Tat
@@ -124,7 +124,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Announce_Intentions_to_Expel_the_Vietnamese
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Close_the_Wats
@@ -138,7 +138,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Currency_Debate
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Announce_Intentions_to_Expel_the_Vietnamese
@@ -149,7 +149,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Abolish_the_Monetary_System
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Currency_Debate
@@ -163,7 +163,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Issue_the_Riel
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Currency_Debate
@@ -177,7 +177,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_There_is_No_Buddhism_in_Kampuchea
-		icon = GFX_goal_unknown
+		icon = GFX_goal_islam
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Execute_Sangharaja_Huot_Tat
@@ -188,7 +188,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Ban_Buddhist_Festivals_and_Customs
-		icon = GFX_goal_unknown
+		icon = GFX_Religous_Unity
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_There_is_No_Buddhism_in_Kampuchea
@@ -199,7 +199,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Use_Rural_Temples_for_Livestock
-		icon = GFX_goal_unknown
+		icon = GFX_goal_islam
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Ban_Buddhist_Festivals_and_Customs
@@ -210,7 +210,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Defrock_the_Buddhist_Clergy
-		icon = GFX_goal_unknown
+		icon = GFX_Religous_Unity
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Ban_Buddhist_Festivals_and_Customs
@@ -221,7 +221,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Send_the_Clergy_to_the_Fields
-		icon = GFX_goal_unknown
+		icon = GFX_goal_islam
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Defrock_the_Buddhist_Clergy
@@ -235,7 +235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Force_Monks_to_Take_Wives
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Send_the_Clergy_to_the_Fields
@@ -246,7 +246,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Conscript_Defrocked_Monks_into_the_Army
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBorderTroops
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Force_Monks_to_Take_Wives
@@ -257,7 +257,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Force_Former_Clergy_to_Break_Vows
-		icon = GFX_goal_unknown
+		icon = GFX_goal_islam
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Send_the_Clergy_to_the_Fields
@@ -268,7 +268,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Burn_Buddhist_Literature
-		icon = GFX_goal_unknown
+		icon = GFX_goal_islam
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Force_Monks_to_Take_Wives
@@ -282,7 +282,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Re_Use_Monastery_Building_Materials_for_Irrigation_Projects
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Force_Former_Clergy_to_Break_Vows
@@ -293,7 +293,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Utilize_Temples_as_Execution_Centers
-		icon = GFX_goal_unknown
+		icon = GFX_Religous_Unity
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Burn_Buddhist_Literature
@@ -310,7 +310,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Relocate_Santebal_Headquarters_to_Phnom_Penh
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Evacuate_Phnom_Penh
@@ -321,7 +321,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Strengthen_the_Authority_of_the_Santebal
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Relocate_Santebal_Headquarters_to_Phnom_Penh
@@ -332,7 +332,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Kill_Hou_Yuon
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Strengthen_the_Authority_of_the_Santebal
@@ -343,7 +343,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Purge_Koy_Thuon_and_his_Supporters
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Strengthen_the_Authority_of_the_Santebal
@@ -354,7 +354,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Execute_Hu_Nim
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Purge_Koy_Thuon_and_his_Supporters
@@ -368,7 +368,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Evacuate_Battambang 
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Evacuate_Phnom_Penh
@@ -379,7 +379,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Demolish_the_Cathedral_of_Christ_the_King
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Evacuate_Phnom_Penh
@@ -390,7 +390,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Evacuate_Kampot
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Evacuate_Phnom_Penh
@@ -401,7 +401,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Declare_the_Evacuations_Permament
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Evacuate_Kampot
@@ -418,7 +418,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Bring_Back_Skilled_Workers
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Bring_back_soustelle
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Declare_the_Evacuations_Permament
@@ -429,7 +429,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Deploy_Cadres_to_Work_the_Factories
-		icon = GFX_goal_unknown
+		icon = GFX_VIE_Diem_Deploy_the_Cadres
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Declare_the_Evacuations_Permament
@@ -440,7 +440,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Consolidating_Control
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Deploy_Cadres_to_Work_the_Factories
@@ -454,7 +454,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Strike_Sae_Phuthangs_Forces
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Consolidating_Control
@@ -465,7 +465,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Re_Deport_Former_City_Dwellers_to_the_North
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Consolidating_Control
@@ -476,7 +476,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Khmerize_the_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Consolidating_Control
@@ -487,7 +487,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Yugoslavian_Economic_Aid
-		icon = GFX_goal_unknown
+		icon = GFX_EconomicAidToPortugal
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Strike_Sae_Phuthangs_Forces
@@ -504,7 +504,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Establish_A_Fully_CPK_Central_Government
-		icon = GFX_goal_unknown
+		icon = GFX_SOVw_Establish_Communist_Governments_in_Liberated_Territory
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Strike_Sae_Phuthangs_Forces
@@ -521,7 +521,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Establish_Democratic_Kampuchea
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Establish_A_Fully_CPK_Central_Government
@@ -535,7 +535,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Convert_Tuol_Sleng_into_S_21
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Establish_Democratic_Kampuchea
@@ -546,7 +546,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Begin_Deporation_of_Vietnamese
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Establish_Democratic_Kampuchea
@@ -557,7 +557,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Arrival_of_the_White_Scarves
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Convert_Tuol_Sleng_into_S_21
@@ -571,7 +571,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Launch_Mass_Executions_of_Lon_Nols_Followers
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Fate_of_Lon_Nols_Regime
@@ -585,7 +585,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Halt_the_Killings
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Launch_Mass_Executions_of_Lon_Nols_Followers
@@ -599,7 +599,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Rattanakiri_Project
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Khmerize_the_Administration
@@ -610,7 +610,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Make_the_Hill_Tribes_Sedentary_Agriculturalists
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Agriculture
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Rattanakiri_Project
@@ -621,7 +621,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Escalate_the_Hunt
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Launch_Mass_Executions_of_Lon_Nols_Followers
@@ -635,7 +635,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Purge_Cadres_from_the_Hill_Tribes
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Rattanakiri_Project
@@ -646,7 +646,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Forcibly_Assimilate_the_Hill_Tribes
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Purge_Cadres_from_the_Hill_Tribes
@@ -660,7 +660,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Offer_Amnesty
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_An_Offer_of_Mass_Amnesty
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Fate_of_Lon_Nols_Regime
@@ -674,7 +674,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Deport_them_to_the_Rice_Fields
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_agriculture_rice_field_workers
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Offer_Amnesty
@@ -688,7 +688,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Integrate_Former_Republican_Offiers
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Offer_Amnesty
@@ -702,7 +702,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Fall_of_Saigon
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Evacuate_Phnom_Penh
@@ -716,7 +716,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Execute_Fleeing_Khmer_Krom_Fighters
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Airfields
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Fall_of_Saigon
@@ -730,7 +730,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Integrate_Khmer_Krom_Fighters
-		icon = GFX_goal_unknown
+		icon = GFX_Deploy_the_Airforce
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Fall_of_Saigon
@@ -744,7 +744,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Raid_Vietnamese_Border_Villages
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Integrate_Khmer_Krom_Fighters
@@ -756,7 +756,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Strike_Tho_Cho_Island
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Raid_Vietnamese_Border_Villages
@@ -767,7 +767,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Seize_Phu_Quoc
-		icon = GFX_goal_unknown
+		icon = GFX_Abandon_Phu_Quoc
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Raid_Vietnamese_Border_Villages
@@ -778,7 +778,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Calm_Tensions_with_Vietnam_for_Now
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_calm_political_tensions
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Seize_Phu_Quoc
@@ -792,7 +792,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Send_Ieng_Sary_to_Thailand
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Calm_Tensions_with_Vietnam_for_Now
@@ -803,7 +803,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Request_Return_of_Refugees
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Calm_Tensions_with_Vietnam_for_Now
@@ -814,7 +814,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Sabotage_Border_Negotiations_with_Vietnam
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Calm_Tensions_with_Vietnam_for_Now
@@ -825,7 +825,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Black_Dragon_Speech
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Sabotage_Border_Negotiations_with_Vietnam
@@ -842,7 +842,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Block_Vietnamese_from_Emmigration
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Black_Dragon_Speech
@@ -853,7 +853,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Broadcast_Xenophobic_Propaganda
-		icon = GFX_goal_unknown
+		icon = GFX_Utilize_Mass_Media_For_Propaganda
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Black_Dragon_Speech
@@ -864,7 +864,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Declare_the_Khmer_Krom_Traitors
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Black_Dragon_Speech
@@ -878,7 +878,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Integrate_Khmer_Krom_Communities
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Black_Dragon_Speech
@@ -892,7 +892,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Directive_870
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Declare_the_Khmer_Krom_Traitors
@@ -906,7 +906,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Encourage_Cadres_to_Kill_Vietnamese_Relatives
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Directive_870
@@ -917,7 +917,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Hunt_the_Setrew_Prowatisas
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Directive_870
@@ -928,7 +928,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Escalate_Cross_Border_Raids
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Encourage_Cadres_to_Kill_Vietnamese_Relatives
@@ -942,7 +942,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Escalate_the_Hunt_for_Vietnamese_and_Mixed_Khmers
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_economics_mixed_indicators
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Escalate_Cross_Border_Raids
@@ -953,7 +953,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Reject_Vietnamese_Peace_Overtures
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Escalate_Cross_Border_Raids
@@ -964,7 +964,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Renew_the_Purges_of_the_New_People
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Reject_Vietnamese_Peace_Overtures
@@ -978,7 +978,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Mobilize_the_Troops_to_the_Vietnamese_Border
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBorderTroops
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Evacuate_Phnom_Penh
@@ -992,7 +992,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Continue_the_Liberation_War
-		icon = GFX_goal_unknown
+		icon = GFX_Mythologize_the_Liberation_War
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Mobilize_the_Troops_to_the_Vietnamese_Border
@@ -1003,7 +1003,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Rally_Anti_Vietnamesse_Fighters
-		icon = GFX_goal_unknown
+		icon = GFX_usa80_rally_foreign_volunteer_fighters
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Continue_the_Liberation_War
@@ -1014,7 +1014,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Liquidate_NLF_Cadres
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Continue_the_Liberation_War
@@ -1025,7 +1025,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Push_Towards_Saigon
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Liquidate_NLF_Cadres
@@ -1039,7 +1039,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Fall_Back
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Push_Towards_Saigon
@@ -1053,7 +1053,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Liberation_of_Khmer_Krom
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Push_Towards_Saigon
@@ -1067,7 +1067,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Cleansing_of_Khmer_Krom
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Liberation_of_Khmer_Krom
@@ -1078,7 +1078,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Thai_Issue
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Evacuate_Phnom_Penh
@@ -1089,7 +1089,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Send_Ieng_Sary_to_Bangkok
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Thai_Issue
@@ -1103,7 +1103,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Seek_Thai_Aid_Against_Vietnam
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Send_Ieng_Sary_to_Bangkok
@@ -1114,7 +1114,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_OfficiatE_Thai_Trading_Ties
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Seek_Thai_Aid_Against_Vietnam
@@ -1125,7 +1125,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Release_the_Crew
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Mayaguez_Incident
@@ -1139,7 +1139,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Execute_the_Crew
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Mayaguez_Incident
@@ -1153,7 +1153,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Fate_of_the_Captured
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Release_the_Crew
@@ -1165,7 +1165,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Hold_Public_Executions
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Fate_of_the_Captured
@@ -1179,7 +1179,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Bargain_for_Ransom
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Fate_of_the_Captured
@@ -1194,7 +1194,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Ratchet_Up_Anti_Thai_Rheothric
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Thai_Issue
@@ -1208,7 +1208,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Demand_Return_of_Former_Khmer_Lands
-		icon = GFX_goal_unknown
+		icon = GFX_Demand_Turkish_Land
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Ratchet_Up_Anti_Thai_Rheothric
@@ -1219,7 +1219,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Raid_Refugee_Camps
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_the_Cay_Duong_refugee_camp
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Ratchet_Up_Anti_Thai_Rheothric
@@ -1230,7 +1230,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Invade_Thailand
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Raid_Refugee_Camps
@@ -1244,7 +1244,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Covertly_Dispose_of_Them
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Fate_of_the_Captured
@@ -1258,7 +1258,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Angkorian_Policy
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Dreams_of_the_Past
@@ -1269,7 +1269,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Establish_the_High_Level_Collectives
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_Strengthen_High_Level_Party_Disciplines
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Angkorian_Policy
@@ -1280,7 +1280,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Set_a_12_Hour_Workday
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Establish_the_High_Level_Collectives
@@ -1291,7 +1291,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Introduce_Mass_Communalization
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Establish_the_High_Level_Collectives
@@ -1302,7 +1302,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Enforce_Communal_Eating
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Introduce_Mass_Communalization
@@ -1316,7 +1316,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Employ_Forced_Labor
-		icon = GFX_goal_unknown
+		icon = GFX_POR_Reject_the_Convention_on_Forced_Labor
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Angkorian_Policy
@@ -1327,7 +1327,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Raise_Dams_Build_Canals
-		icon = GFX_goal_unknown
+		icon = GFX_Hydroelectric_Dam_Development
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Employ_Forced_Labor
@@ -1338,7 +1338,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Accelerate_Rice_Exports
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Agriculture
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Raise_Dams_Build_Canals
@@ -1352,7 +1352,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Destroy_Traditional_Family_Life
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Enforce_Communal_Eating
@@ -1366,7 +1366,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Extensive_Chinese_Aid
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_extensive_military_aid_to_israel
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Angkorian_Policy
@@ -1377,7 +1377,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Organize_Mobile_Work_Units
-		icon = GFX_goal_unknown
+		icon = GFX_SAF_Deploy_mobile_units
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Extensive_Chinese_Aid
@@ -1388,7 +1388,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Mobilize_the_Youth
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Organize_Mobile_Work_Units
@@ -1402,7 +1402,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Three_Forces_System
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Mobilize_the_Youth
@@ -1416,7 +1416,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Atomization_of_the_Individual
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Destroy_Traditional_Family_Life
@@ -1430,7 +1430,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Increase_Rubber_Plantation_Production
-		icon = GFX_goal_unknown
+		icon = GFX_Increase_Sub_Production
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Extensive_Chinese_Aid
@@ -1441,7 +1441,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Seek_Chinese_Cooperation_for_Oil_Exploitation
-		icon = GFX_goal_unknown
+		icon = GFX_1st_Electric_Program
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Increase_Rubber_Plantation_Production
@@ -1455,7 +1455,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Chinese_Technical_Assistance
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_invite_nations_to_technical_assistance
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Seek_Chinese_Cooperation_for_Oil_Exploitation
@@ -1469,7 +1469,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Begin_Exporting_Teak
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Chinese_Technical_Assistance
@@ -1483,7 +1483,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Reject_Free_Foriegn_Aid
-		icon = GFX_goal_unknown
+		icon = GFX_Reject_Free_City_of_Berlin
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Extensive_Chinese_Aid
@@ -1494,7 +1494,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_North_Korean_Agricultural_Advisors
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_north_korean_leader
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Reject_Free_Foriegn_Aid
@@ -1505,7 +1505,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Import_Chinese_and_Korean_Tractors
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Reject_Free_Foriegn_Aid
@@ -1516,7 +1516,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Ratify_Chinese_Trade_Deal_for_Animal_Products
-		icon = GFX_goal_unknown
+		icon = GFX_ESCS_trade_Deals
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_North_Korean_Agricultural_Advisors
@@ -1530,7 +1530,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Export_Exotic_Animal_Products_at_Discounted_Rates
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Ratify_Chinese_Trade_Deal_for_Animal_Products
@@ -1544,7 +1544,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Insist_on_Proper_Prices
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Ratify_Chinese_Trade_Deal_for_Animal_Products
@@ -1558,7 +1558,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Defiling_of_the_Kampuchean_Enviroment
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Insist_on_Proper_Prices
@@ -1570,7 +1570,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Consolidate_the_Regional_Armies
-		icon = GFX_goal_unknown
+		icon = GFX_Tiger_Divisions
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Establish_the_Revolutionary_Army_of_Kampuchea
@@ -1581,7 +1581,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Requisitioned_American_Equipment
-		icon = GFX_goal_unknown
+		icon = GFX_Request_Surplus_American_Equipment
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Establish_the_Revolutionary_Army_of_Kampuchea
@@ -1592,7 +1592,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Negotiate_Chinese_Weapons_Package
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Requisitioned_American_Equipment
@@ -1606,7 +1606,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Revolutionary_Airforce_of_Kampuchea
-		icon = GFX_goal_unknown
+		icon = GFX_Deploy_the_Airforce
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Negotiate_Chinese_Weapons_Package
@@ -1617,7 +1617,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Recieve_Chinese_Radar
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Revolutionary_Airforce_of_Kampuchea
@@ -1628,7 +1628,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Chinese_Anti_Aircraft_Installations
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_military_anti_aircraft_battery
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Revolutionary_Airforce_of_Kampuchea
@@ -1639,7 +1639,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Solicit_More_Chinese_Military_Packages
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBorderTroops
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Negotiate_Chinese_Weapons_Package
@@ -1650,7 +1650,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Chinese_Adviors
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Solicit_More_Chinese_Military_Packages
@@ -1661,7 +1661,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Chinese_Artillery
-		icon = GFX_goal_unknown
+		icon = GFX_Tiger_Divisions
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Solicit_More_Chinese_Military_Packages
@@ -1672,7 +1672,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Establish_Local_Military_Production_Facilities
-		icon = GFX_goal_unknown
+		icon = GFX_establish_short_range_missile_research_facilities
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Chinese_Artillery
@@ -1686,7 +1686,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Acquire_Further_Type_63s
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Establish_Local_Military_Production_Facilities
@@ -1697,7 +1697,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Revolutionary_Navy_of_Kampuchea
-		icon = GFX_goal_unknown
+		icon = GFX_modernize_ports
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Negotiate_Chinese_Weapons_Package
@@ -1708,7 +1708,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Expand_Naval_Defenses_in_Ream
-		icon = GFX_goal_unknown
+		icon = GFX_Prioritize_Naval_Defense
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Revolutionary_Navy_of_Kampuchea
@@ -1719,7 +1719,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Increase_Coastal_Garrisons
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Revolutionary_Navy_of_Kampuchea
@@ -1730,7 +1730,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Chinese_Naval_Infantry_Equipment
-		icon = GFX_goal_unknown
+		icon = GFX_Naval_Infantry
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Increase_Coastal_Garrisons
@@ -1744,7 +1744,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Landing_Craft_Modernization
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Chinese_Naval_Infantry_Equipment
@@ -1755,7 +1755,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Ban_Islam
-		icon = GFX_goal_unknown
+		icon = GFX_ProBuddha
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Purifying_Kampuchea
@@ -1766,7 +1766,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Crush_the_Koh_Pohl_Revolt
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Ban_Islam
@@ -1777,7 +1777,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Seize_Qurans
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Crush_the_Koh_Pohl_Revolt
@@ -1788,7 +1788,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Execute_Grand_Mutfi_Imam_Haji_Res_Los
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Ban_Islam
@@ -1799,7 +1799,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Detroy_Mosques
-		icon = GFX_goal_unknown
+		icon = GFX_Religous_Unity
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Crush_the_Koh_Pohl_Revolt
@@ -1813,7 +1813,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Force_Pork_Consumption
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Seize_Qurans
@@ -1827,7 +1827,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Ban_Traditional_Clothing_and_Customs
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Execute_Grand_Mutfi_Imam_Haji_Res_Los
@@ -1838,7 +1838,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Ban_the_Cham_Language
-		icon = GFX_goal_unknown
+		icon = GFX_ban_regional_languages
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Ban_Traditional_Clothing_and_Customs
@@ -1852,7 +1852,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Execute_Islamic_Leaders
-		icon = GFX_goal_unknown
+		icon = GFX_ProBuddha
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Ban_the_Cham_Language
@@ -1866,7 +1866,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Purge_Hanoi_Trained_Cadres
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Establish_Democratic_Kampuchea
@@ -1877,7 +1877,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Allow_Ethnic_Chinese_to_Emmigrate
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Begin_Deporation_of_Vietnamese
@@ -1891,7 +1891,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Resignation_of_Sihanouk
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Arrival_of_the_White_Scarves
@@ -1905,7 +1905,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Import_Shenyang_J_6s 
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Chinese_Pilot_Exchange_Program
@@ -1916,7 +1916,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Chinese_Pilot_Exchange_Program
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Chinese_Anti_Aircraft_Installations
@@ -1930,7 +1930,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_An_Indentured_Agrarian_State
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Atomization_of_the_Individual
@@ -1944,7 +1944,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Reorganize_the_Classification_System
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_1976_Study_Session
@@ -1955,7 +1955,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Cut_Rations
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_1976_Study_Session
@@ -1966,7 +1966,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Ban_Foraging
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Begin_Replacing_Eastern_Region_Cadres
@@ -1983,7 +1983,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Discriminate_Against_Chinese_Cambodians
-		icon = GFX_goal_unknown
+		icon = GFX_Discriminate_Against_Muslims
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Cut_Rations
@@ -1994,7 +1994,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Seperate_Children_into_Seperate_Communal_Facilities
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Discriminate_Against_Chinese_Cambodians
@@ -2005,7 +2005,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Demote_Suspect_Base_Peoples
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Launch_the_Class_Struggle
@@ -2016,7 +2016,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Purge_the_Northwest_Zone_Cadres
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Begin_Replacing_Eastern_Region_Cadres
@@ -2027,7 +2027,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Begin_Replacing_Eastern_Region_Cadres
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_begin_replacing_w_demons
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Reorganize_the_Classification_System
@@ -2038,7 +2038,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Launch_the_Class_Struggle
-		icon = GFX_goal_unknown
+		icon = GFX_Deemphasize_Class_Struggle
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Seperate_Children_into_Seperate_Communal_Facilities
@@ -2055,7 +2055,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Kill_the_Teachers_and_Intellectuals
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Launch_the_Class_Struggle
@@ -2066,7 +2066,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Round_Up_Former_Republican_Soldiers
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBorderTroops
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Launch_the_Class_Struggle
@@ -2077,7 +2077,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Deport_the_Cham
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Execute_Islamic_Leaders
@@ -2088,7 +2088,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Liquidate_Resisting_Cham_Villages
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Deport_the_Cham
@@ -2099,7 +2099,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Disperse_the_Remaining_Cham
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Deport_the_Cham
@@ -2110,7 +2110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Document_163
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Disperse_the_Remaining_Cham
@@ -2124,7 +2124,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Purge_Former_Capitalists
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Demote_Suspect_Base_Peoples
@@ -2138,7 +2138,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Label_Cambodian_Chinese_as_Traitors_to_the_Revolution
-		icon = GFX_goal_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Round_Up_Former_Republican_Soldiers
@@ -2152,7 +2152,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Raid_Ba_Chuc
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Renew_the_Purges_of_the_New_People
@@ -2166,7 +2166,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Eastern_Region_Problem
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Label_Cambodian_Chinese_as_Traitors_to_the_Revolution
@@ -2180,7 +2180,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_1976_Study_Session
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Resignation_of_Sihanouk
@@ -2194,7 +2194,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Chikreng_Rebellion
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Label_Cambodian_Chinese_as_Traitors_to_the_Revolution
@@ -2208,7 +2208,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Eradicate_Revolting_Villages
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Chikreng_Rebellion
@@ -2219,7 +2219,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Renewed_Crackdown_on_Local_New_People
-		icon = GFX_goal_unknown
+		icon = GFX_crackdown_on_roma_people
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Chikreng_Rebellion
@@ -2230,7 +2230,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Execute_Chan_Chakrey
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Reorganize_the_Classification_System
@@ -2244,7 +2244,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Remove_So_Phim_from_the_Standing_Committee
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Remove_the_Opposition_From_Committee_Chair_Positions
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Eastern_Region_Problem
@@ -2255,7 +2255,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Launch_Radio_Broadcasts_Against_Eastern_Zone_Leadership
-		icon = GFX_goal_unknown
+		icon = GFX_usa80_expand_broadcasts_into_the_eastern_bloc
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Eastern_Region_Problem
@@ -2266,7 +2266,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Launch_Sweeping_Purges_of_Eastern_Chiefs
-		icon = GFX_goal_unknown
+		icon = GFX_Launch_Sweeping_Purges
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Remove_So_Phim_from_the_Standing_Committee
@@ -2280,7 +2280,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Bring_in_Southwestern_Cadres
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Remove_So_Phim_from_the_Standing_Committee
@@ -2291,7 +2291,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Begin_Purging_Eastern_Zone_Military_Officers
-		icon = GFX_goal_unknown
+		icon = GFX_Force_eastern_European_military_spending_limitation
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Launch_Radio_Broadcasts_Against_Eastern_Zone_Leadership
@@ -2302,7 +2302,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Resistance_at_All_Costs
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Resignation_of_Sihanouk
@@ -2316,7 +2316,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Angkar_Siem_Agreement
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Label_Cambodian_Chinese_as_Traitors_to_the_Revolution
@@ -2330,7 +2330,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Launch_Border_Clashes_with_Thailand
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Angkar_Siem_Agreement
@@ -2341,7 +2341,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_A_State_Visit_to_China
-		icon = GFX_goal_unknown
+		icon = GFX_state_visit_to_wuhan
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Eastern_Region_Problem
@@ -2352,7 +2352,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Negotiate_Further_Chinese_Arms_Deals
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_military_arms_deal
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_A_State_Visit_to_China
@@ -2363,7 +2363,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Launch_the_Tay_Ninh_Massacre
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_A_State_Visit_to_China
@@ -2374,7 +2374,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Assasination_of_Yin_Sophi 
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Begin_Purging_Eastern_Zone_Military_Officers
@@ -2391,7 +2391,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Begin_Evacuating_the_Vietnames_Border
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Escalate_Cross_Border_Raids
@@ -2402,7 +2402,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Arrest_Chou_Chet
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Assasination_of_Yin_Sophi 
@@ -2413,7 +2413,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_For_the_Purification_of_the_Khmer_Race
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Assasination_of_Yin_Sophi 
@@ -2424,7 +2424,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Send_Eastern_Cadres_and_Officers_to_Tuol_Sleng
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_50s_Send_Cadre_to_labour_at_The_Grass_Roots_Units
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Assasination_of_Yin_Sophi 
@@ -2435,7 +2435,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Crush_the_Eastern_Zone_Army
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_The_Assasination_of_Yin_Sophi 
@@ -2446,7 +2446,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Attempt_to_Apprehend_So_Phim
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Crush_the_Eastern_Zone_Army
@@ -2460,7 +2460,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Massacre_Surrending_Troops
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Send_Eastern_Cadres_and_Officers_to_Tuol_Sleng
@@ -2477,7 +2477,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Mekong_Runs_Red
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Deport_Easterners
@@ -2488,7 +2488,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Increase_Santebal_Terror_Tactics
-		icon = GFX_goal_unknown
+		icon = GFX_VIE_Encourage_Terror_Tactics
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Attempt_to_Apprehend_So_Phim
@@ -2502,7 +2502,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Deport_Easterners
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Increase_Santebal_Terror_Tactics
@@ -2516,7 +2516,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_The_Blue_Scarves
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Attempt_to_Apprehend_So_Phim
@@ -2530,7 +2530,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Purge_the_Northwestern_Zone
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Arrest_Chou_Chet
@@ -2541,7 +2541,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KMP_Kidnap_Khmer_Krom_inside_Vietnam
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = KMP_Escalate_the_Hunt_for_Vietnamese_and_Mixed_Khmers

@@ -228,7 +228,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LBA_60s_radicalization_of_the_youth
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}

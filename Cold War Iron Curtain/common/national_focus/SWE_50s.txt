@@ -584,7 +584,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWE_The_Saab_29
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = SWE_The_Svenska_Flygvapnet
@@ -632,7 +632,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWE_Produce_the_Saab_32_Lansen
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 20
 		prerequisite = {
 			focus = SWE_The_Svenska_Flygvapnet
@@ -653,7 +653,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWE_The_Saab_35_Draken
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = SWE_Produce_the_Saab_32_Lansen
@@ -671,7 +671,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWE_Implement_the_BAS_60_System
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = SWE_The_Saab_35_Draken

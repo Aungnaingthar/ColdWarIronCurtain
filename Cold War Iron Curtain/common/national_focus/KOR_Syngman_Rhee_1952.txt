@@ -58,7 +58,7 @@ focus_tree = {
 
 	focus = {
 		id = KOR_SYNGMANRHEE52_declare_syngman_rhee_line
-		icon = GFX_unknown
+		icon = GFX_KOR_syngman_rhee_administration_1948
 		cost = 5
 		x = 1
 		y = 1
@@ -221,7 +221,7 @@ focus_tree = {
 
 	focus = {
 		id = KOR_SYNGMANRHEE52_dispatch_the_dokdo_volunteer_guard
-		icon = GFX_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 5
 		x = 0
 		y = 1

@@ -180,7 +180,7 @@ focus_tree = {
 	focus = {
 		id = USA_ALBERT_Individuals_with_Disabilities_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -269,7 +269,7 @@ focus_tree = {
 	focus = {
 		id = USA_ALBERT_Federal_Land_Reform
 		text_icon = USA_focus_style
-		icon = GFX_unknown
+		icon = GFX_Commit_to_Land_Reform
 		search_filters = {
 			IC_FILTER
 		}

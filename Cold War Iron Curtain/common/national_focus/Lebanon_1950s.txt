@@ -75,7 +75,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LEB_Lebanese_Armed_Forces
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_Armed_Forces
 		cost = 10
 		x = 37
 		y = 0
@@ -485,7 +485,7 @@ focus_tree = {
 		id = LEB_President_Camille_Chamoun
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = LEB_Elections_of_1952
@@ -655,7 +655,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LEB_The_SSNP_Threat
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = LEB_al_Nakba
@@ -716,7 +716,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LEB_Delay_Sentancing_Saadeh
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = LEB_Settle_Palestinian_Refugees
@@ -799,7 +799,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LEB_Execute_Antun_Saadeh
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = LEB_Condemn_Syrian_Meddling
@@ -1008,7 +1008,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LEB_The_Fall_of_the_Khoury_Regime
-		icon = GFX_goal_unknown
+		icon = GFX_FallOfTheSomozaRegime
 		cost = 10
 		prerequisite = {
 			focus = LEB_Reaffirm_Lebanese_Identity
@@ -1036,7 +1036,7 @@ focus_tree = {
 		id = LEB_President_Raymond_Edde
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = LEB_Elections_of_1952
@@ -1240,7 +1240,7 @@ focus_tree = {
 		id = LEB_SSNP_Takeover
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = LEB_The_1958_Crisis
@@ -1535,7 +1535,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LEB_Lebanese_Ground_Forces
-		icon = GFX_goal_unknown
+		icon = GFX_Malaysian_Peoples_Liberation_Ground_Force
 		cost = 10
 		prerequisite = {
 			focus = LEB_Lebanese_Armed_Forces
@@ -1635,7 +1635,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LEB_Lebanese_Air_Force
-		icon = GFX_goal_unknown
+		icon = GFX_bulgarian_air_force
 		cost = 10
 		prerequisite = {
 			focus = LEB_Lebanese_Armed_Forces
@@ -1648,7 +1648,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LEB_Purchase_Hawker_Hunters
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = LEB_Lebanese_Air_Force
@@ -1665,7 +1665,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LEB_Import_British_Vampires
-		icon = GFX_goal_unknown
+		icon = GFX_SWK_Import_British_Machinery
 		cost = 10
 		prerequisite = {
 			focus = LEB_Lebanese_Air_Force
@@ -1793,7 +1793,7 @@ focus_tree = {
 		id = LEB_President_Chehab
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = LEB_The_Elections_of_1958
@@ -1820,7 +1820,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LEB_Legalize_the_SSNP
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = LEB_President_Chehab
@@ -2191,7 +2191,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LEB_Anti_Hashemite_Rhetorhic
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = LEB_Integrate_the_Paramilitaries
@@ -2251,7 +2251,7 @@ focus_tree = {
 	}
 	focus = {
 		id = LEB_The_Proclamation_of_Greater_Syria
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = LEB_Prepare_for_the_Coup
@@ -2436,7 +2436,7 @@ focus_tree = {
 		id = LEB_President_Edde
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = LEB_The_Elections_of_1958

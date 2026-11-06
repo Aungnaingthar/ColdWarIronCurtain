@@ -428,7 +428,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAK_New_Constitution1
-		icon = GFX_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10
 		prerequisite = {
 			focus = PAK_Engage_India
@@ -1941,7 +1941,7 @@ focus_tree = {
 		id = PAK_Leftist_Coup_Succeeds
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_usa_50_guatemalan_coup_succeeds
 		cost = 10
 		x = 33
 		y = 12

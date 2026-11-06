@@ -321,6 +321,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOVw_Launch_the_Korean_Offensive
+		icon = GFX_Launch_the_Great_offensive
 		dynamic = yes
 		icon = {
 			GFX_unknown = {
@@ -399,7 +400,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOVw_Cut_Japanese_Relations
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp80_japanese_relations
 		cost = 2.00
 		available = {
 			has_war_with = JAP

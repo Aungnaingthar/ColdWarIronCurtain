@@ -265,7 +265,7 @@ focus_tree = {
 			IC_FILTER
 		}
 		cost = 10
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		x = 12
 		y = 1
 		available_if_capitulated = yes
@@ -722,7 +722,7 @@ focus_tree = {
 		id = LBA_Literacy_Campaign
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_Literacy_Campaign
 		search_filters = {
 			IC_FILTER
 		}

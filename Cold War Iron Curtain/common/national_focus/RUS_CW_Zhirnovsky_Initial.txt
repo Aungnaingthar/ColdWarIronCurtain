@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = RUS_ZHIR_The_Rise_of_Zhirinovsky
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 5
 		y = 0
@@ -18,7 +18,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ZHIR_The_Evil_of_Stalin
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ZHIR_The_Rise_of_Zhirinovsky
@@ -29,7 +29,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ZHIR_Secure_the_Nuclear_Silos
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ZHIR_The_Evil_of_Stalin
@@ -40,7 +40,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ZHIR_The_Russia_National_Liberation_Army
-		icon = GFX_goal_unknown
+		icon = GFX_RUS_Tridemist_Great_Russia
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ZHIR_The_Rise_of_Zhirinovsky
@@ -51,7 +51,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ZHIR_Support_Baltic_Separatism
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ZHIR_The_Russia_National_Liberation_Army
@@ -65,7 +65,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ZHIR_The_Goodness_of_Romanov
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ZHIR_The_Rise_of_Zhirinovsky
@@ -76,7 +76,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ZHIR_Found_the_Okhrana
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ZHIR_The_Goodness_of_Romanov
@@ -87,7 +87,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ZHIR_Purge_Yeltsinites
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ZHIR_Found_the_Okhrana
@@ -101,7 +101,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ZHIR_Russia_One_and_Indivisible
-		icon = GFX_goal_unknown
+		icon = GFX_RUS_Tridemist_Great_Russia
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ZHIR_Found_the_Okhrana
@@ -118,7 +118,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ZHIR_The_Spirit_of_Great_Rus
-		icon = GFX_goal_unknown
+		icon = GFX_RUS_Tridemist_Great_Russia
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ZHIR_Purge_Yeltsinites
@@ -135,7 +135,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ZHIR_Skvoz_Grozy_Siyalo
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ZHIR_The_Spirit_of_Great_Rus
@@ -146,7 +146,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ZHIR_Nam_Solntse_Svobodiy
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ZHIR_The_Spirit_of_Great_Rus
@@ -157,7 +157,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ZHIR_I_Zhirk_Velikiy_Nam_Put_Ozaril
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ZHIR_Nam_Solntse_Svobodiy

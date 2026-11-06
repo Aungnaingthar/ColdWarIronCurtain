@@ -11096,11 +11096,11 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_generic_focus_military_placeholder_shine"
-		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		texturefile = "gfx/interface/goals/USA_1980s/July/usa_80_modernize_perus_military.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/USA_1980s/July/usa_80_modernize_perus_military.png"
+			animationtexturefile = "gfx/interface/goals/USA_1980s/July/usa_80_modernize_perus_military.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -11112,8 +11112,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/USA_1980s/July/usa_80_modernize_perus_military.png"
+			animationtexturefile = "gfx/interface/goals/USA_1980s/July/usa_80_modernize_perus_military.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -11128,11 +11128,11 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_generic_focus_politics_placeholder_shine"
-		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		texturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_court_of_law.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/generic/politics/generic_focus_politics_court_of_law.png"
+			animationtexturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_court_of_law.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -11144,8 +11144,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/generic/politics/generic_focus_politics_court_of_law.png"
+			animationtexturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_court_of_law.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75

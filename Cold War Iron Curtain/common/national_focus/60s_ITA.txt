@@ -1028,7 +1028,7 @@ focus_tree = {
 		id = ITA_60s_1960s_equipment_effort_2
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -1938,7 +1938,7 @@ focus_tree = {
 		id = ITA_60s_1960s_soviet_airfield_development
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -2769,7 +2769,7 @@ focus_tree = {
 		id = ITA_60s_1960s_american_airfield_development
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -2889,7 +2889,7 @@ focus_tree = {
 		id = ITA_60s_1960s_large_navy
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -3015,7 +3015,7 @@ focus_tree = {
 		id = ITA_60s_1960s_extra_tech_slot_2
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -3623,7 +3623,7 @@ focus_tree = {
 		id = ITA_60s_Arrest_PSI_and_PCI_Leaderships
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -3646,7 +3646,7 @@ focus_tree = {
 		id = ITA_60s_Ban_Socialist_and_Communist_Parties
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_BanOppositionParties
 		search_filters = {
 			IC_FILTER
 		}
@@ -3665,7 +3665,7 @@ focus_tree = {
 		id = ITA_60s_Crackdown_on_Left_Wing_Media
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_Force_Left_wing_party_mergers
 		search_filters = {
 			IC_FILTER
 		}
@@ -3713,7 +3713,7 @@ focus_tree = {
 		id = ITA_60s_Restore_Democracy
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -3736,7 +3736,7 @@ focus_tree = {
 		id = ITA_60s_Consolidate_Power_coup
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_hussein_consolidates_power
 		search_filters = {
 			IC_FILTER
 		}
@@ -3786,7 +3786,7 @@ focus_tree = {
 		id = ITA_60s_Reject_PSI_Demands
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_usa80_cuba_rejects_demands
 		search_filters = {
 			IC_FILTER
 		}
@@ -4336,7 +4336,7 @@ focus_tree = {
 		id = ITA_60s_Nationalize_the_Electric_Industry
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -4431,7 +4431,7 @@ focus_tree = {
 		id = ITA_60s_Promote_Nationalism
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -4733,7 +4733,7 @@ focus_tree = {
 		id = ITA_60s_Ban_PCI
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -4751,7 +4751,7 @@ focus_tree = {
 		id = ITA_60s_Assasinate_PSI_Leaders
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_Assasinate_Viet_Minh_Leaders
 		search_filters = {
 			IC_FILTER
 		}
@@ -4792,7 +4792,7 @@ focus_tree = {
 		id = ITA_60s_Assasination_Campaign_Against_Journalists
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_usa_80_air_campaign_against_cartels
 		search_filters = {
 			IC_FILTER
 		}
@@ -4873,7 +4873,7 @@ focus_tree = {
 		id = ITA_60s_Restoration_of_the_Monarchy
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -4991,7 +4991,7 @@ focus_tree = {
 		id = ITA_60s_Monarch_as_a_Figurehead
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -5058,7 +5058,7 @@ focus_tree = {
 		id = ITA_60s_The_Concordat
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -5206,7 +5206,7 @@ focus_tree = {
 		id = ITA_60s_Corporatist_Economy
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -6257,7 +6257,7 @@ focus_tree = {
 		id = ITA_60s_Purge_Northern_Nationalists
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -6307,7 +6307,7 @@ focus_tree = {
 		id = ITA_60s_Fate_of_the_Vatican
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -6349,7 +6349,7 @@ focus_tree = {
 		id = ITA_60s_Condemn_Soviet_Imperialism
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_usa_50_condemn_british_iran_imperialism
 		search_filters = {
 			IC_FILTER
 		}
@@ -6913,7 +6913,7 @@ focus_tree = {
 		id = ITA_60s_The_Years_of_Lead
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -7022,7 +7022,7 @@ focus_tree = {
 		id = ITA_60s_Expand_Early_Education
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_ExpandHigherEducation
 		search_filters = {
 			IC_FILTER
 		}
@@ -7077,7 +7077,7 @@ focus_tree = {
 		id = ITA_60s_Urban_Development
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_focus_Urban_Development
 		search_filters = {
 			IC_FILTER
 		}
@@ -7181,7 +7181,7 @@ focus_tree = {
 		id = ITA_60s_Coup_Aborted
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -7501,7 +7501,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_60s_Build_Scientific_Institutes
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -7571,7 +7571,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_60s_Encourage_Cultural_Exchange
-		icon = GFX_unknown
+		icon = GFX_KOR_50s_facilitate_cultural_exchange
 		search_filters = {
 			IC_FILTER
 		}
@@ -7587,7 +7587,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_60s_Support_Local_Theaters
-		icon = GFX_unknown
+		icon = GFX_goal_ITA_deal
 		search_filters = {
 			IC_FILTER
 		}

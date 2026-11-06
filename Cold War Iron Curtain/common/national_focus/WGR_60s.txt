@@ -39,7 +39,7 @@ focus_tree = {
 		id = WGR_Bundeswehr
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -462,7 +462,7 @@ focus_tree = {
 		id = WGR_The_Effelsberg_Radio_Telescope
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_Utilize_Mass_Media_For_Propaganda
 		search_filters = {
 			IC_FILTER
 		}
@@ -545,7 +545,7 @@ focus_tree = {
 		id = WGR_CDU_Victory_1961
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_WGR_Appease_CDU
 		search_filters = {
 			IC_FILTER
 		}
@@ -603,7 +603,7 @@ focus_tree = {
 		id = WGR_CDU_Victory_1965
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_WGR_Appease_CDU
 		search_filters = {
 			IC_FILTER
 		}
@@ -624,7 +624,7 @@ focus_tree = {
 		id = WGR_Ban_Student_Activism
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -647,7 +647,7 @@ focus_tree = {
 		id = WGR_Seek_Budgetary_Reforms
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		search_filters = {
 			IC_FILTER
 		}
@@ -691,7 +691,7 @@ focus_tree = {
 		id = WGR_Political_Mediation
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_Construct_radio_towers
 		search_filters = {
 			IC_FILTER
 		}
@@ -709,7 +709,7 @@ focus_tree = {
 		id = WGR_Establish_Sick_Pay
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -824,7 +824,7 @@ focus_tree = {
 		id = WGR_The_Succession_of_Adeneaur
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -872,7 +872,7 @@ focus_tree = {
 		id = WGR_CDU_Victory_1969
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_WGR_Appease_CDU
 		search_filters = {
 			IC_FILTER
 		}
@@ -1055,7 +1055,7 @@ focus_tree = {
 		id = WGR_Invest_in_Bavaria
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		search_filters = {
 			IC_FILTER
 		}
@@ -1088,7 +1088,7 @@ focus_tree = {
 		id = WGR_SDP_Victory_1961
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -1145,7 +1145,7 @@ focus_tree = {
 		id = WGR_SDP_Victory_1965
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -1166,7 +1166,7 @@ focus_tree = {
 		id = WGR_Allow_Student_Activism
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}
@@ -1188,7 +1188,7 @@ focus_tree = {
 		id = WGR_1969_SDP_Victory
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -1209,7 +1209,7 @@ focus_tree = {
 		id = WGR_Federal_Training_Assistance_Act
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -1232,7 +1232,7 @@ focus_tree = {
 		id = WGR_Call_for_a_European_Nuclear_Free_Zone
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp88_call_for_a_free_palestine
 		search_filters = {
 			IC_FILTER
 		}
@@ -1486,7 +1486,7 @@ focus_tree = {
 		id = WGR_Seek_Rappoachment_with_the_East
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -1609,7 +1609,7 @@ focus_tree = {
 		id = WGR_The_Moscow_Treaty
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_WGR_Treaty_of_Rome
 		search_filters = {
 			IC_FILTER
 		}
@@ -1630,7 +1630,7 @@ focus_tree = {
 		id = WGR_Bundesmarine
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_WGR_Bundesmarine
 		search_filters = {
 			IC_FILTER
 		}
@@ -1648,7 +1648,7 @@ focus_tree = {
 		id = WGR_Order_Hamburg_Class_Destroyers
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_kolin_class_destroyer
 		search_filters = {
 			IC_FILTER
 		}
@@ -1671,7 +1671,7 @@ focus_tree = {
 		id = WGR_Class_205_Submarines
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_SAF_Daphne_Class_Submarines
 		search_filters = {
 			IC_FILTER
 		}
@@ -1710,7 +1710,7 @@ focus_tree = {
 		id = WGR_Cologne_Class_Frigates
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_SAF_President_Class_Frigates
 		search_filters = {
 			IC_FILTER
 		}
@@ -1752,7 +1752,7 @@ focus_tree = {
 		id = WGR_Lutjens_Class_Destroyers
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_kolin_class_destroyer
 		search_filters = {
 			IC_FILTER
 		}
@@ -1791,7 +1791,7 @@ focus_tree = {
 		id = WGR_Heer
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -1837,7 +1837,7 @@ focus_tree = {
 		id = WGR_Adopt_the_G3
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -1859,7 +1859,7 @@ focus_tree = {
 	focus = {
 		id = WGR_Develop_the_Leopard
 		completion_reward = { }
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -1885,7 +1885,7 @@ focus_tree = {
 		id = WGR_The_Marder_IFV
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -1929,7 +1929,7 @@ focus_tree = {
 		id = WGR_Luftwaffe
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_WGR_Luftwaffe
 		search_filters = {
 			IC_FILTER
 		}
@@ -1972,7 +1972,7 @@ focus_tree = {
 		id = WGR_Purchase_the_F104
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -1994,7 +1994,7 @@ focus_tree = {
 		id = WGR_Reduce_F104_Accident_Rates
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -2015,7 +2015,7 @@ focus_tree = {
 		id = WGR_Import_F-4_Phantom_II
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		search_filters = {
 			IC_FILTER
 		}
@@ -2142,7 +2142,7 @@ focus_tree = {
 		id = WGR_Appease_the_FDP
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_WGR_Appease_CDU
 		search_filters = {
 			IC_FILTER
 		}
@@ -2293,7 +2293,7 @@ focus_tree = {
 		id = WGR_Reiterate_German_Claims_on_Poland
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_WGR_Inter_German_Relations_Ministry
 		search_filters = {
 			IC_FILTER
 		}
@@ -2316,7 +2316,7 @@ focus_tree = {
 		id = WGR_Crackdown_on_the_Red_Army_Faction
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_usa80_hunt_down_the_red_army_faction
 		search_filters = {
 			IC_FILTER
 		}
@@ -2537,7 +2537,7 @@ focus_tree = {
 		id = WGR_Industrial_Subsidies
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_industrial_subsidies
 		search_filters = {
 			IC_FILTER
 		}

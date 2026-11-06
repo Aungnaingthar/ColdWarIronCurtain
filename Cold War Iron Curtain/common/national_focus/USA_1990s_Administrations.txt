@@ -16,7 +16,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D92_jackson_agenda
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_jesse_jackson
 		cost = 8
 		prerequisite = { focus = USA90D92_new_democratic_administration }
 		available = { has_global_flag = jackson_92 }
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D92_gore_agenda
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_al_gore
 		cost = 8
 		prerequisite = { focus = USA90D92_new_democratic_administration }
 		available = { has_global_flag = gore_92 }
@@ -36,7 +36,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D92_dukakis_agenda
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_michael_dukakis
 		cost = 8
 		prerequisite = { focus = USA90D92_new_democratic_administration }
 		available = { has_global_flag = dukakis_92 }
@@ -46,7 +46,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D92_clinton_agenda
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 8
 		prerequisite = { focus = USA90D92_new_democratic_administration }
 		available = { has_global_flag = clinton_92 }
@@ -56,7 +56,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D92_transition_team
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_reestablish_deer_team
 		cost = 8
 		prerequisite = { focus = USA90D92_jackson_agenda focus = USA90D92_gore_agenda focus = USA90D92_dukakis_agenda focus = USA90D92_clinton_agenda }
 		x = 8
@@ -65,7 +65,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D92_deficit_reduction_package
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = { focus = USA90D92_transition_team }
 		x = 8
@@ -74,7 +74,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D92_nafta_choice
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = { focus = USA90D92_deficit_reduction_package }
 		x = 8
@@ -83,7 +83,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D92_health_security_act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_social_security_act_50
 		cost = 10
 		prerequisite = { focus = USA90D92_nafta_choice }
 		x = 6
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D92_crime_and_community_bill
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp88_call_on_the_international_community
 		cost = 10
 		prerequisite = { focus = USA90D92_nafta_choice }
 		x = 10
@@ -110,7 +110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D92_budget_showdown
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10
 		prerequisite = { focus = USA90D92_midterm_reckoning }
 		x = 8
@@ -119,7 +119,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D92_information_superhighway
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = { focus = USA90D92_budget_showdown }
 		x = 8
@@ -128,7 +128,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D92_first_term_legacy
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_legacy_of_armistice_agreements
 		cost = 10
 		prerequisite = { focus = USA90D92_information_superhighway }
 		x = 8
@@ -155,7 +155,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R92_bush_second_term
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_h_dubya_bush
 		cost = 8
 		prerequisite = { focus = USA90R92_republican_administration }
 		available = { has_global_flag = bushsr_92 }
@@ -165,7 +165,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R92_dole_agenda
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_bob_dole
 		cost = 8
 		prerequisite = { focus = USA90R92_republican_administration }
 		available = { has_global_flag = dole_92 }
@@ -175,7 +175,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R92_robertson_agenda
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_pat_robertson
 		cost = 8
 		prerequisite = { focus = USA90R92_republican_administration }
 		available = { has_global_flag = robertson_92 }
@@ -185,7 +185,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R92_duke_agenda
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 8
 		prerequisite = { focus = USA90R92_republican_administration }
 		available = { has_global_flag = duke_92 }
@@ -195,7 +195,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R92_form_the_cabinet
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 8
 		prerequisite = { focus = USA90R92_bush_second_term focus = USA90R92_dole_agenda focus = USA90R92_robertson_agenda focus = USA90R92_duke_agenda }
 		x = 8
@@ -204,7 +204,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R92_fiscal_responsibility
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp80_request_greater_japanese_responsibility_for_naval_defense_and_jsdf_buildup
 		cost = 10
 		prerequisite = { focus = USA90R92_form_the_cabinet }
 		x = 8
@@ -213,7 +213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R92_complete_nafta
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = { focus = USA90R92_fiscal_responsibility }
 		x = 8
@@ -222,7 +222,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R92_public_safety_program
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = { focus = USA90R92_complete_nafta }
 		x = 6
@@ -231,7 +231,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R92_education_and_training
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Education
 		cost = 10
 		prerequisite = { focus = USA90R92_complete_nafta }
 		x = 10
@@ -249,7 +249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R92_congressional_showdown
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10
 		prerequisite = { focus = USA90R92_midterm_campaign }
 		x = 8
@@ -258,7 +258,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R92_defense_and_innovation
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBorderTroops
 		cost = 10
 		prerequisite = { focus = USA90R92_congressional_showdown }
 		x = 8
@@ -267,7 +267,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R92_republican_legacy
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_launch_airstrikes_on_republican_guard_positions
 		cost = 10
 		prerequisite = { focus = USA90R92_defense_and_innovation }
 		x = 8
@@ -294,7 +294,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D96_clinton_bridge
-		icon = GFX_goal_unknown
+		icon = GFX_Railway_Reconstruction
 		cost = 8
 		prerequisite = { focus = USA90D96_democratic_second_term }
 		available = { has_global_flag = clinton_96 }
@@ -304,7 +304,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D96_gore_information_age
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_al_gore
 		cost = 8
 		prerequisite = { focus = USA90D96_democratic_second_term }
 		available = { has_global_flag = gore_96 }
@@ -314,7 +314,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D96_kennedy_civic_liberalism
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 8
 		prerequisite = { focus = USA90D96_democratic_second_term }
 		available = { has_global_flag = kennedy_jr_96 }
@@ -324,7 +324,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D96_larouche_reconstruction
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 8
 		prerequisite = { focus = USA90D96_democratic_second_term }
 		available = { has_global_flag = larouche_96 }
@@ -334,7 +334,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D96_new_cabinet
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 8
 		prerequisite = { focus = USA90D96_clinton_bridge focus = USA90D96_gore_information_age focus = USA90D96_kennedy_civic_liberalism focus = USA90D96_larouche_reconstruction }
 		x = 8
@@ -343,7 +343,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D96_welfare_compromise
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_compromise_with_nicaragua
 		cost = 10
 		prerequisite = { focus = USA90D96_new_cabinet }
 		x = 8
@@ -352,7 +352,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D96_balanced_budget_deal
-		icon = GFX_goal_unknown
+		icon = GFX_goal_USA_deal
 		cost = 10
 		prerequisite = { focus = USA90D96_welfare_compromise }
 		x = 8
@@ -361,7 +361,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D96_digital_divide
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = { focus = USA90D96_balanced_budget_deal }
 		x = 8
@@ -370,7 +370,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D96_financial_modernization
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp_generic_financial_aid
 		cost = 10
 		prerequisite = { focus = USA90D96_digital_divide }
 		mutually_exclusive = { focus = USA90D96_financial_safeguards }
@@ -380,7 +380,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D96_financial_safeguards
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp_generic_financial_aid
 		cost = 10
 		prerequisite = { focus = USA90D96_digital_divide }
 		mutually_exclusive = { focus = USA90D96_financial_modernization }
@@ -390,7 +390,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D96_scandal_and_oversight
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = { focus = USA90D96_financial_modernization focus = USA90D96_financial_safeguards }
 		x = 8
@@ -399,7 +399,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90D96_the_budget_surplus
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_provide_surplus_weapons
 		cost = 10
 		prerequisite = { focus = USA90D96_scandal_and_oversight }
 		x = 8
@@ -435,7 +435,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R96_dole_pragmatism
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_bob_dole
 		cost = 8
 		prerequisite = { focus = USA90R96_republican_mandate }
 		available = { has_global_flag = dole_96 }
@@ -445,7 +445,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R96_buchanan_nationalism
-		icon = GFX_goal_unknown
+		icon = GFX_strenth_in_unity
 		cost = 8
 		prerequisite = { focus = USA90R96_republican_mandate }
 		available = { has_global_flag = buchanan_96 }
@@ -455,7 +455,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R96_form_the_government
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 8
 		prerequisite = { focus = USA90R96_dole_pragmatism focus = USA90R96_buchanan_nationalism }
 		x = 8
@@ -464,7 +464,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R96_balance_the_budget
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10
 		prerequisite = { focus = USA90R96_form_the_government }
 		x = 8
@@ -473,7 +473,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R96_welfare_devolution
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = { focus = USA90R96_balance_the_budget }
 		x = 8
@@ -482,7 +482,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R96_telecommunications_market
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 10
 		prerequisite = { focus = USA90R96_welfare_devolution }
 		x = 8
@@ -491,7 +491,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R96_financial_deregulation
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp_generic_financial_aid
 		cost = 10
 		prerequisite = { focus = USA90R96_telecommunications_market }
 		x = 8
@@ -500,7 +500,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R96_education_and_skills
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Education
 		cost = 10
 		prerequisite = { focus = USA90R96_financial_deregulation }
 		x = 8
@@ -509,7 +509,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA90R96_american_century
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = { focus = USA90R96_education_and_skills }
 		x = 8

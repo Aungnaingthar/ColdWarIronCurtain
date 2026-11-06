@@ -15,7 +15,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_CONNALLY84_The_Connally_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_connally
 		cost = 10.00
 		x = 5
 		y = 0
@@ -27,7 +27,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Consolidated_Omnibus_Reconciliation_Act_of_1985
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_The_Connally_Administration
@@ -43,7 +43,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Firearm_Owners_Protection_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_connally
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Consolidated_Omnibus_Reconciliation_Act_of_1985
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Lift_Oil_Price_Controls
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_connally
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_The_Connally_Administration
@@ -76,7 +76,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_A_New_Era_for_Southern_Republicans
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_connally
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Lift_Oil_Price_Controls
@@ -95,7 +95,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Goldwater_Nichols_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_connally
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Firearm_Owners_Protection_Act
@@ -114,7 +114,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Anti_Drug_Abuse_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_connally
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Goldwater_Nichols_Act
@@ -130,7 +130,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Farm_Policy_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Farm_Policy_Reform_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Lift_Oil_Price_Controls
@@ -145,7 +145,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Re_Open_Investigation_into_JFK_Assasination
-		icon = GFX_goal_unknown
+		icon = GFX_Open_investigations_on_high_ranking_officials
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Farm_Policy_Reform_Act
@@ -167,7 +167,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Veto_the_Comprehensive_Anti_Apartheid_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_safeguard_anti_apartheid_movement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Re_Open_Investigation_into_JFK_Assasination
@@ -189,7 +189,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Immigration_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_connally
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Re_Open_Investigation_into_JFK_Assasination
@@ -205,7 +205,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Tax_Reform_Act_of_1986
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Veto_the_Comprehensive_Anti_Apartheid_Act
@@ -224,7 +224,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_An_End_to_The_Fairness_Doctrine
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_connally
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Tax_Reform_Act_of_1986
@@ -243,7 +243,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Increase_NASA_Funding
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_increase_contra_funding
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Domestic_Oil_Production_Act
@@ -259,7 +259,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Establish_the_Working_Group_on_Financial_Markets
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Combat_Groups_of_the_Working_Class
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Computer_Security_Act
@@ -276,7 +276,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Establish_the_Department_of_Veterans_Affairs
-		icon = GFX_goal_unknown
+		icon = GFX_focus_USA_veteran_initiative
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Veto_the_Civil_Rights_Restoration_Act
@@ -293,7 +293,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Computer_Security_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Computer_Security_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Electronics_Communications_Privacy_Act
@@ -312,7 +312,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Electronics_Communications_Privacy_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Electronic_Industry_Subsidies_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Tax_Reform_Act_of_1986
@@ -331,7 +331,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Domestic_Oil_Production_Act
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_production_oil_barrel
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Electronics_Communications_Privacy_Act
@@ -350,7 +350,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_A_New_Hope_For_America
-		icon = GFX_goal_unknown
+		icon = GFX_goal_USA_america_economic_miracle
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Establish_the_Working_Group_on_Financial_Markets
@@ -370,7 +370,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY84_Veto_the_Civil_Rights_Restoration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY84_Anti_Drug_Abuse_Act

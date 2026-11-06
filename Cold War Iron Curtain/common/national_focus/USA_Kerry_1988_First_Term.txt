@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_KERRY88_The_Kerry_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Farmer_Relief_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Refugee_Relief_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_The_Kerry_Administration
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Enviromental_Protection_Act_of_1989
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Farmer_Relief_Act
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_The_Americans_with_Disability_Act
-		icon = GFX_goal_unknown
+		icon = GFX_American_with_Disability_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_The_Kerry_Administration
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Ryan_White_CARE_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Ryan_White_CARE_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_The_Americans_with_Disability_Act
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Legalize_Sodomy
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Ryan_White_CARE_Act
@@ -109,7 +109,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_The_Civil_Rights_Act_of_1990
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Legalize_Sodomy
@@ -125,7 +125,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Biological_Weapons_Anti_Terrorism_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Biological_Weapons_Anti_Terrorism_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_The_Americans_with_Disability_Act
@@ -141,7 +141,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Jordan_Kennedy_Immigration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Biological_Weapons_Anti_Terrorism_Act
@@ -160,7 +160,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Social_Security_Restoration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_social_security_act_50
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Jordan_Kennedy_Immigration_Act
@@ -178,7 +178,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Judicial_Improvement_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Judicial_Improvement_Act_Trump
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Jordan_Kennedy_Immigration_Act
@@ -194,7 +194,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Enforce_the_Voting_Rights_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Enforce_Fishing_Rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Social_Security_Restoration_Act
@@ -213,7 +213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Propose_Single_Payer_Healthcare
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_propose_national_healthcare
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Enforce_the_Voting_Rights_Act
@@ -229,7 +229,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_The_Fate_of_NAFTA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_leave_it_to_fate
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Clean_Energy_Promotion_Act
@@ -247,7 +247,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Death_Penalty_Moratorium
-		icon = GFX_goal_unknown
+		icon = GFX_Abolish_the_death_penalty
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Undo_Reagans_Corporate_Tax_Cuts
@@ -266,7 +266,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_High_Performance_Computing_and_Communication_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Fast_Track_NAFTA_Negotiatons
@@ -285,7 +285,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY8888_Counter_Pack_the_NLRB
-		icon = GFX_goal_unknown
+		icon = GFX_usa80_invest_in_counter_terrorist_tactics
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Weapons_of_Mass_Destruction_Control_Act
@@ -304,7 +304,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Fast_Track_NAFTA_Negotiatons
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Enforce_the_Voting_Rights_Act
@@ -329,7 +329,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Weapons_of_Mass_Destruction_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Biological_Weapons_Anti_Terrorism_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_Death_Penalty_Moratorium
@@ -347,7 +347,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Clean_Energy_Promotion_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Amend_the_Clean_Air_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_High_Performance_Computing_and_Communication_Act
@@ -363,7 +363,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KERRY88_Undo_Reagans_Corporate_Tax_Cuts
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KERRY88_The_Civil_Rights_Act_of_1990

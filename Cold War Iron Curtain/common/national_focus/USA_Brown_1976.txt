@@ -28,7 +28,7 @@ focus_tree = {
 	focus = {
 		id = USA_BROWN_Protect_the_Earth
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -46,7 +46,7 @@ focus_tree = {
 	focus = {
 		id = USA_BROWN_Buddhist_Economics
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		search_filters = {
 			IC_FILTER
 		}
@@ -63,7 +63,7 @@ focus_tree = {
 	focus = {
 		id = USA_BROWN_Serve_The_People
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -172,7 +172,7 @@ focus_tree = {
 	focus = {
 		id = USA_BROWN_Increase_Solar_Funding
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_increase_contra_funding
 		search_filters = {
 			IC_FILTER
 		}
@@ -399,7 +399,7 @@ focus_tree = {
 	focus = {
 		id = USA_BROWN_Reform_the_Department_of_Defense
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Reform_Ministry_Defense
 		search_filters = {
 			IC_FILTER
 		}
@@ -443,7 +443,7 @@ focus_tree = {
 	focus = {
 		id = USA_BROWN_Nuclear_Power_Skepticism
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_nuclear_Power
 		search_filters = {
 			IC_FILTER
 		}

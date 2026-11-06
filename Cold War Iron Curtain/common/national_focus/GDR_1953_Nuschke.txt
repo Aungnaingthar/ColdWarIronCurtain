@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = GDR_The_Second_Five_Year_Plan
 	focus = {
 		id = GDR_Prime_Minister_Nuschke
-		icon = GFX_goal_unknown
+		icon = GFX_Prime_Minister_Tun
 		cost = 10.00
 		x = 7
 		y = 0
@@ -32,7 +32,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Announce_Rollback_of_Recent_Economic_Changes
-		icon = GFX_goal_unknown
+		icon = GFX_Announce_Rollback_of_Recent_Economic_Changes
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Prime_Minister_Nuschke
@@ -54,7 +54,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_An_End_to_the_Bloc
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_End_the_Cadreization_of_the_Bloc_Parties
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Announce_Rollback_of_Recent_Economic_Changes
@@ -76,7 +76,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Halt_Agricultural_Collectivization_Efforts
-		icon = GFX_goal_unknown
+		icon = GFX_End_Agricultural_Collectivization_Efforts
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_An_End_to_the_Bloc
@@ -99,7 +99,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reform_the_Church_Ministry
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Relax_Church_Repression
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_An_End_to_the_Bloc
@@ -124,7 +124,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Investigate_Stasi_Overreach
-		icon = GFX_goal_unknown
+		icon = GFX_Investigate_Stasi_Outreach
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Reform_the_Church_Ministry
@@ -148,7 +148,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Relieve_Hilde_Benjamin
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Reinstate_Hilde_Benjamin
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Announce_Rollback_of_Recent_Economic_Changes
@@ -170,7 +170,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Dealing_with_the_Soviets
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Request_Soviet_Aid_in_Factory_Modernization
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Announce_Rollback_of_Recent_Economic_Changes
@@ -190,7 +190,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Delegate_the_Foriegn_Ministry_to_SED
-		icon = GFX_goal_unknown
+		icon = GFX_Foreign_Ministry_for_SED
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Dealing_with_the_Soviets
@@ -213,7 +213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Centralize_State_Power
-		icon = GFX_goal_unknown
+		icon = GFX_Centralize_State_power
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Dealing_with_the_Soviets
@@ -236,7 +236,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Establish_New_Regional_Goverments
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Tolerate_Regional_Languages
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Centralize_State_Power
@@ -260,7 +260,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reform_the_Judiciary
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Land_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Investigate_Stasi_Overreach
@@ -288,7 +288,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Announce_Elections_for_1955
-		icon = GFX_goal_unknown
+		icon = GFX_Announce_General_Elections_for_1955
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Reform_the_Judiciary

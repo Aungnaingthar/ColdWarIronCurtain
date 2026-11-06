@@ -351,6 +351,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Abolish_Allied_Control_Initiative_34
+        icon = GFX_Allow_Allied_Supervision_of_the_Junta
         #icon = 
         cost = 5
         x = 17
@@ -1288,6 +1289,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Reopen_Hamburg_Stock_Exchange
+        icon = GFX_Open_Hamburg_Stock_Exchange
         #icon = 
         cost = 5
         x = 13
@@ -1396,6 +1398,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Establish_Internal_Security_District
+        icon = GFX_WGR_Gehlen_1
         #icon = 
         cost = 5
         x = 21
@@ -1434,6 +1437,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Absorb_Regional_Police_Forces_into_Bundespolizei
+        icon = GFX_WGR_Gehlen_1
         #icon = 
         cost = 5
         x = 23
@@ -1455,6 +1459,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Launch_Investigation_of_University_Personel
+        icon = GFX_WGR_Gehlen_1
         #icon = 
         cost = 5
         x = 22
@@ -1475,6 +1480,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Appoint_New_Bundespraesident
+        icon = GFX_WGR_Gehlen_1
         #icon = 
         cost = 5
         x = 25
@@ -1496,6 +1502,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Form_the_Provisional_National_Council
+        icon = GFX_WGR_Gehlen_1
         #icon = 
         cost = 5
         x = 28
@@ -1518,6 +1525,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Civilian_Cabinet
+        icon = GFX_WGR_Gehlen_1
         #icon = 
         cost = 5
         x = 27
@@ -1547,6 +1555,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Military_Cabinet
+        icon = GFX_WGR_Gehlen_1
         #icon = 
 		mutually_exclusive = {
 			focus = WGR_Junta_Gehlen_Civilian_Cabinet
@@ -1618,6 +1627,7 @@ focus_tree = {
     }
 	focus = {
         id = WGR_Junta_Gehlen_Empower_the_Chancellor
+        icon = GFX_WGR_Hellwege_Chancellor
         #icon = 
         cost = 5
         x = 21
@@ -1721,6 +1731,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Confiscate_KPD_Assets
+        icon = GFX_WGR_SPD_KPD_Coalition_1949
         #icon = 
 			
         cost = 5
@@ -1742,6 +1753,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Form_the_Vaterlandische_Front
+        icon = GFX_WGR_Gehlen_1
         #icon = 
 			
         cost = 5
@@ -1792,6 +1804,7 @@ focus_tree = {
     }
 	focus = {
         id = WGR_Junta_Gehlen_Establish_Joint_Allied_German_Investigation_Board
+        icon = GFX_Allow_Allied_Supervision_of_the_Junta
         #icon = GFX_Handling_the_Reimann_Affair
         cost = 5
         x = 3
@@ -1947,6 +1960,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Prepare_For_Border_Skirmishes
+        icon = GFX_WGR_Gehlen_1
         #icon = 
         cost = 1
         x = 7
@@ -2041,7 +2055,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Increase_Counterinsurgency_Operations
-        icon = GFX_unknown
+        icon = GFX_WGR_Gehlen_1
         icon = PRC_50s_Contact_with_Capitalist_Countries
         cost = 5
         x = 3
@@ -2459,6 +2473,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Condemm_Allied_Terror_Bombings
+        icon = GFX_Allow_Allied_Supervision_of_the_Junta
         #icon = 
         cost = 5
         x = 32
@@ -2487,6 +2502,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_The_Reconstruction_Issue
+        icon = GFX_WGR_Gehlen_1
         #icon = 
         cost = 5
         x = 36
@@ -2507,6 +2523,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Support_Jewish_Cultural_Revival
+        icon = GFX_WGR_Gehlen_1
         #icon = 
         cost = 5
         x = 40
@@ -2538,6 +2555,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_Reinterpret_National_Symbolic
+        icon = GFX_WGR_Gehlen_1
         #icon = 
         cost = 5
         x = 38
@@ -2575,6 +2593,7 @@ focus_tree = {
 	
 	focus = {
         id = WGR_Junta_Gehlen_National_Holiday_Question
+        icon = GFX_WGR_Gehlen_1
         #icon = 
         cost = 5
         x = 34

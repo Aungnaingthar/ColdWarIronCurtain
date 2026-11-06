@@ -15,7 +15,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_RUMSFELD84_The_Rumsfeld_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_donald_rumsfeld
 		cost = 10.00
 		x = 5
 		y = 0
@@ -27,7 +27,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Omnibus_Reconciliation_Act_of_1985
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_The_Rumsfeld_Administration
@@ -43,7 +43,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_School_Voucher_Program
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_donald_rumsfeld
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Omnibus_Reconciliation_Act_of_1985
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Hike_Defense_Spending
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp84_encourage_higher_european_defense_spending
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_The_Rumsfeld_Administration
@@ -82,7 +82,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_The_Balanced_Budget_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_donald_rumsfeld
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Hike_Defense_Spending
@@ -101,7 +101,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Prohibit_Research_into_Aids
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_donald_rumsfeld
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_The_Balanced_Budget_Act
@@ -120,7 +120,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Anti_Drug_Abuse_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_donald_rumsfeld
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Prohibit_Research_into_Aids
@@ -136,7 +136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Scrap_Arms_Controls_Agreements
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_donald_rumsfeld
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Hike_Defense_Spending
@@ -156,7 +156,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Food_Security_Act_of_1985
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_social_security_act_50
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Scrap_Arms_Controls_Agreements
@@ -175,7 +175,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Veto_the_Comprehensive_Anti_Apartheid_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_safeguard_anti_apartheid_movement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Food_Security_Act_of_1985
@@ -197,7 +197,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Immigration_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_donald_rumsfeld
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Food_Security_Act_of_1985
@@ -213,7 +213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Loosen_Restrictions_on_Firearms
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Loosen_Restrictions_on_Western_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Veto_the_Comprehensive_Anti_Apartheid_Act
@@ -232,7 +232,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Restructure_the_Department_of_Defense
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_donald_rumsfeld
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Loosen_Restrictions_on_Firearms
@@ -248,7 +248,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Establish_the_Department_of_Veterans_Affairs
-		icon = GFX_goal_unknown
+		icon = GFX_focus_USA_veteran_initiative
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Crime_Control_Act
@@ -264,7 +264,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Computer_Security_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Computer_Security_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Electronics_Communications_Privacy_Act
@@ -283,7 +283,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_The_Income_Tax_Restructuring_Act_of_1988
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Seek_Canadian_Free_Trade_Agreement
@@ -301,7 +301,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Electronics_Communications_Privacy_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Electronic_Industry_Subsidies_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Loosen_Restrictions_on_Firearms
@@ -320,7 +320,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Omnibus_Foriegn_Trade_and_Competitiveness_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Electronics_Communications_Privacy_Act
@@ -339,7 +339,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Seek_Canadian_Free_Trade_Agreement
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_trading_trade_agreement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Omnibus_Foriegn_Trade_and_Competitiveness_Act
@@ -357,7 +357,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Appoint_Alan_Greenspan_as_Federal_Reserve_Chairman
-		icon = GFX_goal_unknown
+		icon = GFX_Appoint_Hans_Speidel_as_Chairman
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Computer_Security_Act
@@ -377,7 +377,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_RUMSFELD84_Crime_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_donald_rumsfeld
 		cost = 10.00
 		prerequisite = {
 			focus = USA_RUMSFELD84_Anti_Drug_Abuse_Act

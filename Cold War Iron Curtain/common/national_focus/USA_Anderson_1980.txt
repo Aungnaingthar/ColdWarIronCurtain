@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_ANDERSON80_The_Anderson_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Tighten_Monetary_Policy
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_The_Anderson_Administration
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Legalize_Sodomy
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_Tighten_Monetary_Policy
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_End_Petrolum_Price_and_Allocation_Controls 
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_The_Anderson_Administration
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Declare_a_Freeze_on_Nuclear_Power_Construction
-		icon = GFX_goal_unknown
+		icon = GFX_nuclear_Power
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_End_Petrolum_Price_and_Allocation_Controls 
@@ -91,7 +91,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Handgun_Registration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_Legalize_Sodomy
@@ -110,7 +110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Research_Tax_Incentive_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_Handgun_Registration_Act
@@ -126,7 +126,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Increase_Conservation_Efforts
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_End_Petrolum_Price_and_Allocation_Controls 
@@ -147,7 +147,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_National_Indexed_Income_Tax_Adjustment_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_Increase_Conservation_Efforts
@@ -166,7 +166,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_National_Minimum_Drinking_Age_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_National_Indexed_Income_Tax_Adjustment_Act
@@ -185,7 +185,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Garn_St_Germain_Depository_Institutions_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_National_Indexed_Income_Tax_Adjustment_Act
@@ -199,7 +199,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_The_50_50_Tax_Reform_Proposal
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_Garn_St_Germain_Depository_Institutions_Act
@@ -218,7 +218,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Address_the_AIDS_Crisis
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_The_50_50_Tax_Reform_Proposal
@@ -234,7 +234,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Womens_Health_Choices_Funding_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_Extend_the_ERA_Deadline
@@ -250,7 +250,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Repeal_the_Selective_Service_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_Medical_Education_Reform_Act_of_1984
@@ -269,7 +269,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Advocate_for_Patent_Reform
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_Campaign_Finance_Reform_Act
@@ -284,7 +284,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_The_Workforce_of_Tommorrow_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_Urban_Revitilization_Act
@@ -302,7 +302,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Urban_Revitilization_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_Campaign_Finance_Reform_Act
@@ -321,7 +321,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Extend_the_ERA_Deadline
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_Urban_Revitilization_Act
@@ -341,7 +341,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Medical_Education_Reform_Act_of_1984
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_The_Workforce_of_Tommorrow_Act
@@ -357,7 +357,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSON80_Campaign_Finance_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_john_anderson
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSON80_Research_Tax_Incentive_Act

@@ -156,7 +156,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE72_Endangered_Species_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}
@@ -177,7 +177,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE72_Disaster_Relieft_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_humanitarian_disaster
 		search_filters = {
 			IC_FILTER
 		}
@@ -201,7 +201,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE72_Federal_Fire_Prevention_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_The_Subversive_Activities_Prevention_Act
 		search_filters = {
 			IC_FILTER
 		}
@@ -315,7 +315,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE72_Appalachian_Development_Program
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}

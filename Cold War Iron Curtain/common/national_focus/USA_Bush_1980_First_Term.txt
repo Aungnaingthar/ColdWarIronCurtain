@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_BUSH80_The_Bush_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_h_dubya_bush
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BUSH80_Executive_Order_12333
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_h_dubya_bush
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BUSH80_The_Bush_Administration
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BUSH80_End_Petrolum_Price_and_Allocation_Controls 
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_h_dubya_bush
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BUSH80_The_Bush_Administration
@@ -94,7 +94,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BUSH80_Agriculture_and_Food_Act_of_1981
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_agriculture_food_stores
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BUSH80_Seek_a_Compromise_on_Abortion_Funding
@@ -113,7 +113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BUSH80_Tighten_the_Monetary_Supply
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_h_dubya_bush
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BUSH80_Agriculture_and_Food_Act_of_1981
@@ -152,7 +152,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BUSH80_Propose_Devolving_AFDC_to_the_States
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_h_dubya_bush
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BUSH80_Hike_Military_Spending
@@ -205,7 +205,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BUSH80_Garn_St_Germain_Depository_Institutions_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_h_dubya_bush
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BUSH80_Expanding_Education_Provider_Choice_Act
@@ -224,7 +224,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BUSH80_Tax_Equity_and_Fiscal_Responsibility_Act_of_1982
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BUSH80_Garn_St_Germain_Depository_Institutions_Act
@@ -292,7 +292,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BUSH80_Energy_Production_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_h_dubya_bush
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BUSH80_Garn_St_Germain_Depository_Institutions_Act
@@ -311,7 +311,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BUSH80_Address_the_AIDS_Crisis
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_h_dubya_bush
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BUSH80_Energy_Production_Act
@@ -329,7 +329,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BUSH80_National_Minimum_Drinking_Age_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_h_dubya_bush
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BUSH80_Address_the_AIDS_Crisis
@@ -345,7 +345,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BUSH80_Deficit_Reduction_Act_of_1984
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_h_dubya_bush
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BUSH80_Comprehensive_Crime_Control_Act
@@ -364,7 +364,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BUSH80_Further_Deregulate_the_Energy_Sector
-		icon = GFX_goal_unknown
+		icon = GFX_DDR_Energy_Sector_Invest
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BUSH80_Tighten_the_Monetary_Supply

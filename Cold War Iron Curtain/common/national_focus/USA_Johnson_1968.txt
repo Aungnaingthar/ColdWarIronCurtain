@@ -85,7 +85,7 @@ focus_tree = {
 	focus = {
 		id = USA_LBJ_Expand_the_Great_Society
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -108,7 +108,7 @@ focus_tree = {
 	focus = {
 		id = USA_LBJ_Enforce_Civil_Rights_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		search_filters = {
 			IC_FILTER
 		}
@@ -194,7 +194,7 @@ focus_tree = {
 	focus = {
 		id = USA_LBJ_National_Environmental_Policy_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Farm_Policy_Reform_Act
 		search_filters = {
 			IC_FILTER
 		}
@@ -275,7 +275,7 @@ focus_tree = {
 	focus = {
 		id = USA_LBJ_Establish_the_Office_of_Minority_Business_Enterprise
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Establish_the_Belgian_Office_for_the_Increase_of_Productivity
 		search_filters = {
 			IC_FILTER
 		}

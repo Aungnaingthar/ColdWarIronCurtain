@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_MONDALE80_The_Mondale_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Federalize_Welfare
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_The_Mondale_Administration
@@ -41,7 +41,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Housing_Act_of_1981
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_housing_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Federalize_Welfare
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_An_End_to_McGovernism
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_The_Mondale_Administration
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_The_Mental_Health_Systems_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_An_End_to_McGovernism
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Handgun_Registration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_The_Mental_Health_Systems_Act
@@ -111,7 +111,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Automanufacturing_Domestic_Content_Bill
-		icon = GFX_goal_unknown
+		icon = GFX_Revive_the_Automanufacturing_Domestic_Content_Bill
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Handgun_Registration_Act
@@ -127,7 +127,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Reverse_Oil_Deregulation_Policies
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_An_End_to_McGovernism
@@ -144,7 +144,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Hike_Agricultural_Subsidies
-		icon = GFX_goal_unknown
+		icon = GFX_Agricultural_Subsidies
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Reverse_Oil_Deregulation_Policies
@@ -163,7 +163,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_National_Minimum_Drinking_Age_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Hike_Agricultural_Subsidies
@@ -182,7 +182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Halt_New_Nuclear_Plant_Construction
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Hike_Agricultural_Subsidies
@@ -198,7 +198,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Energy_Development_Act_of_1982
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_National_Minimum_Drinking_Age_Act
@@ -217,7 +217,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Address_the_AIDS_Crisis
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Energy_Development_Act_of_1982
@@ -233,7 +233,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Kennedy_Gephardt_Medicare_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_dick_gephardt
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Amtrak_Restoration_Act
@@ -249,7 +249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Launch_New_Mass_Transit_Reforms
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Nationalize_NASA
@@ -268,7 +268,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Enforce_the_Spirit_of_Humphrey_Hawkins_Full_Employment_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Revenue_Adjustment_Act_of_1984
@@ -292,7 +292,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Nationalize_NASA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Energy_Development_Act_of_1982
@@ -311,7 +311,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Appoint_Rohatyn_as_Federal_Reserve_Chairman
-		icon = GFX_goal_unknown
+		icon = GFX_Appoint_Hans_Speidel_as_Chairman
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Nationalize_NASA
@@ -335,7 +335,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Revenue_Adjustment_Act_of_1984
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Appoint_Rohatyn_as_Federal_Reserve_Chairman
@@ -351,7 +351,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Medical_Education_Reform_Act_of_1984
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Launch_New_Mass_Transit_Reforms
@@ -368,7 +368,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE80_Amtrak_Restoration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_walter_mondale
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE80_Automanufacturing_Domestic_Content_Bill

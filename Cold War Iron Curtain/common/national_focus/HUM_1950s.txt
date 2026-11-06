@@ -160,6 +160,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUM_Liberate_Itu-aba_Island
+		icon = GFX_HUM_Ignore_ROC_Itu-aba_Garrison
 		cost = 10
 		prerequisite = {
 			focus = HUM_Permit_French_Garrison
@@ -213,6 +214,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUM_Contact_South_Vietnam
+		icon = GFX_Buddhist_Persicution_in_South_Vietnam
 		cost = 10
 		prerequisite = {
 			focus = HUM_Liberate_Itu-aba_Island
@@ -246,6 +248,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUM_Approach_the_Phillipine_government
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = HUM_Contact_South_Vietnam
@@ -268,6 +271,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUM_Request_Bruneis_Recognition
+		icon = GFX_HUM_Requesting_UN_Recognition
 		cost = 10
 		prerequisite = {
 			focus = HUM_Approach_the_Phillipine_government
@@ -293,7 +297,7 @@ focus_tree = {
 	# start of domestic policy branch
 	focus = {
 		id = HUM_Recolonize_the_Archipelago
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}

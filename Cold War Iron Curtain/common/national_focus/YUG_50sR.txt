@@ -26,7 +26,7 @@ focus_tree = {
 
 	focus = {
 		id = YUG_matters_of_internal_security
-		icon = GFX_goal_unknown
+		icon = GFX_Empower_the_Ministry_of_Internal_security
 		cost = 7
 		completion_reward = {
 			add_political_power = 25
@@ -40,7 +40,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YUG_scale_back_udba_operations
-		icon = GFX_unknown
+		icon = GFX_Scale_Back_BGS
 		cost = 7
 		available = {
 			has_country_flag = YUG_localisation_focus_informbiro_intsecinfo
@@ -73,7 +73,7 @@ focus_tree = {
 	}			
 		focus = {
 			id = YUG_undermine_udba
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_paperwork_and_telephone
 			cost = 7
 			available = {
 				has_country_flag = YUG_localisation_focus_informbiro_intsecinfo
@@ -119,7 +119,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_fund_pero_popivoda_return
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_paperwork_and_telephone
 			cost = 7
 			available = {
 				has_country_flag = YUG_localisation_focus_informbiro_intsecinfo
@@ -146,7 +146,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_fund_ragtag_cominformist_partisans
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_press_statement
 			cost = 7
 			available = {
 				has_country_flag = YUG_localisation_focus_informbiro_intsecinfo
@@ -184,7 +184,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_sow_corruption_into_kos
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_court_of_law
 			cost = 7
 			available = {
 				has_country_flag = YUG_localisation_focus_informbiro_intsecinfo
@@ -204,7 +204,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_brand_rankovic_a_traitor
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_press_statement
 			cost = 7
 			available = {
 				has_country_flag = YUG_localisation_focus_informbiro_intsecinfo
@@ -228,7 +228,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_a_deal_with_crusaders
-			icon = GFX_unknown
+			icon = GFX_YUG_Further_EEC_Deals
 			cost = 7
 			available = {
 				has_country_flag = YUG_localisation_focus_informbiro_intsecinfo
@@ -253,7 +253,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_assasinate_tito
-			icon = GFX_unknown
+			icon = GFX_YUG_Prepare_For_Post_Tito_Yugoslavia
 			cost = 7
 			available = {
 				has_country_flag = YUG_localisation_focus_informbiro_intsecinfo
@@ -274,7 +274,7 @@ focus_tree = {
 		}	
 	focus = {
 		id = YUG_reorganise_the_udba
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		mutually_exclusive = {
 			focus = YUG_scale_back_udba_operations
@@ -296,7 +296,7 @@ focus_tree = {
 	}
 		focus = {
 			id = YUG_take_care_of_hebrang_zujovic
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Take_Care_Of_Serb_Dissidents
 			cost = 7
 			prerequisite = {
 				focus = YUG_reorganise_the_udba
@@ -312,7 +312,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_establish_anti_cominformist_staff_in_udb
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Purge_Anti_Soviets
 			cost = 7
 			prerequisite = {
 				focus = YUG_reorganise_the_udba
@@ -498,7 +498,7 @@ focus_tree = {
 		}		
 		focus = {
 			id = YUG_quell_cazin_uprising
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_paperwork_and_telephone
 			cost = 7
 			prerequisite = {
 				focus = YUG_spare_no_mercy_to_crusaders
@@ -521,7 +521,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_yugoslavia_free_from_soviets
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Prepare_For_Post_Tito_Yugoslavia
 			cost = 7
 			prerequisite = {
 				focus = YUG_liquidate_soviet_emigres
@@ -577,7 +577,7 @@ focus_tree = {
 
 	focus = {
 		id = YUG_matters_of_external_security
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_court_of_law
 		cost = 7
 		prerequisite = {
 			focus = YUG_informbiro_period
@@ -591,7 +591,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YUG_suspend_any_aid_to_dse
-		icon = GFX_goal_unknown
+		icon = GFX_SuspendAidToSomoza
 		cost = 7
 		mutually_exclusive = {
 			focus = YUG_direct_intervention_in_greek_civil_war
@@ -743,7 +743,7 @@ focus_tree = {
 		}		
 		focus = {
 			id = YUG_1953_ankara_agreement
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_SOV_Nuclear_Agreement
 			cost = 7
 			prerequisite = {
 				focus = YUG_request_food_shipments
@@ -779,7 +779,7 @@ focus_tree = {
 		}						
 		focus = {
 			id = YUG_1954_bled_agreement
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_SOV_Nuclear_Agreement
 			cost = 7
 			prerequisite = {
 				focus = YUG_repay_prewar_loans_to_west
@@ -896,7 +896,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_spread_titoism_beyond_yugoslavia
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Modernise_Titoism
 			cost = 7
 			prerequisite = {
 				focus = YUG_direct_intervention_in_greek_civil_war
@@ -917,7 +917,7 @@ focus_tree = {
 		}		
 		focus = {
 			id = YUG_condemn_capitalist_demands
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Concede_to_Demands
 			cost = 7
 			prerequisite = {
 				focus = YUG_direct_intervention_in_greek_civil_war
@@ -966,7 +966,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_assist_in_greek_reconstruction
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_press_statement
 			cost = 7
 			prerequisite = {
 				focus = YUG_supply_greek_insurgents
@@ -1045,7 +1045,7 @@ focus_tree = {
 		}						
 		focus = {
 			id = YUG_a_greco_yugoslavian_union
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Yugoslavian_Cybersyn_Project
 			cost = 7
 			prerequisite = {
 				focus = YUG_reorganise_the_greek_partisan_army
@@ -1111,7 +1111,7 @@ focus_tree = {
 	}	
 		focus = {
 			id = YUG_confirm_yugoslav_independence
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Embrace_All_Yugoslav_Interests
 			cost = 7
 			prerequisite = {
 				focus = YUG_stalin_dead
@@ -1353,7 +1353,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_proclaim_bfsr
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_press_statement
 			cost = 7
 			prerequisite = {
 				focus = YUG_the_real_yugoslavia
@@ -1771,7 +1771,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_establish_energoprojekt
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Establish_Students_Cultural_Centres
 			cost = 7
 			prerequisite = {
 				focus = YUG_industrialisation_and_reconstruction_of_yugoslavia
@@ -2683,7 +2683,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_play_both_sides
-			icon = GFX_unknown
+			icon = GFX_usa_fp80_propose_arms_embargoes_on_both_sides
 			cost = 7
 			prerequisite = {
 				focus = YUG_finalize_1953_constitution	
@@ -3174,7 +3174,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_jugoexport
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_paperwork_and_telephone
 			cost = 7
 			prerequisite = {
 				focus = YUG_zastava_and_tomos
@@ -3255,7 +3255,7 @@ focus_tree = {
 		}	
 			focus = {
 				id = YUG_decentralise_planning_process
-				icon = GFX_goal_unknown
+				icon = GFX_generic_focus_politics_paperwork_and_telephone
 				cost = 7
 				prerequisite = {
 					focus = YUG_begin_the_perspective_five_year_plan
@@ -4114,7 +4114,7 @@ focus_tree = {
 
 	focus = {
 		id = YUG_ubijen_je_drug_tito
-		icon = GFX_goal_unknown
+		icon = GFX_YUG_Prepare_For_Post_Tito_Yugoslavia
 		cost = 7
 		allow_branch = {
 			has_country_flag = YUG_tito_assasination
@@ -4131,7 +4131,7 @@ focus_tree = {
 
 		focus = {
 			id = YUG_launch_an_investigation
-			icon = GFX_goal_unknown
+			icon = GFX_Launch_Full_Investigation
 			cost = 7
 			prerequisite = {
 				focus = YUG_ubijen_je_drug_tito
@@ -4149,7 +4149,7 @@ focus_tree = {
 
 		focus = {
 			id = YUG_declare_a_state_of_martial_law
-			icon = GFX_goal_unknown
+			icon = GFX_declare_martial_law
 			cost = 7
 			prerequisite = {
 				focus = YUG_ubijen_je_drug_tito
@@ -4164,7 +4164,7 @@ focus_tree = {
 
 		focus = {
 			id = YUG_emergency_6th_congress_of_kpj
-			icon = GFX_goal_unknown
+			icon = GFX_Commit_to_Reform
 			cost = 7
 			prerequisite = {
 				focus = YUG_launch_an_investigation
@@ -4185,7 +4185,7 @@ focus_tree = {
 
 		focus = {
 			id = YUG_establish_an_emergency_government
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Establish_Students_Cultural_Centres
 			cost = 7
 			prerequisite = {
 				focus = YUG_emergency_6th_congress_of_kpj
@@ -4198,7 +4198,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_unify_the_public_behind_tito
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Prepare_For_Post_Tito_Yugoslavia
 			cost = 7
 			prerequisite = {
 				focus = YUG_emergency_6th_congress_of_kpj
@@ -4211,7 +4211,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_assure_the_public
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Heavily_Subsidise_Public_Institutions
 			cost = 7
 			prerequisite = {
 				focus = YUG_emergency_6th_congress_of_kpj
@@ -4277,7 +4277,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_the_funeral
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_press_statement
 			cost = 7
 			prerequisite = {
 				focus = YUG_unify_the_public_behind_tito
@@ -4300,7 +4300,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_divert_army_funding_to_famine_relief
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Army
 			cost = 7
 			prerequisite = {
 				focus = YUG_unify_the_public_behind_tito
@@ -4328,7 +4328,7 @@ focus_tree = {
 		}		
 		focus = {
 			id = YUG_appoint_the_first_president_of_yugoslavia
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Prepare_For_Post_Tito_Yugoslavia
 			cost = 7
 			prerequisite = {
 				focus = YUG_divert_army_funding_to_famine_relief
@@ -4350,7 +4350,7 @@ focus_tree = {
 ##Gosnjak Schizo Route	
 	focus = {
 		id = YUG_gosnjak_refuses_to_lose_ground
-		icon = GFX_goal_unknown
+		icon = GFX_YUG_Ground_Force
 		cost = 7
 		prerequisite = {
 			focus = YUG_appoint_the_first_president_of_yugoslavia
@@ -4374,7 +4374,7 @@ focus_tree = {
 	}	
 		focus = {
 			id = YUG_the_sacred_campaign
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_paperwork_and_telephone
 			cost = 7
 			prerequisite = {
 				focus = YUG_gosnjak_refuses_to_lose_ground
@@ -4387,7 +4387,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_sack_the_politburo
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_paperwork_and_telephone
 			cost = 7
 			prerequisite = {
 				focus = YUG_gosnjak_refuses_to_lose_ground
@@ -4400,7 +4400,7 @@ focus_tree = {
 		}		
 		focus = {
 			id = YUG_liquidate_crusader_terrorist_cells
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_press_statement
 			cost = 7
 			prerequisite = {
 				focus = YUG_the_sacred_campaign
@@ -4438,7 +4438,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_crush_cominformist_partisan_groups
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_paperwork_and_telephone
 			cost = 7
 			prerequisite = {
 				focus = YUG_the_sacred_campaign
@@ -4474,7 +4474,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_appoint_loyalists_in_the_army
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Army
 			cost = 7
 			prerequisite = {
 				focus = YUG_sack_the_politburo
@@ -4487,7 +4487,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_arrest_high_ranking_dissidents
-			icon = GFX_goal_unknown
+			icon = GFX_Open_investigations_on_high_ranking_officials
 			cost = 7
 			prerequisite = {
 				focus = YUG_liquidate_crusader_terrorist_cells
@@ -4505,7 +4505,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_keep_titos_dream_alive_at_all_costs
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Prepare_For_Post_Tito_Yugoslavia
 			cost = 7
 			prerequisite = {
 				focus = YUG_liquidate_crusader_terrorist_cells
@@ -4521,7 +4521,7 @@ focus_tree = {
 		}		
 		focus = {
 			id = YUG_prisoners_dont_need_food
-			icon = GFX_goal_unknown
+			icon = GFX_Agriculture_2
 			cost = 7
 			prerequisite = {
 				focus = YUG_arrest_high_ranking_dissidents
@@ -4537,7 +4537,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_rename_cities_in_titos_honour
-			icon = GFX_goal_unknown
+			icon = GFX_SOV_rename_cities_named_after_stalin
 			cost = 7
 			prerequisite = {
 				focus = YUG_keep_titos_dream_alive_at_all_costs
@@ -4607,7 +4607,7 @@ focus_tree = {
 		}		
 		focus = {
 			id = YUG_the_speech
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_paperwork_and_telephone
 			cost = 7
 			prerequisite = {
 				focus = YUG_prisoners_dont_need_food
@@ -4625,7 +4625,7 @@ focus_tree = {
 #Cool Guy Djilas Route
 	focus = {
 		id = YUG_dilas_appointed_president
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		prerequisite = {
 			focus = YUG_appoint_the_first_president_of_yugoslavia
@@ -4652,7 +4652,7 @@ focus_tree = {
 	}	
 		focus = {
 			id = YUG_the_end_of_overbureaucratic_stalinism
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_paperwork_and_telephone
 			cost = 7
 			prerequisite = {
 				focus = YUG_dilas_appointed_president
@@ -4665,7 +4665,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_redirect_party_efforts_to_socialist_goals
-			icon = GFX_goal_unknown
+			icon = GFX_Indian_Socialist_Party
 			cost = 7
 			prerequisite = {
 				focus = YUG_dilas_appointed_president
@@ -4678,7 +4678,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_push_for_intraparty_democracy
-			icon = GFX_goal_unknown
+			icon = GFX_focus_generic_election
 			cost = 7
 			prerequisite = {
 				focus = YUG_the_end_of_overbureaucratic_stalinism
@@ -4691,7 +4691,7 @@ focus_tree = {
 		}		
 		focus = {
 			id = YUG_introduce_term_limits_for_officials
-			icon = GFX_goal_unknown
+			icon = GFX_SOV_Introduce_Legal_Term_Limits
 			cost = 7
 			prerequisite = {
 				focus = YUG_redirect_party_efforts_to_socialist_goals
@@ -4704,7 +4704,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_include_intellectuals_and_experts_in_the_politburo
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_paperwork_and_telephone
 			cost = 7
 			prerequisite = {
 				focus = YUG_introduce_term_limits_for_officials
@@ -4720,7 +4720,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_the_reforms_towards_democratic_socialism
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Consumer_Socialism
 			cost = 7
 			prerequisite = {
 				focus = YUG_include_intellectuals_and_experts_in_the_politburo
@@ -4733,7 +4733,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_prepare_reconciliation_talks_with_seperatists
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Prepare_Construction_of_Trans_Yugoslav_Road
 			cost = 7
 			prerequisite = {
 				focus = YUG_the_reforms_towards_democratic_socialism
@@ -4746,7 +4746,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_embrace_slovene_socialists
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Embrace_All_Yugoslav_Interests
 			cost = 7
 			prerequisite = {
 				focus = YUG_prepare_reconciliation_talks_with_seperatists
@@ -4759,7 +4759,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_claim_imro_fighters_for_ourselves
-			icon = GFX_goal_unknown
+			icon = GFX_Deploy_the_Airforce
 			cost = 7
 			prerequisite = {
 				focus = YUG_prepare_reconciliation_talks_with_seperatists
@@ -4772,7 +4772,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_political_amnesty_for_chetnik_combatants
-			icon = GFX_goal_unknown
+			icon = GFX_Amnesty_for_political_prisoners
 			cost = 7
 			prerequisite = {
 				focus = YUG_prepare_reconciliation_talks_with_seperatists
@@ -4785,7 +4785,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_offer_macek_a_return_to_politics
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_press_statement
 			cost = 7
 			prerequisite = {
 				focus = YUG_embrace_slovene_socialists
@@ -4804,7 +4804,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_brand_macek_a_ndh_traitor
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_press_statement
 			cost = 7
 			prerequisite = {
 				focus = YUG_political_amnesty_for_chetnik_combatants
@@ -4823,7 +4823,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_empower_the_people
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Empower_Autonomous_Republics
 			cost = 7
 			prerequisite = {
 				focus = YUG_the_reforms_towards_democratic_socialism
@@ -4836,7 +4836,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_allow_entrepreneurship_within_socialism
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Consumer_Socialism
 			cost = 7
 			prerequisite = {
 				focus = YUG_empower_the_people
@@ -4849,7 +4849,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_guarantee_workers_self_management
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Domestic_Self_Sufficiency
 			cost = 7
 			prerequisite = {
 				focus = YUG_begin_decentralising_the_state
@@ -4865,7 +4865,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_end_the_persecution_of_dissidents
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Take_Care_Of_Serb_Dissidents
 			cost = 7
 			prerequisite = {
 				focus = YUG_allow_entrepreneurship_within_socialism
@@ -4878,7 +4878,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_transform_state_property_to_social_property
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_State_Media
 			cost = 7
 			prerequisite = {
 				focus = YUG_guarantee_workers_self_management
@@ -4891,7 +4891,7 @@ focus_tree = {
 		}			
 		focus = {
 			id = YUG_begin_decentralising_the_state
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_State_Media
 			cost = 7
 			prerequisite = {
 				focus = YUG_the_reforms_towards_democratic_socialism
@@ -4904,7 +4904,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_envision_direct_democracy_communal_level
-			icon = GFX_goal_unknown
+			icon = GFX_Commit_to_Reform
 			cost = 7
 			prerequisite = {
 				focus = YUG_begin_decentralising_the_state
@@ -4920,7 +4920,7 @@ focus_tree = {
 		}		
 		focus = {
 			id = YUG_tackle_bureaucratic_elite
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_paperwork_and_telephone
 			cost = 7
 			prerequisite = {
 				focus = YUG_begin_decentralising_the_state
@@ -4933,7 +4933,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_sack_incompetent_ministers
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_press_statement
 			cost = 7
 			prerequisite = {
 				focus = YUG_envision_direct_democracy_communal_level
@@ -4946,7 +4946,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_reduce_bureaucratic_hierarchy
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_paperwork_and_telephone
 			cost = 7
 			prerequisite = {
 				focus = YUG_tackle_bureaucratic_elite
@@ -4959,7 +4959,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_ensure_a_transparent_decision_making_process
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Ensure_Croatian_Loyality
 			cost = 7
 			prerequisite = {
 				focus = YUG_reduce_bureaucratic_hierarchy
@@ -4978,7 +4978,7 @@ focus_tree = {
 		}		
 		focus = {
 			id = YUG_prepare_the_first_national_elections
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Prepare_Construction_of_Trans_Yugoslav_Road
 			cost = 7
 			prerequisite = {
 				focus = YUG_end_the_persecution_of_dissidents
@@ -4995,7 +4995,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_found_the_democratic_socialist_party_of_yugoslavia
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Prepare_For_Post_Tito_Yugoslavia
 			cost = 7
 			prerequisite = {
 				focus = YUG_prepare_the_first_national_elections
@@ -5012,7 +5012,7 @@ focus_tree = {
 # Titoist Tempo Route
 	focus = {
 		id = YUG_tempo_appointed_president
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		prerequisite = {
 			focus = YUG_appoint_the_first_president_of_yugoslavia
@@ -5070,7 +5070,7 @@ focus_tree = {
 
 	focus = {
 		id = YUG_accept_djilas_critique
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		allow_branch = {
 			has_country_flag = YUG_djilas_accepted
@@ -5091,7 +5091,7 @@ focus_tree = {
 
 		focus = {
 			id = YUG_end_religious_persecution
-			icon = GFX_goal_unknown
+			icon = GFX_Religous_Unity
 			cost = 7
 			prerequisite = {
 				focus = YUG_accept_djilas_critique
@@ -5168,7 +5168,7 @@ focus_tree = {
 
 		focus = {
 			id = YUG_take_care_of_party_nepotism
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Take_Care_Of_Serb_Dissidents
 			cost = 7		
 			prerequisite = {
 				focus = YUG_accept_djilas_critique
@@ -5191,7 +5191,7 @@ focus_tree = {
 
 		focus = {
 			id = YUG_abolish_media_censorship
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_State_Media
 			cost = 7		
 			prerequisite = {
 				focus = YUG_end_religious_persecution
@@ -5209,7 +5209,7 @@ focus_tree = {
 
 		focus = {
 			id = YUG_close_former_cominformist_prisons
-			icon = GFX_goal_unknown
+			icon = GFX_POR_Close_the_Tarrafal_Prison_Camp
 			cost = 7		
 			prerequisite = {
 				focus = YUG_take_care_of_party_nepotism
@@ -5235,7 +5235,7 @@ focus_tree = {
 
 		focus = {
 			id = YUG_disassociate_workercouncils_from_state
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_State_Media
 			cost = 7		
 			prerequisite = {
 				focus = YUG_take_care_of_party_nepotism
@@ -5257,7 +5257,7 @@ focus_tree = {
 
 		focus = {
 			id = YUG_a_true_democratic_workplace
-			icon = GFX_goal_unknown
+			icon = GFX_focus_generic_election
 			cost = 7		
 			prerequisite = {
 				focus = YUG_abolish_media_censorship
@@ -5274,7 +5274,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_allow_free_speech
-			icon = GFX_goal_unknown
+			icon = GFX_usa_50_allow_free_elections
 			cost = 7		
 			prerequisite = {
 				focus = YUG_abolish_media_censorship
@@ -5301,7 +5301,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_open_up_the_economy
-			icon = GFX_goal_unknown
+			icon = GFX_Generic_Trade
 			cost = 7		
 			prerequisite = {
 				focus = YUG_disassociate_workercouncils_from_state
@@ -5321,7 +5321,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_partial_privatization_of_soes
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_press_statement
 			cost = 7		
 			prerequisite = {
 				focus = YUG_disassociate_workercouncils_from_state
@@ -5434,7 +5434,7 @@ focus_tree = {
 		}			
 		focus = {
 			id = YUG_reform_the_ssrnj
-			icon = GFX_goal_unknown
+			icon = GFX_goal_generic_parliament2
 			cost = 7		
 			prerequisite = {
 				focus = YUG_a_true_democratic_workplace
@@ -5466,7 +5466,7 @@ focus_tree = {
 		}					
 		focus = {
 			id = YUG_embrace_democratic_socialism
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Embrace_All_Yugoslav_Interests
 			cost = 7		
 			prerequisite = {
 				focus = YUG_allow_free_speech
@@ -5487,7 +5487,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_increase_ties_with_west
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Increase_Exports_to_COMECON_and_EEC
 			cost = 7		
 			prerequisite = {
 				focus = YUG_open_up_the_economy
@@ -5507,7 +5507,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_prepare_foundation_of_a_dssj
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Prepare_Construction_of_Trans_Yugoslav_Road
 			cost = 7		
 			prerequisite = {
 				focus = YUG_reform_the_ssrnj
@@ -5543,7 +5543,7 @@ focus_tree = {
 
 		focus = {
 			id = YUG_american_financial_aid
-			icon = GFX_goal_unknown
+			icon = GFX_usa_fp_generic_financial_aid
 			cost = 7		
 			prerequisite = {
 				focus = YUG_embrace_democratic_socialism
@@ -5564,7 +5564,7 @@ focus_tree = {
 		}		
 		focus = {
 			id = YUG_end_the_one_party_state
-			icon = GFX_goal_unknown
+			icon = GFX_End_One_Unit
 			cost = 7		
 			prerequisite = {
 				focus = YUG_prepare_foundation_of_a_dssj
@@ -5584,7 +5584,7 @@ focus_tree = {
 		}
 		focus = {
 			id = YUG_an_insurrection
-			icon = GFX_goal_unknown
+			icon = GFX_generic_focus_politics_press_statement
 			cost = 7		
 			prerequisite = {
 				focus = YUG_end_the_one_party_state
@@ -5601,7 +5601,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_prepare_the_first_yugoslav_elections
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Prepare_Construction_of_Trans_Yugoslav_Road
 			cost = 7		
 			prerequisite = {
 				focus = YUG_end_the_one_party_state
@@ -5618,7 +5618,7 @@ focus_tree = {
 		}	
 		focus = {
 			id = YUG_the_results
-			icon = GFX_goal_unknown
+			icon = GFX_YUG_Results_from_Lusaka_Conference
 			cost = 7		
 			prerequisite = {
 				focus = YUG_prepare_the_first_yugoslav_elections

@@ -293,7 +293,7 @@ focus_tree = {
 	}
     focus = {
 		id = COL_Promote_Rojas_Pinilla
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		x = 2
 		y = 5
@@ -305,7 +305,7 @@ focus_tree = {
 	}
     focus = {
 		id = COL_Arrest_Liberals
-		icon = GFX_unknown
+		icon = GFX_COL_Sensor_Pro_Liberal_Media
 		cost = 10
 		x = 10
 		y = 5
@@ -328,7 +328,7 @@ focus_tree = {
 	}
     focus = {
 		id = COL_Be_Wealthier_With_Our_Friends
-		icon = GFX_unknown
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10
 		x = 18
 		y = 5
@@ -353,7 +353,7 @@ focus_tree = {
 	}
     focus = {
 		id = COL_Military_Actions_Against_Guerrillas
-		icon = GFX_unknown
+		icon = GFX_COL_Suppression_Against_Protestants_And_Pro_Liberals
 		cost = 10
 		x = 12
 		y = 6
@@ -365,7 +365,7 @@ focus_tree = {
 	}
     focus = {
 		id = COL_Supportive_Base_In_Urban_Cities
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		x = 16
 		y = 6
@@ -420,7 +420,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COL_Coorporating_With_United_Nations
-		icon = GFX_unknown
+		icon = GFX_COL_Coorporating_With_Military
 		cost = 10
 		x = -2
 		y = 2
@@ -432,7 +432,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COL_We_Are_Ready_To_Send_Military_To_Save_South_Korea
-		icon = GFX_unknown
+		icon = GFX_focus_south_korea_flag
 		cost = 10
 		x = 0
 		y = 3

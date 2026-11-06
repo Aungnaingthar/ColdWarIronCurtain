@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = PCF_FRA_50s_First_Session_of_NPA
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 3.00
 		x = 27
 		y = 0
@@ -18,7 +18,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Form_Ministry_of_Foreign_Affairs_and_International_Proletariat
-		icon = GFX_goal_unknown
+		icon = GFX_Form_the_Ministry_of_Foreign_Affairs
 		cost = 2.00
 		x = 73
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Mobilization_of_Workers_and_Peasants
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_The_formation_of_the_university_of_worker_peasant_soldier
 		cost = 4.00
 		prerequisite = {
 			focus = PCF_FRA_50s_First_Session_of_NPA
@@ -37,7 +37,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Start_Prefet_Regionaux_Reorganization
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_First_Session_of_NPA
@@ -48,7 +48,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Start_the_Plan_for_National_Recovery
-		icon = GFX_goal_unknown
+		icon = GFX_strenth_in_unity
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Mobilization_of_Workers_and_Peasants
@@ -62,7 +62,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Peoples_Committee_for_Agricultural_and_Industrial_Recovery
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_agriculture_irrigation
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Start_the_Plan_for_National_Recovery
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Size_and_Expropriate_Assets_of_Fled_Bourgeoisie
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Peoples_Committee_for_Agricultural_and_Industrial_Recovery
@@ -84,7 +84,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Size_and_Use_Raw_Materials_Available
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Peoples_Committee_for_Agricultural_and_Industrial_Recovery
@@ -95,7 +95,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_PCF_Domestic_Situation
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Start_the_Plan_for_National_Recovery
@@ -106,7 +106,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Use_NPA_to_Maintain_Status_Quo
-		icon = GFX_goal_unknown
+		icon = TIB_KMT_50s_Maintain_Status_Quo
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_PCF_Domestic_Situation
@@ -117,7 +117,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Follow_Maurice_Thorezs_Recommendations
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Use_NPA_to_Maintain_Status_Quo
@@ -131,7 +131,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Force_Le_Leap_to_Takeover_of_CGT
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Follow_Maurice_Thorezs_Recommendations
@@ -142,7 +142,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Appoint_Leon_Mauvais_for_NPA_President
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Follow_Maurice_Thorezs_Recommendations
@@ -153,7 +153,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Laurent_Casasnovas_Anti_Revisionist_Campaign
-		icon = GFX_goal_unknown
+		icon = GFX_Spread_Anti_Revisionist_Propaganda
 		cost = 5.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Force_Le_Leap_to_Takeover_of_CGT
@@ -167,7 +167,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Jacques_Duclos_Meet_the_Central_Committee
-		icon = GFX_goal_unknown
+		icon = GFX_Seek_the_Approval_of_the_Central_Committee
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Use_NPA_to_Maintain_Status_Quo
@@ -181,7 +181,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Negociation_of_Merge_Operations_with_CGT
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Jacques_Duclos_Meet_the_Central_Committee
@@ -192,7 +192,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Keep_Promises_for_FTPF_and_Renovateurs
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Promise_African_Freedom
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Jacques_Duclos_Meet_the_Central_Committee
@@ -203,7 +203,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Promote_Desrumeaux_Partisan_Feminism
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Negociation_of_Merge_Operations_with_CGT
@@ -217,7 +217,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Second_Session_of_NPA
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_second_plenary_session_of_ninth_central_committee
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Laurent_Casasnovas_Anti_Revisionist_Campaign
@@ -229,7 +229,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Francois_Baillouxs_Orthodoxe_Renovateurs_Planning_Commission
-		icon = GFX_goal_unknown
+		icon = GFX_Establish_the_State_Planning_Commission
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Second_Session_of_NPA
@@ -240,7 +240,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Committee_for_Liberte_Civile_et_la_Paix_Sociale
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Start_the_Plan_for_National_Recovery
@@ -251,7 +251,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Create_La_Securite_Sociale_pour_la_Sante_et_le_Travail
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_production_molten_pour
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Committee_for_Liberte_Civile_et_la_Paix_Sociale
@@ -262,7 +262,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Use_LHumanite_as_Unique_Newspaper
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Create_La_Securite_Sociale_pour_la_Sante_et_le_Travail
@@ -276,7 +276,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Tolerate_Left_Critics_Newpapers
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Create_La_Securite_Sociale_pour_la_Sante_et_le_Travail
@@ -290,7 +290,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Improve_Social_Aid_and_Hospital_Infrastructures
-		icon = GFX_goal_unknown
+		icon = GFX_Railway_Reconstruction
 		cost = 6.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Use_LHumanite_as_Unique_Newspaper
@@ -302,7 +302,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Appoint_Ambroise_Croizat_as_Commissaire_pour_le_Contrat_Sociale
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_production_molten_pour
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Improve_Social_Aid_and_Hospital_Infrastructures
@@ -313,7 +313,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Reform_the_Education_Program
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Education_Reform
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Appoint_Ambroise_Croizat_as_Commissaire_pour_le_Contrat_Sociale
@@ -324,7 +324,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Empower_Local_CGT_Assembly_and_Workers_Assembly
-		icon = GFX_goal_unknown
+		icon = GFX_Empower_Workers_UnionsUK
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Reform_the_Education_Program
@@ -335,7 +335,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Minister_Étienne_Fajon 
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Form_Ministry_of_Foreign_Affairs_and_International_Proletariat
@@ -349,7 +349,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Doctrine_Internationaliste_Asiatique_de_Fajon 
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Minister_Étienne_Fajon 
@@ -360,7 +360,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Anti_Atlantist_Rethoric
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Minister_Étienne_Fajon 
@@ -371,7 +371,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Vyshinskys_Paris_Visit
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Doctrine_Internationaliste_Asiatique_de_Fajon 
@@ -385,7 +385,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Leave_NATO
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_LeaveNATO
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Form_Ministry_of_Foreign_Affairs_and_International_Proletariat
@@ -396,7 +396,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Minister_Arthur_Ramette
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Form_Ministry_of_Foreign_Affairs_and_International_Proletariat
@@ -410,7 +410,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Meet_with_African_RDA_Representative
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Minister_Arthur_Ramette
@@ -421,7 +421,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Support_Union_with_PCA_and_FLN
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_arrest_FLN
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Minister_Arthur_Ramette
@@ -432,7 +432,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Maintain_Contact_with_Guyana_Communist_Movements
-		icon = GFX_goal_unknown
+		icon = GFX_Buddhist_Communist_Movement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Meet_with_African_RDA_Representative
@@ -446,7 +446,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Join_Warsaw_Pact
-		icon = GFX_goal_unknown
+		icon = GFX_Warsaw_Pact
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Vyshinskys_Paris_Visit
@@ -463,7 +463,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Saar_Situation
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Join_Warsaw_Pact
@@ -474,7 +474,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Annexed_By_Federal_Republic_of_Germany
-		icon = GFX_goal_unknown
+		icon = GFX_Address_the_Federal_Republic
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Saar_Situation
@@ -488,7 +488,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Offer_Asylum_to_KPD_Workers_Supporters
-		icon = GFX_goal_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Annexed_By_Federal_Republic_of_Germany
@@ -499,7 +499,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Restrict_Religious_Influence_in_Alsace
-		icon = GFX_goal_unknown
+		icon = GFX_Religous_Unity
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Annexed_By_Federal_Republic_of_Germany
@@ -510,7 +510,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_European_Proletariat_Situation
-		icon = GFX_goal_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Join_Warsaw_Pact
@@ -521,7 +521,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Italian_Worker_Conditions
-		icon = GFX_goal_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_European_Proletariat_Situation
@@ -532,7 +532,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Iberia_Last_Bastion_of_European_Fascism
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_50s_The_Last_Bastion_of_The_Kuomintang
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_European_Proletariat_Situation
@@ -543,7 +543,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Recolate_Enrique_Listers
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Iberia_Last_Bastion_of_European_Fascism
@@ -554,7 +554,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Pardon_and_Mobilize_Spanish_Exiles
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Iberia_Last_Bastion_of_European_Fascism
@@ -565,7 +565,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Send_Support_to_CPI_and_local_Trade_Unions
-		icon = GFX_goal_unknown
+		icon = GFX_Empower_Trade_Unions
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Italian_Worker_Conditions
@@ -576,7 +576,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Arm_Hardline_Anti_Fascist_Brigade
-		icon = GFX_goal_unknown
+		icon = GFX_Stalin_Dismantle_The_Jewish_Anti_Fascist_Committee
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Italian_Worker_Conditions
@@ -587,7 +587,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Iberia_Last_Bastion_of_European_Fascist
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_50s_The_Last_Bastion_of_The_Kuomintang
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Arm_Hardline_Anti_Fascist_Brigade
@@ -601,7 +601,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_A_Meeting_with_Suslov
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Iberia_Last_Bastion_of_European_Fascist
@@ -615,7 +615,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Merge_Operations_with_Yugoslavia
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Iberia_Last_Bastion_of_European_Fascist
@@ -629,7 +629,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Supporting_Asian_Communism_Extension
-		icon = GFX_goal_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 0.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Join_Warsaw_Pact
@@ -640,7 +640,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Prepare_the_Constitution
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		cost = 4.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Second_Session_of_NPA
@@ -651,7 +651,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Fate_of_SFIO
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Prepare_the_Constitution
@@ -665,7 +665,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_PCF_Centralized_Collectivization
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Begin_Agricultural_Collectivization
@@ -679,7 +679,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Limited_Decentralization_with_CGT_and_FO
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 4.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Begin_Agricultural_Collectivization
@@ -693,7 +693,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Begin_Agricultural_Collectivization
-		icon = GFX_goal_unknown
+		icon = GFX_End_Agricultural_Collectivization_Efforts
 		cost = 4.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Size_and_Use_Raw_Materials_Available
@@ -707,7 +707,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_End_to_200_Familles_Industrielles_Bourgeoisese
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Limited_Decentralization_with_CGT_and_FO
@@ -719,7 +719,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Restart_Industrial_Production
-		icon = GFX_goal_unknown
+		icon = GFX_SOVw_Restart_Tankograd_Production_Capability
 		cost = 4.00
 		prerequisite = {
 			focus = PCF_FRA_50s_End_to_200_Familles_Industrielles_Bourgeoisese
@@ -730,7 +730,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Start_Motorization_of_Agriculture
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_Start_the_program_of_Militsiya_Motorization
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_End_to_200_Familles_Industrielles_Bourgeoisese
@@ -741,7 +741,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Recovery_of_Strategical_Industries
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 7.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Restart_Industrial_Production
@@ -752,7 +752,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Recovery_Old_Occupied_France_Agriculture
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_agriculture_irrigation
 		cost = 7.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Start_Motorization_of_Agriculture
@@ -763,7 +763,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Electricity_Access_for_Strategical_Sectors
-		icon = GFX_goal_unknown
+		icon = GFX_Hydroelectric_Dam_Development
 		cost = 4.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Recovery_of_Strategical_Industries
@@ -777,7 +777,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Maurice_Thorez_Official_Return
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Fate_of_SFIO
@@ -794,7 +794,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Start_the_Emergency_Housing_Program
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_Start_Industrial_Housing_Construction
 		cost = 5.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Appoint_Ambroise_Croizat_as_Commissaire_pour_le_Contrat_Sociale
@@ -805,7 +805,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Vaccination_and_Medical_Research_Fund
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_research_medical_texts
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Start_the_Emergency_Housing_Program
@@ -816,7 +816,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Form_Comite_des_solidarites_pour_les_handicapes
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_production_molten_pour
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Vaccination_and_Medical_Research_Fund
@@ -830,7 +830,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Third_Session_of_NPA
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Maurice_Thorez_Official_Return
@@ -841,7 +841,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Form_Second_People's_Front
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Third_Session_of_NPA
@@ -852,7 +852,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Status_of_the_Party_and_the_State
-		icon = GFX_goal_unknown
+		icon = GFX_Question_of_Party_and_state
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Third_Session_of_NPA
@@ -863,7 +863,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Legacy_of_1789_and_Les_Lumiere
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Third_Session_of_NPA
@@ -874,7 +874,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Dealing_with_Trotskyists_and_Titist_Intellectuals
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Form_Second_People's_Front
@@ -888,7 +888,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Start_to_Reorganize_Local_Administrations
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 4.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Legacy_of_1789_and_Les_Lumiere
@@ -902,7 +902,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Proclaimation_of_Peoples_Soviet_Republic_of_France
-		icon = GFX_goal_unknown
+		icon = GFX_Found_the_Peoples_Democratic_Republic_of_Malaysia
 		cost = 3.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Dealing_with_Trotskyists_and_Titist_Intellectuals
@@ -916,7 +916,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Sent_Marcel_Rosenblatt_in_Saarbrucken 
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Saar_Situation
@@ -930,7 +930,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Clement_Blancs_Reach_Saarbrucken 
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Sent_Marcel_Rosenblatt_in_Saarbrucken 
@@ -944,7 +944,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Gilbert_Grandval_Submit
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Sent_Marcel_Rosenblatt_in_Saarbrucken 
@@ -958,7 +958,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Support_German_Workers_with_Funding_KPD
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_KPD_Funding
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Clement_Blancs_Reach_Saarbrucken 
@@ -969,7 +969,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Build_Second_Soviet_French_Bases
-		icon = GFX_goal_unknown
+		icon = GFX_integrateFrenchAirBase
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Clement_Blancs_Reach_Saarbrucken 
@@ -980,7 +980,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Dissolve_the_Saar_Constitution
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Gilbert_Grandval_Submit
@@ -991,7 +991,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Exile_Hoffmann_Supporters_to_West_Germany 
-		icon = GFX_goal_unknown
+		icon = GFX_Debate_Allied_Forces_in_West_Germany
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Dissolve_the_Saar_Constitution
@@ -1002,7 +1002,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Operation_with_Stasi_and_NVA 
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Support_German_Workers_with_Funding_KPD
@@ -1016,7 +1016,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Start_the_Industrial_Recovery
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_Start_Industrial_Housing_Construction
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Gilbert_Grandval_Submit
@@ -1027,7 +1027,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Saarbruckens_KPD_Reimann_Social_Reform
-		icon = GFX_goal_unknown
+		icon = GFX_Social_reforms
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Start_the_Industrial_Recovery
@@ -1038,7 +1038,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Integration_of_Saar
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Exile_Hoffmann_Supporters_to_West_Germany 
@@ -1052,7 +1052,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Sarreguemines_Incident
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Operation_with_Stasi_and_NVA 
@@ -1063,7 +1063,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Saar_Alsace_Operation_Fail
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Sarreguemines_Incident
@@ -1077,7 +1077,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Eastern_Bloc_Joint_Operation
-		icon = GFX_goal_unknown
+		icon = GFX_Renegotiate_Eastern_Bloc_Trade
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Sarreguemines_Incident
@@ -1091,7 +1091,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Start_Degermanization_of_Eastern_Region
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = Saar_Alsace_Operation_Fail
@@ -1102,7 +1102,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Launch_Anti_Counter_Revolutionary_Education
-		icon = GFX_goal_unknown
+		icon = GFX_universities
 		cost = 1.00
 		prerequisite = {
 			focus = Saar_Alsace_Operation_Fail
@@ -1113,7 +1113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Moscow_Pressure_Bonn_and_Washington
-		icon = GFX_goal_unknown
+		icon = GFX_Construct_radio_towers
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Start_Degermanization_of_Eastern_Region
@@ -1127,7 +1127,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Status_Quo_Created
-		icon = GFX_goal_unknown
+		icon = TIB_KMT_50s_To_Finish_with_Status_Quo
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Moscow_Pressure_Bonn_and_Washington
@@ -1141,7 +1141,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Recongnize_German_Language_and_Rights
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Eastern_Bloc_Joint_Operation
@@ -1152,7 +1152,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Redynamize_Industries
-		icon = GFX_goal_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Eastern_Bloc_Joint_Operation
@@ -1163,7 +1163,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Recovery_of_Agricultural_Activities
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Agriculture
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Eastern_Bloc_Joint_Operation
@@ -1174,7 +1174,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Proclaim_Region_Autonome_Populaire_de_la_Sarre
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Recongnize_German_Language_and_Rights
@@ -1188,7 +1188,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Reorganization_of_Saar_Adminstration
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Redynamize_Industries
@@ -1202,7 +1202,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Peoples_Commissar_Max_Reimann
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Proclaim_Region_Autonome_Populaire_de_la_Sarre
@@ -1216,7 +1216,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Denounce_German_Reactionnary_Regime
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Offer_Asylum_to_KPD_Workers_Supporters
@@ -1230,7 +1230,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_US_Back_Down_of_Western_German_Crisis
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_back_down_syria
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Moscow_Pressure_Bonn_and_Washington
@@ -1244,7 +1244,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_GDR_FRA_and_Soviets_West_Berlin_Tensions
-		icon = GFX_goal_unknown
+		icon = GFX_Convert_Currency_in_West_Berlin_to_Deutschemarks
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_US_Back_Down_of_Western_German_Crisis
@@ -1255,7 +1255,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Joint_Operation_in_West_Germany
-		icon = GFX_goal_unknown
+		icon = GFX_Debate_Allied_Forces_in_West_Germany
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_GDR_FRA_and_Soviets_West_Berlin_Tensions
@@ -1266,7 +1266,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Notre_Position_Generale
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBorderTroops
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_European_Proletariat_Situation
@@ -1277,7 +1277,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Send_Funds_to_CPGB_Strikes_in_UK
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_send_reconstruction_funds
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Notre_Position_Generale
@@ -1288,7 +1288,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_End_Reactionnary_Regimes_of_Andorre_and_Monaco
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Notre_Position_Generale
@@ -1299,7 +1299,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Soviet_Intervention_in_French_Austrian_Zone
-		icon = GFX_goal_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Send_Funds_to_CPGB_Strikes_in_UK
@@ -1313,7 +1313,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Official_Retirement_of_ECSC
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Soviet_Intervention_in_French_Austrian_Zone
@@ -1324,7 +1324,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_French_Position_on_Yugoslavia
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Official_Retirement_of_ECSC
@@ -1335,7 +1335,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Recongnize_GDR_as_Legitime_Germany
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Official_Retirement_of_ECSC
@@ -1346,7 +1346,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Recongnize_Greek_Democratic_Republic
-		icon = GFX_goal_unknown
+		icon = GFX_Found_the_Democratic_Republic_of_Greece
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Official_Retirement_of_ECSC
@@ -1360,7 +1360,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Denounce_Tito_Revisionism
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_50s_Denounce_Yugoslav_Revisionism
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_French_Position_on_Yugoslavia
@@ -1374,7 +1374,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Support_the_Yugoslavian_Anti_Revisionist_Campaign
-		icon = GFX_goal_unknown
+		icon = GFX_Spread_Anti_Revisionist_Propaganda
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_French_Position_on_Yugoslavia
@@ -1388,7 +1388,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Emerge_as_European_Communist_Pole
-		icon = GFX_goal_unknown
+		icon = GFX_European_Communist_Spy
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Support_the_Yugoslavian_Anti_Revisionist_Campaign
@@ -1400,7 +1400,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Force_to_Held_General_Elections_in_Austria
-		icon = GFX_goal_unknown
+		icon = GFX_Announce_General_Elections_for_1955
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Recongnize_GDR_as_Legitime_Germany
@@ -1411,7 +1411,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Support_KPO_Reorganization
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Recongnize_GDR_as_Legitime_Germany
@@ -1422,7 +1422,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Merge_Operations_with_Stasi_and_NKVD
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ghetto_nkvd
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Force_to_Held_General_Elections_in_Austria
@@ -1436,7 +1436,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Expand_our_Ports_for_Eastern_Trade
-		icon = GFX_goal_unknown
+		icon = GFX_Renegotiate_Eastern_Bloc_Trade
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Recongnize_Greek_Democratic_Republic
@@ -1448,7 +1448,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Strenghen_Ties_with_Eastern_Bloc
-		icon = GFX_goal_unknown
+		icon = GFX_Renegotiate_Eastern_Bloc_Trade
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Expand_our_Ports_for_Eastern_Trade
@@ -1459,7 +1459,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Ankara_Situation
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Emerge_as_European_Communist_Pole
@@ -1473,7 +1473,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Austrian_General_Election
-		icon = GFX_goal_unknown
+		icon = GFX_Announce_General_Elections_for_1955
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Strenghen_Ties_with_Eastern_Bloc
@@ -1487,7 +1487,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Begins_Talks_with_Republican_Government_in_Exile
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Recolate_Enrique_Listers
@@ -1504,7 +1504,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Iberia_Found_Second_Frente_Popular
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Begins_Talks_with_Republican_Government_in_Exile
@@ -1518,7 +1518,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Barrio_Accept_Dolores_Ibarruri_Governorship
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Begins_Talks_with_Republican_Government_in_Exile
@@ -1532,7 +1532,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Criticize_Third_Republic_Policies_during_Spanish_War 
-		icon = GFX_goal_unknown
+		icon = GFX_Cult_of_Spanish_Civil_War
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Iberia_Last_Bastion_of_European_Fascism
@@ -1543,7 +1543,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_The_Bastion_of_Reactionnary_Past
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 0.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Join_Warsaw_Pact
@@ -1554,7 +1554,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Offer_Asylum_to_Greek_Communists
-		icon = GFX_goal_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Official_Retirement_of_ECSC
@@ -1568,7 +1568,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Deadlock_in_Wien
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Austrian_General_Election
@@ -1582,7 +1582,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Proclaimation_of_Austrian_Democratic_Republic
-		icon = GFX_goal_unknown
+		icon = GFX_Found_the_Democratic_Republic_of_Greece
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Austrian_General_Election
@@ -1596,7 +1596,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Recongnize_the_TKP_Government
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Ankara_Situation
@@ -1610,7 +1610,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Support_Kemalist_Principles
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = PCF_FRA_50s_Ankara_Situation

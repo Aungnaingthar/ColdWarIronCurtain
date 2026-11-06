@@ -7,7 +7,7 @@ focus_tree = {
 	#shared_focus = KOR_60s econ
 	focus = {
 		id = KOR_CHANGMYON60_chang_myon_cabinet_administration
-		icon = GFX_unknown
+		icon = GFX_KOR_assassination_attempt_on_chang_myon
 		cost = 2
 		x = 1
 		y = 0
@@ -35,7 +35,7 @@ focus_tree = {
 
 	focus = {
 		id = KOR_CHANGMYON60_solidify_the_bicameralism
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2
 		x = -1
 		y = 1
@@ -50,7 +50,7 @@ focus_tree = {
 
 	focus = {
 		id = KOR_CHANGMYON60_expand_the_local_autonomy_system
-		icon = GFX_unknown
+		icon = GFX_KOR_call_local_elections_ahead_of_time
 		cost = 2
 		x = 1
 		y = 1
@@ -81,7 +81,7 @@ focus_tree = {
 
 	focus = {
 		id = KOR_CHANGMYON60_change_the_kyeong_moo_dae_to_cheong_wa_dae
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2
 		x = 1
 		y = 1
@@ -127,7 +127,7 @@ focus_tree = {
 
 	focus = {
 		id = KOR_CHANGMYON60_tighten_the_grip_over_president
-		icon = GFX_unknown
+		icon = GFX_Strengthen_Grip_Over_Cliques
 		cost = 2
 		x = 1
 		y = 1
@@ -142,7 +142,7 @@ focus_tree = {
 
 	focus = {
 		id = KOR_CHANGMYON60_introduce_the_peaceful_reunification_theory
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2
 		x = 1
 		y = 1
@@ -204,7 +204,7 @@ focus_tree = {
 
 	focus = {
 		id = KOR_CHANGMYON60_authorize_the_unions
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 2
 		x = 0
 		y = 1

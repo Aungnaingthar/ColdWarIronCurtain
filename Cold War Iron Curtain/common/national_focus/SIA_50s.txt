@@ -5803,7 +5803,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Democratize_Thailand
 
-		icon = GFX_unknown
+		icon = GFX_Commit_to_Reform
 		x = 0
 		y = 1
 
@@ -5831,7 +5831,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Limit_Luang_and_Nobilities_powers
 
-		icon = GFX_unknown
+		icon = GFX_1st_Electric_Program
 		x = 0
 		y = 1
 
@@ -5936,7 +5936,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Reverse_the_Isan_Genocide
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		x = 0
 		y = 1
 
@@ -6026,7 +6026,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Cultivate_the_Free_Thai_Hero_Cult
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		x = 2
 		y = 2
 
@@ -6049,7 +6049,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Repatriate_Pridi
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		x = 0
 		y = 1
 
@@ -6069,7 +6069,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Allying_with_Leftist_Organizations
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		x = 2
 		y = 1
 
@@ -6145,7 +6145,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Combat_against_Foreign_Monopolies
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		x = -1
 		y = 1
 
@@ -6167,7 +6167,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Implementing_Yellow_Books_Teachings
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		x = 1
 		y = 1
 
@@ -6248,7 +6248,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Maintain_Status_Quo
 
-		icon = GFX_unknown
+		icon = TIB_KMT_50s_Maintain_Status_Quo
 		x = 1
 		y = 1
 
@@ -6341,7 +6341,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Form_the_Revolutionary_Council
 
-		icon = GFX_unknown
+		icon = GFX_Form_the_Oversea_National_Revolutionary_Training_Center
 		x = 0
 		y = 1
 
@@ -6370,7 +6370,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Thanom_Kittikachorn_as_PM
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		x = 1
 		y = 1
 
@@ -6391,7 +6391,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Pote_Sarasin_as_PM
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		x = -1
 		y = 1
 
@@ -6412,7 +6412,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Thanom_Kittikachorn_as_PM_Pote
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		x = 0
 		y = 1
 
@@ -6431,7 +6431,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Praphas_Charusathien_as_PM
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		x = 0
 		y = 1
 
@@ -6450,7 +6450,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Field_Marshal_Phibun_Holds_on
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		x = 11
 		y = 1
 
@@ -6521,7 +6521,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Chai_Wirotsiri
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		x = -1
 		y = 1
 
@@ -6542,7 +6542,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Phao_Siyanonas_PM
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		x = 1
 		y = 1
 
@@ -6563,7 +6563,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Phin_Choonhavanas_PM
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		x = 0
 		y = 1
 
@@ -6581,7 +6581,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Chatichai_Choonhavan_as_PM
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		x = 0
 		y = 1
 
@@ -6600,7 +6600,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Phaos_Diamond_Coup
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		x = 15
 		y = 1
 
@@ -6724,7 +6724,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Combat_against_the_Anthaphan
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		x = -1
 		y = 1
 
@@ -6745,7 +6745,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Passing_Article_B_E_2503
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		x = 1
 		y = 1
 
@@ -6767,7 +6767,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Passing_Article_B_E_2502
 
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		x = 1
 		y = 1
 

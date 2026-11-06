@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_STEVENSON84_The_Stevenson_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Declare_a_Nuclear_Freeze
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_The_Stevenson_Administration
@@ -44,7 +44,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Reverse_Protectionist_Measures
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_Declare_a_Nuclear_Freeze
@@ -61,7 +61,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Education_Excellence_Fund
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Science
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_The_Stevenson_Administration
@@ -77,7 +77,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_The_Abortion_Question
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_Education_Excellence_Fund
@@ -95,7 +95,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Re_Negotiate_Japanese_Trade_Agreements
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_trading_trade_agreement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_The_Abortion_Question
@@ -115,7 +115,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Attack_Wasteful_Military_Expenses
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_Re_Negotiate_Japanese_Trade_Agreements
@@ -134,7 +134,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Revive_the_Fight_for_the_ERA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_the_fight_for_self_determination
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_Education_Excellence_Fund
@@ -151,7 +151,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_The_Bradley_Gephardt_Tax_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_Revive_the_Fight_for_the_ERA
@@ -170,7 +170,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_The_Comprehensive_Anti_Apartheid_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_safeguard_anti_apartheid_movement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_The_Bradley_Gephardt_Tax_Reform_Act
@@ -188,7 +188,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Enviromental_Protection_Act
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_The_Bradley_Gephardt_Tax_Reform_Act
@@ -203,7 +203,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Womens_Economic_Equity_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_The_Comprehensive_Anti_Apartheid_Act
@@ -222,7 +222,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Worker_Displacement_Relief_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Refugee_Relief_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_Womens_Economic_Equity_Act
@@ -238,7 +238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Solidify_Pro_Union_NLRB
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_solidify_new_syrian_regime
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_The_Civil_Rights_Restoration_Act
@@ -257,7 +257,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_AIDS_Research_and_Relief_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_Labor_Management_Relations_Act_of_1987
@@ -276,7 +276,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Mending_the_Democratic_Coalition
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_Expand_Childhood_Healthcare_Access
@@ -295,7 +295,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Labor_Management_Relations_Act_of_1987
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_labor_relations_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_Womens_Economic_Equity_Act
@@ -313,7 +313,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Electronic_Communications_Privacy_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Electronic_Industry_Subsidies_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_Labor_Management_Relations_Act_of_1987
@@ -332,7 +332,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_Expand_Childhood_Healthcare_Access
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_Electronic_Communications_Privacy_Act
@@ -348,7 +348,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_The_Mental_Health_Systems_Act
-		icon = GFX_goal_unknown
+		icon = GFX_VIE_Quang_Reform_Health_System
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_AIDS_Research_and_Relief_Act
@@ -364,7 +364,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_STEVENSON84_The_Civil_Rights_Restoration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		cost = 10.00
 		prerequisite = {
 			focus = USA_STEVENSON84_Attack_Wasteful_Military_Expenses

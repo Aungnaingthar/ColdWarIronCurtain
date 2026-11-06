@@ -701,7 +701,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BUL_Promote_Bulgarian_Nationalism
-		icon = GFX_unknown
+		icon = GFX_bulgarian_nationalism
 		search_filters = {
 			IC_FILTER
 		}

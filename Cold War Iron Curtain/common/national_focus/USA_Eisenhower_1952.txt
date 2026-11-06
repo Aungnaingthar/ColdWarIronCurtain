@@ -463,7 +463,7 @@ focus_tree = {
 	focus = {
 		id = USA_EISENHOWER_Air_Pollution_Control_Act
 		text_icon = USA_focus_style
-		icon = GFX_unknown
+		icon = GFX_Oil_Pollution_Act
 		search_filters = {
 			IC_FILTER
 		}

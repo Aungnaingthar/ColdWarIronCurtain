@@ -170,7 +170,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KEFAUVER_Social_Security_Act_of_1953
-		icon = GFX_unknown
+		icon = GFX_usa_truman_social_security_act_50
 		text_icon = USA_focus_style
 		icon = GFX_Social_Security_Act_of_1953
 		search_filters = {

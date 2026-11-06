@@ -1061,7 +1061,7 @@
 	shared_focus = {
 		id = USA80MIL_The_Strategic_Defense_Initiative
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_focus_USA_veteran_initiative
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_American_Armed_Forces
@@ -1092,7 +1092,7 @@
 	shared_focus = {
 		id = USA80MIL_Secure_Additional_Funding
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_sdi_additional_funding
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_The_Strategic_Defense_Initiative
@@ -1115,7 +1115,7 @@
 	shared_focus = {
 		id = USA80MIL_Recruit_Additional_Scientists_and_Contractors
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_sdi_additional_scientists
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_The_Strategic_Defense_Initiative
@@ -1150,7 +1150,7 @@
 	shared_focus = {
 		id = USA80MIL_Begin_Star_Wars_Development
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_begin_star_wars
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Recruit_Additional_Scientists_and_Contractors
@@ -1176,7 +1176,7 @@
 	shared_focus = {
 		id = USA80MIL_Develop_Warning_and_Missile_Defense_Systems
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_USA80MIL_PAVE_Phased_Array_Warning_System
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Begin_Star_Wars_Development
@@ -1212,7 +1212,7 @@
 	shared_focus = {
 		id = USA80MIL_Expand_Space_and_Ground_Tracking_Systems
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_expand_tracking_systems
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Develop_Warning_and_Missile_Defense_Systems
@@ -1257,7 +1257,7 @@
 	shared_focus = {
 		id = USA80MIL_Build_Brilliant_Pebbles
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_brilliant_pebbles
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Develop_Warning_and_Missile_Defense_Systems
@@ -1288,7 +1288,7 @@
 	shared_focus = {
 		id = USA80MIL_Develop_the_BM_C3_System
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Begin_Star_Wars_Development
@@ -1333,7 +1333,7 @@
 	shared_focus = {
 		id = USA80MIL_Develop_the_Advanced_Launch_System
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_USA80MIL_Request_Proposals_for_the_Advanced_Tactical_Fighter_Program
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Develop_the_BM_C3_System
@@ -1370,7 +1370,7 @@
 	shared_focus = {
 		id = USA80MIL_Develop_Offensive_Missile_Systems
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_offensive_missiles
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Begin_Star_Wars_Development
@@ -1412,7 +1412,7 @@
 	shared_focus = {
 		id = USA80MIL_Look_into_Space_Based_LASER_Systems
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_USA80MIL_Upgrade_Ohio_based_SLBMs
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Develop_Offensive_Missile_Systems
@@ -1458,7 +1458,7 @@
 	shared_focus = {
 		id = USA80MIL_Begin_Designing_a_Hypervelocity_Gun
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_hypervelocity_gun
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Develop_Offensive_Missile_Systems
@@ -1491,7 +1491,7 @@
 	shared_focus = {
 		id = USA80MIL_Build_a_Manned_Orbitiing_Weapons_Platform
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_manned_orbital_weapons_platform
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Begin_Designing_a_Hypervelocity_Gun
@@ -1523,7 +1523,7 @@
 	shared_focus = {
 		id = USA80MIL_Select_the_F_22_for_the_ATF_Program
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa80_select_an_atf_finalist
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Introduce_System_Requirement_Reviews_to_Prevent_Cost_Overruns
@@ -1593,7 +1593,7 @@
 	shared_focus = {
 		id = USA80MIL_Develop_ERIS_from_Surplus_ICBMs
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_eris
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Expand_Space_and_Ground_Tracking_Systems

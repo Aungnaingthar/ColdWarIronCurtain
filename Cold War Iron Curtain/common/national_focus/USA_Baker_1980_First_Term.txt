@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_BAKER80_The_Baker_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER80_Executive_Order_12333
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER80_The_Baker_Administration
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER80_End_Petrolum_Price_and_Allocation_Controls
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER80_The_Baker_Administration
@@ -94,7 +94,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER80_Agriculture_and_Food_Act_of_1981
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_agriculture_food_stores
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER80_Domestic_Energy_Production_Act
@@ -113,7 +113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER80_Tighten_the_Monetary_Supply
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER80_Agriculture_and_Food_Act_of_1981
@@ -151,7 +151,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER80_Nuclear_Energy_Expansion_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Nuclear_Energy
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER80_Increase_Military_Spending
@@ -204,7 +204,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER80_Garn_St_Germain_Depository_Institutions_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER80_Expanding_Education_Provider_Choice_Act
@@ -222,7 +222,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER80_Tax_Equity_and_Fiscal_Responsibility_Act_of_1982
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER80_Garn_St_Germain_Depository_Institutions_Act
@@ -289,7 +289,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER80_Catastrophic_Healthcare_Protection_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER80_Garn_St_Germain_Depository_Institutions_Act
@@ -308,7 +308,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER80_Address_the_AIDS_Crisis
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER80_Catastrophic_Healthcare_Protection_Act
@@ -326,7 +326,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER80_National_Minimum_Drinking_Age_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER80_Address_the_AIDS_Crisis
@@ -342,7 +342,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER80_Deficit_Reduction_Act_of_1984
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER80_Comprehensive_Crime_Control_Act
@@ -361,7 +361,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER80_Mandatory_Congressional_Regulatory_Oversight_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER80_Tighten_the_Monetary_Supply

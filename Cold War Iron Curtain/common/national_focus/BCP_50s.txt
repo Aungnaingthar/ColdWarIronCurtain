@@ -2973,7 +2973,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BCP_50s_Construct_the_Pyay_Airfield
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Jet
 		cost = 5
 		prerequisite = {
 			focus = BCP_50s_Expand_Pilot_Recruitment

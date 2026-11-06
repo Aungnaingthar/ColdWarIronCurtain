@@ -1108,7 +1108,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRC_50s_Prepare_For_Hainan
-		icon = GFX_unknown
+		icon = GFX_PRC_50s_Prepare_Ships_for_Landing
 		cost = 3
 		x = 4
 		y = 1
@@ -1197,7 +1197,7 @@ focus_tree = {
 
 	focus = {
 		id = PRC_50s_Splinter_Cells_Hainan
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 3
 		x = -1
 		y = 1
@@ -1231,7 +1231,7 @@ focus_tree = {
 
 	focus = {
 		id = PRC_50s_Liberate_Hainan
-		icon = GFX_unknown
+		icon = GFX_PRC_50s_Liberate_The_Rural_Workforce
 		cost = 3
 		x = 0
 		y = 2
@@ -1302,7 +1302,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRC_50s_To_Liberate_Formosa
-		icon = GFX_unknown
+		icon = GFX_PRC_50s_Liberate_The_Rural_Workforce
 		cost = 3
 		x = 0
 		y = 4
@@ -1345,7 +1345,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRC_50s_Prepare_Our_Men
-		icon = GFX_unknown
+		icon = GFX_PRC_50s_Men_Over_Material
 		cost = 3
 		x = -2
 		y = 1

@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_SHRIVER80__The_Shriver_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_sargent_shriver
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Childcare_Allowance_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_sargent_shriver
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80__The_Shriver_Administration
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Legalize_Sodomy
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_sargent_shriver
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Childcare_Allowance_Act
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Garn_St_Germain_Depository_Institutions_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_sargent_shriver
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80__The_Shriver_Administration
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Housing_Act_of_1981
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_housing_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Garn_St_Germain_Depository_Institutions_Act
@@ -91,7 +91,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Propose_Universal_Pre_K
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_sargent_shriver
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Housing_Act_of_1981
@@ -110,7 +110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Automanufacturing_Domestic_Content_Bill
-		icon = GFX_goal_unknown
+		icon = GFX_Revive_the_Automanufacturing_Domestic_Content_Bill
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Propose_Universal_Pre_K
@@ -126,7 +126,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_EPA_Expansion_Act
-		icon = GFX_goal_unknown
+		icon = GFX_USA_EPA_Icon
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Garn_St_Germain_Depository_Institutions_Act
@@ -142,7 +142,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Hike_Agricultural_Subsidies
-		icon = GFX_goal_unknown
+		icon = GFX_Agricultural_Subsidies
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_EPA_Expansion_Act
@@ -161,7 +161,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Gephardt_Medicare_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_dick_gephardt
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Hike_Agricultural_Subsidies
@@ -180,7 +180,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Increase_the_Minimum_Wage
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_increase_the_minimum_wages_of_workers_and_employees
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Hike_Agricultural_Subsidies
@@ -195,7 +195,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Agricultural_Bank_Relief_Act_of_1982
-		icon = GFX_goal_unknown
+		icon = GFX_Refugee_Relief_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Gephardt_Medicare_Reform_Act
@@ -213,7 +213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Address_the_AIDS_Crisis
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_sargent_shriver
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Agricultural_Bank_Relief_Act_of_1982
@@ -229,7 +229,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Clean_Energy_Production_Act_of_1983
-		icon = GFX_goal_unknown
+		icon = GFX_Amend_the_Clean_Air_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Campaign_Finance_Reform_Act
@@ -245,7 +245,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Halt_Nuclear_Power_Plant_Construction
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_construction_of_verkhnetagilskaya_regional_thermal_power_plants
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Urban_Revitilization_Act
@@ -264,7 +264,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Re_Evaluate_the_Legacy_of_McGovernism
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_sargent_shriver
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Revenue_Adjustment_Act_of_1984
@@ -285,7 +285,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Urban_Revitilization_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_sargent_shriver
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Agricultural_Bank_Relief_Act_of_1982
@@ -304,7 +304,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Enforce_the_Voting_Rights_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Enforce_Fishing_Rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Urban_Revitilization_Act
@@ -323,7 +323,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Revenue_Adjustment_Act_of_1984
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Enforce_the_Voting_Rights_Act
@@ -339,7 +339,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Medical_Education_Reform_Act_of_1984
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Halt_Nuclear_Power_Plant_Construction
@@ -355,7 +355,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER80_Campaign_Finance_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_sargent_shriver
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER80_Automanufacturing_Domestic_Content_Bill

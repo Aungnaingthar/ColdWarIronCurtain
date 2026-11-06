@@ -89,7 +89,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_USA_flag"
-		texturefile = "gfx/interface/goals/GFX_focus_USA_flag.dds"
+		texturefile = "gfx/interface/goals/Seek_American_Permission_to_Purchase_Additional_Foreign_Aircraft.dds"
 	}
 	spriteType = {
 		name = "GFX_country_anarchist_view_bg"

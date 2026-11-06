@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = GDR_The_Second_Five_Year_Plan
 	focus = {
 		id = GDR_First_Secretary_Schirdewan
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Put_Schirdewan_on_Trial
 		cost = 10.00
 		x = 7
 		y = 0
@@ -31,7 +31,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Ending_the_New_Inquisition
-		icon = GFX_goal_unknown
+		icon = GFX_Ending_the_New_Inquisition
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_First_Secretary_Schirdewan
@@ -53,7 +53,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Launch_A_Campaign_Against_Political_Decadence
-		icon = GFX_goal_unknown
+		icon = GFX_Launch_a_Political_Campaign_Against_Decadence
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Ending_the_New_Inquisition
@@ -74,7 +74,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Eliminate_the_Personality_Cult
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Dismantling_the_Personality_Cult
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Launch_A_Campaign_Against_Political_Decadence
@@ -97,7 +97,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Investigate_Political_Corruption
-		icon = GFX_goal_unknown
+		icon = GFX_Investigate_Political_Corruption
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Eliminate_the_Personality_Cult
@@ -117,7 +117,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Purge_The_Red_Guillotine
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Purge_Ulbricht_Loyalists_from_the_Politurbo
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Launch_A_Campaign_Against_Political_Decadence
@@ -139,7 +139,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Produce_Anti_Emmigration_Propaganda
-		icon = GFX_goal_unknown
+		icon = GFX_Produce_Anti_Emmigration_Propaganda
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Purge_The_Red_Guillotine
@@ -159,7 +159,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Purge_Ulbricht_and_Hoenecker
-		icon = GFX_goal_unknown
+		icon = GFX_Purge_Ulbricht_and_Hoenecker
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Investigate_Political_Corruption
@@ -183,7 +183,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reform_the_Stasi
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Reform_Stasi_Practices
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Ending_the_New_Inquisition
@@ -205,7 +205,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Loosen_Political_Censorship
-		icon = GFX_goal_unknown
+		icon = GFX_Loosen_Political_Censorship
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Reform_the_Stasi
@@ -225,7 +225,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reverse_Work_Quota_Policies
-		icon = GFX_goal_unknown
+		icon = GFX_Reverse_Work_Quota_Policy
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Ending_the_New_Inquisition
@@ -246,7 +246,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Invest_in_Modernizing_Landwirtschaftliche_Produktionsgenossenschaft_Machinery
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Offer_Incentives_to_Join_an_Landwirtschaftliche_Produktionsgenossenschaft
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Reverse_Work_Quota_Policies
@@ -287,7 +287,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Allow_Greater_Intelligentsia_Freedoms
-		icon = GFX_goal_unknown
+		icon = GFX_Allow_Greater_Freedoms_for_the_Intelligenistia
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Reverse_Work_Quota_Policies
@@ -307,7 +307,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Responding_to_the_Platform_for_the_Special_German_Route_to_Socialism
-		icon = GFX_goal_unknown
+		icon = GFX_Responding_to_the_Platform_for_the_Special_German_Route_to_Socialism
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Allow_Greater_Intelligentsia_Freedoms
@@ -331,7 +331,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Further_Reform_the_Politurbo
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Purge_Ulbricht_Loyalists_from_the_Politurbo
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Responding_to_the_Platform_for_the_Special_German_Route_to_Socialism
@@ -355,7 +355,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Crackdown_on_the_Gruppe_Harich
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Crackdown_on_the_Revisionists
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Responding_to_the_Platform_for_the_Special_German_Route_to_Socialism
@@ -379,7 +379,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Outreach_to_the_SPD
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Launch_an_Outreach_to_the_EKD
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Further_Reform_the_Politurbo
@@ -412,7 +412,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Resist_Calls_for_Collective_Leadership
-		icon = GFX_goal_unknown
+		icon = GFX_Resist_Calls_for_Collective_Leadership
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Outreach_to_the_SPD
@@ -439,7 +439,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Concede_to_Demand_For_Collective_Leadership
-		icon = GFX_goal_unknown
+		icon = GFX_Concede_to_Demand_For_Collective_Leadership
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Outreach_to_the_SPD
@@ -466,7 +466,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_A_New_SED
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_A_New_Course_for_the_SED
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Concede_to_Demand_For_Collective_Leadership

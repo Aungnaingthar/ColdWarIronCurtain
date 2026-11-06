@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_BROWN80S_The_Brown_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_JerryBrownAdministration
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_The_Solar_Space_Energy_Program
-		icon = GFX_goal_unknown
+		icon = GFX_soviet_space_program
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_The_Brown_Administration
@@ -43,7 +43,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Push_to_Legalize_Marijuana
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_The_Solar_Space_Energy_Program
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Garn_St_Germain_Depository_Institutions_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_The_Brown_Administration
@@ -75,7 +75,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Declare_a_Freeze_on_New_Nuclear_Power_Plant_Construction
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_construction_of_verkhnetagilskaya_regional_thermal_power_plants
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Garn_St_Germain_Depository_Institutions_Act
@@ -94,7 +94,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Propose_Healthy_Lifestyle_Tax_Credit_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Declare_a_Freeze_on_New_Nuclear_Power_Plant_Construction
@@ -112,7 +112,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Automanufacturing_Domestic_Content_Bill
-		icon = GFX_goal_unknown
+		icon = GFX_Revive_the_Automanufacturing_Domestic_Content_Bill
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Propose_Healthy_Lifestyle_Tax_Credit_Act
@@ -128,7 +128,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_EPA_Expansion_Act
-		icon = GFX_goal_unknown
+		icon = GFX_USA_EPA_Icon
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Garn_St_Germain_Depository_Institutions_Act
@@ -144,7 +144,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Hike_Agricultural_Subsidies
-		icon = GFX_goal_unknown
+		icon = GFX_Agricultural_Subsidies
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_EPA_Expansion_Act
@@ -163,7 +163,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Kennedy_Gephardt_Medicare_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_dick_gephardt
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Hike_Agricultural_Subsidies
@@ -182,7 +182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Increase_the_Minimum_Wage
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_increase_the_minimum_wages_of_workers_and_employees
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Hike_Agricultural_Subsidies
@@ -198,7 +198,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Agricultural_Bank_Relief_Act_of_1982
-		icon = GFX_goal_unknown
+		icon = GFX_Refugee_Relief_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Kennedy_Gephardt_Medicare_Reform_Act
@@ -216,7 +216,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Address_the_AIDS_Crisis
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Agricultural_Bank_Relief_Act_of_1982
@@ -231,7 +231,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Clean_Energy_Production_Act_of_1983
-		icon = GFX_goal_unknown
+		icon = GFX_Amend_the_Clean_Air_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Campaign_Finance_Reform_Act
@@ -247,7 +247,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Restrict_Japanese_Imports
-		icon = GFX_goal_unknown
+		icon = GFX_usa80_restrict_aid_to_barres_government
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Urban_Revitilization_Act
@@ -268,7 +268,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Restore_Government_Control_Over_Oil_on_Public_Lands
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_50s_Reinforce_Party_Control_over_Government
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Revenue_Adjustment_Act_of_1984
@@ -287,7 +287,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Urban_Revitilization_Act
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Agricultural_Bank_Relief_Act_of_1982
@@ -306,7 +306,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Extend_the_ERA_Deadline
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Urban_Revitilization_Act
@@ -326,7 +326,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Revenue_Adjustment_Act_of_1984
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Extend_the_ERA_Deadline
@@ -343,7 +343,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Medical_Education_Reform_Act_of_1984
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Restrict_Japanese_Imports
@@ -360,7 +360,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BROWN80S_Campaign_Finance_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Farm_Policy_Reform_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BROWN80S_Automanufacturing_Domestic_Content_Bill

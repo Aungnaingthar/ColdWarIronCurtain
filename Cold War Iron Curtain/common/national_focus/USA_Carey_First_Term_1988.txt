@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_CAREY88_The_Carey_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_hugh_carey
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Death_Penalty_Moratorium
-		icon = GFX_goal_unknown
+		icon = GFX_Abolish_the_death_penalty
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_The_Carey_Administration
@@ -45,7 +45,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Announce_Japanese_Trade_Sanctions
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_hugh_carey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Death_Penalty_Moratorium
@@ -64,7 +64,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_The_Americans_with_Disability_Act
-		icon = GFX_goal_unknown
+		icon = GFX_American_with_Disability_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_The_Carey_Administration
@@ -80,7 +80,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Harkin_Gephardt_Farm_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Farm_Policy_Reform_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_The_Americans_with_Disability_Act
@@ -99,7 +99,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Oil_Pollution_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Oil_Pollution_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Harkin_Gephardt_Farm_Reform_Act
@@ -118,7 +118,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Propose_Comprehensive_Tax_Reform
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_hugh_carey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Oil_Pollution_Act
@@ -134,7 +134,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Ryan_White_CARE_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Ryan_White_CARE_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_The_Americans_with_Disability_Act
@@ -150,7 +150,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Biological_Weapons_Anti_Terrorism_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Biological_Weapons_Anti_Terrorism_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Ryan_White_CARE_Act
@@ -169,7 +169,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Schroeder_Gephardt_Nuclear_Test_Ban
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_research_nuclear_ban
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Oil_Pollution_Act
@@ -188,7 +188,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_The_Civil_Rights_Act_of_1990
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Biological_Weapons_Anti_Terrorism_Act
@@ -204,7 +204,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Judicial_Improvement_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Judicial_Improvement_Act_Trump
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Schroeder_Gephardt_Nuclear_Test_Ban
@@ -223,7 +223,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_A_Crisis_of_Conscience
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_hugh_carey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Judicial_Improvement_Act
@@ -238,7 +238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Congressional_Spending_Review_and_Accountability_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_hugh_carey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_High_Performance_Computing_and_Communication_Act
@@ -254,7 +254,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Restore_the_Mental_Health_Systems_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_hugh_carey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Judicial_Improvement_Act
@@ -274,7 +274,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Launch_Made_in_America_Initiative
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp84_maintain_american_made_aircraft
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Urban_Economic_Redevelopment_Act
@@ -295,7 +295,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_High_Performance_Computing_and_Communication_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_hugh_carey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_A_Crisis_of_Conscience
@@ -314,7 +314,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Reject_Calls_for_NAFTA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_hugh_carey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Congressional_Spending_Review_and_Accountability_Act
@@ -334,7 +334,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Weapons_of_Mass_Destruction_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_hugh_carey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Launch_Made_in_America_Initiative
@@ -353,7 +353,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_National_Education_Standards_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_hugh_carey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Weapons_of_Mass_Destruction_Control_Act
@@ -369,7 +369,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CAREY88_Urban_Economic_Redevelopment_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_hugh_carey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CAREY88_Propose_Comprehensive_Tax_Reform

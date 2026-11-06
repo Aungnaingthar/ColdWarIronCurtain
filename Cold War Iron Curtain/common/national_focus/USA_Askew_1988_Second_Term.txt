@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_ASKEW88_The_Askew_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Corporate_Tax_Adjustment_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_The_Askew_Administration
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Enviromental_Protection_Act_of_1989
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Corporate_Tax_Adjustment_Act
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_The_Americans_with_Disability_Act
-		icon = GFX_goal_unknown
+		icon = GFX_American_with_Disability_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_The_Askew_Administration
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Ryan_White_CARE_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Ryan_White_CARE_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_The_Americans_with_Disability_Act
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Campaign_Financial_Disclosure_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp_generic_financial_aid
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Ryan_White_CARE_Act
@@ -111,7 +111,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_The_Civil_Rights_Act_of_1990
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Campaign_Financial_Disclosure_Act
@@ -127,7 +127,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Biological_Weapons_Anti_Terrorism_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Biological_Weapons_Anti_Terrorism_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_The_Americans_with_Disability_Act
@@ -143,7 +143,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Jordan_Kennedy_Immigration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Biological_Weapons_Anti_Terrorism_Act
@@ -162,7 +162,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Modernize_the_Elementary_and_Secondary_Education_Act
-		icon = GFX_goal_unknown
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Jordan_Kennedy_Immigration_Act
@@ -181,7 +181,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Judicial_Improvement_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Judicial_Improvement_Act_Trump
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Jordan_Kennedy_Immigration_Act
@@ -197,7 +197,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Renegotiate_Japanese_Trade_Arrangements
-		icon = GFX_goal_unknown
+		icon = GFX_Renegotiate_Eastern_Bloc_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Modernize_the_Elementary_and_Secondary_Education_Act
@@ -216,7 +216,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Modernize_the_Clean_Air_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Amend_the_Clean_Air_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Renegotiate_Japanese_Trade_Arrangements
@@ -232,7 +232,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Sign_the_North_American_Free_Trade_Agreement
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_sign_the_tripart_agreement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Weapons_of_Mass_Destruction_Control_Act
@@ -256,7 +256,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Propose_US_British_Free_Trade_Agreement
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_50s_Propose_Sino-India_Trade_Agreement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_National_Education_Standards_Act
@@ -275,7 +275,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_High_Performance_Computing_and_Communication_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Fast_Track_NAFTA_Proceedings
@@ -294,7 +294,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_The_Sunshine_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Clean_Energy_Promotion_Act
@@ -313,7 +313,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Fast_Track_NAFTA_Proceedings
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Renegotiate_Japanese_Trade_Arrangements
@@ -338,7 +338,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Weapons_of_Mass_Destruction_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Biological_Weapons_Anti_Terrorism_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_Propose_US_British_Free_Trade_Agreement
@@ -357,7 +357,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_Clean_Energy_Promotion_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Amend_the_Clean_Air_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_High_Performance_Computing_and_Communication_Act
@@ -373,7 +373,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW88_National_Education_Standards_Act
-		icon = GFX_goal_unknown
+		icon = GFX_National_Security_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW88_The_Civil_Rights_Act_of_1990

@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_MUSKIE84_The_Muskie_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_MuskieAdministration
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Farm_Policy_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Farm_Policy_Reform_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_The_Muskie_Administration
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Education_Excellence_Act
-		icon = GFX_goal_unknown
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Farm_Policy_Reform_Act
@@ -58,7 +58,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Womens_Economic_Equity_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_The_Muskie_Administration
@@ -74,7 +74,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Increase_the_Minimum_Wage
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_increase_the_minimum_wages_of_workers_and_employees
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Womens_Economic_Equity_Act
@@ -93,7 +93,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Legalize_Sodomy
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Increase_the_Minimum_Wage
@@ -110,7 +110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Pack_the_NLRB
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Legalize_Sodomy
@@ -128,7 +128,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Declare_a_Nuclear_Freeze
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Womens_Economic_Equity_Act
@@ -147,7 +147,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Bradley_Gephardt_Tax_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Declare_a_Nuclear_Freeze
@@ -167,7 +167,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Desalinization_Funding_and_Research_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Bradley_Gephardt_Tax_Reform_Act
@@ -186,7 +186,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Labor_Management_Relations_Act_of_1987
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_labor_relations_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Bradley_Gephardt_Tax_Reform_Act
@@ -201,7 +201,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Heritage_Riverways_Program
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Labor_Management_Relations_Act_of_1987
@@ -219,7 +219,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Electronic_Communications_Privacy_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Electronic_Industry_Subsidies_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Heritage_Riverways_Program
@@ -235,7 +235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Social_Security_Benefits_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_social_security_act_50
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Fight_for_the_ERA
@@ -253,7 +253,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Comprehensive_Anti_Apartheid_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_safeguard_anti_apartheid_movement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Firearms_Control_Act
@@ -268,7 +268,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Civil_Rights_Restoration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Electronic_Communications_Privacy_Act
@@ -286,7 +286,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Restart_the_Model_Cities_Program
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_restart_the_flying_submarine_program
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Heritage_Riverways_Program
@@ -305,7 +305,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Immigration_Reform_and_Control_Act 
-		icon = GFX_goal_unknown
+		icon = GFX_Farm_Policy_Reform_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Restart_the_Model_Cities_Program
@@ -324,7 +324,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Consumer_Protection_Act
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Immigration_Reform_and_Control_Act 
@@ -339,7 +339,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Fight_for_the_ERA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_the_fight_for_self_determination
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Civil_Rights_Restoration_Act
@@ -356,7 +356,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE84_Firearms_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE84_Pack_the_NLRB

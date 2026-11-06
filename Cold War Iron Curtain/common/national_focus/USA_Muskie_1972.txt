@@ -46,7 +46,7 @@ focus_tree = {
 	focus = {
 		id = USA_MUSKIE72_Launch_Enviromental_Initiatives
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_focus_USA_veteran_initiative
 		search_filters = {
 			IC_FILTER
 		}
@@ -137,7 +137,7 @@ focus_tree = {
 	focus = {
 		id = USA_MUSKIE72_The_Model_City_Program
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -166,7 +166,7 @@ focus_tree = {
 	focus = {
 		id = USA_MUSKIE72_Endangered_Species_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}
@@ -187,7 +187,7 @@ focus_tree = {
 	focus = {
 		id = USA_MUSKIE72_Disaster_Relieft_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_humanitarian_disaster
 		search_filters = {
 			IC_FILTER
 		}
@@ -211,7 +211,7 @@ focus_tree = {
 	focus = {
 		id = USA_MUSKIE72_Federal_Fire_Prevention_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_The_Subversive_Activities_Prevention_Act
 		search_filters = {
 			IC_FILTER
 		}
@@ -303,7 +303,7 @@ focus_tree = {
 	focus = {
 		id = USA_MUSKIE72_Ratify_the_ERA
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -324,7 +324,7 @@ focus_tree = {
 	focus = {
 		id = USA_MUSKIE72_Strengthen_the_Clean_Air_and_Water_Acts
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Amend_the_Clean_Air_Act
 		search_filters = {
 			IC_FILTER
 		}
@@ -415,7 +415,7 @@ focus_tree = {
 	focus = {
 		id = USA_MUSKIE72_Fund_River_Infrastructure_Modernization
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Begin_infrastructure_efforts
 		search_filters = {
 			IC_FILTER
 		}

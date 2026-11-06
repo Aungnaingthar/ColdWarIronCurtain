@@ -32,7 +32,7 @@ focus_tree = {
 		id = ENG_60s_The_Winds_of_Change
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_SAF_Winds_of_Change_Speech
 		search_filters = {
 			IC_FILTER
 		}
@@ -47,7 +47,7 @@ focus_tree = {
 		id = ENG_60s_The_British_Armed_Forces
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_ENG_British_Armed_Forces
 		search_filters = {
 			IC_FILTER
 		}
@@ -64,7 +64,7 @@ focus_tree = {
 		id = ENG_60s_Prime_Minister_MacMillan
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_Prime_Minister_Tun
 		search_filters = {
 			IC_FILTER
 		}
@@ -535,7 +535,7 @@ focus_tree = {
 		id = ENG_60s_Aid_Nigeria
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -591,7 +591,7 @@ focus_tree = {
 		id = YEM_The_Aden_Emergency
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -1076,7 +1076,7 @@ focus_tree = {
 		id = ENG_60s_The_Beaching_Axe
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -1341,7 +1341,7 @@ focus_tree = {
 		id = ENG_60s_Establish_The_EFTA
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -1825,7 +1825,7 @@ focus_tree = {
 		id = ENG_60s_County_Class_Destroyers
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_kolin_class_destroyer
 		search_filters = {
 			IC_FILTER
 		}
@@ -1848,7 +1848,7 @@ focus_tree = {
 		id = ENG_60s_Resolution_Class_Submarines
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_SAF_Daphne_Class_Submarines
 		search_filters = {
 			IC_FILTER
 		}
@@ -1933,7 +1933,7 @@ focus_tree = {
 		id = ENG_60s_Invest_in_Nuclear_Submarines
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_anti_submarine_nuclear_tor_pedoes
 		search_filters = {
 			IC_FILTER
 		}
@@ -1994,7 +1994,7 @@ focus_tree = {
 		id = ENG_60s_L2A1_Assault_Rifle
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_KPA_50s_the_type_58_assault_rifle
 		search_filters = {
 			IC_FILTER
 		}
@@ -2017,7 +2017,7 @@ focus_tree = {
 		id = ENG_60s_Develop_the_Chieftain
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -2043,7 +2043,7 @@ focus_tree = {
 		id = ENG_60s_Operation_Banner
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -2079,7 +2079,7 @@ focus_tree = {
 		id = ENG_60s_Invest_in_VTOL
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -2124,7 +2124,7 @@ focus_tree = {
 		id = ENG_60s_Harrier_Jump_Jets
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -2383,7 +2383,7 @@ focus_tree = {
 		id = ENG_60s_Enviromental_Regulations
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}
@@ -2444,7 +2444,7 @@ focus_tree = {
 		id = ENG_60s_Campaign_Against_Euroskepticism
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_air_campaign_against_cartels
 		search_filters = {
 			IC_FILTER
 		}
@@ -2598,7 +2598,7 @@ focus_tree = {
 		id = ENG_60s_Utilize_British_Technical_Skills
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_ENG_British_Armed_Forces
 		search_filters = {
 			IC_FILTER
 		}
@@ -2706,7 +2706,7 @@ focus_tree = {
 		id = ENG_60s_Reuce_Government_Waste
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_ENG_deal
 		search_filters = {
 			IC_FILTER
 		}

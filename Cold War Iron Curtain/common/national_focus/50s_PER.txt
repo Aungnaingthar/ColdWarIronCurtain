@@ -1742,7 +1742,7 @@ focus_tree = {
 		id = PER_Anti_Mossadegh_Riots
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -3174,7 +3174,7 @@ focus_tree = {
 		id = PER_Close_the_Seminaries
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -4139,7 +4139,7 @@ focus_tree = {
 		id = PER_Continue_the_Modernization_Program
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_Modernization_Program
 		search_filters = {
 			IC_FILTER
 		}

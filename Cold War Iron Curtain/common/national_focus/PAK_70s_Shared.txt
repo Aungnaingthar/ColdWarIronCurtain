@@ -36,7 +36,7 @@
 	}
 	shared_focus = {
 		id = PAK_70s_Baluchistan_Uprising
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		x = 13
 		y = 5
@@ -1299,7 +1299,7 @@
 	}
 	shared_focus = {
 		id = PAK_70s_Call_On_Legacy_Of_Quadi_Azam
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAK_70s_Oppose_Greater_Islamization

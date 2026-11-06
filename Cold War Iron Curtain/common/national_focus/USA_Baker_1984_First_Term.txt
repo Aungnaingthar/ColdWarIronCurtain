@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_BAKER84F_The_Baker_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Consolidated_Omnibus_Reconciliation_Act_of_1985
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_The_Baker_Administration
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Capital_Gains_Tax_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Consolidated_Omnibus_Reconciliation_Act_of_1985
@@ -58,7 +58,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Federal_State_Private_Rail_Modernization_Policy_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Farm_Policy_Reform_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_The_Baker_Administration
@@ -74,7 +74,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_The_Balanced_Budget_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Federal_State_Private_Rail_Modernization_Policy_Act
@@ -93,7 +93,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Goldwater_Nichols_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_The_Balanced_Budget_Act
@@ -112,7 +112,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Anti_Drug_Abuse_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Goldwater_Nichols_Act
@@ -128,7 +128,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Reject_Protectionist_Policies
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Federal_State_Private_Rail_Modernization_Policy_Act
@@ -143,7 +143,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Federal_Energy_Reorganization_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Reject_Protectionist_Policies
@@ -162,7 +162,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_The_Comprehensive_Anti_Apartheid_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_safeguard_anti_apartheid_movement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Federal_Energy_Reorganization_Act
@@ -181,7 +181,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Immigration_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Federal_Energy_Reorganization_Act
@@ -197,7 +197,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Enterprise_Zone_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_The_Comprehensive_Anti_Apartheid_Act
@@ -216,7 +216,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Alternative_Energy_Tax_Incentives_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Enterprise_Zone_Act
@@ -232,7 +232,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Establish_the_Working_Group_on_Financial_Markets
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Combat_Groups_of_the_Working_Class
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Computer_Security_Act
@@ -249,7 +249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Establish_the_Department_of_Veterans_Affairs
-		icon = GFX_goal_unknown
+		icon = GFX_focus_USA_veteran_initiative
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_The_Civil_Rights_Restoration_Act
@@ -266,7 +266,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Computer_Security_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Computer_Security_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Electronics_Communications_Privacy_Act
@@ -285,7 +285,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Electronics_Communications_Privacy_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Electronic_Industry_Subsidies_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Enterprise_Zone_Act
@@ -304,7 +304,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_Gramm_Rudman_Hollings_Balanced_Budget_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Electronics_Communications_Privacy_Act
@@ -323,7 +323,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_The_Federal_Reserve_Debate
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Gramm_Rudman_Hollings_Balanced_Budget_Act
@@ -338,7 +338,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84_Mandatory_Congressional_Regulatory_Oversight_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_howard_baker
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_The_Federal_Reserve_Debate
@@ -357,7 +357,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_BAKER84F_The_Civil_Rights_Restoration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		cost = 10.00
 		prerequisite = {
 			focus = USA_BAKER84F_Anti_Drug_Abuse_Act

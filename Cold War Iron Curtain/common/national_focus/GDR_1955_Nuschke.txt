@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = GDR_The_Second_Five_Year_Plan
 	focus = {
 		id = GDR_Prime_Minister_Nuschke_55
-		icon = GFX_goal_unknown
+		icon = GFX_Prime_Minister_Tun
 		cost = 10.00
 		x = 8
 		y = 0
@@ -239,7 +239,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Prime_Minister_Luitpold_Steidle
-		icon = GFX_goal_unknown
+		icon = GFX_Prime_Minister_Tun
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_Death_of_Nuschke
@@ -263,7 +263,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Prime_Minister_August_Bach
-		icon = GFX_goal_unknown
+		icon = GFX_Prime_Minister_Tun
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_Death_of_Nuschke

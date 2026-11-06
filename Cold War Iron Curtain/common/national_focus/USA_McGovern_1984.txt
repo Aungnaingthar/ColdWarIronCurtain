@@ -15,7 +15,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_MCGOVERN84_The_McGovern_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_McGovernAdministration
 		cost = 10.00
 		x = 5
 		y = 0
@@ -27,7 +27,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Declare_a_Nuclear_Freeze
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_The_McGovern_Administration
@@ -46,7 +46,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Armed_Forces_Expense_Adjustment_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_Declare_a_Nuclear_Freeze
@@ -62,7 +62,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_The_American_Dream_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_The_McGovern_Administration
@@ -78,7 +78,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Mass_Transit_Modernization_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_The_American_Dream_Act
@@ -98,7 +98,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Undo_Executive_Order_12333
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_Mass_Transit_Modernization_Act
@@ -119,7 +119,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_The_American_Millenium_Rail_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_Undo_Executive_Order_12333
@@ -136,7 +136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Civililian_Construction_Corps_Renewal_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_The_American_Dream_Act
@@ -152,7 +152,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_The_Bradley_Gephardt_Tax_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_Civililian_Construction_Corps_Renewal_Act
@@ -172,7 +172,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Electronic_Freedom_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Electronic_Industry_Subsidies_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_The_Bradley_Gephardt_Tax_Reform_Act
@@ -192,7 +192,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Enviromental_Protection_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_The_Bradley_Gephardt_Tax_Reform_Act
@@ -207,7 +207,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_The_Education_Loan_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_Electronic_Freedom_Act
@@ -225,7 +225,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Undo_Social_Security_Purge
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_social_security_act_50
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_The_Education_Loan_Reform_Act
@@ -241,7 +241,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Counter_NLRB_Packing
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_Medicaid_Centralization_Act
@@ -260,7 +260,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Address_the_AIDS_Crisis
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_The_Feed_America_Act
@@ -279,7 +279,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_The_McGovern_Doctrine
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_Restore_the_Mental_Health_Systems_Act
@@ -299,7 +299,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_The_Feed_America_Act
-		icon = GFX_goal_unknown
+		icon = GFX_goal_USA_america_economic_miracle
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_The_Education_Loan_Reform_Act
@@ -318,7 +318,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Dial_Down_the_War_on_Drugs
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_ramping_up_the_war_on_drugs
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_The_Feed_America_Act
@@ -337,7 +337,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Restore_the_Mental_Health_Systems_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_Dial_Down_the_War_on_Drugs
@@ -353,7 +353,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Fight_for_the_ERA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_Address_the_AIDS_Crisis
@@ -370,7 +370,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MCGOVERN84_Medicaid_Centralization_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_george_mcgovern
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MCGOVERN84_The_American_Millenium_Rail_Act

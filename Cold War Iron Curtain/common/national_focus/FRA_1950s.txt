@@ -12,7 +12,7 @@ focus_tree = {
 		id = FRA_Quai_d_Orsay
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		x = 20
 		y = 14
@@ -558,7 +558,7 @@ focus_tree = {
 		id = FRA_Grant_Autonomy_Malagasy
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_FRA_Accord_Autonomy_To_Tunisia
 		cost = 7
 		relative_position_id = FRA_Ministry_Overseas_Territories_French_Union
 		prerequisite = {
@@ -592,7 +592,7 @@ focus_tree = {
 		id = FRA_Wipe_Malagasy_Rebels
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_Ministry_Overseas_Territories_French_Union
 		prerequisite = {
@@ -650,7 +650,7 @@ focus_tree = {
 		id = FRA_Intensify_Franconization_Algeria
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_FRA_Lacoste_in_Algeria
 		cost = 7
 		relative_position_id = FRA_Ministry_Overseas_Territories_French_Union
 		prerequisite = {
@@ -695,7 +695,7 @@ focus_tree = {
 		id = FRA_Incorporate_TAAF
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		relative_position_id = FRA_Ministry_Overseas_Territories_French_Union
 		prerequisite = {
@@ -755,7 +755,7 @@ focus_tree = {
 		id = FRA_Begin_Colonial_Modernization_Projects
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_usa_50_begin_project_mockingbird
 		cost = 7
 		relative_position_id = FRA_Ministry_Overseas_Territories_French_Union
 		prerequisite = {
@@ -788,7 +788,7 @@ focus_tree = {
 		id = FRA_Relaxing_Citizenships_Criteria
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		relative_position_id = FRA_Ministry_Overseas_Territories_French_Union
 		prerequisite = {
@@ -816,7 +816,7 @@ focus_tree = {
 		id = FRA_Casablanca_Riots
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		relative_position_id = FRA_Ministry_Overseas_Territories_French_Union
 		prerequisite = {
@@ -838,7 +838,7 @@ focus_tree = {
 		id = FRA_Tunisian_Morrocan_Independence
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_The_Road_to_Independence
 		cost = 7
 		relative_position_id = FRA_Ministry_Overseas_Territories_French_Union
 		prerequisite = {
@@ -882,7 +882,7 @@ focus_tree = {
 		id = FRA_Maintain_Colonial_Regime
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_VIE_NH_Maintain_Colonial_Bureaucracy
 		cost = 7
 		relative_position_id = FRA_Ministry_Overseas_Territories_French_Union
 		prerequisite = {
@@ -921,7 +921,7 @@ focus_tree = {
 		id = FRA_Grant_Cameroon_Autonomy
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_FRA_Accord_Autonomy_To_Tunisia
 		cost = 7
 		relative_position_id = FRA_Ministry_Overseas_Territories_French_Union
 		prerequisite = {
@@ -958,7 +958,7 @@ focus_tree = {
 		id = FRA_Prepare_Decolonization
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_Ministry_Overseas_Territories_French_Union
 		prerequisite = {
@@ -997,7 +997,7 @@ focus_tree = {
 		id = FRA_Sign_Protocol_Sevres
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_Suez_Crisis
 		prerequisite = {
@@ -1048,7 +1048,7 @@ focus_tree = {
 		id = FRA_Accept_Post_Colonial_New_Order
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_Suez_Crisis
 		prerequisite = {
@@ -1073,7 +1073,7 @@ focus_tree = {
 		id = FRA_Victoire
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_Suez_Crisis
 		prerequisite = {
@@ -1095,7 +1095,7 @@ focus_tree = {
 		id = FRA_Sign_Ceasefire
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_PRC_50s_Sign_A_Ceasefire_Agreement
 		cost = 7
 		relative_position_id = FRA_Suez_Crisis
 		prerequisite = {
@@ -1123,7 +1123,7 @@ focus_tree = {
 		id = FRA_CEFEO_FarEast_Desk
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_SOV_Create_Fortified_Region_Far_East
 		cost = 7
 		relative_position_id = FRA_Quai_d_Orsay
 		prerequisite = {
@@ -1166,7 +1166,7 @@ focus_tree = {
 		id = FRA_Enter_Dialogue_Zhou_Enlai
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1251,7 +1251,7 @@ focus_tree = {
 		id = FRA_Maintain_ROC_Seat_UNSC
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1413,7 +1413,7 @@ focus_tree = {
 		id = FRA_South_China_Sea_Islands_Situation
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_PRC_50s_Reach_South_China_Sea
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1432,7 +1432,7 @@ focus_tree = {
 		id = FRA_CEFEO_Manpower_Issue
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1451,7 +1451,7 @@ focus_tree = {
 		id = FRA_Request_US_Intervention
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1472,7 +1472,7 @@ focus_tree = {
 		id = FRA_Encourage_Local_Recruitment_Indochinese
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1502,7 +1502,7 @@ focus_tree = {
 		id = FRA_Send_Tirailleur_Reinforcements
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1564,7 +1564,7 @@ focus_tree = {
 		id = FRA_Advisory_Mission_Korea
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_VIE_Korea_Send_Advisory_Mission
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1596,7 +1596,7 @@ focus_tree = {
 		id = FRA_Recognize_South_Korea
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_focus_south_korea_flag
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1629,7 +1629,7 @@ focus_tree = {
 		id = FRA_Form_BFONU
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_FRA_Form_Anti_gangs_Police
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1690,7 +1690,7 @@ focus_tree = {
 		id = FRA_Malayan_Emergency
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1706,7 +1706,7 @@ focus_tree = {
 		id = FRA_Advisory_Mission_Malaya
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_VIE_Korea_Send_Advisory_Mission
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1725,7 +1725,7 @@ focus_tree = {
 		id = FRA_Recognize_Malaya
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1750,7 +1750,7 @@ focus_tree = {
 		id = FRA_Settle_Malayans_South_Vietnam
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_Buddhist_Persicution_in_South_Vietnam
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1814,7 +1814,7 @@ focus_tree = {
 		id = FRA_Recognize_Sarawak_Borneo
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1853,7 +1853,7 @@ focus_tree = {
 		id = FRA_Geneva_Peace_Conference
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_usa_50_geneva_conference
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		x = 0
@@ -1869,7 +1869,7 @@ focus_tree = {
 		id = FRA_Failed_State_Ending
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1891,7 +1891,7 @@ focus_tree = {
 		id = FRA_Enforce_Federation_Proposal
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1913,7 +1913,7 @@ focus_tree = {
 		id = FRA_Accept_Temporary_Partitions
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_PRC_50s_Accept_Using_The_Yangtze_as_A_Partition
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1935,7 +1935,7 @@ focus_tree = {
 		id = FRA_Accept_Diems_Regime
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_PreserveTheDiemRegime
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1951,7 +1951,7 @@ focus_tree = {
 		id = FRA_Anti_Diem_Coup
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_FRA_Form_Anti_gangs_Police
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -1967,7 +1967,7 @@ focus_tree = {
 		id = FRA_Retreat_From_Indochina
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -2013,7 +2013,7 @@ focus_tree = {
 		id = FRA_Total_Victory
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_FRA_CNIP_Victory
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -2035,7 +2035,7 @@ focus_tree = {
 		id = FRA_Grant_Independence_Ethnostates
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_The_Road_to_Independence
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -2051,7 +2051,7 @@ focus_tree = {
 		id = FRA_Transfer_North_To_South
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		relative_position_id = FRA_CEFEO_FarEast_Desk
 		prerequisite = {
@@ -3815,7 +3815,7 @@ focus = {
 	id = FRA_Lacoste_in_Algeria
 	completion_reward = {
 	}
-	icon = GFX_unknown
+	icon = GFX_FRA_Lacoste_in_Algeria
 	search_filters = {
 		IC_FILTER
 	}

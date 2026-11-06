@@ -146,7 +146,7 @@ focus_tree = {
 	
 	focus = {
 		id = ALB_decommunize_society
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		x = 0
 		y = 1
@@ -186,7 +186,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_formally_enter_in_the_nato
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		x = 0
 		y = 1
@@ -223,7 +223,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_legaliteti_victory
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		x = -3
 		y = 1
@@ -255,7 +255,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_balli_kombtar_victory
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		x = 3
 		y = 1
@@ -307,7 +307,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_religious_revival
-		icon = GFX_unknown
+		icon = GFX_ALB_Religious_and_Ethnic_Militias
 		cost = 7
 		x = 0
 		y = 1
@@ -321,7 +321,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_new_territorial_organization
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		x = -1
 		y = 1
@@ -353,7 +353,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ALB_egalitarist_policies
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		x = 0
 		y = 1
@@ -367,7 +367,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_different_gods_yet_all_albanian_brothers
-		icon = GFX_unknown
+		icon = GFX_ALB_The_Albanian_Counterrevolution
 		cost = 7
 		x = 1
 		y = 1
@@ -419,7 +419,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_request_marshall_plan_assistance
-		icon = GFX_unknown
+		icon = GFX_Marshall_Plan
 		cost = 7
 		x = 16
 		y = 0
@@ -446,7 +446,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_ask_uk_for_our_gold
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		x = 2
 		y = 1
@@ -543,7 +543,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_keep_workers_unions_controlled
-		icon = GFX_unknown
+		icon = GFX_Empower_Workers_UnionsUK
 		cost = 7
 		x = 2
 		y = 1
@@ -562,7 +562,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_ukalbania_universities_exchange
-		icon = GFX_unknown
+		icon = GFX_Invest_in_Education
 		cost = 7
 		x = 1
 		y = 1
@@ -603,7 +603,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_new_electric_plants
-		icon = GFX_unknown
+		icon = GFX_Hydroelectric_Dam_Development
 		cost = 7
 		x = 1
 		y = 1
@@ -644,7 +644,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_from_the_other_side_of_the_curtain
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		x = 27
 		y = 5
@@ -661,7 +661,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_send_kompania_4000_to_korea
-		icon = GFX_unknown
+		icon = GFX_Gre_send_support_Korea
 		cost = 7
 		x = -2
 		y = 1
@@ -683,7 +683,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_albaniangreekturkish_military_axis
-		icon = GFX_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 7
 		x = 0
 		y = 1
@@ -790,7 +790,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_greater_albania_reclaimations
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 7
 		x = 5
 		y = 1
@@ -807,7 +807,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_territorial_claims_in_greece
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		x = 0
 		y = 1
@@ -841,7 +841,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_military_cooperation_with_yugoslavia
-		icon = GFX_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 7
 		x = 0
 		y = 1
@@ -891,7 +891,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_buy_nato_outdated_equipment
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		x = 2
 		y = 1
@@ -903,7 +903,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_british_military_advisory
-		icon = GFX_unknown
+		icon = GFX_PRC_50s_Send_Military_Advisory_Mission_to_PAVN
 		cost = 7
 		x = 2
 		y = 1
@@ -940,7 +940,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_italian_pilot_trainers_program
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		x = 2
 		y = 1
@@ -952,7 +952,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_develop_air_bases
-		icon = GFX_unknown
+		icon = GFX_goal_generic_AirBases
 		cost = 7
 		x = -2
 		y = 1
@@ -964,7 +964,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_buy_italian_planes
-		icon = GFX_unknown
+		icon = GFX_Generic_Jet
 		cost = 7
 		x = -2
 		y = 1
@@ -1050,7 +1050,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_fourth_albanian_republic
-		icon = GFX_unknown
+		icon = GFX_ALB_The_Albanian_Counterrevolution
 		cost = 7
 		x = 2
 		y = 1
@@ -1067,7 +1067,7 @@ focus_tree = {
 
 	focus = {
 		id = ALB_zogus_restoration
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 7
 		x = -2
 		y = 1

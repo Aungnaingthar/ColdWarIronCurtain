@@ -112,7 +112,7 @@ focus_tree = {
 		id = RUS_Ecology_Preservation_Law
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_RUS_Low_Income_Housing_Law
 		cost = 5
 		relative_position_id = RUS_Introduce_Limiting_Pres_Power_Bill
 		prerequisite = {
@@ -131,7 +131,7 @@ focus_tree = {
 		id = RUS_Charge_Yeltsin_Corruption
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_Stamp_out_Corruption
 		cost = 5
 		relative_position_id = RUS_Western_Corp_Induct_Trades_Law
 		prerequisite = {
@@ -169,7 +169,7 @@ focus_tree = {
 		id = RUS_Reverse_Yeltsin_Ecology_Policy
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_Reverse_Work_Quota_Policy
 		cost = 5
 		relative_position_id = RUS_Ecology_Preservation_Law
 		prerequisite = {
@@ -207,7 +207,7 @@ focus_tree = {
 		id = RUS_Keep_Strained_Perestroika_Course
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5
 		relative_position_id = RUS_Charge_Yeltsin_Corruption
 		prerequisite = {
@@ -229,7 +229,7 @@ focus_tree = {
 		id = RUS_Novaya_Perestroika_Bolshe_Liberalizma
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_focus_generic_election
 		cost = 5
 		relative_position_id = RUS_Reverse_Yeltsin_Ecology_Policy
 		prerequisite = {
@@ -251,7 +251,7 @@ focus_tree = {
 		id = RUS_Found_UR_Yabloko_OVR_Coalition
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5
 		relative_position_id = RUS_Reverse_Yeltsin_Ecology_Policy
 		prerequisite = {
@@ -270,7 +270,7 @@ focus_tree = {
 		id = RUS_Renew_Start_II_Agreement
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 5
 		relative_position_id = RUS_Keep_Strained_Perestroika_Course
 		prerequisite = {
@@ -292,7 +292,7 @@ focus_tree = {
 		id = RUS_Abandon_New_Limitation_Talks
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5
 		relative_position_id = RUS_Novaya_Perestroika_Bolshe_Liberalizma
 		prerequisite = {

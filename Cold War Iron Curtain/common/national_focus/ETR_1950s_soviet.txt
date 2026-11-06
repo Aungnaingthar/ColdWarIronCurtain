@@ -946,7 +946,7 @@ focus_tree = {
 		id = ETR_Rally_the_Righteous
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -1208,7 +1208,7 @@ focus_tree = {
 		id = ETR_A_Republican_Uyghur_Enclave
 		completion_reward = {
 		}
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}

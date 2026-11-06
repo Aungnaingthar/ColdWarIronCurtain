@@ -476,7 +476,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Power_Sharing
-		icon = GFX_unknown
+		icon = GFX_Hydroelectric_Dam_Development
 		search_filters = {
 			IC_FILTER
 		}

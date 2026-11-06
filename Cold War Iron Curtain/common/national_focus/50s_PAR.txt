@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = PAR_moilas_rule
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		x = 21
 		y = 0
@@ -21,7 +21,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_1954_coup
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 1.00
 		x = 21
 		y = 14
@@ -89,7 +89,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_depose_molas
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_party_unity
@@ -106,7 +106,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_army_focus
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBorderTroops
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_depose_molas
@@ -122,7 +122,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_army
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBorderTroops
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_army_focus
@@ -136,7 +136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_air_force
-		icon = GFX_goal_unknown
+		icon = GFX_bulgarian_air_force
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_army_focus
@@ -180,7 +180,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_chaves_takes_over
-		icon = GFX_goal_unknown
+		icon = GFX_Moczar_Takes_Over
 		cost = 5.00
 		prerequisite = {
 			focus = PAR_depose_molas
@@ -421,7 +421,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_liberal_party
-		icon = GFX_goal_unknown
+		icon = GFX_UK_Liberal_Party
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_58_elec_epif
@@ -605,7 +605,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_reduce_argentina_dependence
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_reopen_us_embassy
@@ -633,7 +633,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_anti_Communist_mild
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_anti_communist_pact
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_army_clean
@@ -644,7 +644,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_combat_crime_as_ac
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_court_of_law
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_anti_Communist_mild
@@ -655,7 +655,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_cultural_support
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_anti_Communist_mild
@@ -666,7 +666,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_regional_ties
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_combat_crime_as_ac
@@ -680,7 +680,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_clean_party
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_regional_ties
@@ -691,7 +691,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_education_board
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Education
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_army_clean
@@ -702,7 +702,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_reform_ministeries
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_education_board
@@ -713,7 +713,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_rural_initiativie
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_reform_ministeries
@@ -724,7 +724,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_price_controls
-		icon = GFX_goal_unknown
+		icon = GFX_YUG_Drop_Price_Controls
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_rural_initiativie
@@ -818,7 +818,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_keep_party_happy
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_combat_inflation
@@ -936,7 +936,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_Chaves_resigns
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_1954_coup
@@ -1252,7 +1252,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_replace_mendez
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_confront_military
@@ -1309,7 +1309,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_resist_us_ilnfuence
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_party_opposition
@@ -1625,7 +1625,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_navy
-		icon = GFX_goal_unknown
+		icon = GFX_NavalOperations
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_army_focus
@@ -1755,7 +1755,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_emergency_party_meeting
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_plan_healthcare
@@ -1898,7 +1898,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_reassign_mendez
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_stoessner_takes_over
@@ -2118,7 +2118,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_army_friends
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_austerity_measures
@@ -2129,7 +2129,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_strike_chavez_supporters
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_assign_ynsfran
@@ -2298,7 +2298,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_dnat
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_ramp_up_anti_communism
@@ -2637,7 +2637,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_grant_peron_stay
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_strike_stoessner
@@ -2692,7 +2692,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_support_peronistas
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_grant_peron_stay
@@ -2932,7 +2932,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_anc_victory
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_58_elec_epif
@@ -2946,7 +2946,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_bolvian_relations
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_liberal_party
@@ -3377,7 +3377,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_pena_continues
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_emergency_party_meeting
@@ -3420,7 +3420,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_ysfran_rises
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_crackdown_on_black_markets
@@ -3437,7 +3437,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_take_control_of_everything
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Take_Control_Of_The_MFund
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_ynsfarn
@@ -3448,7 +3448,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_dta
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_take_control_of_everything
@@ -3459,7 +3459,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_crackdown_on_black_markets
-		icon = GFX_goal_unknown
+		icon = GFX_integrate_the_black_market
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_central_bank_fix
@@ -3470,7 +3470,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_reinforce_guijon_rojo
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_recognize_concern
@@ -3481,7 +3481,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_recognize_concern
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_ysfran_rises
@@ -3495,7 +3495,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_crackdown_on_dissidents
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_ysfran_rises
@@ -3509,7 +3509,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_military_in_government
-		icon = GFX_goal_unknown
+		icon = GFX_MilitaryGovernment
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_recognize_concern
@@ -3520,7 +3520,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_arrest_suspected_dissidents
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_crackdown_on_dissidents
@@ -3531,7 +3531,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_bolster_police
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_court_of_law
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_crackdown_on_dissidents
@@ -3542,7 +3542,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_reinforce_party_loyality
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_50s_Reinforce_Party_Control_over_Government
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_arrest_suspected_dissidents
@@ -3556,7 +3556,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_yegros_military_academy
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBorderTroops
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_military_in_government
@@ -3570,7 +3570,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_plan_healthcare
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_yegros_military_academy
@@ -3582,7 +3582,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_five_yer_plan
-		icon = GFX_goal_unknown
+		icon = GFX_Five_Year_Plan_Generic_Alternate
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_pena_continues
@@ -3593,7 +3593,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_anit_corruption_flor
-		icon = GFX_goal_unknown
+		icon = GFX_focus_police
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_pena_continues
@@ -3604,7 +3604,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_farms_to_factories
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Agriculture
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_five_yer_plan
@@ -3615,7 +3615,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_civilian_supremacy
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_anit_corruption_flor
@@ -3626,7 +3626,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_trade_neutrality
-		icon = GFX_goal_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_five_yer_plan
@@ -3637,7 +3637,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_contitution_crisis
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_anit_corruption_flor
@@ -3648,7 +3648,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_controlled_reforms
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_civilian_supremacy
@@ -3659,7 +3659,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_expand_cpt
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_farms_to_factories
@@ -3676,7 +3676,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_purge_cpt
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_trade_neutrality
@@ -3693,7 +3693,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_control_military
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_contitution_crisis
@@ -3704,7 +3704,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_nis
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_expand_cpt
@@ -3716,7 +3716,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_encorage_education
-		icon = GFX_goal_unknown
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_control_military
@@ -3730,7 +3730,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_future_of_paraguay
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_nis
@@ -3744,7 +3744,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_establish_own_party
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_take_control_of_everything
@@ -3755,7 +3755,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_ynsfran_purge
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_dta
@@ -3766,7 +3766,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_purge_everyone_else
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_dta
@@ -3777,7 +3777,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_fortress_against_communism
-		icon = GFX_goal_unknown
+		icon = GFX_Begin_Crusade_Against_Imperialism_and_Communism
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_establish_own_party
@@ -3788,7 +3788,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_welcome_exiled_allies
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_establish_own_party
@@ -3799,7 +3799,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_militarize_economy
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_fortress_against_communism
@@ -3813,7 +3813,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_new_century
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_advisory_council
@@ -3825,7 +3825,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_ties_with_franco
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_ynsfran_purge
@@ -3839,7 +3839,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_exiles_in_gov
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_militarize_economy
@@ -3853,7 +3853,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PAR_advisory_council
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = PAR_ties_with_franco

@@ -115,7 +115,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAN_Proclaim_New_Constitution
-		icon = GFX_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = BAN_Minority_Protections

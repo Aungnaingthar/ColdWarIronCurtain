@@ -1927,7 +1927,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Modernize_Workmen_Compensation_Law
-		icon = GFX_unknown
+		icon = GFX_focus_police
 		search_filters = {
 			IC_FILTER
 		}
@@ -1951,7 +1951,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_In_Power_For
-		icon = GFX_unknown
+		icon = GFX_Hydroelectric_Dam_Development
 		search_filters = {
 			IC_FILTER
 		}
@@ -1971,7 +1971,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Promote_Worker_Unionism
-		icon = GFX_unknown
+		icon = GFX_Five_Year_Plan
 		search_filters = {
 			IC_FILTER
 		}
@@ -1996,7 +1996,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Lay_off_Quirinio_Supporters
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -2072,7 +2072,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Begin_Literacy_Programs
-		icon = GFX_unknown
+		icon = GFX_Begin_the_Literacy_Campaign
 		search_filters = {
 			IC_FILTER
 		}
@@ -2124,7 +2124,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Ease_the_Peasants_Plights
-		icon = GFX_unknown
+		icon = GFX_generic_focus_agriculture_irrigation
 		search_filters = {
 			IC_FILTER
 		}
@@ -2144,7 +2144,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Redistrubute_Hacienda_Lands
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -2168,7 +2168,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Enforced_Publicy_Servant_Morality_Disciplines
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -2191,7 +2191,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Maintain_Security_Reliance_on_America
-		icon = GFX_unknown
+		icon = GFX_focus_police
 		search_filters = {
 			IC_FILTER
 		}
@@ -2219,7 +2219,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Found_Constabulary_Anticorruption_Unit
-		icon = GFX_unknown
+		icon = GFX_PHI_Philippine_Constabulary
 		search_filters = {
 			IC_FILTER
 		}
@@ -2265,7 +2265,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Reintroduce_Spanish
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -3075,7 +3075,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Embrace_American_Capitalism
-		icon = GFX_unknown
+		icon = GFX_Embrace_American_Influence
 		icon = usa_50_fiscal_aid_for_indonesia_phillip
 		search_filters = {
 			IC_FILTER
@@ -3460,7 +3460,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Pass_the_Romulo_Snyder_Agreement
-		icon = GFX_unknown
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		search_filters = {
 			IC_FILTER
 		}
@@ -3488,7 +3488,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Pass_the_Laurel_Langley_Agreement
-		icon = GFX_unknown
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		search_filters = {
 			IC_FILTER
 		}
@@ -3516,7 +3516,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Maintain_Trading_with_USA
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -3540,7 +3540,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Accept_Extra_American_Econmic_Aid
-		icon = GFX_unknown
+		icon = GFX_VIE_Accept_American_Mil_Aid
 		search_filters = {
 			IC_FILTER
 		}
@@ -3571,7 +3571,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Preserve_Lower_Exchange_Rates
-		icon = GFX_unknown
+		icon = GFX_EstablishNewForeignExchangeRates
 		search_filters = {
 			IC_FILTER
 		}
@@ -3624,7 +3624,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Cut_Down_on_Unnecessary_Expenses
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -3644,7 +3644,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Devalue_the_Peso
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -3737,7 +3737,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Found_SUNFED
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -3799,7 +3799,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Diversify_our_Trading_Partners
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -3852,7 +3852,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Request_International_Economic_Aid
-		icon = GFX_unknown
+		icon = GFX_PRC_request_for_international_aid
 		search_filters = {
 			IC_FILTER
 		}
@@ -3876,7 +3876,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Promote_Japanese_Filipino_Technological_Exchange
-		icon = GFX_unknown
+		icon = GFX_VIE_Promote_JAP_Tech_Exchanges
 		search_filters = {
 			IC_FILTER
 		}
@@ -3978,7 +3978,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Organize_Irrigation_Rural_Infrastructure_Construction
-		icon = GFX_unknown
+		icon = GFX_Ramp_up_Infrastructure_Construction_in_Salisbury
 		icon = PHI_Organize_Irrigation_Rural_Infrastructure_Construction
 		search_filters = {
 			IC_FILTER
@@ -4029,7 +4029,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Expand_LASEDECO_EDCOR
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -4052,7 +4052,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Expand_Rural_Settlements
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -4185,7 +4185,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Expand_Cash_Crop_Plantations
-		icon = GFX_unknown
+		icon = GFX_generic_focus_trading_cash_crops
 		search_filters = {
 			IC_FILTER
 		}
@@ -4244,7 +4244,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Muslim_Christian_Pledge_of_Brotherhood
-		icon = GFX_unknown
+		icon = GFX_Crush_the_Muslim_Brotherhood
 		search_filters = {
 			IC_FILTER
 		}
@@ -4475,7 +4475,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Modernize_NAWASA_Manila_Sewers
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -4572,7 +4572,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_The_Jeepey_Phenonmenon
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -4600,7 +4600,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Retooling_Zombie_Cars
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -4753,7 +4753,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_MRR_Dieselization_Program
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -4787,7 +4787,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Begin_Bacnotan_Northern_Rail_Line_Extensions
-		icon = GFX_unknown
+		icon = GFX_generic_focus_construction_rail_line
 		search_filters = {
 			IC_FILTER
 		}
@@ -4809,7 +4809,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_The_Huklabahap_Rebellion
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		x = 52
 		y = 11
@@ -4821,7 +4821,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Create_Closer_Ties_with_Free_Countries
-		icon = GFX_goal_unknown
+		icon = GFX_Seek_a_Closer_Ties_with_the_Russian_Federation
 		cost = 4
 		prerequisite = {
 			focus = PHI_The_Huklabahap_Rebellion
@@ -4851,7 +4851,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_The_Indochina_War
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_indochina_war
 		cost = 2
 		prerequisite = {
 			focus = PHI_Create_Closer_Ties_with_Free_Countries
@@ -4865,7 +4865,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Support_South_Vietnam
-		icon = GFX_goal_unknown
+		icon = GFX_Buddhist_Persicution_in_South_Vietnam
 		cost = 5
 		prerequisite = {
 			focus = PHI_The_Indochina_War
@@ -4927,7 +4927,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Settling_Cha_Va_Refugees
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5
 		prerequisite = {
 			focus = PHI_The_Indochina_War
@@ -4960,7 +4960,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Resettling_Chinese_Refugees
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 3
 		prerequisite = {
 			focus = PHI_The_Huklabahap_Rebellion
@@ -4998,7 +4998,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Closer_Ties_to_Washington
-		icon = GFX_goal_unknown
+		icon = GFX_Seek_a_Closer_Ties_with_the_Russian_Federation
 		cost = 5
 		prerequisite = {
 			focus = PHI_The_Huklabahap_Rebellion
@@ -5023,7 +5023,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Issue_Amnesty_for_Communist_Guerilas
-		icon = GFX_goal_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 5
 		prerequisite = {
 			focus = PHI_Create_Closer_Ties_with_Free_Countries
@@ -5046,7 +5046,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Defeat_of_The_Huklabahap
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5
 		prerequisite = {
 			focus = PHI_Issue_Amnesty_for_Communist_Guerilas
@@ -5065,7 +5065,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_The_Fall_of_the_Manila
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5
 		prerequisite = {
 			focus = PHI_Issue_Amnesty_for_Communist_Guerilas
@@ -5085,7 +5085,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_The_Creation_of_SEATO
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5
 		prerequisite = {
 			focus = PHI_The_Fall_of_the_Manila
@@ -5103,7 +5103,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_The_Korean_War
-		icon = GFX_goal_unknown
+		icon = GFX_focus_korean_war
 		cost = 2
 		prerequisite = {
 			focus = PHI_Closer_Ties_to_Washington
@@ -5117,7 +5117,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Send_Volunteers_to_Korea
-		icon = GFX_goal_unknown
+		icon = GFX_Gre_send_support_Korea
 		cost = 4
 		prerequisite = {
 			focus = PHI_The_Korean_War
@@ -5147,7 +5147,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Recognize_South_Korea
-		icon = GFX_goal_unknown
+		icon = GFX_focus_south_korea_flag
 		cost = 2
 		prerequisite = {
 			focus = PHI_The_Korean_War

@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_SIMON88_The_Simon_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_paul_simon
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Announce_Japanese_Trade_Sanctions
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp_generic_sanctions
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_The_Simon_Administration
@@ -45,7 +45,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Suspend_New_Nuclear_Energy_Plant_Licenses
-		icon = GFX_goal_unknown
+		icon = GFX_Nuclear_Energy
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Announce_Japanese_Trade_Sanctions
@@ -60,7 +60,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_The_Americans_with_Disability_Act
-		icon = GFX_goal_unknown
+		icon = GFX_American_with_Disability_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_The_Simon_Administration
@@ -76,7 +76,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Repeal_Price_Anderson_Nuclear_Industries_Indemnity_Act
-		icon = GFX_goal_unknown
+		icon = GFX_SAF_Indemnity_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_The_Americans_with_Disability_Act
@@ -95,7 +95,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Oil_Pollution_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Oil_Pollution_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Repeal_Price_Anderson_Nuclear_Industries_Indemnity_Act
@@ -114,7 +114,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Farmer_Relief_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Refugee_Relief_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Oil_Pollution_Act
@@ -130,7 +130,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Ryan_White_CARE_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Ryan_White_CARE_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_The_Americans_with_Disability_Act
@@ -146,7 +146,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Biological_Weapons_Anti_Terrorism_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Biological_Weapons_Anti_Terrorism_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Ryan_White_CARE_Act
@@ -165,7 +165,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Safeguarding_the_American_Dollar_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Safeguarding_American_Manufacturing_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Oil_Pollution_Act
@@ -184,7 +184,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_The_Civil_Rights_Act_of_1990
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Biological_Weapons_Anti_Terrorism_Act
@@ -200,7 +200,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Judicial_Improvement_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Judicial_Improvement_Act_Trump
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Safeguarding_the_American_Dollar_Act
@@ -219,7 +219,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_American_Civil_Liberties_Protection_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Judicial_Improvement_Act
@@ -235,7 +235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Push_for_Balanced_Budget_Amendment
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_push_for_constitutional_amendment
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Sign_NAFTA
@@ -254,7 +254,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Fast_Track_NAFTA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_paul_simon
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Bail_Out_Agricultural_Banks
@@ -276,7 +276,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_High_Performance_Computing_and_Communication_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_paul_simon
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_End_the_Cuban_Embargo
@@ -295,7 +295,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_End_the_Cuban_Embargo
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_paul_simon
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Judicial_Improvement_Act
@@ -323,7 +323,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Weapons_of_Mass_Destruction_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Biological_Weapons_Anti_Terrorism_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_End_the_Cuban_Embargo
@@ -342,7 +342,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CARTER80_National_Education_Standards_Act
-		icon = GFX_goal_unknown
+		icon = GFX_National_Security_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Weapons_of_Mass_Destruction_Control_Act
@@ -358,7 +358,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Sign_NAFTA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_paul_simon
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_High_Performance_Computing_and_Communication_Act
@@ -381,7 +381,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SIMON88_Bail_Out_Agricultural_Banks
-		icon = GFX_goal_unknown
+		icon = GFX_Bail_Out_the_Savings_and_Loan_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SIMON88_Farmer_Relief_Act

@@ -1318,7 +1318,7 @@ focus_tree = {
 
 	focus = {
 		id = FRE_ECO_Restart_Urban_Economy
-		icon = GFX_goal_unknown
+		icon = GFX_Restart_the_Northern_Economy
 		cost = 5
 		x = 21
 		y = 0
@@ -1328,7 +1328,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Japanese_Bases_Gia_Lam
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5
 		x = 23
 		y = 0
@@ -1338,7 +1338,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Piastre_Inflation
-		icon = GFX_goal_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 5
 		x = 1
 		y = 1
@@ -1353,7 +1353,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_New_Currency
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5
 		x = -1
 		y = 1
@@ -1366,7 +1366,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Keep_Piastre
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5
 		x = 1
 		y = 1
@@ -1379,7 +1379,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Resume_Vidanges
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5
 		x = 1
 		y = 1
@@ -1392,7 +1392,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Bourgoin_Report
-		icon = GFX_goal_unknown
+		icon = GFX_FRE_The_Fallout_of_the_Revers_Report
 		cost = 5
 		x = -4
 		y = 1
@@ -1405,7 +1405,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_River_Dikes
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5
 		x = -1
 		y = 1
@@ -1417,7 +1417,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Iron_Tungsten_Mines
-		icon = GFX_goal_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 5
 		x = 1
 		y = 1
@@ -1429,7 +1429,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Resource_Exploitation
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5
 		x = 4
 		y = 1
@@ -1442,7 +1442,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Hanoi_Hospital
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Medical_Access
 		cost = 5
 		x = -2
 		y = 1
@@ -1454,7 +1454,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Sell_Wild_Lands
-		icon = GFX_goal_unknown
+		icon = GFX_Sell_off_Land
 		cost = 5
 		x = 0
 		y = 1
@@ -1466,7 +1466,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Tonkin_Workers_Syndicate
-		icon = GFX_goal_unknown
+		icon = GFX_Socialist_Consolidation
 		cost = 5
 		x = 2
 		y = 1
@@ -1478,7 +1478,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Bo_Ho_Power_Plant
-		icon = GFX_goal_unknown
+		icon = GFX_1st_Electric_Program
 		cost = 5
 		x = 1
 		y = 1
@@ -1493,7 +1493,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Militarize_Haiphong
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5
 		x = -2
 		y = 1
@@ -1505,7 +1505,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Confiscate_Viet_Minh_Assets
-		icon = GFX_goal_unknown
+		icon = GFX_confiscate_the_duong_family_and_viet_gian_sassets
 		cost = 5
 		x = 0
 		y = 1
@@ -1517,7 +1517,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Raise_Salaries
-		icon = GFX_goal_unknown
+		icon = GFX_VIE_Quang_Raise_Worker_Salaries
 		cost = 5
 		x = 2
 		y = 1
@@ -1529,7 +1529,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Rice_Paddies
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Agriculture
 		cost = 5
 		x = -1
 		y = 1
@@ -1541,7 +1541,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Franco_American_Investors
-		icon = GFX_goal_unknown
+		icon = GFX_american_franco_treaty
 		cost = 5
 		x = -1
 		y = 1
@@ -1556,7 +1556,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Native_Middle_Classes
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5
 		x = -1
 		y = 1
@@ -1571,7 +1571,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Campha_Hongai_Mines
-		icon = GFX_goal_unknown
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 5
 		x = -1
 		y = 1
@@ -1583,7 +1583,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Carrieres_du_Vietnam
-		icon = GFX_goal_unknown
+		icon = GFX_BluewaterNavy
 		cost = 5
 		x = 1
 		y = 1
@@ -1595,7 +1595,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Import_Military_Trucks
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_military_gun_truck
 		cost = 5
 		x = 1
 		y = 1
@@ -1610,7 +1610,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Metropolitan_Economic_Aid
-		icon = GFX_goal_unknown
+		icon = GFX_EconomicAidToPortugal
 		cost = 5
 		x = 1
 		y = 1
@@ -1625,7 +1625,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Import_Foodstuffs
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Agriculture
 		cost = 5
 		x = 1
 		y = 1
@@ -1637,7 +1637,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Tong_Airplane_Factory
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Jet
 		cost = 5
 		x = -1
 		y = 1
@@ -1652,7 +1652,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Crackdown_Opium
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5
 		x = -1
 		y = 1
@@ -1667,7 +1667,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Reopen_University
-		icon = GFX_goal_unknown
+		icon = GFX_Invest_in_Science
 		cost = 5
 		x = 1
 		y = 1
@@ -1682,7 +1682,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Tolerate_Opium
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5
 		x = 1
 		y = 1
@@ -1697,7 +1697,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Gia_Lam_Airbase
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Airfields
 		cost = 5
 		x = 1
 		y = 1
@@ -1712,7 +1712,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Hanoi_Textiles
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5
 		x = -1
 		y = 1
@@ -1727,7 +1727,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Tonkin_Railway_Company
-		icon = GFX_goal_unknown
+		icon = GFX_Railway_Reconstruction
 		cost = 5
 		x = -2
 		y = 1
@@ -1740,7 +1740,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Vientiane_Tonkin_Railway
-		icon = GFX_goal_unknown
+		icon = GFX_Railway_Reconstruction
 		cost = 5
 		x = 1
 		y = 1
@@ -1753,7 +1753,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Pyrotechnic_Factories
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5
 		x = 1
 		y = 1
@@ -1768,7 +1768,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Resume_Foreign_Trade
-		icon = GFX_goal_unknown
+		icon = GFX_SWK_Resume_Oil_Trade
 		cost = 5
 		x = 2
 		y = 1
@@ -1780,7 +1780,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Import_Industrial_Tools
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 5
 		x = 2
 		y = 1
@@ -1793,7 +1793,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Dien_Bien_Phu_Fort
-		icon = GFX_goal_unknown
+		icon = GFX_The_Battle_of_Dien_Bien_Phu
 		cost = 5
 		x = -2
 		y = 1
@@ -1805,7 +1805,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Invest_Ethnostates
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 5
 		x = -2
 		y = 1
@@ -1820,7 +1820,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Modernize_Haiphong
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5
 		x = 0
 		y = 1
@@ -1832,7 +1832,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Invest_Saigon
-		icon = GFX_goal_unknown
+		icon = GFX_FRE_Coordinate_with_Saigon
 		cost = 5
 		x = 1
 		y = 1
@@ -1847,7 +1847,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Postwar_Reforms
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		cost = 5
 		x = -1
 		y = 1
@@ -1863,7 +1863,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_War_Loot_to_Metropole
-		icon = GFX_goal_unknown
+		icon = GFX_Tiger_Divisions
 		cost = 5
 		x = 1
 		y = 1
@@ -1879,7 +1879,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_End_of_the_War
-		icon = GFX_goal_unknown
+		icon = GFX_Officially_End_the_State_of_War_with_US
 		cost = 5
 		x = 1
 		y = 1

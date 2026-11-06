@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = BFR_The_Seccession
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -1488,7 +1488,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -1883,7 +1883,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BFR_Resign_Military_Commision
-		icon = GFX_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		search_filters = {
 			IC_FILTER
 		}

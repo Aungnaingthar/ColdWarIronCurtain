@@ -4391,7 +4391,7 @@ focus_tree = {
 		id = IND_A_National_Propaganda_Campaign
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_goal_IND_deal
 		search_filters = {
 			IC_FILTER
 		}

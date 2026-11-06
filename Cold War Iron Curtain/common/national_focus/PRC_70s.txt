@@ -3855,6 +3855,7 @@ focus_tree = {
 
 	focus = {
 		id = prc_70s_rehabilitate_HeLong
+		icon = GFX_PRC_prc_70s_rehabilitate_HeLong
 		#icon =
 
 		x = -2
@@ -3905,6 +3906,7 @@ focus_tree = {
 
 	focus = {
 		id = prc_70s_promote_new_faces_to_central_committee
+		icon = GFX_PRC_second_plenary_session_of_ninth_central_committee
 		#icon =
 
 		x = 0
@@ -3929,6 +3931,7 @@ focus_tree = {
 
 	focus = {
 		id = prc_70s_promote_veteran_cadres_to_central_committee
+		icon = GFX_PRC_promote_veteran
 		#icon =
 
 		x = 2
@@ -3980,6 +3983,7 @@ focus_tree = {
 
 	focus = {
 		id = prc_70s_against_sectarianism_within_party
+		icon = GFX_PRC_against_sectarianism
 		#icon =
 
 		x = 0
@@ -4008,6 +4012,7 @@ focus_tree = {
 
 	focus = {
 		id = prc_70s_block_the_conspiracy_of_GOF
+		icon = GFX_PRC_block_gof
 		#icon =
 
 		x = 0
@@ -4063,6 +4068,7 @@ focus_tree = {
 
 	focus = {
 		id = prc_70s_keeping_PLA_members_out_of_politics
+		icon = GFX_PRC_keeping_pla_out
 		#icon =
 
 		x = -2
@@ -4086,6 +4092,7 @@ focus_tree = {
 
 	focus = {
 		id = prc_70s_continue_four_modernizations
+		icon = GFX_PRC_con_four_modernizations
 		#icon =
 
 		x = 0
@@ -4108,6 +4115,7 @@ focus_tree = {
 
 	focus = {
 		id = prc_70s_focusing_on_intra-party_discipline
+		icon = GFX_PRC_The_criticize_of_Chen_and_focus_on_intra_party_discipline_campaign
 		#icon =
 
 		x = 2
@@ -4130,6 +4138,7 @@ focus_tree = {
 
 	focus = {
 		id = prc_70s_restructuring_the_national_railway_system
+		icon = GFX_PRC_restructuring_the_railway
 		#icon =
 
 		x = 4
@@ -4159,6 +4168,7 @@ focus_tree = {
 
 	focus = {
 		id = prc_70s_national_symposium_on_steel_industry
+		icon = GFX_PRC_national_symposium_on_steel_industry
 		#icon =
 
 		x = -4
@@ -4193,6 +4203,7 @@ focus_tree = {
 
 	focus = {
 		id = prc_70s_20-article_regulations_for_industry_rejected
+		icon = GFX_PRC_rual_economic_mangement_reform_rejected
 		#icon =
 
 		x = -2
@@ -4247,6 +4258,7 @@ focus_tree = {
 
 	focus = {
 		id = prc_70s_20-article_regulations_for_industry_adopted
+		icon = GFX_PRC_rual_economic_mangement_reform_adopted
 		#icon =
 
 		x = 2
@@ -4300,6 +4312,7 @@ focus_tree = {
 	}
 	focus = {
 		id = prc_70s_rual_economic_mangement_reform_rejected
+		icon = GFX_PRC_rual_economic_mangement_reform_rejected
 		#icon =
 
 		x = -2
@@ -4354,6 +4367,7 @@ focus_tree = {
 	}
 	focus = {
 		id = prc_70s_rual_economic_mangement_reform_adopted
+		icon = GFX_PRC_rual_economic_mangement_reform_adopted
 		#icon =
 
 		x = 2
@@ -4408,6 +4422,7 @@ focus_tree = {
 	}
 	focus = {
 		id = luzonggang_published
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		#icon =
 
 		x = -1
@@ -4463,6 +4478,7 @@ focus_tree = {
 	}
 	focus = {
 		id = luzonggang_unpublished
+		icon = GFX_generic_focus_politics_press_statement
 		#icon =
 
 		x = 1
@@ -4517,6 +4533,7 @@ focus_tree = {
 	}
 	focus = {
 		id = criticize_deng_counterattack_the_right_deviationist_reversal_of_verdicts_trend
+		icon = GFX_PRC_criticize_deng_counterattack_the_right_deviationist_reversal_of_verdicts_trend
 		#icon =
 
 		x = 0
@@ -4579,6 +4596,7 @@ focus_tree = {
 	}
 	focus = {
 		id = withdrawal_of_manuscript_about_accusing_dengxiaoping
+		icon = GFX_PRC_withdrawal_of_manuscript_about_accusing_dengxiaoping
 		#icon =
 
 		x = -2
@@ -4632,6 +4650,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ignoring_wenhuibao_s_personal_attack
+		icon = GFX_PRC_ignoring_wenhuibao_s_personal_attack
 		#icon =
 
 		x = 2
@@ -4684,6 +4703,7 @@ focus_tree = {
 	}
 	focus = {
 		id = establishing_huaguofeng_s_leadership
+		icon = GFX_PRC_establishing_huaguofeng_s_leadership
 		#icon =
 
 		x = 0
@@ -4734,7 +4754,7 @@ focus_tree = {
 	}
 	focus = {
 		id = tangshan_earthquake
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_tangshan_earthquake
 		cost = 0.00
 		x = 0
 		y = 14
@@ -4744,7 +4764,7 @@ focus_tree = {
 	}
 	focus = {
 		id = request_for_international_aid
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_request_for_international_aid
 		cost = 0.00
 		prerequisite = {
 			focus = tangshan_earthquake
@@ -4758,7 +4778,7 @@ focus_tree = {
 }
 	focus = {
 		id = send_relief_to_the_victims_ourselves
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_send_relief_to_the_victims_ourselves
 		cost = 0.00
 		prerequisite = {
 			focus = tangshan_earthquake
@@ -4772,7 +4792,7 @@ focus_tree = {
 	}
     focus = {
 		id = send_PLA_troops_for_earthquake_relief
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_send_PLA_troops_for_earthquake_relief
 		cost = 0.00
 		prerequisite = {
 			focus = request_for_international_aid
@@ -4784,7 +4804,7 @@ focus_tree = {
 	}
     focus = {
 		id = reconstruction_of_tangshan
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_reconstruction_of_tangshan
 		cost = 0.00
 		prerequisite = {
 			focus = send_PLA_troops_for_earthquake_relief
@@ -4795,7 +4815,7 @@ focus_tree = {
 	}
 	focus = {
 		id = reconstruction_of_the_beijing_shanhaiguan_rairoad
-		icon = GFX_goal_unknown
+		icon = GFX_PRC_reconstruction_of_the_beijing_shanhaiguan_rairoad
 		cost = 0.00
 		prerequisite = {
 			focus = reconstruction_of_tangshan

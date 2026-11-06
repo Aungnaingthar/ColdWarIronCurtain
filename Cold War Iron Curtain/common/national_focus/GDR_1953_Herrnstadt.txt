@@ -14,7 +14,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = GDR_First_Secretary_Herrnstadt
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 7
 		y = 0
@@ -32,7 +32,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Exorcise_the_Spectre_of_the_Construction_of_Socialism
-		icon = GFX_goal_unknown
+		icon = GFX_Exorcise_the_Spectre_of_the_Construction_of_Socialism
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_First_Secretary_Herrnstadt
@@ -53,7 +53,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_The_New_Reconstruction_Plan
-		icon = GFX_goal_unknown
+		icon = GFX_The_New_Reconstruction_Plan
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Exorcise_the_Spectre_of_the_Construction_of_Socialism
@@ -74,7 +74,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Modernize_Rail_Connections
-		icon = GFX_goal_unknown
+		icon = GFX_Modernize_Rail_Connections
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_New_Reconstruction_Plan
@@ -105,7 +105,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Address_the_Economic_Causes_of_Republikflucht
-		icon = GFX_goal_unknown
+		icon = GFX_Address_the_Economic_Causes_of_Republikflucht
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Modernize_Rail_Connections
@@ -125,7 +125,7 @@ focus_tree = {
 	}			
 	focus = {
 		id = GDR_Soviet_Food_Aid
-		icon = GFX_goal_unknown
+		icon = GFX_Soviet_Food_Aid
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_New_Reconstruction_Plan
@@ -148,7 +148,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Ensure_Delivery_of_Raw_Materials
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_agriculture_grain_delivery
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Soviet_Food_Aid
@@ -171,7 +171,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Integrate_into_the_Eastern_Market
-		icon = GFX_goal_unknown
+		icon = GFX_integrate_the_black_market
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Ensure_Delivery_of_Raw_Materials
@@ -199,7 +199,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Restore_Social_Services
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Restore_the_Power_of_the_Stasi
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Integrate_into_the_Eastern_Market
@@ -220,7 +220,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reverse_Work_Quota_Increases
-		icon = GFX_goal_unknown
+		icon = GFX_Reverse_Work_Quota_Policy
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Exorcise_the_Spectre_of_the_Construction_of_Socialism
@@ -241,7 +241,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reform_the_Legal_System
-		icon = GFX_goal_unknown
+		icon = GFX_Reform_the_Legal_System
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Reverse_Work_Quota_Increases
@@ -262,7 +262,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_H_The_Cult_of_the_Spanish_Civil_War
-		icon = GFX_goal_unknown
+		icon = GFX_Cult_of_Spanish_Civil_War
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Reform_the_Legal_System
@@ -287,7 +287,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Focus_on_the_Unified_Deutschemark_Zone_Proposal
-		icon = GFX_goal_unknown
+		icon = GFX_Focus_on_the_Unified_Deutschemark_Proposal
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_H_The_Cult_of_the_Spanish_Civil_War
@@ -319,7 +319,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_The_New_Course
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_A_New_Course_for_the_SED
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Exorcise_the_Spectre_of_the_Construction_of_Socialism
@@ -341,7 +341,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Purge_the_Ulbricht_Group
-		icon = GFX_goal_unknown
+		icon = GFX_Purge_the_Ulbricht_Group
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_New_Course
@@ -363,7 +363,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Dismantle_the_Personality_Cult
-		icon = GFX_goal_unknown
+		icon = GFX_Dismantle_the_Personality_Cult_KPA
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Purge_the_Ulbricht_Group
@@ -386,7 +386,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reverse_Course_on_Clerical_Persecution
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_A_New_Course_for_the_SED
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_New_Course
@@ -413,7 +413,7 @@ focus_tree = {
 	}		
 	focus = {
 		id = GDR_Institute_Collective_Leadership
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Instate_Collective_Leadership
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Dismantle_the_Personality_Cult
@@ -439,7 +439,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reign_in_the_Stasi
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Reign_in_the_Worst_of_the_Stasi_Abuse
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Reverse_Course_on_Clerical_Persecution
@@ -459,7 +459,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Dissolve_the_Secretariat
-		icon = GFX_goal_unknown
+		icon = GFX_Dissolve_the_Secretariat
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Institute_Collective_Leadership
@@ -483,7 +483,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Apply_to_Join_the_ECSC
-		icon = GFX_goal_unknown
+		icon = GFX_Apply_to_ECSC
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_H_The_Cult_of_the_Spanish_Civil_War
@@ -514,7 +514,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Bridging_the_Divide
-		icon = GFX_goal_unknown
+		icon = GFX_Bridging_the_Divide
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Apply_to_Join_the_ECSC

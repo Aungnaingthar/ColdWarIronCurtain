@@ -50,7 +50,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE76_Push_for_Clean_Power
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_goal_oil_derrick
 		search_filters = {
 			IC_FILTER
 		}
@@ -115,7 +115,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE76_Establish_the_Department_of_Energy
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp80_japan_united_states_energy_cooperation
 		search_filters = {
 			IC_FILTER
 		}
@@ -178,7 +178,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE76_The_American_Disabilities_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_American_with_Disability_act
 		search_filters = {
 			IC_FILTER
 		}
@@ -466,7 +466,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE76_CERCLA_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}

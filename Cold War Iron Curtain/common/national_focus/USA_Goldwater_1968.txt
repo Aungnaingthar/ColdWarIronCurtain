@@ -103,7 +103,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER68_Restrict_Bussing_Programs
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa80_restrict_aid_to_barres_government
 		search_filters = {
 			IC_FILTER
 		}
@@ -427,7 +427,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER68_Consumer_Product_Safety_Act
 		text_icon = USA_focus_style
-		icon = GFX_unknown
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}

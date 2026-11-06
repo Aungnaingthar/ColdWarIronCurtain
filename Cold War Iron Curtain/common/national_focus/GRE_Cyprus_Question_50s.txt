@@ -81,7 +81,7 @@ shared_focus = {
 
 shared_focus = {
 	id = GRE_cyp_antartiko
-	icon = GFX_unknown
+	icon = GFX_generic_focus_politics_press_statement
 	search_filters = {
 		IC_FILTER
 	}

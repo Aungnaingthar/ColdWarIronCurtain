@@ -6,7 +6,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = Revamp_Economic_Policy_After_Sugar_Crisis
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10.00
 		x = 16
 		y = 0
@@ -21,7 +21,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Reform_Continuation
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		x = 45
 		y = 1
@@ -31,7 +31,7 @@ completion_reward = {
 }
 	focus = {
 		id = Impose_Populist_Doctrine
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		x = 58
 		y = 1
@@ -44,7 +44,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Begin_Massive_Building_Projects
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_begin_project_mockingbird
 		cost = 10.00
 		x = 68
 		y = 1
@@ -54,7 +54,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Balaguer_Foriegn_Strategy
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 13
 		y = 7
@@ -64,7 +64,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Dominican_1978_Elections
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		x = 63
 		y = 5
@@ -74,7 +74,7 @@ available = {
 	}
 	focus = {
 		id = Promote_A_Dominican_Paradise
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Revamp_Economic_Policy_After_Sugar_Crisis
@@ -92,7 +92,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Build_Highway_DR-3
-		icon = GFX_goal_unknown
+		icon = GFX_Railway_Reconstruction
 		cost = 10.00
 		prerequisite = {
 			focus = Promote_A_Dominican_Paradise
@@ -118,7 +118,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Make_La_Romana_Port_A_Tourtist_Hub
-		icon = GFX_goal_unknown
+		icon = GFX_Make_Antwerp_a_Large_European_Trade_Hub
 		cost = 10.00
 		prerequisite = {
 			focus = Build_Highway_DR-3
@@ -143,7 +143,7 @@ custom_effect_tooltip = Minor_Tourism_Boost_TT
 	}
 	focus = {
 		id = Beacon_of_Democracy
-		icon = GFX_goal_unknown
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = Balaguer_Foriegn_Strategy
@@ -162,7 +162,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Anti-revolution_Methods
-		icon = GFX_goal_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 10.00
 		prerequisite = {
 			focus = Beacon_of_Democracy
@@ -175,7 +175,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Anti_Communist_Guerilla_Operations
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_anti_communist_pact
 		cost = 10.00
 		prerequisite = {
 			focus = Anti-revolution_Methods
@@ -188,7 +188,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Tourism_Incentives
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = Promote_A_Dominican_Paradise
@@ -213,7 +213,7 @@ custom_effect_tooltip = Minor_Tourism_Boost_TT
 	}
 	focus = {
 		id = Repurpose_The_Colonial_Quarter
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = Tourism_Incentives
@@ -231,7 +231,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Subsidize_New_Resorts
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Make_La_Romana_Port_A_Tourtist_Hub
@@ -258,7 +258,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Approach_USA
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = Beacon_of_Democracy
@@ -271,7 +271,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Strengthen_Latin_American_Relations
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp84_latin_american_affairs
 		cost = 10.00
 		prerequisite = {
 			focus = Approach_USA
@@ -284,7 +284,7 @@ completion_reward = {
 	}
 	focus = {
 		id = New_Electricity_For_A_New_Economy
-		icon = GFX_goal_unknown
+		icon = GFX_1st_Electric_Program
 		cost = 10.00
 		prerequisite = {
 			focus = Tourism_Incentives
@@ -304,7 +304,7 @@ completion_reward = {
 	}
 	focus = {
 		id = American_Expertise
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = Repurpose_The_Colonial_Quarter
@@ -327,7 +327,7 @@ set_temp_variable = { percent_change = 15 }
 }
 	focus = {
 		id = Unite_Factions_For_Stability
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Subsidize_New_Resorts
@@ -343,7 +343,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Cold_Head_Doctrine
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Balaguer_Foriegn_Strategy
@@ -361,7 +361,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Import_Spanish_Goods
-		icon = GFX_goal_unknown
+		icon = GFX_EmphaziseImportOfProductionGoods
 		cost = 10.00
 		prerequisite = {
 			focus = Cold_Head_Doctrine
@@ -381,7 +381,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Reinforce_European_Relations
-		icon = GFX_goal_unknown
+		icon = GFX_European_Relations
 		cost = 10.00
 		prerequisite = {
 			focus = Import_Spanish_Goods
@@ -394,7 +394,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Wean_Off_Sugar_Dependency
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = Revamp_Economic_Policy_After_Sugar_Crisis
@@ -416,7 +416,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Domestic_Economic_Focus
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = Wean_Off_Sugar_Dependency
@@ -432,7 +432,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Expand_La_Romana_Free_Trade_Zone
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = Domestic_Economic_Focus
@@ -452,7 +452,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Inject_Public_Money_Into_Companies
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = Domestic_Economic_Focus
@@ -472,7 +472,7 @@ add_timed_idea = {
 	}
 	focus = {
 		id = Approach_American_Investors
-		icon = GFX_goal_unknown
+		icon = GFX_Encourage_American_Investors
 		cost = 10.00
 		prerequisite = {
 			focus = Expand_La_Romana_Free_Trade_Zone
@@ -494,7 +494,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Detente_With_Cuba
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Cold_Head_Doctrine
@@ -518,7 +518,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Open_USSR_Relations
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 10.00
 		prerequisite = {
 			focus = Detente_With_Cuba
@@ -542,7 +542,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Embrace_Detente
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Reinforce_European_Relations
@@ -583,7 +583,7 @@ DOM = {
 	}
 	focus = {
 		id = Push_For_A_Friendly_Economy
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = Wean_Off_Sugar_Dependency
@@ -599,7 +599,7 @@ DOM = {
 	}
 	focus = {
 		id = Distribute_Land_To_Supporters
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Push_For_A_Friendly_Economy
@@ -619,7 +619,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Invite_Latin_American_Landowners
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp84_latin_american_affairs
 		cost = 10.00
 		prerequisite = {
 			focus = Push_For_A_Friendly_Economy
@@ -636,7 +636,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Approach_European_Investment
-		icon = GFX_goal_unknown
+		icon = GFX_Prepare_an_inter_European_investment_plan
 		cost = 10.00
 		prerequisite = {
 			focus = Distribute_Land_To_Supporters
@@ -653,7 +653,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Additional_Dam_Projects
-		icon = GFX_goal_unknown
+		icon = GFX_Hydroelectric_Dam_Development
 		cost = 10.00
 		prerequisite = {
 			focus = Approach_American_Investors
@@ -706,7 +706,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Regional_Red_Commitees
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Reform_Continuation
@@ -719,7 +719,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Ensure_Catholic_Church_Support
-		icon = GFX_goal_unknown
+		icon = GFX_Religous_Unity
 		cost = 10.00
 		prerequisite = {
 			focus = Regional_Red_Commitees
@@ -738,7 +738,7 @@ completion_reward = {
 }
 	focus = {
 		id = Secure_Rural_Loyalties
-		icon = GFX_goal_unknown
+		icon = GFX_MEN_50s_Secure_Local_Loyalties
 		cost = 10.00
 		prerequisite = {
 			focus = Reform_Continuation
@@ -756,7 +756,7 @@ completion_reward = {
 }
 	focus = {
 		id = Increase_Loyalist_Benefits
-		icon = GFX_goal_unknown
+		icon = GFX_POR_Benefit_from_Central_African_Production_Increases
 		cost = 10.00
 		prerequisite = {
 			focus = Secure_Rural_Loyalties
@@ -775,7 +775,7 @@ completion_reward = {
 }
 	focus = {
 		id = Discredit_Right_Wing_Alternatives
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Reform_Continuation
@@ -788,7 +788,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Harass_Santiago_Accord_Coalitiion
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = Discredit_Right_Wing_Alternatives
@@ -807,7 +807,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Expand_Executive_Powers
-		icon = GFX_goal_unknown
+		icon = GFX_expand_legal_power
 		cost = 10.00
 		prerequisite = {
 			focus = Ensure_Catholic_Church_Support
@@ -826,7 +826,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Strengthen_Grip_On_Government
-		icon = GFX_goal_unknown
+		icon = GFX_Strengthen_Grip_Over_Cliques
 		cost = 10.00
 		prerequisite = {
 			focus = Expand_Executive_Powers
@@ -839,7 +839,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Pack_The_Supreme_Court
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_court_of_law
 		cost = 10.00
 		prerequisite = {
 			focus = Expand_Executive_Powers
@@ -855,7 +855,7 @@ completion_reward = {
 }
 	focus = {
 		id = Build_Rural_Clinics
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = Impose_Populist_Doctrine
@@ -868,7 +868,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Balaguer_78
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Dominican_1978_Elections
@@ -881,7 +881,7 @@ available = {
 	}
 	focus = {
 		id = Unify_Military_Factions
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = Balaguer_78
@@ -899,7 +899,7 @@ set_variable = { THIS.idea_len_@token:military_boost_general = 750 }
 	}
 	focus = {
 		id = Exploit_Dominican_Frontier
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Unify_Military_Factions
@@ -919,7 +919,7 @@ set_variable = { THIS.idea_len_@token:military_boost_general = 750 }
 	}
 	focus = {
 		id = Expand_Santo_Domingo
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Impose_Populist_Doctrine
@@ -942,7 +942,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Establish_Government_Pensions
-		icon = GFX_goal_unknown
+		icon = GFX_SOVw_Establish_Communist_Governments_in_Liberated_Territory
 		cost = 10.00
 		prerequisite = {
 			focus = Impose_Populist_Doctrine
@@ -957,7 +957,7 @@ completion_reward = {
 }
 	focus = {
 		id = Increase_Capital_City_Relevance
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Build_Rural_Clinics
@@ -978,7 +978,7 @@ completion_reward = {
 }
 	focus = {
 		id = Facilatate_Automony_of_JCE
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = Increase_Capital_City_Relevance
@@ -993,7 +993,7 @@ completion_reward = {
 }
 	focus = {
 		id = Fight_The_National_Congress
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_National_Congress
 		cost = 10.00
 		prerequisite = {
 			focus = Balaguer_78
@@ -1006,7 +1006,7 @@ completion_reward = {
 	}
 	focus = {
 		id = End_Sugar_Dependence
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Fight_The_National_Congress
@@ -1033,7 +1033,7 @@ completion_reward = {
 }
 	focus = {
 		id = Support_USA_Outreach_Treaties
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = End_Sugar_Dependence
@@ -1055,7 +1055,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Jardines_del_Norte_Housing_Projects
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Begin_Massive_Building_Projects
@@ -1070,7 +1070,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Antonio_Guzman_78
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = Dominican_1978_Elections
@@ -1083,7 +1083,7 @@ available = {
 	}
 	focus = {
 		id = Reassign_Disloyal_Officers
-		icon = GFX_goal_unknown
+		icon = GFX_Purge_Disloyal_Officers_1
 		cost = 10.00
 		prerequisite = {
 			focus = Antonio_Guzman_78
@@ -1101,7 +1101,7 @@ completion_reward = {
 }
 	focus = {
 		id = Expand_JCE_Regulations
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = Reassign_Disloyal_Officers
@@ -1118,7 +1118,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Herrera_Housing
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Begin_Massive_Building_Projects
@@ -1133,7 +1133,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Reorganize_Banco_de_Reservas
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = Antonio_Guzman_78
@@ -1146,7 +1146,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Nationalize_Public_Transport
-		icon = GFX_goal_unknown
+		icon = GFX_Railway_Reconstruction
 		cost = 10.00
 		prerequisite = {
 			focus = Reorganize_Banco_de_Reservas
@@ -1165,7 +1165,7 @@ completion_reward = {
 	}
 	focus = {
 		id = International_Banking_Cooperation
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = Nationalize_Public_Transport
@@ -1181,7 +1181,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Cautious_Reforms
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = International_Banking_Cooperation
@@ -1197,7 +1197,7 @@ completion_reward = {
 		}
 	focus = {
 		id = Compromise_With_PR_For_Reform
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = International_Banking_Cooperation
@@ -1216,7 +1216,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Los_Tres_Ojos_Housing
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = Begin_Massive_Building_Projects
@@ -1229,7 +1229,7 @@ completion_reward = {
 	}
 	focus = {
 		id = Visit_USA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp80_a_state_visit_to_beijing
 		cost = 10.00
 		prerequisite = {
 			focus = Anti_Communist_Guerilla_Operations
@@ -1249,7 +1249,7 @@ completion_reward = {
 }
 	focus = {
 		id = Push_For_More_American_Aid
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_usa_american_aid_crates
 		cost = 10.00
 		prerequisite = {
 			focus = Visit_USA

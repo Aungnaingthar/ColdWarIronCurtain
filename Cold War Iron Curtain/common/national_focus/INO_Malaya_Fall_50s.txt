@@ -19,7 +19,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = INO_Choice_of_Century
-	icon = GFX_goal_unknown
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	cost = 1
 	prerequisite = {
 		focus = INO_The_Fall_of_Malaya

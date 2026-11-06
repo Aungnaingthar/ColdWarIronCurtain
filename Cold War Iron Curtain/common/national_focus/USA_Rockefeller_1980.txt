@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_ROCKEFELLER80_The_Rockefeller_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_RockefellerAdministration
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ROCKEFELLER80_Executive_Order_12333
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ROCKEFELLER80_The_Rockefeller_Administration
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ROCKEFELLER80_Legalize_Sodomy
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ROCKEFELLER80_The_Rockefeller_Administration
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ROCKEFELLER80_Higher_Education_Expansion_Act
-		icon = GFX_goal_unknown
+		icon = GFX_ExpandHigherEducation
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ROCKEFELLER80_The_Pure_Water_Act
@@ -112,7 +112,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ROCKEFELLER80_American_Farmland_Preservation_Act
-		icon = GFX_goal_unknown
+		icon = GFX_KOR_the_farmland_reform_act_of_1949
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ROCKEFELLER80_Higher_Education_Expansion_Act
@@ -144,7 +144,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ROCKEFELLER80_School_Breakfast_Funding_Act
-		icon = GFX_goal_unknown
+		icon = GFX_School_Lunch_Funding
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ROCKEFELLER80_Childcare_Funding_Act
@@ -197,7 +197,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ROCKEFELLER80_Garn_St_Germain_Depository_Institutions_Act
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ROCKEFELLER80_Expand_National_Parks
@@ -215,7 +215,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ROCKEFELLER80_Raise_the_Minimum_Wage
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_increase_the_minimum_wages_of_workers_and_employees
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ROCKEFELLER80_Garn_St_Germain_Depository_Institutions_Act
@@ -283,7 +283,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ROCKEFELLER80_Propose_Expanding_the_VRA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_50_expanding_nato
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ROCKEFELLER80_Garn_St_Germain_Depository_Institutions_Act
@@ -302,7 +302,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ROCKEFELLER80_Address_the_AIDS_Crisis
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ROCKEFELLER80_Propose_Expanding_the_VRA
@@ -321,7 +321,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ROCKEFELLER80_National_Minimum_Drinking_Age_Act
-		icon = GFX_goal_unknown
+		icon = GFX_National_Security_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ROCKEFELLER80_Address_the_AIDS_Crisis
@@ -337,7 +337,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ROCKEFELLER80_A_New_Republican_Party
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_launch_airstrikes_on_republican_guard_positions
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ROCKEFELLER80_Railroad_Nationalization_Act
@@ -355,7 +355,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ROCKEFELLER80_Codiffy_Abortion_Rights_and_Funding
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ROCKEFELLER80_American_Farmland_Preservation_Act

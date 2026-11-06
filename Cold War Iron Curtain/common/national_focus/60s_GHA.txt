@@ -219,7 +219,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GHA_60s_Ghana_First
-		icon = GFX_unknown
+		icon = GFX_focus_ghana
 		search_filters = {
 			IC_FILTER
 		}
@@ -1128,7 +1128,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GHA_60s_Repeal_the_1960_Constitution
-		icon = GFX_unknown
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -2279,7 +2279,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GHA_60s_Fight_for_Democracy
-		icon = GFX_unknown
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}

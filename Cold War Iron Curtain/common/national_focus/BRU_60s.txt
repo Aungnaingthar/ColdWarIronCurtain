@@ -11,6 +11,7 @@ focus_tree = {
 default = no
 	focus = {
 		id = BRU_Peoples_Revolution
+		icon = GFX_Socialist_Consolidation
 		available = {
 			always = no
 		}
@@ -27,6 +28,7 @@ default = no
 		}
 	focus = {
 		id = BRU_Sieze_British
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		available = {
 			
 		}
@@ -52,6 +54,7 @@ default = no
     }
     focus = {
 		id = BRU_Fortifying_Borders
+		icon = GFX_generic_focus_politics_press_statement
 		available = {
 			
 		}
@@ -77,6 +80,7 @@ default = no
 		}
 	focus = {
 		id = BRU_Foreign_Comrades
+		icon = GFX_generic_focus_politics_press_statement
 		available = {
 			
 		}
@@ -109,6 +113,7 @@ default = no
     }
 	focus = {
 		id = BRU_Recruit_Ex-soldiers
+		icon = GFX_FocusBorderTroops
 		available = {
 			
 		}
@@ -149,6 +154,7 @@ default = no
     }
     focus = {
 		id = BRU_Revolutionary_Regime
+		icon = GFX_Five_Year_Plan
 		available = {
 			
 		}
@@ -192,6 +198,7 @@ default = no
 		}
 	focus = {
 		id = BRU_Purge_British
+		icon = GFX_generic_focus_politics_press_statement
 		available = {
 			
 		}
@@ -219,6 +226,7 @@ default = no
     }
     focus = {
 		id = BRU_Raiding_British
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		available = {
 			
 		}
@@ -254,6 +262,7 @@ default = no
     }
     focus = {
     id = BRU_Elections
+    icon = GFX_goal_generic_parliament2
 		available = {
 			
 		}
@@ -274,6 +283,7 @@ default = no
     
 	focus = {
 		id = BRU_Malaya_Coup
+		icon = GFX_generic_focus_politics_press_statement
 		available = {
 			
 		}
@@ -301,6 +311,7 @@ default = no
     }
     focus = {
 		id = BRU_Barisan_Permuda
+		icon = GFX_generic_focus_politics_press_statement
 		available = {
 			
 		}
@@ -324,6 +335,7 @@ default = no
 	}
     focus = {
 		id = BRU_Parti_Rakyat
+		icon = GFX_generic_focus_politics_press_statement
 		available = {
 			
 		}
@@ -347,6 +359,7 @@ default = no
     }
     focus = {
 		id = BRU_Reunification_Mainland
+		icon = GFX_generic_focus_politics_press_statement
 		available = {
 			
 		}
@@ -364,6 +377,7 @@ default = no
     }
     focus = {
 		id = BRU_Reunification_Indonesia
+		icon = GFX_generic_focus_politics_press_statement
 		available = {
 			
 		}
@@ -381,6 +395,7 @@ default = no
     }
     focus = {
 		id = BRU_Unitary_State
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		available = {
 			
 		}

@@ -1865,7 +1865,7 @@ offset = { 	y = -1	trigger = {	tag = RAJ }	}
 	}
 	focus = {
 		id = IND_60s_Treaty_Of_Delhi #From end of war event chain, Indian victory
-		icon = GFX_unknown
+		icon = GFX_goal_IND_deal
 		cost = 10.00
 offset = { 	y = -1	trigger = {	tag = RAJ }	}
 		prerequisite = {
@@ -2454,7 +2454,7 @@ offset = { 	y = -1	trigger = {	tag = RAJ }	}
 	}
 	focus = {
 		id = IND_60s_Surrender_Of_Dhaka #Final result if Pakistan defeated
-		icon = GFX_unknown
+		icon = GFX_goal_IND_deal
 		cost = 10.00
 offset = { 	y = -1	trigger = {	tag = RAJ }	}
 		prerequisite = {
@@ -4196,7 +4196,7 @@ offset = { 	y = -5	trigger = {	tag = RAJ }	}
 	}
 	focus = {
 		id = IND_60s_Srikakulum_Unrest #Small event chain over this peasant uprising
-		icon = GFX_unknown
+		icon = GFX_goal_IND_deal
 		cost = 10.00
 offset = { 	y = -5	trigger = {	tag = RAJ }	}
 		prerequisite = {
@@ -5372,7 +5372,7 @@ offset = { 	y = -5	trigger = {	tag = RAJ }	}
 	}
 	focus = {
 		id = IND_60s_Nagaland_Unrest #Event chain on this movement
-		icon = GFX_goal_unknown
+		icon = GFX_goal_IND_deal
 		cost = 10.00
 offset = { 	y = -5	trigger = {	tag = RAJ }	}
 		prerequisite = {

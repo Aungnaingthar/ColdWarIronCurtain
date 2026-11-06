@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = GDR_The_Second_Five_Year_Plan
 	focus = {
 		id = GDR_First_Secretary_Ackerman
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		x = 7
 		y = 0
@@ -138,7 +138,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Investigate_the_Judiciary
-		icon = GFX_goal_unknown
+		icon = GFX_GDR_Investigate_the_National_Political_Outlook
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Quelling_the_National_Unrest

@@ -2136,7 +2136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_Strengthen_the_Hungarian_Socialist_Workers_Party
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_Socialist_Party
 		search_filters = {
 			IC_FILTER
 		}
@@ -2229,7 +2229,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HUN_Execute_Nagy
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}

@@ -34,7 +34,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QAT_The_Resignation_of_the_Sheikh
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -47,7 +47,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QAT_The_Qatar_Public_Security_Forces
-		icon = GFX_goal_unknown
+		icon = GFX_Appoint_Gerardo_Quiros_as_Minister_of_Public_Security
 		search_filters = {
 			IC_FILTER
 		}
@@ -678,7 +678,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QAT_Sheikh_Ali_bin_Abdullah_Al_Thani
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -821,7 +821,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QAT_Desalination_Investments
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Heavy_Industry
 		search_filters = {
 			IC_FILTER
 		}
@@ -1055,7 +1055,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QAT_The_Qatar_Public_Security_Forces_Air_Wing
-		icon = GFX_goal_unknown
+		icon = GFX_Appoint_Gerardo_Quiros_as_Minister_of_Public_Security
 		search_filters = {
 			IC_FILTER
 		}
@@ -1294,7 +1294,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QAT_Acquire_Hawker_Hunters
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -1362,7 +1362,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QAT_The_Qatar_Public_Security_Land_Force
-		icon = GFX_goal_unknown
+		icon = GFX_Appoint_Gerardo_Quiros_as_Minister_of_Public_Security
 		search_filters = {
 			IC_FILTER
 		}
@@ -1461,7 +1461,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QAT_The_Qatar_Public_Services_Naval_Defenses
-		icon = GFX_goal_unknown
+		icon = GFX_Prioritize_Naval_Defense
 		search_filters = {
 			IC_FILTER
 		}
@@ -1564,7 +1564,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QAT_Offer_Teachers_to_the_Trucial_States
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -1962,7 +1962,7 @@ focus_tree = {
 		id = QAT_British_Rejection
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_generic_focus_diplomacy_un_rejection
 		search_filters = {
 			IC_FILTER
 		}

@@ -2463,6 +2463,7 @@ focus_tree = {
 
 	focus = {
 		id = CHI_reject_evacuation_efforts_of_dachen
+		icon = GFX_generic_focus_politics_press_statement
 		completion_reward = {
 			custom_effect_tooltip = keep_dachen_islands_tt
 			hidden_effect = {

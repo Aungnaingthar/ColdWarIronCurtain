@@ -723,7 +723,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DOM_Antihatianismo
-		icon = GFX_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = DOM_Rally_Dominican_Nationalism

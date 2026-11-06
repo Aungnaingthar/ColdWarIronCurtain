@@ -15,7 +15,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_LANDGREBE84_The_Landgrebe_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_earl_landgrebe
 		cost = 10.00
 		x = 5
 		y = 0
@@ -27,7 +27,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Consolidated_Omnibus_Reconciliation_Act_of_1985
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_omnibus_medical_research_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_The_Landgrebe_Administration
@@ -43,7 +43,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Amend_the_Gun_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_focus_gun_control
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Consolidated_Omnibus_Reconciliation_Act_of_1985
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Seek_a_Compromise_on_the_Farm_Crisis
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_earl_landgrebe
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_The_Landgrebe_Administration
@@ -75,7 +75,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_The_Balanced_Budget_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_earl_landgrebe
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Seek_a_Compromise_on_the_Farm_Crisis
@@ -94,7 +94,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Goldwater_Nichols_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_earl_landgrebe
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_The_Balanced_Budget_Act
@@ -113,7 +113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Anti_Drug_Abuse_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_earl_landgrebe
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Goldwater_Nichols_Act
@@ -129,7 +129,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Repeal_OSHA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_earl_landgrebe
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Seek_a_Compromise_on_the_Farm_Crisis
@@ -144,7 +144,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_The_Surgeon_Generals_Report
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_earl_landgrebe
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Repeal_OSHA
@@ -161,7 +161,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Veto_the_Comprehensive_Anti_Apartheid_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_safeguard_anti_apartheid_movement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_The_Surgeon_Generals_Report
@@ -183,7 +183,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Immigration_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_earl_landgrebe
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_The_Surgeon_Generals_Report
@@ -199,7 +199,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Tax_Reform_Act_of_1986
-		icon = GFX_goal_unknown
+		icon = GFX_Corporate_Tax_Adjustment_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Veto_the_Comprehensive_Anti_Apartheid_Act
@@ -218,7 +218,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Propose_Executing_Drug_Dealers
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_earl_landgrebe
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Tax_Reform_Act_of_1986
@@ -232,7 +232,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Establish_the_Working_Group_on_Financial_Markets
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_Combat_Groups_of_the_Working_Class
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Computer_Security_Act
@@ -248,7 +248,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Establish_the_Department_of_Veterans_Affairs
-		icon = GFX_goal_unknown
+		icon = GFX_focus_USA_veteran_initiative
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Veto_the_Civil_Rights_Restoration_Act
@@ -265,7 +265,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Computer_Security_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Computer_Security_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Electronics_Communications_Privacy_Act
@@ -284,7 +284,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Electronics_Communications_Privacy_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Electronic_Industry_Subsidies_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Tax_Reform_Act_of_1986
@@ -303,7 +303,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Gramm_Rudman_Hollings_Balanced_Budget_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_earl_landgrebe
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Electronics_Communications_Privacy_Act
@@ -322,7 +322,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Appoint_Alan_Greenspan_as_Federal_Reserve_Chairman
-		icon = GFX_goal_unknown
+		icon = GFX_Appoint_Hans_Speidel_as_Chairman
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Gramm_Rudman_Hollings_Balanced_Budget_Act
@@ -342,7 +342,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Family_Support_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_earl_landgrebe
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Appoint_Alan_Greenspan_as_Federal_Reserve_Chairman
@@ -361,7 +361,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE84_Veto_the_Civil_Rights_Restoration_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE84_Anti_Drug_Abuse_Act

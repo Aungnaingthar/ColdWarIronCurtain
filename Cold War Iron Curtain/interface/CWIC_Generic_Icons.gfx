@@ -1759,12 +1759,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_generic_focus_military_placeholder"
-		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		texturefile = "gfx/interface/goals/USA_1980s/July/usa_80_modernize_perus_military.png"
 	}
 
 	SpriteType = {
 		name = "GFX_generic_focus_politics_placeholder"
-		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		texturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_court_of_law.png"
 	}
 
 	SpriteType = {

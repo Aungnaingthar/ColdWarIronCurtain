@@ -1,0 +1,87 @@
+# Focus icons that focus trees use but no file defined. Each points at an existing picture.
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_"
+		texturefile = "gfx/interface/goals/NGA_FoundingOfTheRepublic.dds"
+	}
+	SpriteType = {
+		name = "GFX_100200"
+		texturefile = "gfx/interface/goals/SAU_foreign_loans.dds"
+	}
+	SpriteType = {
+		name = "GFX_Alnnabi_mosque000"
+		texturefile = "gfx/interface/goals/SAU_foreign_loans.dds"
+	}
+	SpriteType = {
+		name = "GFX_BND"
+		texturefile = "gfx/interface/goals/WGR/Federal_Intelligence_Service.png"
+	}
+	SpriteType = {
+		name = "GFX_ETR_Anti-west"
+		texturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_paperwork_and_telephone.png"
+	}
+	SpriteType = {
+		name = "GFX_ETR_People"
+		texturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_paperwork_and_telephone.png"
+	}
+	SpriteType = {
+		name = "GFX_GDR_Undoing_the_Damage"
+		texturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_damage_control.png"
+	}
+	SpriteType = {
+		name = "GFX_GFX_soviet_culture"
+		texturefile = "gfx/interface/goals/USA_1950s_Expansion/Age of freedom.png"
+	}
+	SpriteType = {
+		name = "GFX_JAP"
+		texturefile = "gfx/interface/goals/Japan/Establish Diplomatic_Relations_with_Eastern_Europe.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_50s_Complete_Rural_Co-operative"
+		texturefile = "gfx/interface/goals/PRC_49_60/PRC_50s_Complete_Rural_Co-operation.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_Strengthen_inter-unit_cadre_activities"
+		texturefile = "gfx/interface/goals/PRC_49_60/PRC_50s_Send_Cadre_to_labour_at_The_Grass_Roots_Units.png"
+	}
+	SpriteType = {
+		name = "GFX_Paper_Two"
+		texturefile = "gfx/interface/goals/SAF_Bantu_Homelands_Development_Corporations.png"
+	}
+	SpriteType = {
+		name = "GFX_SaudiArmed_Force"
+		texturefile = "gfx/interface/goals/MAL/MAL_armed_forces_army.png"
+	}
+	SpriteType = {
+		name = "GFX_Tribal_Vietminh_Hunts"
+		texturefile = "gfx/interface/goals/FUL/Tribal_Vietminh_Hunts.png"
+	}
+	SpriteType = {
+		name = "GFX_WGR_The_Oder_Nei"
+		texturefile = "gfx/interface/goals/WGR/WGR_Appease_CDU.dds"
+	}
+	SpriteType = {
+		name = "GFX_fist"
+		texturefile = "gfx/interface/goals/generic/production/generic_focus_production_fist_and_wrench.png"
+	}
+	SpriteType = {
+		name = "GFX_intelligence_agency_logo_hun"
+		texturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_court_of_law.png"
+	}
+	SpriteType = {
+		name = "GFX_left_wing_state_police"
+		texturefile = "gfx/interface/goals/left_wing_state_police.dds"
+	}
+	SpriteType = {
+		name = "GFX_new_airforce"
+		texturefile = "gfx/interface/goals/INO/INO_Air_Force.png"
+	}
+	SpriteType = {
+		name = "GFX_purge"
+		texturefile = "gfx/interface/goals/EGY/Recruit_Former_Wehrmacht_Officers.png"
+	}
+	SpriteType = {
+		name = "GFX_soviet_culture"
+		texturefile = "gfx/interface/goals/Force_Left_wing_party_mergers.dds"
+	}
+}

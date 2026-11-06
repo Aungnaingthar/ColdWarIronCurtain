@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_LUCEY88_The_Lucey_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_patrick_lucey
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Re_Negotiate_Japanese_Trade_Deals
-		icon = GFX_goal_unknown
+		icon = GFX_ESCS_trade_Deals
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_The_Lucey_Administration
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Community_Development_Banking_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_fp88_call_on_the_international_community
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Re_Negotiate_Japanese_Trade_Deals
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_The_Americans_with_Disability_Act
-		icon = GFX_goal_unknown
+		icon = GFX_American_with_Disability_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_The_Lucey_Administration
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Establish_the_Economic_Security_Council
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_patrick_lucey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_The_Americans_with_Disability_Act
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Oil_Pollution_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Oil_Pollution_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Establish_the_Economic_Security_Council
@@ -111,7 +111,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Propose_Healthcare_Reform
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_propose_national_healthcare
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Oil_Pollution_Act
@@ -125,7 +125,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Ryan_White_CARE_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Ryan_White_CARE_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_The_Americans_with_Disability_Act
@@ -141,7 +141,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Biological_Weapons_Anti_Terrorism_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Biological_Weapons_Anti_Terrorism_Act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Ryan_White_CARE_Act
@@ -159,7 +159,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_EITC_Expansion_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_patrick_lucey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Oil_Pollution_Act
@@ -178,7 +178,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_The_Civil_Rights_Act_of_1990
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Biological_Weapons_Anti_Terrorism_Act
@@ -194,7 +194,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Judicial_Improvement_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Judicial_Improvement_Act_Trump
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_EITC_Expansion_Act
@@ -213,7 +213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Higher_Education_Funding_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_ExpandHigherEducation
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Judicial_Improvement_Act
@@ -232,7 +232,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_In_Defense_of_Liberalism
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_patrick_lucey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Sign_NAFTA
@@ -249,7 +249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Fast_Track_NAFTA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_patrick_lucey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Federal_Housing_Authority_Reform_Act
@@ -270,7 +270,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_High_Performance_Computing_and_Communication_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_patrick_lucey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Stack_the_NLRB
@@ -289,7 +289,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Stack_the_NLRB
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_patrick_lucey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Judicial_Improvement_Act
@@ -311,7 +311,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Weapons_of_Mass_Destruction_Control_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_patrick_lucey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Stack_the_NLRB
@@ -330,7 +330,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_National_Education_Standards_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_patrick_lucey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Weapons_of_Mass_Destruction_Control_Act
@@ -346,7 +346,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Sign_NAFTA
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_icon_patrick_lucey
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_High_Performance_Computing_and_Communication_Act
@@ -370,7 +370,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LUCEY88_Federal_Housing_Authority_Reform_Act
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_housing_act
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LUCEY88_Propose_Healthcare_Reform

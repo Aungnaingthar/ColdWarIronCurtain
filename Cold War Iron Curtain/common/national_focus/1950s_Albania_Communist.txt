@@ -1566,7 +1566,7 @@ focus_tree = {
 		id = ALB_The_Albanian_Subversion
 		completion_reward = {
 		}
-		icon = GFX_unknown
+		icon = GFX_usa_50_the_albanian_subversion
 		search_filters = {
 			IC_FILTER
 		}

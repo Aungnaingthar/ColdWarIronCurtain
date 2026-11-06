@@ -46,7 +46,7 @@ focus_tree = {
 	focus = {
 		id = USA_HUMPHREY72_Expand_Social_Security
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_social_security_act_50
 		search_filters = {
 			IC_FILTER
 		}
@@ -65,7 +65,7 @@ focus_tree = {
 	focus = {
 		id = USA_HUMPHREY72_Federal_Aid_Highway_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Begin_infrastructure_efforts
 		search_filters = {
 			IC_FILTER
 		}
@@ -153,7 +153,7 @@ focus_tree = {
 	focus = {
 		id = USA_HUMPHREY72_Endangered_Species_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}
@@ -174,7 +174,7 @@ focus_tree = {
 	focus = {
 		id = USA_HUMPHREY72_Disaster_Relieft_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_80_humanitarian_disaster
 		search_filters = {
 			IC_FILTER
 		}
@@ -198,7 +198,7 @@ focus_tree = {
 	focus = {
 		id = USA_HUMPHREY72_Federal_Fire_Prevention_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_The_Subversive_Activities_Prevention_Act
 		search_filters = {
 			IC_FILTER
 		}
@@ -312,7 +312,7 @@ focus_tree = {
 	focus = {
 		id = USA_HUMPHREY72_Increase_Enviromental_Regulations
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}
@@ -382,7 +382,7 @@ focus_tree = {
 	focus = {
 		id = USA_HUMPHREY72_Invest_in_Urban_Areas
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_SWK_Fortifying_Urban_Areas
 		search_filters = {
 			IC_FILTER
 		}
@@ -409,7 +409,7 @@ focus_tree = {
 	focus = {
 		id = USA_HUMPHREY72_Ratify_the_ERA
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}

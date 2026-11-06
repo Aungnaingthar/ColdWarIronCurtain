@@ -76,7 +76,7 @@ focus_tree = {
 	focus = {
 		id = USA_Humphrey64_Voting_Rights_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		search_filters = {
 			IC_FILTER
 		}
@@ -217,7 +217,7 @@ focus_tree = {
 	focus = {
 		id = USA_Humphrey64_Prosecute_the_Klan
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -240,7 +240,7 @@ focus_tree = {
 	focus = {
 		id = USA_Humphrey64_National_Park_Foundation_Act
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_usa_truman_national_science_foundation
 		search_filters = {
 			IC_FILTER
 		}
@@ -356,7 +356,7 @@ focus_tree = {
 	focus = {
 		id = USA_Humphrey64_Civil_Rights_Act_of_1968
 		text_icon = USA_focus_style
-		icon = GFX_goal_unknown
+		icon = GFX_Civil_Rights_Act_1991
 		search_filters = {
 			IC_FILTER
 		}
