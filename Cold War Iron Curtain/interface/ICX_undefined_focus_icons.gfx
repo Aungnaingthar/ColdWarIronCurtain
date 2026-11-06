@@ -2,7 +2,7 @@
 spriteTypes = {
 	SpriteType = {
 		name = "GFX_"
-		texturefile = "gfx/interface/goals/NGA_FoundingOfTheRepublic.dds"
+		texturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_paperwork_and_telephone.png"
 	}
 	SpriteType = {
 		name = "GFX_100200"
