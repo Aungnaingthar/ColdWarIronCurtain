@@ -1,0 +1,21 @@
+# Cabinet ministers and military staff for every nation (Iron Curtain removed the base-game advisor slots).
+idea_categories = {
+	cabinet = {
+		slot = economy_minister
+		slot = foreign_minister
+		slot = interior_minister
+		slot = defence_minister
+		cost = 100
+		removal_cost = 10
+		ledger = civilian
+	}
+	military_staff = {
+		slot = chief_of_army
+		slot = chief_of_air
+		slot = chief_of_navy
+		slot = military_theorist
+		cost = 100
+		removal_cost = 10
+		ledger = military
+	}
+}

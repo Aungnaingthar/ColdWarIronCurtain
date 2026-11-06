@@ -1,0 +1,38 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_BRM_adv_u_thant"
+		texturefile = "gfx/interface/advisors/BRM_expanded/BRM_adv_u_thant.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRM_adv_kyaw_nyein"
+		texturefile = "gfx/interface/advisors/BRM_expanded/BRM_adv_kyaw_nyein.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRM_adv_hla_myint"
+		texturefile = "gfx/interface/advisors/BRM_expanded/BRM_adv_hla_myint.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRM_adv_kodaw_hmaing"
+		texturefile = "gfx/interface/advisors/BRM_expanded/BRM_adv_kodaw_hmaing.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRM_adv_maung_maung"
+		texturefile = "gfx/interface/advisors/BRM_expanded/BRM_adv_maung_maung.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRM_adv_smith_dun"
+		texturefile = "gfx/interface/advisors/BRM_expanded/BRM_adv_smith_dun.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRM_adv_than_pe"
+		texturefile = "gfx/interface/advisors/BRM_expanded/BRM_adv_than_pe.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRM_adv_tommy_clift"
+		texturefile = "gfx/interface/advisors/BRM_expanded/BRM_adv_tommy_clift.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_BRM_adv_tin_pe"
+		texturefile = "gfx/interface/advisors/BRM_expanded/BRM_adv_tin_pe.dds"
+	}
+}
