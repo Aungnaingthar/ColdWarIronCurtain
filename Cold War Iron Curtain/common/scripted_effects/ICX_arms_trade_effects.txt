@@ -1,0 +1,87 @@
+# Iron Curtain records weapon-purchase money in global.<bloc>WPProfit but never paid it to anyone.
+# These effects pay it out every month to the countries whose industries made the weapons.
+ICX_pay_share = {
+	# temp vars: icx_pool, icx_share (0-1). Scope: the receiving country.
+	set_temp_variable = { icx_pay = icx_pool }
+	multiply_temp_variable = { icx_pay = icx_share }
+	add_to_variable = { currentMoney = icx_pay }
+	add_to_variable = { ICX_arms_royalties = icx_pay }
+	add_to_temp_variable = { icx_paid = icx_pay }
+}
+ICX_reset_royalty_display = {
+	every_country = { limit = { has_variable = ICX_arms_royalties } set_variable = { ICX_arms_royalties = 0 } }
+}
+ICX_pay_western_profits = {
+	# Western private manufacturers: USA 50%, Britain 20%, France 15%, West Germany 15%
+	if = {
+		limit = { check_variable = { global.CAPWPProfit > 0 } }
+		set_temp_variable = { icx_pool = global.CAPWPProfit }
+		set_temp_variable = { icx_paid = 0 }
+		if = { limit = { country_exists = ENG } ENG = { set_temp_variable = { icx_share = 0.20 } ICX_pay_share = yes } }
+		if = { limit = { country_exists = FRA } FRA = { set_temp_variable = { icx_share = 0.15 } ICX_pay_share = yes } }
+		if = { limit = { country_exists = WGR } WGR = { set_temp_variable = { icx_share = 0.15 } ICX_pay_share = yes } }
+		set_temp_variable = { icx_rest = icx_pool }
+		subtract_from_temp_variable = { icx_rest = icx_paid }
+		add_to_variable = { currentMoney = icx_rest }
+		add_to_variable = { ICX_arms_royalties = icx_rest }
+		set_variable = { global.CAPWPProfit = 0 }
+	}
+}
+ICX_pay_eastern_profits = {
+	# Eastern Bloc: USSR 70%, Czechoslovakia 30%
+	if = {
+		limit = { check_variable = { global.CUMWPProfit > 0 } }
+		set_temp_variable = { icx_pool = global.CUMWPProfit }
+		set_temp_variable = { icx_paid = 0 }
+		if = { limit = { country_exists = CZE } CZE = { set_temp_variable = { icx_share = 0.30 } ICX_pay_share = yes } }
+		set_temp_variable = { icx_rest = icx_pool }
+		subtract_from_temp_variable = { icx_rest = icx_paid }
+		add_to_variable = { currentMoney = icx_rest }
+		add_to_variable = { ICX_arms_royalties = icx_rest }
+		set_variable = { global.CUMWPProfit = 0 }
+	}
+}
+ICX_pay_chinese_profits = {
+	if = {
+		limit = { check_variable = { global.MAOWPProfit > 0 } }
+		add_to_variable = { currentMoney = global.MAOWPProfit }
+		add_to_variable = { ICX_arms_royalties = global.MAOWPProfit }
+		set_variable = { global.MAOWPProfit = 0 }
+	}
+}
+ICX_pay_independent_profits = {
+	# Independent manufacturers: shared equally by every other country with 20+ military factories
+	if = {
+		limit = { check_variable = { global.INDWPProfit > 0 } }
+		set_temp_variable = { icx_n = 0 }
+		every_country = {
+			limit = { num_of_military_factories > 19 NOT = { tag = USA tag = SOV tag = PRC } }
+			add_to_temp_variable = { icx_n = 1 }
+		}
+		if = {
+			limit = { check_variable = { icx_n > 0 } }
+			set_temp_variable = { icx_each = global.INDWPProfit }
+			divide_temp_variable = { icx_each = icx_n }
+			every_country = {
+				limit = { num_of_military_factories > 19 NOT = { tag = USA tag = SOV tag = PRC } }
+				add_to_variable = { currentMoney = icx_each }
+				add_to_variable = { ICX_arms_royalties = icx_each }
+			}
+			set_variable = { global.INDWPProfit = 0 }
+		}
+	}
+}
+# Government bonds and tourism (National Initiatives), checked every month for every country
+ICX_monthly_initiatives = {
+	if = {
+		limit = { has_variable = ICX_bond_owed }
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+		subtract_from_variable = { ICX_bond_owed = 0.05 }
+		if = { limit = { check_variable = { ICX_bond_owed < 0.001 } } clear_variable = ICX_bond_owed }
+	}
+	if = {
+		limit = { has_idea = ICX_tourism_campaign }
+		add_to_variable = { currentMoney = 0.02 }
+	}
+}

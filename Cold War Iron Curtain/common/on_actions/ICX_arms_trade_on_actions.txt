@@ -1,0 +1,12 @@
+on_actions = {
+	on_monthly_USA = {
+		effect = {
+			ICX_reset_royalty_display = yes
+			ICX_pay_western_profits = yes
+			ICX_pay_independent_profits = yes
+		}
+	}
+	on_monthly_SOV = { effect = { ICX_pay_eastern_profits = yes } }
+	on_monthly_PRC = { effect = { ICX_pay_chinese_profits = yes } }
+	on_monthly = { effect = { ICX_monthly_initiatives = yes } }
+}

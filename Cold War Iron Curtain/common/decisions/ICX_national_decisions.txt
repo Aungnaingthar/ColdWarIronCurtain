@@ -1,0 +1,95 @@
+ICX_national_category = {
+	ICX_public_works = {
+		icon = generic_construction
+		custom_cost_trigger = { check_variable = { currentMoney > 0.3 } }
+		custom_cost_text = ICX_cost_ICX_public_works
+		days_re_enable = 180
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.3 } cwic_change_money = yes
+			add_stability = 0.03
+			random_owned_controlled_state = { limit = { is_core_of = ROOT } add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
+		}
+		ai_will_do = { base = 0 modifier = { add = 1 has_stability < 0.4 check_variable = { currentMoney > 3 } } }
+	}
+	ICX_military_parade = {
+		icon = generic_army_support
+		cost = 25
+		days_re_enable = 180
+		complete_effect = { add_war_support = 0.03 add_stability = 0.01 }
+		ai_will_do = { base = 0 modifier = { add = 1 has_war_support < 0.3 } }
+	}
+	ICX_recruitment_drive = {
+		icon = generic_prepare_civil_war
+		cost = 30
+		days_re_enable = 120
+		complete_effect = { add_manpower = 15000 add_war_support = 0.01 }
+		ai_will_do = { base = 0 modifier = { add = 1 has_war = yes } }
+	}
+	ICX_anti_corruption = {
+		icon = generic_political_discourse
+		cost = 50
+		custom_cost_trigger = { check_variable = { currentMoney > 0.1 } }
+		custom_cost_text = ICX_cost_ICX_anti_corruption
+		days_re_enable = 730
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.1 } cwic_change_money = yes
+			add_timed_idea = { idea = ICX_anti_corruption_drive days = 365 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ICX_literacy = {
+		icon = generic_research
+		custom_cost_trigger = { check_variable = { currentMoney > 0.2 } }
+		custom_cost_text = ICX_cost_ICX_literacy
+		days_re_enable = 730
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 } cwic_change_money = yes
+			add_timed_idea = { idea = ICX_literacy_campaign days = 365 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ICX_tourism = {
+		icon = generic_money_bag
+		custom_cost_trigger = { check_variable = { currentMoney > 0.15 } }
+		custom_cost_text = ICX_cost_ICX_tourism
+		days_re_enable = 730
+		available = { has_war = no }
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.15 } cwic_change_money = yes
+			add_timed_idea = { idea = ICX_tourism_campaign days = 730 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ICX_bonds = {
+		icon = generic_money_bag
+		visible = { NOT = { has_variable = ICX_bond_owed } }
+		cost = 25
+		days_re_enable = 365
+		complete_effect = {
+			set_temp_variable = { money_change_temp = 1 } cwic_change_money = yes
+			set_variable = { ICX_bond_owed = 1.2 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ICX_privatise = {
+		icon = generic_money_bag
+		cost = 25
+		days_re_enable = 1825
+		complete_effect = {
+			set_temp_variable = { money_change_temp = 0.5 } cwic_change_money = yes
+			add_stability = -0.02
+		}
+		ai_will_do = { factor = 0 }
+	}
+	ICX_emergency_relief = {
+		icon = generic_civil_support
+		custom_cost_trigger = { check_variable = { currentMoney > 0.2 } }
+		custom_cost_text = ICX_cost_ICX_emergency_relief
+		days_re_enable = 365
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 } cwic_change_money = yes
+			add_stability = 0.04
+		}
+		ai_will_do = { base = 0 modifier = { add = 1 has_stability < 0.3 check_variable = { currentMoney > 2 } } }
+	}
+}

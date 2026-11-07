@@ -207,7 +207,7 @@ BRM_development_category = {
 
 BRM_finance_category = {
 	BRM_offer_loan = {
-		icon = generic_economy
+		icon = generic_money_bag
 		target_trigger = {
 			FROM = {
 			exists = yes
@@ -231,7 +231,7 @@ BRM_finance_category = {
 		ai_will_do = { factor = 0 }
 	}
 	BRM_request_loan = {
-		icon = generic_economy
+		icon = generic_money_bag
 		target_trigger = {
 			FROM = {
 			exists = yes
@@ -255,14 +255,14 @@ BRM_finance_category = {
 		ai_will_do = { factor = 0 }
 	}
 	BRM_loan_info_lent = {
-		icon = generic_economy
+		icon = generic_money_bag
 		target_trigger = { FROM = { has_variable = BRM_owed_to_burma } }
 		available = { always = no }
 		complete_effect = { }
 		ai_will_do = { factor = 0 }
 	}
 	BRM_loan_info_borrowed = {
-		icon = generic_economy
+		icon = generic_money_bag
 		target_trigger = { FROM = { has_variable = BRM_burma_owes } }
 		available = { always = no }
 		complete_effect = { }

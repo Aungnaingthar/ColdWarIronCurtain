@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		ICX_anti_corruption_drive = {
+			picture = Corruption_icon
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { political_power_gain = 0.10 stability_factor = 0.02 }
+		}
+		ICX_literacy_campaign = {
+			picture = CHI_educational_spending
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { research_speed_factor = 0.05 }
+		}
+		ICX_tourism_campaign = {
+			picture = Balkantourist
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = { stability_factor = 0.01 }
+		}
+	}
+}

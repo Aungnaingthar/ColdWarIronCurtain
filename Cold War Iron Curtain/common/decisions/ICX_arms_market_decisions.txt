@@ -1,0 +1,212 @@
+ICX_arms_market_category = {
+	ICX_sell_rifles = {
+		icon = generic_industry
+		available = {
+			has_equipment = { infantry_equipment > 1999 }
+			NOT = { has_idea = UN_Weapon_Trade_Ban }
+		}
+		days_re_enable = 30
+		fire_only_once = no
+		complete_effect = {
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -2000 }
+			set_temp_variable = { money_change_temp = global.WPTierOne }
+			multiply_temp_variable = { money_change_temp = 0.6 }
+			add_to_variable = { ICX_arms_sales_total = money_change_temp }
+			cwic_change_money = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 has_war = no has_equipment = { infantry_equipment > 12000 } }
+			modifier = { factor = 0 has_war = yes }
+		}
+	}
+	ICX_sell_support = {
+		icon = generic_industry
+		available = {
+			has_equipment = { support_equipment > 249 }
+			NOT = { has_idea = UN_Weapon_Trade_Ban }
+		}
+		days_re_enable = 30
+		fire_only_once = no
+		complete_effect = {
+			add_equipment_to_stockpile = { type = support_equipment amount = -250 }
+			set_temp_variable = { money_change_temp = global.WPTierOne }
+			multiply_temp_variable = { money_change_temp = 0.6 }
+			add_to_variable = { ICX_arms_sales_total = money_change_temp }
+			cwic_change_money = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 has_war = no has_equipment = { support_equipment > 1500 } }
+			modifier = { factor = 0 has_war = yes }
+		}
+	}
+	ICX_sell_artillery = {
+		icon = generic_industry
+		available = {
+			has_equipment = { artillery_equipment > 624 }
+			NOT = { has_idea = UN_Weapon_Trade_Ban }
+		}
+		days_re_enable = 30
+		fire_only_once = no
+		complete_effect = {
+			add_equipment_to_stockpile = { type = artillery_equipment amount = -625 }
+			set_temp_variable = { money_change_temp = global.WPTierTwo }
+			multiply_temp_variable = { money_change_temp = 0.6 }
+			add_to_variable = { ICX_arms_sales_total = money_change_temp }
+			cwic_change_money = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 has_war = no has_equipment = { artillery_equipment > 3750 } }
+			modifier = { factor = 0 has_war = yes }
+		}
+	}
+	ICX_sell_light_artillery = {
+		icon = generic_industry
+		available = {
+			has_equipment = { light_artillery_equipment > 999 }
+			NOT = { has_idea = UN_Weapon_Trade_Ban }
+		}
+		days_re_enable = 30
+		fire_only_once = no
+		complete_effect = {
+			add_equipment_to_stockpile = { type = light_artillery_equipment amount = -1000 }
+			set_temp_variable = { money_change_temp = global.WPTierTwo }
+			multiply_temp_variable = { money_change_temp = 0.6 }
+			add_to_variable = { ICX_arms_sales_total = money_change_temp }
+			cwic_change_money = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 has_war = no has_equipment = { light_artillery_equipment > 6000 } }
+			modifier = { factor = 0 has_war = yes }
+		}
+	}
+	ICX_sell_heavy_artillery = {
+		icon = generic_industry
+		available = {
+			has_equipment = { heavy_artillery_equipment > 499 }
+			NOT = { has_idea = UN_Weapon_Trade_Ban }
+		}
+		days_re_enable = 30
+		fire_only_once = no
+		complete_effect = {
+			add_equipment_to_stockpile = { type = heavy_artillery_equipment amount = -500 }
+			set_temp_variable = { money_change_temp = global.WPTierTwo }
+			multiply_temp_variable = { money_change_temp = 0.6 }
+			add_to_variable = { ICX_arms_sales_total = money_change_temp }
+			cwic_change_money = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 has_war = no has_equipment = { heavy_artillery_equipment > 3000 } }
+			modifier = { factor = 0 has_war = yes }
+		}
+	}
+	ICX_sell_anti_air = {
+		icon = generic_industry
+		available = {
+			has_equipment = { auto_cannon_equipment > 649 }
+			NOT = { has_idea = UN_Weapon_Trade_Ban }
+		}
+		days_re_enable = 30
+		fire_only_once = no
+		complete_effect = {
+			add_equipment_to_stockpile = { type = auto_cannon_equipment amount = -650 }
+			set_temp_variable = { money_change_temp = global.WPTierTwo }
+			multiply_temp_variable = { money_change_temp = 0.6 }
+			add_to_variable = { ICX_arms_sales_total = money_change_temp }
+			cwic_change_money = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 has_war = no has_equipment = { auto_cannon_equipment > 3900 } }
+			modifier = { factor = 0 has_war = yes }
+		}
+	}
+	ICX_sell_anti_tank_guns = {
+		icon = generic_industry
+		available = {
+			has_equipment = { direct_fire_gun_equipment > 649 }
+			NOT = { has_idea = UN_Weapon_Trade_Ban }
+		}
+		days_re_enable = 30
+		fire_only_once = no
+		complete_effect = {
+			add_equipment_to_stockpile = { type = direct_fire_gun_equipment amount = -650 }
+			set_temp_variable = { money_change_temp = global.WPTierTwo }
+			multiply_temp_variable = { money_change_temp = 0.6 }
+			add_to_variable = { ICX_arms_sales_total = money_change_temp }
+			cwic_change_money = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 has_war = no has_equipment = { direct_fire_gun_equipment > 3900 } }
+			modifier = { factor = 0 has_war = yes }
+		}
+	}
+	ICX_sell_atgm = {
+		icon = generic_industry
+		available = {
+			has_equipment = { atgm_equipment > 399 }
+			NOT = { has_idea = UN_Weapon_Trade_Ban }
+		}
+		days_re_enable = 30
+		fire_only_once = no
+		complete_effect = {
+			add_equipment_to_stockpile = { type = atgm_equipment amount = -400 }
+			set_temp_variable = { money_change_temp = global.WPTierThree }
+			multiply_temp_variable = { money_change_temp = 0.6 }
+			add_to_variable = { ICX_arms_sales_total = money_change_temp }
+			cwic_change_money = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 has_war = no has_equipment = { atgm_equipment > 2400 } }
+			modifier = { factor = 0 has_war = yes }
+		}
+	}
+	ICX_sell_trucks = {
+		icon = generic_industry
+		available = {
+			has_equipment = { motorized_equipment > 1999 }
+			NOT = { has_idea = UN_Weapon_Trade_Ban }
+		}
+		days_re_enable = 30
+		fire_only_once = no
+		complete_effect = {
+			add_equipment_to_stockpile = { type = motorized_equipment amount = -2000 }
+			set_temp_variable = { money_change_temp = global.WPTierTwo }
+			multiply_temp_variable = { money_change_temp = 0.6 }
+			add_to_variable = { ICX_arms_sales_total = money_change_temp }
+			cwic_change_money = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 has_war = no has_equipment = { motorized_equipment > 12000 } }
+			modifier = { factor = 0 has_war = yes }
+		}
+	}
+	ICX_sell_helicopters = {
+		icon = generic_industry
+		available = {
+			has_equipment = { utility_helicopter_equipment > 159 }
+			NOT = { has_idea = UN_Weapon_Trade_Ban }
+		}
+		days_re_enable = 30
+		fire_only_once = no
+		complete_effect = {
+			add_equipment_to_stockpile = { type = utility_helicopter_equipment amount = -160 }
+			set_temp_variable = { money_change_temp = global.WPTierThree }
+			multiply_temp_variable = { money_change_temp = 0.6 }
+			add_to_variable = { ICX_arms_sales_total = money_change_temp }
+			cwic_change_money = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 has_war = no has_equipment = { utility_helicopter_equipment > 960 } }
+			modifier = { factor = 0 has_war = yes }
+		}
+	}
+}

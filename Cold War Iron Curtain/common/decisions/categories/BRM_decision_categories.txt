@@ -7,6 +7,6 @@ BRM_finance_category = {
 	allowed = { original_tag = BRM }
 }
 BRM_diplomacy_category = {
-	icon = generic_political_discourse
+	icon = generic_democracy
 	allowed = { original_tag = BRM }
 }

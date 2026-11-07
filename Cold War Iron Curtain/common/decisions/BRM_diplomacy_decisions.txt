@@ -1,7 +1,7 @@
 BRM_diplomacy_category = {
 	# ---------------- economic aid from a richer country ----------------
 	BRM_request_economic_aid = {
-		icon = generic_economy
+		icon = generic_money_bag
 		target_trigger = {
 			FROM = {
 				exists = yes
