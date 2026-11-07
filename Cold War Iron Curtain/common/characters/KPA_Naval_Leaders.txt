@@ -3,9 +3,6 @@ characters={
 		name="Han Il-moo"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
-			army={
 				large="gfx/leaders/KPA/1949/ADMIRALS/Han_Il-moo.dds"
 			}
 		}
@@ -24,9 +21,6 @@ characters={
 	KPA_kim_ilchol={
 		name="Kim Il Chol"
 		portraits={
-			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
 			army={
 				large="gfx/leaders/KPA/1949/ADMIRALS/Kim_Il_Chol.dds"
 			}

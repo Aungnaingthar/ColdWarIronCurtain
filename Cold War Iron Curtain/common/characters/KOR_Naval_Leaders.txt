@@ -4,9 +4,6 @@ characters={
 		name="Sohn Won-yil"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
-			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Sohn_Won-yil.dds"
 			}
 		}
@@ -34,9 +31,6 @@ characters={
 		name="Jeong Geung-mo"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_3.dds"
-			}
-			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Jeong_Geung-mo.dds"
 			}
 		}
@@ -58,9 +52,6 @@ characters={
 		name="Park Ok-gyu"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_2.dds"
-			}
-			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Park_Ok-kyu.dds"
 			}
 		}
@@ -79,9 +70,6 @@ characters={
 	KOR_lee_yongwoon={
 		name="Lee Yong-woon"
 		portraits={
-			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
 			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Lee_Yong-woon.dds"
 			}
@@ -103,9 +91,6 @@ characters={
 		name="Hyeon Si-hak"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
-			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Hyeon_Si-hak.dds"
 			}
 		}
@@ -126,9 +111,6 @@ characters={
 		name="Min Young-gu"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
-			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Min_Young-gu.dds"
 			}
 		}
@@ -148,9 +130,6 @@ characters={
 	KOR_kim_sanggil={
 		name="Kim Sang-gil"
 		portraits={
-			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
 			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Kim_Sang-gil.dds"
 			}
@@ -173,9 +152,6 @@ characters={
 		name="Lee Sung-ho"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
-			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Lee_Sung-ho.dds"
 			}
 		}
@@ -196,9 +172,6 @@ characters={
 	KOR_lee_maengki={
 		name="Lee Maengki"
 		portraits={
-			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
 			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Lee_Maengki.dds"
 			}
@@ -221,9 +194,6 @@ characters={
 		name="Ham Myeong-soo"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
-			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Ham_Myeong-soo.dds"
 			}
 		}
@@ -244,9 +214,6 @@ characters={
 	KOR_kim_youngkwan={
 		name="Kim Young-kwan"
 		portraits={
-			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
 			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Kim_Young-kwan.dds"
 			}
@@ -269,9 +236,6 @@ characters={
 		name="Chang Ji-su"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
-			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Chang_Ji-su.dds"
 			}
 		}
@@ -292,9 +256,6 @@ characters={
 	KOR_shin_sungmo_navy={	#recruit by event###Not useable now. Maybe later when we come up with some idea.
 		name="Shin Sung-mo"
 		portraits={
-			army={
-				small="gfx/interface/ideas/idea_asia_generic_navy_1.dds"
-			}
 			army={
 				large="gfx/leaders/KOR/1949/ADMIRALS/Shin_Sung-mo.dds"
 			}
