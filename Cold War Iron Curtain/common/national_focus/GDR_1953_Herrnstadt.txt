@@ -14,7 +14,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = GDR_First_Secretary_Herrnstadt
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		x = 7
 		y = 0
@@ -199,7 +199,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Restore_Social_Services
-		icon = GFX_GDR_Restore_the_Power_of_the_Stasi
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Integrate_into_the_Eastern_Market
@@ -363,7 +363,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Dismantle_the_Personality_Cult
-		icon = GFX_Dismantle_the_Personality_Cult_KPA
+		icon = GFX_GDR_Dismantling_the_Personality_Cult
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Purge_the_Ulbricht_Group
@@ -386,7 +386,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reverse_Course_on_Clerical_Persecution
-		icon = GFX_GDR_A_New_Course_for_the_SED
+		icon = GFX_focus_shia_clerical
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_New_Course
@@ -413,7 +413,7 @@ focus_tree = {
 	}		
 	focus = {
 		id = GDR_Institute_Collective_Leadership
-		icon = GFX_GDR_Instate_Collective_Leadership
+		icon = GFX_GDR_An_End_to_Collective_Leadership
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Dismantle_the_Personality_Cult

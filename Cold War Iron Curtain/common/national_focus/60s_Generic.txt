@@ -1328,7 +1328,7 @@ shared_focus = {
 	id = GRE_1960s_equipment_effort_2
 	completion_reward = {
 	}
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_calling_the_ministry
 	search_filters = {
 		IC_FILTER
 	}
@@ -2508,7 +2508,7 @@ shared_focus = {
 	id = GRE_1960s_soviet_airfield_development
 	completion_reward = {
 	}
-	icon = GFX_Generic_Jet
+	icon = GFX_Expand_Airfields
 	search_filters = {
 		IC_FILTER
 	}
@@ -3792,7 +3792,7 @@ shared_focus = {
 	id = GRE_1960s_large_navy
 	completion_reward = {
 	}
-	icon = GFX_GRE_navy_focus
+	icon = GFX_modernize_ports
 	search_filters = {
 		IC_FILTER
 	}
@@ -5769,7 +5769,7 @@ shared_focus = {
 	id = BRA_equipment_effort_3
 	completion_reward = {
 	}
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_two_officials
 	search_filters = {
 		IC_FILTER
 	}
@@ -8529,7 +8529,7 @@ shared_focus = {
 	id = BRA_reform_officer_corps_2
 	completion_reward = {
 	}
-	icon = GFX_usa_80_urge_american_corp_reform
+	icon = GFX_generic_focus_military_massed_infantry
 	search_filters = {
 		IC_FILTER
 	}
@@ -8635,7 +8635,7 @@ shared_focus = {
 	id = BRA_extra_tech_slot_2
 	completion_reward = {
 	}
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_calling_the_ministry
 	search_filters = {
 		IC_FILTER
 	}

@@ -388,7 +388,7 @@ focus_tree = {
 		id = ROM_Assert_Geopolitical_Independence
 		completion_reward = {
 		}
-		icon = GFX_CIC_rom_geopolitical_independence
+		icon = GFX_strenth_in_unity
 		search_filters = {
 			IC_FILTER
 		}

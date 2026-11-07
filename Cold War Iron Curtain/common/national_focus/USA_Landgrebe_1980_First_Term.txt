@@ -15,7 +15,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_LANDGREBE80_The_Landgrebe_Administration
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		x = 5
 		y = 0
@@ -27,7 +27,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE80_Executive_Order_12333
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE80_The_Landgrebe_Administration
@@ -60,7 +60,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE80_An_End_to_the_Fairness_Doctrine
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE80_The_Landgrebe_Administration
@@ -118,7 +118,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE80_Student_Freedom_of_Choice_Act
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE80_Agriculture_and_Food_Act_of_1981
@@ -155,7 +155,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE80_Stack_the_NLRB
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE80_Hike_Military_Spending
@@ -211,7 +211,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE80_Garn_St_Germain_Depository_Institutions_Act
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE80_Dangerous_Substances_Bill
@@ -230,7 +230,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE80_Tax_Equity_and_Fiscal_Responsibility_Act_of_1982
-		icon = GFX_Corporate_Tax_Adjustment_Act
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE80_Garn_St_Germain_Depository_Institutions_Act
@@ -298,7 +298,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE80_Rehabilitate_McCarthy
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE80_Garn_St_Germain_Depository_Institutions_Act
@@ -317,7 +317,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE80_What_to_do_about_AIDS
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE80_Rehabilitate_McCarthy
@@ -335,7 +335,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE80_National_Minimum_Drinking_Age_Act
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE80_What_to_do_about_AIDS
@@ -351,7 +351,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE80_Deficit_Reduction_Act_of_1984
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE80_Comprehensive_Crime_Control_Act
@@ -370,7 +370,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE80_Push_to_Strip_the_Courts_of_Jurdistriction_Over_School_Prayer_and_Abortion
-		icon = GFX_Push_for_Public_Secular_Schools
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE80_Student_Freedom_of_Choice_Act

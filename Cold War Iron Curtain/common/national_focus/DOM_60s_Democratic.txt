@@ -11,7 +11,7 @@ focus_tree = {
 	reset_on_civilwar = no
 	focus = {
 		id = DOM_60s_Return_of_the_Intelligensia
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 5.00
 		x = 9
 		y = 0
@@ -75,7 +75,7 @@ available = {
 	}
 	focus = {
 		id = DOM_60s_El_Jefe
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 5.00
 		x = 8
 		y = 6
@@ -85,7 +85,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Ramfis_1961
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 5.00
 		x = 8
 		y = 11
@@ -128,7 +128,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Refit_Mella
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Modernize_Naval_Base_February_27
@@ -188,7 +188,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Centralize_Meat_Industry_To_The_Capital
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Invest_In_Rural_Communities
@@ -208,7 +208,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Further_Repression
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_El_Jefe
@@ -227,7 +227,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Kill_the_Butterflies
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Further_Repression
@@ -240,7 +240,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Betancourt_Assassination_Plot
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = DOM_60s_Further_Repression
@@ -253,7 +253,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Five_Stars
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Betancourt_Assassination_Plot
@@ -289,7 +289,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Hombres_Rana
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Maintain_Base_Las_Carreras
@@ -330,7 +330,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Access_To_Credit
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Diversify_Cash_Crops
@@ -344,7 +344,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Diligent_Economics
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Generic_Trade
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Access_To_Credit
@@ -357,7 +357,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Economic_Incentives
-		icon = GFX_Invest_in_modern_industry
+		icon = GFX_Generic_Trade
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Diligent_Economics
@@ -378,7 +378,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Expulse_American_Ambassador
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Ramfis_1961
@@ -402,7 +402,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Exile_Balaguer
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Expulse_American_Ambassador
@@ -428,7 +428,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_International_Precurement
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Ejercito_de_Republica_Dominicana
@@ -444,7 +444,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_OAS_Training
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_International_Precurement
@@ -462,7 +462,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Deforestation
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Return_of_the_Intelligensia
@@ -522,7 +522,7 @@ increase_cpi_policy = yes
 	}
 	focus = {
 		id = DOM_60s_Make_San_Cristobal_The_Jewel_Crown
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Ejercito_de_Republica_Dominicana
@@ -542,7 +542,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Competent_Officer_Corp
-		icon = GFX_VIE_Vietnamized_Air_Officer_Corp
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Make_San_Cristobal_The_Jewel_Crown
@@ -556,7 +556,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Sugar_Boom
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Return_of_the_Intelligensia
@@ -616,7 +616,7 @@ completion_reward = {
 }
 	focus = {
 		id = DOM_60s_Expand_La_Caurenta
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Increase_SIM_powers
@@ -634,7 +634,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Fight_OAS_Sanctions
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Expand_La_Caurenta
@@ -650,7 +650,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Urbanize_San_Cristobal
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Fight_OAS_Sanctions
@@ -666,7 +666,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Undo_Monopolies
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Sugar_Boom
@@ -679,7 +679,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Banco_Popular_Dominicano
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Undo_Monopolies
@@ -698,7 +698,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_International_Capital
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Act_No_299
@@ -715,7 +715,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Free_Zone_Parks
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Proto-mining_Industry
@@ -761,7 +761,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Embrace_Dominican_Party_Faction
-		icon = GFX_Commit_to_Reform
+		icon = GFX_Armada_de_Dominican_Republic
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Fiallo_Constitution
@@ -793,7 +793,7 @@ add_popularity = {
 	}
 	focus = {
 		id = DOM_60s_Suppress_Union_And_Students
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Embrace_Dominican_Party_Faction
@@ -806,7 +806,7 @@ decrease_union_policy = yes
 }
 	focus = {
 		id = DOM_60s_Appeal_To_America
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Fiallo_Constitution
@@ -834,7 +834,7 @@ set_temp_variable = { percent_change = 10 }
 	}
 	focus = {
 		id = DOM_60s_Support_Anti-Socialism
-		icon = GFX_usa_50_support_anti_egypt_nations
+		icon = GFX_Socialist_Consolidation
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Appeal_To_America
@@ -854,7 +854,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Demonize_Cuba
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Appeal_To_America
@@ -897,7 +897,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Maintain_Catholic_Traditionalism
-		icon = GFX_Religous_Unity
+		icon = GFX_goal_islam
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Maintain_Catholic_Authority
@@ -918,7 +918,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Juan_Bosch_Reinstated
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 5.00
 		
 		x = 20
@@ -957,7 +957,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Reduce_Political_Violence
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Return_To_1963_Constitution
@@ -973,7 +973,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Fransisco_Lora_1970
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Election_1970
@@ -986,7 +986,7 @@ available = {
 	}
 	focus = {
 		id = DOM_60s_Reinvigorate_Santo_Domingo
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Fransisco_Lora_1970
@@ -1004,7 +1004,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Build_Public_School
-		icon = GFX_Push_for_Public_Secular_Schools
+		icon = GFX_Invest_in_Education
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Reinvigorate_Santo_Domingo
@@ -1022,7 +1022,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Increase_Rural_Services
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Reinvigorate_Santo_Domingo
@@ -1193,7 +1193,7 @@ available = {
 		}
 	focus = {
 		id = DOM_60s_Francisco_Gomez_1966
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Election_1966
@@ -1206,7 +1206,7 @@ available = {
 	}
 	focus = {
 		id = DOM_60s_Exile_Trujillo_Family
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_Base_Area_Presidente_Trujillo
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Elect_Dr_Viriato_Fiallo_1962
@@ -1223,7 +1223,7 @@ add_popularity = {
 	}
 	focus = {
 		id = DOM_60s_Dismantle_Oligarchy
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Exile_Trujillo_Family
@@ -1236,7 +1236,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Repeal_Cult_of_Personality
-		icon = GFX_Expand_the_Personality_Cult_KPA
+		icon = GFX_Maintain_the_personality_cult
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Exile_Trujillo_Family
@@ -1249,7 +1249,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Rename_The_Cities
-		icon = GFX_SOV_rename_cities_named_after_stalin
+		icon = GFX_generic_focus_politics_petition
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Repeal_Cult_of_Personality
@@ -1265,7 +1265,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Abolish_SIM
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Rename_The_Cities
@@ -1278,7 +1278,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Support_The_Loyalist
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 1.00
 		prerequisite = {
 			focus = DOM_60s_Ignition_Of_Civil_War
@@ -1291,7 +1291,7 @@ available = {
 	}
 	focus = {
 		id = DOM_60s_Rise_Of_Antonio_Imbert_Barrera
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 1.00
 		prerequisite = {
 			focus = DOM_60s_Support_The_Loyalist
@@ -1314,7 +1314,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Reopen_San_Cristobal
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 2.00
 		prerequisite = {
 			focus = DOM_60s_Rise_Of_Antonio_Imbert_Barrera
@@ -1334,7 +1334,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Unite_The_Military
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 2.00
 		prerequisite = {
 			focus = DOM_60s_Rise_Of_Antonio_Imbert_Barrera
@@ -1360,7 +1360,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Spread_Antirevolution_Propaganda
-		icon = GFX_Spread_Anti_Revisionist_Propaganda
+		icon = GFX_Construct_radio_towers
 		cost = 2.00
 		prerequisite = {
 			focus = DOM_60s_Rise_Of_Antonio_Imbert_Barrera
@@ -1376,7 +1376,7 @@ add_popularity = {
 	}
 	focus = {
 		id = DOM_60s_Appeal_To_United_States
-		icon = GFX_United_States_Advisors_MAAG
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 2.00
 		prerequisite = {
 			focus = DOM_60s_Spread_Antirevolution_Propaganda
@@ -1402,7 +1402,7 @@ available = {
 	}
 	focus = {
 		id = DOM_60s_Rehabillitate_Central_Bank
-		icon = GFX_Central_Bank_Costa_Rica
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Joaquin_Balaguer_1966
@@ -1415,7 +1415,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Connect_With_Old_Regime
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Rehabillitate_Central_Bank
@@ -1428,7 +1428,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Authoriarian_Pragmatism
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Joaquin_Balaguer_1966
@@ -1441,7 +1441,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Alieviate_Political_Tensions
-		icon = GFX_usa_truman_calm_political_tensions
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Rehabillitate_Central_Bank
@@ -1457,7 +1457,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Bribe_Unions
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Connect_With_Old_Regime
@@ -1502,7 +1502,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Introduce_Poitical_Rights
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Write_The_1963_Liberal_Constitution
@@ -1515,7 +1515,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Give_National_University_Autonomy
-		icon = GFX_Invest_in_Science
+		icon = GFX_Invest_in_Education
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Introduce_Poitical_Rights
@@ -1546,7 +1546,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Allow_Unions
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Give_National_University_Autonomy
@@ -1575,7 +1575,7 @@ available = {
 	}
 	focus = {
 		id = DOM_60s_Rise_Of_Fransisco_Caamano
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 1.00
 		prerequisite = {
 			focus = DOM_60s_Support_The_Constitutionalist
@@ -1600,7 +1600,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Rise_of_Fernandez_Dominguez
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 1.00
 		prerequisite = {
 			focus = DOM_60s_Support_The_Constitutionalist
@@ -1625,7 +1625,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Empty_The_Armories
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 2.00
 		prerequisite = {
 			focus = DOM_60s_Rise_of_Fernandez_Dominguez
@@ -1720,7 +1720,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Jump_Start_Service_Sector
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Infrastructure_Reform
@@ -1755,7 +1755,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Balaguer_1970
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Election_1970
@@ -1768,7 +1768,7 @@ available = {
 	}
 	focus = {
 		id = DOM_60s_Persecute_Leftist
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Balaguer_1970
@@ -1781,7 +1781,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Dismantle_Student_Organizations
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Persecute_Leftist
@@ -1798,7 +1798,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Form_La_Banda_Colora
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Persecute_Leftist
@@ -1816,7 +1816,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_AntiRevolutionary_Measures
-		icon = GFX_HUM_Intensify_Anti-Communist_Measures
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Dismantle_Student_Organizations
@@ -1835,7 +1835,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Replace_Haitian_Labor
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Write_The_1963_Liberal_Constitution
@@ -1858,7 +1858,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Suport_Cuban_Self_Determination
-		icon = GFX_usa_80_the_fight_for_self_determination
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Replace_Haitian_Labor
@@ -1923,7 +1923,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Attempt_To_Breakout_From_The_Capital
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 2.00
 		prerequisite = {
 			focus = DOM_60s_Urban_Shelter
@@ -1949,7 +1949,7 @@ available = {
 	}
 	focus = {
 		id = DOM_60s_Entrench_Conservatism
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Elias_Wessin_y_Wessin_1970
@@ -1965,7 +1965,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Start_Militization
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Entrench_Conservatism
@@ -1985,7 +1985,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Find_Investment_For_Industry
-		icon = GFX_Economic_Reconstruction_Generic
+		icon = GFX_Generic_Trade
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Suport_Cuban_Self_Determination
@@ -2004,7 +2004,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Cancel_Free_Zones
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Elias_Wessin_y_Wessin_1970
@@ -2017,7 +2017,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Domestic_Protectionism
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Cancel_Free_Zones
@@ -2035,7 +2035,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Amend_Military_Political_Rights
-		icon = GFX_GDR_Amend_The_Law_on_Maternal_and_Child_Protection_and_Womens_Rights
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Start_Militization
@@ -2051,7 +2051,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Close_Armeria_San_Cristobal
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Write_The_1963_Liberal_Constitution
@@ -2070,7 +2070,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Curb_Military_Influence
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Close_Armeria_San_Cristobal
@@ -2096,7 +2096,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Alienate_Military_Influences
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Curb_Military_Influence
@@ -2112,7 +2112,7 @@ decrease_military_policy = yes
 	}
 	focus = {
 		id = DOM_60s_Responisible_Economics
-		icon = GFX_Economic_Reconstruction_Generic
+		icon = GFX_Generic_Trade
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Francisco_Gomez_1966
@@ -2141,7 +2141,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Increase_Police_Reform
-		icon = GFX_Increase_Pensions_and_Reform_Working_Hours
+		icon = GFX_generic_focus_politics_court_of_law
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Massive_Land_Reform
@@ -2154,7 +2154,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Increase_Minimum_Wage
-		icon = GFX_SOV_increase_the_minimum_wages_of_workers_and_employees
+		icon = GFX_Wage_Increase
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Responisible_Economics
@@ -2167,7 +2167,7 @@ increase_service_policy = yes
 	}
 	focus = {
 		id = DOM_60s_Promote_Student_Organizations
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Increase_Minimum_Wage
@@ -2204,7 +2204,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Amend_Constitution
-		icon = GFX_POR_Amend_the_Constitution
+		icon = GFX_focus_generic_election
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Francisco_Gomez_1966
@@ -2230,7 +2230,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Appease_Military
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Empower_Congress
@@ -2338,7 +2338,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Aereo_de_Puerto_Plata
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Invest_In_Airforce
@@ -2378,7 +2378,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Los_Tigres
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 2.00
 		prerequisite = {
 			focus = DOM_60s_Rise_of_Fernandez_Dominguez
@@ -2392,7 +2392,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Defections
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 2.00
 		prerequisite = {
 			focus = DOM_60s_Los_Tigres
@@ -2442,7 +2442,7 @@ DOM = {
 	}
 	focus = {
 		id = DOM_60s_Restrict_Bourgeoise_Property_Rights
-		icon = GFX_end_property_rights
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Rejuevenate_Cuban_Relations
@@ -2458,7 +2458,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_More_Economic_Freedom
-		icon = GFX_Generic_Trade
+		icon = GFX_Invest_in_modern_industry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Popular_Appeal
@@ -2474,7 +2474,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Kill_Trujillo_Assassins
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_Base_Area_Presidente_Trujillo
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Call_Johnny_Abbes
@@ -2487,7 +2487,7 @@ country_event = DOM_Assassins.1
 	}
 	focus = {
 		id = DOM_60s_Call_Johnny_Abbes
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Ramfis_1961
@@ -2520,7 +2520,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Return_to_Trujillo_Constitution
-		icon = GFX_Commit_to_Reform
+		icon = GFX_Base_Area_Presidente_Trujillo
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_1965_Constitution_Convention
@@ -2539,7 +2539,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Promote_Nepotism
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Fransisco_Lora_1970
@@ -2566,7 +2566,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Use_The_Army_As_Police
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Promote_Nepotism
@@ -2613,7 +2613,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Autocratic_Tendencies
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = DOM_60s_Balaguer_1970
@@ -2626,7 +2626,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Popular_Sovereignty
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Fransisco_Lora_1970
@@ -2671,7 +2671,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Judge_65_Remnants
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Appease_Military
@@ -2687,7 +2687,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Support_OAS
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_CEB_Independence
@@ -2938,7 +2938,7 @@ available = {
 	}
 	focus = {
 		id = DOM_60s_Wessin_y_Wessin_Doctrine
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_The_Triumvirate
@@ -3003,7 +3003,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Maintain_Street_Patrols
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Augment_Police_With_White_Helmets
@@ -3020,7 +3020,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Maintain_UASD_Autonomy
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Maintain_Street_Patrols
@@ -3060,7 +3060,7 @@ set_variable = { THIS.idea_len_@token:martial_law= 365 }
 		}
 	focus = {
 		id = DOM_60s_Use_Army_Against_M-14-J
-		icon = GFX_being_harassment_campaign_against_the_liberation_army
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Declace_Martial_Law
@@ -3076,7 +3076,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Execute_Manolo_Tavarez
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Use_Army_Against_M-14-J
@@ -3092,7 +3092,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Exile_Manolo_Tavarez
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Use_Army_Against_M-14-J
@@ -3126,7 +3126,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Appease_The_Elite
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_The_Triumvirate
@@ -3155,7 +3155,7 @@ available = {
 	}
 	focus = {
 		id = DOM_60s_Reinforce_Catholic_Values
-		icon = GFX_Religous_Unity
+		icon = GFX_goal_islam
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Bonnelly_Faction_Friendship
@@ -3174,7 +3174,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Centralize_Industry_to_Capital
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Generic_Trade
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Bonnelly_Faction_Friendship
@@ -3192,7 +3192,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Print_More_Money
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Invest_in_modern_industry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Centralize_Industry_to_Capital
@@ -3218,7 +3218,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Give_Trujillo_Land_to_Old_Guard
-		icon = GFX_FocusBorderTroops
+		icon = GFX_Base_Area_Presidente_Trujillo
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Null_The_1963_Constitution
@@ -3235,7 +3235,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Give_Trujillo_Land_to_New_Guards
-		icon = GFX_FocusBorderTroops
+		icon = GFX_Base_Area_Presidente_Trujillo
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Null_The_1963_Constitution
@@ -3251,7 +3251,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Back_The_Central_Romana_Inc
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Appease_The_Elite
@@ -3267,7 +3267,7 @@ available = {
 	}
 	focus = {
 		id = DOM_60s_Expand_Haitian_Labor
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Back_The_Central_Romana_Inc
@@ -3300,7 +3300,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_The_Individual_Economy_Plan
-		icon = GFX_Economic_Reconstruction_Generic
+		icon = GFX_Generic_Trade
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Reinforce_Catholic_Values
@@ -3313,7 +3313,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Suppress_Popular_Movements
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_The_Individual_Economy_Plan
@@ -3330,7 +3330,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Crackdown_on_Political_Organizations
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Back_The_Central_Romana_Inc
@@ -3348,7 +3348,7 @@ completion_reward = {
 	}
 	focus = {
 		id = DOM_60s_Control_Populace_Through_Subsidies
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Crackdown_on_Political_Organizations
@@ -3368,7 +3368,7 @@ add_timed_idea = {
 }
 	focus = {
 		id = DOM_60s_Bust_National_University
-		icon = GFX_Invest_in_Education
+		icon = GFX_universities
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Maintain_Street_Patrols
@@ -3426,7 +3426,7 @@ available = {
 	}
     focus = {
 		id = DOM_60s_Juan_Bosch_1968
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Election_1968
@@ -3439,7 +3439,7 @@ available = {
 	}
         focus = {
 		id = DOM_60s_Caamano_1968
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Election_1968
@@ -3452,7 +3452,7 @@ available = {
 	}
 focus = {
 		id = DOM_60s_Dominican_Idenity_Act
-		icon = GFX_Commit_to_Reform
+		icon = GFX_Armada_de_Dominican_Republic
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Juan_Bosch_1968
@@ -3466,7 +3466,7 @@ completion_reward = {
 	}
 focus = {
 		id = DOM_60s_Decentralize_Judicial_Review
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Juan_Bosch_1968
@@ -3479,7 +3479,7 @@ completion_reward = {
 	}
 focus = {
 		id = DOM_60s_Ballot_Initiatives
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Dominican_Idenity_Act
@@ -3493,7 +3493,7 @@ completion_reward = {
 	}
     focus = {
 		id = DOM_60s_Labor_Bill_Of_Rights
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Caamano_1968
@@ -3557,7 +3557,7 @@ completion_reward = {
 }
 focus = {
 		id = DOM_60s_Increase_Local_Authority
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_National_Authority_Debate
@@ -3595,7 +3595,7 @@ completion_reward = {
 }
 focus = {
 		id = DOM_60s_Create_GDIT
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Increase_Local_Authority
@@ -3615,7 +3615,7 @@ completion_reward = {
 }
 focus = {
 		id = DOM_60s_Empower_Local_Enforcers
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Increase_Local_Authority
@@ -3692,7 +3692,7 @@ completion_reward = {
 }
 focus = {
 		id = DOM_60s_JCE_Due_Process_Protections
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 5.00
 		prerequisite = {
 			focus = DOM_60s_Restructure_Police

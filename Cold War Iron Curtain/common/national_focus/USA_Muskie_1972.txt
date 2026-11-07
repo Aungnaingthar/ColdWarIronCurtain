@@ -137,7 +137,7 @@ focus_tree = {
 	focus = {
 		id = USA_MUSKIE72_The_Model_City_Program
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		search_filters = {
 			IC_FILTER
 		}
@@ -187,7 +187,7 @@ focus_tree = {
 	focus = {
 		id = USA_MUSKIE72_Disaster_Relieft_Act
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_humanitarian_disaster
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -211,7 +211,7 @@ focus_tree = {
 	focus = {
 		id = USA_MUSKIE72_Federal_Fire_Prevention_Act
 		text_icon = USA_focus_style
-		icon = GFX_JAP_The_Subversive_Activities_Prevention_Act
+		icon = GFX_Commit_to_Reform
 		search_filters = {
 			IC_FILTER
 		}
@@ -303,7 +303,7 @@ focus_tree = {
 	focus = {
 		id = USA_MUSKIE72_Ratify_the_ERA
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		search_filters = {
 			IC_FILTER
 		}

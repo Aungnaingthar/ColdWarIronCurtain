@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = FORD80_The_Ford_Administration
-		icon = GFX_FordAdministration
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FORD80_Executive_Order_12333
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = FORD80_The_Ford_Administration
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FORD80_End_Petrolum_Price_and_Allocation_Controls
-		icon = GFX_YUG_Drop_Price_Controls
+		icon = GFX_1st_Electric_Program
 		cost = 10.00
 		prerequisite = {
 			focus = FORD80_The_Ford_Administration
@@ -113,7 +113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FORD80_Tighten_the_Monetary_Supply
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = FORD80_Agriculture_and_Food_Act_of_1981
@@ -222,7 +222,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FORD80_Fiscal_Responsibility_and_Economic_Stimulus_Act
-		icon = GFX_Generic_Trade
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = FORD80_Garn_St_Germain_Depository_Institutions_Act
@@ -307,7 +307,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FORD80_Address_the_AIDS_Crisis
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = FORD80_Nuclear_Energy_Modernization_Act
@@ -326,7 +326,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FORD80_National_Minimum_Drinking_Age_Act
-		icon = GFX_National_Security_Act
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = FORD80_Address_the_AIDS_Crisis
@@ -361,7 +361,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FORD80_The_Abortion_Question
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = FORD80_Tighten_the_Monetary_Supply

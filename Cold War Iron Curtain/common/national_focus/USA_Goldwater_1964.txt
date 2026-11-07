@@ -25,7 +25,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Reject_Special_Interests
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -43,7 +43,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Roll_Back_the_Welfare_State
 		text_icon = USA_focus_style
-		icon = GFX_Begin_to_roll_back_state_repression
+		icon = GFX_Welfare_State
 		search_filters = {
 			IC_FILTER
 		}
@@ -60,7 +60,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Limit_Influence_of_Unions
 		text_icon = USA_focus_style
-		icon = GFX_POR_Limit_Foriegn_Economic_Influence
+		icon = GFX_generic_focus_politics_signed_decree
 		search_filters = {
 			IC_FILTER
 		}
@@ -107,7 +107,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Reduce_Government_Overreach
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		search_filters = {
 			IC_FILTER
 		}
@@ -127,7 +127,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_National_Historic_Preservation_Act
 		text_icon = USA_focus_style
-		icon = GFX_National_Security_Act
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}
@@ -144,7 +144,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Privitzation_of_Social_Security
 		text_icon = USA_focus_style
-		icon = GFX_usa_truman_social_security_act_50
+		icon = GFX_Social_Security_Act_of_1953
 		search_filters = {
 			IC_FILTER
 		}
@@ -218,7 +218,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Reduce_Government_Spending
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp84_encourage_higher_european_defense_spending
+		icon = GFX_generic_focus_politics_two_officials
 		search_filters = {
 			IC_FILTER
 		}
@@ -260,7 +260,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER_Restore_Consciousness_to_Government
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		search_filters = {
 			IC_FILTER
 		}

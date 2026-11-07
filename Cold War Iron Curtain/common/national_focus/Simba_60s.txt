@@ -51,7 +51,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SIM_Condemn_Western_Imperialism
-		icon = GFX_usa_50_condemn_british_iran_imperialism
+		icon = GFX_generic_focus_politics_signed_decree
 		search_filters = {
 			IC_FILTER
 		}

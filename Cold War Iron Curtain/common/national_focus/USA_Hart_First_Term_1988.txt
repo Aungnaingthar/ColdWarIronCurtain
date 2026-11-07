@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_HART88_The_Hart_Administration
-		icon = GFX_usa_80_icon_gary_hart
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		x = 5
 		y = 0
@@ -43,7 +43,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_American_Defense_Education_Act
-		icon = GFX_usa_80_icon_gary_hart
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_Strategic_Investment_Initiative
@@ -75,7 +75,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_High_Technology_Morrill_Act
-		icon = GFX_usa_80_icon_gary_hart
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_The_Americans_with_Disability_Act
@@ -113,7 +113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_Farmer_Relief_Act
-		icon = GFX_Refugee_Relief_Act
+		icon = GFX_Agriculture_2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_Oil_Pollution_Act
@@ -163,7 +163,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_American_Infrastructure_Reconstruction_Act
-		icon = GFX_usa_80_icon_gary_hart
+		icon = GFX_Railway_Reconstruction
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_Oil_Pollution_Act
@@ -182,7 +182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_The_Civil_Rights_Act_of_1990
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_Biological_Weapons_Anti_Terrorism_Act
@@ -217,7 +217,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_Crackdown_on_Wasteful_Military_Spending
-		icon = GFX_Force_eastern_European_military_spending_limitation
+		icon = GFX_Put_upper_limit_military_spending
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_Judicial_Improvement_Act
@@ -235,7 +235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_Repeal_Gramm_Rudman
-		icon = GFX_usa_80_icon_gary_hart
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_Sign_NAFTA
@@ -254,7 +254,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_Fast_Track_NAFTA
-		icon = GFX_usa_80_icon_gary_hart
+		icon = GFX_End_Talks_of_NAFTA
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_Bail_Out_Agricultural_Banks
@@ -276,7 +276,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_High_Performance_Computing_and_Communication_Act
-		icon = GFX_usa_80_icon_gary_hart
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_Campaign_Finance_Reform_Act
@@ -294,7 +294,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_Campaign_Finance_Reform_Act
-		icon = GFX_usa_80_icon_gary_hart
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_Judicial_Improvement_Act
@@ -313,7 +313,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_Weapons_of_Mass_Destruction_Control_Act
-		icon = GFX_usa_80_icon_gary_hart
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_Campaign_Finance_Reform_Act
@@ -332,7 +332,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_National_Education_Standards_Act
-		icon = GFX_usa_80_icon_gary_hart
+		icon = GFX_Invest_in_Science
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_Weapons_of_Mass_Destruction_Control_Act
@@ -348,7 +348,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HART88_Sign_NAFTA
-		icon = GFX_usa_80_icon_gary_hart
+		icon = GFX_End_Talks_of_NAFTA
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HART88_High_Performance_Computing_and_Communication_Act

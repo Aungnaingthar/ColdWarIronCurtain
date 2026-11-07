@@ -1235,7 +1235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UGA_60s_Growing_Ethnic_Tension
-		icon = GFX_MEO_resolve_ethnic_tensions
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}

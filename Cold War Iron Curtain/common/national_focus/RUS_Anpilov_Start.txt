@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = RUS_ANPILOV_Form_the_Volgograd_Labour_Squad
-		icon = GFX_RUS_Form_Eurasian_Econ_Council
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		x = 7
 		y = 0
@@ -18,7 +18,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_Reaffirm_Control_over_the_Economy
-		icon = GFX_talal_reaffirms_control
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		x = 16
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_All_for_the_Front!
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_Form_the_Volgograd_Labour_Squad
@@ -37,7 +37,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_All_for_Victory
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_All_for_the_Front!
@@ -48,7 +48,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_Rank_Up_the_Army
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_All_for_Victory
@@ -84,7 +84,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_Under_Andreyevas_Command
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_All_for_Victory
@@ -95,7 +95,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_The_Reactionaries_in_the_Army
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_All_for_Victory
@@ -106,7 +106,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_Form_the_Soviet_of_Emergencies
-		icon = GFX_RUS_Form_Eurasian_Econ_Council
+		icon = GFX_Socialist_Consolidation
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_All_for_Victory
@@ -117,7 +117,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_The_First_Government_of_Nina_Andreyeva
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_The_Reactionaries_in_the_Army
@@ -137,7 +137,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_Re_Establish_the_Supreme_Soviets
-		icon = GFX_RU_Compromise_with_the_Supreme_Soviet
+		icon = GFX_RU_Dissolve_the_Supreme_Soviet
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_Stalinist_Discipline
@@ -154,7 +154,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_Re_Establish_the_Politurbo
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_The_Reactionaries_in_the_Army
@@ -171,7 +171,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_The_Great_Exodus
-		icon = GFX_RUS_Tridemist_Great_Russia
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_All_for_Victory
@@ -182,7 +182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_Debureaucratize_the_Government
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_The_Great_Exodus
@@ -219,7 +219,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_The_Wise_Words_of_Engels
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_Debureaucratize_the_Government
@@ -268,7 +268,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_Re_Establish_the_Gosplan
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_Reaffirm_Control_over_the_Economy
@@ -279,7 +279,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_Return_to_a_State_Planned_Economy
-		icon = GFX_PlannedEconomy
+		icon = GFX_Ending_Planned_Economy_Yeltsin
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_Reaffirm_Control_over_the_Economy
@@ -335,7 +335,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_Shoot_the_Embezzlers_Crooks_and_Thieves!
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_MI_8_Shoot_Down
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_Reuse_the_Soviet_Rubles
@@ -349,7 +349,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_The_Banner_of_Great_Stalin
-		icon = GFX_RUS_Tridemist_Great_Russia
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_ANPILOV_The_Wise_Words_of_Engels

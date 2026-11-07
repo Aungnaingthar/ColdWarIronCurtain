@@ -932,7 +932,7 @@ focus_tree = {
 		id = PER_Pan_Iranist_Victory
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		search_filters = {
 			IC_FILTER
 		}
@@ -1035,7 +1035,7 @@ focus_tree = {
 		id = PER_Increase_Public_Sector_Employment
 		completion_reward = {
 		}
-		icon = GFX_JAP_Efforts_to_Increase_Employment_and_Production
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		search_filters = {
 			IC_FILTER
 		}
@@ -1418,7 +1418,7 @@ focus_tree = {
 		id = PER_Peoples_Party_Victory_63
 		completion_reward = {
 		}
-		icon = GFX_Convention_Peoples_Party
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -1543,7 +1543,7 @@ focus_tree = {
 		id = PER_Peoples_Party_Victory_67
 		completion_reward = {
 		}
-		icon = GFX_Convention_Peoples_Party
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}
@@ -1979,7 +1979,7 @@ focus_tree = {
 		id = PER_NIP_PP_Coalition_Victory
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		search_filters = {
 			IC_FILTER
 		}
@@ -2103,7 +2103,7 @@ focus_tree = {
 		id = PER_Develop_the_Imperial_Air_Force
 		completion_reward = {
 		}
-		icon = GFX_bulgarian_air_force
+		icon = GFX_Generic_Jet
 		search_filters = {
 			IC_FILTER
 		}
@@ -2487,7 +2487,7 @@ focus_tree = {
 		id = PER_The_Celebration_of_the_Persian_Empire
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -2568,7 +2568,7 @@ focus_tree = {
 		id = PER_Strengthen_the_Imperial_Ground_Forces
 		completion_reward = {
 		}
-		icon = GFX_Malaysian_Peoples_Liberation_Ground_Force
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		search_filters = {
 			IC_FILTER
 		}
@@ -2896,7 +2896,7 @@ focus_tree = {
 		id = PER_The_Royal_Perogative
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		search_filters = {
 			IC_FILTER
 		}
@@ -3312,7 +3312,7 @@ focus_tree = {
 		id = PER_The_Modern_Day_Cyrus
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		search_filters = {
 			IC_FILTER
 		}

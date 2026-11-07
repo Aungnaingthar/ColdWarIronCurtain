@@ -48,7 +48,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN76_Push_for_Clean_Power
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_icon_george_mcgovern
+		icon = GFX_Hydroelectric_Dam_Development
 		search_filters = {
 			IC_FILTER
 		}
@@ -116,7 +116,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN76_Establish_the_Department_of_Energy
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_icon_george_mcgovern
+		icon = GFX_Nuclear_Energy
 		search_filters = {
 			IC_FILTER
 		}
@@ -293,7 +293,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN76_Privitize_Amtrak
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_icon_george_mcgovern
+		icon = GFX_generic_focus_politics_stamped_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -409,7 +409,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN76_Raise_the_Minimum_Wage
 		text_icon = USA_focus_style
-		icon = GFX_SOV_increase_the_minimum_wages_of_workers_and_employees
+		icon = GFX_generic_focus_politics_petition
 		search_filters = {
 			IC_FILTER
 		}
@@ -435,7 +435,7 @@ focus_tree = {
 			add_political_power = 50
 		}
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_icon_george_mcgovern
+		icon = GFX_Space_Exploration_NASA
 		search_filters = {
 			IC_FILTER
 		}
@@ -452,7 +452,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN76_CERCLA_Act
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_icon_george_mcgovern
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}

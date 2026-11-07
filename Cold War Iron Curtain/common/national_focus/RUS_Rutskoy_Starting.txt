@@ -18,7 +18,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_The_Armed_Forces_Ready_and_Sound
-		icon = GFX_Indian_Armed_Forces
+		icon = GFX_The_Armed_Forces_of_the_Russian_Federation
 		cost = 10.00
 		x = 18
 		y = 0
@@ -37,7 +37,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_Raise_the_Question_of_the_Status_of_Former_Republics
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_All_Against_Yeltsin
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_Weapons_at_Hand
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_All_Against_Yeltsin
@@ -70,7 +70,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_The_Moldovan_Question
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_Raise_the_Question_of_the_Status_of_Former_Republics
@@ -84,7 +84,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_Find_a_Common_Ground
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_The_Moldovan_Question
@@ -98,7 +98,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_The_Nukes_in_the_Former_Republics
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_Weapons_at_Hand
@@ -109,7 +109,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_Lay_the_Framework
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_The_Moldovan_Question
@@ -123,7 +123,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_The_Budapest_Memorandum
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_Lay_the_Framework
@@ -151,7 +151,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_A_Breakthrough_in_Diplomacy
-		icon = GFX_RUS_Open_Door_Diplomacy
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_The_Budapest_Memorandum
@@ -165,7 +165,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_Mobilize_the_Ranks
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_The_Armed_Forces_Ready_and_Sound
@@ -218,7 +218,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_Deploy_the_Black_Sea_Fleet
-		icon = GFX_Develop_Black_Sea_resorts
+		icon = GFX_BluewaterNavy
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_Place_Troops_on_the_Ukranian_Border
@@ -268,7 +268,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_On_the_Wide_Kazakh_Steppes
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_Deploy_the_Black_Sea_Fleet
@@ -280,7 +280,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_The_Secret_Plan
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_On_the_Wide_Kazakh_Steppes
@@ -300,7 +300,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_The_Final_Ultimatum
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_On_the_Breezing_Sea_of_Crimea
@@ -354,7 +354,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_Final_Straw_for_Lukashenko
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = RUS_Special_Military_Operation_in_Kazakhistan

@@ -1996,7 +1996,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Lay_off_Quirinio_Supporters
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -2144,7 +2144,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Redistrubute_Hacienda_Lands
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		search_filters = {
 			IC_FILTER
 		}
@@ -2168,7 +2168,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Enforced_Publicy_Servant_Morality_Disciplines
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		search_filters = {
 			IC_FILTER
 		}
@@ -2265,7 +2265,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Reintroduce_Spanish
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -3075,7 +3075,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Embrace_American_Capitalism
-		icon = GFX_Embrace_American_Influence
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		icon = usa_50_fiscal_aid_for_indonesia_phillip
 		search_filters = {
 			IC_FILTER
@@ -3488,7 +3488,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Pass_the_Laurel_Langley_Agreement
-		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
+		icon = GFX_president_jose_laurel
 		search_filters = {
 			IC_FILTER
 		}
@@ -3516,7 +3516,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Maintain_Trading_with_USA
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -3540,7 +3540,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Accept_Extra_American_Econmic_Aid
-		icon = GFX_VIE_Accept_American_Mil_Aid
+		icon = GFX_generic_focus_usa_american_aid_crates
 		search_filters = {
 			IC_FILTER
 		}
@@ -3571,7 +3571,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Preserve_Lower_Exchange_Rates
-		icon = GFX_EstablishNewForeignExchangeRates
+		icon = GFX_generic_focus_politics_sealed_letter
 		search_filters = {
 			IC_FILTER
 		}
@@ -3624,7 +3624,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Cut_Down_on_Unnecessary_Expenses
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		search_filters = {
 			IC_FILTER
 		}
@@ -3644,7 +3644,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Devalue_the_Peso
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		search_filters = {
 			IC_FILTER
 		}
@@ -3737,7 +3737,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Found_SUNFED
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		search_filters = {
 			IC_FILTER
 		}
@@ -3799,7 +3799,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Diversify_our_Trading_Partners
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		search_filters = {
 			IC_FILTER
 		}
@@ -3852,7 +3852,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Request_International_Economic_Aid
-		icon = GFX_PRC_request_for_international_aid
+		icon = GFX_usa_50_international_aid_for_hungarian_refugees
 		search_filters = {
 			IC_FILTER
 		}
@@ -3876,7 +3876,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Promote_Japanese_Filipino_Technological_Exchange
-		icon = GFX_VIE_Promote_JAP_Tech_Exchanges
+		icon = GFX_revive_filipino_culture
 		search_filters = {
 			IC_FILTER
 		}
@@ -3978,7 +3978,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Organize_Irrigation_Rural_Infrastructure_Construction
-		icon = GFX_Ramp_up_Infrastructure_Construction_in_Salisbury
+		icon = GFX_Begin_infrastructure_efforts
 		icon = PHI_Organize_Irrigation_Rural_Infrastructure_Construction
 		search_filters = {
 			IC_FILTER
@@ -4029,7 +4029,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Expand_LASEDECO_EDCOR
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		search_filters = {
 			IC_FILTER
 		}
@@ -4052,7 +4052,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Expand_Rural_Settlements
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		search_filters = {
 			IC_FILTER
 		}
@@ -4244,7 +4244,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Muslim_Christian_Pledge_of_Brotherhood
-		icon = GFX_Crush_the_Muslim_Brotherhood
+		icon = GFX_goal_islam
 		search_filters = {
 			IC_FILTER
 		}
@@ -4475,7 +4475,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Modernize_NAWASA_Manila_Sewers
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		search_filters = {
 			IC_FILTER
 		}
@@ -4572,7 +4572,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_The_Jeepey_Phenonmenon
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -4600,7 +4600,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Retooling_Zombie_Cars
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -4753,7 +4753,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_MRR_Dieselization_Program
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -4809,7 +4809,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_The_Huklabahap_Rebellion
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 2.00
 		x = 52
 		y = 11
@@ -4821,7 +4821,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Create_Closer_Ties_with_Free_Countries
-		icon = GFX_Seek_a_Closer_Ties_with_the_Russian_Federation
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 4
 		prerequisite = {
 			focus = PHI_The_Huklabahap_Rebellion
@@ -4851,7 +4851,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_The_Indochina_War
-		icon = GFX_usa_50_indochina_war
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 2
 		prerequisite = {
 			focus = PHI_Create_Closer_Ties_with_Free_Countries
@@ -4865,7 +4865,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Support_South_Vietnam
-		icon = GFX_Buddhist_Persicution_in_South_Vietnam
+		icon = GFX_usa_50_stand_with_south_vietnam
 		cost = 5
 		prerequisite = {
 			focus = PHI_The_Indochina_War
@@ -4927,7 +4927,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Settling_Cha_Va_Refugees
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 5
 		prerequisite = {
 			focus = PHI_The_Indochina_War
@@ -4960,7 +4960,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Resettling_Chinese_Refugees
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 3
 		prerequisite = {
 			focus = PHI_The_Huklabahap_Rebellion
@@ -4998,7 +4998,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Closer_Ties_to_Washington
-		icon = GFX_Seek_a_Closer_Ties_with_the_Russian_Federation
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 5
 		prerequisite = {
 			focus = PHI_The_Huklabahap_Rebellion
@@ -5046,7 +5046,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Defeat_of_The_Huklabahap
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 5
 		prerequisite = {
 			focus = PHI_Issue_Amnesty_for_Communist_Guerilas
@@ -5065,7 +5065,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_The_Fall_of_the_Manila
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 5
 		prerequisite = {
 			focus = PHI_Issue_Amnesty_for_Communist_Guerilas
@@ -5085,7 +5085,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_The_Creation_of_SEATO
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 5
 		prerequisite = {
 			focus = PHI_The_Fall_of_the_Manila
@@ -5117,7 +5117,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PHI_Send_Volunteers_to_Korea
-		icon = GFX_Gre_send_support_Korea
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 4
 		prerequisite = {
 			focus = PHI_The_Korean_War

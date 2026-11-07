@@ -19,7 +19,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_assist_russian_transition
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_confidential_files
 	cost = 10
 	prerequisite = { focus = USA90_FP93_post_soviet_strategy }
 	mutually_exclusive = { focus = USA90_FP93_contain_russian_revisionism }
@@ -35,7 +35,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_contain_russian_revisionism
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_sealed_letter
 	cost = 10
 	prerequisite = { focus = USA90_FP93_post_soviet_strategy }
 	mutually_exclusive = { focus = USA90_FP93_assist_russian_transition }
@@ -45,7 +45,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_partnership_for_peace
-	icon = GFX_Partnership_for_Peace
+	icon = GFX_Push_for_Partnership_for_Peace
 	cost = 10
 	prerequisite = { focus = USA90_FP93_assist_russian_transition focus = USA90_FP93_contain_russian_revisionism }
 	x = 30
@@ -54,7 +54,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_secure_former_soviet_arsenals
-	icon = GFX_usa_50_secure_beirut_internationl
+	icon = GFX_Five_Year_Plan
 	cost = 10
 	prerequisite = { focus = USA90_FP93_partnership_for_peace }
 	x = 30
@@ -69,7 +69,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_continued_bipolar_strategy
-	icon = GFX_usa_continued_diplomatic_meetings
+	icon = GFX_generic_focus_politics_typewriter
 	cost = 10
 	prerequisite = { focus = USA90_FP93_state_department }
 	available = { CWIC_90S_CONTINUED_BIPOLAR_ORDER = yes }
@@ -89,7 +89,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_reinvigorated_containment
-	icon = GFX_usa_50_containment_policy
+	icon = GFX_generic_focus_politics_parliament_handshake
 	cost = 10
 	prerequisite = { focus = USA90_FP93_continued_bipolar_strategy }
 	mutually_exclusive = { focus = USA90_FP93_renewed_arms_control }
@@ -99,7 +99,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_hold_the_alliance_together
-	icon = GFX_usa_50_the_kmt_holds_on
+	icon = GFX_generic_focus_diplomacy_peace_talks
 	cost = 10
 	prerequisite = { focus = USA90_FP93_renewed_arms_control focus = USA90_FP93_reinvigorated_containment }
 	x = 38
@@ -108,7 +108,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_european_basing_review
-	icon = GFX_USA80MIL_Introduce_System_Requirement_Reviews_to_Prevent_Cost_Overruns
+	icon = GFX_generic_focus_politics_paperwork_and_telephone
 	cost = 10
 	prerequisite = { focus = USA90_FP93_hold_the_alliance_together }
 	x = 38
@@ -117,7 +117,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_balkan_crisis
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_parliament_handshake
 	cost = 10
 	prerequisite = { focus = USA90_FP93_state_department }
 	x = 50
@@ -130,7 +130,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_bosnia_choice
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_scrutinised_document
 	cost = 10
 	prerequisite = { focus = USA90_FP93_balkan_crisis }
 	mutually_exclusive = { focus = USA90_FP93_bosnian_restraint }
@@ -169,7 +169,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_deliberate_force
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_newspaper
 	cost = 10
 	prerequisite = { focus = USA90_FP93_bosnia_choice }
 	x = 48
@@ -183,7 +183,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_srebrenica
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_document_under_the_lamp
 	cost = 10
 	prerequisite = { focus = USA90_FP93_bosnian_restraint }
 	x = 52
@@ -214,7 +214,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_reverse_course
-	icon = GFX_JAP_The_Reverse_Course
+	icon = GFX_generic_focus_politics_two_officials
 	cost = 10
 	prerequisite = { focus = USA90_FP93_srebrenica }
 	mutually_exclusive = { focus = USA90_FP93_frozen_war }
@@ -231,7 +231,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_dayton_process
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_typewriter
 	cost = 10
 	prerequisite = { focus = USA90_FP93_deliberate_force focus = USA90_FP93_reverse_course }
 	available = { NOT = { has_global_flag = USA90_bosnia_frozen } }
@@ -264,7 +264,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_rwanda_decision
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_newspaper
 	cost = 10
 	prerequisite = { focus = USA90_FP93_somalia_after_action }
 	mutually_exclusive = { focus = USA90_FP93_rwanda_inaction }
@@ -274,7 +274,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_rwanda_inaction
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_typewriter
 	cost = 10
 	prerequisite = { focus = USA90_FP93_somalia_after_action }
 	mutually_exclusive = { focus = USA90_FP93_rwanda_decision }
@@ -302,7 +302,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_iraq_containment
-	icon = GFX_usa_50_containment_policy
+	icon = GFX_generic_focus_politics_cabinet_meeting
 	cost = 10
 	prerequisite = { focus = USA90_FP93_state_department }
 	x = 56
@@ -319,7 +319,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_northern_watch
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_newspaper
 	cost = 10
 	prerequisite = { focus = USA90_FP93_iraq_containment }
 	x = 54
@@ -331,7 +331,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_southern_watch
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_parliament_handshake
 	cost = 10
 	prerequisite = { focus = USA90_FP93_iraq_containment }
 	x = 58
@@ -343,7 +343,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_tighten_sanctions
-	icon = GFX_usa_fp_generic_sanctions
+	icon = GFX_generic_focus_politics_calling_the_ministry
 	cost = 10
 	prerequisite = { focus = USA90_FP93_iraq_containment }
 	mutually_exclusive = { focus = USA90_FP93_oil_for_food }
@@ -377,7 +377,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_unscom
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_confidential_files
 	cost = 10
 	prerequisite = { focus = USA90_FP93_tighten_sanctions focus = USA90_FP93_oil_for_food }
 	x = 56
@@ -389,7 +389,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_inspections_hold
-	icon = GFX_usa_50_the_kmt_holds_on
+	icon = GFX_generic_focus_politics_sealed_letter
 	cost = 10
 	prerequisite = { focus = USA90_FP93_unscom }
 	mutually_exclusive = { focus = USA90_FP93_inspections_break }
@@ -404,7 +404,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_inspections_break
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_calling_the_ministry
 	cost = 10
 	prerequisite = { focus = USA90_FP93_unscom }
 	mutually_exclusive = { focus = USA90_FP93_inspections_hold }
@@ -420,7 +420,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_desert_fox
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_typewriter
 	cost = 10
 	prerequisite = { focus = USA90_FP93_inspections_break }
 	x = 58
@@ -478,7 +478,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_harder_inspections
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_two_officials
 	cost = 10
 	prerequisite = { focus = USA90_FP93_north_korean_framework }
 	mutually_exclusive = { focus = USA90_FP93_fund_the_framework focus = USA90_FP93_strike_option }
@@ -498,7 +498,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP93_strike_option
-	icon = GFX_usa_fp80_analyze_our_strategic_options
+	icon = GFX_generic_focus_politics_scrutinised_document
 	cost = 10
 	prerequisite = { focus = USA90_FP93_north_korean_framework }
 	mutually_exclusive = { focus = USA90_FP93_fund_the_framework focus = USA90_FP93_harder_inspections }
@@ -516,7 +516,7 @@ shared_focus = {
 
 shared_focus = {
 	id = USA90_MIL93_force_posture_review
-	icon = GFX_USA80MIL_Introduce_System_Requirement_Reviews_to_Prevent_Cost_Overruns
+	icon = GFX_generic_focus_politics_ministers_briefcase
 	cost = 10
 	x = 72
 	y = 0
@@ -524,7 +524,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_MIL93_smaller_expeditionary_force
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_two_officials
 	cost = 10
 	prerequisite = { focus = USA90_MIL93_force_posture_review }
 	mutually_exclusive = { focus = USA90_MIL93_retain_two_front_force }
@@ -534,7 +534,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_MIL93_retain_two_front_force
-	icon = GFX_usa_50_funding_the_cia_front_lines
+	icon = GFX_generic_focus_politics_scrutinised_document
 	cost = 10
 	prerequisite = { focus = USA90_MIL93_force_posture_review }
 	mutually_exclusive = { focus = USA90_MIL93_smaller_expeditionary_force }
@@ -544,7 +544,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_MIL93_base_realignment
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_two_officials
 	cost = 10
 	prerequisite = { focus = USA90_MIL93_smaller_expeditionary_force focus = USA90_MIL93_retain_two_front_force }
 	x = 72
@@ -562,7 +562,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_MIL93_precision_and_networks
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_confidential_files
 	cost = 10
 	prerequisite = { focus = USA90_MIL93_revolution_in_military_affairs }
 	x = 72
@@ -571,7 +571,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_MIL93_special_operations_growth
-	icon = GFX_Rutskoy_Special_Military_Operation_in_Ukraine
+	icon = GFX_generic_focus_politics_decree_and_telephone
 	cost = 10
 	prerequisite = { focus = USA90_MIL93_precision_and_networks }
 	x = 72
@@ -580,7 +580,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_MIL93_peacekeeping_readiness
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_ministers_briefcase
 	cost = 10
 	prerequisite = { focus = USA90_MIL93_special_operations_growth }
 	x = 72
@@ -590,7 +590,7 @@ shared_focus = {
 
 shared_focus = {
 	id = USA90_INT93_emerging_networks
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_ministers_briefcase
 	cost = 10
 	x = 82
 	y = 0
@@ -598,7 +598,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_INT93_joint_task_forces
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_press_statement
 	cost = 10
 	prerequisite = { focus = USA90_INT93_emerging_networks }
 	x = 82
@@ -607,7 +607,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_INT93_interagency_center
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_scrutinised_document
 	cost = 10
 	prerequisite = { focus = USA90_INT93_joint_task_forces }
 	x = 82
@@ -634,7 +634,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_INT93_map_transnational_finance
-	icon = GFX_Expand_Heavy_Industry
+	icon = GFX_Generic_Trade
 	cost = 10
 	prerequisite = { focus = USA90_INT93_embassy_security_program }
 	x = 82
@@ -645,7 +645,7 @@ shared_focus = {
 # Shared 1997-2001 modules.
 shared_focus = {
 	id = USA90_FP97_global_engagement
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_scrutinised_document
 	cost = 10
 	x = 34
 	y = 0
@@ -653,7 +653,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP97_nato_enlargement
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_two_officials
 	cost = 10
 	prerequisite = { focus = USA90_FP97_global_engagement }
 	available = { CWIC_90S_POST_SOVIET_ORDER = yes }
@@ -663,7 +663,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP97_kosovo_crisis
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_newspaper
 	cost = 10
 	prerequisite = { focus = USA90_FP97_nato_enlargement }
 	x = 30
@@ -688,7 +688,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP97_manage_yeltsin_russia
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_decree_and_telephone
 	cost = 10
 	prerequisite = { focus = USA90_FP97_kosovo_crisis }
 	x = 30
@@ -717,7 +717,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP97_late_detente
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_cabinet_meeting
 	cost = 10
 	prerequisite = { focus = USA90_FP97_second_cold_war_pressure }
 	mutually_exclusive = { focus = USA90_FP97_proxy_competition }
@@ -727,7 +727,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP97_alliance_cohesion
-	icon = GFX_usa_50_reaffirm_local_alliances
+	icon = GFX_generic_focus_diplomacy_peace_talks
 	cost = 10
 	prerequisite = { focus = USA90_FP97_proxy_competition focus = USA90_FP97_late_detente }
 	x = 38
@@ -736,7 +736,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP97_engage_china
-	icon = GFX_usa80_engage_with_potential_post_soviet_leaders
+	icon = GFX_usa_80_engage_with_soviet_muslims
 	cost = 10
 	prerequisite = { focus = USA90_FP97_global_engagement }
 	x = 44
@@ -745,7 +745,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP97_iraq_and_inspections
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_calling_the_ministry
 	cost = 10
 	prerequisite = { focus = USA90_FP97_engage_china }
 	x = 44
@@ -798,7 +798,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_FP97_humanitarian_doctrine
-	icon = GFX_usa_80_humanitarian_disaster
+	icon = GFX_generic_focus_politics_calling_the_ministry
 	cost = 10
 	prerequisite = { focus = USA90_FP97_north_korean_diplomacy }
 	mutually_exclusive = { focus = USA90_FP97_strategic_restraint }
@@ -819,7 +819,7 @@ shared_focus = {
 
 shared_focus = {
 	id = USA90_MIL97_network_centric_force
-	icon = GFX_generic_focus_politics_press_statement
+	icon = GFX_generic_focus_politics_confidential_files
 	cost = 10
 	x = 54
 	y = 0
@@ -827,7 +827,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_MIL97_precision_dominance
-	icon = GFX_usa80_solidify_western_dominance_in_angola
+	icon = GFX_generic_focus_politics_ministers_briefcase
 	cost = 10
 	prerequisite = { focus = USA90_MIL97_network_centric_force }
 	x = 54
@@ -836,7 +836,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_MIL97_special_operations_liaison
-	icon = GFX_Rutskoy_Special_Military_Operation_in_Ukraine
+	icon = GFX_generic_focus_politics_newspaper
 	cost = 10
 	prerequisite = { focus = USA90_MIL97_precision_dominance }
 	x = 54
@@ -863,7 +863,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_INT97_foreign_liaison_network
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_scrutinised_document
 	cost = 10
 	prerequisite = { focus = USA90_INT97_pursue_al_qaeda }
 	x = 64
@@ -890,7 +890,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = USA90_INT97_millennium_watch
-	icon = GFX_generic_focus_politics_paperwork_and_telephone
+	icon = GFX_generic_focus_politics_newspaper
 	cost = 10
 	prerequisite = { focus = USA90_INT97_embassy_hardening }
 	x = 64

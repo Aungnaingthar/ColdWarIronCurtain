@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = GDR_The_Second_Five_Year_Plan
 	focus = {
 		id = GDR_First_Secretary_Dahlem
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		x = 7
 		y = 0
@@ -301,7 +301,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Outreach_to_the_Deutsche_Reichspartei
-		icon = GFX_GDR_Launch_an_Outreach_to_the_EKD
+		icon = GFX_Deutsche_an_einem_Tisch
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Expand_KPD_Funding
@@ -351,7 +351,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reinstate_Purged_Volkspolizei
-		icon = GFX_focus_gdr_volkspolizei
+		icon = GFX_GDR_Reinstate_Ulbricht_to_the_Party
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Start_an_Arms_Race_Against_Bonn
@@ -404,7 +404,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Begin_Rebuilding_the_German_Arms_Industry
-		icon = GFX_Begin_Rebuilding
+		icon = GFX_Strip_Ankara_Arms_Industry
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Request_Further_Soviet_Military_Aid

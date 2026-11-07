@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_DOLE_88_The_Dole_Administration
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		x = 5
 		y = 0
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE_88_Abolish_the_Departments_of_Commerce_and_Energy
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_Nuclear_Energy
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE_88_The_Americans_with_Disability_Act
@@ -58,7 +58,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE_88_Abolish_the_Departments_of_Education_and_HUD
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_Invest_in_Education
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE_88_The_Dole_Administration
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE_88_Veto_the_1990_Civil_Rights_Act
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE_88_Oil_Pollution_Act
@@ -146,7 +146,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE_88_The_Budget_Enforcement_Act
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE_88_Biological_Weapons_Anti_Terrorism_Act
@@ -165,7 +165,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE_88_Push_for_the_Balanced_Budget_Amendment
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE_88_The_Budget_Enforcement_Act
@@ -234,7 +234,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE_88_Immigration_Act_of_1990
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE_88_Weapons_of_Mass_Destruction_Control_Act
@@ -250,7 +250,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE_88_The_Flag_Protection_Act
-		icon = GFX_Trump_Flag_Act
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE_88_Energy_Independence_Act
@@ -266,7 +266,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE_88_High_Performance_Computing_and_Communication_Act
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE_88_Fast_Track_NAFTA_Proceedings
@@ -285,7 +285,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE_88_An_American_Renaissance
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE_88_Sign_the_North_American_Free_Trade_Agreement
@@ -304,7 +304,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE_88_Fast_Track_NAFTA_Proceedings
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_End_Talks_of_NAFTA
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE_88_Deploy_the_National_Guard_in_the_Drug_War
@@ -329,7 +329,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE_88_Weapons_of_Mass_Destruction_Control_Act
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE_88_Fast_Track_NAFTA_Proceedings
@@ -372,7 +372,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE_88_Energy_Independence_Act
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_Nuclear_Energy
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE_88_Amend_the_Clean_Air_Act

@@ -9,7 +9,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_3_Districts
-        icon = GFX_generic_focus_politics_press_statement
+        icon = GFX_generic_focus_politics_decree_and_telephone
         cost = 4
         x = 10
         y = 0
@@ -22,7 +22,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Delegation
-        icon = GFX_generic_focus_politics_press_statement
+        icon = GFX_generic_focus_politics_document_under_the_lamp
         cost = 5
         x = 0
         y = 1
@@ -60,7 +60,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Massud_Sabri
-        icon = GFX_generic_focus_politics_press_statement
+        icon = GFX_generic_focus_politics_typewriter
         cost = 4
         x = -5
         y = 1
@@ -103,7 +103,7 @@ focus_tree = {
         id = ETR_CCP
         completion_reward = {
 		}
-        icon = GFX_generic_focus_politics_press_statement
+        icon = GFX_generic_focus_politics_signed_decree
         cost = 4
         x = 5
         y = 1
@@ -120,7 +120,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Uyghur_SAR
-        icon = GFX_generic_focus_politics_press_statement
+        icon = GFX_generic_focus_politics_decree_and_telephone
         cost = 4
         x = -2
         y = 1
@@ -141,7 +141,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_Total_Annex
-        icon = GFX_generic_focus_politics_press_statement
+        icon = GFX_generic_focus_politics_confidential_files
         cost = 4
         x = 2
         y = 1

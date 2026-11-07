@@ -173,7 +173,7 @@ focus_tree = {
 	focus = {
 		id = USA_RFK72_Disaster_Relieft_Act
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_humanitarian_disaster
+		icon = GFX_Commit_to_Reform
 		search_filters = {
 			IC_FILTER
 		}
@@ -197,7 +197,7 @@ focus_tree = {
 	focus = {
 		id = USA_RFK72_Federal_Fire_Prevention_Act
 		text_icon = USA_focus_style
-		icon = GFX_JAP_The_Subversive_Activities_Prevention_Act
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}
@@ -286,7 +286,7 @@ focus_tree = {
 	focus = {
 		id = USA_RFK72_Ratify_the_ERA
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		search_filters = {
 			IC_FILTER
 		}
@@ -307,7 +307,7 @@ focus_tree = {
 	focus = {
 		id = USA_RFK72_Strengthen_Enviromental_Regulations
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		search_filters = {
 			IC_FILTER
 		}
@@ -399,7 +399,7 @@ focus_tree = {
 	focus = {
 		id = USA_RFK72_Inner_City_Economic_Development_Grants
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_infrastructure_grants
+		icon = GFX_Economic_Reconstruction_Generic
 		search_filters = {
 			IC_FILTER
 		}

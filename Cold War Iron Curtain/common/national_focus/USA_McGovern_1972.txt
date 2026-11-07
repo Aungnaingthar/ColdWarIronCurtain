@@ -133,7 +133,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN72_Decriminalize_Marijuana
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_icon_george_mcgovern
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		search_filters = {
 			IC_FILTER
 		}
@@ -151,7 +151,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN72_Endangered_Species_Act
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_icon_george_mcgovern
+		icon = GFX_Commit_to_Reform
 		search_filters = {
 			IC_FILTER
 		}
@@ -172,7 +172,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN72_Disaster_Relieft_Act
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_icon_george_mcgovern
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}
@@ -196,7 +196,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN72_Federal_Fire_Prevention_Act
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_icon_george_mcgovern
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -288,7 +288,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN72_Ratify_the_ERA
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_icon_george_mcgovern
+		icon = GFX_generic_focus_politics_two_officials
 		search_filters = {
 			IC_FILTER
 		}
@@ -309,7 +309,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN72_Reform_Welfare_Bureacracy
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_icon_george_mcgovern
+		icon = GFX_Welfare_State
 		search_filters = {
 			IC_FILTER
 		}
@@ -376,7 +376,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN72_Come_Home_America
 		text_icon = USA_focus_style
-		icon = GFX_goal_USA_america_economic_miracle
+		icon = GFX_generic_focus_politics_confidential_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -400,7 +400,7 @@ focus_tree = {
 	focus = {
 		id = USA_MCGOVERN72_Implement_the_Earned_Income_Tax_Credit
 		text_icon = USA_focus_style
-		icon = GFX_TUR_Implement_Tax_Reform
+		icon = GFX_Invest_in_modern_industry
 		search_filters = {
 			IC_FILTER
 		}

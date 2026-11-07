@@ -12340,7 +12340,7 @@ shared_focus = {
 }
 shared_focus = {
     id = PRC_Another_face_of_New_China
-    icon = GFX_PRC_50s_Found_The_People_s_Republic_of_China
+    icon = GFX_generic_focus_politics_sealed_letter
     cost = 0.7
     x = 74
     y = 3
@@ -12375,7 +12375,7 @@ shared_focus = {
 }
 shared_focus = {
     id = PRC_transfer_of_power_to_the_Supreme_Council_of_State
-    icon = GFX_Transfer_Presidential_Power_to_Otilio_Ulate_Blanco
+    icon = GFX_goal_oil_derrick
     cost = 1.5
     x = 72
     y = 4
@@ -12398,7 +12398,7 @@ shared_focus = {
 }
 shared_focus = {
     id = PRC_regular_supreme_meeting
-    icon = GFX_PRC_50s_Lushan_Meeting
+    icon = GFX_generic_focus_politics_decree_and_telephone
     cost = 1.5
     x = 76
     y = 4

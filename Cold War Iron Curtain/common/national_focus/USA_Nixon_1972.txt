@@ -155,7 +155,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON72_Endangered_Species_Act
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_usa_nixon
+		icon = GFX_Commit_to_Reform
 		search_filters = {
 			IC_FILTER
 		}
@@ -176,7 +176,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON72_Disaster_Relieft_Act
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_usa_nixon
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}
@@ -200,7 +200,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON72_Federal_Fire_Prevention_Act
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_usa_nixon
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}

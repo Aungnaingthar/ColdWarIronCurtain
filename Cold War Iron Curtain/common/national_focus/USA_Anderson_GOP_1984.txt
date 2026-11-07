@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_Womens_Economic_Equity_Act
-		icon = GFX_Economic_Reconstruction_Generic
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_The_Anderson_Administration
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_Budget_Enforcement_Act
-		icon = GFX_usa_80_increase_sanction_enforcement
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_Womens_Economic_Equity_Act
@@ -91,7 +91,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_Drug_Addiction_Treatment_Act
-		icon = GFX_usa_50_cia_condemn_indonesian_treatment
+		icon = GFX_generic_focus_politics_court_of_law
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_Budget_Enforcement_Act
@@ -110,7 +110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_Protecting_American_Seniors_Act
-		icon = GFX_American_with_Disability_act
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_Drug_Addiction_Treatment_Act
@@ -126,7 +126,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_Establish_the_Economic_Consensus_Commission
-		icon = GFX_Establish_Refugee_Resettlement_Commission
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_Womens_Economic_Equity_Act
@@ -178,7 +178,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_Labor_Management_Consensus_Act_of_1987
-		icon = GFX_usa_truman_labor_relations_act
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_Chaffee_Gephardt_Tax_Reform
@@ -194,7 +194,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_The_Firearm_Violence_Prevention_Act
-		icon = GFX_JAP_The_Subversive_Activities_Prevention_Act
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_Labor_Management_Consensus_Act_of_1987
@@ -213,7 +213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_Electronic_Communications_Privacy_Act
-		icon = GFX_Electronic_Industry_Subsidies_Act
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_The_Firearm_Violence_Prevention_Act
@@ -229,7 +229,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_Privacy_Safeguards_Act
-		icon = GFX_usa_80_safeguard_anti_apartheid_movement
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_Computer_Security_Act
@@ -271,7 +271,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_Comprehensive_Anti_Apartheid_Act
-		icon = GFX_usa_80_safeguard_anti_apartheid_movement
+		icon = GFX_usa_80_target_the_anti_apartheid_movement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_Investing_in_Americas_Future_Act
@@ -288,7 +288,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_Civil_Rights_Restoration_Act
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_Electronic_Communications_Privacy_Act
@@ -307,7 +307,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_Seek_an_Immigration_Compromise
-		icon = GFX_usa_80_compromise_with_nicaragua
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_Comprehensive_Anti_Apartheid_Act
@@ -325,7 +325,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_The_Mental_Health_Systems_Expansion_Act
-		icon = GFX_VIE_Quang_Reform_Health_System
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_Seek_an_Immigration_Compromise
@@ -357,7 +357,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP84_Investing_in_Americas_Future_Act
-		icon = GFX_goal_USA_america_economic_miracle
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP84_Protecting_American_Seniors_Act

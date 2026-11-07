@@ -463,7 +463,7 @@ shared_focus = {
 shared_focus = {
 	id = USA_70s_The_Chinese_Question
 	text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 	search_filters = {
 		IC_FILTER
 	}

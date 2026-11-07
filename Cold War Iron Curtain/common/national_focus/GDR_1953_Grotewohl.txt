@@ -246,7 +246,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Promote_Ebert
-		icon = GFX_GDR_Promote_Consumer_Goods_Production
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Sideline_Ulbricht

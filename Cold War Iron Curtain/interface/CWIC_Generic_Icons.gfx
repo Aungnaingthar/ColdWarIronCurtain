@@ -1759,7 +1759,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_generic_focus_military_placeholder"
-		texturefile = "gfx/interface/goals/USA_1980s/July/usa_80_modernize_perus_military.png"
+		texturefile = "gfx/interface/goals/goal_generic_NavalBases.dds"
 	}
 
 	SpriteType = {

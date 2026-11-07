@@ -12,7 +12,7 @@ focus_tree = {
 		id = FRA_70s_The_French_Military
 		completion_reward = {
 		}
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		search_filters = {
 			IC_FILTER
 		}
@@ -66,7 +66,7 @@ focus_tree = {
 		id = FRA_70s_Trentes_Glorieuses_End
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_stamped_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -269,7 +269,7 @@ focus_tree = {
 		id = FRA_70s_Leave_Snake_in_the_Tunnel
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		search_filters = {
 			IC_FILTER
 		}
@@ -613,7 +613,7 @@ focus_tree = {
 		id = FRA_70s_VGE_74
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -885,7 +885,7 @@ focus_tree = {
 		id = FRA_70s_Marchais
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_Marchais_Increase
 		search_filters = {
 			IC_FILTER
 		}
@@ -907,7 +907,7 @@ focus_tree = {
 		id = FRA_70s_Mitterand_74
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -1140,7 +1140,7 @@ focus_tree = {
 		id = FRA_70s_Tactical_Nuclear_Jaguar
 		completion_reward = {
 		}
-		icon = GFX_FRA_Nuclear_Five_year_Plan
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -1189,7 +1189,7 @@ focus_tree = {
 		id = FRA_70s_SuperMirage_Development
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		search_filters = {
 			IC_FILTER
 		}
@@ -1281,7 +1281,7 @@ focus_tree = {
 		id = FRA_70s_Denuclearization
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		search_filters = {
 			IC_FILTER
 		}
@@ -1385,7 +1385,7 @@ focus_tree = {
 		id = FRA_70s_Develop_Leclerc
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		search_filters = {
 			IC_FILTER
 		}
@@ -1521,7 +1521,7 @@ focus_tree = {
 		id = FRA_70s_Create_new_Region
 		completion_reward = {
 		}
-		icon = GFX_SOV_Create_Fortified_Region_Far_East
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		search_filters = {
 			IC_FILTER
 		}
@@ -1559,7 +1559,7 @@ focus_tree = {
 		id = FRA_70s_Montparnasse_tower
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_Construct_radio_towers
 		search_filters = {
 			IC_FILTER
 		}
@@ -1619,7 +1619,7 @@ focus_tree = {
 		id = FRA_70s_FECOM_Creation
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		search_filters = {
 			IC_FILTER
 		}
@@ -1670,7 +1670,7 @@ focus_tree = {
 		id = FRA_70s_Pompidou_death
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		search_filters = {
 			IC_FILTER
 		}
@@ -1691,7 +1691,7 @@ focus_tree = {
 		id = FRA_70s_Stop_Atmospheric_Nuclear_Test
 		completion_reward = {
 		}
-		icon = GFX_stop_liberalization_FRA
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -1710,7 +1710,7 @@ focus_tree = {
 		id = FRA_70s_Accelerate_the_Nuclear_Program
 		completion_reward = {
 		}
-		icon = GFX_FRA_Nuclear_Five_year_Plan
+		icon = GFX_British_Nuclear_program
 		search_filters = {
 			IC_FILTER
 		}
@@ -1860,7 +1860,7 @@ focus_tree = {
 		id = FRA_70s_Paris_Status_Reform
 		completion_reward = {
 		}
-		icon = GFX_FRA_Education_Reform
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -2061,7 +2061,7 @@ focus_tree = {
 		id = FRA_70s_Establish_the_UDF
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		search_filters = {
 			IC_FILTER
 		}

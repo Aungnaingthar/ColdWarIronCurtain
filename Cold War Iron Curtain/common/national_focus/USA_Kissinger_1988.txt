@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_KISSINGER88_The_Kissinger_Administration
-		icon = GFX_usa_80_icon_turbo_war_criminal_kissinger
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		x = 5
 		y = 0
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_Judicial_Review_Restoration_Act
-		icon = GFX_Judicial_Improvement_Act_Trump
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_Return_to_the_United_Nations
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_The_Americans_with_Disabilities_Act
-		icon = GFX_usa_80_icon_turbo_war_criminal_kissinger
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_The_Kissinger_Administration
@@ -130,7 +130,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_The_Federal_Reserve_Act_of_1989
-		icon = GFX_usa_80_icon_turbo_war_criminal_kissinger
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_The_Americans_with_Disabilities_Act
@@ -147,7 +147,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_Repeal_the_Communist_Commerce_Exclusion_Act
-		icon = GFX_usa_80_icon_turbo_war_criminal_kissinger
+		icon = GFX_Socialist_Consolidation
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_The_Federal_Reserve_Act_of_1989
@@ -166,7 +166,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_Launch_Investigation_into_the_Western_Goals_Foundation
-		icon = GFX_Launch_Investigations_into_Warlords
+		icon = GFX_usa_80_collab_with_western_goals
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_Repeal_the_Communist_Commerce_Exclusion_Act
@@ -187,7 +187,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_Establish_the_Working_Group_on_Financial_Markets
-		icon = GFX_Expand_Combat_Groups_of_the_Working_Class
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_Repeal_the_Communist_Commerce_Exclusion_Act
@@ -239,7 +239,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_Restrict_Semi_Automatic_Rifle_Imports
-		icon = GFX_PRC_Improve_the_Type_six_three_automatic_rifle
+		icon = GFX_USA80MIL_The_M249_Squad_Automatic_Weapon
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_Restore_Funding_to_American_Schools
@@ -258,7 +258,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_Sign_NAFTA
-		icon = GFX_usa_80_icon_turbo_war_criminal_kissinger
+		icon = GFX_End_Talks_of_NAFTA
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_High_Performance_Computing_and_Communication_Act
@@ -285,7 +285,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_Immigration_Act_of_1990
-		icon = GFX_usa_80_icon_turbo_war_criminal_kissinger
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_Weapons_of_Mass_Destruction_Control_Act
@@ -301,7 +301,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_High_Performance_Computing_and_Communication_Act
-		icon = GFX_usa_80_icon_turbo_war_criminal_kissinger
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_Ryan_White_CARE_Act
@@ -336,7 +336,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_Fast_Track_NAFTA
-		icon = GFX_usa_80_icon_turbo_war_criminal_kissinger
+		icon = GFX_End_Talks_of_NAFTA
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_Biological_Weapons_Anti_Terrorism_Act
@@ -361,7 +361,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_Weapons_of_Mass_Destruction_Control_Act
-		icon = GFX_usa_80_icon_turbo_war_criminal_kissinger
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_Fast_Track_NAFTA
@@ -380,7 +380,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KISSINGER88_Repeal_the_Communist_Control_Act
-		icon = GFX_usa_80_icon_turbo_war_criminal_kissinger
+		icon = GFX_Socialist_Consolidation
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KISSINGER88_Restrict_Semi_Automatic_Rifle_Imports

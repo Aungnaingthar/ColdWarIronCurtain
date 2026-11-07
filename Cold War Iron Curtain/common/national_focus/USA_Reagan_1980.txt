@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_REAGAN80_The_Reagan_Administration
-		icon = GFX_ReaganAdministration
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_REAGAN80_Executive_Order_12333
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = USA_REAGAN80_The_Reagan_Administration
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_REAGAN80_End_Petrolum_Price_and_Allocation_Controls
-		icon = GFX_YUG_Drop_Price_Controls
+		icon = GFX_goal_oil_derrick
 		cost = 10.00
 		prerequisite = {
 			focus = USA_REAGAN80_The_Reagan_Administration
@@ -113,7 +113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_REAGAN80_Tighten_the_Monetary_Supply
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = USA_REAGAN80_Agriculture_and_Food_Act_of_1981
@@ -152,7 +152,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_REAGAN80_Stack_the_NLRB
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_REAGAN80_Hike_Military_Spending
@@ -229,7 +229,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_REAGAN80_Tax_Equity_and_Fiscal_Responsibility_Act_of_1982
-		icon = GFX_Corporate_Tax_Adjustment_Act
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = USA_REAGAN80_Garn_St_Germain_Depository_Institutions_Act
@@ -296,7 +296,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_REAGAN80_Push_to_Relax_the_VRA
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_REAGAN80_Garn_St_Germain_Depository_Institutions_Act
@@ -317,7 +317,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_REAGAN80_What_to_do_about_AIDS
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = USA_REAGAN80_Push_to_Relax_the_VRA
@@ -335,7 +335,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_REAGAN80_National_Minimum_Drinking_Age_Act
-		icon = GFX_National_Security_Act
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_REAGAN80_What_to_do_about_AIDS
@@ -370,7 +370,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_REAGAN80_Push_to_Strip_the_Courts_of_Jurdistriction_Over_School_Prayer_and_Abortion
-		icon = GFX_Push_for_Public_Secular_Schools
+		icon = GFX_Invest_in_Education
 		cost = 10.00
 		prerequisite = {
 			focus = USA_REAGAN80_Tighten_the_Monetary_Supply

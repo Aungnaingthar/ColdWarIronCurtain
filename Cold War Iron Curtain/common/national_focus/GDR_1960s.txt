@@ -721,7 +721,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DDR_60s_Investigate_Libermans_Proposals
-		icon = GFX_Invest_in_modern_industry
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10
 		prerequisite = {
 			focus = DDR_60s_Construct_the_Antifascist_Defence_Rampart
@@ -735,7 +735,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DDR_60s_Consider_Civilian_Economic_Shift
-		icon = GFX_DDR_economic_pact
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10
 		prerequisite = {
 			focus = DDR_60s_Investigate_Libermans_Proposals
@@ -1115,7 +1115,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DDR_60s_Landing_Craft_Modernization
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10
 		prerequisite = {
 			focus = DDR_60s_The_Volksmarine
@@ -1519,7 +1519,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DDR_60s_Ratify_the_Arrangement
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10
 		prerequisite = {
 			focus = DDR_60s_Reject_Apels_Concerns
@@ -1536,7 +1536,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DDR_60s_Rally_Against_Western_Aggression
-		icon = GFX_usa_80_rally_support_against_assad
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = DDR_60s_Investigate_Constitutional_Reform
@@ -1571,7 +1571,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DDR_60s_Hold_a_Constutituonal_Reffernedum		#oh god! it's a double typo!		completion_reward = { log = "[GetDateText]: [Root.GetTag]: id = DDR_60s_Hold_a_Constutituonal_Reffernedum		#oh god! it's a double typo!" }
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = DDR_60s_Solidify_the_Power_of_the_SED
@@ -1587,7 +1587,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DDR_60s_Investigate_Constitutional_Reform
-		icon = GFX_Investigate_Land_Reform
+		icon = GFX_Invest_in_modern_industry
 		cost = 10
 		prerequisite = {
 			focus = DDR_60s_The_Downfall_of_Khruschev
@@ -1889,7 +1889,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DDR_60s_Unity_of_Economic_and_Social_Policy
-		icon = GFX_DDR_economic_pact
+		icon = GFX_Generic_Trade
 		cost = 10
 		prerequisite = {
 			focus = DDR_60s_Emphasize_Abgrenzung

@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_CLINTON84_The_Clinton_Administration
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_The_Rebuild_America_Fund
-		icon = GFX_goal_USA_america_economic_miracle
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_The_Clinton_Administration
@@ -41,7 +41,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_Undo_Executive_Order_12333
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_The_Rebuild_America_Fund
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_Food_Stamp_Expansion_Act
-		icon = GFX_Invest_in_Agriculture
+		icon = GFX_Stamp_out_Corruption
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_Mass_Transit_Modernization_Act
@@ -111,7 +111,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_Review_Social_Security_Purge
-		icon = GFX_usa_truman_social_security_act_50
+		icon = GFX_Social_Security_Act_of_1953
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_Food_Stamp_Expansion_Act
@@ -126,7 +126,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_Establish_a_Youth_Opportunity_Corps
-		icon = GFX_Establish_an_inquiry_about_youth_and_socialism
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_Education_Excellence_Fund
@@ -142,7 +142,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_The_Bradley_Gephardt_Tax_Reform_Act
-		icon = GFX_Corporate_Tax_Adjustment_Act
+		icon = GFX_usa_80_icon_dick_gephardt
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_Establish_a_Youth_Opportunity_Corps
@@ -162,7 +162,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_The_Comprehensive_Anti_Apartheid_Act
-		icon = GFX_usa_80_safeguard_anti_apartheid_movement
+		icon = GFX_usa_80_target_the_anti_apartheid_movement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_The_Bradley_Gephardt_Tax_Reform_Act
@@ -215,7 +215,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_Restore_the_Mental_Health_Systems_Act
-		icon = GFX_VIE_Quang_Reform_Health_System
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_Womens_Economic_Equity_Act
@@ -230,7 +230,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_Counter_NLRB_Packing
-		icon = GFX_usa80_invest_in_counter_terrorist_tactics
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_The_Civil_Rights_Restoration_Act
@@ -249,7 +249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_AIDS_Research_and_Relief_Act
-		icon = GFX_usa_truman_omnibus_medical_research_act
+		icon = GFX_Invest_in_Education
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_Farm_Policy_Reform_Act
@@ -304,7 +304,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_Electronic_Communications_Privacy_Act
-		icon = GFX_Electronic_Industry_Subsidies_Act
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_Farm_Policy_Reform_Act
@@ -339,7 +339,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_Fight_for_the_ERA
-		icon = GFX_usa_80_the_fight_for_self_determination
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_AIDS_Research_and_Relief_Act
@@ -356,7 +356,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CLINTON84_The_Civil_Rights_Restoration_Act
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CLINTON84_Review_Social_Security_Purge

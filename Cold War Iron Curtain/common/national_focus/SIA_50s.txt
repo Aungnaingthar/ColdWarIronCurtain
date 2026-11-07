@@ -5936,7 +5936,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Reverse_the_Isan_Genocide
 
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		x = 0
 		y = 1
 
@@ -6026,7 +6026,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Cultivate_the_Free_Thai_Hero_Cult
 
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		x = 2
 		y = 2
 
@@ -6049,7 +6049,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Repatriate_Pridi
 
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		x = 0
 		y = 1
 
@@ -6069,7 +6069,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Allying_with_Leftist_Organizations
 
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		x = 2
 		y = 1
 
@@ -6145,7 +6145,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Combat_against_Foreign_Monopolies
 
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		x = -1
 		y = 1
 
@@ -6167,7 +6167,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Implementing_Yellow_Books_Teachings
 
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		x = 1
 		y = 1
 
@@ -6341,7 +6341,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Form_the_Revolutionary_Council
 
-		icon = GFX_Form_the_Oversea_National_Revolutionary_Training_Center
+		icon = GFX_Socialist_Consolidation
 		x = 0
 		y = 1
 
@@ -6391,7 +6391,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Pote_Sarasin_as_PM
 
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		x = -1
 		y = 1
 
@@ -6412,7 +6412,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Thanom_Kittikachorn_as_PM_Pote
 
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		x = 0
 		y = 1
 
@@ -6431,7 +6431,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Praphas_Charusathien_as_PM
 
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		x = 0
 		y = 1
 
@@ -6450,7 +6450,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Field_Marshal_Phibun_Holds_on
 
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		x = 11
 		y = 1
 
@@ -6521,7 +6521,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Chai_Wirotsiri
 
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		x = -1
 		y = 1
 
@@ -6542,7 +6542,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Phao_Siyanonas_PM
 
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		x = 1
 		y = 1
 
@@ -6563,7 +6563,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Phin_Choonhavanas_PM
 
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		x = 0
 		y = 1
 
@@ -6581,7 +6581,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Assign_Chatichai_Choonhavan_as_PM
 
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		x = 0
 		y = 1
 
@@ -6600,7 +6600,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Phaos_Diamond_Coup
 
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		x = 15
 		y = 1
 
@@ -6724,7 +6724,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Combat_against_the_Anthaphan
 
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		x = -1
 		y = 1
 
@@ -6745,7 +6745,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Passing_Article_B_E_2503
 
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		x = 1
 		y = 1
 
@@ -6767,7 +6767,7 @@ focus_tree = {
 	focus = {
 		id = SIA_Passing_Article_B_E_2502
 
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		x = 1
 		y = 1
 

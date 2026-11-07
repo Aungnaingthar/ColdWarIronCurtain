@@ -199,7 +199,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_1955_Elections_Kubitschek
-		icon = GFX_BRA_1950_Elections_Gomes
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_1955_Elections
@@ -213,7 +213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Kubitschek_Downsides
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		x = 7
 		y = 21
@@ -238,7 +238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Kubitschek_Technical
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		x = 5
 		y = 21
@@ -264,7 +264,7 @@ focus_tree = {
 	
 	focus = {
 		id = BRA_1955_Elections_Tavora
-		icon = GFX_BRA_1950_Elections_Gomes
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_1955_Elections
@@ -305,7 +305,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_50s_Army
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		x = 34
 		y = 1
@@ -723,7 +723,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Kubitschek_50_Years
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_1955_Elections_Kubitschek
@@ -739,7 +739,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Kubitschek_Heterodox
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Kubitschek_50_Years
@@ -937,7 +937,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Kubitschek_Coal
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Kubitschek_50_Years
@@ -956,7 +956,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Kubitschek_Steel_Works
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Kubitschek_Heterodox
@@ -1014,7 +1014,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Kubitschek_Communications
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Kubitschek_Ports
@@ -1125,7 +1125,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Kubitschek_Healthcare
-		icon = GFX_Expand_Medical_Access
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Kubitschek_Heterodox
@@ -1153,7 +1153,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Kubitschek_Education
-		icon = GFX_universities
+		icon = GFX_Invest_in_Education
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Kubitschek_Coal
@@ -1277,7 +1277,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Kubitschek_Housing
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Kubitschek_Steel_Works
@@ -1415,7 +1415,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Kubitschek_Automotive_Industry
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Kubitschek_Steel_Works
@@ -1445,7 +1445,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Kubitschek_Industry_Northeast
-		icon = GFX_Economic_Reconstruction_Generic
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Kubitschek_Education
@@ -1641,7 +1641,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_OAS_Chart
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Deal_With_Italy
@@ -2142,7 +2142,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Tavora_UDN_Marshall
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_1955_Elections_Tavora
@@ -2162,7 +2162,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Tavora_Focus_on_Agro
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Tavora_UDN_Marshall
@@ -2192,7 +2192,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Tavora_Cut_Spending
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Tavora_UDN_Marshall
@@ -2210,7 +2210,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Tavora_US_Alignment
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Tavora_UDN_Marshall
@@ -2247,7 +2247,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Tavora_Capital_Renovation
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Tavora_Focus_on_Agro
@@ -2271,7 +2271,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Tavora_Privatization
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Tavora_Cut_Spending
@@ -2318,7 +2318,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Tavora_Oppose_Syndicates
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Tavora_Popular_Pressure
@@ -2365,7 +2365,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Tavora_Anti_Getulism
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Tavora_Privatization
@@ -2413,7 +2413,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Tavora_Invest_In_Sao_Paulo
-		icon = GFX_Invest_in_modern_industry
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Tavora_Oppose_Syndicates
@@ -2462,7 +2462,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Tavora_Army_Equipment
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Tavora_Anti_Getulism
@@ -2522,7 +2522,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Tavora_Build_Docks
-		icon = GFX_KOR_build_docks_and_roads
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Tavora_Invest_In_Sao_Paulo
@@ -2588,7 +2588,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_50s_Air_Force_ADC
-		icon = GFX_bulgarian_air_force
+		icon = GFX_Generic_Jet
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_50s_Air_Force_Training
@@ -2634,7 +2634,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_50s_Air_Force_IADC
-		icon = GFX_bulgarian_air_force
+		icon = GFX_Generic_Jet
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_50s_Air_Force_ADC
@@ -2656,7 +2656,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_50s_Air_Force_Airfields
-		icon = GFX_bulgarian_air_force
+		icon = GFX_Generic_Jet
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_50s_Air_Force
@@ -2694,7 +2694,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_50s_Helicopters
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_50s_Air_Force_Airfields
@@ -2714,7 +2714,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_50s_Air_Force_Airborne
-		icon = GFX_Form_Special_Forces_and_Airborne_Brigades
+		icon = GFX_Deploy_the_Airforce
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_50s_Helicopters
@@ -2735,7 +2735,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Machado_Appease_Elites
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_Machado_President
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_1950_Elections_Machado
@@ -2753,7 +2753,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Machado_Moderate_Industrialization
-		icon = GFX_Economic_Reconstruction_Generic
+		icon = GFX_Machado_President
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Machado_Appease_Elites
@@ -2799,7 +2799,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Machado_Moderate_Alignment
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_Machado_President
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Machado_Appease_Elites
@@ -2821,7 +2821,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Machado_BNDE
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_Machado_President
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Machado_Moderate_Industrialization
@@ -2839,7 +2839,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Machado_Tax_Cuts
-		icon = GFX_ISR_Focus_Tax_Cuts
+		icon = GFX_Machado_President
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Machado_Moderate_Industrialization
@@ -2896,7 +2896,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Machado_Petrobras
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_Machado_President
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Machado_Tax_Cuts
@@ -2934,7 +2934,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Machado_European_Products
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_Machado_President
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Machado_State_Visit
@@ -2958,7 +2958,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Machado_PTB_Crack_Down
-		icon = GFX_Crack_down_on_foregn_currency_use
+		icon = GFX_Machado_President
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Machado_Tax_Cuts
@@ -3282,7 +3282,7 @@ completion_reward = {
 #	}
 	focus = {
 		id = BRA_50s_Air_Force_Fighters
-		icon = GFX_bulgarian_air_force
+		icon = GFX_Generic_Jet
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_50s_Air_Force
@@ -3322,7 +3322,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_50s_Air_Force_CAS
-		icon = GFX_bulgarian_air_force
+		icon = GFX_Generic_Jet
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_50s_Air_Force_Missiles
@@ -3343,7 +3343,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_50s_Air_Force_Gloster_Meteor
-		icon = GFX_bulgarian_air_force
+		icon = GFX_Expand_Airfields
 		cost = 10
 		available = {
 			date > 1953.01.01
@@ -3370,7 +3370,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Machado_Deals_With_LATAM
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_Machado_President
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Machado_European_Products
@@ -3392,7 +3392,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Machado_Electrification
-		icon = GFX_focus_generic_election
+		icon = GFX_Machado_President
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Machado_PTB_Crack_Down
@@ -3437,7 +3437,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Machado_Economic_Block
-		icon = GFX_Invest_in_modern_industry
+		icon = GFX_Machado_President
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Machado_Deals_With_LATAM
@@ -3512,7 +3512,7 @@ completion_reward = {
 	#}
 	focus = {
 		id = BRA_50s_Army_Schools
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_50s_Army
@@ -3549,7 +3549,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_50s_Army_Professional_Army
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_50s_Army_Schools
@@ -3569,7 +3569,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Machado_Japanese_Tech
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_Machado_President
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Machado_State_Visit
@@ -3586,7 +3586,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_50s_Army_Mechanized_Infantry
-		icon = GFX_Create_the_Basis_of_Infantry_Battalion_for_the_Army
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_50s_Army
@@ -3606,7 +3606,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_50s_Army_MBT
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_50s_Army_Supplies
@@ -3668,7 +3668,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_50s_Navy_Light_Ships
-		icon = GFX_600_Ship_Navy
+		icon = GFX_modernize_ports
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_50s_Navy
@@ -3734,7 +3734,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Kubitschek_Build_Brasilia
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Kubitschek_Railways
@@ -3792,7 +3792,7 @@ completion_reward = {
 	}
 	focus = {
 		id = BRA_Tavora_SADI
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Tavora_Army_Equipment

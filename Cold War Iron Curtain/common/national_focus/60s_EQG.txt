@@ -116,7 +116,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EQG_the_anti_spanish_riots_of_santa_isabel
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		search_filters = {
 			IC_FILTER
 		}
@@ -544,7 +544,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EQG_popularize_bubi_culture
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		search_filters = {
 			IC_FILTER
 		}
@@ -753,7 +753,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EQG_president_bonifacio_ondo_edu
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		completion_reward = {
 		}
 		search_filters = {
@@ -1046,7 +1046,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EQG_president_francisco_macias_nguema
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		search_filters = {
 			IC_FILTER
 		}
@@ -1066,7 +1066,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EQG_execute_ondo_edu
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		search_filters = {
 			IC_FILTER
 		}
@@ -1493,7 +1493,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EQG_president_atanasio_ndongo_miyone
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		completion_reward = {
 		}
 		available = {

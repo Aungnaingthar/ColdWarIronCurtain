@@ -27,7 +27,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAH_Reign_of_Sheikh_Salman
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		search_filters = {
 			IC_FILTER
 		}
@@ -117,7 +117,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAH_The_Bab_Al_Bahrain
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		search_filters = {
 			IC_FILTER
 		}
@@ -408,7 +408,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAH_Administrative_Investments
-		icon = GFX_Generic_Trade
+		icon = GFX_Economic_Reconstruction_Generic
 		search_filters = {
 			IC_FILTER
 		}
@@ -530,7 +530,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAH_The_Higher_Executive_Committee
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		search_filters = {
 			IC_FILTER
 		}
@@ -599,7 +599,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAH_Bahraini_Public_Defense_Services_Air_Wing
-		icon = GFX_Hungarian_Air_Defense_2
+		icon = GFX_Deploy_the_Airforce
 		search_filters = {
 			IC_FILTER
 		}
@@ -794,7 +794,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAH_Bahraini_Public_Defense_Naval_Service
-		icon = GFX_Prioritize_Naval_Defense
+		icon = GFX_modernize_ports
 		search_filters = {
 			IC_FILTER
 		}
@@ -962,7 +962,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAH_Establish_Royal_Tribunal
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		search_filters = {
 			IC_FILTER
 		}
@@ -1440,7 +1440,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAH_Execute_Belgrave
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		search_filters = {
 			IC_FILTER
 		}

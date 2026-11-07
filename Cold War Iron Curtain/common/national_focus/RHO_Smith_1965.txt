@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = RHO_The_Rhodesian_Security_Forces
-		icon = GFX_Increase_Security_Force_Personnel
+		icon = GFX_generic_focus_politics_court_of_law
 		cost = 10.00
 		x = 42
 		y = 0
@@ -18,7 +18,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_The_Rhodesian_Air_Force
-		icon = GFX_bulgarian_air_force
+		icon = GFX_Generic_Jet
 		cost = 10.00
 		x = 42
 		y = 1
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_An_Independent_Economy
-		icon = GFX_Economic_Reconstruction_Generic
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		x = 7
 		y = 0
@@ -45,7 +45,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Establish_the_Rhodesian_Information_Office
-		icon = GFX_SOVw_Establish_the_Ministry_of_War_Information
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		x = 37
 		y = 5
@@ -78,7 +78,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Double_Down_on_Tobacco_Exports
-		icon = GFX_Double_Down_on_the_Magnet_Theory
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_The_Tobacco_Issue
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Launch_Mineral_Smuggling_Operations
-		icon = GFX_usa_80_launch_operations_farc
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Double_Down_on_Tobacco_Exports
@@ -115,7 +115,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Default_on_British_Debt
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_An_Independent_Economy
@@ -126,7 +126,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Increase_Exports_to_South_Africa
-		icon = GFX_POR_Increase_Trade_Ties_with_South_Africa
+		icon = GFX_Ask_South_Africa_for_Garrison_Troops
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Default_on_British_Debt
@@ -148,7 +148,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Portugese_Economic_Cooperation
-		icon = GFX_Balkan_Economic_Cooperation
+		icon = GFX_NavalOperations
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Increase_Welfare_for_the_White_Working_Class
@@ -162,7 +162,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Ramp_Up_Domestic_Industry_to_Replace_Imports
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Increase_Exports_to_South_Africa
@@ -176,7 +176,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Slash_African_Education_Standards
-		icon = GFX_universities
+		icon = GFX_Invest_in_Education
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Increase_Welfare_for_the_White_Working_Class
@@ -187,7 +187,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Secure_Oil_Access
-		icon = GFX_usa_80_ensure_saf_oil_access
+		icon = GFX_goal_oil_derrick
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Portugese_Economic_Cooperation
@@ -201,7 +201,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Lobby_Corporate_America
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Secure_Oil_Access
@@ -215,7 +215,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_The_Zambia_Question
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_An_Independent_Economy
@@ -226,7 +226,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Refrain_from_Angering_the_West
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_The_Zambia_Question
@@ -240,7 +240,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Seek_to_Maintain_Trade_Ties
-		icon = GFX_Seek_a_Closer_Ties_with_the_Russian_Federation
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Refrain_from_Angering_the_West
@@ -251,7 +251,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Declare_Economic_War_on_Zambia
-		icon = GFX_Declare_war_on_the_church
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_The_Zambia_Question
@@ -265,7 +265,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Cut_off_Electricity_and_Coal_to_Zambia
-		icon = GFX_Cut_off_Viet_Minh_Supply_Routes
+		icon = GFX_1st_Electric_Program
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Declare_Economic_War_on_Zambia
@@ -276,7 +276,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Anglo_American_Concessions
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Cut_off_Electricity_and_Coal_to_Zambia
@@ -290,7 +290,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_An_Intervention
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Cut_off_Electricity_and_Coal_to_Zambia
@@ -653,7 +653,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Recruit_Dixiecrat_Allies
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Establish_the_Rhodesian_Information_Office
@@ -664,7 +664,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_The_Rhodesian_Army
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_The_Rhodesian_Security_Forces
@@ -675,7 +675,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Contact_the_Zoio_Brothers
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_The_Rhodesian_Army
@@ -686,7 +686,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Start_the_Local_Production_of_the_AML_250_H_60
-		icon = GFX_Generic_Trade
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Contact_the_Zoio_Brothers
@@ -697,7 +697,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Reform_the_Rhodesian_Light_Infantry_into_a_Commando_Batallion
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_The_Rhodesian_Army
@@ -708,7 +708,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Refurbish_Captured_Soviet_Tanks
-		icon = GFX_Tiger_Divisions
+		icon = GFX_Refurbish_the_Railway_Connecting_Salisbury_and_Bulawayo
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Reform_the_Rhodesian_Light_Infantry_into_a_Commando_Batallion
@@ -722,7 +722,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Tie_Our_Cause_to_American_Conservative_Causes
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Establish_the_Rhodesian_Information_Office
@@ -733,7 +733,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Play_Up_the_Frontier_Culture
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Establish_the_Rhodesian_Information_Office
@@ -744,7 +744,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_An_Offer_on_Vietnam
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Play_Up_the_Frontier_Culture
@@ -761,7 +761,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_America_Ingores_Our_Offer
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_An_Offer_on_Vietnam
@@ -775,7 +775,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_America_Accepts
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_An_Offer_on_Vietnam
@@ -789,7 +789,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_The_Vietnamese_Adventure
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_America_Accepts
@@ -811,7 +811,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Import_Additional_Alouette_IIIs
-		icon = GFX_Invest_in_modern_industry
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_The_Rhodesian_Air_Force
@@ -839,7 +839,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_American_Economic_and_Military_Aid
-		icon = GFX_JAP_Massive_American_Economic_Aid
+		icon = GFX_generic_focus_usa_american_aid_crates
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_America_Accepts
@@ -850,7 +850,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Modernizing_the_Alouette_IIIs
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Import_Additional_Alouette_IIIs
@@ -897,7 +897,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_The_British_South_Africa_Police
-		icon = GFX_Republic_South_Africa_Constitution_Act
+		icon = GFX_Ask_South_Africa_for_Garrison_Troops
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_The_Rhodesian_Security_Forces
@@ -908,7 +908,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Integrate_the_Mi8_Helicopter_to_the_BSAP
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_The_British_South_Africa_Police
@@ -919,7 +919,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Increase_the_Draft_Age
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Integrate_the_Mi8_Helicopter_to_the_BSAP
@@ -933,7 +933,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Increase_Spending_for_the_Police_and_MP
-		icon = GFX_Increase_Spending_on_NATO
+		icon = GFX_generic_focus_politics_court_of_law
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_The_British_South_Africa_Police
@@ -944,7 +944,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Contract_Western_Mercenaries_for_Support
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Increase_Spending_for_the_Police_and_MP
@@ -988,7 +988,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Reestablish_Southern_Rhodesia_Volunteer_Corps
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Contract_Western_Mercenaries_for_Support
@@ -1018,7 +1018,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Rhodesians_Never_Die
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_Reestablish_Southern_Rhodesia_Volunteer_Corps
@@ -1030,7 +1030,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RHO_Time_For_Recognition
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = RHO_The_Vietnamese_Adventure

@@ -1432,7 +1432,7 @@ focus_tree = {
 		id = COG_Le_Pari_Congolais
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		search_filters = {
 			IC_FILTER
 		}

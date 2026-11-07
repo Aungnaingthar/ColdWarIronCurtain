@@ -424,7 +424,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PDG_Increase_Ethnic_Tension
-		icon = GFX_MEO_resolve_ethnic_tensions
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		search_filters = {
 			IC_FILTER
 		}

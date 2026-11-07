@@ -6,11 +6,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_100200"
-		texturefile = "gfx/interface/goals/SAU_foreign_loans.dds"
+		texturefile = "gfx/interface/goals/Religous_Unity.tga"
 	}
 	SpriteType = {
 		name = "GFX_Alnnabi_mosque000"
-		texturefile = "gfx/interface/goals/SAU_foreign_loans.dds"
+		texturefile = "gfx/interface/goals/goal_islam.dds"
 	}
 	SpriteType = {
 		name = "GFX_BND"
@@ -18,11 +18,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_ETR_Anti-west"
-		texturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_paperwork_and_telephone.png"
+		texturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_typewriter.png"
 	}
 	SpriteType = {
 		name = "GFX_ETR_People"
-		texturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_paperwork_and_telephone.png"
+		texturefile = "gfx/interface/goals/generic/politics/generic_focus_politics_press_statement.png"
 	}
 	SpriteType = {
 		name = "GFX_GDR_Undoing_the_Damage"
@@ -30,7 +30,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_GFX_soviet_culture"
-		texturefile = "gfx/interface/goals/USA_1950s_Expansion/Age of freedom.png"
+		texturefile = "gfx/interface/goals/Declare_a_renewed_soviet_agriculture.tga"
 	}
 	SpriteType = {
 		name = "GFX_JAP"
@@ -46,11 +46,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_Paper_Two"
-		texturefile = "gfx/interface/goals/SAF_Bantu_Homelands_Development_Corporations.png"
+		texturefile = "gfx/interface/goals/USA_1980s/Presidents/usa_80_icon_earl_landgrebe.png"
 	}
 	SpriteType = {
 		name = "GFX_SaudiArmed_Force"
-		texturefile = "gfx/interface/goals/MAL/MAL_armed_forces_army.png"
+		texturefile = "gfx/interface/goals/KoreanArmedForcesFocus.dds"
 	}
 	SpriteType = {
 		name = "GFX_Tribal_Vietminh_Hunts"
@@ -78,7 +78,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_purge"
-		texturefile = "gfx/interface/goals/EGY/Recruit_Former_Wehrmacht_Officers.png"
+		texturefile = "gfx/interface/goals/Purge_Disloyal_Officers_1.tga"
 	}
 	SpriteType = {
 		name = "GFX_soviet_culture"

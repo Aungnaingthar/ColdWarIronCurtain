@@ -265,7 +265,7 @@ focus_tree = {
 			IC_FILTER
 		}
 		cost = 10
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		x = 12
 		y = 1
 		available_if_capitulated = yes

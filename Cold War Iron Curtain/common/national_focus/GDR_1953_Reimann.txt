@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = GDR_The_Second_Five_Year_Plan
 	focus = {
 		id = GDR_First_Secretary_Reimann
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		x = 7
 		y = 0
@@ -55,7 +55,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_The_Unification_of_Berlin
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_True_Leader_of_Deutschland
@@ -111,7 +111,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Decry_the_Fascist_Takeover_of_West_Germany
-		icon = GFX_Debate_Allied_Forces_in_West_Germany
+		icon = GFX_Talks_with_West_Germany
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Integrate_the_West_Berlin_Economy
@@ -138,7 +138,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Offer_Relocation_Assistance_to_Western_Leftists
-		icon = GFX_GDR_Seek_Soviet_Economic_Assistance
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_Unification_of_Berlin
@@ -163,7 +163,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Establish_Refugee_Camps_for_the_Victims_of_German_Fascism
-		icon = GFX_Expand_the_Cay_Duong_refugee_camp
+		icon = GFX_Establish_Refugee_Resettlement_Commission
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Offer_Relocation_Assistance_to_Western_Leftists
@@ -213,7 +213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Purge_the_Military_of_Former_Wehrmacht
-		icon = GFX_EGY_Recruit_Former_Wehrmacht_Officers
+		icon = GFX_Reverse_Wehrmacht_Purges
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_True_Leader_of_Deutschland
@@ -243,7 +243,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Continue_Integration_Efforts
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_True_Leader_of_Deutschland
@@ -274,7 +274,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Promote_Western_Communist_Officers
-		icon = GFX_GDR_Liberalize_Western_Cultural_Import_Regulations
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Continue_Integration_Efforts
@@ -367,7 +367,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_The_Fate_of_Ulbricht
-		icon = GFX_GDR_Purge_Ulbricht_Loyalists_from_the_Politurbo
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_True_Leader_of_Deutschland
@@ -411,7 +411,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Seek_the_Rehabilitation_of_Kurt_Muller
-		icon = GFX_GDR_Seek_Soviet_Economic_Assistance
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Reverse_the_1950_Party_Purge
@@ -431,7 +431,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Suspend_the_Agricultural_Collectivization_Program
-		icon = GFX_End_Agricultural_Collectivization_Efforts
+		icon = GFX_Provide_Incentives_for_Voluntary_Agricultural_Collectivization
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Seek_the_Rehabilitation_of_Kurt_Muller
@@ -455,7 +455,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Come_Home_Deutschland
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_Come_to_Terms_with_Reality
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Study_Seized_Western_Equipment
@@ -478,7 +478,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Study_Seized_Western_Equipment
-		icon = GFX_GDR_Liberalize_Western_Cultural_Import_Regulations
+		icon = GFX_generic_focus_economics_seized_wealth
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_A_New_Relationship_with_the_Church
@@ -499,7 +499,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Launch_a_Purge_of_the_Judiciary
-		icon = GFX_GDR_Launch_an_Outreach_to_the_EKD
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Follow_Prior_Course_on_the_EKD
@@ -520,7 +520,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Follow_Prior_Course_on_the_EKD
-		icon = GFX_GDR_Co_Opt_the_EKD
+		icon = GFX_GDR_Launch_an_Outreach_to_the_EKD
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Embrace_the_Legacy_of_Socialist_Heroes
@@ -552,7 +552,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Empower_the_Western_KPD_Faction
-		icon = GFX_GDR_Liberalize_Western_Cultural_Import_Regulations
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Reverse_Ulbrichts_Disasterous_Economic_Polices
@@ -572,7 +572,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reverse_Ulbrichts_Disasterous_Economic_Polices
-		icon = GFX_GDR_Purge_Ulbricht_Loyalists_from_the_Politurbo
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_Fate_of_Ulbricht
@@ -599,7 +599,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_A_New_Relationship_with_the_Church
-		icon = GFX_GDR_Relax_Church_Repression
+		icon = GFX_Religous_Unity
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Begin_Sidelining_the_Spanish_Civil_War_Veterans

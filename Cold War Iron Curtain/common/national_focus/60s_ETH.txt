@@ -1328,7 +1328,7 @@ focus_tree = {
 		id = ETH_60s_purchase_the_USS_orca
 		completion_reward = {
 		}
-		icon = GFX_goal_ETH_capitol
+		icon = GFX_generic_focus_politics_stamped_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -1512,7 +1512,7 @@ focus_tree = {
 		id = ETH_60s_assert_control_in_amhara
 		completion_reward = {
 		}
-		icon = GFX_goal_ETH_capitol
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		search_filters = {
 			IC_FILTER
 		}
@@ -1533,7 +1533,7 @@ focus_tree = {
 		id = ETH_60s_assert_control_in_harar
 		completion_reward = {
 		}
-		icon = GFX_goal_ETH_capitol
+		icon = GFX_generic_focus_politics_signed_decree
 		search_filters = {
 			IC_FILTER
 		}
@@ -1667,7 +1667,7 @@ focus_tree = {
 		id = ETH_60s_militarily_abolish_the_afar_sultante
 		completion_reward = {
 		}
-		icon = GFX_goal_ETH_capitol
+		icon = GFX_generic_focus_politics_confidential_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -3334,7 +3334,7 @@ focus_tree = {
 		id = ETH_60s_declare_eritrea_the_fourteenth_province
 		completion_reward = {
 		}
-		icon = GFX_goal_ETH_capitol
+		icon = GFX_Partition_Eritrea
 		search_filters = {
 			IC_FILTER
 		}
@@ -3610,7 +3610,7 @@ focus_tree = {
 		id = ETH_60s_industrial_parks_in_adis_abeba
 		completion_reward = {
 		}
-		icon = GFX_goal_ETH_capitol
+		icon = GFX_Generic_Trade
 		search_filters = {
 			IC_FILTER
 		}

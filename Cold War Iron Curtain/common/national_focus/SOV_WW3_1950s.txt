@@ -400,7 +400,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOVw_Cut_Japanese_Relations
-		icon = GFX_usa_fp80_japanese_relations
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 2.00
 		available = {
 			has_war_with = JAP

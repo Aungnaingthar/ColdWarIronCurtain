@@ -324,7 +324,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CZE_Enforce_The_Ninth_of_May_Constitution
-		icon = GFX_focus_CZE_Deal
+		icon = GFX_Commit_to_Reform
 		search_filters = {
 			IC_FILTER
 		}

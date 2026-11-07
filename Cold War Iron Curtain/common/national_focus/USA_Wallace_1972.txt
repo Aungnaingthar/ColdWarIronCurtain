@@ -177,7 +177,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE72_Disaster_Relieft_Act
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_humanitarian_disaster
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -201,7 +201,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE72_Federal_Fire_Prevention_Act
 		text_icon = USA_focus_style
-		icon = GFX_JAP_The_Subversive_Activities_Prevention_Act
+		icon = GFX_Commit_to_Reform
 		search_filters = {
 			IC_FILTER
 		}

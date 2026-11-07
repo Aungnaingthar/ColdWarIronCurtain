@@ -115,7 +115,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE76_Establish_the_Department_of_Energy
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp80_japan_united_states_energy_cooperation
+		icon = GFX_Nuclear_Energy
 		search_filters = {
 			IC_FILTER
 		}
@@ -178,7 +178,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE76_The_American_Disabilities_Act
 		text_icon = USA_focus_style
-		icon = GFX_American_with_Disability_act
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}

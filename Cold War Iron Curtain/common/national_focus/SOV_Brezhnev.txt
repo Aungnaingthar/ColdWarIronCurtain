@@ -1681,7 +1681,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_BREZHNEV_Draft_A_New_Constitution
-		icon = GFX_SOV_brezhnev_resignation
+		icon = GFX_Draft_a_huge_stimulus_package
 		search_filters = {
 			IC_FILTER
 		}

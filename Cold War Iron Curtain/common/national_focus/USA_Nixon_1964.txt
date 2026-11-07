@@ -42,7 +42,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON64_Economic_Gradualism
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_usa_nixon
+		icon = GFX_Economic_Reconstruction_Generic
 		search_filters = {
 			IC_FILTER
 		}
@@ -161,7 +161,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON64_Voting_Rights_Act
 		text_icon = USA_focus_style
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -181,7 +181,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON64_Loosen_the_Money_Policy
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_usa_nixon
+		icon = GFX_Economic_Reconstruction_Generic
 		search_filters = {
 			IC_FILTER
 		}
@@ -299,7 +299,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON64_Prosecute_the_Klan
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_usa_nixon
+		icon = GFX_Anti_Klan
 		search_filters = {
 			IC_FILTER
 		}
@@ -413,7 +413,7 @@ focus_tree = {
 	focus = {
 		id = USA_NIXON64_Civil_Rights_Act_of_1968
 		text_icon = USA_focus_style
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		search_filters = {
 			IC_FILTER
 		}

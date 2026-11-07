@@ -21,7 +21,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Landing_at_Granma
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		x = 7
 		y = 20
@@ -34,7 +34,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Total_Destruction_of_the_July_26th_Movement
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Landing_at_Granma
@@ -58,7 +58,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Invite_Ernesto_Guevara_to_the_Movement
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Fidels_Arrival_in_Mexico_City
@@ -72,7 +72,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Smuggle_Thousands_of_Manifestos_into_Cuba
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Invite_Ernesto_Guevara_to_the_Movement
@@ -87,7 +87,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Maintain_Contacts_with_the_Directario_Revolucionario_Estudianil
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Smuggle_Thousands_of_Manifestos_into_Cuba
@@ -101,7 +101,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Send_Pedro_Miret_to_Scope_Potential_Landing_Sites
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Invite_Ernesto_Guevara_to_the_Movement
@@ -116,7 +116,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Approach_General_Alberto_bayo
-		icon = GFX_ApproachTheGovernorGeneral
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Send_Pedro_Miret_to_Scope_Potential_Landing_Sites
@@ -139,7 +139,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Begin_American_Fundraising_Tour
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Approach_General_Alberto_bayo
@@ -156,7 +156,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Visit_Tampa
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Begin_American_Fundraising_Tour
@@ -169,7 +169,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Meet_with_Miami_Supporters
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Begin_American_Fundraising_Tour
@@ -182,7 +182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Meet_with_Supporters_in_New_York
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Begin_American_Fundraising_Tour
@@ -195,7 +195,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Spread_Manifesto_Accross_the_United_States
-		icon = GFX_United_States_Advisors_MAAG
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Meet_with_Miami_Supporters
@@ -214,7 +214,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_A_Perfect_Landing
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Landing_at_Granma
@@ -234,7 +234,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Seize_Niquero
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_A_Perfect_Landing
@@ -248,7 +248,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Call_Upon_All_Cubans_to_Rise_Up
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Seize_Niquero
@@ -261,7 +261,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Deny_Rumors_of_Misappropriation_of_Funds
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Visit_Tampa
@@ -280,7 +280,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Call_on_Exiled_Cubans_to_Join_the_Movement
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Meet_with_Supporters_in_New_York
@@ -325,7 +325,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Attempt_to_Increase_the_Spirit_of_Our_Men
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Failure_of_Fidels_Fundraising_Campaign
@@ -340,7 +340,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_A_Very_Successful_Fundraising_Campaign
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Fidels_Return_to_Mexico_City
@@ -356,7 +356,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Commence_Weapon_Purchases
-		icon = GFX_Purchase_American_Weapons_and_Munitions
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_A_Very_Successful_Fundraising_Campaign
@@ -371,7 +371,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Fidel_Arrested
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Commence_Weapon_Purchases
@@ -389,7 +389,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Sentancing_of_Castro
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Fidel_Arrested
@@ -410,7 +410,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Release_of_Castro
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Fidel_Arrested
@@ -428,7 +428,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Extradition_of_Castro
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Fidel_Arrested
@@ -459,7 +459,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Send_Agents_to_Purchase_Landing_Craft
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Release_of_Castro
@@ -472,7 +472,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Review_the_Organizational_Status_of_Cuban_Supporters
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Begin_Planning_Concurrent_Nation_Wide_Strikes
@@ -485,7 +485,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Concerns_over_Delaying_the_Landings
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Send_Agents_to_Purchase_Landing_Craft
@@ -514,7 +514,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Finish_Guerilla_Training
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Mexico_Pact
@@ -527,7 +527,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Finalize_Invasion_Plans
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Mexico_Pact
@@ -541,7 +541,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Betrayal_of_Rafael_del_Pino
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Finalize_Invasion_Plans
@@ -557,7 +557,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Hunt_for_Rafael
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Betrayal_of_Rafael_del_Pino
@@ -575,7 +575,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Retreat_to_Tuxpan
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Betrayal_of_Rafael_del_Pino
@@ -593,7 +593,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Execute_Rafael_Del_Pino
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Hunt_for_Rafael
@@ -606,7 +606,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Conduct_a_Final_Count_of_Men_and_Supplies
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Retreat_to_Tuxpan
@@ -619,7 +619,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Begin_the_Liberation_of_Cuba
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Conduct_a_Final_Count_of_Men_and_Supplies
@@ -634,7 +634,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Begin_a_Count_of_Maintained_Supplies
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_A_Chaotic_Landing
@@ -651,7 +651,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Attempt_to_Regroup_the_Lost_Remnants
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_A_Chaotic_Landing
@@ -670,7 +670,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Meet_with_Locals_about_Continued_Support
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Attempt_to_Regroup_the_Lost_Remnants
@@ -683,7 +683,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Attempt_to_Boost_Morale
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Begin_a_Count_of_Maintained_Supplies
@@ -697,7 +697,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Movement_United_Once_Again
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Meet_with_Locals_about_Continued_Support
@@ -730,7 +730,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Employ_Brutal_Guerila_Tactics
-		icon = GFX_MEO_modernize_guerila_tactics
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Retreat_into_the_Mountains
@@ -746,7 +746,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Crush_Defeatism_Among_Recruits
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Retreat_into_the_Mountains
@@ -763,7 +763,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Begin_Drills_for_Air_Defense
-		icon = GFX_Hungarian_Air_Defense_2
+		icon = GFX_Expand_Airfields
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Employ_Brutal_Guerila_Tactics
@@ -800,7 +800,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Continue_to_Live_off_the_Land
-		icon = GFX_Sell_off_Land
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Battle_of_La_Plata
@@ -821,7 +821,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Establish_Contacts_with_the_Civil_Resistance
-		icon = GFX_usa80_establish_contact_with_the_eprdf
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Spread_the_Matthews_Interview
@@ -838,7 +838,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Spread_the_Matthews_Interview
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Crush_Defeatism_Among_Recruits
@@ -853,7 +853,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Batistas_Response
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Establish_Contacts_with_the_Civil_Resistance
@@ -873,7 +873,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Isolation_Zone_Attempt
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Batistas_Response
@@ -909,7 +909,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Begin_the_Long_Walks
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Isolation_Zone_Attempt
@@ -923,7 +923,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Utilize_Encirclement_Tactics_Against_Enemy_Patrols
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_An_Attempt_at_Conventional_War
@@ -936,7 +936,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Establish_an_Organized_Military_Structure
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Utilize_Encirclement_Tactics_Against_Enemy_Patrols
@@ -950,7 +950,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Increase_Units_Mobility
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Begin_the_Long_Walks
@@ -964,7 +964,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Use_Civilian_Intelligence_for_Military_Information
-		icon = GFX_Re_Use_Old_Metallurgy_as_Military_Factories
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Utilize_Encirclement_Tactics_Against_Enemy_Patrols
@@ -978,7 +978,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Build_Up_Civil_Intelligence_Networks
-		icon = TIB_KMT_50s_Build_Communication_Network_in_Ngari
+		icon = GFX_Stamp_out_Corruption
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Use_Civilian_Intelligence_for_Military_Information
@@ -991,7 +991,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Arrange_Supply_Lines_throughout_Eastern_Cuba
-		icon = GFX_Lao_supply_lines
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Establish_an_Organized_Military_Structure
@@ -1005,7 +1005,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Escalate_Guerila_Raids_on_Enemy_Patrols
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Increase_Units_Mobility
@@ -1038,7 +1038,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Batista_Doubles_Down_on_the_Isolation_Strategy
-		icon = GFX_Double_Down_on_the_Magnet_Theory
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Attack_on_el_Uvero
@@ -1056,7 +1056,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Return_of_the_Bombing_Campaign
-		icon = GFX_usa_fp88_launch_a_bombing_campaign
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Attack_on_el_Uvero
@@ -1073,7 +1073,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Letter_from_Frank_Pais
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Return_of_the_Bombing_Campaign
@@ -1103,7 +1103,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Meet_with_Urban_Supporters
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Return_of_the_Bombing_Campaign
@@ -1118,7 +1118,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Ignore_the_Letter
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Meet_with_Urban_Supporters
@@ -1181,7 +1181,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Spread_Anti_Batista_Propaganda
-		icon = GFX_Spread_Anti_Revisionist_Propaganda
+		icon = GFX_usa_50_anti_communist_propaganda
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Ignore_the_Letter
@@ -1197,7 +1197,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Increase_Factionalism_in_Rival_Groups
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Reject_Joining_a_National_Directorate
@@ -1213,7 +1213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Maintain_Current_strategy
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Spread_Anti_Batista_Propaganda
@@ -1240,7 +1240,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Increase_Medical_Training_for_Guerillas
-		icon = GFX_Expand_Medical_Access
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Sierra_Manifesto
@@ -1253,7 +1253,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Solidfy_Control_Over_Our_Current_Holdings
-		icon = GFX_Solidify_Control_Over_Yunnan
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Sierra_Manifesto
@@ -1272,7 +1272,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Allow_Peasants_Control_Over_Liberated_Farms
-		icon = GFX_Solidify_Control_Over_Yunnan
+		icon = GFX_Agriculture_2
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Solidfy_Control_Over_Our_Current_Holdings
@@ -1304,7 +1304,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Establish_Peasant_Militias
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Maintain_Current_strategy
@@ -1317,7 +1317,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Military_Mutiny_Plan
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Establish_Ches_New_Permament_Base_of_Operations
@@ -1332,7 +1332,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Reject_Romans_Plan
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Military_Mutiny_Plan
@@ -1351,7 +1351,7 @@ focus_tree = {
 	}	
 	focus = {
 		id = EBM_Accept_Dionisio_San_Romans_Plan
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Military_Mutiny_Plan
@@ -1367,7 +1367,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Plan_Assaults_in_Conjunction_with_the_Mutiny
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Reject_Romans_Plan
@@ -1380,7 +1380,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Prioritize_the_Organization_of_the_Main_Rebel_Forces
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Accept_Dionisio_San_Romans_Plan
@@ -1403,7 +1403,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Ensure_the_Mutiny_Success
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Accept_Dionisio_San_Romans_Plan
@@ -1422,7 +1422,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Complete_Failure_of_a_Mutiny
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Accept_Dionisio_San_Romans_Plan
@@ -1470,7 +1470,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_A_Successful_Mutiny
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Ensure_the_Mutiny_Success
@@ -1490,7 +1490,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Join_the_Provisional_Junta
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_A_Successful_Mutiny
@@ -1506,7 +1506,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Denounce_the_New_Provisional_Junta
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_A_Successful_Mutiny
@@ -1523,7 +1523,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Declare_Armed_Resistance_to_the_Junta
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Denounce_the_New_Provisional_Junta
@@ -1540,7 +1540,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Deny_Rumors_of_Purposefully_Sabotaging_the_Mutiny
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Utilize_the_Chaos_to_Our_Advantage
@@ -1555,7 +1555,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Miami_Meeting
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Deny_Rumors_of_Purposefully_Sabotaging_the_Mutiny
@@ -1585,7 +1585,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Agree_with_the_Junta_De_Liberation
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Miami_Meeting
@@ -1622,7 +1622,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_A_CompletE_Failure
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Begin_the_April_9th_General_Strike
@@ -1639,7 +1639,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_A_Partial_Success
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Begin_the_April_9th_General_Strike
@@ -1664,7 +1664,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Reorganize_the_Command_Structure
-		icon = GFX_Form_Unified_Command_Structure
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_A_CompletE_Failure
@@ -1677,7 +1677,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Begin_Preperations_for_the_Final_Offensive
-		icon = GFX_Begin_Offensive_to_the_Moldovan_Land
+		icon = GFX_Begin_the_Offensive
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_A_Partial_Success
@@ -1699,7 +1699,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Meeting_at_the_Alto_Del_Mompie
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Begin_Preperations_for_the_Final_Offensive
@@ -1713,7 +1713,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Dismiss_their_Concerns
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Meeting_at_the_Alto_Del_Mompie
@@ -1730,7 +1730,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Acknowledge_the_Concerns
-		icon = GFX_SAF_Acknowledge_Sauers_Concerns
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Meeting_at_the_Alto_Del_Mompie
@@ -1747,7 +1747,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_American_Hostage_Crisis
-		icon = GFX_IranianHostageCrisis
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Meeting_at_the_Alto_Del_Mompie
@@ -1763,7 +1763,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Increase_Peasant_Troops_in_the_Guerilla_Army
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Dismiss_their_Concerns
@@ -1776,7 +1776,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Call_for_Increased_Upper_Class_Funding
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Acknowledge_the_Concerns
@@ -1789,7 +1789,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Avoid_Accusations_of_Nepotism
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Call_for_Increased_Upper_Class_Funding
@@ -1802,7 +1802,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Continue_Spreading_the_Manifesto
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Increase_Peasant_Troops_in_the_Guerilla_Army
@@ -1821,7 +1821,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Final_Government_Offensive
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Continue_Spreading_the_Manifesto
@@ -1855,7 +1855,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Encourage_Government_Desertion
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Final_Government_Offensive
@@ -1892,7 +1892,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Cuban_Revolution
-		icon = GFX_the_cuban_revolution
+		icon = GFX_Five_Year_Plan
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Great_Summer_Offensive
@@ -1905,7 +1905,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Resupply_in_Bellic
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_A_Perfect_Landing
@@ -1927,7 +1927,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Reorganize_and_Prepare_Fresh_Offensives
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Resupply_in_Bellic
@@ -1941,7 +1941,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_March_Towards_Bayamo
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Reorganize_and_Prepare_Fresh_Offensives
@@ -1977,7 +1977,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Total_Victory_in_Bayamo
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_March_Towards_Bayamo
@@ -2009,7 +2009,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_A_Return_to_Geurilla_Warfare
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Retreat_to_Defensive_Positions
@@ -2023,7 +2023,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Prepare_a_Nation_wide_General_Strike
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Total_Victory_in_Bayamo
@@ -2037,7 +2037,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_The_Cuban_Revolution_b
-		icon = GFX_the_cuban_revolution
+		icon = GFX_Five_Year_Plan
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Prepare_a_Nation_wide_General_Strike
@@ -2050,7 +2050,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_A_Chaotic_Landing
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_The_Landing_at_Granma
@@ -2071,7 +2071,7 @@ focus_tree = {
 	}
 	focus = {
 		id = EBM_Failure_of_Fidels_Fundraising_Campaign
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = EBM_Fidels_Return_to_Mexico_City

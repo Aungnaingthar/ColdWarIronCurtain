@@ -112,7 +112,7 @@ focus_tree = {
 		id = RUS_Ecology_Preservation_Law
 		completion_reward = {
 		}
-		icon = GFX_RUS_Low_Income_Housing_Law
+		icon = GFX_Stamp_out_Corruption
 		cost = 5
 		relative_position_id = RUS_Introduce_Limiting_Pres_Power_Bill
 		prerequisite = {
@@ -207,7 +207,7 @@ focus_tree = {
 		id = RUS_Keep_Strained_Perestroika_Course
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 5
 		relative_position_id = RUS_Charge_Yeltsin_Corruption
 		prerequisite = {
@@ -251,7 +251,7 @@ focus_tree = {
 		id = RUS_Found_UR_Yabloko_OVR_Coalition
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 5
 		relative_position_id = RUS_Reverse_Yeltsin_Ecology_Policy
 		prerequisite = {

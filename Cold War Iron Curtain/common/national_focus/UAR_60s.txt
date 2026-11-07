@@ -537,7 +537,7 @@ focus_tree = {
 		id = UAR_Destabilize_Saudi_Arabia
 		completion_reward = {
 		}
-		icon = GFX_WeaponSalesToIranAndSaudiArabia
+		icon = GFX_generic_focus_politics_parliament_handshake
 		search_filters = {
 			IC_FILTER
 		}

@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_MUSKIE80_The_Muskie_Administration
-		icon = GFX_MuskieAdministration
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		x = 5
 		y = 0
@@ -41,7 +41,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE80_Housing_Act_of_1981
-		icon = GFX_usa_truman_housing_act
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE80_Open_Government_Act
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE80_Revenue_Sharing_Act
-		icon = GFX_goal_generic_parliament2
+		icon = GFX_Internal_Revenue_Code
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE80_The_Muskie_Administration
@@ -127,7 +127,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE80_Reverse_Oil_Deregulation_Policies
-		icon = GFX_Hydroelectric_Dam_Development
+		icon = GFX_Deregulation
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE80_Revenue_Sharing_Act
@@ -162,7 +162,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE80_National_Minimum_Drinking_Age_Act
-		icon = GFX_National_Security_Act
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE80_Hike_Agricultural_Subsidies
@@ -181,7 +181,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE80_Halt_New_Nuclear_Plant_Construction
-		icon = GFX_SOV_construction_of_verkhnetagilskaya_regional_thermal_power_plants
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE80_Hike_Agricultural_Subsidies
@@ -214,7 +214,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE80_Address_the_AIDS_Crisis
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE80_Enviromental_Protection_Act_of_1982
@@ -230,7 +230,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE80_Clean_Energy_Production_Act_of_1983
-		icon = GFX_Amend_the_Clean_Air_Act
+		icon = GFX_Nuclear_Energy
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE80_Push_for_Medicare_For_All
@@ -265,7 +265,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE80_The_New_Begining
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY80_Tax_Fairness_Act
@@ -304,7 +304,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE80_Appoint_Rohatyn_as_Federal_Reserve_Chairman
-		icon = GFX_Appoint_Hans_Speidel_as_Chairman
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE80_Urban_Revitilization_Act
@@ -328,7 +328,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY80_Tax_Fairness_Act
-		icon = GFX_Corporate_Tax_Adjustment_Act
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE80_Appoint_Rohatyn_as_Federal_Reserve_Chairman
@@ -344,7 +344,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MUSKIE80_Medical_Education_Reform_Act_of_1984
-		icon = GFX_usa_truman_omnibus_medical_research_act
+		icon = GFX_Reform_the_education_system
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MUSKIE80_Universal_Pre_School_Act

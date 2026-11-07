@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_KENNEDY84_The_Kennedy_Administration
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		x = 5
 		y = 0
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Womens_Economic_Equity_Act
-		icon = GFX_Invest_in_modern_industry
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_The_Kennedy_Administration
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Increase_the_Minimum_Wage
-		icon = GFX_SOV_increase_the_minimum_wages_of_workers_and_employees
+		icon = GFX_Wage_Increase
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Womens_Economic_Equity_Act
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Legalize_Sodomy
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Increase_the_Minimum_Wage
@@ -110,7 +110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Pack_the_NLRB
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_Operation_Power_Pack
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Legalize_Sodomy
@@ -129,7 +129,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Declare_a_Nuclear_Freeze
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Womens_Economic_Equity_Act
@@ -148,7 +148,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Bradley_Gephardt_Tax_Reform_Act
-		icon = GFX_Corporate_Tax_Adjustment_Act
+		icon = GFX_usa_80_icon_dick_gephardt
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Declare_a_Nuclear_Freeze
@@ -201,7 +201,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Criminal_Sentancing_Reform_Act
-		icon = GFX_Farm_Policy_Reform_Act
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Labor_Management_Relations_Act_of_1987
@@ -219,7 +219,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Electronic_Communications_Privacy_Act
-		icon = GFX_Electronic_Industry_Subsidies_Act
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Criminal_Sentancing_Reform_Act
@@ -235,7 +235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Energy_Realignment_Act
-		icon = GFX_usa_fp80_japan_united_states_energy_cooperation
+		icon = GFX_Nuclear_Energy
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Criminal_Sentancing_Reform_Act
@@ -253,7 +253,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Comprehensive_Anti_Apartheid_Act
-		icon = GFX_usa_80_safeguard_anti_apartheid_movement
+		icon = GFX_usa_80_target_the_anti_apartheid_movement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Firearms_Control_Act
@@ -268,7 +268,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Civil_Rights_Restoration_Act
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Electronic_Communications_Privacy_Act
@@ -286,7 +286,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_The_Return_of_Camelot
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_The_Mental_Health_Systems_Expansion_Act
@@ -306,7 +306,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Immigration_Reform_and_Control_Act 
-		icon = GFX_Farm_Policy_Reform_Act
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Comprehensive_Anti_Apartheid_Act
@@ -325,7 +325,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_The_Mental_Health_Systems_Expansion_Act
-		icon = GFX_VIE_Quang_Reform_Health_System
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Immigration_Reform_and_Control_Act 
@@ -341,7 +341,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_KENNEDY84_Fight_for_the_ERA
-		icon = GFX_usa_80_the_fight_for_self_determination
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = USA_KENNEDY84_Civil_Rights_Restoration_Act

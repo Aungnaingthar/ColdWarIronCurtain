@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_CUOMO88_The_Cuomo_Administration
-		icon = GFX_usa_80_icon_mario_cuomo
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CUOMO88_Death_Penalty_Abolition_Act
-		icon = GFX_Abolish_the_death_penalty
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CUOMO88_The_Cuomo_Administration
@@ -41,7 +41,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CUOMO88_Announce_Japanese_Trade_Sanctions
-		icon = GFX_usa_80_icon_mario_cuomo
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CUOMO88_Death_Penalty_Abolition_Act
@@ -182,7 +182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CUOMO88_The_Civil_Rights_Act_of_1990
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CUOMO88_Biological_Weapons_Anti_Terrorism_Act
@@ -216,7 +216,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CUOMO88_Rebuild_America_Transportation_Bond_Act
-		icon = GFX_goal_USA_america_economic_miracle
+		icon = GFX_FocusBuildRoads
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CUOMO88_Judicial_Improvement_Act
@@ -232,7 +232,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CUOMO88_Legalize_Sodomy
-		icon = GFX_usa_80_icon_mario_cuomo
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CUOMO88_High_Performance_Computing_and_Communication_Act
@@ -247,7 +247,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CUOMO88_Alternative_Energy_Development_Fund_Act
-		icon = GFX_Fund_Indochinese_development
+		icon = GFX_Nuclear_Energy
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CUOMO88_Judicial_Improvement_Act
@@ -266,7 +266,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CUOMO88_Introduce_the_Employee_Free_Choice_Act
-		icon = GFX_usa_80_icon_mario_cuomo
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CUOMO88_Kennedy_Gephardt_Medicare_Reform
@@ -282,7 +282,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CUOMO88_High_Performance_Computing_and_Communication_Act
-		icon = GFX_usa_80_icon_mario_cuomo
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CUOMO88_Rebuild_America_Transportation_Bond_Act
@@ -301,7 +301,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CUOMO88_Reject_Calls_for_NAFTA
-		icon = GFX_usa_80_icon_mario_cuomo
+		icon = GFX_End_Talks_of_NAFTA
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CUOMO88_Legalize_Sodomy
@@ -321,7 +321,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CUOMO88_Weapons_of_Mass_Destruction_Control_Act
-		icon = GFX_usa_80_icon_mario_cuomo
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CUOMO88_Introduce_the_Employee_Free_Choice_Act
@@ -340,7 +340,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CUOMO88_National_Education_Standards_Act
-		icon = GFX_usa_80_icon_mario_cuomo
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CUOMO88_Weapons_of_Mass_Destruction_Control_Act

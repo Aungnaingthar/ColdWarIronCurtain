@@ -1125,7 +1125,7 @@ focus_tree = {
 
     focus = {
         id = Hukbalahap_1949
-        icon = GFX_generic_focus_politics_paperwork_and_telephone
+        icon = GFX_generic_focus_politics_typewriter
         search_filters = {
             IC_FILTER
         }

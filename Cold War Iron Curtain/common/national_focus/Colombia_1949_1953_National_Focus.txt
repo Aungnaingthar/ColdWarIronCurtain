@@ -293,7 +293,7 @@ focus_tree = {
 	}
     focus = {
 		id = COL_Promote_Rojas_Pinilla
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10
 		x = 2
 		y = 5
@@ -305,7 +305,7 @@ focus_tree = {
 	}
     focus = {
 		id = COL_Arrest_Liberals
-		icon = GFX_COL_Sensor_Pro_Liberal_Media
+		icon = GFX_goal_generic_parliament2
 		cost = 10
 		x = 10
 		y = 5
@@ -353,7 +353,7 @@ focus_tree = {
 	}
     focus = {
 		id = COL_Military_Actions_Against_Guerrillas
-		icon = GFX_COL_Suppression_Against_Protestants_And_Pro_Liberals
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10
 		x = 12
 		y = 6
@@ -365,7 +365,7 @@ focus_tree = {
 	}
     focus = {
 		id = COL_Supportive_Base_In_Urban_Cities
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10
 		x = 16
 		y = 6
@@ -420,7 +420,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COL_Coorporating_With_United_Nations
-		icon = GFX_COL_Coorporating_With_Military
+		icon = GFX_generic_focus_diplomacy_united_nations_seal
 		cost = 10
 		x = -2
 		y = 2

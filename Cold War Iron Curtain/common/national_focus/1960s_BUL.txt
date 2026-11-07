@@ -2917,7 +2917,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BUL_60s_Endorse_the_Invasion_of_Czechoslovakia
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 9
 		prerequisite = {
 			focus = BUL_60s_Promote_Tourism_Around_the_Eastern_Bloc
@@ -3637,7 +3637,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BUL_60s_Begin_Helicopter_Research
-		icon = GFX_Research_Lab_BUL
+		icon = GFX_Begin_international_market_research
 		cost = 9
 		prerequisite = {
 			focus = BUL_60s_The_Bulgarian_Peoples_Airforce

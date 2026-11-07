@@ -33,7 +33,7 @@
 	shared_focus = {
 		id = USA_FP88_The_Apartheid_Problem
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_the_contra_problem
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		offset = {
 			x = 10
@@ -54,7 +54,7 @@
 	shared_focus = {
 		id = USA_FP88_The_Situation_in_Eastern_Europe
 		text_icon = USA_focus_style
-		icon = GFX_SOV_Deploy_Rockets_in_Eastern_Europe
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 1.00
 		offset = {
 			x = 10
@@ -141,7 +141,7 @@
 	shared_focus = {
 		id = USA_FP88_Declare_Neutrality_Iraq
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp_generic_neutrality
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Invasion_of_Kuwait
@@ -272,7 +272,7 @@
 	shared_focus = {
 		id = USA_FP88_Arm_the_Saudis
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp80_saudi_relations
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Indirect_Involvement
@@ -334,7 +334,7 @@
 	shared_focus = {
 		id = USA_FP88_Bringing_an_End_to_the_War
 		text_icon = USA_focus_style
-		icon = GFX_Officially_End_the_State_of_War_with_US
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Raise_Diplomatic_Objections
@@ -409,7 +409,7 @@
 	shared_focus = {
 		id = USA_FP88_Iraq_Accepts_Invitiations
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Urge_Peace_Talks
@@ -440,7 +440,7 @@
 	shared_focus = {
 		id = USA_FP88_Talks_Fail
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_ajax_fails
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Iraq_Accepts_Invitiations
@@ -508,7 +508,7 @@
 	shared_focus = {
 		id = USA_FP88_Support_Israeli_Actions
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_un_police_action
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_First_Intifadah
@@ -745,7 +745,7 @@
 	shared_focus = {
 		id = USA_FP88_Offer_Multilateral_Talks
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp_generic_peace_talks
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Call_for_a_Free_Palestine
@@ -782,7 +782,7 @@
 	shared_focus = {
 		id = USA_FP88_The_Madrid_Accords
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_usa_capitol_accord
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Offer_Multilateral_Talks
@@ -810,7 +810,7 @@
 	shared_focus = {
 		id = USA_FP88_The_Talks_Fail
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_ajax_fails
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Offer_Multilateral_Talks
@@ -866,7 +866,7 @@
 	shared_focus = {
 		id = USA_FP88_Drop_the_Issue
 		text_icon = USA_focus_style
-		icon = GFX_USA80MIL_Drop_the_Have_Dash_Program
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Talks_Fail
@@ -890,7 +890,7 @@
 	shared_focus = {
 		id = USA_FP88_Framework_for_an_Independent_Palestine_Agreed_Upon
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp88_call_for_a_free_palestine
+		icon = GFX_strenth_in_unity
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Offer_Multilateral_Talks
@@ -917,7 +917,7 @@
 	shared_focus = {
 		id = USA_FP88_The_Yugoslavia_Situation
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_State_Department
@@ -937,7 +937,7 @@
 	shared_focus = {
 		id = USA_FP88_Call_for_the_Preservation_of_Yugoslavia
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Yugoslavia_Situation
@@ -960,7 +960,7 @@
 	shared_focus = {
 		id = USA_FP88_A_Trip_to_Belgrade
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Call_for_the_Preservation_of_Yugoslavia
@@ -1186,7 +1186,7 @@
 	shared_focus = {
 		id = USA_FP88_Support_the_Seccessionist_Movements
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Yugoslavia_Situation
@@ -1347,7 +1347,7 @@
 	shared_focus = {
 		id = UNSC_The_Passage_of_Resolution_757
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_usa_50_abstain_in_unsc
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Rally_International_Support
@@ -1511,7 +1511,7 @@
 	shared_focus = {
 		id = USA_FP88_Rocket_Sales_to_China
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp_generic_weapon_sales
+		icon = GFX_generic_focus_military_rocket_artillery
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Chinese_Relations
@@ -1531,7 +1531,7 @@
 	shared_focus = {
 		id = USA_FP88_Block_Rocket_Sales
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp_generic_weapon_sales
+		icon = GFX_generic_focus_military_rocket_artillery
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Rocket_Sales_to_China
@@ -1559,7 +1559,7 @@
 	shared_focus = {
 		id = USA_FP88_Approve_Sales
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp_generic_congress_approve
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Rocket_Sales_to_China
@@ -1587,7 +1587,7 @@
 	shared_focus = {
 		id = USA_FP88_Tianmenn_Square_Incident
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_propose_false_flag_incidents
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Chinese_Relations
@@ -1610,7 +1610,7 @@
 	shared_focus = {
 		id = USA_FP88_Nothing_Happened
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Tianmenn_Square_Incident
@@ -1649,7 +1649,7 @@
 	shared_focus = {
 		id = USA_FP88_Issue_Diplomatic_Reassurances
 		text_icon = USA_focus_style
-		icon = GFX_usa_continued_diplomatic_meetings
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Nothing_Happened
@@ -1672,7 +1672,7 @@
 	shared_focus = {
 		id = USA_FP88_Condemn_the_Massacre
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Tianmenn_Square_Incident
@@ -1709,7 +1709,7 @@
 	shared_focus = {
 		id = USA_FP88_End_Weapon_Sales
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp_generic_weapon_sales
+		icon = GFX_usa_50_discount_weapons_sales
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Condemn_the_Massacre
@@ -1782,7 +1782,7 @@
 	shared_focus = {
 		id = USA_FP88_Issue_Diplomatic_Sanctions_prc
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp_generic_sanctions
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_End_Weapon_Sales
@@ -1829,7 +1829,7 @@
 	shared_focus = {
 		id = USA_FP88_Lift_Japanese_Tarrifs
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Japanese_Relations
@@ -1886,7 +1886,7 @@
 	shared_focus = {
 		id = USA_FP88_Block_Corporate_Acquisition_from_Japanese_Firms
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_encourage_american_corporate_investment
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Lift_Japanese_Tarrifs
@@ -1913,7 +1913,7 @@
 	shared_focus = {
 		id = USA_FP88_Allow_Corporate_Acquisitions
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_encourage_american_corporate_investment
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Continue_Japanese_Tarrifs
@@ -2002,7 +2002,7 @@
 	shared_focus = {
 		id = USA_FP88_Reject_Calls_for_Negotiations
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_attempt_negotiation
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Panamanian_Election_Debacle
@@ -2025,7 +2025,7 @@
 	shared_focus = {
 		id = USA_FP88_Negotiate_with_Noriega
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_negotiate_with_other_iraqi_minorities
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Panamanian_Election_Debacle
@@ -2051,7 +2051,7 @@
 	shared_focus = {
 		id = USA_FP88_Failure_of_Negotiations
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_attempt_negotiation
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Negotiate_with_Noriega
@@ -2101,7 +2101,7 @@
 	shared_focus = {
 		id = USA_FP88_The_Question_of_Lending_Programs
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Latin_American_Affairs
@@ -2146,7 +2146,7 @@
 	shared_focus = {
 		id = USA_FP88_Successful_Negotiations
 		text_icon = USA_focus_style
-		icon = GFX_Successful_Negotiation
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Negotiate_with_Noriega
@@ -2239,7 +2239,7 @@
 	shared_focus = {
 		id = USA_FP88_A_New_Path
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_undercut_shining_path_support
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Problem_of_the_Contras
@@ -2262,7 +2262,7 @@
 	shared_focus = {
 		id = USA_FP88_Launch_Negotiations_with_Nicaurgua
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_attempt_negotiation
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_A_New_Path
@@ -2291,7 +2291,7 @@
 	shared_focus = {
 		id = USA_FP88_Successful_Negotiations_on_Reforms
 		text_icon = USA_focus_style
-		icon = GFX_Successful_Negotiation
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Launch_Negotiations_with_Nicaurgua
@@ -2319,7 +2319,7 @@
 	shared_focus = {
 		id = USA_FP88_Failure_of_the_Negotiations
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_attempt_negotiation
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Launch_Negotiations_with_Nicaurgua
@@ -2409,7 +2409,7 @@
 	shared_focus = {
 		id = USA_FP88_Contemplate_Military_Options
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp80_analyze_our_strategic_options
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Expand_Weapon_Deliveries_to_Contras
@@ -2454,7 +2454,7 @@
 	shared_focus = {
 		id = USA_FP88_The_Sardinistas_Triumphant
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Invade_Nicaragua
@@ -2503,7 +2503,7 @@
 	shared_focus = {
 		id = USA_FP88_Establishing_a_Provisional_Government
 		text_icon = USA_focus_style
-		icon = GFX_INO_The_Provisional_Government
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Invade_Nicaragua
@@ -2570,7 +2570,7 @@
 	shared_focus = {
 		id = USA_FP88_Participate_in_UNOSOM
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Somalia_Crisis
@@ -2618,7 +2618,7 @@
 	shared_focus = {
 		id = USA_FP88_Assembling_a_Regional_Coalition
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Propose_Armed_Intervention
@@ -2659,7 +2659,7 @@
 	shared_focus = {
 		id = USA_FP88_Prioritize_Somaliland
 		text_icon = USA_focus_style
-		icon = GFX_usa80_fallback_to_somaliland
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Assembling_a_Regional_Coalition
@@ -2707,7 +2707,7 @@
 	shared_focus = {
 		id = USA_FP88_Commence_Operation
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Prioritize_Mogadishu
@@ -2813,7 +2813,7 @@
 	shared_focus = {
 		id = USA_FP88_Recognize_the_Bantustans
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_A_Bulwark_Against_Communism
@@ -2835,7 +2835,7 @@
 	shared_focus = {
 		id = USA_FP88_Push_to_Relax_Sanctions
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp_generic_sanctions
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_A_Bulwark_Against_Communism
@@ -2884,7 +2884,7 @@
 	shared_focus = {
 		id = USA_FP88_Urge_Negotiations
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_urge_mexico_to_grant_chiapan_auto
+		icon = GFX_usa_80_urge_american_corp_reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Apartheid_Problem
@@ -2998,7 +2998,7 @@
 	shared_focus = {
 		id = USA_FP88_Side_with_Former_Government
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp80_propose_arms_embargoes_on_both_sides
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Prepare_South_African_Intervention
@@ -3030,7 +3030,7 @@
 	shared_focus = {
 		id = USA_FP88_Side_with_ANC
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_sideline_commies_in_anc
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Prepare_South_African_Intervention
@@ -3064,7 +3064,7 @@
 	shared_focus = {
 		id = USA_FP88_Progressing_Negotiations
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_attempt_negotiation
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Urge_Negotiations
@@ -3087,7 +3087,7 @@
 	shared_focus = {
 		id = USA_FP88_Relax_Sanctions
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp_generic_sanctions
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Progressing_Negotiations
@@ -3114,7 +3114,7 @@
 	shared_focus = {
 		id = USA_FP88_Our_Affairs_in_Zaire
 		text_icon = USA_focus_style
-		icon = GFX_usa80_expand_weapon_shipments_to_zaire
+		icon = GFX_usa80_contact_zaire
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_African_Affairs
@@ -3223,7 +3223,7 @@
 	shared_focus = {
 		id = USA_FP88_Organize_Refugee_and_Humanitarian_Efforts
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_humanitarian_disaster
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Declare_Neutrality_SAF
@@ -3244,7 +3244,7 @@
 	shared_focus = {
 		id = USA_FP88_Keep_Targetted_Sanctions
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp_generic_sanctions
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Progressing_Negotiations
@@ -3326,7 +3326,7 @@
 	shared_focus = {
 		id = USA_FP88_Fall_of_the_Berlin_Wall
 		text_icon = USA_focus_style
-		icon = GFX_Berlin_Wall
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Elections_Allowed_in_Poland
@@ -3376,7 +3376,7 @@
 	shared_focus = {
 		id = USA_FP88_Soviets_Agree_to_Two_Plus_Four_Talks
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_farouk_agrees
+		icon = GFX_Socialist_Consolidation
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_A_Summit_in_Malta
@@ -3566,7 +3566,7 @@
 	shared_focus = {
 		id = USA_FP88_Address_the_Ukranian_Supreme_Soviet
 		text_icon = USA_focus_style
-		icon = GFX_RU_Compromise_with_the_Supreme_Soviet
+		icon = GFX_Socialist_Consolidation
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Recognize_Baltic_Independence
@@ -3591,7 +3591,7 @@
 	shared_focus = {
 		id = USA_FP88_Soviets_Reject_German_Unification_Talks
 		text_icon = USA_focus_style
-		icon = GFX_Meet_with_the_Soviets_and_East_Germans
+		icon = GFX_Five_Year_Plan
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_A_Summit_in_Malta
@@ -3746,7 +3746,7 @@
 	shared_focus = {
 		id = USA_FP88_Intensify_Propaganda_Efforts
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_intensify_intel_coordination
+		icon = GFX_Utilize_Mass_Media_For_Propaganda
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Renewed_Soviet_Crackdown_Beyond_the_Curtain
@@ -3838,7 +3838,7 @@
 	shared_focus = {
 		id = USA_FP88_Collaborate_with_the_Papacy
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp80_collaborate_with_the_vatican
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Increase_Funding_for_NGO_Initiatives
@@ -3862,7 +3862,7 @@
 	shared_focus = {
 		id = USA_FP88_Call_for_Increased_NATO_Collaboration
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_seek_israeli_collaboration
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Increase_Funding_for_NGO_Initiatives
@@ -3887,7 +3887,7 @@
 	shared_focus = {
 		id = USA_FP88_Visit_West_Berlin
 		text_icon = USA_focus_style
-		icon = GFX_Convert_Currency_in_West_Berlin_to_Deutschemarks
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Call_for_Increased_NATO_Collaboration
@@ -3911,7 +3911,7 @@
 	shared_focus = {
 		id = USA_FP88_The_Question_of_Reprisal
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Renewed_Soviet_Crackdown_Beyond_the_Curtain
@@ -3931,7 +3931,7 @@
 	shared_focus = {
 		id = USA_FP88_Sanction_Eastern_Officials
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp_generic_sanctions
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Question_of_Reprisal
@@ -3971,7 +3971,7 @@
 	shared_focus = {
 		id = USA_FP88_Aim_for_De_Escalation
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_cyclone_avoid_escalation
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Question_of_Reprisal
@@ -4001,7 +4001,7 @@
 	shared_focus = {
 		id = USA_FP88_Assembling_the_Coalition_Forces
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Call_on_the_International_Community
@@ -4065,7 +4065,7 @@
 	shared_focus = {
 		id = USA_FP88_Operation_Desert_Storm
 		text_icon = USA_focus_style
-		icon = GFX_KPA_50s_operation_storm
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Launch_the_Prepatory_Bombardment_Campaign
@@ -4152,7 +4152,7 @@
 	shared_focus = {
 		id = USA_FP88_A_Free_Iraq
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Liberation_of_Kuwait
@@ -4179,7 +4179,7 @@
 	shared_focus = {
 		id = USA_FP88_Propose_Regional_Coalition
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Arm_the_Saudis
@@ -4242,7 +4242,7 @@
 	shared_focus = {
 		id = USA_FP88_Finding_the_Right_Strongman
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_A_Free_Iraq
@@ -4318,7 +4318,7 @@
 	shared_focus = {
 		id = USA_FP88_Push_for_a_Safe_Zone
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_establish_a_no_fly_zone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Prepare_South_African_Intervention
@@ -4359,7 +4359,7 @@
 	shared_focus = {
 		id = USA_FP88_An_End_to_the_Bloodshed
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Side_with_Former_Government
@@ -4450,7 +4450,7 @@
 	shared_focus = {
 		id = USA_FP88_The_Future_of_South_Africa
 		text_icon = USA_focus_style
-		icon = GFX_usa80_share_intelligence_with_south_africa
+		icon = GFX_Support_South_Africa
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_An_End_to_the_Bloodshed
@@ -4492,7 +4492,7 @@
 	shared_focus = {
 		id = USA_FP88_The_End_of_South_Africa
 		text_icon = USA_focus_style
-		icon = GFX_usa80_share_intelligence_with_south_africa
+		icon = GFX_Support_South_Africa
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Future_of_South_Africa
@@ -4542,7 +4542,7 @@
 	shared_focus = {
 		id = USA_FP88_Establish_a_New_Interim_Government
 		text_icon = USA_focus_style
-		icon = GFX_SOVw_Establish_Communist_Governments_in_Liberated_Territory
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_The_Future_of_South_Africa
@@ -4598,7 +4598,7 @@
 	shared_focus = {
 		id = USA_FP88_Operation_Just_Cause
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Failure_of_Negotiations
@@ -4627,7 +4627,7 @@
 	shared_focus = {
 		id = USA_FP88_Establishing_a_New_Government
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Operation_Just_Cause
@@ -4697,7 +4697,7 @@
 	shared_focus = {
 		id = USA_FP88_Operation_Restore_Hope
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Participate_in_UNOSOM
@@ -4721,7 +4721,7 @@
 	shared_focus = {
 		id = USA_FP88_Call_on_World_to_do_the_Same
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Sever_All_Diplomatic_Ties
@@ -4741,7 +4741,7 @@
 	shared_focus = {
 		id = USA_FP88_A_New_Marshall_Plan
 		text_icon = USA_focus_style
-		icon = GFX_Marshall_Plan
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Recognize_Baltic_Independence
@@ -4787,7 +4787,7 @@
 	shared_focus = {
 		id = USA_FP88_An_Address_to_the_Russian_Supreme_Soviet
 		text_icon = USA_focus_style
-		icon = GFX_RU_Compromise_with_the_Supreme_Soviet
+		icon = GFX_Socialist_Consolidation
 		cost = 10.00
 		prerequisite = {
 			focus = USA_FP88_Reject_Calls_to_Recognize_Baltic_Independence

@@ -11096,11 +11096,11 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_generic_focus_military_placeholder_shine"
-		texturefile = "gfx/interface/goals/USA_1980s/July/usa_80_modernize_perus_military.png"
+		texturefile = "gfx/interface/goals/goal_generic_NavalBases.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/USA_1980s/July/usa_80_modernize_perus_military.png"
-			animationtexturefile = "gfx/interface/goals/USA_1980s/July/usa_80_modernize_perus_military.png"
+			animationmaskfile = "gfx/interface/goals/goal_generic_NavalBases.dds"
+			animationtexturefile = "gfx/interface/goals/goal_generic_NavalBases.dds"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -11112,8 +11112,8 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/USA_1980s/July/usa_80_modernize_perus_military.png"
-			animationtexturefile = "gfx/interface/goals/USA_1980s/July/usa_80_modernize_perus_military.png"
+			animationmaskfile = "gfx/interface/goals/goal_generic_NavalBases.dds"
+			animationtexturefile = "gfx/interface/goals/goal_generic_NavalBases.dds"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75

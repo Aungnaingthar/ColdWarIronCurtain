@@ -142,7 +142,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_JAP_Pursue_Independent_Foreign_Policy"
-		texturefile = "gfx/interface/goals/Turkish_foreign_policy_SRT.tga"
+		texturefile = "gfx/interface/goals/strenth_in_unity.tga"
 	}
 	spriteType = {
 		name = "GFX_JAP_Five_Pledges5"

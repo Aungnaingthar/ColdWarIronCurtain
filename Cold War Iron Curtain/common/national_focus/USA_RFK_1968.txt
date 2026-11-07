@@ -111,7 +111,7 @@ focus_tree = {
 	focus = {
 		id = USA_RFK_Emphasize_Racial_Justice
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_usa_american_justice
+		icon = GFX_Stamp_out_Corruption
 		search_filters = {
 			IC_FILTER
 		}
@@ -133,7 +133,7 @@ focus_tree = {
 	focus = {
 		id = USA_RFK_Crackdown_on_Tax_Loopholes
 		text_icon = USA_focus_style
-		icon = GFX_usa_truman_tax_relief_for_poor
+		icon = GFX_Economic_Reconstruction_Generic
 		search_filters = {
 			IC_FILTER
 		}
@@ -153,7 +153,7 @@ focus_tree = {
 	focus = {
 		id = USA_RFK_Cut_Corporate_Taxes
 		text_icon = USA_focus_style
-		icon = GFX_GDR_Cut_Church_Taxes
+		icon = GFX_Generic_Trade
 		search_filters = {
 			IC_FILTER
 		}
@@ -175,7 +175,7 @@ focus_tree = {
 	focus = {
 		id = USA_RFK_National_Environmental_Policy_Act
 		text_icon = USA_focus_style
-		icon = GFX_Farm_Policy_Reform_Act
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -256,7 +256,7 @@ focus_tree = {
 	focus = {
 		id = USA_RFK_Establish_the_Office_of_Minority_Business_Enterprise
 		text_icon = USA_focus_style
-		icon = GFX_Establish_the_Belgian_Office_for_the_Increase_of_Productivity
+		icon = GFX_generic_focus_politics_two_officials
 		search_filters = {
 			IC_FILTER
 		}
@@ -350,7 +350,7 @@ focus_tree = {
 	focus = {
 		id = USA_RFK_Title_IX_Amendment_of_the_Higher_Education_Act
 		text_icon = USA_focus_style
-		icon = GFX_ExpandHigherEducation
+		icon = GFX_Invest_in_Education
 		search_filters = {
 			IC_FILTER
 		}
@@ -367,7 +367,7 @@ focus_tree = {
 	focus = {
 		id = USA_RFK_Corporate_Healthcare_Subsidies
 		text_icon = USA_focus_style
-		icon = GFX_usa_50_encourage_american_corporate_investment
+		icon = GFX_Expand_Medical_Access
 		search_filters = {
 			IC_FILTER
 		}

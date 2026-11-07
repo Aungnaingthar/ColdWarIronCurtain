@@ -1941,7 +1941,7 @@ focus_tree = {
 		id = PAK_Leftist_Coup_Succeeds
 		completion_reward = {
 		}
-		icon = GFX_usa_50_guatemalan_coup_succeeds
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10
 		x = 33
 		y = 12

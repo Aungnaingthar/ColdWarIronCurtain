@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = BRA_60s_Budget
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		x = 25
 		y = 0
@@ -18,7 +18,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Stabilize_Government
-		icon = GFX_PRC_50s_Help_Stabilize_Laos_Government
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		x = 30
 		y = 16
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Form_Agency
-		icon = GFX_JAP_Form_The_National_Safety_Agency
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		x = 32
 		y = 16
@@ -34,7 +34,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_New_Projects
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		x = 29
 		y = 18
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Agrarian_Reform
-		icon = GFX_INO_Continue_Agrarian_Reform
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		x = 33
 		y = 18
@@ -50,7 +50,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Crisis_Averted
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		x = 31
 		y = 21
@@ -58,7 +58,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA-60s_Stabilize
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_60s_Budget
@@ -69,7 +69,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA-60s_Lay_Ground
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = BRA-60s_Stabilize
@@ -80,7 +80,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_1960_Elections
-		icon = GFX_BRA_1950_Elections_Gomes
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = BRA-60s_Lay_Ground
@@ -91,7 +91,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_1960_Elections_Quadros
-		icon = GFX_BRA_1950_Elections_Gomes
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_1960_Elections
@@ -105,7 +105,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Quadros_Inflation
-		icon = GFX_Economic_Reconstruction_Generic
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_1960_Elections_Quadros
@@ -127,7 +127,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_1960_Elections_Lott
-		icon = GFX_BRA_1950_Elections_Gomes
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_1960_Elections
@@ -152,7 +152,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Deal_With_Unrest
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Inflation
@@ -174,7 +174,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Form_Cabinet
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_1960_Elections_Lott
@@ -185,7 +185,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Put_them_to_Work
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Form_Cabinet
@@ -196,7 +196,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_First_Measures
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_1960_Elections_Lott
@@ -207,7 +207,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Settle_Political_Connections
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_First_Measures
@@ -218,7 +218,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Civil_Service
-		icon = GFX_Civil_Service_Decisions
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Put_them_to_Work
@@ -235,7 +235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Traditional_Service
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Civil_Service
@@ -249,7 +249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Only_Best
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Traditional_Service
@@ -282,7 +282,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Modern_Civil
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Civil_Service
@@ -296,7 +296,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Ideological_Focus
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Modern_Civil
@@ -307,7 +307,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Equality
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Ideological_Focus
@@ -318,7 +318,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Literacy
-		icon = GFX_Invest_in_Science
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Only_Best
@@ -329,7 +329,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Industrial_Jobs
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Crush_Corruption
@@ -340,7 +340,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Good_Administration
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Industrial_Jobs
@@ -354,7 +354,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Quadros_Austerity
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_1960_Elections_Quadros
@@ -365,7 +365,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Quadros_Resolution_204
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Quadros_Inflation
@@ -376,7 +376,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Quadros_Antitrust
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Quadros_Austerity
@@ -398,7 +398,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Quadros_Foreign
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Quadros_Resolution_204
@@ -420,7 +420,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Quadros_Operation_C
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Quadros_Spending
@@ -431,7 +431,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Quadros_Resign
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Quadros_Operation_C
@@ -448,7 +448,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Presidency
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_BRA_Vargas_Presidency
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Quadros_Resign
@@ -459,7 +459,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Trienal_Plan
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Presidency
@@ -470,7 +470,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Agrarian_Reform
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Trienal_Plan
@@ -481,7 +481,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Education
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Trienal_Plan
@@ -492,7 +492,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Fiscal
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Trienal_Plan
@@ -503,7 +503,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Electoral
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Agrarian_Reform
@@ -514,7 +514,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Urban
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Education
@@ -525,7 +525,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Bank
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Fiscal
@@ -536,7 +536,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Rally
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Urban
@@ -553,7 +553,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_End_Parlamentarism
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Rally
@@ -564,7 +564,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Reforms
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_End_Parlamentarism
@@ -575,7 +575,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Recovery
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_End_Parlamentarism
@@ -586,7 +586,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_New_Economy
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_End_Parlamentarism
@@ -597,7 +597,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Pacified_Army
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Reforms
@@ -608,7 +608,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Return_To_World
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Recovery
@@ -619,7 +619,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Stability
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_New_Economy
@@ -630,7 +630,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Equality
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Pacified_Army
@@ -641,7 +641,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Work_Reform
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Return_To_World
@@ -652,7 +652,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Society
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Stability
@@ -663,7 +663,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_All_Fine
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_Society
@@ -680,7 +680,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Goulart_Future
-		icon = GFX_BRA_Appoint_Goulart
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Goulart_All_Fine
@@ -713,7 +713,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Modern_Administration
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Agrarian_Industry
@@ -727,7 +727,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Political_Reform_Concluded
-		icon = GFX_usa_80_encourage_political_reform
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Modern_Administration
@@ -741,7 +741,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_End_UDN
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Political_Reform_Concluded
@@ -752,7 +752,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Arrest_Lacerda
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_End_UDN
@@ -763,7 +763,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Counter_The_Influence
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_End_UDN
@@ -774,7 +774,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Democratic_Army
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Arrest_Lacerda
@@ -796,7 +796,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Temp_Measures
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Form_Agency
@@ -822,7 +822,7 @@ focus_tree = {
 
 	focus = {
 		id = BRA_Lott_Interior
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Education_Reform
@@ -833,7 +833,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Urbanization
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Workers_Protection
@@ -844,7 +844,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Punishment
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Crisis_Averted
@@ -855,7 +855,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Cut_Ties
-		icon = GFX_usa_50_cut_diplo_ties
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Crisis_Averted
@@ -866,7 +866,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Demote_Them
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Punishment
@@ -899,7 +899,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Sideline_Church
-		icon = GFX_ProBuddha
+		icon = GFX_Religous_Unity
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Fine_The_Media
@@ -910,7 +910,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRA_Lott_Hero
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = BRA_Lott_Sideline_Church

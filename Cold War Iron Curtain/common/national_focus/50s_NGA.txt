@@ -201,7 +201,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NGA_1950_maintain_the_richards_constitution
-		icon = GFX_NGA_Founding_of_the_Republic
+		icon = GFX_focus_generic_election
 		search_filters = {
 			Constitution
 		}
@@ -2154,7 +2154,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NGA_1950_emphasize_igbo_culture
-		icon = GFX_NGA_Founding_of_the_Republic
+		icon = GFX_generic_focus_politics_two_officials
 		icon = GFX_
 		search_filters = {
 			Politics

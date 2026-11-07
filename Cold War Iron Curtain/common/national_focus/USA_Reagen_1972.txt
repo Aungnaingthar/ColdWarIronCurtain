@@ -163,7 +163,7 @@ focus_tree = {
 	focus = {
 		id = USA_REAGEN72_Continue_the_NERVA_Program
 		text_icon = USA_focus_style
-		icon = GFX_USA80MIL_Continue_the_Cruiser_Baseline_Program
+		icon = GFX_Continue_the_VFAX_Program
 		search_filters = {
 			IC_FILTER
 		}
@@ -185,7 +185,7 @@ focus_tree = {
 	focus = {
 		id = USA_REAGEN72_Disaster_Relieft_Act
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_humanitarian_disaster
+		icon = GFX_Commit_to_Reform
 		search_filters = {
 			IC_FILTER
 		}
@@ -209,7 +209,7 @@ focus_tree = {
 	focus = {
 		id = USA_REAGEN72_Federal_Fire_Prevention_Act
 		text_icon = USA_focus_style
-		icon = GFX_JAP_The_Subversive_Activities_Prevention_Act
+		icon = GFX_goal_generic_parliament2
 		search_filters = {
 			IC_FILTER
 		}

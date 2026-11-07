@@ -919,7 +919,7 @@ focus_tree = {
 		id = NGR_Evolution_of_the_State
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		search_filters = {
 			IC_FILTER
 		}

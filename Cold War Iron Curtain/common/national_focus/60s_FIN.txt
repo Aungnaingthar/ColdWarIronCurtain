@@ -964,7 +964,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_60s_kekkonen_68
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_kekkonen
 		cost = 10.00
 		prerequisite = {
 			focus = FIN_60s_68_elec
@@ -1094,7 +1094,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_60s_honka
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = FIN_60s_1962_election
@@ -1354,7 +1354,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_60s_honka_remains
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = FIN_agree_to_soviet_demands_60s
@@ -1370,7 +1370,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_attempt_to_postpone_60s
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = FIN_the_note_crisi
@@ -1722,7 +1722,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_60s_kvkk
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = FIN_60s_zil_156
@@ -1812,7 +1812,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_60s_il-28
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = FIN_60s_soc
@@ -1856,7 +1856,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_60s_mig_21f
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = FIN_60s_jet_program
@@ -1906,7 +1906,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_60s_drakens
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = FIN_60s_mig_21f
@@ -2156,7 +2156,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_60s_matti_virkkunen
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = FIN_60s_68_elec
@@ -2182,7 +2182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_60s_parade
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = FIN_60s_kvkk
@@ -2764,7 +2764,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_60s_housing
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = FIN_60s_enmvirokmemt

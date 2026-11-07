@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_LANDGREBE88_The_Landgrebe_Administration
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_Family_Support_Act
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_The_Landgrebe_Administration
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_Student_Freedom_of_Choice_Act
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_Family_Support_Act
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_Repeal_OSHA
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_The_Landgrebe_Administration
@@ -72,7 +72,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_The_Right_to_Work_Act
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_Repeal_OSHA
@@ -90,7 +90,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_Veto_the_1990_Civil_Rights_Act
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_The_Right_to_Work_Act
@@ -112,7 +112,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_Farmer_Support_Act
-		icon = GFX_Support_Farmers
+		icon = GFX_Invest_in_Agriculture
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_Veto_the_1990_Civil_Rights_Act
@@ -188,7 +188,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_Repeal_the_Consumer_Product_Safety_Act
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_Omnibus_Budget_Reconciliation_Act_of_1990
@@ -204,7 +204,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_Dangerous_Substances_Bill
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_Bail_Out_the_Savings_and_Loan_Industry
@@ -238,7 +238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_Immigration_Act_of_1990
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_Weapons_of_Mass_Destruction_Control_Act
@@ -254,7 +254,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_The_Flag_Protection_Act
-		icon = GFX_Trump_Flag_Act
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_Amend_the_Food_Stamp_Act_to_Not_Cover_Strikers
@@ -270,7 +270,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_High_Performance_Computing_and_Communication_Act
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_Fast_Track_NAFTA_Proceedings
@@ -289,7 +289,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_The_Legacy_of_Nixonian_Politics
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_Sign_the_North_American_Free_Trade_Agreement
@@ -308,7 +308,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_Fast_Track_NAFTA_Proceedings
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_End_Talks_of_NAFTA
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_Dangerous_Substances_Bill
@@ -333,7 +333,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_Weapons_of_Mass_Destruction_Control_Act
-		icon = GFX_usa_80_icon_earl_landgrebe
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_Fast_Track_NAFTA_Proceedings
@@ -376,7 +376,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_LANDGREBE88_Amend_the_Food_Stamp_Act_to_Not_Cover_Strikers
-		icon = GFX_Amend_the_Clean_Air_Act
+		icon = GFX_Stamp_out_Corruption
 		cost = 10.00
 		prerequisite = {
 			focus = USA_LANDGREBE88_Farmer_Support_Act

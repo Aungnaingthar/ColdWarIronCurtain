@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_Tighten_Monetary_Policy
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_The_Anderson_Administration
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_Legalize_Sodomy
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_Tighten_Monetary_Policy
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_End_Petrolum_Price_and_Allocation_Controls
-		icon = GFX_YUG_Drop_Price_Controls
+		icon = GFX_Hydroelectric_Dam_Development
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_The_Anderson_Administration
@@ -74,7 +74,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_Coal_Energy_Modernization_Act
-		icon = GFX_usa_fp80_japan_united_states_energy_cooperation
+		icon = GFX_Nuclear_Energy
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_End_Petrolum_Price_and_Allocation_Controls
@@ -112,7 +112,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_Research_Tax_Incentive_Act
-		icon = GFX_usa_truman_omnibus_medical_research_act
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_Handgun_Registration_Act
@@ -128,7 +128,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_Mandatory_Congressional_Regulatory_Review_Act
-		icon = GFX_USA80MIL_Introduce_System_Requirement_Reviews_to_Prevent_Cost_Overruns
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_End_Petrolum_Price_and_Allocation_Controls
@@ -163,7 +163,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_National_Minimum_Drinking_Age_Act
-		icon = GFX_National_Security_Act
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_National_Indexed_Income_Tax_Adjustment_Act
@@ -196,7 +196,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_The_50_50_Tax_Reform_Proposal
-		icon = GFX_usa_truman_tax_relief_for_poor
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_Garn_St_Germain_Depository_Institutions_Act
@@ -215,7 +215,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_Address_the_AIDS_Crisis
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_The_50_50_Tax_Reform_Proposal
@@ -246,7 +246,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_Repeal_the_Selective_Service_Act
-		icon = GFX_SAF_Repeal_Group_Areas_Act
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_Medical_Education_Reform_Act_of_1984
@@ -319,7 +319,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_Extend_the_ERA_Deadline
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_Urban_Revitilization_Act
@@ -339,7 +339,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_Medical_Education_Reform_Act_of_1984
-		icon = GFX_usa_truman_omnibus_medical_research_act
+		icon = GFX_Reform_the_education_system
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_The_Workforce_of_Tommorrow_Act
@@ -356,7 +356,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ANDERSONGOP80_Sideline_Reaganites
-		icon = GFX_usa_80_sideline_communist_ideologues
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ANDERSONGOP80_Research_Tax_Incentive_Act

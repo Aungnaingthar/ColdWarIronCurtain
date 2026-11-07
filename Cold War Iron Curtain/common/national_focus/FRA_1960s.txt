@@ -154,7 +154,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_60s_Change_the_Penal_Code
-		icon = GFX_Max_Fechner_Penal_code
+		icon = GFX_generic_focus_politics_parliament_handshake
 		search_filters = {
 			IC_FILTER
 		}
@@ -196,7 +196,7 @@ focus_tree = {
 		id = FRA_60s_The_Algeirs_Coup
 		completion_reward = {
 		}
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -2798,7 +2798,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_60s_Create_the_Agence_De_Bassin
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		search_filters = {
 			IC_FILTER
 		}

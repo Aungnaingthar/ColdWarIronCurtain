@@ -1318,7 +1318,7 @@ focus_tree = {
 
 	focus = {
 		id = FRE_ECO_Restart_Urban_Economy
-		icon = GFX_Restart_the_Northern_Economy
+		icon = GFX_Invest_in_modern_industry
 		cost = 5
 		x = 21
 		y = 0
@@ -1328,7 +1328,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Japanese_Bases_Gia_Lam
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 5
 		x = 23
 		y = 0
@@ -1366,7 +1366,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Keep_Piastre
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 5
 		x = 1
 		y = 1
@@ -1379,7 +1379,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Resume_Vidanges
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 5
 		x = 1
 		y = 1
@@ -1392,7 +1392,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Bourgoin_Report
-		icon = GFX_FRE_The_Fallout_of_the_Revers_Report
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 5
 		x = -4
 		y = 1
@@ -1405,7 +1405,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_River_Dikes
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 5
 		x = -1
 		y = 1
@@ -1417,7 +1417,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Iron_Tungsten_Mines
-		icon = GFX_Economic_Reconstruction_Generic
+		icon = GFX_Generic_Trade
 		cost = 5
 		x = 1
 		y = 1
@@ -1429,7 +1429,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Resource_Exploitation
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 5
 		x = 4
 		y = 1
@@ -1442,7 +1442,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Hanoi_Hospital
-		icon = GFX_Expand_Medical_Access
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 5
 		x = -2
 		y = 1
@@ -1454,7 +1454,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Sell_Wild_Lands
-		icon = GFX_Sell_off_Land
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 5
 		x = 0
 		y = 1
@@ -1493,7 +1493,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Militarize_Haiphong
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 5
 		x = -2
 		y = 1
@@ -1505,7 +1505,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Confiscate_Viet_Minh_Assets
-		icon = GFX_confiscate_the_duong_family_and_viet_gian_sassets
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 5
 		x = 0
 		y = 1
@@ -1517,7 +1517,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Raise_Salaries
-		icon = GFX_VIE_Quang_Raise_Worker_Salaries
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 5
 		x = 2
 		y = 1
@@ -1541,7 +1541,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Franco_American_Investors
-		icon = GFX_american_franco_treaty
+		icon = GFX_Invest_in_modern_industry
 		cost = 5
 		x = -1
 		y = 1
@@ -1556,7 +1556,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Native_Middle_Classes
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 5
 		x = -1
 		y = 1
@@ -1610,7 +1610,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Metropolitan_Economic_Aid
-		icon = GFX_EconomicAidToPortugal
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 5
 		x = 1
 		y = 1
@@ -1667,7 +1667,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Reopen_University
-		icon = GFX_Invest_in_Science
+		icon = GFX_universities
 		cost = 5
 		x = 1
 		y = 1
@@ -1682,7 +1682,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Tolerate_Opium
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 5
 		x = 1
 		y = 1
@@ -1753,7 +1753,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Pyrotechnic_Factories
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 5
 		x = 1
 		y = 1
@@ -1768,7 +1768,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Resume_Foreign_Trade
-		icon = GFX_SWK_Resume_Oil_Trade
+		icon = GFX_Generic_Trade
 		cost = 5
 		x = 2
 		y = 1
@@ -1820,7 +1820,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Modernize_Haiphong
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 5
 		x = 0
 		y = 1
@@ -1832,7 +1832,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_Invest_Saigon
-		icon = GFX_FRE_Coordinate_with_Saigon
+		icon = GFX_Generic_Trade
 		cost = 5
 		x = 1
 		y = 1
@@ -1863,7 +1863,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_War_Loot_to_Metropole
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 5
 		x = 1
 		y = 1
@@ -1879,7 +1879,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRE_ECO_End_of_the_War
-		icon = GFX_Officially_End_the_State_of_War_with_US
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 5
 		x = 1
 		y = 1

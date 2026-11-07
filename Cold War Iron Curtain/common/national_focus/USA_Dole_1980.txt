@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_DOLE80_The_Dole_Administration
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE80_Executive_Order_12333
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE80_The_Dole_Administration
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE80_Americans_with_Disabilities_Act
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE80_The_Dole_Administration
@@ -117,7 +117,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE80_Tighten_the_Monetary_Supply
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE80_Agriculture_and_Food_Act_of_1981
@@ -156,7 +156,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE80_Stack_the_NLRB
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE80_Hike_Military_Spending
@@ -306,7 +306,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE80_Garn_St_Germain_Depository_Institutions_Act
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE80_Increase_Foriegn_Aid_to_Latin_America
@@ -325,7 +325,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE80_Tax_Equity_and_Fiscal_Responsibility_Act_of_1982
-		icon = GFX_Corporate_Tax_Adjustment_Act
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE80_Garn_St_Germain_Depository_Institutions_Act
@@ -440,7 +440,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE80_Increase_Funding_for_Vietnam_Veteran_Benefit_Programs
-		icon = GFX_usa_80_increase_contra_funding
+		icon = GFX_Increase_Involvement_in_Vietnam
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE80_Garn_St_Germain_Depository_Institutions_Act
@@ -459,7 +459,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE80_What_to_do_about_AIDS
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE80_Increase_Funding_for_Vietnam_Veteran_Benefit_Programs
@@ -477,7 +477,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE80_National_Minimum_Drinking_Age_Act
-		icon = GFX_usa_80_icon_bob_dole
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE80_What_to_do_about_AIDS
@@ -493,7 +493,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_DOLE80_A_Fairer_and_Freer_America
-		icon = GFX_goal_USA_america_economic_miracle
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = USA_DOLE80_Comprehensive_Crime_Control_Act

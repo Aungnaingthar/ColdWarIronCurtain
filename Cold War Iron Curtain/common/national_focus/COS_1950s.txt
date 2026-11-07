@@ -15,7 +15,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = COS_Continue_the_United_Fruit_Companys_Contract
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		x = 5
 		y = 0
@@ -84,7 +84,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_Calderon_Invasion
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		x = 25
 		y = 4
@@ -99,7 +99,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Expand_Agricltural_Efforts_in_Guancaste_Province
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Continue_the_United_Fruit_Companys_Contract
@@ -119,7 +119,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Promote_Cacao_Planting
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Continue_the_United_Fruit_Companys_Contract
@@ -203,7 +203,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_First_Orlich_Administration
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_1958_Election
@@ -220,7 +220,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Increase_Education_Funding
-		icon = GFX_increase_kolkhoz_funding
+		icon = GFX_Increase_Funding_for_the_Costa_Rican_Electricity_Institute
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_First_Orlich_Administration
@@ -233,7 +233,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Increase_Banana_Exports_to_the_United_States
-		icon = GFX_United_States_Advisors_MAAG
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Continue_the_United_Fruit_Companys_Contract
@@ -246,7 +246,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COL_Maintain_Banana_Planatations_in_San_Jose
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Expand_Agricltural_Efforts_in_Guancaste_Province
@@ -289,7 +289,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COL_Support_New_United_Fruit_Company_Plantations
-		icon = GFX_COL_Get_Support_By_Catholics_And_Elites
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = COL_Secure_American_Support_for_Agricultural_Modernization
@@ -359,7 +359,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COL_Sabotage_United_Fruit_Companys_New_Plantations
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = COL_Secure_American_Support_for_Agricultural_Modernization
@@ -379,7 +379,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Promote_Trade_with_Latin_American_Nations
-		icon = GFX_usa_fp84_latin_american_affairs
+		icon = GFX_usa_50_promote_pro_american_parties
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Reinvigorate_Ports_Accross_Costa_Rica
@@ -409,7 +409,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_First_Ferrer_Administration
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_1953_Election
@@ -455,7 +455,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Collaborate_with_Panama_Canal_Officials
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Strengthen_Anti_Communist_Policies
@@ -479,7 +479,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Establish_the_National_Institute_of_Housing_and_Urbanism
-		icon = GFX_Establish_the_National_front_coalition
+		icon = GFX_strenth_in_unity
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_First_Ferrer_Administration
@@ -513,7 +513,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Expand_Health_and_Education_Programs
-		icon = GFX_bedouin_education_programs
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Organize_the_Costa_Rican_Institute_of_Tourism
@@ -550,7 +550,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Create_the_National_Production_Council
-		icon = GFX_Create_A_national_Database_of_untrustworthy_people
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Organize_the_Costa_Rican_Institute_of_Tourism
@@ -566,7 +566,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Demolish_the_National_Palace
-		icon = GFX_Demolish_the_Berlin_Palace
+		icon = GFX_The_Road_to_Independence
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Create_the_National_Production_Council
@@ -584,7 +584,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_First_Rossi_Administration
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_1958_Election
@@ -601,7 +601,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Establish_the_National_Institute_of_Lands_and_Colonization_alt
-		icon = GFX_Establish_the_National_front_coalition
+		icon = GFX_strenth_in_unity
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_First_Rossi_Administration
@@ -622,7 +622,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Hike_Education_Funding
-		icon = GFX_Invest_in_Education
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_First_Rossi_Administration
@@ -635,7 +635,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Combat_the_United_Fruit_Company_Monopolies
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Establish_the_National_Institute_of_Lands_and_Colonization_alt
@@ -859,7 +859,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_First_Echandi_Administration
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_1953_Election
@@ -933,7 +933,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Open_Talks_with_Panam_Canal_Officials
-		icon = GFX_Open_investigations_on_high_ranking_officials
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Begin_Releasing_Political_Prisoners_from_the_Civil_War
@@ -957,7 +957,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Push_to_Increase_the_Minimum_Wage
-		icon = GFX_SOV_increase_the_minimum_wages_of_workers_and_employees
+		icon = GFX_Wage_Increase
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_First_Echandi_Administration
@@ -996,7 +996,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Authorize_Calderons_Return
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Bolster_Infrastructure_Investments
@@ -1049,7 +1049,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Bargain_with_United_Fruit_Company_Plantation_Owners
-		icon = GFX_VIE_Protect_French_Plantation_Owners_CD
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Revamp_the_Customs_Tarriff_Act
@@ -1065,7 +1065,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_First_Echandi_Administration_alt
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_1958_Election
@@ -1081,7 +1081,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Expand_Education_Funding
-		icon = GFX_GDR_Expand_Funding_For_Electronic_Engineering_Education
+		icon = GFX_Expand_Military_Funding
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_First_Echandi_Administration_alt
@@ -1095,7 +1095,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Create_the_National_Institute_of_Lands_and_Colonization
-		icon = GFX_Create_A_national_Database_of_untrustworthy_people
+		icon = GFX_strenth_in_unity
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_First_Echandi_Administration_alt
@@ -1164,7 +1164,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_Fall_of_San_Jose
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_Calderon_Invasion
@@ -1187,7 +1187,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Create_the_National_Aqueduct_and_Sewer_Service
-		icon = GFX_Create_A_national_Database_of_untrustworthy_people
+		icon = GFX_strenth_in_unity
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Create_the_National_Institute_of_Lands_and_Colonization
@@ -1200,7 +1200,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Exchange_Surplus_Military_Supplies_for_Agricultural_Equipment
-		icon = GFX_Request_Surplus_American_Equipment
+		icon = GFX_Reduce_Surplus_Equipment_Stockpiles
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Encourage_Infrastructure_Investments
@@ -1260,7 +1260,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_Defeat_of_Caledronista_Forces
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_Calderon_Invasion
@@ -1280,7 +1280,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Launch_Retaliatory_Strikes_on_Nicaragua
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_Defeat_of_Caledronista_Forces
@@ -1314,7 +1314,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Begin_Rearmament_Against_Somoza
-		icon = GFX_Begin_Crusade_Against_Imperialism_and_Communism
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Launch_Retaliatory_Strikes_on_Nicaragua
@@ -1327,7 +1327,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Increase_Funding_for_Anti_Somoza_Groups
-		icon = GFX_increase_kolkhoz_funding
+		icon = GFX_Increase_Funding_for_the_Costa_Rican_Electricity_Institute
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Begin_Rearmament_Against_Somoza
@@ -1343,7 +1343,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Train_Commandos_in_Jungle_Conditions
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Increase_Funding_for_Anti_Somoza_Groups
@@ -1358,7 +1358,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_Cervantes_Administration
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_1953_Election
@@ -1450,7 +1450,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Collaborate_with_Panam_Canal_Officials
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Invite_Calderon_to_Return
@@ -1502,7 +1502,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Create_the_National_instute_of_Housing_and_Urganism
-		icon = GFX_Create_A_national_Database_of_untrustworthy_people
+		icon = GFX_The_Road_to_Independence
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_Cervantes_Administration
@@ -1515,7 +1515,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Slash_Civil_Servants_from_the_Blancos_Administration
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_Transfer_Presidential_Power_to_Otilio_Ulate_Blanco
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Create_the_National_instute_of_Housing_and_Urganism
@@ -1531,7 +1531,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Postpone_United_Fruit_Company_Land_Redistribution
-		icon = GFX_VIE_Diem_Land_Redistribution
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Slash_Civil_Servants_from_the_Blancos_Administration
@@ -1569,7 +1569,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Send_Economic_Advisors_to_South_Korea
-		icon = GFX_usa_50_economic_aid_for_south_korea
+		icon = GFX_focus_south_korea_flag
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_Korean_War
@@ -1602,7 +1602,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Establish_the_National_Production_Council
-		icon = GFX_Establish_the_National_front_coalition
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Slash_Civil_Servants_from_the_Blancos_Administration
@@ -1634,7 +1634,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Propose_Expeditionary_Forces
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_Korean_War
@@ -1650,7 +1650,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Fund_Bases_in_Jeju
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Propose_Expeditionary_Forces
@@ -1707,7 +1707,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Denounce_the_Democratic_Peoples_Republic
-		icon = GFX_Found_the_Peoples_Democratic_Republic_of_Malaysia
+		icon = GFX_Found_the_Democratic_Republic_of_Austria
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Fund_Bases_in_Jeju
@@ -1739,7 +1739,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_First_Beeche_Administration
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_1958_Election
@@ -1755,7 +1755,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Establish_the_National_Institute_of_Lands_and_Colonization
-		icon = GFX_Establish_the_National_front_coalition
+		icon = GFX_The_Road_to_Independence
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_First_Beeche_Administration
@@ -1776,7 +1776,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Ramp_Up_Anti_Communist_Government_Actions
-		icon = GFX_Ramp_up_Anti_Terrorist_Action_Against_ZANLA
+		icon = GFX_generic_focus_politics_anti_communist_pact
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Establish_the_National_Institute_of_Lands_and_Colonization
@@ -1806,7 +1806,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_Somoza_Issue
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 1.00
 		prerequisite = {
 			focus = COS_The_Little_Democracy_on_the_World_Stage
@@ -1819,7 +1819,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Denounce_the_Somoza_Regime
-		icon = GFX_FallOfTheSomozaRegime
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_Somoza_Issue
@@ -1834,7 +1834,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Fund_Anti_Somoza_Guerilla_Groups
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_Somoza_Issue
@@ -1853,7 +1853,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Increase_Tensions_with_Somoza
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Fund_Anti_Somoza_Guerilla_Groups
@@ -1880,7 +1880,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Support_the_New_Nicaraguan_Government
-		icon = GFX_usa_80_cia_support_government
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Increase_Tensions_with_Somoza
@@ -1922,7 +1922,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Purchase_Former_Somoza_Military_Equipment
-		icon = GFX_COL_Purchase_US_Military_Equipments
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Collaborate_over_Border_Security
@@ -1941,7 +1941,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Increase_Nicaraguan_Economic_Cooperation
-		icon = GFX_Balkan_Economic_Cooperation
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Support_the_New_Nicaraguan_Government
@@ -1965,7 +1965,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Provide_Political_Support_to_the_New_Administration
-		icon = GFX_usa_80_provide_air_support
+		icon = GFX_Political_Support
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Increase_Nicaraguan_Economic_Cooperation
@@ -2004,7 +2004,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_Trujillo_Issue
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 1.00
 		prerequisite = {
 			focus = COS_The_Little_Democracy_on_the_World_Stage
@@ -2017,7 +2017,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Increase_Support_for_the_Carribean_Legion
-		icon = GFX_Increase_Taiwanese_Support
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 2.00
 		prerequisite = {
 			focus = COS_The_Trujillo_Issue
@@ -2032,7 +2032,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Assist_Survivors_of_the_Luperon_Debacle
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 1.00
 		prerequisite = {
 			focus = COS_The_Trujillo_Issue
@@ -2046,7 +2046,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Promote_Democratic_Movements_in_the_Carribean
-		icon = GFX_usa80_promote_secessionist_movements_inside_russia
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Assist_Survivors_of_the_Luperon_Debacle
@@ -2079,7 +2079,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_Assassination_of_Ferrer
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Promote_Democratic_Movements_in_the_Carribean
@@ -2097,7 +2097,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Request_OAS_Intervention_Against_Trujillo
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_Assassination_of_Ferrer
@@ -2114,7 +2114,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Intervention_Proposal_Rejected
-		icon = GFX_KOR_proposal_for_intervention_in_the_first_indochina_war
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Request_OAS_Intervention_Against_Trujillo
@@ -2131,7 +2131,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Revive_the_Carribean_Legion_Movement
-		icon = GFX_Revive_the_Gengxin_Reform_Movement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Intervention_Proposal_Rejected
@@ -2145,7 +2145,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Initiate_a_Volunteer_Campaign_for_the_Carribean_Legion
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Revive_the_Carribean_Legion_Movement
@@ -2158,7 +2158,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Intervention_Proposal_Approved
-		icon = GFX_KOR_proposal_for_intervention_in_the_first_indochina_war
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Request_OAS_Intervention_Against_Trujillo
@@ -2175,7 +2175,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Request_Increase_American_Military_Collaboration
-		icon = GFX_usa80_increase_collaboration_with_far_right_elements
+		icon = GFX_FocusRequestAmericanAid
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Intervention_Proposal_Rejected
@@ -2208,7 +2208,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_A_Letter_to_the_President
-		icon = GFX_SOV_Letter_to_American_President
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Intervention_Proposal_Approved
@@ -2221,7 +2221,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Initiate_a_Volunteer_Campaign_for_the_Invasion
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = COS_A_Letter_to_the_President
@@ -2234,7 +2234,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Military_Equipment_Modernization
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = COS_A_Letter_to_the_President
@@ -2251,7 +2251,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Contribute_to_the_American_Led_Intervention
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Military_Equipment_Modernization
@@ -2296,7 +2296,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Initiate_Industrialization_Efforts
-		icon = GFX_Invest_in_modern_industry
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Draw_Up_New_United_Fruit_Company_Agreements
@@ -2316,7 +2316,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Trujillo_Hangs_On
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Finalize_the_Liberation_Plans
@@ -2353,7 +2353,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_Fall_of_Ciudad_Trujillo
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Contribute_to_the_American_Led_Intervention
@@ -2386,7 +2386,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Finalize_the_Liberation_Plans
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Provide_Weapons_for_the_Carribean_Legion
@@ -2402,7 +2402,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Provide_Weapons_for_the_Carribean_Legion
-		icon = GFX_usa_80_provide_surplus_weapons
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Revive_the_Carribean_Legion_Movement
@@ -2419,7 +2419,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Inauguration_of_Raul_Blanco_Cervantes
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_Transfer_Presidential_Power_to_Otilio_Ulate_Blanco
 		cost = 10.00
 		prerequisite = {
 			focus = COS_The_1953_Election
@@ -2433,7 +2433,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Arrangements_for_a_Funeral
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Inauguration_of_Raul_Blanco_Cervantes
@@ -2447,7 +2447,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Denounce_Trujillos_Dictatorship
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Arrangements_for_a_Funeral
@@ -2461,7 +2461,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Suggest_Calderons_Involvement_in_the_Assassination
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_Suggest_Article_98_to_the_Council
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Arrangements_for_a_Funeral
@@ -2475,7 +2475,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_The_Succession_Question
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Suggest_Calderons_Involvement_in_the_Assassination
@@ -2512,7 +2512,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Bolster_Infrastructure_Investments_Accross_CostA_Rica
-		icon = GFX_FocusBuildRoads
+		icon = GFX_Central_Bank_Costa_Rica
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Found_the_National_Institute_of_Lands_and_Colonization
@@ -2533,7 +2533,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Encourage_Agricultural_Education_in_Public_Schools
-		icon = GFX_Push_for_Public_Secular_Schools
+		icon = GFX_Invest_in_Agriculture
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Increase_Education_Funding
@@ -2560,7 +2560,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Increase_Hospital_Construction_in_Rural_Areas
-		icon = GFX_PRC_50s_Distribute_Stored_Grain_to_Rural_Areas
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Bolster_Infrastructure_Investments_Accross_CostA_Rica
@@ -2576,7 +2576,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Trade_Military_Surplus_for_Agricultural_Equipment
-		icon = GFX_Request_Surplus_American_Equipment
+		icon = GFX_Reduce_Surplus_Equipment_Stockpiles
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Bolster_Infrastructure_Investments_Accross_CostA_Rica
@@ -2603,7 +2603,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Establish_the_National_Youth_Movement
-		icon = GFX_Establish_an_inquiry_about_youth_and_socialism
+		icon = GFX_The_Road_to_Independence
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Trade_Military_Surplus_for_Agricultural_Equipment
@@ -2632,7 +2632,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Invest_in_Public_Works
-		icon = GFX_Restart_public_works_projects
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Hike_Education_Funding
@@ -2650,7 +2650,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Increase_Scientific_Project_Funding
-		icon = GFX_increase_kolkhoz_funding
+		icon = GFX_Increase_Funding_for_the_Costa_Rican_Electricity_Institute
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Combat_the_United_Fruit_Company_Monopolies
@@ -2667,7 +2667,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Release_Communist_Political_Prisoners
-		icon = GFX_Release_political_prisoners
+		icon = GFX_Amnesty_for_political_prisoners
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Combat_the_United_Fruit_Company_Monopolies
@@ -2683,7 +2683,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Crush_Factionalism_within_the_National_Liberation_Party
-		icon = GFX_Denounce_party_factionalism
+		icon = GFX_Party_factionalism
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Release_Communist_Political_Prisoners
@@ -2757,7 +2757,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Bargain_with_United_Fruit_Company_Plantation_Owners_Alt
-		icon = GFX_VIE_Protect_French_Plantation_Owners_CD
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Allow_Caledronistas_into_the_Government
@@ -2834,7 +2834,7 @@ focus_tree = {
 	}
 	focus = {
 		id = COS_Create_the_National_Aqueduct_and_Sewer_Service_alt
-		icon = GFX_Create_A_national_Database_of_untrustworthy_people
+		icon = GFX_The_Road_to_Independence
 		cost = 10.00
 		prerequisite = {
 			focus = COS_Establish_the_National_Institute_of_Lands_and_Colonization_alt

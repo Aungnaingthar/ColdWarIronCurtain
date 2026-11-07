@@ -27,7 +27,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_General_Li_Mi_Returns
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		search_filters = {
 			IC_FILTER
 		}
@@ -344,7 +344,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Recruit_Chiu_K_ai_chi
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		search_filters = {
 			IC_FILTER
 		}
@@ -848,7 +848,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Opium_for_Thai_Weaponry
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		search_filters = {
 			IC_FILTER
 		}
@@ -896,7 +896,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Strike_Yunnan
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		search_filters = {
 			IC_FILTER
 		}
@@ -1244,7 +1244,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Declare_an_Indpendent_Shan_State
-		icon = GFX_declare_state_of_emergency
+		icon = GFX_Declare_Buddism_the_State_Religion_of_Malaysia
 		search_filters = {
 			IC_FILTER
 		}
@@ -1909,7 +1909,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Liu_Yuan_lins_Anticommunist_Volunteer_Army
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		search_filters = {
 			IC_FILTER
 		}
@@ -2002,7 +2002,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Commerical_Opium_Centers
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		search_filters = {
 			IC_FILTER
 		}
@@ -2091,7 +2091,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Taiwanese_Resumption_of_Aeriel_Resupply
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_Increase_Taiwanese_Support
 		search_filters = {
 			IC_FILTER
 		}

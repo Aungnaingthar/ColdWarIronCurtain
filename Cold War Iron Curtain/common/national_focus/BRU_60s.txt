@@ -28,7 +28,7 @@ default = no
 		}
 	focus = {
 		id = BRU_Sieze_British
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		available = {
 			
 		}
@@ -80,7 +80,7 @@ default = no
 		}
 	focus = {
 		id = BRU_Foreign_Comrades
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		available = {
 			
 		}
@@ -113,7 +113,7 @@ default = no
     }
 	focus = {
 		id = BRU_Recruit_Ex-soldiers
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		available = {
 			
 		}
@@ -198,7 +198,7 @@ default = no
 		}
 	focus = {
 		id = BRU_Purge_British
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		available = {
 			
 		}
@@ -226,7 +226,7 @@ default = no
     }
     focus = {
 		id = BRU_Raiding_British
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		available = {
 			
 		}
@@ -283,7 +283,7 @@ default = no
     
 	focus = {
 		id = BRU_Malaya_Coup
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		available = {
 			
 		}
@@ -311,7 +311,7 @@ default = no
     }
     focus = {
 		id = BRU_Barisan_Permuda
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		available = {
 			
 		}
@@ -359,7 +359,7 @@ default = no
     }
     focus = {
 		id = BRU_Reunification_Mainland
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		available = {
 			
 		}
@@ -377,7 +377,7 @@ default = no
     }
     focus = {
 		id = BRU_Reunification_Indonesia
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		available = {
 			
 		}
@@ -395,7 +395,7 @@ default = no
     }
     focus = {
 		id = BRU_Unitary_State
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		available = {
 			
 		}

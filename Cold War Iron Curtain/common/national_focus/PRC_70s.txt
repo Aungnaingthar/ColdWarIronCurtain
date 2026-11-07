@@ -4422,7 +4422,7 @@ focus_tree = {
 	}
 	focus = {
 		id = luzonggang_published
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		#icon =
 
 		x = -1

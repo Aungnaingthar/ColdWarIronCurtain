@@ -108,7 +108,7 @@ focus_tree = {
 	focus = {
 		id = USA_WALLACE_Terminate_Bussing_Programs
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		search_filters = {
 			IC_FILTER
 		}

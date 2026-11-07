@@ -103,7 +103,7 @@ focus_tree = {
 	focus = {
 		id = USA_GOLDWATER68_Restrict_Bussing_Programs
 		text_icon = USA_focus_style
-		icon = GFX_usa80_restrict_aid_to_barres_government
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			IC_FILTER
 		}

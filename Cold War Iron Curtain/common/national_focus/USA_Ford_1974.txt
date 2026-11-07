@@ -28,7 +28,7 @@ focus_tree = {
 	focus = {
 		id = USA_FORD_Appoint_Rockefeller_VP
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_RockefellerAdministration
 		search_filters = {
 			IC_FILTER
 		}
@@ -208,7 +208,7 @@ focus_tree = {
 	focus = {
 		id = USA_FORD_Pardon_Nixon
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_usa_nixon
+		icon = GFX_generic_focus_politics_two_officials
 		search_filters = {
 			IC_FILTER
 		}

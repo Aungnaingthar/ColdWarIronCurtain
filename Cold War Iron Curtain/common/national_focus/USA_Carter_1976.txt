@@ -116,7 +116,7 @@ focus_tree = {
 	focus = {
 		id = USA_CARTER_Establish_the_Department_of_Energy
 		text_icon = USA_focus_style
-		icon = GFX_usa_fp80_japan_united_states_energy_cooperation
+		icon = GFX_Nuclear_Energy
 		search_filters = {
 			IC_FILTER
 		}

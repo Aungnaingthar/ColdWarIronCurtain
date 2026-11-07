@@ -16,7 +16,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Accelerate_Centralization
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Continue_National_Stabilization_Efforts
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Fully_Integrate_Kasai_into_the_Country
-		icon = GFX_Integrate_illegal_traders_into_the_party
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Accelerate_Centralization
@@ -296,7 +296,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Brotherhood_and_Unity_Policyv2
-		icon = GFX_Brotherhood_and_Unity
+		icon = GFX_The_Road_to_Independence
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Remove_References_to_Regional_Differences
@@ -316,7 +316,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Embrace_the_Soviet_Model
-		icon = GFX_failure_of_the_soviet_model
+		icon = GFX_Socialist_Consolidation
 		cost = 10
 		mutually_exclusive = {
 			focus = DRC_70s_Accelerate_Centralization
@@ -343,7 +343,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Katanga_ASR
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Embrace_the_Soviet_Model
@@ -364,7 +364,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Kasai_ASR
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Embrace_the_Soviet_Model
@@ -381,7 +381,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Uele_ASR
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Embrace_the_Soviet_Model
@@ -494,7 +494,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Kongo_ASR
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Keep_Regional_Dialectsv2
@@ -514,7 +514,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Appoint_Ethnic_Leaders_to_Positions_of_Power
-		icon = GFX_SOV_Introduce_Regional_Leaders_Into_High_Governing_Positions
+		icon = GFX_Hydroelectric_Dam_Development
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_French_as_the_Official_Administrative_Language
@@ -570,7 +570,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Begin_ASR_Population_Exchanges
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Appoint_Ethnic_Leaders_to_Positions_of_Power
@@ -605,7 +605,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Chairman_Gbeyne
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10
 		x = 32
 		y = 0
@@ -632,7 +632,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Create_the_Socialist_Autonomous_Republic_of_Katanga
-		icon = GFX_YUG_Empower_Autonomous_Republics
+		icon = GFX_Five_Year_Plan
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_The_State_of_Katanga
@@ -699,7 +699,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Appoint_Loyal_Low-Level_Government_Officials
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Integrate_the_Region_into_the_Country
@@ -739,7 +739,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Found_the_Federal_Democratic_Republics_of_the_Congo
-		icon = GFX_Found_the_Democratic_Republic_of_Greece
+		icon = GFX_Found_the_Democratic_Republic_of_Austria
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Ensure_Minority_Rights
@@ -789,7 +789,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Execute_Joseph_Kasa-Vubu
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Consolidate_the_African_Revolution_at_Home
@@ -806,7 +806,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Begin_to_Crack_Down_on_Ethnic_Separatism
-		icon = GFX_Crack_down_on_foregn_currency_use
+		icon = GFX_Crack_Down_On_The_Black_Market
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Consolidate_the_African_Revolution_at_Home
@@ -913,7 +913,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Offer_Apolitical_Officers_Employment
-		icon = GFX_usa_80_offer_bribes_to_other_officers
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10
 		mutually_exclusive = {
 			focus = DRC_70s_Purge_the_Defeated_Congolese_Military
@@ -935,7 +935,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Purge_the_Defeated_Congolese_Military
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Launch_the_Show_Trials
@@ -1409,7 +1409,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Rally_Obote_Supporters
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Consolidate_the_African_Revolution_Abroad
@@ -1451,7 +1451,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Attempt_to_Depose_the_Reactionary_Ugandan_Government
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Rally_Obote_Supporters
@@ -1514,7 +1514,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Stabilize_Kampala 
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Attempt_to_Depose_the_Reactionary_Ugandan_Government
@@ -1584,7 +1584,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Demand_the_Creation_of_a_One_Party_State
-		icon = GFX_Question_of_Party_and_state
+		icon = GFX_focus_generic_election
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Invite_Nyrere_to_Kinshasa
@@ -1639,7 +1639,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Endorse_Ujamaa
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Invite_Nyrere_to_Kinshasa
@@ -1691,7 +1691,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Cross_the_Rwandan_Border
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Construct_Fortifications_in_Orientale
@@ -1716,7 +1716,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Annex_Burundi
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Cross_the_Rwandan_Border
@@ -1738,7 +1738,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Intervene_in_the_Central_African_Republic
-		icon = GFX_central_african_kingdoms
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Consolidate_the_African_Revolution_Abroad
@@ -1774,7 +1774,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Demand_Zambian_Submission
-		icon = GFX_KMT_50s_Mainland_Demand_Tibetan_Submission
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Consolidate_the_African_Revolution_Abroad
@@ -1826,7 +1826,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Exchange_Ethnic_Minorities
-		icon = GFX_GDR_Protect_Ethnic_Minorities
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Demand_Zambian_Submission
@@ -1953,7 +1953,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Invade_Malawi
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Found_the_Congolese_First_Volunteer_Corps
@@ -1980,7 +1980,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Redraw_the_Borders
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Invade_Malawi
@@ -2136,7 +2136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Project_Kilimanjaro
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10
 		available = {
 			has_stability > 0.75
@@ -2295,7 +2295,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Begin_Constructing_Sankuru_Nuclear_Plant
-		icon = GFX_Begin_Limited_Nuclear_Weapons_Program
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Collaborations_with_Yugoslavia
@@ -2339,7 +2339,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Found_the_Congolese_People's_Army
-		icon = GFX_Found_the_Peoples_Democratic_Republic_of_Malaysia
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10
 		x = 62
 		y = 0
@@ -2351,7 +2351,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_The_Congolese_Peoples_Ground_Force
-		icon = GFX_Malaysian_Peoples_Liberation_Ground_Force
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Found_the_Congolese_People's_Army
@@ -2381,7 +2381,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Increase_Combat_Unit_Standards
-		icon = GFX_ISR_Focus_Increase_Living_Standards
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_The_Congolese_Peoples_Ground_Force
@@ -2431,7 +2431,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_The_Congolese_Peoples_Air_Force
-		icon = GFX_Greek_Peoples_Liberation_Air_Force
+		icon = GFX_Deploy_the_Airforce
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Found_the_Congolese_People's_Army
@@ -2518,7 +2518,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_The_Congolese_Peoples_Navy
-		icon = GFX_bulgarian_people_navy
+		icon = GFX_The_Korean_Peoples_Navy
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Found_the_Congolese_People's_Army
@@ -2609,7 +2609,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Continue_the_Path_of_Lumumba
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10
 		mutually_exclusive = {
 			focus = DRC_70s_The_Path_of_Antoine_Gizenga
@@ -2624,7 +2624,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Purge_Kabila
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_FocusLaurentDesireKabila
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Continue_the_Path_of_Lumumba
@@ -2641,7 +2641,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Appoint_Yhombi-Opango_First_General_Officer
-		icon = GFX_Appoint_Jewish_Officer
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Continue_the_Path_of_Lumumba
@@ -2685,7 +2685,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_The_Path_of_Antoine_Gizenga
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10
 		mutually_exclusive = {
 			focus = DRC_70s_Continue_the_Path_of_Lumumba
@@ -2804,7 +2804,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Move_Troops_into_the_Kingdom_of_Kongo
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Expand_Funding_to_Pan-African_Parties
@@ -2866,7 +2866,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_Begin_Congolese_Economic_Reform
-		icon = GFX_Generic_Trade
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_Move_Troops_into_the_Kingdom_of_Kongo
@@ -3060,7 +3060,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_The_First_Seven_Year_Plan
-		icon = GFX_GDR_Seven_Year_Plan
+		icon = GFX_Five_Year_Plan_Generic_Alternate
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_First_Congress_of_the_Simbas
@@ -3506,7 +3506,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRC_70s_The_Simba_Coup
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10
 		prerequisite = {
 			focus = DRC_70s_First_Congress_of_the_Simbas

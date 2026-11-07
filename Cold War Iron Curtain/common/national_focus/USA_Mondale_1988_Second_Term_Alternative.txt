@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_MONDALE88A_The_Mondale_Administration
-		icon = GFX_usa_80_icon_walter_mondale
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_Heritage_Riverways_Program
-		icon = GFX_usa_80_icon_walter_mondale
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_The_Mondale_Administration
@@ -41,7 +41,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_Womens_Healthcare_Equity_and_Access_Act
-		icon = GFX_usa_80_icon_walter_mondale
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_Heritage_Riverways_Program
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_Pandemic_Research_Funding_Act
-		icon = GFX_usa_truman_omnibus_medical_research_act
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_The_Americans_with_Disability_Act
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_Restart_the_Model_Cities_Program
-		icon = GFX_usa_80_icon_walter_mondale
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_Pandemic_Research_Funding_Act
@@ -111,7 +111,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_The_Voting_Rights_Act_of_1990
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_Restart_the_Model_Cities_Program
@@ -143,7 +143,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_The_Employee_Free_Choice_Act
-		icon = GFX_usa_80_icon_walter_mondale
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_Biological_Weapons_Anti_Terrorism_Act
@@ -162,7 +162,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_Higher_Education_Financing_and_Tuition_Reform_Act
-		icon = GFX_ExpandHigherEducation
+		icon = GFX_Reform_the_education_system
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_The_Employee_Free_Choice_Act
@@ -216,7 +216,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_Revive_the_Fight_for_Universal_Healthcare
-		icon = GFX_JAP_Push_Through_Universal_Healthcare
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_Renegotiate_Japanese_Trade_Arrangements
@@ -248,7 +248,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_Death_Penalty_Moratorium
-		icon = GFX_Abolish_the_death_penalty
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_The_Civil_Rights_Act_of_1991
@@ -267,7 +267,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_High_Performance_Computing_and_Communication_Act
-		icon = GFX_usa_80_icon_walter_mondale
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_An_End_to_NAFTA
@@ -286,7 +286,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_The_New_Democracy
-		icon = GFX_usa_80_icon_walter_mondale
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_Clean_Energy_Promotion_Act
@@ -324,7 +324,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_Weapons_of_Mass_Destruction_Control_Act
-		icon = GFX_usa_80_icon_walter_mondale
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_Death_Penalty_Moratorium
@@ -343,7 +343,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_Clean_Energy_Promotion_Act
-		icon = GFX_Amend_the_Clean_Air_Act
+		icon = GFX_Nuclear_Energy
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_High_Performance_Computing_and_Communication_Act
@@ -359,7 +359,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_MONDALE88A_The_Civil_Rights_Act_of_1991
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_MONDALE88A_The_Voting_Rights_Act_of_1990

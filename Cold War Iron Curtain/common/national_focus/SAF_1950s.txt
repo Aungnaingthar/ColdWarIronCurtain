@@ -1228,7 +1228,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_Stridjom_Takes_Over
-		icon = GFX_Moczar_Takes_Over
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		search_filters = {
 			IC_FILTER
 		}
@@ -1250,7 +1250,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_Havenga_Takes_Over
-		icon = GFX_Moczar_Takes_Over
+		icon = GFX_generic_focus_politics_two_officials
 		search_filters = {
 			IC_FILTER
 		}
@@ -1348,7 +1348,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_National_Party_Victory_1958
-		icon = GFX_SAF_United_Victory70
+		icon = GFX_Commit_to_Reform
 		search_filters = {
 			IC_FILTER
 		}
@@ -1911,7 +1911,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_Natives_Act
-		icon = GFX_SAF_Indian_Education_Act
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}

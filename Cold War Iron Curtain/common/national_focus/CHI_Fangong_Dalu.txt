@@ -2,7 +2,7 @@
 
 	shared_focus = {
 		id = CHI_all_is_not_yet_lost
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		#icon = 
         allow_branch = { 
             has_country_flag = fangong_dalu 
@@ -29,7 +29,7 @@
 
 	shared_focus = {
 		id = CHI_triumph_plan
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		#icon = 
 		search_filters = {
 			IC_FILTER
@@ -57,7 +57,7 @@
 	
 	shared_focus = {
 		id = CHI_victory_plan
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		#icon = 
 		search_filters = {
 			IC_FILTER
@@ -86,7 +86,7 @@
 
     shared_focus = {
 		id = CHI_zhongxing_planning_office
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_stamped_files
 		completion_reward = {
 			country_event = KMT_Taiwan50s.12
 		}

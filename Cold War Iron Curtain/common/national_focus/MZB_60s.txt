@@ -36,7 +36,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MZB_UNAMI_Remnant
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		search_filters = {
 			IC_FILTER
 		}
@@ -49,7 +49,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MZB_The_Independence_War
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		search_filters = {
 			IC_FILTER
 		}

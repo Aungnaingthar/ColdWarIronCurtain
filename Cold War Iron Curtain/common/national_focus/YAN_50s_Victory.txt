@@ -11,7 +11,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = YAN_The_Lost_Army_No_More
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		x = 4
 		y = 0
@@ -24,7 +24,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_The_Opium_Economy
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		x = 4
 		y = 5
@@ -51,7 +51,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_The_Yunnan_Drought
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		x = 19
 		y = 10
@@ -91,7 +91,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Contact_Afghani_Dealers
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_The_Opium_Economy
@@ -104,7 +104,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Establish_Drug_Trafficking_Routes
-		icon = GFX_usa_80_establish_new_smuggling_routes
+		icon = GFX_Stamp_out_Corruption
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Contact_Afghani_Dealers
@@ -122,7 +122,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Request_Planes_from_the_CIA
-		icon = GFX_Request_CIA_and_MI6_Assistance
+		icon = GFX_Expand_Airfields
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Establish_Drug_Trafficking_Routes
@@ -139,7 +139,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Rally_Former_Republican_Troops
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_The_Lost_Army_No_More
@@ -166,7 +166,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Seize_PLA_Weapon_Caches
-		icon = GFX_usa80_verify_status_of_weapon_caches
+		icon = GFX_French_Weapon_Caches
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Rally_Former_Republican_Troops
@@ -220,7 +220,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Integrate_the_Chain_of_Command
-		icon = GFX_POR_Integrate_the_European_Fleet_with_NATO_Command
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Seek_American_Aircraft_Acquisition
@@ -237,7 +237,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Begin_Mass_Opium_Production
-		icon = GFX_usa_50_begin_sabre_mass_production
+		icon = GFX_Mass_fertilizer_production
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_The_Opium_Economy
@@ -265,7 +265,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Expand_Burmese_Opium_Production
-		icon = GFX_Economic_Reconstruction_Generic
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Begin_Mass_Opium_Production
@@ -338,7 +338,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Sun_Du_Coup
-		icon = GFX_PRC_50s_Instigate_Yan_an_Faction_Coup
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_The_Yunnan_Drought
@@ -360,7 +360,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_A_New_Kuomintang
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Sun_Du_Coup
@@ -373,7 +373,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Exile_Li_Mi_to_Taipei
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Sun_Du_Coup
@@ -389,7 +389,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Establish_a_Legislative_Branch
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_A_New_Kuomintang
@@ -407,7 +407,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Appoint_Li_Kuo_hui_as_Head_of_the_Armed_Forces
-		icon = GFX_Appoint_Dino_propaganda_head
+		icon = GFX_Thai_Armed_Forces
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Sun_Du_Coup
@@ -421,7 +421,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Denounce_Chiang_Kai_Shek
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Appoint_Li_Kuo_hui_as_Head_of_the_Armed_Forces
@@ -442,7 +442,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Follow_Sun_Yet_Sens_Lead
-		icon = GFX_Follow_Tikhonovs_lead
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Denounce_Chiang_Kai_Shek
@@ -571,7 +571,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_The_Manpower_Issue
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Declare_the_Provisional_Republic_of_Yunnan
@@ -584,7 +584,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Arm_Pro_Kuomintang_Burmese_Workers
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_The_Manpower_Issue
@@ -619,7 +619,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Arm_Loyal_Yunnan_Farmers
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_The_Manpower_Issue
@@ -632,7 +632,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Launch_a_Purge_of_Beijing_Loyalists
-		icon = GFX_Purge_Kim_Loyalists
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Arm_Loyal_Yunnan_Farmers
@@ -647,7 +647,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Increase_Military_Deployment_in_Yunnan
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Launch_a_Purge_of_Beijing_Loyalists
@@ -661,7 +661,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Launch_a_Rationing_Program
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_The_Yunnan_Drought
@@ -678,7 +678,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Request_Western_Relief_Funds
-		icon = GFX_VIE_CD_Request_Japanese_Western_Aid
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Launch_a_Rationing_Program
@@ -718,7 +718,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Li_Mi_Republic
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Declare_the_Provisional_Republic_of_Yunnan
@@ -732,7 +732,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Appoint_Sun_Du_Head_of_the_Army
-		icon = GFX_Appoint_Dino_propaganda_head
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Li_Mi_Republic
@@ -745,7 +745,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Announce_the_Burmese_Wing_of_the_Kuomintang
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Li_Mi_Republic
@@ -766,7 +766,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Denounce_Atheism
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Announce_the_Burmese_Wing_of_the_Kuomintang
@@ -784,7 +784,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Arrest_Sun_Du
-		icon = GFX_KMT_50s_Taiwan_Arrest_SunLiJen
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_The_Yunnan_Drought
@@ -806,7 +806,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Appoint_Li_Wenhuan_Head_of_the_Armed_Forces
-		icon = GFX_Appoint_Dino_propaganda_head
+		icon = GFX_Thai_Armed_Forces
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Arrest_Sun_Du
@@ -820,7 +820,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Execute_Sun_Du_and_Other_Traitors
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Arrest_Sun_Du
@@ -857,7 +857,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Produce_Anti_Communist_Propaganda
-		icon = GFX_Produce_Anti_Emmigration_Propaganda
+		icon = GFX_usa_50_anti_communist_propaganda
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Li_Mi_Republic
@@ -881,7 +881,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Purge_Leftists_within_the_KMT
-		icon = GFX_Review_Prior_Political_Purges_Within_the_SED
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Produce_Anti_Communist_Propaganda
@@ -899,7 +899,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Denounce_the_Beijing_Government
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Purge_Leftists_within_the_KMT
@@ -916,7 +916,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Reorganize_the_Nineth_Corps
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Arrest_Sun_Du
@@ -943,7 +943,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Choke_Out_the_Santikhiri_Resistance
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Reorganize_the_Nineth_Corps
@@ -961,7 +961,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Begin_Operations_for_Project_National_Glory
-		icon = GFX_usa_50_begin_project_mockingbird
+		icon = GFX_strenth_in_unity
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Choke_Out_the_Santikhiri_Resistance
@@ -979,7 +979,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Expand_Opium_Production_in_Yunnan
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Begin_Mass_Opium_Production
@@ -1002,7 +1002,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Accept_CIA_Drug_Trafficking_Aid
-		icon = GFX_AidRoyalistDrugSmuggling
+		icon = GFX_focus_police
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Expand_Opium_Production_in_Yunnan
@@ -1016,7 +1016,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Invade_Santikhiri
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Accept_CIA_Drug_Trafficking_Aid
@@ -1036,7 +1036,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_The_Invasion_of_Burma
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Increase_Military_Deployment_in_Yunnan
@@ -1083,7 +1083,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Send_Aid_Against_the_Pathet_Lao
-		icon = GFX_contact_pathet_lao
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Meet_American_Diplomats
@@ -1126,7 +1126,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Establish_Local_Embassies
-		icon = GFX_Establish_Balkan_Embassies
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Request_to_Purchase_Port_Access_from_Thailand
@@ -1181,7 +1181,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Propose_a_Deal_with_the_Shan_Rohingya_and_Karen
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_The_Invasion_of_Burma
@@ -1222,7 +1222,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Operation_Sugarcane
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_The_Invasion_of_Burma
@@ -1235,7 +1235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Victory_in_Burma
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Go_it_Alone
@@ -1261,7 +1261,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Conduct_a_Census_in_Yunnan
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Launch_a_Rationing_Program
@@ -1291,7 +1291,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Expand_Rationing_Efforts
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Conduct_a_Census_in_Yunnan
@@ -1322,7 +1322,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Declare_an_End_to_the_Famine
-		icon = GFX_KMT_50s_Taiwan_Declare_End_of_Military_rule
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_Request_American_Corn
@@ -1343,7 +1343,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YAN_Go_it_Alone
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = YAN_The_Invasion_of_Burma

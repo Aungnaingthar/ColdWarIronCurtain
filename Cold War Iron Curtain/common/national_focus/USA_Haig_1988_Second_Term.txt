@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_HAIG_1988A_The_Haig_Administration
-		icon = GFX_usa_80_icon_alexander_haig
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		x = 5
 		y = 0
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HAIG_1988A_Department_of_Education_Modernization_Act
-		icon = GFX_usa_80_icon_alexander_haig
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HAIG_1988A_The_Americans_with_Disability_Act
@@ -93,7 +93,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HAIG_1988A_Veto_the_1990_Civil_Rights_Act
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HAIG_1988A_Oil_Pollution_Act
@@ -190,7 +190,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HAIG_1988A_Propose_Energy_Modernization_Act
-		icon = GFX_usa_80_icon_alexander_haig
+		icon = GFX_Nuclear_Energy
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HAIG_1988A_Propose_Revenue_Adjustment_Act
@@ -241,7 +241,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HAIG_1988A_Immigration_Act_of_1990
-		icon = GFX_usa_80_icon_alexander_haig
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HAIG_1988A_Weapons_of_Mass_Destruction_Control_Act
@@ -257,7 +257,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HAIG_1988A_The_Flag_Protection_Act
-		icon = GFX_Trump_Flag_Act
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HAIG_1988A_The_1991_Civil_Rights_Act
@@ -273,7 +273,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HAIG_1988A_High_Performance_Computing_and_Communication_Act
-		icon = GFX_usa_80_icon_alexander_haig
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HAIG_1988A_Fast_Track_NAFTA_Proceedings
@@ -292,7 +292,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HAIG_1988A_A_New_World_Order
-		icon = GFX_usa_80_icon_alexander_haig
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HAIG_1988A_Sign_the_North_American_Free_Trade_Agreement
@@ -309,7 +309,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HAIG_1988A_Fast_Track_NAFTA_Proceedings
-		icon = GFX_usa_80_icon_alexander_haig
+		icon = GFX_End_Talks_of_NAFTA
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HAIG_1988A_Deploy_the_National_Guard_in_the_Drug_War
@@ -334,7 +334,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HAIG_1988A_Weapons_of_Mass_Destruction_Control_Act
-		icon = GFX_usa_80_icon_alexander_haig
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HAIG_1988A_Fast_Track_NAFTA_Proceedings
@@ -377,7 +377,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_HAIG_1988A_The_1991_Civil_Rights_Act
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_HAIG_1988A_Amend_the_Clean_Air_Act

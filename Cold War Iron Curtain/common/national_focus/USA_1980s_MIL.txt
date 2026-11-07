@@ -1288,7 +1288,7 @@
 	shared_focus = {
 		id = USA80MIL_Develop_the_BM_C3_System
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Begin_Star_Wars_Development
@@ -1333,7 +1333,7 @@
 	shared_focus = {
 		id = USA80MIL_Develop_the_Advanced_Launch_System
 		text_icon = USA_focus_style
-		icon = GFX_USA80MIL_Request_Proposals_for_the_Advanced_Tactical_Fighter_Program
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Develop_the_BM_C3_System
@@ -1593,7 +1593,7 @@
 	shared_focus = {
 		id = USA80MIL_Develop_ERIS_from_Surplus_ICBMs
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_eris
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA80MIL_Expand_Space_and_Ground_Tracking_Systems

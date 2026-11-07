@@ -68,7 +68,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YUG_free_trade_agreements_with_eec
-		icon = GFX_YUG_Further_EEC_Deals
+		icon = GFX_generic_focus_trading_trade_agreement
 		cost = 10
 		prerequisite = {
 			focus = YUG_finalise_1974_constitution
@@ -88,7 +88,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YUG_70jna
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_jna
 		cost = 10
 		x = 55
 		y = 0
@@ -2229,7 +2229,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YUG_70ratna_mornarica
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10
 		prerequisite = {
 			focus = YUG_70jna
@@ -2245,7 +2245,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YUG_finish_sava_class_submarine_production
-		icon = GFX_SAF_Daphne_Class_Submarines
+		icon = GFX_NavalOperations
 		cost = 10
 		prerequisite = {
 			focus = YUG_70ratna_mornarica
@@ -2257,7 +2257,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YUG_focus_on_indigenous_designs
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10
 		prerequisite = {
 			focus = YUG_70ratna_mornarica
@@ -2296,7 +2296,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YUG_70kopnena_vojska
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10
 		prerequisite = {
 			focus = YUG_70jna
@@ -2312,7 +2312,7 @@ focus_tree = {
 	focus = {
 		id = YUG_subordinate_to_to_the_republics
 		relative_position_id = YUG_70jna
-		icon = GFX_YUG_Empower_Autonomous_Republics
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10
 		prerequisite = {
 			focus = YUG_70kopnena_vojska
@@ -2389,7 +2389,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YUG_zastava_m-70
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10
 		prerequisite = {
 			focus = YUG_70kopnena_vojska
@@ -2430,7 +2430,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YUG_70rv_i_pvo
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10
 		prerequisite = {
 			focus = YUG_70jna
@@ -2446,7 +2446,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YUG_aerodrom_povikne
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = YUG_70rv_i_pvo
@@ -2458,7 +2458,7 @@ focus_tree = {
 	}
 	focus = {
 		id = YUG_complete_j-22_orao
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10
 		prerequisite = {
 			focus = YUG_70rv_i_pvo

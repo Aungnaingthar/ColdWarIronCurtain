@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_CONNALLY_The_Connally_Administration
-		icon = GFX_usa_80_icon_john_connally
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		x = 5
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY_Executive_Order_12333
-		icon = GFX_usa_80_icon_john_connally
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY_The_Connally_Administration
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY_Sanction_Japanese_Manufacturers
-		icon = GFX_usa_80_icon_john_connally
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY_The_Connally_Administration
@@ -155,7 +155,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY_Encourage_Southern_Democratic_Defections
-		icon = GFX_Encourage_Developing_Southern_Wetlands
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY_Reinstate_the_Pay_Board_and_Price_Commission
@@ -216,7 +216,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY_Garn_St_Germain_Depository_Institutions_Act
-		icon = GFX_usa_80_icon_john_connally
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY_Expand_the_National_Library_Fund
@@ -235,7 +235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY_Tax_Equity_and_Fiscal_Responsibility_Act_of_1982
-		icon = GFX_Corporate_Tax_Adjustment_Act
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY_Garn_St_Germain_Depository_Institutions_Act
@@ -301,7 +301,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY_Propose_Temporary_10_Percent_Tarriff_Increase
-		icon = GFX_usa_80_icon_john_connally
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY_Garn_St_Germain_Depository_Institutions_Act
@@ -320,7 +320,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY_What_to_do_about_AIDS
-		icon = GFX_usa_80_icon_john_connally
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY_Propose_Temporary_10_Percent_Tarriff_Increase
@@ -338,7 +338,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY_National_Minimum_Drinking_Age_Act
-		icon = GFX_usa_80_icon_john_connally
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY_What_to_do_about_AIDS
@@ -354,7 +354,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY_Deficit_Reduction_Act_of_1984
-		icon = GFX_usa_80_icon_john_connally
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY_Comprehensive_Crime_Control_Act
@@ -373,7 +373,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_CONNALLY_Push_to_Strip_the_Courts_of_Jurdistriction_Over_School_Prayer_and_Abortion
-		icon = GFX_Push_for_Public_Secular_Schools
+		icon = GFX_Invest_in_Education
 		cost = 10.00
 		prerequisite = {
 			focus = USA_CONNALLY_Automanufacturing_Domestic_Content_Bill

@@ -162,7 +162,7 @@ focus_tree = {
 		id = KEN_60s_ethnic_reconcilliation
 		completion_reward = {
 		}
-		icon = GFX_focus_KEN_arrest_kenyatta
+		icon = GFX_generic_focus_politics_sealed_letter
 		search_filters = {
 			IC_FILTER
 		}
@@ -1632,7 +1632,7 @@ focus_tree = {
 		id = KEN_60s_operation_bunyoro
 		completion_reward = {
 		}
-		icon = GFX_focus_KEN_arrest_kenyatta
+		icon = GFX_generic_focus_politics_signed_decree
 		search_filters = {
 			IC_FILTER
 		}
@@ -2422,7 +2422,7 @@ focus_tree = {
 		id = KEN_60s_kisumu_riots
 		completion_reward = {
 		}
-		icon = GFX_focus_KEN_arrest_kenyatta
+		icon = GFX_generic_focus_politics_sealed_letter
 		search_filters = {
 			IC_FILTER
 		}

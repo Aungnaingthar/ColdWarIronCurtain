@@ -1990,7 +1990,7 @@ focus_tree = {
 ### ICHIRO HATOYAMA 1954-1956 ###########################################
 	focus = {
 		id = JAP_The_Hatoyama_Administration
-		icon = GFX_JAP_The_Yoshida_Administration
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		x = 25
 		y = 0
@@ -2007,7 +2007,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAP_Metropolitan_Area_Redevelopment_Law
-		icon = GFX_JAP_The_Police_Law_of_1954
+		icon = GFX_focus_police
 		cost = 10.00
 		x = 19
 		y = 1
@@ -2070,7 +2070,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAP_Establish_the_Japan_Housing_Corporation
-		icon = GFX_JAP_A_Peaceful_Japan
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		x = 17
 		y = 2
@@ -2085,7 +2085,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAP_New_Board_of_Education_Law
-		icon = GFX_JAP_The_Police_Law_of_1954
+		icon = GFX_Invest_in_Education
 		cost = 10.00
 		x = 17
 		y = 3
@@ -2103,7 +2103,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAP_Promote_Development_of_New_Settlements
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		x = 21
 		y = 2
@@ -2192,7 +2192,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAP_Restore_the_Role_of_the_Prefectures
-		icon = GFX_JAP_restore_the_fuchu_airbase
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		x = 25
 		y = 2
@@ -2233,7 +2233,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAP_The_Article_9_Question
-		icon = GFX_JAP_Question_Japan_s_Sovereignity
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 0
 		x = 27
 		y = 3
@@ -2251,7 +2251,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAP_Establish_the_Constitutional_Research_Committee
-		icon = GFX_JAP_Ramp_Up_the_Constitutional_Debate
+		icon = GFX_establish_short_range_missile_research_facilities
 		cost = 10.00
 		x = 27
 		y = 4
@@ -2265,7 +2265,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAP_The_Hatomander_Proposal
-		icon = GFX_JAP_Kimura_Proposal
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		x = 23
 		y = 5
@@ -2329,7 +2329,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAP_Yuai_Seishin
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		x = 23
 		y = 7
@@ -2373,7 +2373,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAP_Strengthen_the_Boryu_Factions
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10
 		x = 33
 		y = 2
@@ -2448,7 +2448,7 @@ focus_tree = {
 ### TANZAN ISHIBASHI 1956-1957 ###########################################
 	focus = {
 		id = JAP_The_Ishibashi_Administration
-		icon = GFX_JAP_The_Yoshida_Administration
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		x = 26
 		y = 0
@@ -2835,7 +2835,7 @@ focus_tree = {
 ### NOBUSUKE KISHI 1967-1960 ###########################################
 	focus = {
 		id = JAP_The_Kishi_Administration
-		icon = GFX_JAP_The_Yoshida_Administration
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		x = 28
 		y = 0
@@ -2886,7 +2886,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_War_Reparations_for_Indonesia
-		icon = GFX_usa_50_indonesia_civil_war
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		x = 26
 		y = 2
@@ -2900,7 +2900,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Pearl_of_Asia
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		x = 24
 		y = 3
@@ -2953,7 +2953,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Invest_in_New_Domestic_Destroyers
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		x = 28
 		y = 3
@@ -3131,7 +3131,7 @@ focus_tree = {
 ### HAYATO IKEDA 1960-1964 ###########################################
 	focus = {
 		id = JAP_The_Ikeda_Administration
-		icon = GFX_JAP_The_Yoshida_Administration
+		icon = GFX_generic_focus_politics_petition
 		cost = 10
 		x = 26
 		y = 0
@@ -3597,7 +3597,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Join_OECD
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		prerequisite = { focus = JAP_Three_Principle_Theory }
 		prerequisite = { focus = JAP_VIsit_SEA }
 		cost = 10
@@ -3736,7 +3736,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Promote_Rural_To_Urban
-		icon = GFX_JAP_Increase_Rural_Farm_Subsisidies
+		icon = GFX_generic_focus_politics_parliament_handshake
 		prerequisite = { focus = JAP_Shift_The_Season_Of_Politics_To_The_Age_Of_Economics }
 		cost = 10
 		x = 21
@@ -3817,7 +3817,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Tokyo_Olympic
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		prerequisite = { focus = JAP_Japanese_Economic_Nationalism }
 		prerequisite = { focus = JAP_Massive_Middle_Class_Society }
 		cost = 10
@@ -3836,7 +3836,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Appoint_Eisaku_Sato_As_Successor
-		icon = GFX_JAP_Appoint_Ex_Bureacrats_to_Ministry_Portfolios
+		icon = GFX_generic_focus_politics_petition
 		prerequisite = { focus = JAP_Tokyo_Olympic }
 		cost = 10
 		x = 18
@@ -3856,7 +3856,7 @@ focus_tree = {
 	### Political tree ###
 	focus = {
 		id = JAP_Sato_Administration
-		icon = GFX_JAP_The_Yoshida_Administration
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10
 		allow_branch = { has_country_flag = JAP_Eisaku_Sato_Prime_Minister }
 		x = 40
@@ -3903,7 +3903,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Respect_Humanity
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		prerequisite = { focus = JAP_Sato_Administration }
 		cost = 10
 		x = 2
@@ -3935,7 +3935,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_City_Planning_Act
-		icon = GFX_JAP_The_Subversive_Activities_Prevention_Act
+		icon = GFX_focus_generic_election
 		prerequisite = { focus = JAP_Social_Development }
 		cost = 10
 		x = -1
@@ -3951,7 +3951,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Waste_Management_Facilities_Plan
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		prerequisite = { focus = JAP_Social_Development }
 		cost = 10
 		x = 1
@@ -3967,7 +3967,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Follow_Ilo_Convension
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		prerequisite = { focus = JAP_City_Planning_Act }
 		prerequisite = { focus = JAP_Waste_Management_Facilities_Plan }
 		cost = 10
@@ -3984,7 +3984,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Air_Pollution_Control_Act
-		icon = GFX_Oil_Pollution_Act
+		icon = GFX_Deploy_the_Airforce
 		prerequisite = { focus = JAP_Respect_Humanity }
 		cost = 10
 		x = -1
@@ -4000,7 +4000,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Noise_Control
-		icon = GFX_JAP_Take_Control_Of_The_MFund
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		prerequisite = { focus = JAP_Respect_Humanity }
 		cost = 10
 		x = 1
@@ -4016,7 +4016,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Enviromental_HQ
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		prerequisite = { focus = JAP_Air_Pollution_Control_Act }
 		prerequisite = { focus = JAP_Noise_Control }
 		cost = 10
@@ -4033,7 +4033,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Placeholder
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		prerequisite = { focus = JAP_Enviromental_HQ }
 		prerequisite = { focus = JAP_Follow_Ilo_Convension }
 		cost = 10
@@ -4167,7 +4167,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Hikawa_Dorm_Conference
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		prerequisite = { focus = JAP_Showa_40_Recession }
 		cost = 10
 		x = 0
@@ -4182,7 +4182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Maintain_Ultra_Balanced
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		prerequisite = { focus = JAP_Hikawa_Dorm_Conference }
 		mutually_exclusive = { focus = JAP_Abandon_Ultra_Balanced }
 		cost = 10
@@ -4198,7 +4198,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Abandon_Ultra_Balanced
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		prerequisite = { focus = JAP_Hikawa_Dorm_Conference }
 		mutually_exclusive = { focus = JAP_Maintain_Ultra_Balanced }
 		cost = 10
@@ -4214,7 +4214,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Raise_Tax
-		icon = GFX_Raise_Tax_on_Alchohol
+		icon = GFX_Generic_Trade
 		prerequisite = { focus = JAP_Maintain_Ultra_Balanced }
 		cost = 10
 		x = -1
@@ -4229,7 +4229,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Close_Stock
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		prerequisite = { focus = JAP_Maintain_Ultra_Balanced }
 		cost = 10
 		x = 1
@@ -4259,7 +4259,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Bank_Special_Loan
-		icon = GFX_Invest_in_modern_industry
+		icon = GFX_Economic_Reconstruction_Generic
 		prerequisite = { focus = JAP_Abandon_Ultra_Balanced }
 		cost = 10
 		x = -1
@@ -4274,7 +4274,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Publish_Government_Bonds
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		prerequisite = { focus = JAP_Abandon_Ultra_Balanced }
 		cost = 10
 		x = 1
@@ -4304,7 +4304,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Reform_Social_Economy
-		icon = GFX_Social_reforms
+		icon = GFX_Generic_Trade
 		prerequisite = { 
 			focus = JAP_Interest_Rate_Cut
 			focus = JAP_Close_Stock
@@ -4326,7 +4326,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Huge_Corporation_Marginalisation
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		prerequisite = { focus = JAP_Reform_Social_Economy }
 		cost = 10
 		x = -4
@@ -4341,7 +4341,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Market_Liberalism
-		icon = GFX_Generic_Trade
+		icon = GFX_Invest_in_modern_industry
 		prerequisite = { focus = JAP_Reform_Social_Economy }
 		cost = 10
 		x = -3
@@ -4356,7 +4356,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Enhance_Urban_Infrastructure
-		icon = GFX_VIE_Quang_Modernize_Urban_Infrastructure
+		icon = GFX_Begin_infrastructure_efforts
 		prerequisite = { focus = JAP_Reform_Social_Economy }
 		cost = 10
 		x = -2
@@ -4371,7 +4371,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Enhance_Welfare
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		prerequisite = { focus = JAP_Reform_Social_Economy }
 		cost = 10
 		x = 2
@@ -4386,7 +4386,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Help_Rural_Population
-		icon = GFX_JAP_Increase_Rural_Farm_Subsisidies
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		prerequisite = { focus = JAP_Enhance_Urban_Infrastructure }
 		prerequisite = { focus = JAP_Enhance_Welfare }
 		cost = 10
@@ -4434,7 +4434,7 @@ focus_tree = {
 		###Nixon shock branch
 	focus = {
 		id = JAP_Nixon_Shock
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10
 		allow_branch = { has_country_flag = JAP_Eisaku_Sato_Prime_Minister }
 		x = 33
@@ -4447,7 +4447,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Ichiro_Hatoyama_Proposal
-		icon = GFX_JAP_Kimura_Proposal
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10
 		prerequisite = { focus = JAP_Nixon_Shock }
 		mutually_exclusive = { focus = JAP_Reject_Ichiro_Hatoyama_Proposal }
@@ -4463,7 +4463,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Reject_Ichiro_Hatoyama_Proposal
-		icon = GFX_usa_fp84_reject_missile_export_proposal
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10
 		prerequisite = { focus = JAP_Nixon_Shock }
 		mutually_exclusive = { focus = JAP_Ichiro_Hatoyama_Proposal }
@@ -4479,7 +4479,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Kashiwagi_IMF
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10
 		prerequisite = {
 			focus = JAP_Ichiro_Hatoyama_Proposal
@@ -4497,7 +4497,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Floating_Exchange_Rate
-		icon = GFX_EstablishNewForeignExchangeRates
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10
 		prerequisite = { focus = JAP_Kashiwagi_IMF }
 		mutually_exclusive = { focus = JAP_Redenomination }
@@ -4513,7 +4513,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Redenomination
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10
 		prerequisite = { focus = JAP_Kashiwagi_IMF }
 		mutually_exclusive = { focus = JAP_Floating_Exchange_Rate }
@@ -4529,7 +4529,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Maintain_Fixed_Rate_Exchange
-		icon = GFX_EstablishNewForeignExchangeRates
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10
 		prerequisite = {
 			focus = JAP_Floating_Exchange_Rate
@@ -4547,7 +4547,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Smithsonian_Agreement
-		icon = GFX_JAP_Sino_Japanese_Fishing_Agreement
+		icon = GFX_generic_focus_diplomacy_flags_of_the_delegations
 		cost = 10
 		prerequisite = { focus = JAP_Maintain_Fixed_Rate_Exchange }
 		x = 0
@@ -4563,7 +4563,7 @@ focus_tree = {
 
 	focus = {
 		id = JAP_Nuclear_Umbrella
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10
 		allow_branch = { has_country_flag = JAP_Eisaku_Sato_Prime_Minister }
 		x = 21
@@ -4577,7 +4577,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Okinawa_Visit
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10
 		prerequisite = { focus = JAP_Nuclear_Umbrella }
 		x = -1
@@ -4592,7 +4592,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Three_Principles_Nukes
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10
 		prerequisite = { focus = JAP_Nuclear_Umbrella }
 		x = 1
@@ -4607,7 +4607,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Deal_Nixon
-		icon = GFX_focus_jap_america_deal
+		icon = GFX_generic_focus_politics_petition
 		cost = 10
 		prerequisite = { focus = JAP_Okinawa_Visit }
 		prerequisite = { focus = JAP_Three_Principles_Nukes }
@@ -4623,7 +4623,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Abandon_Japan_US
-		icon = GFX_JAP_A_Peaceful_Japan
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		mutually_exclusive = { focus = JAP_Acknowledge_Maintaining }
 		cost = 10
 		prerequisite = { focus = JAP_Deal_Nixon }
@@ -4639,7 +4639,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Acknowledge_Maintaining
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		mutually_exclusive = { focus = JAP_Abandon_Japan_US }
 		cost = 10
 		prerequisite = { focus = JAP_Deal_Nixon }
@@ -4655,7 +4655,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Acknowledge_US_Okinawa
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		mutually_exclusive = { focus = JAP_Abolish_US_Okinawa }
 		cost = 10
 		prerequisite = { focus = JAP_Deal_Nixon }
@@ -4671,7 +4671,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Abolish_US_Okinawa
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		mutually_exclusive = { focus = JAP_Acknowledge_US_Okinawa }
 		cost = 10
 		prerequisite = { focus = JAP_Deal_Nixon }
@@ -4687,7 +4687,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Support_Hoc_Bac
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		mutually_exclusive = { focus = JAP_Criticise_Hoc_Bac }
 		cost = 10
 		prerequisite = { focus = JAP_Deal_Nixon }
@@ -4703,7 +4703,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Criticise_Hoc_Bac
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		mutually_exclusive = { focus = JAP_Support_Hoc_Bac }
 		cost = 10
 		prerequisite = { focus = JAP_Deal_Nixon }
@@ -4719,7 +4719,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Postpone_Vietnam_Visit
-		icon = GFX_JAP_Compensations_for_Vietnam
+		icon = GFX_generic_focus_politics_typewriter
 		mutually_exclusive = { focus = JAP_Vietnam_Visit }
 		cost = 10
 		prerequisite = { focus = JAP_Support_Hoc_Bac }
@@ -4735,7 +4735,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Vietnam_Visit
-		icon = GFX_JAP_Compensations_for_Vietnam
+		icon = GFX_generic_focus_politics_stamped_files
 		mutually_exclusive = { focus = JAP_Postpone_Vietnam_Visit }
 		cost = 10
 		prerequisite = { focus = JAP_Support_Hoc_Bac }
@@ -4751,7 +4751,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Reject_US_Launches_Nukes
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		mutually_exclusive = { focus = JAP_Acknowledge_US_Launches_Nukes }
 		cost = 10
 		prerequisite = { focus = JAP_Deal_Nixon }
@@ -4762,7 +4762,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Acknowledge_US_Launches_Nukes
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		mutually_exclusive = { focus = JAP_Reject_US_Launches_Nukes }
 		cost = 10
 		prerequisite = { focus = JAP_Deal_Nixon }
@@ -4811,7 +4811,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Okinawa_Secret_Agreement
-		icon = GFX_JAP_Sino_Japanese_Fishing_Agreement
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10
 		prerequisite = { focus = JAP_Special_Expense_Fund }
 		x = 0
@@ -4821,7 +4821,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_515_Memo
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10
 		prerequisite = { focus = JAP_Acknowledge_US_Okinawa }
 		x = 0
@@ -4831,7 +4831,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Agreement_Okinawa
-		icon = GFX_JAP_Sino_Japanese_Fishing_Agreement
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		mutually_exclusive = { focus = JAP_Break_Down_Deal }
 		cost = 10
 		prerequisite = { focus = JAP_Okinawa_Secret_Agreement }
@@ -4842,7 +4842,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Break_Down_Deal
-		icon = GFX_PRC_50s_Break_Down_Individualism
+		icon = GFX_generic_focus_politics_newspaper
 		mutually_exclusive = { focus = JAP_Agreement_Okinawa }
 		prerequisite = { focus = JAP_Okinawa_Secret_Agreement }
 		cost = 10
@@ -4853,7 +4853,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Return_Okinawa
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10
 		prerequisite = { focus = JAP_Agreement_Okinawa }
 		x = 0
@@ -4862,7 +4862,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Return_Ogasawara
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10
 		prerequisite = { focus = JAP_Acknowledge_US_Okinawa }
 		prerequisite = { focus = JAP_Support_Hoc_Bac }
@@ -4874,7 +4874,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Albania_Resolution
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 0
 		available = {
 			always = no
@@ -4886,7 +4886,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Disapprove_Albania_Resolution
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10
 		prerequisite = { focus = JAP_Albania_Resolution}
 		x = -1
@@ -4895,7 +4895,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Approve_Albania_Resolution
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10
 		prerequisite = { focus = JAP_Albania_Resolution }
 		x = 1
@@ -4934,7 +4934,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Mik_Chou_Conference
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10
 		prerequisite = { focus = JAP_Send_Letters_Chou_Enlai }
 		x = 0

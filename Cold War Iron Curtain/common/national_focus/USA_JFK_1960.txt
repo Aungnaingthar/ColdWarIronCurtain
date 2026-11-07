@@ -25,7 +25,7 @@ focus_tree = {
 	focus = {
 		id = USA_jfk60_Betray_Organized_Crime
 		text_icon = USA_focus_style
-		icon = GFX_Crackdown_on_Organized_Crime
+		icon = GFX_focus_police
 		search_filters = {
 			IC_FILTER
 		}
@@ -42,7 +42,7 @@ focus_tree = {
 	focus = {
 		id = USA_jfk60_Establish_the_Peace_Corps
 		text_icon = USA_focus_style
-		icon = GFX_USA_50s_The_United_States_Marine_Corps
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		search_filters = {
 			IC_FILTER
 		}
@@ -230,7 +230,7 @@ focus_tree = {
 	focus = {
 		id = USA_jfk60_Deploy_Troops_to_Ole_Miss
 		text_icon = USA_focus_style
-		icon = GFX_Deploy_Bundeswehr_Troops
+		icon = GFX_generic_focus_military_massed_infantry
 		search_filters = {
 			IC_FILTER
 		}
@@ -364,7 +364,7 @@ focus_tree = {
 	focus = {
 		id = USA_jfk60_Civil_Rights_Act_of_1964
 		text_icon = USA_focus_style
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		search_filters = {
 			IC_FILTER
 		}

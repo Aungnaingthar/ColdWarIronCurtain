@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = GDR_The_Second_Five_Year_Plan
 	focus = {
 		id = GDR_Prime_Minister_Nuschke
-		icon = GFX_Prime_Minister_Tun
+		icon = GFX_GDR_The_Death_of_Nuschke
 		cost = 10.00
 		x = 7
 		y = 0
@@ -76,7 +76,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Halt_Agricultural_Collectivization_Efforts
-		icon = GFX_End_Agricultural_Collectivization_Efforts
+		icon = GFX_Halt_Collectivization
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_An_End_to_the_Bloc
@@ -99,7 +99,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reform_the_Church_Ministry
-		icon = GFX_GDR_Relax_Church_Repression
+		icon = GFX_goal_islam
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_An_End_to_the_Bloc
@@ -170,7 +170,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Dealing_with_the_Soviets
-		icon = GFX_GDR_Request_Soviet_Aid_in_Factory_Modernization
+		icon = GFX_Five_Year_Plan
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Announce_Rollback_of_Recent_Economic_Changes
@@ -236,7 +236,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Establish_New_Regional_Goverments
-		icon = GFX_GDR_Tolerate_Regional_Languages
+		icon = GFX_Establish_New_Regional_Governments
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Centralize_State_Power
@@ -260,7 +260,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Reform_the_Judiciary
-		icon = GFX_GDR_Land_Reform
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Investigate_Stasi_Overreach
@@ -288,7 +288,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Announce_Elections_for_1955
-		icon = GFX_Announce_General_Elections_for_1955
+		icon = GFX_Announce_Elections_for_1953
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Reform_the_Judiciary

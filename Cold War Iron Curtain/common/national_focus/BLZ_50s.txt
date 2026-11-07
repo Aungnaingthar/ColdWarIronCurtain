@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = BLZ_Begin_Agricultural_Diversification_Projects
-		icon = GFX_Focus_on_Water_and_Agricultural_Projects
+		icon = GFX_generic_focus_agriculture_irrigation
 		cost = 10.00
 		x = 6
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Grant_New_Private_Businesses_Exemption_from_Customs_Duty
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		x = 21
 		y = 0
@@ -53,7 +53,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_The_West_Indies_Federation_Proposal
-		icon = GFX_Propose_A_West_African_Federation
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		x = 2
 		y = 26
@@ -66,7 +66,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_The_Appointment_of_Sir_Colin_Hardwick_Thornley
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		x = 15
 		y = 24
@@ -79,7 +79,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_The_Hurricane_Janet_Disaster
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		x = 5
 		y = 16
@@ -103,7 +103,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Declare_a_State_of_Emergency_Across_the_Devestated_Districts
-		icon = GFX_declare_state_of_emergency
+		icon = GFX_Declare_Buddism_the_State_Religion_of_Malaysia
 		cost = 4.00
 		prerequisite = {
 			focus = BLZ_The_Hurricane_Janet_Disaster
@@ -120,7 +120,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Increase_Vaccination_Efforts_in_Orange_Walk
-		icon = GFX_JAP_Efforts_to_Increase_Employment_and_Production
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 4.00
 		prerequisite = {
 			focus = BLZ_Declare_a_State_of_Emergency_Across_the_Devestated_Districts
@@ -136,7 +136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Acquire_Observer_States_Instead
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_West_Indies_Federation_Proposal
@@ -189,7 +189,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Increase_Mahogany_Exports_to_Western_Europe
-		icon = GFX_usa80_our_friends_in_western_europe
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Finance_Bean_Production_and_Development_in_the_Northern_Areas
@@ -209,7 +209,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Accept_International_Relief_Materials_and_Support
-		icon = GFX_usa_80_rally_international_support
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 4.00
 		prerequisite = {
 			focus = BLZ_Declare_a_State_of_Emergency_Across_the_Devestated_Districts
@@ -222,7 +222,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Join_the_West_Indies_Federation
-		icon = GFX_Propose_A_West_African_Federation
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_West_Indies_Federation_Proposal
@@ -248,7 +248,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Allow_Citrus_and_Banana_Plantation_Expansion_in_the_South
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Begin_Agricultural_Diversification_Projects
@@ -268,7 +268,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Finance_Rice_Production_and_Development_in_Southern_Areas
-		icon = GFX_SWK_Expand_Rice_Production
+		icon = GFX_Agriculture_2
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Allow_Citrus_and_Banana_Plantation_Expansion_in_the_South
@@ -285,7 +285,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Decreae_Belize_Estate_and_Produce_Company_Influence
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Finance_Bean_Production_and_Development_in_the_Northern_Areas
@@ -301,7 +301,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Increase_Pine_Tree_Felling_Efficiency
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Finance_Rice_Production_and_Development_in_Southern_Areas
@@ -342,7 +342,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Promote_Cocoa_Plating_Across_British_Honduras
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Increase_Pine_Tree_Felling_Efficiency
@@ -394,7 +394,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_The_Conclusion_of_the_1949_Drought
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Scrutinize_the_Constitutional_Reform_Commission
@@ -412,7 +412,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_The_1949_Sterling_Crisis
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_Conclusion_of_the_1949_Drought
@@ -429,7 +429,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Guarantee_the_Strength_of_the_British_Honduras_Dollar
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_1949_Sterling_Crisis
@@ -443,7 +443,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_The_Credit_Union_League_Proposal
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_1949_Sterling_Crisis
@@ -456,7 +456,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_The_Preservation_of_the_Sterling_Pound
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_Conclusion_of_the_1949_Drought
@@ -471,7 +471,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Reject_the_Credit_Union_League_Scheme_b
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_Preservation_of_the_Sterling_Pound
@@ -500,7 +500,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Support_Mediation_with_the_Anti_Colonial_Dissidents
-		icon = GFX_usa_50_support_anti_egypt_nations
+		icon = GFX_Utilize_Mass_Media_For_Propaganda
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_Preservation_of_the_Sterling_Pound
@@ -530,7 +530,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Subsidize_Drought_Stricken_Farms
-		icon = GFX_KMT_50s_Taiwan_subsidize_rubber_farms
+		icon = GFX_Agriculture_2
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Promise_Wage_Increases
@@ -568,7 +568,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Increase_Media_Censorship_Efforts_b
-		icon = GFX_GDR_Liberalize_Media_Censorship_Laws
+		icon = GFX_goal_freedom_of_the_press
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Promise_Wage_Increases
@@ -585,7 +585,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Declare_a_State_of_Emergency_Across_British_Honduras
-		icon = GFX_declare_state_of_emergency
+		icon = GFX_Declare_Buddism_the_State_Religion_of_Malaysia
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Increase_Media_Censorship_Efforts_b
@@ -602,7 +602,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_REview_the_British_Honduran_Dollar_Valuation_Issue
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_Credit_Union_League_Proposal
@@ -621,7 +621,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Maintain_the_British_Honduran_Dollar
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_REview_the_British_Honduran_Dollar_Valuation_Issue
@@ -638,7 +638,7 @@ focus_tree = {
 	}		
 	focus = {
 		id = BLZ_Devalue_the_British_Honduran_Dollar
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_REview_the_British_Honduran_Dollar_Valuation_Issue
@@ -655,7 +655,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Reject_the_Credit_Union_League_Scheme
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Devalue_the_British_Honduran_Dollar
@@ -671,7 +671,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Declare_a_State_of_Emergency
-		icon = GFX_declare_state_of_emergency
+		icon = GFX_Declare_Buddism_the_State_Religion_of_Malaysia
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Devalue_the_British_Honduran_Dollar
@@ -728,7 +728,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Fortify_British_Colonial_Supreamcy
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Promise_Wage_Increases_c
@@ -745,7 +745,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Increase_Media_Censorship_Efforts
-		icon = GFX_GDR_Liberalize_Media_Censorship_Laws
+		icon = GFX_Utilize_Mass_Media_For_Propaganda
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Diminish_Local_Legislative_Powers
@@ -763,7 +763,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Fund_Construction_of_the_Trefgame_Hotel
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Increase_Media_Censorship_Efforts
@@ -785,7 +785,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Allow_the_Credit_Union_League
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Maintain_the_British_Honduran_Dollar
@@ -799,7 +799,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Support_Mediation_with_the_Anti_Colonial_Dissidents_b
-		icon = GFX_usa_50_support_anti_egypt_nations
+		icon = GFX_goal_freedom_of_the_press
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Maintain_the_British_Honduran_Dollar
@@ -856,7 +856,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Decrease_Media_Censorship_Efforts
-		icon = GFX_GDR_Liberalize_Media_Censorship_Laws
+		icon = GFX_goal_freedom_of_the_press
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Promise_Wage_Increases_b
@@ -872,7 +872,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Subsidize_Drought_Stricken_Farms_b
-		icon = GFX_KMT_50s_Taiwan_subsidize_rubber_farms
+		icon = GFX_Invest_in_Agriculture
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Promise_Wage_Increases_b
@@ -896,7 +896,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Fund_Construction_of_the_Trefgame_Hotel_b
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Decrease_Media_Censorship_Efforts
@@ -918,7 +918,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Appointment_of_Governor_Sir_Patrick_Muir_Renison
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_1952_National_Strike
@@ -953,7 +953,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Capitulate_to_the_Strikers_Demands
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 1.00
 		prerequisite = {
 			focus = BLZ_Appointment_of_Governor_Sir_Patrick_Muir_Renison
@@ -1015,7 +1015,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Reinforce_The_Belize_Estate_and_Produce_Company
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 4.00
 		prerequisite = {
 			focus = BLZ_Capitulate_to_the_Strikers_Demands
@@ -1029,7 +1029,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Loosen_Union_Media_Censorship
-		icon = GFX_Loosen_Political_Censorship
+		icon = GFX_Construct_radio_towers
 		cost = 4.00
 		prerequisite = {
 			focus = BLZ_Capitulate_to_the_Strikers_Demands
@@ -1059,7 +1059,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Establish_the_National_Party_of_British_Honduras
-		icon = GFX_Establish_the_National_front_coalition
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Persuade_the_General_Workers_Union
@@ -1091,7 +1091,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Introduce_the_Bill_of_Public_Utilities_and_Healthcare
-		icon = GFX_RUS_Introduce_Stop_Corp_Privatization_Bill
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Refuse_Productivity_Reform_Proposals
@@ -1134,7 +1134,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_The_1954_Legislative_Election
-		icon = GFX_KMT_50s_Taiwan_Postpone_Legislative_Yuan_Elections
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_British_Honduran_Constitution_Ordinance
@@ -1191,7 +1191,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Establish_the_Department_of_Development_and_Planning
-		icon = GFX_Establish_the_State_Planning_Commission
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_National_Party_Victory_1954
@@ -1252,7 +1252,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Support_Industrial_Legislation_in_Urban_Belize
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Promote_British_Literature_in_Education
@@ -1275,7 +1275,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Establish_the_Department_of_Housing_and_Planning
-		icon = GFX_Establish_the_State_Planning_Commission
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_Peoples_United_Party_Victory_1954
@@ -1288,7 +1288,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Initiate_Forest_Conservation_Campaigns
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Establish_the_Department_of_Housing_and_Planning
@@ -1339,7 +1339,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_The_Rise_of_George_Candle_Price
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Improve_Rural_Water_Supply_Access
@@ -1355,7 +1355,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Introduce_the_Quasi_Ministerial_System
-		icon = GFX_USA80MIL_Introduce_System_Requirement_Reviews_to_Prevent_Cost_Overruns
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_Appointment_of_Sir_Colin_Hardwick_Thornley
@@ -1383,7 +1383,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_The_1957_Legislative_Legislative_Election
-		icon = GFX_KMT_50s_Taiwan_Postpone_Legislative_Yuan_Elections
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Slip_Peoples_United_Party_Members_inot_Government_Roles
@@ -1481,7 +1481,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_The_Rise_of_Philip_Goldson
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Support_Protesting_Workers_in_Belize
@@ -1531,7 +1531,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Sentence_George_Candle_Price_for_Seditious_Intent
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Rebrand_and_Reestablish_the_General_Workers_Union
@@ -1548,7 +1548,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Reach_British_Quotas_for_Colonial_Industrialization
-		icon = GFX_Invest_in_modern_industry
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Sentence_George_Candle_Price_for_Seditious_Intent
@@ -1589,7 +1589,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Collaborate_with_British_Economists
-		icon = GFX_Expand_Heavy_Industry
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Allow_Essosa_Oil_Company_to_Commence_Operations
@@ -1639,7 +1639,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Collaborate_with_British_Economists_b
-		icon = GFX_Generic_Trade
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Allow_Essosa_Oil_Company_to_Commence_Operations_b
@@ -1652,7 +1652,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Solidify_George_Candle_PRices_Leadership
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_Support_Protesting_Workers_in_Belize_b
@@ -1685,7 +1685,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Distance_the_Administration_from_the_Strikes
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = BLZ_The_Peoples_United_Party_Victory
@@ -1698,7 +1698,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Covertly_Ignore_the_Disaster_Accross_Devestated_States
-		icon = GFX_Belgium_Ignore_the_disaster
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 4.00
 		prerequisite = {
 			focus = BLZ_The_Hurricane_Janet_Disaster
@@ -1715,7 +1715,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Avoid_Vaccination_Efforts_in_Orange_Walk
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 4.00
 		prerequisite = {
 			focus = BLZ_Covertly_Ignore_the_Disaster_Accross_Devestated_States
@@ -1761,7 +1761,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BLZ_Fund_Rebuilding_Efforts_in_Corozal
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 4.00
 		prerequisite = {
 			focus = BLZ_Accept_International_Relief_Materials_and_Support

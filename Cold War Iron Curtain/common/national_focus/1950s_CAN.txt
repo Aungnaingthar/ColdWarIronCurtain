@@ -115,7 +115,7 @@ focus_tree = {
 		id = CAN_The_Canadian_Armed_Forces
 		completion_reward = {
 		}
-		icon = GFX_Indian_Armed_Forces
+		icon = GFX_kor_armed_forces
 		search_filters = {
 			IC_FILTER
 		}
@@ -2360,7 +2360,7 @@ focus_tree = {
 		id = CAN_The_Canadian_Army
 		completion_reward = {
 		}
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		search_filters = {
 			IC_FILTER
 		}
@@ -2478,7 +2478,7 @@ focus_tree = {
 		id = CAN_The_Royal_Canadian_Navy
 		completion_reward = {
 		}
-		icon = GFX_CAN_Royal_AF
+		icon = GFX_modernize_ports
 		search_filters = {
 			IC_FILTER
 		}
@@ -3846,7 +3846,7 @@ focus_tree = {
 		id = CAN_Join_the_Organizaiton_of_American_States
 		completion_reward = {
 		}
-		icon = GFX_American_States_Rights
+		icon = GFX_American_State_Visit_to_PRC
 		search_filters = {
 			IC_FILTER
 		}

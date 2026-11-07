@@ -21,7 +21,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Ignore_Lack_of_Basic_Necessities
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		mutually_exclusive = {
 			focus = LIB_Improve_Agricultural_Infrastructure
@@ -57,7 +57,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Fight_Unemployment
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		mutually_exclusive = {
 			focus = LIB_Improve_Agricultural_Infrastructure
@@ -74,7 +74,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Constitutional_Referendum_1984
-		icon = GFX_Constitutional_Referendum
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		x = 46
 		y = 2
@@ -107,7 +107,7 @@ available = {
 	}
 	focus = {
 		id = LIB_AFL_Coup_1980
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Rice_Riots_Aftermath_1979
@@ -120,7 +120,7 @@ available = {
 	}
 	focus = {
 		id = LIB_Establish_The_Peoples_Redemption_Council
-		icon = GFX_Rutskoy_Establish_the_Malorossiyan_Peoples_Republic
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_AFL_Coup_1980
@@ -133,7 +133,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Execute_Tolberts_Cabinet
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Establish_The_Peoples_Redemption_Council
@@ -154,7 +154,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Offer_Ellen_Sirleaf_A_Position
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Execute_Tolberts_Cabinet
@@ -172,7 +172,7 @@ add_timed_idea = {
 	}
 	focus = {
 		id = LIB_Assassinate_Warner
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Offer_Ellen_Sirleaf_A_Position
@@ -216,7 +216,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Offer_Warner_A_Pardon
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Denounce_Warners_Government_in_Exile
@@ -230,7 +230,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Reagan_Triples_Our_Aid
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Offer_Warner_A_Pardon
@@ -262,7 +262,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_National_Democratic_Party_Samuel_Doe
-		icon = GFX_The_National_Front_of_Democratic_Germany_Program
+		icon = GFX_Infilitrate_the_NK_Democratic_Party
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Elections_1985
@@ -278,7 +278,7 @@ available = {
 	}
 	focus = {
 		id = LIB_Bar_LAP_Leaders_From_Politics
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_National_Democratic_Party_Samuel_Doe
@@ -291,7 +291,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Compensate_Leaving_Ore_Businesses
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Bar_LAP_Leaders_From_Politics
@@ -305,7 +305,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Liberia_Becomes_Tax_Haven
-		icon = GFX_Economic_Reconstruction_Generic
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Compensate_Leaving_Ore_Businesses
@@ -345,7 +345,7 @@ LIB = {
 	}
 	focus = {
 		id = LIB_Detain_Tolberts_Family
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_AFL_Coup_1980
@@ -358,7 +358,7 @@ add_ideas = LIB_Detain_Family
 	}
 	focus = {
 		id = LIB_End_Americo_Liberian_Political_Dominance
-		icon = GFX_End_Political_Commissar
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Detain_Tolberts_Family
@@ -374,7 +374,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Promise_Democratic_Reforms
-		icon = GFX_Introduce_Limited_Democratic_Reforms
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_End_Americo_Liberian_Political_Dominance
@@ -403,7 +403,7 @@ country_event = LIB_Doe_Propaganda.1
 	}
 	focus = {
 		id = LIB_Appeal_to_Common_Citizens
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Promise_Democratic_Reforms
@@ -432,7 +432,7 @@ country_event = LIB_NCC_Draft.1
 	}
 	focus = {
 		id = LIB_Input_Article_97
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_The_NCC_Draft_The_1982_Constitution
@@ -445,7 +445,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Normalize_IMF_Relations
-		icon = GFX_Normalize_Yugoslav_Relations
+		icon = GFX_generic_focus_diplomacy_peace_talks
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Elections_1985
@@ -493,7 +493,7 @@ add_ideas = LIB_Avoid_Collapse
 	}
 	focus = {
 		id = LIB_Welcome_USA_Secretary_of_State
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Avoid_Economic_Collapse
@@ -548,7 +548,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Expand_to_28_Members
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Empower_A_14_Officer_Oligarchy
@@ -562,7 +562,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Increase_Military_Spending
-		icon = GFX_Increase_Spending_on_NATO
+		icon = GFX_Put_upper_limit_military_spending
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Samuel_Doe_Promotes_Himself_To_General
@@ -577,7 +577,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Arrest_100_Previous_Officals
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Increase_Military_Spending
@@ -590,7 +590,7 @@ add_political_power = 100
 	}
 	focus = {
 		id = LIB_Deny_Organized_Opposition
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Expand_to_28_Members
@@ -611,7 +611,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Dissolve_Legislature
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Deny_Organized_Opposition
@@ -634,7 +634,7 @@ add_timed_idea = {
 		}
 	focus = {
 		id = LIB_Manipulate_Legislature
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Deny_Organized_Opposition
@@ -673,7 +673,7 @@ available = {
 	}
 	focus = {
 		id = LIB_Raid_Government_Armories
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Liberian_Action_Party_Jackson_Doe
@@ -686,7 +686,7 @@ load_oob = LIB_1980
 	}
 	focus = {
 		id = LIB_Invite_Neighorborly_Military_Support
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Raid_Government_Armories
@@ -699,7 +699,7 @@ add_ideas = LIB_Neighbor_Support
 	}
 	focus = {
 		id = LIB_Create_a_Rebel_Coalition
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Invite_Neighorborly_Military_Support
@@ -713,7 +713,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Grand_Coalition_of_Domestic_Parties
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Invite_Neighorborly_Military_Support
@@ -746,7 +746,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Invite_Private_Healthcare_Providers
-		icon = GFX_Expand_Medical_Access
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Amend_Constitutional_Free_Speech
@@ -772,7 +772,7 @@ add_war_support = 0.20
 	}
 	focus = {
 		id = LIB_Encourage_Gio_And_Mano_Business_Sector
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Invite_Private_Healthcare_Providers
@@ -801,7 +801,7 @@ every_owned_state = {
 	}
 	focus = {
 		id = LIB_Promote_Ellen_Sirleaf
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Invite_Private_Healthcare_Providers
@@ -868,7 +868,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Replace_National_Bank_of_Liberia
-		icon = GFX_VIE_Diem_National_Bank
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Encourage_Gio_And_Mano_Business_Sector
@@ -887,7 +887,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Use_Citibank_Lamco_Chase_Credit
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Expand_Mount_Coffee_Power_Generation
@@ -933,7 +933,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Dissolve_The_PRCs
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Constitutional_Referendum_1984
@@ -946,7 +946,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Rise_of_Interim_National_Assembly
-		icon = GFX_FRE_Lobby_the_National_Assembly
+		icon = GFX_generic_focus_politics_shift_in_the_assembly
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Dissolve_The_PRCs
@@ -985,7 +985,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Alter_Executive_Limits
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Rise_of_Interim_National_Assembly
@@ -998,7 +998,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Assume_Head_of_AFL
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_General_Thomas_Coup_1985
@@ -1014,7 +1014,7 @@ available = {
 	}
 	focus = {
 		id = LIB_Reward_Loyalist_Forces
-		icon = GFX_Reward_Kuomitang_Loyalists
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Assume_Head_of_AFL
@@ -1029,7 +1029,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Consolidate_AFL
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Reward_Loyalist_Forces
@@ -1042,7 +1042,7 @@ add_ideas = LIB_AFL_Consolidation
 	}
 	focus = {
 		id = LIB_Reach_Out_For_Emergent_Support
-		icon = GFX_Reach_out_to_the_Meads
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Reward_Loyalist_Forces
@@ -1060,7 +1060,7 @@ completion_reward = {
 		}
 	focus = {
 		id = LIB_Execute_PRC_Officals
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Consolidate_AFL
@@ -1079,7 +1079,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Without_Neighborly_Support
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Execute_PRC_Officals
@@ -1128,7 +1128,7 @@ add_war_support = 0.10
 	}
 			focus = {
 		id = LIB_Coup_Without_CIA_Support
-		icon = GFX_usa_80_cia_support_government
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Execute_PRC_Officals
@@ -1152,7 +1152,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Blame_The_Coup_on_the_CIA
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Assassinate_Warner
@@ -1181,7 +1181,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Take_Any_Help
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Blame_The_Coup_on_the_CIA
@@ -1197,7 +1197,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Fix_Border_Issues
-		icon = GFX_PRC_50s_Conced_on_The_Border_Issue
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Take_Any_Help
@@ -1248,7 +1248,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Favor_Krahns
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Dissolve_Legislature
@@ -1262,7 +1262,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Execute_Thomas_Weh_Syen
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Favor_Krahns
@@ -1288,7 +1288,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Survive_Seven_Coups
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Shutdown_Newspapers
@@ -1302,7 +1302,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Failed_Coup_1985
-		icon = GFX_usa_50_another_failed_coup
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_General_Thomas_Coup_1985
@@ -1318,7 +1318,7 @@ available = {
 	}
 	focus = {
 		id = LIB_Execute_Gio_And_Mano_Tribesmen
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_National_Democratic_Party_Samuel_Doe
@@ -1335,7 +1335,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Jail_Reporters
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Execute_Gio_And_Mano_Tribesmen
@@ -1386,7 +1386,7 @@ add_ideas = LIB_Siphon_Money
 	}
 	focus = {
 		id = LIB_Promote_Krahn_Into_Senior_Positions
-		icon = GFX_PRC_Promote_Deng_xiaoping_as_a_senior_advisor
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Jail_Reporters
@@ -1406,7 +1406,7 @@ add_popularity = {
 	}
 	focus = {
 		id = LIB_Build_SKD_Stadium
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Fire_Charles_Taylor
@@ -1447,7 +1447,7 @@ add_ideas = LIB_NEC
 	}
 	focus = {
 		id = LIB_Attack_University_of_Liberia
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Build_SKD_Stadium
@@ -1465,7 +1465,7 @@ set_variable = { THIS.idea_len_@token:military_boost_general = 750 }
 	}
 	focus = {
 		id = LIB_Complete_Bachelors_Degree
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Create_New_National_Elections_Commission
@@ -1501,7 +1501,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Exploit_Lamcro_Ore_Production
-		icon = GFX_POR_Increase_Ore_Production
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Complete_Bachelors_Degree
@@ -1518,7 +1518,7 @@ add_resource = {
 	}
 	focus = {
 		id = LIB_Establish_ECOMOG_HQ
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Sell_Oil_Imports_For_Cash
@@ -1541,7 +1541,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Invite_ECOWAS_Leadership
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Avoid_Economic_Collapse
@@ -1557,7 +1557,7 @@ add_ideas = LIB_International_Leadership
 	}
 	focus = {
 		id = LIB_Realign_With_USA
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Welcome_USA_Secretary_of_State
@@ -1594,7 +1594,7 @@ LIB = {
 }
 	focus = {
 		id = LIB_Invite_Romanian_Military_Support
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Invite_ECOWAS_Leadership
@@ -1654,7 +1654,7 @@ SOV = {
 }
 	focus = {
 		id = LIB_Sever_Soviet_Relations
-		icon = GFX_Soviet_Relations
+		icon = GFX_generic_focus_diplomacy_prc_severs_taiwan_strait
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Realign_With_USA
@@ -1686,7 +1686,7 @@ completion_reward = {
 	}
 	focus = {
 		id = LIB_Reach_Prewar_Rice_Production
-		icon = GFX_SWK_Expand_Rice_Production
+		icon = GFX_generic_focus_agriculture_irrigation
 		cost = 10.00
 		prerequisite = {
 			focus = LIB_Rebuild_Damaged_Infrastructure

@@ -28,7 +28,7 @@ focus_tree = {
 	focus = {
 		id = USA_AGNEW_Appoint_Romney_VP
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		search_filters = {
 			IC_FILTER
 		}
@@ -209,7 +209,7 @@ focus_tree = {
 	focus = {
 		id = USA_AGNEW_Pardon_Nixon
 		text_icon = USA_focus_style
-		icon = GFX_generic_focus_usa_nixon
+		icon = GFX_generic_focus_politics_typewriter
 		search_filters = {
 			IC_FILTER
 		}

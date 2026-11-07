@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_SHRIVER84_The_Shriver_Administration
-		icon = GFX_usa_80_icon_sargent_shriver
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10.00
 		x = 5
 		y = 0
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Education_Excellence_Act
-		icon = GFX_usa_80_icon_sargent_shriver
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Farm_Policy_Reform_Act
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Womens_Economic_Equity_Act
-		icon = GFX_usa_80_icon_sargent_shriver
+		icon = GFX_Generic_Trade
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_The_Shriver_Administration
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Medicaid_Eligibility_Expansion_Act
-		icon = GFX_usa_80_icon_sargent_shriver
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Womens_Economic_Equity_Act
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Codiffy_Abortion_Rights_and_Funding
-		icon = GFX_usa_80_icon_sargent_shriver
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Medicaid_Eligibility_Expansion_Act
@@ -110,7 +110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Pack_the_NLRB
-		icon = GFX_usa_80_icon_sargent_shriver
+		icon = GFX_Operation_Power_Pack
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Codiffy_Abortion_Rights_and_Funding
@@ -129,7 +129,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Declare_a_Nuclear_Freeze
-		icon = GFX_usa_80_icon_sargent_shriver
+		icon = GFX_generic_focus_politics_confidential_files
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Womens_Economic_Equity_Act
@@ -148,7 +148,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_The_Bradley_Gephardt_Tax_Reform_Act
-		icon = GFX_Corporate_Tax_Adjustment_Act
+		icon = GFX_usa_80_icon_dick_gephardt
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Declare_a_Nuclear_Freeze
@@ -168,7 +168,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Enviromental_Protection_Act
-		icon = GFX_usa_80_icon_sargent_shriver
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_The_Bradley_Gephardt_Tax_Reform_Act
@@ -202,7 +202,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Attack_Wasteful_Military_Spending
-		icon = GFX_Force_eastern_European_military_spending_limitation
+		icon = GFX_Put_upper_limit_military_spending
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Push_to_Repeal_Taft_Hartley
@@ -225,7 +225,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Electronic_Communications_Privacy_Act
-		icon = GFX_Electronic_Industry_Subsidies_Act
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Attack_Wasteful_Military_Spending
@@ -241,7 +241,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Peace_Corp_Expansion_Act
-		icon = GFX_usa_80_icon_sargent_shriver
+		icon = GFX_goal_generic_parliament2
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Attack_Wasteful_Military_Spending
@@ -260,7 +260,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Comprehensive_Anti_Apartheid_Act
-		icon = GFX_usa_80_safeguard_anti_apartheid_movement
+		icon = GFX_usa_80_target_the_anti_apartheid_movement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Propose_Free_Community_College
@@ -275,7 +275,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Civil_Rights_Restoration_Act
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Electronic_Communications_Privacy_Act
@@ -293,7 +293,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Mending_the_Democratic_Party
-		icon = GFX_Nigerian_Democratic_Party
+		icon = GFX_Infilitrate_the_NK_Democratic_Party
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_The_Mental_Health_Systems_Expansion_Act
@@ -311,7 +311,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Immigration_Reform_and_Control_Act
-		icon = GFX_usa_80_icon_sargent_shriver
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Comprehensive_Anti_Apartheid_Act
@@ -330,7 +330,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_The_Mental_Health_Systems_Expansion_Act
-		icon = GFX_usa_80_icon_sargent_shriver
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Immigration_Reform_and_Control_Act
@@ -346,7 +346,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_SHRIVER84_Childrens_Healthcare_Access_Act
-		icon = GFX_usa_80_icon_sargent_shriver
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = USA_SHRIVER84_Civil_Rights_Restoration_Act

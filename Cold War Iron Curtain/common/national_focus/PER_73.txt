@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = PER_return_of_khomeini
 	focus = {
 		id = PER_death_of_alam
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		completion_reward = {
 			add_political_power = 100
 			load_oob = PER_immortal_guards		
@@ -70,7 +70,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_praising_hoveyda
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		completion_reward = {
 			add_political_power = 50
 		}
@@ -243,7 +243,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_expand_working_offices
-		icon = GFX_Expand_Combat_Groups_of_the_Working_Class
+		icon = GFX_generic_focus_politics_cabinet_meeting
 		completion_reward = {
 			418 = {
 				add_building_construction = {
@@ -279,7 +279,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_improve_arj_co_eficiency
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		completion_reward = {
 			add_ideas = PER_iranian_arj_company
 		}
@@ -292,7 +292,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_improve_iran_khodro_car_manufactury
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		completion_reward = {
 			add_stability = 0.05
 			add_political_power = 75
@@ -332,7 +332,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_maintain_the_value_of_iranian_currency
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_signed_decree
 		completion_reward = {
 			add_stability = 0.05
 		}
@@ -413,7 +413,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_shatt_al_arab_conflict
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		completion_reward = { 
 			news_event = PER_73.2
 		}
@@ -426,7 +426,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_concede_to_saddams_demands
-		icon = GFX_Concede_to_Demand_For_Collective_Leadership
+		icon = GFX_generic_focus_politics_two_officials
 		completion_reward = {
 			news_event = PER_73.4
 		}
@@ -458,7 +458,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_military_distrust_of_the_shah
-		icon = GFX_FocusBorderTroops
+		icon = GFX_generic_focus_military_massed_infantry
 		completion_reward = {
 			add_popularity = {
 				ideology = monarchism
@@ -474,7 +474,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_appoint_jahanbani_supreme_high_command
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		completion_reward = {
 			add_popularity = {
 				ideology = monarchism
@@ -493,7 +493,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_jahanbani_criticizes_the_shah
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		completion_reward = {
 			country_event = PER_73.5
 		}
@@ -557,7 +557,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_shah_in_jail
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		completion_reward = {
 			add_ideas = PER_shah_imprisioned
 		}
@@ -570,7 +570,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_avenge_the_martyrs_of_arvandrud
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		completion_reward = {
 			country_event = PER_73.7
 		}
@@ -583,7 +583,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_the_persian_wraith
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_stamped_files
 		completion_reward = {
 			add_ideas = PER_persian_wraith
 		}
@@ -645,7 +645,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_convince_the_us
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		completion_reward = {
 			USA = {
 				add_opinion_modifier = {
@@ -683,7 +683,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_expand_the_royal_treasury
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		completion_reward = {
 			set_temp_variable = { money_change_temp = 5 } cwic_change_money = yes
 			custom_effect_tooltip = per_add_5_tt
@@ -730,7 +730,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_baghdad_or_nothing
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_petition
 		completion_reward = {
 			add_timed_idea = {
 				idea = PER_thirst_for_vengence
@@ -754,7 +754,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_execute_saddam_hussain
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		completion_reward = {
 			country_event = PER_73.11
 			news_event = PER_73.12
@@ -852,7 +852,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_mobilize_supply_trucks_to_aid_the_fronts
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_parliament_handshake
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = motorized_equipment_1
@@ -868,7 +868,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_retake_whats_ours
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		completion_reward = {
 			add_timed_idea = {
 				idea = PER_retake_whats_ours_i
@@ -955,7 +955,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_demilitarization_of_iraqi_borders
-		icon = GFX_Propose_border_demilitarization_accords_with_west_Germany
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		completion_reward = {
 			IRQ = {
 				every_controlled_state = {
@@ -978,7 +978,7 @@ focus_tree = {
 
 	focus = {
 		id = PER_arm_barzanis_kurdish_rebels
-		icon = GFX_Tiger_Divisions
+		icon = GFX_generic_focus_military_massed_infantry
 		completion_reward = {
 			IRQ = {
 				country_event = PER_73.13
@@ -1090,7 +1090,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_prepare_for_the_worst
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_petition
 		completion_reward = {
 			413 = {
 				add_building_construction = {
@@ -1114,7 +1114,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_shia_clergy_unrest
-		icon = GFX_Religous_Unity
+		icon = GFX_goal_islam
 		completion_reward = {
 		}
 		#allow_branch = {
@@ -1139,7 +1139,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_the_inevitable_rise_in_khomeinis_popularity
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		completion_reward = {
 			country_event = PER_shia.1
 			add_timed_idea = {
@@ -1184,7 +1184,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_increasing_protests_against_the_regime
-		icon = GFX_Put_Down_Protests_Against_Schumacher_Affair
+		icon = GFX_generic_focus_politics_two_officials
 		completion_reward = {
 			add_stability = -0.05
 		}
@@ -1197,7 +1197,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_amouzegar_pm
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_confidential_files
 		completion_reward = {
 			retire_character = PER_amir_abbas_Hoveyda
 		    promote_character = PER_jamshid_amouzegar
@@ -1214,7 +1214,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_bob_tangol_earthquake
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_stamped_files
 		completion_reward = {
 			country_event = PER_shia.2
 		}
@@ -1227,7 +1227,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_mobilize_aid_helicopters
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		completion_reward = {
 
 			add_equipment_to_stockpile = {
@@ -1270,7 +1270,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_expand_work_offices_of_kerman
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_confidential_files
 		completion_reward = {
 			add_offsite_building = { type = office_park level = 2 }
 		}
@@ -1296,7 +1296,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_stabilize_the_region
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		completion_reward = {
 			add_stability = 0.01
 		}
@@ -1407,7 +1407,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_the_imperial_decree
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		completion_reward = {
 			country_event = PER_shia.3
 

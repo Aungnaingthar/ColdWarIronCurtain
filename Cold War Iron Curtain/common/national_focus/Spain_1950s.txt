@@ -33,7 +33,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPR_Overseas_Possesions
-		icon = GFX_goal_SPR_Proclamation
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 10
 		x = 52
 		y = 0
@@ -624,7 +624,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPR_Continue_the_Castilization_Campaign
-		icon = GFX_goal_SPR_Proclamation
+		icon = GFX_generic_focus_politics_document_under_the_lamp
 		cost = 10
 		prerequisite = {
 			focus = SPR_Discreet_American_Financial_Aid
@@ -761,7 +761,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPR_Spanish_Morocco
-		icon = GFX_goal_SPR_Proclamation
+		icon = GFX_generic_focus_politics_typewriter
 		cost = 10
 		prerequisite = {
 			focus = SPR_Overseas_Possesions
@@ -857,7 +857,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPR_Return_Ifni
-		icon = GFX_goal_SPR_Proclamation
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 10
 		prerequisite = {
 			focus = SPR_Accept_the_End_of_the_Morroccan_Occupation
@@ -879,7 +879,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPR_The_Spanish_Sahara
-		icon = GFX_goal_SPR_Proclamation
+		icon = GFX_generic_focus_politics_petition
 		cost = 10
 		prerequisite = {
 			focus = SPR_Overseas_Possesions
@@ -1012,7 +1012,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPR_Spanish_Guinea
-		icon = GFX_goal_SPR_Proclamation
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 10
 		prerequisite = {
 			focus = SPR_Overseas_Possesions

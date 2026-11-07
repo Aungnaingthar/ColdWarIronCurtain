@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NGR_Form_the_Nigerien_National_Assembly
-		icon = GFX_FRE_Lobby_the_National_Assembly
+		icon = GFX_generic_focus_politics_shift_in_the_assembly
 		search_filters = {
 			IC_FILTER
 		}

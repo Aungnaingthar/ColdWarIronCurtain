@@ -8,7 +8,7 @@ focus_tree = {
 		id = NGA_1960_rise_of_the_nigerian_federation
 		completion_reward = {
 		}
-		icon = GFX_NGA_Founding_of_the_Republic
+		icon = GFX_generic_focus_politics_stamped_files
 		search_filters = {
 			Nigerian_Federation
 		}
@@ -921,7 +921,7 @@ focus_tree = {
 		id = NGA_integrate_british_cameroon
 		completion_reward = {
 		}
-		icon = GFX_NGA_Founding_of_the_Republic
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		search_filters = {
 			balewa_diplomacy
 		}
@@ -1989,7 +1989,7 @@ focus_tree = {
 		id = NGA_maintain_the_supreme_military_council
 		completion_reward = {
 		}
-		icon = GFX_NGA_Founding_of_the_Republic
+		icon = GFX_generic_focus_military_massed_infantry
 		search_filters = {
 			nigerian_coup
 		}
@@ -2473,7 +2473,7 @@ focus_tree = {
 		id = NGA_establish_a_new_junta
 		completion_reward = {
 		}
-		icon = GFX_NGA_Founding_of_the_Republic
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		search_filters = {
 			nigerian_coup
 		}
@@ -2497,7 +2497,7 @@ focus_tree = {
 		id = NGA_soviet_aligned_junta
 		completion_reward = {
 		}
-		icon = GFX_NGA_Founding_of_the_Republic
+		icon = GFX_Socialist_Consolidation
 		search_filters = {
 			nigerian_coup
 		}
@@ -2859,7 +2859,7 @@ focus_tree = {
 		id = NGA_declare_the_democratic_peoples_republic_of_nigeria
 		completion_reward = {
 		}
-		icon = GFX_Found_the_Peoples_Democratic_Republic_of_Malaysia
+		icon = GFX_declare_the_republic_of_vietnam
 		search_filters = {
 			nigerian_coup
 		}
@@ -3475,7 +3475,7 @@ focus_tree = {
 		id = NGA_nnamdi_akizikwe
 		completion_reward = {
 		}
-		icon = GFX_NGA_Founding_of_the_Republic
+		icon = GFX_generic_focus_politics_petition
 		search_filters = {
 			nigerian_coup
 		}
@@ -3572,7 +3572,7 @@ focus_tree = {
 		id = NGA_ban_the_worship_of_obaluaye
 		completion_reward = {
 		}
-		icon = GFX_NGA_Founding_of_the_Republic
+		icon = GFX_generic_focus_politics_petition
 		search_filters = {
 			nigerian_coup
 		}
@@ -3910,7 +3910,7 @@ focus_tree = {
 		id = NGA_nigerian_nationalism_achieved
 		completion_reward = {
 		}
-		icon = GFX_NGA_Founding_of_the_Republic
+		icon = GFX_The_Road_to_Independence
 		search_filters = {
 			nigerian_coup
 		}
@@ -5070,7 +5070,7 @@ focus_tree = {
 		id = NGA_found_the_federal_republic_of_nigeria
 		completion_reward = {
 		}
-		icon = GFX_NGA_Founding_of_the_Republic
+		icon = GFX_Found_the_Democratic_Republic_of_Austria
 		search_filters = {
 			nigerian_coup
 		}
@@ -5160,7 +5160,7 @@ focus_tree = {
 		id = NGA_address_the_anti_igbo_pogroms
 		completion_reward = {
 		}
-		icon = GFX_NGA_Founding_of_the_Republic
+		icon = GFX_generic_focus_politics_press_statement
 		search_filters = {
 			nigerian_coup
 		}

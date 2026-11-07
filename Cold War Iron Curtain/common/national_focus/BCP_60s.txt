@@ -3171,7 +3171,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BCP_60s_Construct_Rural_Power_Grids
-		icon = GFX_SOV_expand_hydroelectric_power_grid
+		icon = GFX_goal_oil_derrick
 		cost = 7
 		prerequisite = {
 			focus = BCP_60s_Establish_the_Thakin_Than_Tun_Coal_Plant

@@ -1920,7 +1920,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_g_n_1
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_sealed_letter
 		search_filters = {
 			IC_FILTER
 		}
@@ -2537,7 +2537,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_area_69
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		search_filters = {
 			IC_FILTER
 		}

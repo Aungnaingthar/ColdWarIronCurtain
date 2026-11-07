@@ -161,7 +161,7 @@ focus_tree = {
 	focus = {
 		id = USA_ROCKEFELLER_National_Environmental_Policy_Act
 		text_icon = USA_focus_style
-		icon = GFX_Farm_Policy_Reform_Act
+		icon = GFX_focus_generic_election
 		search_filters = {
 			IC_FILTER
 		}
@@ -358,7 +358,7 @@ focus_tree = {
 	focus = {
 		id = USA_ROCKEFELLER_Establish_the_Office_of_Minority_Business_Enterprise
 		text_icon = USA_focus_style
-		icon = GFX_Establish_the_Belgian_Office_for_the_Increase_of_Productivity
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		search_filters = {
 			IC_FILTER
 		}
@@ -378,7 +378,7 @@ focus_tree = {
 	focus = {
 		id = USA_ROCKEFELLER_Fight_Water_Pollution
 		text_icon = USA_focus_style
-		icon = GFX_usa_80_the_fight_for_self_determination
+		icon = GFX_Oil_Pollution_Act
 		search_filters = {
 			IC_FILTER
 		}

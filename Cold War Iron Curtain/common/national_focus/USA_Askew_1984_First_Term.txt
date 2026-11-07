@@ -14,7 +14,7 @@ focus_tree = {
 	shared_focus = USA80_Latin_America_Desk
 	focus = {
 		id = USA_ASKEW84_The_Askew_Administration
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 10.00
 		x = 5
 		y = 0
@@ -42,7 +42,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_Undo_Social_Security_Purges
-		icon = GFX_usa_truman_social_security_act_50
+		icon = GFX_Social_Security_Act_of_1953
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_Farm_Policy_Reform_Act
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_Womens_Economic_Equity_Act
-		icon = GFX_Generic_Trade
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_The_Askew_Administration
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_Budget_Enforcement_Act
-		icon = GFX_usa_80_increase_sanction_enforcement
+		icon = GFX_Economic_Reconstruction_Generic
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_Womens_Economic_Equity_Act
@@ -143,7 +143,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_The_Bradley_Gephardt_Tax_Reform_Act
-		icon = GFX_Corporate_Tax_Adjustment_Act
+		icon = GFX_usa_80_icon_dick_gephardt
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_Revitilize_Southern_Democrats
@@ -181,7 +181,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_Expand_NASA_Funding
-		icon = GFX_Expand_Military_Funding
+		icon = GFX_expand_ballistic_missile_funding
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_The_Bradley_Gephardt_Tax_Reform_Act
@@ -197,7 +197,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_Tax_Incentives_for_Technology_Development
-		icon = GFX_usa_truman_tax_relief_for_poor
+		icon = GFX_Invest_in_modern_industry
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_Enviromental_Protection_Act
@@ -216,7 +216,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_Electronic_Communications_Privacy_Act
-		icon = GFX_Electronic_Industry_Subsidies_Act
+		icon = GFX_focus_generic_election
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_Tax_Incentives_for_Technology_Development
@@ -232,7 +232,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_Comprehensive_Anti_Apartheid_Act
-		icon = GFX_usa_80_safeguard_anti_apartheid_movement
+		icon = GFX_usa_80_target_the_anti_apartheid_movement
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_Build_A_Labor_Management_Consensus
@@ -248,7 +248,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_Civil_Rights_Restoration_Act
-		icon = GFX_Civil_Rights_Act_1991
+		icon = GFX_usa_truman_propose_civil_rights
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_Attack_Wasteful_Military_Spending
@@ -286,7 +286,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_Attack_Wasteful_Military_Spending
-		icon = GFX_Force_eastern_European_military_spending_limitation
+		icon = GFX_Put_upper_limit_military_spending
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_Tax_Incentives_for_Technology_Development
@@ -308,7 +308,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_Immigration_Reform_and_Control_Act 
-		icon = GFX_Farm_Policy_Reform_Act
+		icon = GFX_Commit_to_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_Attack_Wasteful_Military_Spending
@@ -327,7 +327,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_The_Mental_Health_Systems_Expansion_Act
-		icon = GFX_VIE_Quang_Reform_Health_System
+		icon = GFX_Expand_Medical_Access
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_Immigration_Reform_and_Control_Act 
@@ -359,7 +359,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_ASKEW84_Build_A_Labor_Management_Consensus
-		icon = GFX_SOV_Adopt_the_Law_on_Labor_Collectives_and_Increasing_their_Management_Role
+		icon = GFX_generic_focus_politics_petition
 		cost = 10.00
 		prerequisite = {
 			focus = USA_ASKEW84_The_Temporary_Indexed_Deficit_Reduction_Act

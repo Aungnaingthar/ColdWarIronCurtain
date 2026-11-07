@@ -113,7 +113,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_begin_distributing_computers_in_administrations
-		icon = GFX_SOV_Acquire_The_Best_Western_Computers
+		icon = GFX_generic_focus_politics_press_statement
 		cost = 8
 		x = 1
 		y = 1
@@ -233,7 +233,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_end_workshops
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 8
 		x = -6
 		y = 1
@@ -257,7 +257,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_emphasize_on_the_new_soviet_man_idea
-		icon = GFX_SOV_emphasize_collec_leader
+		icon = GFX_Five_Year_Plan
 		cost = 8
 		x = 6
 		y = 1
@@ -327,7 +327,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_decriminalize_homosexuality
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 8
 		x = 0
 		y = 2
@@ -427,7 +427,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_study_american_prohibition_era_program
-		icon = GFX_Study_abroad_programs_in_north_korea
+		icon = GFX_generic_focus_politics_decree_and_telephone
 		cost = 8
 		x = -4
 		y = 1
@@ -666,7 +666,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_introduce_peoples_control_dissidence_watch
-		icon = GFX_SOV_Introduce_Peoples_Control_Committee
+		icon = GFX_SOV_Introduce_People_Control_Into_Law_Enforcement
 		cost = 8
 		x = 0
 		y = 1
@@ -701,7 +701,7 @@ focus_tree = {
 	
 	focus = {
 		id = SOV_open_the_world_first_sex_reassignment_surgery_service
-		icon = GFX_SOV_authorize_the_6th_world_festival_of_youth_and_students
+		icon = GFX_generic_focus_research_field_surgery
 		cost = 8
 		x = -1
 		y = 1
@@ -720,7 +720,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_partial_prohibition_in_regions_most_affected_by_alcoholism
-		icon = GFX_SOV_Create_Fortified_Region_North
+		icon = GFX_Use_national_Pride_to_combat_alcoholism
 		cost = 8
 		x = 1
 		y = 1
@@ -739,7 +739,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_study_americans_citicar
-		icon = GFX_SOV_Letter_to_American_President
+		icon = GFX_generic_focus_politics_ministers_briefcase
 		cost = 8
 		x = 1
 		y = 1
@@ -807,7 +807,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_separate_military_council
-		icon = GFX_SOV_appoint_khrushchev_chairman_of_the_council_of_ministers_of_the_ussr
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 8
 		x = 0
 		y = 1
@@ -842,7 +842,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_develop_the_1k17_szhatie
-		icon = GFX_SOV_Develop_Oil_and_Gas_In_Transurals
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 8
 		x = -2
 		y = 1
@@ -923,7 +923,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_tsaksu_vs_concept
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_parliament_handshake
 		cost = 8
 		x = 0
 		y = 1
@@ -949,7 +949,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_emphasize_emiresistant_electronics
-		icon = GFX_SOV_sponsor_radio_engineering_and_electronic_industry
+		icon = GFX_goal_generic_parliament2
 		cost = 8
 		x = 2
 		y = 1
@@ -1083,7 +1083,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_begin_production_of_the_obiekt_785_and_t95
-		icon = GFX_usa_50_begin_sabre_mass_production
+		icon = GFX_Invest_in_modern_industry
 		cost = 8
 		x = 1
 		y = 1
@@ -1606,7 +1606,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_worker_feedback_programs
-		icon = GFX_SOV_increase_the_minimum_wages_of_workers_and_employees
+		icon = GFX_Socialist_Consolidation
 		cost = 8
 		x = 2
 		y = 1
@@ -1627,7 +1627,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_begin_planning_project_akademset
-		icon = GFX_usa_50_begin_project_mockingbird
+		icon = GFX_generic_focus_politics_signed_decree
 		cost = 8
 		x = -1
 		y = 1
@@ -1764,7 +1764,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_embrace_sofe_theory
-		icon = GFX_SOV_Embrace_Deeper_Implementation_Of_Self_Management
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 8
 		x = -2
 		y = 1
@@ -1807,7 +1807,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_prepare_a_soviet_moon_landing
-		icon = GFX_PRC_50s_Prepare_Ships_for_Landing
+		icon = GFX_generic_focus_other_the_moon
 		cost = 8
 		x = 2
 		y = 1
@@ -1917,7 +1917,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_optimize_npp_energy_management
-		icon = GFX_SOV_Embrace_Deeper_Implementation_Of_Self_Management
+		icon = GFX_goal_oil_derrick
 		cost = 8
 		x = -1
 		y = 1
@@ -1946,7 +1946,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_launch_large_rare_earths_excavation_program
-		icon = GFX_PRC_Rare_Earth
+		icon = GFX_SOV_Expand_And_Upgrade_Large_Scale_Food_Storage_Network
 		cost = 8
 		x = -1
 		y = 1
@@ -2143,7 +2143,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_experiment_robotic_assembly_lines_and_computercontrol_in_steel_industries
-		icon = GFX_Pack_the_Coal_and_Steel_Industries
+		icon = GFX_Replace_workers_with_robotics
 		cost = 8
 		x = 5
 		y = 1
@@ -2240,7 +2240,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_embrace_informatics
-		icon = GFX_SOV_Embrace_Deeper_Implementation_Of_Self_Management
+		icon = GFX_generic_focus_politics_petition
 		cost = 8
 		x = 1
 		y = 1
@@ -2304,7 +2304,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_compete_with_western_processors_designs
-		icon = GFX_SOV_Reorganize_The_Computer_Design_Bureau_Into_NITsVTM
+		icon = GFX_generic_focus_politics_stamped_files
 		cost = 8
 		x = 0
 		y = 1
@@ -2329,7 +2329,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_study_stafford_beers_and_western_cyberneticists
-		icon = GFX_SOV_Acquire_The_Best_Western_Computers
+		icon = GFX_generic_focus_politics_newspaper
 		cost = 8
 		x = 0
 		y = 1
@@ -2351,7 +2351,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_integrate_improvments_from_viable_system_model
-		icon = GFX_SOV_Request_new_Artillery_Systems
+		icon = GFX_generic_focus_politics_paperwork_and_telephone
 		cost = 8
 		x = 0
 		y = 1
@@ -2536,7 +2536,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_modernize_altai_mobile_telephone_system
-		icon = GFX_SOV_improve_mobile_aa
+		icon = GFX_SOV_Start_Large_Scale_Deployment_Of_Mobile_Concrete_Combinates
 		cost = 8
 		x = 0
 		y = 1
@@ -2562,7 +2562,7 @@ focus_tree = {
 		
 		cancel_if_invalid = no
 		id = SOV_first_soviet_general_purpose_home_automation_networks
-		icon = GFX_SOV_Improve_Ground_Based_Air_Defence_Network
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 8
 		x = -1
 		y = 1

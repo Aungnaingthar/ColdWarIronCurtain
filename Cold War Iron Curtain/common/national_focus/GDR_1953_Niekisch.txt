@@ -227,7 +227,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Escalate_Rearmament_Efforts
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Against_the_Transatlantic_Hydra
@@ -255,7 +255,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Brothers_Beyond_Ideology_The_National_Left
-		icon = GFX_GDR_Investigate_the_National_Political_Outlook
+		icon = GFX_The_Road_to_Independence
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_Will_to_Forge_a_Nation
@@ -348,7 +348,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_Appeal_to_Strasser
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_two_officials
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Brothers_Beyond_Ideology_The_National_Left
@@ -369,7 +369,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_The_Soul_of_the_Army
-		icon = GFX_GDR_Army
+		icon = GFX_generic_focus_military_massed_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_Brothers_Beyond_Ideology_The_National_Left
@@ -392,7 +392,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_A_New_Prussian_Militarism
-		icon = GFX_generic_focus_politics_paperwork_and_telephone
+		icon = GFX_generic_focus_politics_calling_the_ministry
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_Soul_of_the_Army
@@ -415,7 +415,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GDR_A_Legacy_of_Resistance
-		icon = GFX_generic_focus_politics_press_statement
+		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 10.00
 		prerequisite = {
 			focus = GDR_The_Soul_of_the_Army
