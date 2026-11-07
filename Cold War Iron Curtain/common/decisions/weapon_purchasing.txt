@@ -278,6 +278,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_support_equipment_large = {
@@ -302,6 +310,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_support_equipment_bulk = {
@@ -322,6 +338,14 @@ weapon_purchasing = {
 				amount = global.SupportPerBulk
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -344,6 +368,14 @@ weapon_purchasing = {
 				amount = global.MotorPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -370,6 +402,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_motorized_equipment_bulk_50s = {
@@ -392,6 +432,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_motorized_equipment_75s = {
@@ -413,6 +461,14 @@ weapon_purchasing = {
 				amount = global.MotorPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -439,6 +495,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_motorized_equipment_bulk_75s = {
@@ -460,6 +524,14 @@ weapon_purchasing = {
 				amount = global.MotorPerBulk
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -483,6 +555,14 @@ weapon_purchasing = {
 				amount = global.UtilityHeliPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -512,6 +592,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_utility_helicopter_bulk = { # WIP H.
@@ -537,6 +625,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_utility_helicopter_60s = {
@@ -559,6 +655,14 @@ weapon_purchasing = {
 				amount = global.UtilityHeliPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -588,6 +692,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_utility_helicopter_bulk_60s = {
@@ -613,6 +725,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_utility_helicopter_90s = {
@@ -634,6 +754,14 @@ weapon_purchasing = {
 				amount = global.UtilityHeliPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -662,6 +790,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_utility_helicopter_bulk_90s = { # WIP H.
@@ -686,6 +822,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_transport_plane = {
@@ -707,6 +851,14 @@ weapon_purchasing = {
 				amount = global.TransportPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -735,6 +887,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_transport_plane_bulk = { # WIP H.
@@ -759,6 +919,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_transport_plane_65s = {
@@ -781,6 +949,14 @@ weapon_purchasing = {
 				amount = global.TransportPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -810,6 +986,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 	WP_universal_transport_plane_bulk_65s = { # WIP H.
 		icon = transportplanes
@@ -834,6 +1018,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_transport_plane_90s = {
@@ -855,6 +1047,14 @@ weapon_purchasing = {
 				amount = global.TransportPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -880,6 +1080,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_transport_plane_bulk_90s = {
@@ -904,6 +1112,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #CARGO HELICOPTERS#
@@ -927,6 +1143,14 @@ weapon_purchasing = {
 				amount = global.CargoHeliPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -956,6 +1180,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_cargo_helicopter_bulk = { # WIP H.
@@ -981,6 +1213,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_cargo_helicopter_90s = {
@@ -1002,6 +1242,14 @@ weapon_purchasing = {
 				amount = global.CargoHeliPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1030,6 +1278,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_cargo_helicopter_bulk_90s = { # WIP H.
@@ -1054,6 +1310,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #LIGHT JETS#
@@ -1076,6 +1340,14 @@ weapon_purchasing = {
 				amount = global.LightJetPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1104,6 +1376,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_jet_light_bulk = { # WIP H.
@@ -1128,6 +1408,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_jet_light_65s = {
@@ -1150,6 +1438,14 @@ weapon_purchasing = {
 				amount = global.LightJetPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1179,6 +1475,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_jet_light_bulk_65s = { # WIP H.
@@ -1204,6 +1508,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_jet_light_90s = {
@@ -1225,6 +1537,14 @@ weapon_purchasing = {
 				amount = global.LightJetPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1250,6 +1570,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 	WP_universal_jet_light_bulk_90s = { # WIP H.
 		icon = lightjet
@@ -1272,6 +1600,14 @@ weapon_purchasing = {
 				amount = global.LightJetPerBulk
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1302,6 +1638,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_convoy_large = { # WIP H.
@@ -1328,6 +1672,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_convoy_bulk = { # WIP H.
@@ -1351,6 +1703,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 	
 		WP_universal_train_equipment = {
@@ -1371,6 +1731,14 @@ weapon_purchasing = {
 				amount = global.TrainPer
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1396,6 +1764,14 @@ weapon_purchasing = {
 				producer = IND
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_universal_train_equipment_bulk = {
@@ -1416,6 +1792,14 @@ weapon_purchasing = {
 				amount = global.TrainPerBulk
 				producer = IND
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 }

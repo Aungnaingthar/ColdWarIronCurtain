@@ -59,6 +59,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CAP_screen_hull_medium_1 = {
@@ -120,6 +128,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CAP_screen_hull_medium_3 = {
@@ -180,6 +196,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CAP_screen_hull_heavy_ww = {
@@ -222,6 +246,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -266,6 +298,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CAP_screen_hull_heavy_3 = {
@@ -308,6 +348,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CAP_battle_hull_light_ww = {
@@ -341,6 +389,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -376,6 +432,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CAP_battle_hull_light_3 = {
@@ -408,6 +472,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -461,6 +533,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CAP_sub_hull_small_single_1 = {
@@ -513,6 +593,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CAP_sub_hull_small_single_3 = {
@@ -564,6 +652,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CAP_carrier_hull_light_ww = {
@@ -597,6 +693,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -632,6 +736,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CAP_carrier_hull_light_3 = {
@@ -664,6 +776,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 	
@@ -727,6 +847,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CUM_screen_hull_medium_1 = {
@@ -788,6 +916,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CUM_screen_hull_medium_3 = {
@@ -848,6 +984,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CUM_screen_hull_heavy_ww = {
@@ -890,6 +1034,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -934,6 +1086,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CUM_screen_hull_heavy_3 = {
@@ -976,6 +1136,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CUM_battle_hull_light_ww = {
@@ -1009,6 +1177,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1044,6 +1220,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CUM_battle_hull_light_3 = {
@@ -1076,6 +1260,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1129,6 +1321,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CUM_sub_hull_small_single_1 = {
@@ -1181,6 +1381,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CUM_sub_hull_small_single_3 = {
@@ -1232,6 +1440,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CUM_carrier_hull_light_ww = {
@@ -1265,6 +1481,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1300,6 +1524,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_CUM_carrier_hull_light_3 = {
@@ -1332,6 +1564,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 	
@@ -1396,6 +1636,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_screen_hull_medium_1 = {
@@ -1457,6 +1705,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_screen_hull_medium_3 = {
@@ -1517,6 +1773,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_screen_hull_heavy_ww = {
@@ -1559,6 +1823,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1603,6 +1875,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_screen_hull_heavy_3 = {
@@ -1645,6 +1925,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_battle_hull_light_ww = {
@@ -1678,6 +1966,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1713,6 +2009,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_battle_hull_light_3 = {
@@ -1745,6 +2049,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1798,6 +2110,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_sub_hull_small_single_1 = {
@@ -1850,6 +2170,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_sub_hull_small_single_3 = {
@@ -1901,6 +2229,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_carrier_hull_light_ww = {
@@ -1934,6 +2270,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1969,6 +2313,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_carrier_hull_light_3 = {
@@ -2001,6 +2353,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 	
@@ -2064,6 +2424,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_IND_screen_hull_medium_1 = {
@@ -2125,6 +2493,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_IND_screen_hull_medium_3 = {
@@ -2185,6 +2561,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_IND_screen_hull_heavy_ww = {
@@ -2227,6 +2611,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2271,6 +2663,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_IND_screen_hull_heavy_3 = {
@@ -2313,6 +2713,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_IND_battle_hull_light_ww = {
@@ -2346,6 +2754,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2381,6 +2797,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_IND_battle_hull_light_3 = {
@@ -2413,6 +2837,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2466,6 +2898,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_IND_sub_hull_small_single_1 = {
@@ -2518,6 +2958,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_IND_sub_hull_small_single_3 = {
@@ -2569,6 +3017,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_IND_carrier_hull_light_ww = {
@@ -2602,6 +3058,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2637,6 +3101,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_IND_carrier_hull_light_3 = {
@@ -2669,6 +3141,14 @@ weapon_purchasing = {
 					creator = VTC
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 }

@@ -25,6 +25,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_infantry_equipment_0_large = {
@@ -52,6 +60,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_infantry_equipment_0_bulk = {
@@ -76,6 +92,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_infantry_equipment_1 = {
@@ -98,6 +122,14 @@ weapon_purchasing = {
 				amount = global.InfantryBulkPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -127,6 +159,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_infantry_equipment_1_bulk = {
@@ -152,6 +192,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_infantry_equipment_2 = {
@@ -175,6 +223,14 @@ weapon_purchasing = {
 				amount = global.InfantryPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -205,6 +261,14 @@ weapon_purchasing = {
 		}
 		remove_effect = {
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_infantry_equipment_2_bulk = {
@@ -231,6 +295,14 @@ weapon_purchasing = {
 		}
 		remove_effect = {
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_infantry_equipment_4 = {
@@ -253,6 +325,14 @@ weapon_purchasing = {
 				amount = global.InfantryPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -280,6 +360,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_infantry_equipment_4_bulk = {
@@ -302,6 +390,14 @@ weapon_purchasing = {
 				amount = global.InfantryPerBulk
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -327,6 +423,14 @@ weapon_purchasing = {
 				amount = global.DFGPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -355,6 +459,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_direct_fire_gun_equipment_1_bulk = {
@@ -379,6 +491,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_direct_fire_gun_equipment_3 = {
@@ -402,6 +522,14 @@ weapon_purchasing = {
 				amount = global.DFGPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -430,6 +558,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_direct_fire_gun_equipment_3_bulk = {
@@ -454,6 +590,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_direct_fire_gun_equipment_5 = {
@@ -476,6 +620,14 @@ weapon_purchasing = {
 				amount = global.DFGPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -503,6 +655,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_direct_fire_gun_equipment_5_bulk = {
@@ -525,6 +685,14 @@ weapon_purchasing = {
 				amount = global.DFGPerBulk
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -550,6 +718,14 @@ weapon_purchasing = {
 				amount = global.AAPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -578,6 +754,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_auto_cannon_equipment_1_bulk = {
@@ -602,6 +786,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_auto_cannon_equipment_3 = {
@@ -625,6 +817,14 @@ weapon_purchasing = {
 				amount = global.AAPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -653,6 +853,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_auto_cannon_equipment_3_bulk = {
@@ -677,6 +885,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_auto_cannon_equipment_5 = {
@@ -699,6 +915,14 @@ weapon_purchasing = {
 				amount = global.AAPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -726,6 +950,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_auto_cannon_equipment_5_bulk = {
@@ -750,6 +982,14 @@ weapon_purchasing = {
 				amount = global.AAPerBulk
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -791,6 +1031,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -835,6 +1083,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_spaag_equipment_1_bulk = { # WIP H.
@@ -877,6 +1133,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_spaag_equipment_3 = {
@@ -916,6 +1180,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -960,6 +1232,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_spaag_equipment_3_bulk = { # WIP H.
@@ -1002,6 +1282,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_spaag_equipment_5 = {
@@ -1040,6 +1328,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1083,6 +1379,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_spaag_equipment_5_bulk = { # WIP H.
@@ -1124,6 +1428,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #SAM CARRIER#
@@ -1148,6 +1460,14 @@ weapon_purchasing = {
 				amount = global.SAMPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1176,6 +1496,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_sam_carrier_equipment_1_bulk = { # WIP H.
@@ -1202,6 +1530,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_sam_carrier_equipment_3 = {
@@ -1225,6 +1561,14 @@ weapon_purchasing = {
 				amount = global.SAMPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1253,6 +1597,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_sam_carrier_equipment_3_bulk = { # WIP H.
@@ -1279,6 +1631,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_sam_carrier_equipment_5 = {
@@ -1301,6 +1661,14 @@ weapon_purchasing = {
 				amount = global.SAMPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1328,6 +1696,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_sam_carrier_equipment_5_bulk = { # WIP H.
@@ -1353,6 +1729,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #LIGHT ARTILLERY#
@@ -1377,6 +1761,14 @@ weapon_purchasing = {
 				amount = global.LtArtyPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1405,6 +1797,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_light_artillery_equipment_1_bulk = {
@@ -1429,6 +1829,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_light_artillery_equipment_3 = {
@@ -1452,6 +1860,14 @@ weapon_purchasing = {
 				amount = global.LtArtyPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1480,6 +1896,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_light_artillery_equipment_3_bulk = {
@@ -1504,6 +1928,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_light_artillery_equipment_5 = {
@@ -1526,6 +1958,14 @@ weapon_purchasing = {
 				amount = global.LtArtyPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1553,6 +1993,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_light_artillery_equipment_5_bulk = {
@@ -1578,6 +2026,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #MEDIUM ARTILLERY#
@@ -1602,6 +2058,14 @@ weapon_purchasing = {
 				amount = global.ArtyPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1632,6 +2096,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_artillery_equipment_1_bulk = {
@@ -1656,6 +2128,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_artillery_equipment_3 = {
@@ -1679,6 +2159,14 @@ weapon_purchasing = {
 				amount = global.ArtyPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1707,6 +2195,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_artillery_equipment_3_bulk = {
@@ -1731,6 +2227,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_artillery_equipment_5 = {
@@ -1753,6 +2257,14 @@ weapon_purchasing = {
 				amount = global.ArtyPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1780,6 +2292,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_artillery_equipment_5_bulk = {
@@ -1802,6 +2322,14 @@ weapon_purchasing = {
 				amount = global.ArtyPerBulk
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1843,6 +2371,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -1887,6 +2423,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_light_sp_artillery_equipment_1_bulk = { # WIP H.
@@ -1929,6 +2473,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_light_sp_artillery_equipment_3 = {
@@ -1968,6 +2520,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2012,6 +2572,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_light_sp_artillery_equipment_3_bulk = { # WIP H.
@@ -2054,6 +2622,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_light_sp_artillery_equipment_5 = {
@@ -2092,6 +2668,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2135,6 +2719,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_light_sp_artillery_equipment_5_bulk = { # WIP H.
@@ -2176,6 +2768,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #MEDIUM SP ARTILLERY#
@@ -2216,6 +2816,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2260,6 +2868,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_sp_artillery_equipment_1_bulk = { # WIP H.
@@ -2302,6 +2918,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_sp_artillery_equipment_3 = {
@@ -2341,6 +2965,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2385,6 +3017,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_sp_artillery_equipment_3_bulk = { # WIP H.
@@ -2427,6 +3067,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_sp_artillery_equipment_5 = {
@@ -2465,6 +3113,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2510,6 +3166,14 @@ weapon_purchasing = {
 		}
 		remove_effect = {
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_sp_artillery_equipment_5_bulk = { # WIP H.
@@ -2550,6 +3214,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2594,6 +3266,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2643,6 +3323,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_lt_equipment_2_bulk = { # WIP H.
@@ -2688,6 +3376,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_lt_equipment_4 = {
@@ -2730,6 +3426,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2779,6 +3483,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_lt_equipment_4_bulk = { # WIP H.
@@ -2824,6 +3536,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_lt_equipment_6 = {
@@ -2865,6 +3585,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -2913,6 +3641,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_lt_equipment_6_bulk = { # WIP H.
@@ -2957,6 +3693,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #TANK DESTROYERS/MANEUVER COMBAT VEHICLES#
@@ -3000,6 +3744,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -3049,6 +3801,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_medium_tank_destroyer_equipment_1_bulk = { # WIP H.
@@ -3094,6 +3854,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_medium_tank_destroyer_equipment_3 = {
@@ -3136,6 +3904,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -3185,6 +3961,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_medium_tank_destroyer_equipment_3_bulk = { # WIP H.
@@ -3230,6 +4014,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_medium_tank_destroyer_equipment_5 = {
@@ -3271,6 +4063,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -3319,6 +4119,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_medium_tank_destroyer_equipment_5_bulk = { # WIP H.
@@ -3363,6 +4171,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #HEAVY ARTILLERY#
@@ -3387,6 +4203,14 @@ weapon_purchasing = {
 				amount = global.HtArtyPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -3415,6 +4239,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_heavy_artillery_equipment_1_bulk = {
@@ -3439,6 +4271,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_heavy_artillery_equipment_3 = {
@@ -3462,6 +4302,14 @@ weapon_purchasing = {
 				amount = global.HtArtyPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -3490,6 +4338,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_heavy_artillery_equipment_3_bulk = {
@@ -3516,6 +4372,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_heavy_artillery_equipment_5 = {
@@ -3538,6 +4402,14 @@ weapon_purchasing = {
 				amount = global.HtArtyPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -3567,6 +4439,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_heavy_artillery_equipment_5_bulk = {
@@ -3591,6 +4471,14 @@ weapon_purchasing = {
 				amount = global.HtArtyPerBulk
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -3632,6 +4520,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -3676,6 +4572,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_heavy_sp_artillery_equipment_1_bulk = {
@@ -3716,6 +4620,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_heavy_sp_artillery_equipment_3 = {
@@ -3755,6 +4667,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -3799,6 +4719,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_heavy_sp_artillery_equipment_3_bulk = {
@@ -3841,6 +4769,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_heavy_sp_artillery_equipment_5 = {
@@ -3879,6 +4815,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -3922,6 +4866,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_heavy_sp_artillery_equipment_5_bulk = {
@@ -3963,6 +4915,14 @@ weapon_purchasing = {
 		}
 		remove_effect = {
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #ATGM#
@@ -3987,6 +4947,14 @@ weapon_purchasing = {
 				amount = global.ATGMPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -4015,6 +4983,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_atgm_equipment_0_bulk = { # WIP H.
@@ -4041,6 +5017,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_atgm_equipment_2 = {
@@ -4064,6 +5048,14 @@ weapon_purchasing = {
 				amount = global.ATGMPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -4092,6 +5084,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_atgm_equipment_2_bulk = { # WIP H.
@@ -4118,6 +5118,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_atgm_equipment_4 = {
@@ -4140,6 +5148,14 @@ weapon_purchasing = {
 				amount = global.ATGMPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -4167,6 +5183,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_atgm_equipment_4_bulk = { # WIP H.
@@ -4191,6 +5215,14 @@ weapon_purchasing = {
 				amount = global.ATGMPerBulk
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -4232,6 +5264,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -4276,6 +5316,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_atgm_carrier_equipment_0_bulk = { # WIP H.
@@ -4318,6 +5366,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_atgm_carrier_equipment_2 = {
@@ -4357,6 +5413,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -4401,6 +5465,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_atgm_carrier_equipment_2_bulk = { # WIP H.
@@ -4443,6 +5515,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_atgm_carrier_equipment_4 = {
@@ -4481,6 +5561,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -4526,6 +5614,14 @@ weapon_purchasing = {
 		}
 		remove_effect = {
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_atgm_carrier_equipment_4_bulk = {
@@ -4567,6 +5663,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #MAIN BATTLE TANKS#
@@ -4607,6 +5711,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -4653,6 +5765,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mbt_equipment_1_bulk = { # WIP H.
@@ -4695,6 +5815,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mbt_equipment_4 = {
@@ -4734,6 +5862,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -4780,6 +5916,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mbt_equipment_4_bulk = { # WIP H.
@@ -4822,6 +5966,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mbt_equipment_7 = {
@@ -4861,6 +6013,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -4907,6 +6067,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mbt_equipment_7_bulk = { # WIP H.
@@ -4949,6 +6117,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mbt_equipment_9 = {
@@ -4987,6 +6163,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -5032,6 +6216,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mbt_equipment_9_bulk = { # WIP H.
@@ -5073,6 +6265,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #ARMORED PERSONNEL CARRIERS#
@@ -5097,6 +6297,14 @@ weapon_purchasing = {
 				amount = global.APCPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -5125,6 +6333,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mechanized_equipment_2_bulk = { # WIP H.
@@ -5150,6 +6366,14 @@ weapon_purchasing = {
 				amount = global.APCPerBulk
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -5190,6 +6414,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -5234,6 +6466,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mechanized_equipment_6_bulk = { # WIP H.
@@ -5276,6 +6516,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mechanized_equipment_9 = {
@@ -5314,6 +6562,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -5357,6 +6613,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mechanized_equipment_9_bulk = { # WIP H.
@@ -5398,6 +6662,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #INFANTRY FIGHTING VEHICLES#
@@ -5438,6 +6710,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -5482,6 +6762,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mechanized_heavy_equipment_2_bulk = { # WIP H.
@@ -5524,6 +6812,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mechanized_heavy_equipment_4 = {
@@ -5563,6 +6859,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -5607,6 +6911,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mechanized_heavy_equipment_4_bulk = { # WIP H.
@@ -5649,6 +6961,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mechanized_heavy_equipment_6 = {
@@ -5687,6 +7007,14 @@ weapon_purchasing = {
 					producer = MAO
 				}
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -5732,6 +7060,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_mechanized_heavy_equipment_6_bulk = { # WIP H.
@@ -5773,6 +7109,14 @@ weapon_purchasing = {
 				}
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #RECON HELICOPTERS#
@@ -5797,6 +7141,14 @@ weapon_purchasing = {
 				amount = global.ScoutHeliPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -5827,6 +7179,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_scout_helicopter_equipment_1_bulk = { # WIP H.
@@ -5853,6 +7213,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_scout_helicopter_equipment_4 = {
@@ -5875,6 +7243,14 @@ weapon_purchasing = {
 				amount = global.ScoutHeliPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -5904,6 +7280,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_scout_helicopter_equipment_4_bulk = { # WIP H.
@@ -5929,6 +7313,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #FIGHTERS/MULTIROLES#
@@ -5953,6 +7345,14 @@ weapon_purchasing = {
 				amount = global.MultiroleBulkPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -5983,6 +7383,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_fighter_equipment_3_bulk = { # WIP H.
@@ -6009,6 +7417,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_jet_multirole_equipment_2 = {
@@ -6032,6 +7448,14 @@ weapon_purchasing = {
 				amount = global.MultirolePer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -6062,6 +7486,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_jet_multirole_equipment_2_bulk = { # WIP H.
@@ -6088,6 +7520,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_jet_multirole_equipment_4 = {
@@ -6111,6 +7551,14 @@ weapon_purchasing = {
 				amount = global.MultirolePer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -6141,6 +7589,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_jet_multirole_equipment_4_bulk = { # WIP H.
@@ -6167,6 +7623,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_jet_multirole_equipment_6 = {
@@ -6190,6 +7654,14 @@ weapon_purchasing = {
 				amount = global.MultirolePer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -6220,6 +7692,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_jet_multirole_equipment_6_bulk = { # WIP H.
@@ -6246,6 +7726,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_jet_multirole_equipment_9 = {
@@ -6268,6 +7756,14 @@ weapon_purchasing = {
 				amount = global.MultirolePer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -6297,6 +7793,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_jet_multirole_equipment_9_bulk = { # WIP H.
@@ -6322,6 +7826,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 #CARRIER FIGHTERS/MULTIROLES#
@@ -6346,6 +7858,14 @@ weapon_purchasing = {
 				amount = global.CVMultiroleBulkPer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -6376,6 +7896,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_cv_fighter_equipment_3_bulk = { # WIP H.
@@ -6402,6 +7930,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_cv_jet_multirole_equipment_2 = {
@@ -6425,6 +7961,14 @@ weapon_purchasing = {
 				amount = global.CVMultirolePer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -6455,6 +7999,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_cv_jet_multirole_equipment_2_bulk = { # WIP H.
@@ -6481,6 +8033,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_cv_jet_multirole_equipment_4 = {
@@ -6504,6 +8064,14 @@ weapon_purchasing = {
 				amount = global.CVMultirolePer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -6534,6 +8102,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_cv_jet_multirole_equipment_4_bulk = { # WIP H.
@@ -6560,6 +8136,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_cv_jet_multirole_equipment_6 = {
@@ -6583,6 +8167,14 @@ weapon_purchasing = {
 				amount = global.CVMultirolePer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -6613,6 +8205,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_cv_jet_multirole_equipment_6_bulk = { # WIP H.
@@ -6639,6 +8239,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_cv_jet_multirole_equipment_9 = {
@@ -6661,6 +8269,14 @@ weapon_purchasing = {
 				amount = global.CVMultirolePer
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 
@@ -6690,6 +8306,14 @@ weapon_purchasing = {
 				producer = MAO
 			}
 		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
+		}
 	}
 
 	WP_MAO_cv_jet_multirole_equipment_9_bulk = { # WIP H.
@@ -6714,6 +8338,14 @@ weapon_purchasing = {
 				amount = global.CVMultirolePerBulk
 				producer = MAO
 			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 4 has_war = yes }
+			modifier = { add = 1 threat > 0.5 }
+			modifier = { add = 0.3 check_variable = { currentMoney > 30 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+			modifier = { factor = 0.3 has_war = no check_variable = { currentMoney < 15 } }
 		}
 	}
 }
