@@ -1,0 +1,5 @@
+defined_text = {
+	name = BRM_kps_contract_line
+	text = { trigger = { check_variable = { BRM_kps_contract_months > 0 } } localization_key = BRM_kps_contract_on }
+	text = { localization_key = BRM_kps_contract_off }
+}

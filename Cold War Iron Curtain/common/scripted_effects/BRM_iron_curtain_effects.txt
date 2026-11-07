@@ -431,3 +431,14 @@ BRM_process_trade = {
 		subtract_from_variable = { currentMoney = 0.05 }
 	}
 }
+
+################################################################
+# KA PA SA ARMS EXPORT CONTRACTS (monthly)
+################################################################
+BRM_kps_monthly = {
+	if = {
+		limit = { check_variable = { BRM_kps_contract_months > 0 } }
+		add_to_variable = { currentMoney = 0.015 }
+		subtract_from_variable = { BRM_kps_contract_months = 1 }
+	}
+}

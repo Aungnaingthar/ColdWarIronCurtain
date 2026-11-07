@@ -40,6 +40,8 @@ on_actions = {
 			BRM_process_trade = yes
 			# ethnic armed conflicts: strength, ceasefire breakdowns, raids, modifier
 			BRM_eth_monthly = yes
+			# Ka Pa Sa arms export contract payments
+			BRM_kps_monthly = yes
 		}
 	}
 }

@@ -1,0 +1,10 @@
+add_namespace = brmkps
+
+country_event = {
+	id = brmkps.1
+	title = brmkps.1.t
+	desc = brmkps.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = { name = brmkps.1.a }
+}

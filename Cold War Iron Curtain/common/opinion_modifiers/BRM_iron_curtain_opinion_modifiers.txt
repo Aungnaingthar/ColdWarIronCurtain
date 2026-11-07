@@ -8,4 +8,5 @@ opinion_modifiers = {
 	BRM_loan_default = { value = -50 decay = 1 }
 	BRM_trade_agreement = { value = 15 }
 	BRM_aid_donor = { value = 20 decay = 0.1 }
+	BRM_arms_customer = { value = 15 decay = 0.25 }
 }

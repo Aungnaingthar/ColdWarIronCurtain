@@ -1,0 +1,12 @@
+BRM_kps_possible_buyer = {
+	exists = yes
+	is_major = no
+	NOT = { tag = BRM }
+	NOT = { has_war_with = ROOT }
+	NOT = { has_idea = UN_Weapon_Trade_Ban }
+	OR = {
+		has_opinion = { target = ROOT value > 9 }
+		is_neighbor_of = ROOT
+		has_war = yes
+	}
+}

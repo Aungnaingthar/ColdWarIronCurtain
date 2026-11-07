@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+		BRM_kapasa_1 = {
+			picture = BRM_Myanmar_Directorate_of_Defence_Industries
+			allowed = { original_tag = BRM }
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		BRM_kapasa_2 = {
+			picture = BRM_Myanmar_Directorate_of_Defence_Industries
+			allowed = { original_tag = BRM }
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.10
+				industrial_capacity_factory = 0.05
+			}
+		}
+	}
+}

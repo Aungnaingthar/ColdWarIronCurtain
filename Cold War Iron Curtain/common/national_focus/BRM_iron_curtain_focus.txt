@@ -1693,6 +1693,7 @@ focus_tree = {
 
 	focus = {
 		id = BRM_socialist_party
+		text = BRM_socialist_party_focus
 		icon = GFX_Socialist_Electoral_Reform
 		x = 52
 		y = 3

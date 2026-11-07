@@ -1,0 +1,72 @@
+BRM_defence_category = {
+	BRM_kps_establish = {
+		icon = generic_industry
+		visible = { NOT = { has_idea = BRM_kapasa_1 } NOT = { has_idea = BRM_kapasa_2 } }
+		available = { date > 1953.1.1 }
+		cost = 50
+		custom_cost_trigger = { check_variable = { currentMoney > 0.5 } }
+		custom_cost_text = BRM_kps_cost_05
+		fire_only_once = yes
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.5 } cwic_change_money = yes
+			add_ideas = BRM_kapasa_1
+			BRM_build_mil = yes
+			BRM_build_mil = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_kps_ba63 = {
+		icon = generic_research
+		visible = { OR = { has_idea = BRM_kapasa_1 has_idea = BRM_kapasa_2 } }
+		available = { date > 1963.1.1 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.2 } }
+		custom_cost_text = BRM_kps_cost_02
+		fire_only_once = yes
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 } cwic_change_money = yes
+			add_tech_bonus = { name = BRM_kps_ba63_bonus bonus = 0.5 uses = 2 category = infantry_weapons }
+			army_experience = 5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_kps_ma_family = {
+		icon = generic_research
+		visible = { has_idea = BRM_kapasa_1 }
+		available = { date > 1995.1.1 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.4 } }
+		custom_cost_text = BRM_kps_cost_04
+		fire_only_once = yes
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.4 } cwic_change_money = yes
+			add_tech_bonus = { name = BRM_kps_ma_family_bonus bonus = 0.75 uses = 2 category = infantry_weapons category = support_tech }
+			swap_ideas = { remove_idea = BRM_kapasa_1 add_idea = BRM_kapasa_2 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_kps_export_contract = {
+		icon = generic_money_bag
+		visible = { has_idea = BRM_kapasa_2 }
+		available = {
+			has_equipment = { infantry_equipment > 3999 }
+			NOT = { check_variable = { BRM_kps_contract_months > 0 } }
+			NOT = { has_idea = BRM_western_sanctions }
+			any_other_country = { BRM_kps_possible_buyer = yes }
+		}
+		cost = 25
+		fire_only_once = no
+		days_re_enable = 90
+		complete_effect = {
+			random_other_country = {
+				limit = { BRM_kps_possible_buyer = yes }
+				save_event_target_as = BRM_kps_buyer
+				add_opinion_modifier = { target = ROOT modifier = BRM_arms_customer }
+			}
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -4000 }
+			set_temp_variable = { money_change_temp = 0.08 } cwic_change_money = yes
+			set_variable = { BRM_kps_contract_months = 12 }
+			add_to_variable = { ICX_arms_sales_total = 0.26 }
+			country_event = { id = brmkps.1 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

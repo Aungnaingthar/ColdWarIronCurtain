@@ -15,3 +15,7 @@ BRM_ethnic_category = {
 	allowed = { original_tag = BRM }
 	visible = { has_country_flag = BRM_eth_initialized BRM_eth_any_conflict = yes }
 }
+BRM_defence_category = {
+	icon = generic_industry
+	allowed = { original_tag = BRM }
+}
