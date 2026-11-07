@@ -1,46 +1,5 @@
 add_namespace = brmdip
 
-############ TRADE AGREEMENT ############
-# The other country decides (ROOT = them, FROM = Burma)
-country_event = {
-	id = brmdip.1
-	title = brmdip.1.t
-	desc = brmdip.1.d
-	picture = GFX_report_event_generic_sign_treaty1
-	is_triggered_only = yes
-	option = {
-		name = brmdip.1.a
-		ai_chance = {
-			base = 40
-			modifier = { factor = 2 has_opinion = { target = FROM value > 25 } }
-			modifier = { factor = 1.5 BRMX_same_bloc_as_from = yes }
-			modifier = { factor = 0.5 BRMX_opposite_bloc_to_from = yes }
-			modifier = { factor = 0.3 has_opinion = { target = FROM value < -40 } }
-			modifier = { factor = 1.5 is_major = yes }
-		}
-		set_variable = { BRM_trade_months = 120 }
-		add_opinion_modifier = { target = FROM modifier = BRM_trade_agreement }
-		FROM = { add_opinion_modifier = { target = PREV modifier = BRM_trade_agreement } }
-		if = {
-			limit = { OR = { has_opinion = { target = FROM value > 25 } BRMX_same_bloc_as_from = yes } }
-			FROM = { country_event = { id = brmdip.2 } }
-		}
-		else = { FROM = { country_event = { id = brmdip.3 } } }
-	}
-	option = {
-		name = brmdip.1.b
-		ai_chance = { base = 30 }
-		if = {
-			limit = { OR = { BRMX_opposite_bloc_to_from = yes has_opinion = { target = FROM value < -25 } } }
-			FROM = { country_event = { id = brmdip.4 } }
-		}
-		else = { FROM = { country_event = { id = brmdip.5 } } }
-	}
-}
-country_event = { id = brmdip.2 title = brmdip.2.t desc = brmdip.2.d picture = GFX_report_event_generic_sign_treaty1 is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
-country_event = { id = brmdip.3 title = brmdip.3.t desc = brmdip.3.d picture = GFX_report_event_generic_sign_treaty1 is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
-country_event = { id = brmdip.4 title = brmdip.4.t desc = brmdip.4.d picture = GFX_report_event_generic_read_write is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
-country_event = { id = brmdip.5 title = brmdip.5.t desc = brmdip.5.d picture = GFX_report_event_generic_read_write is_triggered_only = yes immediate = { clr_country_flag = BRM_dip_pending } option = { name = brmdip.ok } }
 
 ############ ECONOMIC AID ############
 country_event = {
@@ -207,18 +166,6 @@ country_event = {
 	mean_time_to_happen = { days = 45 }
 	immediate = { set_country_flag = { flag = BRM_sanctions_cd days = 3650 value = 1 } }
 	option = { name = brmdip.52.a add_ideas = BRM_western_sanctions add_war_support = 0.03 }
-}
-# Washington proposes a trade deal anyway (pragmatism), any time after 1960
-country_event = {
-	id = brmdip.53
-	title = brmdip.53.t
-	desc = brmdip.53.d
-	picture = GFX_report_event_generic_sign_treaty1
-	trigger = { tag = BRM date > 1960.1.1 country_exists = USA NOT = { has_war_with = USA } USA = { NOT = { has_variable = BRM_trade_months } } NOT = { has_country_flag = BRM_us_trade_cd } }
-	mean_time_to_happen = { days = 1500 }
-	immediate = { set_country_flag = { flag = BRM_us_trade_cd days = 3650 value = 1 } }
-	option = { name = brmdip.53.a USA = { set_variable = { BRM_trade_months = 120 } add_opinion_modifier = { target = ROOT modifier = BRM_trade_agreement } } }
-	option = { name = brmdip.53.b add_stability = 0.02 }
 }
 # China offers infrastructure loans (1961 interest-free loan; Belt and Road after 2013)
 country_event = {

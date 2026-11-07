@@ -1,26 +1,4 @@
 BRM_diplomacy_category = {
-	# ---------------- trade agreement with ANY country ----------------
-	BRM_propose_trade = {
-		icon = generic_economy
-		target_trigger = {
-			FROM = {
-				exists = yes
-				NOT = { tag = ROOT }
-				NOT = { has_war_with = ROOT }
-				has_variable = currentMoney
-				NOT = { has_variable = BRM_trade_months }
-				OR = { is_major = yes is_neighbor_of = ROOT has_opinion = { target = ROOT value > 0 } check_variable = { currentMoney > 20 } }
-			}
-		}
-		visible = { NOT = { has_country_flag = BRM_dip_pending } }
-		fire_only_once = no
-		days_re_enable = 60
-		complete_effect = {
-			set_country_flag = { flag = BRM_dip_pending days = 30 value = 1 }
-			FROM = { country_event = { id = brmdip.1 days = 1 } }
-		}
-		ai_will_do = { factor = 0 }
-	}
 	# ---------------- economic aid from a richer country ----------------
 	BRM_request_economic_aid = {
 		icon = generic_economy
@@ -92,14 +70,6 @@ BRM_diplomacy_category = {
 			set_country_flag = { flag = BRM_dip_pending days = 30 value = 1 }
 			USA = { country_event = { id = brmdip.40 days = 1 } }
 		}
-		ai_will_do = { factor = 0 }
-	}
-	# ---------------- information: active trade agreements ----------------
-	BRM_trade_status = {
-		icon = generic_economy
-		target_trigger = { FROM = { has_variable = BRM_trade_months } }
-		available = { always = no }
-		complete_effect = { }
 		ai_will_do = { factor = 0 }
 	}
 }
