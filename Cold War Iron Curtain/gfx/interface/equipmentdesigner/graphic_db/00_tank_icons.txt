@@ -20678,6 +20678,9 @@ BRM = {
 			icons = {
 				GFX_BRM_light_tanks_1_medium
 			}
+			models = {
+				ENG_light_armor_entity
+			}
 		}
 		pool = {
 			weight = 0.5
@@ -20693,6 +20696,9 @@ BRM = {
 		pool = {
 			icons = {
 				GFX_BRM_light_tanks_1_medium
+			}
+			models = {
+				ENG_light_armor_entity
 			}
 		}
 		pool = {
@@ -20710,6 +20716,9 @@ BRM = {
 			icons = {
 				GFX_BRM_light_tanks_2_medium
 			}
+			models = {
+				BRM_PRC_light_armor_2_entity
+			}
 		}
 		pool = {
 			weight = 0.5
@@ -20725,6 +20734,9 @@ BRM = {
 		pool = {
 			icons = {
 				GFX_BRM_light_tanks_3_medium
+			}
+			models = {
+				BRM_PRC_light_armor_3_entity
 			}
 		}
 		pool = {
@@ -20742,6 +20754,9 @@ BRM = {
 			icons = {
 				GFX_BRM_light_tanks_4_medium
 			}
+			models = {
+				BRM_PRC_light_armor_3_entity
+			}
 		}
 		pool = {
 			weight = 0.5
@@ -20757,6 +20772,9 @@ BRM = {
 		pool = {
 			icons = {
 				GFX_BRM_light_tanks_5_medium
+			}
+			models = {
+				BRM_PRC_light_armor_3_entity
 			}
 		}
 		pool = {
@@ -20774,6 +20792,9 @@ BRM = {
 			icons = {
 				GFX_BRM_light_tanks_5_medium
 			}
+			models = {
+				BRM_PRC_light_armor_3_entity
+			}
 		}
 		pool = {
 			weight = 0.5
@@ -20789,6 +20810,9 @@ BRM = {
 		pool = {
 			icons = {
 				GFX_BRM_main_battle_tanks_medium
+			}
+			models = {
+				ENG_medium_armor_1_entity
 			}
 		}
 		pool = {
@@ -20811,6 +20835,9 @@ BRM = {
 			icons = {
 				GFX_BRM_main_battle_tanks_1_medium
 			}
+			models = {
+				ENG_medium_armor_1_entity
+			}
 		}
 		pool = {
 			weight = 0.5
@@ -20831,6 +20858,9 @@ BRM = {
 		pool = {
 			icons = {
 				GFX_BRM_main_battle_tanks_2_medium
+			}
+			models = {
+				ENG_medium_armor_1_entity
 			}
 		}
 		pool = {
@@ -20853,6 +20883,9 @@ BRM = {
 			icons = {
 				GFX_BRM_main_battle_tanks_3_medium
 			}
+			models = {
+				BRM_PRC_medium_armor_3_entity
+			}
 		}
 		pool = {
 			weight = 0.5
@@ -20873,6 +20906,9 @@ BRM = {
 		pool = {
 			icons = {
 				GFX_BRM_main_battle_tanks_4_medium
+			}
+			models = {
+				BRM_PRC_medium_armor_4_entity
 			}
 		}
 		pool = {
@@ -20895,6 +20931,9 @@ BRM = {
 			icons = {
 				GFX_BRM_main_battle_tanks_5_medium
 			}
+			models = {
+				BRM_PRC_medium_armor_5_entity
+			}
 		}
 		pool = {
 			weight = 0.5
@@ -20915,6 +20954,9 @@ BRM = {
 		pool = {
 			icons = {
 				GFX_BRM_main_battle_tanks_6_medium
+			}
+			models = {
+				BRM_PRC_medium_armor_7_entity
 			}
 		}
 		pool = {
@@ -20937,6 +20979,9 @@ BRM = {
 			icons = {
 				GFX_BRM_main_battle_tanks_8_medium
 			}
+			models = {
+				BRM_PRC_medium_armor_7_entity
+			}
 		}
 		pool = {
 			weight = 0.5
@@ -20957,6 +21002,9 @@ BRM = {
 		pool = {
 			icons = {
 				GFX_BRM_main_battle_tanks_9_medium
+			}
+			models = {
+				BRM_PRC_medium_armor_8_entity
 			}
 		}
 		pool = {
@@ -20979,6 +21027,9 @@ BRM = {
 			icons = {
 				GFX_BRM_main_battle_tanks_9_medium
 			}
+			models = {
+				BRM_PRC_medium_armor_8_entity
+			}
 		}
 		pool = {
 			weight = 0.5
@@ -21000,12 +21051,18 @@ BRM = {
 			icons = {
 				GFX_BRM_tank_destroyer_5_medium
 			}
+			models = {
+				BRM_PRC_tank_destroyer_4_entity
+			}
 		}
 	}
 	medium_tank_destroyer_chassis_7 = {
 		pool = {
 			icons = {
 				GFX_BRM_tank_destroyer_5_medium
+			}
+			models = {
+				BRM_PRC_tank_destroyer_4_entity
 			}
 		}
 	}
@@ -21014,12 +21071,18 @@ BRM = {
 			icons = {
 				GFX_BRM_tank_destroyer_5_medium
 			}
+			models = {
+				BRM_PRC_tank_destroyer_4_entity
+			}
 		}
 	}
 	medium_tank_destroyer_chassis_9 = {
 		pool = {
 			icons = {
 				GFX_BRM_tank_destroyer_5_medium
+			}
+			models = {
+				BRM_PRC_tank_destroyer_4_entity
 			}
 		}
 	}

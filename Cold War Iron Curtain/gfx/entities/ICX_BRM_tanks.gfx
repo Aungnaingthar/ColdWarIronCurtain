@@ -1,0 +1,77 @@
+# Burmese copies of Chinese tank models, with the Chinese red-star markings painted out
+objectTypes = {
+	pdxmesh = {
+		name = "BRM_GEN_PT76_mesh"
+		file = "gfx/models/units/tanks/BRM_pt76.mesh"
+
+		animation = { id = "attack"			type = "SOV_tank_light_attack_animation" }
+		animation = { id = "idle"			type = "SOV_tank_light_idle_animation" }
+		animation = { id = "move"			type = "SOV_tank_light_moving_animation" }
+	}
+	pdxmesh = {
+		name = "BRM_GEN_PT76B_mesh"
+		file = "gfx/models/units/tanks/BRM_PT76B.mesh"
+
+		animation = { id = "attack"			type = "SOV_tank_light_attack_animation" }
+		animation = { id = "idle"			type = "SOV_tank_light_idle_animation" }
+		animation = { id = "move"			type = "SOV_tank_light_moving_animation" }
+	}
+	pdxmesh = {
+		name = "BRM_PRC_ZTZ59_mesh"
+		file = "gfx/models/units/tanks/BRM_ZTZ59.mesh"
+		
+		animation = { id = "idle"			type = "ztz59_idle_animation" }
+		animation = { id = "move"			type = "ztz59_moving_animation" }
+		animation = { id = "attack"			type = "ztz59_attack_animation" }	
+		
+		scale = 0.7
+	}
+	pdxmesh = {
+		name = "BRM_PRC_ZTZ69_mesh"
+		file = "gfx/models/units/tanks/BRM_ZTZ69.mesh"
+		
+		animation = { id = "idle"			type = "ztz59_idle_animation" }
+		animation = { id = "move"			type = "ztz59_moving_animation" }
+		animation = { id = "attack"			type = "ztz59_attack_animation" }	
+		
+		scale = 0.7
+	}
+	pdxmesh = {
+		name = "BRM_PRC_TZ69I_mesh"
+		file = "gfx/models/units/tanks/BRM_ZTZ69I.mesh"
+		
+		animation = { id = "idle"			type = "ztz59_idle_animation" }
+		animation = { id = "move"			type = "ztz59_moving_animation" }
+		animation = { id = "attack"			type = "ztz59_attack_animation" }	
+		
+		scale = 0.7
+	}
+	pdxmesh = {
+		name = "BRM_PRC_ZTZ96_mesh"
+		file = "gfx/models/units/tanks/BRM_ZTZ96.mesh"
+		
+		animation = { id = "idle"			type = "ztz59_idle_animation" }
+		animation = { id = "move"			type = "ztz59_moving_animation" }
+		animation = { id = "attack"			type = "ztz59_attack_animation" }	
+		
+		scale = 0.7
+	}
+	pdxmesh = {
+		name = "BRM_PRC_ZTZ96A_mesh"
+		file = "gfx/models/units/tanks/BRM_ZTZ96A.mesh"
+		
+		animation = { id = "idle"			type = "ztz59_idle_animation" }
+		animation = { id = "move"			type = "ztz59_moving_animation" }
+		animation = { id = "attack"			type = "ztz59_attack_animation" }	
+		
+		scale = 0.7
+	}
+	pdxmesh = {
+		name = "BRM_SOV_2S9NONA_mesh"
+		file = "gfx/models/units/tanks/BRM_2S9NONA.mesh"
+		
+		animation = { id = "idle"			type = "ztz59_idle_animation" }
+		animation = { id = "move"			type = "ztz59_moving_animation" }
+		animation = { id = "attack"			type = "ztz59_attack_animation" }		
+	}
+}
