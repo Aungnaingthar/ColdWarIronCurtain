@@ -39,6 +39,7 @@ BRM_swap_iron_curtain_spirits = {
 # 1980 bookmark: the 1949-1979 history has already happened (Ne Win's coup, the BSPP,
 # the 1974 constitution, neutrality). Those focuses are marked complete without rewards.
 BRM_setup_1980_start = {
+	BRM_x_setup_1980 = yes
 	unlock_national_focus = BRM_union_of_burma
 	unlock_national_focus = BRM_crossroads
 	unlock_national_focus = BRM_ne_win_commander

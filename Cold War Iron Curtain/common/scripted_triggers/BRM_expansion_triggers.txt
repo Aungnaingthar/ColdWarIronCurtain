@@ -1,0 +1,11 @@
+# Burma focus tree expansion: triggers (ICX)
+# State scope: the state can be raised one development level by Upgrade_State_effect
+BRM_x_can_upgrade = {
+	NOT = { has_state_flag = upgrade_underway }
+	OR = {
+		development_level_zero_check = yes
+		development_level_one_check = yes
+		development_level_two_check = yes
+		development_level_three_check = yes
+	}
+}

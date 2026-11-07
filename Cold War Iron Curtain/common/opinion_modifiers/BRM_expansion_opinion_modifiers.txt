@@ -1,0 +1,3 @@
+opinion_modifiers = {
+	BRM_x_trade_partner = { value = 15 decay = 0.05 }
+}
