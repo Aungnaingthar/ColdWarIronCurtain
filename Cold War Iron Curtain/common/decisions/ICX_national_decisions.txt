@@ -92,4 +92,48 @@ ICX_national_category = {
 		}
 		ai_will_do = { base = 0 modifier = { add = 1 has_stability < 0.3 check_variable = { currentMoney > 2 } } }
 	}
+	ICX_licence_industrial = {
+		icon = generic_research
+		custom_cost_trigger = { check_variable = { currentMoney > 0.4 } }
+		custom_cost_text = ICX_cost_ICX_licence_industrial
+		days_re_enable = 365
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.4 } cwic_change_money = yes
+			add_tech_bonus = { name = ICX_foreign_licence bonus = 0.5 uses = 1 category = industry category = electronics }
+		}
+		ai_will_do = { base = 0 modifier = { add = 0.5 check_variable = { currentMoney > 25 } } }
+	}
+	ICX_licence_military = {
+		icon = generic_research
+		custom_cost_trigger = { check_variable = { currentMoney > 0.4 } }
+		custom_cost_text = ICX_cost_ICX_licence_military
+		days_re_enable = 365
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.4 } cwic_change_money = yes
+			add_tech_bonus = { name = ICX_foreign_licence bonus = 0.5 uses = 1 category = infantry_weapons category = armor category = support_tech }
+		}
+		ai_will_do = { base = 0 modifier = { add = 0.5 check_variable = { currentMoney > 25 } } }
+	}
+	ICX_licence_aviation = {
+		icon = generic_research
+		custom_cost_trigger = { check_variable = { currentMoney > 0.5 } }
+		custom_cost_text = ICX_cost_ICX_licence_aviation
+		days_re_enable = 365
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.5 } cwic_change_money = yes
+			add_tech_bonus = { name = ICX_foreign_licence bonus = 0.5 uses = 1 category = air_equipment }
+		}
+		ai_will_do = { base = 0 modifier = { add = 0.5 check_variable = { currentMoney > 25 } } }
+	}
+	ICX_licence_naval = {
+		icon = generic_research
+		custom_cost_trigger = { check_variable = { currentMoney > 0.5 } }
+		custom_cost_text = ICX_cost_ICX_licence_naval
+		days_re_enable = 365
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.5 } cwic_change_money = yes
+			add_tech_bonus = { name = ICX_foreign_licence bonus = 0.5 uses = 1 category = naval_equipment }
+		}
+		ai_will_do = { base = 0 modifier = { add = 0.5 check_variable = { currentMoney > 25 } } }
+	}
 }
