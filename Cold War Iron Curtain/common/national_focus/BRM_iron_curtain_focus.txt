@@ -57,7 +57,7 @@ focus_tree = {
 
 	focus = {
 		id = BRM_tatmadaw
-		icon = GFX_Burmese_army
+		icon = GFX_focus_BRM_tatmadaw_emblem
 		x = 6
 		y = 0
 		cost = 10
