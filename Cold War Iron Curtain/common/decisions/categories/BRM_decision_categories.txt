@@ -10,3 +10,8 @@ BRM_diplomacy_category = {
 	icon = generic_democracy
 	allowed = { original_tag = BRM }
 }
+BRM_ethnic_category = {
+	icon = generic_crisis
+	allowed = { original_tag = BRM }
+	visible = { has_country_flag = BRM_eth_initialized BRM_eth_any_conflict = yes }
+}

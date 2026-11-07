@@ -38,6 +38,8 @@ on_actions = {
 			BRM_process_loans = yes
 			# trade agreements earn money, sanctions cost money
 			BRM_process_trade = yes
+			# ethnic armed conflicts: strength, ceasefire breakdowns, raids, modifier
+			BRM_eth_monthly = yes
 		}
 	}
 }

@@ -1,0 +1,574 @@
+# Burma ethnic insurgency system. Status: 0 = peace, 1 = ceasefire, 2 = armed conflict. Strength 0-10.
+BRM_eth_karen_to_war = {
+	set_variable = { BRM_eth_karen = 2 }
+}
+BRM_eth_karen_to_ceasefire = {
+	set_variable = { BRM_eth_karen = 1 }
+}
+BRM_eth_karen_to_peace = {
+	set_variable = { BRM_eth_karen = 0 }
+	set_variable = { BRM_eth_karen_str = 0 }
+}
+BRM_eth_karen_weaken = {
+	# temp var BRM_eth_by = how much
+	subtract_from_variable = { BRM_eth_karen_str = BRM_eth_by }
+	clamp_variable = { var = BRM_eth_karen_str min = 0 max = 10 }
+}
+BRM_eth_karenni_to_war = {
+	set_variable = { BRM_eth_karenni = 2 }
+}
+BRM_eth_karenni_to_ceasefire = {
+	set_variable = { BRM_eth_karenni = 1 }
+}
+BRM_eth_karenni_to_peace = {
+	set_variable = { BRM_eth_karenni = 0 }
+	set_variable = { BRM_eth_karenni_str = 0 }
+}
+BRM_eth_karenni_weaken = {
+	# temp var BRM_eth_by = how much
+	subtract_from_variable = { BRM_eth_karenni_str = BRM_eth_by }
+	clamp_variable = { var = BRM_eth_karenni_str min = 0 max = 10 }
+}
+BRM_eth_mon_to_war = {
+	set_variable = { BRM_eth_mon = 2 }
+}
+BRM_eth_mon_to_ceasefire = {
+	set_variable = { BRM_eth_mon = 1 }
+}
+BRM_eth_mon_to_peace = {
+	set_variable = { BRM_eth_mon = 0 }
+	set_variable = { BRM_eth_mon_str = 0 }
+}
+BRM_eth_mon_weaken = {
+	# temp var BRM_eth_by = how much
+	subtract_from_variable = { BRM_eth_mon_str = BRM_eth_by }
+	clamp_variable = { var = BRM_eth_mon_str min = 0 max = 10 }
+}
+BRM_eth_arakan_to_war = {
+	set_variable = { BRM_eth_arakan = 2 }
+}
+BRM_eth_arakan_to_ceasefire = {
+	set_variable = { BRM_eth_arakan = 1 }
+}
+BRM_eth_arakan_to_peace = {
+	set_variable = { BRM_eth_arakan = 0 }
+	set_variable = { BRM_eth_arakan_str = 0 }
+}
+BRM_eth_arakan_weaken = {
+	# temp var BRM_eth_by = how much
+	subtract_from_variable = { BRM_eth_arakan_str = BRM_eth_by }
+	clamp_variable = { var = BRM_eth_arakan_str min = 0 max = 10 }
+}
+BRM_eth_shan_to_war = {
+	set_variable = { BRM_eth_shan = 2 }
+}
+BRM_eth_shan_to_ceasefire = {
+	set_variable = { BRM_eth_shan = 1 }
+}
+BRM_eth_shan_to_peace = {
+	set_variable = { BRM_eth_shan = 0 }
+	set_variable = { BRM_eth_shan_str = 0 }
+}
+BRM_eth_shan_weaken = {
+	# temp var BRM_eth_by = how much
+	subtract_from_variable = { BRM_eth_shan_str = BRM_eth_by }
+	clamp_variable = { var = BRM_eth_shan_str min = 0 max = 10 }
+}
+BRM_eth_kachin_to_war = {
+	set_variable = { BRM_eth_kachin = 2 }
+}
+BRM_eth_kachin_to_ceasefire = {
+	set_variable = { BRM_eth_kachin = 1 }
+}
+BRM_eth_kachin_to_peace = {
+	set_variable = { BRM_eth_kachin = 0 }
+	set_variable = { BRM_eth_kachin_str = 0 }
+}
+BRM_eth_kachin_weaken = {
+	# temp var BRM_eth_by = how much
+	subtract_from_variable = { BRM_eth_kachin_str = BRM_eth_by }
+	clamp_variable = { var = BRM_eth_kachin_str min = 0 max = 10 }
+}
+BRM_eth_chin_to_war = {
+	set_variable = { BRM_eth_chin = 2 }
+}
+BRM_eth_chin_to_ceasefire = {
+	set_variable = { BRM_eth_chin = 1 }
+}
+BRM_eth_chin_to_peace = {
+	set_variable = { BRM_eth_chin = 0 }
+	set_variable = { BRM_eth_chin_str = 0 }
+}
+BRM_eth_chin_weaken = {
+	# temp var BRM_eth_by = how much
+	subtract_from_variable = { BRM_eth_chin_str = BRM_eth_by }
+	clamp_variable = { var = BRM_eth_chin_str min = 0 max = 10 }
+}
+BRM_eth_wa_to_war = {
+	set_variable = { BRM_eth_wa = 2 }
+}
+BRM_eth_wa_to_ceasefire = {
+	set_variable = { BRM_eth_wa = 1 }
+}
+BRM_eth_wa_to_peace = {
+	set_variable = { BRM_eth_wa = 0 }
+	set_variable = { BRM_eth_wa_str = 0 }
+}
+BRM_eth_wa_weaken = {
+	# temp var BRM_eth_by = how much
+	subtract_from_variable = { BRM_eth_wa_str = BRM_eth_by }
+	clamp_variable = { var = BRM_eth_wa_str min = 0 max = 10 }
+}
+BRM_eth_init = {
+	if = {
+		limit = { NOT = { has_country_flag = BRM_eth_initialized } }
+		set_country_flag = BRM_eth_initialized
+		# Karen, Karenni, Mon and Arakanese insurgencies were already under way in 1949
+		set_variable = { BRM_eth_karen = 2 } set_variable = { BRM_eth_karen_str = 8 }
+		set_variable = { BRM_eth_karenni = 2 } set_variable = { BRM_eth_karenni_str = 4 }
+		set_variable = { BRM_eth_mon = 2 } set_variable = { BRM_eth_mon_str = 4 }
+		set_variable = { BRM_eth_arakan = 2 } set_variable = { BRM_eth_arakan_str = 3 }
+		set_variable = { BRM_eth_shan = 0 } set_variable = { BRM_eth_shan_str = 0 }
+		set_variable = { BRM_eth_kachin = 0 } set_variable = { BRM_eth_kachin_str = 0 }
+		set_variable = { BRM_eth_chin = 0 } set_variable = { BRM_eth_chin_str = 0 }
+		set_variable = { BRM_eth_wa = 0 } set_variable = { BRM_eth_wa_str = 0 }
+		# later start dates (1980 bookmark) and older saves
+		if = { limit = { date > 1959.5.21 } set_variable = { BRM_eth_shan = 2 } set_variable = { BRM_eth_shan_str = 6 } }
+		if = { limit = { date > 1961.2.5 } set_variable = { BRM_eth_kachin = 2 } set_variable = { BRM_eth_kachin_str = 7 } set_variable = { BRM_eth_arakan_str = 2 } }
+		if = { limit = { date > 1975.1.1 } set_variable = { BRM_eth_karen_str = 6 } set_variable = { BRM_eth_karenni_str = 3 } set_variable = { BRM_eth_mon_str = 3 } }
+		if = { limit = { date > 1988.3.1 } set_variable = { BRM_eth_chin = 2 } set_variable = { BRM_eth_chin_str = 2 } }
+		if = { limit = { date > 1989.4.17 } set_country_flag = BRM_eth_wa_active set_variable = { BRM_eth_wa = 1 } set_variable = { BRM_eth_wa_str = 8 } }
+		add_dynamic_modifier = { modifier = BRM_ethnic_conflicts }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_recalc = {
+	set_variable = { BRM_eth_wars = 0 }
+	set_variable = { BRM_eth_ceasefires = 0 }
+	set_variable = { BRM_eth_autonomies = 0 }
+	if = { limit = { check_variable = { BRM_eth_karen = 2 } } add_to_variable = { BRM_eth_wars = 1 } }
+	if = { limit = { check_variable = { BRM_eth_karen = 1 } } add_to_variable = { BRM_eth_ceasefires = 1 } }
+	if = { limit = { has_country_flag = BRM_eth_karen_autonomy check_variable = { BRM_eth_karen = 0 } } add_to_variable = { BRM_eth_autonomies = 1 } }
+	if = { limit = { check_variable = { BRM_eth_karenni = 2 } } add_to_variable = { BRM_eth_wars = 1 } }
+	if = { limit = { check_variable = { BRM_eth_karenni = 1 } } add_to_variable = { BRM_eth_ceasefires = 1 } }
+	if = { limit = { has_country_flag = BRM_eth_karenni_autonomy check_variable = { BRM_eth_karenni = 0 } } add_to_variable = { BRM_eth_autonomies = 1 } }
+	if = { limit = { check_variable = { BRM_eth_mon = 2 } } add_to_variable = { BRM_eth_wars = 1 } }
+	if = { limit = { check_variable = { BRM_eth_mon = 1 } } add_to_variable = { BRM_eth_ceasefires = 1 } }
+	if = { limit = { has_country_flag = BRM_eth_mon_autonomy check_variable = { BRM_eth_mon = 0 } } add_to_variable = { BRM_eth_autonomies = 1 } }
+	if = { limit = { check_variable = { BRM_eth_arakan = 2 } } add_to_variable = { BRM_eth_wars = 1 } }
+	if = { limit = { check_variable = { BRM_eth_arakan = 1 } } add_to_variable = { BRM_eth_ceasefires = 1 } }
+	if = { limit = { has_country_flag = BRM_eth_arakan_autonomy check_variable = { BRM_eth_arakan = 0 } } add_to_variable = { BRM_eth_autonomies = 1 } }
+	if = { limit = { check_variable = { BRM_eth_shan = 2 } } add_to_variable = { BRM_eth_wars = 1 } }
+	if = { limit = { check_variable = { BRM_eth_shan = 1 } } add_to_variable = { BRM_eth_ceasefires = 1 } }
+	if = { limit = { has_country_flag = BRM_eth_shan_autonomy check_variable = { BRM_eth_shan = 0 } } add_to_variable = { BRM_eth_autonomies = 1 } }
+	if = { limit = { check_variable = { BRM_eth_kachin = 2 } } add_to_variable = { BRM_eth_wars = 1 } }
+	if = { limit = { check_variable = { BRM_eth_kachin = 1 } } add_to_variable = { BRM_eth_ceasefires = 1 } }
+	if = { limit = { has_country_flag = BRM_eth_kachin_autonomy check_variable = { BRM_eth_kachin = 0 } } add_to_variable = { BRM_eth_autonomies = 1 } }
+	if = { limit = { check_variable = { BRM_eth_chin = 2 } } add_to_variable = { BRM_eth_wars = 1 } }
+	if = { limit = { check_variable = { BRM_eth_chin = 1 } } add_to_variable = { BRM_eth_ceasefires = 1 } }
+	if = { limit = { has_country_flag = BRM_eth_chin_autonomy check_variable = { BRM_eth_chin = 0 } } add_to_variable = { BRM_eth_autonomies = 1 } }
+	if = { limit = { check_variable = { BRM_eth_wa = 2 } } add_to_variable = { BRM_eth_wars = 1 } }
+	if = { limit = { check_variable = { BRM_eth_wa = 1 } } add_to_variable = { BRM_eth_ceasefires = 1 } }
+	if = { limit = { has_country_flag = BRM_eth_wa_autonomy check_variable = { BRM_eth_wa = 0 } } add_to_variable = { BRM_eth_autonomies = 1 } }
+	# each armed conflict: -1% stability, -0.015 political power a day, -2% construction speed; each autonomy deal: +0.5% stability
+	set_variable = { BRM_eth_stab = BRM_eth_wars }
+	multiply_variable = { BRM_eth_stab = -0.01 }
+	set_temp_variable = { brm_eth_t = BRM_eth_autonomies }
+	multiply_temp_variable = { brm_eth_t = 0.005 }
+	add_to_variable = { BRM_eth_stab = brm_eth_t }
+	set_variable = { BRM_eth_pp = BRM_eth_wars }
+	multiply_variable = { BRM_eth_pp = -0.015 }
+	set_variable = { BRM_eth_build = BRM_eth_wars }
+	multiply_variable = { BRM_eth_build = -0.02 }
+	# money: ceasefire business (jade, timber, border trade) +0.01B each, counter-insurgency -0.01B each
+	set_variable = { BRM_eth_money = BRM_eth_ceasefires }
+	subtract_from_variable = { BRM_eth_money = BRM_eth_wars }
+	multiply_variable = { BRM_eth_money = 0.01 }
+}
+BRM_eth_monthly = {
+	BRM_eth_init = yes
+	if = {
+		limit = { check_variable = { BRM_eth_karen = 2 } }
+		add_to_variable = { BRM_eth_karen_str = 0.1 }
+		clamp_variable = { var = BRM_eth_karen_str min = 0 max = 10 }
+		if = {
+			limit = { check_variable = { BRM_eth_karen_str > 6.9 } }
+			random = { chance = 4 country_event = { id = brmeth.170 } }
+		}
+	}
+	else_if = {
+		limit = { check_variable = { BRM_eth_karen = 1 } NOT = { has_country_flag = BRM_eth_karen_autonomy } }
+		if = {
+			limit = { BRM_eth_military_rule = yes NOT = { has_country_flag = BRM_eth_karen_dev } }
+			random = { chance = 2 BRM_eth_karen_to_war = yes add_to_variable = { BRM_eth_karen_str = 2 } country_event = { id = brmeth.120 } }
+		}
+		else_if = {
+			limit = { NOT = { has_country_flag = BRM_eth_karen_dev } }
+			random = { chance = 1 BRM_eth_karen_to_war = yes add_to_variable = { BRM_eth_karen_str = 2 } country_event = { id = brmeth.120 } }
+		}
+	}
+	if = {
+		limit = { check_variable = { BRM_eth_karenni = 2 } }
+		add_to_variable = { BRM_eth_karenni_str = 0.1 }
+		clamp_variable = { var = BRM_eth_karenni_str min = 0 max = 10 }
+		if = {
+			limit = { check_variable = { BRM_eth_karenni_str > 6.9 } }
+			random = { chance = 4 country_event = { id = brmeth.171 } }
+		}
+	}
+	else_if = {
+		limit = { check_variable = { BRM_eth_karenni = 1 } NOT = { has_country_flag = BRM_eth_karenni_autonomy } }
+		if = {
+			limit = { BRM_eth_military_rule = yes NOT = { has_country_flag = BRM_eth_karenni_dev } }
+			random = { chance = 2 BRM_eth_karenni_to_war = yes add_to_variable = { BRM_eth_karenni_str = 2 } country_event = { id = brmeth.121 } }
+		}
+		else_if = {
+			limit = { NOT = { has_country_flag = BRM_eth_karenni_dev } }
+			random = { chance = 1 BRM_eth_karenni_to_war = yes add_to_variable = { BRM_eth_karenni_str = 2 } country_event = { id = brmeth.121 } }
+		}
+	}
+	if = {
+		limit = { check_variable = { BRM_eth_mon = 2 } }
+		add_to_variable = { BRM_eth_mon_str = 0.1 }
+		clamp_variable = { var = BRM_eth_mon_str min = 0 max = 10 }
+		if = {
+			limit = { check_variable = { BRM_eth_mon_str > 6.9 } }
+			random = { chance = 4 country_event = { id = brmeth.172 } }
+		}
+	}
+	else_if = {
+		limit = { check_variable = { BRM_eth_mon = 1 } NOT = { has_country_flag = BRM_eth_mon_autonomy } }
+		if = {
+			limit = { BRM_eth_military_rule = yes NOT = { has_country_flag = BRM_eth_mon_dev } }
+			random = { chance = 2 BRM_eth_mon_to_war = yes add_to_variable = { BRM_eth_mon_str = 2 } country_event = { id = brmeth.122 } }
+		}
+		else_if = {
+			limit = { NOT = { has_country_flag = BRM_eth_mon_dev } }
+			random = { chance = 1 BRM_eth_mon_to_war = yes add_to_variable = { BRM_eth_mon_str = 2 } country_event = { id = brmeth.122 } }
+		}
+	}
+	if = {
+		limit = { check_variable = { BRM_eth_arakan = 2 } }
+		add_to_variable = { BRM_eth_arakan_str = 0.1 }
+		clamp_variable = { var = BRM_eth_arakan_str min = 0 max = 10 }
+		if = {
+			limit = { check_variable = { BRM_eth_arakan_str > 6.9 } }
+			random = { chance = 4 country_event = { id = brmeth.173 } }
+		}
+	}
+	else_if = {
+		limit = { check_variable = { BRM_eth_arakan = 1 } NOT = { has_country_flag = BRM_eth_arakan_autonomy } }
+		if = {
+			limit = { BRM_eth_military_rule = yes NOT = { has_country_flag = BRM_eth_arakan_dev } }
+			random = { chance = 2 BRM_eth_arakan_to_war = yes add_to_variable = { BRM_eth_arakan_str = 2 } country_event = { id = brmeth.123 } }
+		}
+		else_if = {
+			limit = { NOT = { has_country_flag = BRM_eth_arakan_dev } }
+			random = { chance = 1 BRM_eth_arakan_to_war = yes add_to_variable = { BRM_eth_arakan_str = 2 } country_event = { id = brmeth.123 } }
+		}
+	}
+	if = {
+		limit = { check_variable = { BRM_eth_shan = 2 } }
+		add_to_variable = { BRM_eth_shan_str = 0.1 }
+		clamp_variable = { var = BRM_eth_shan_str min = 0 max = 10 }
+		if = {
+			limit = { check_variable = { BRM_eth_shan_str > 6.9 } }
+			random = { chance = 4 country_event = { id = brmeth.174 } }
+		}
+	}
+	else_if = {
+		limit = { check_variable = { BRM_eth_shan = 1 } NOT = { has_country_flag = BRM_eth_shan_autonomy } }
+		if = {
+			limit = { BRM_eth_military_rule = yes NOT = { has_country_flag = BRM_eth_shan_dev } }
+			random = { chance = 2 BRM_eth_shan_to_war = yes add_to_variable = { BRM_eth_shan_str = 2 } country_event = { id = brmeth.124 } }
+		}
+		else_if = {
+			limit = { NOT = { has_country_flag = BRM_eth_shan_dev } }
+			random = { chance = 1 BRM_eth_shan_to_war = yes add_to_variable = { BRM_eth_shan_str = 2 } country_event = { id = brmeth.124 } }
+		}
+	}
+	if = {
+		limit = { check_variable = { BRM_eth_kachin = 2 } }
+		add_to_variable = { BRM_eth_kachin_str = 0.1 }
+		clamp_variable = { var = BRM_eth_kachin_str min = 0 max = 10 }
+		if = {
+			limit = { check_variable = { BRM_eth_kachin_str > 6.9 } }
+			random = { chance = 4 country_event = { id = brmeth.175 } }
+		}
+	}
+	else_if = {
+		limit = { check_variable = { BRM_eth_kachin = 1 } NOT = { has_country_flag = BRM_eth_kachin_autonomy } }
+		if = {
+			limit = { BRM_eth_military_rule = yes NOT = { has_country_flag = BRM_eth_kachin_dev } }
+			random = { chance = 2 BRM_eth_kachin_to_war = yes add_to_variable = { BRM_eth_kachin_str = 2 } country_event = { id = brmeth.125 } }
+		}
+		else_if = {
+			limit = { NOT = { has_country_flag = BRM_eth_kachin_dev } }
+			random = { chance = 1 BRM_eth_kachin_to_war = yes add_to_variable = { BRM_eth_kachin_str = 2 } country_event = { id = brmeth.125 } }
+		}
+	}
+	if = {
+		limit = { check_variable = { BRM_eth_chin = 2 } }
+		add_to_variable = { BRM_eth_chin_str = 0.1 }
+		clamp_variable = { var = BRM_eth_chin_str min = 0 max = 10 }
+		if = {
+			limit = { check_variable = { BRM_eth_chin_str > 6.9 } }
+			random = { chance = 4 country_event = { id = brmeth.176 } }
+		}
+	}
+	else_if = {
+		limit = { check_variable = { BRM_eth_chin = 1 } NOT = { has_country_flag = BRM_eth_chin_autonomy } }
+		if = {
+			limit = { BRM_eth_military_rule = yes NOT = { has_country_flag = BRM_eth_chin_dev } }
+			random = { chance = 2 BRM_eth_chin_to_war = yes add_to_variable = { BRM_eth_chin_str = 2 } country_event = { id = brmeth.126 } }
+		}
+		else_if = {
+			limit = { NOT = { has_country_flag = BRM_eth_chin_dev } }
+			random = { chance = 1 BRM_eth_chin_to_war = yes add_to_variable = { BRM_eth_chin_str = 2 } country_event = { id = brmeth.126 } }
+		}
+	}
+	if = {
+		limit = { check_variable = { BRM_eth_wa = 2 } }
+		add_to_variable = { BRM_eth_wa_str = 0.1 }
+		clamp_variable = { var = BRM_eth_wa_str min = 0 max = 10 }
+		if = {
+			limit = { check_variable = { BRM_eth_wa_str > 6.9 } }
+			random = { chance = 4 country_event = { id = brmeth.177 } }
+		}
+	}
+	else_if = {
+		limit = { check_variable = { BRM_eth_wa = 1 } NOT = { has_country_flag = BRM_eth_wa_autonomy } }
+		if = {
+			limit = { BRM_eth_military_rule = yes NOT = { has_country_flag = BRM_eth_wa_dev } }
+			random = { chance = 2 BRM_eth_wa_to_war = yes add_to_variable = { BRM_eth_wa_str = 2 } country_event = { id = brmeth.127 } }
+		}
+		else_if = {
+			limit = { NOT = { has_country_flag = BRM_eth_wa_dev } }
+			random = { chance = 1 BRM_eth_wa_to_war = yes add_to_variable = { BRM_eth_wa_str = 2 } country_event = { id = brmeth.127 } }
+		}
+	}
+	BRM_eth_recalc = yes
+	add_to_variable = { currentMoney = BRM_eth_money }
+}
+BRM_eth_focus_karen_question = {
+	custom_effect_tooltip = BRM_eth_tt_karen_question
+	hidden_effect = {
+		BRM_eth_init = yes
+		if = {
+			limit = { has_completed_focus = BRM_crush_insurrections }
+			set_temp_variable = { BRM_eth_by = 3 } BRM_eth_karen_weaken = yes
+		}
+		else_if = {
+			limit = { check_variable = { BRM_eth_karen = 2 } }
+			BRM_eth_karen_to_ceasefire = yes
+			set_temp_variable = { BRM_eth_by = 1 } BRM_eth_karenni_weaken = yes
+		}
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_kachin_chin_hills = {
+	custom_effect_tooltip = BRM_eth_tt_kachin_chin_hills
+	hidden_effect = {
+		BRM_eth_init = yes
+		if = {
+			limit = { has_completed_focus = BRM_crush_insurrections }
+			set_temp_variable = { BRM_eth_by = 2 } BRM_eth_kachin_weaken = yes
+		}
+		else = { set_country_flag = BRM_eth_kachin_goodwill set_country_flag = BRM_eth_chin_goodwill }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_shan_states = {
+	custom_effect_tooltip = BRM_eth_tt_shan_states
+	hidden_effect = {
+		BRM_eth_init = yes
+		if = {
+			limit = { has_completed_focus = BRM_crush_insurrections }
+			set_temp_variable = { BRM_eth_by = 2 } BRM_eth_shan_weaken = yes
+		}
+		else = { set_country_flag = BRM_eth_shan_goodwill }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_nationalities_settlement = {
+	custom_effect_tooltip = BRM_eth_tt_nationalities_settlement
+	hidden_effect = {
+		BRM_eth_init = yes
+		if = { limit = { check_variable = { BRM_eth_karen = 2 } check_variable = { BRM_eth_karen_str < 6.1 } } BRM_eth_karen_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_karenni = 2 } check_variable = { BRM_eth_karenni_str < 6.1 } } BRM_eth_karenni_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_mon = 2 } check_variable = { BRM_eth_mon_str < 6.1 } } BRM_eth_mon_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_arakan = 2 } check_variable = { BRM_eth_arakan_str < 6.1 } } BRM_eth_arakan_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_shan = 2 } check_variable = { BRM_eth_shan_str < 6.1 } } BRM_eth_shan_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_kachin = 2 } check_variable = { BRM_eth_kachin_str < 6.1 } } BRM_eth_kachin_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_chin = 2 } check_variable = { BRM_eth_chin_str < 6.1 } } BRM_eth_chin_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_wa = 2 } check_variable = { BRM_eth_wa_str < 6.1 } } BRM_eth_wa_to_ceasefire = yes }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_state_religion = {
+	custom_effect_tooltip = BRM_eth_tt_state_religion
+	hidden_effect = {
+		BRM_eth_init = yes
+		clr_country_flag = BRM_eth_kachin_goodwill
+		clr_country_flag = BRM_eth_chin_goodwill
+		set_country_flag = BRM_eth_religion_anger
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_counterinsurgency = {
+	custom_effect_tooltip = BRM_eth_tt_counterinsurgency
+	hidden_effect = {
+		BRM_eth_init = yes
+		if = { limit = { check_variable = { BRM_eth_karen = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_karen_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_karenni = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_karenni_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_mon = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_mon_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_arakan = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_arakan_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_shan = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_shan_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_kachin = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_kachin_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_chin = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_chin_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_wa = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_wa_weaken = yes }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_end_civil_war = {
+	custom_effect_tooltip = BRM_eth_tt_end_civil_war
+	hidden_effect = {
+		BRM_eth_init = yes
+		if = { limit = { check_variable = { BRM_eth_karen = 2 } } set_temp_variable = { BRM_eth_by = 2 } BRM_eth_karen_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_karenni = 2 } } set_temp_variable = { BRM_eth_by = 2 } BRM_eth_karenni_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_mon = 2 } } set_temp_variable = { BRM_eth_by = 2 } BRM_eth_mon_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_arakan = 2 } } set_temp_variable = { BRM_eth_by = 2 } BRM_eth_arakan_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_shan = 2 } } set_temp_variable = { BRM_eth_by = 2 } BRM_eth_shan_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_kachin = 2 } } set_temp_variable = { BRM_eth_by = 2 } BRM_eth_kachin_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_chin = 2 } } set_temp_variable = { BRM_eth_by = 2 } BRM_eth_chin_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_wa = 2 } } set_temp_variable = { BRM_eth_by = 2 } BRM_eth_wa_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_karen = 2 } check_variable = { BRM_eth_karen_str < 2.1 } } BRM_eth_karen_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_karenni = 2 } check_variable = { BRM_eth_karenni_str < 2.1 } } BRM_eth_karenni_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_mon = 2 } check_variable = { BRM_eth_mon_str < 2.1 } } BRM_eth_mon_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_arakan = 2 } check_variable = { BRM_eth_arakan_str < 2.1 } } BRM_eth_arakan_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_shan = 2 } check_variable = { BRM_eth_shan_str < 2.1 } } BRM_eth_shan_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_kachin = 2 } check_variable = { BRM_eth_kachin_str < 2.1 } } BRM_eth_kachin_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_chin = 2 } check_variable = { BRM_eth_chin_str < 2.1 } } BRM_eth_chin_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_wa = 2 } check_variable = { BRM_eth_wa_str < 2.1 } } BRM_eth_wa_to_ceasefire = yes }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_panglong_spirit = {
+	custom_effect_tooltip = BRM_eth_tt_panglong_spirit
+	hidden_effect = {
+		BRM_eth_init = yes
+		set_country_flag = BRM_eth_shan_goodwill
+		set_country_flag = BRM_eth_kachin_goodwill
+		set_country_flag = BRM_eth_chin_goodwill
+		if = { limit = { check_variable = { BRM_eth_karen = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_karen_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_karenni = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_karenni_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_mon = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_mon_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_arakan = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_arakan_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_shan = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_shan_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_kachin = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_kachin_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_chin = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_chin_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_wa = 2 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_wa_weaken = yes }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_ceasefire_deals = {
+	custom_effect_tooltip = BRM_eth_tt_ceasefire_deals
+	hidden_effect = {
+		BRM_eth_init = yes
+		if = {
+			limit = { date > 1989.4.17 NOT = { has_country_flag = BRM_eth_wa_active } }
+			set_country_flag = BRM_eth_wa_active
+			set_variable = { BRM_eth_wa = 1 } set_variable = { BRM_eth_wa_str = 8 }
+		}
+		if = { limit = { check_variable = { BRM_eth_karen = 2 } check_variable = { BRM_eth_karen_str < 7.1 } } BRM_eth_karen_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_karenni = 2 } check_variable = { BRM_eth_karenni_str < 7.1 } } BRM_eth_karenni_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_mon = 2 } check_variable = { BRM_eth_mon_str < 7.1 } } BRM_eth_mon_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_arakan = 2 } check_variable = { BRM_eth_arakan_str < 7.1 } } BRM_eth_arakan_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_shan = 2 } check_variable = { BRM_eth_shan_str < 7.1 } } BRM_eth_shan_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_kachin = 2 } check_variable = { BRM_eth_kachin_str < 7.1 } } BRM_eth_kachin_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_chin = 2 } check_variable = { BRM_eth_chin_str < 7.1 } } BRM_eth_chin_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_wa = 2 } check_variable = { BRM_eth_wa_str < 7.1 } } BRM_eth_wa_to_ceasefire = yes }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_nationwide_ceasefire = {
+	custom_effect_tooltip = BRM_eth_tt_nationwide_ceasefire
+	hidden_effect = {
+		BRM_eth_init = yes
+		if = { limit = { check_variable = { BRM_eth_karen = 2 } } BRM_eth_karen_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_mon = 2 } } BRM_eth_mon_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_arakan = 2 } } BRM_eth_arakan_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_shan = 2 } } BRM_eth_shan_to_ceasefire = yes }
+		if = { limit = { check_variable = { BRM_eth_chin = 2 } } BRM_eth_chin_to_ceasefire = yes }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_peace_conference = {
+	custom_effect_tooltip = BRM_eth_tt_peace_conference
+	hidden_effect = {
+		BRM_eth_init = yes
+		if = { limit = { check_variable = { BRM_eth_karen = 1 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_karen_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_karenni = 1 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_karenni_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_mon = 1 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_mon_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_arakan = 1 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_arakan_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_shan = 1 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_shan_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_kachin = 1 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_kachin_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_chin = 1 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_chin_weaken = yes }
+		if = { limit = { check_variable = { BRM_eth_wa = 1 } } set_temp_variable = { BRM_eth_by = 1 } BRM_eth_wa_weaken = yes }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_federal_constitution = {
+	custom_effect_tooltip = BRM_eth_tt_federal_constitution
+	hidden_effect = {
+		BRM_eth_init = yes
+		if = { limit = { check_variable = { BRM_eth_karen = 1 } } BRM_eth_karen_to_peace = yes set_country_flag = BRM_eth_karen_autonomy }
+		if = { limit = { check_variable = { BRM_eth_karenni = 1 } } BRM_eth_karenni_to_peace = yes set_country_flag = BRM_eth_karenni_autonomy }
+		if = { limit = { check_variable = { BRM_eth_mon = 1 } } BRM_eth_mon_to_peace = yes set_country_flag = BRM_eth_mon_autonomy }
+		if = { limit = { check_variable = { BRM_eth_arakan = 1 } } BRM_eth_arakan_to_peace = yes set_country_flag = BRM_eth_arakan_autonomy }
+		if = { limit = { check_variable = { BRM_eth_shan = 1 } } BRM_eth_shan_to_peace = yes set_country_flag = BRM_eth_shan_autonomy }
+		if = { limit = { check_variable = { BRM_eth_kachin = 1 } } BRM_eth_kachin_to_peace = yes set_country_flag = BRM_eth_kachin_autonomy }
+		if = { limit = { check_variable = { BRM_eth_chin = 1 } } BRM_eth_chin_to_peace = yes set_country_flag = BRM_eth_chin_autonomy }
+		if = { limit = { check_variable = { BRM_eth_wa = 1 } } BRM_eth_wa_to_peace = yes set_country_flag = BRM_eth_wa_autonomy }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_federal_democracy_charter = {
+	custom_effect_tooltip = BRM_eth_tt_federal_democracy_charter
+	hidden_effect = {
+		BRM_eth_init = yes
+		if = { limit = { check_variable = { BRM_eth_karen = 1 } } BRM_eth_karen_to_peace = yes set_country_flag = BRM_eth_karen_autonomy }
+		if = { limit = { check_variable = { BRM_eth_karenni = 1 } } BRM_eth_karenni_to_peace = yes set_country_flag = BRM_eth_karenni_autonomy }
+		if = { limit = { check_variable = { BRM_eth_mon = 1 } } BRM_eth_mon_to_peace = yes set_country_flag = BRM_eth_mon_autonomy }
+		if = { limit = { check_variable = { BRM_eth_arakan = 1 } } BRM_eth_arakan_to_peace = yes set_country_flag = BRM_eth_arakan_autonomy }
+		if = { limit = { check_variable = { BRM_eth_shan = 1 } } BRM_eth_shan_to_peace = yes set_country_flag = BRM_eth_shan_autonomy }
+		if = { limit = { check_variable = { BRM_eth_kachin = 1 } } BRM_eth_kachin_to_peace = yes set_country_flag = BRM_eth_kachin_autonomy }
+		if = { limit = { check_variable = { BRM_eth_chin = 1 } } BRM_eth_chin_to_peace = yes set_country_flag = BRM_eth_chin_autonomy }
+		if = { limit = { check_variable = { BRM_eth_wa = 1 } } BRM_eth_wa_to_peace = yes set_country_flag = BRM_eth_wa_autonomy }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_national_peace = {
+	custom_effect_tooltip = BRM_eth_tt_national_peace
+	hidden_effect = {
+		BRM_eth_init = yes
+		if = { limit = { check_variable = { BRM_eth_karen > 0 } } BRM_eth_karen_to_peace = yes set_country_flag = BRM_eth_karen_autonomy }
+		if = { limit = { check_variable = { BRM_eth_karenni > 0 } } BRM_eth_karenni_to_peace = yes set_country_flag = BRM_eth_karenni_autonomy }
+		if = { limit = { check_variable = { BRM_eth_mon > 0 } } BRM_eth_mon_to_peace = yes set_country_flag = BRM_eth_mon_autonomy }
+		if = { limit = { check_variable = { BRM_eth_arakan > 0 } } BRM_eth_arakan_to_peace = yes set_country_flag = BRM_eth_arakan_autonomy }
+		if = { limit = { check_variable = { BRM_eth_shan > 0 } } BRM_eth_shan_to_peace = yes set_country_flag = BRM_eth_shan_autonomy }
+		if = { limit = { check_variable = { BRM_eth_kachin > 0 } } BRM_eth_kachin_to_peace = yes set_country_flag = BRM_eth_kachin_autonomy }
+		if = { limit = { check_variable = { BRM_eth_chin > 0 } } BRM_eth_chin_to_peace = yes set_country_flag = BRM_eth_chin_autonomy }
+		if = { limit = { check_variable = { BRM_eth_wa > 0 } } BRM_eth_wa_to_peace = yes set_country_flag = BRM_eth_wa_autonomy }
+		BRM_eth_recalc = yes
+	}
+}
+BRM_eth_focus_rakhine_commission = {
+	custom_effect_tooltip = BRM_eth_tt_rakhine_commission
+	hidden_effect = {
+		BRM_eth_init = yes
+		set_temp_variable = { BRM_eth_by = 2 } BRM_eth_arakan_weaken = yes
+		if = { limit = { check_variable = { BRM_eth_arakan = 2 } check_variable = { BRM_eth_arakan_str < 4.1 } } BRM_eth_arakan_to_ceasefire = yes }
+		BRM_eth_recalc = yes
+	}
+}

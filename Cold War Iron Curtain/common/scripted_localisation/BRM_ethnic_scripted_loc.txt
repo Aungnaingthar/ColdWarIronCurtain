@@ -1,0 +1,69 @@
+defined_text = {
+	name = BRM_eth_karen_status
+	text = { trigger = { check_variable = { BRM_eth_karen = 2 } } localization_key = BRM_eth_status_war }
+	text = { trigger = { check_variable = { BRM_eth_karen = 1 } } localization_key = BRM_eth_status_ceasefire }
+	text = { trigger = { has_country_flag = BRM_eth_karen_autonomy } localization_key = BRM_eth_status_autonomy }
+	text = { trigger = { has_country_flag = BRM_eth_karen_bgf } localization_key = BRM_eth_status_bgf }
+	text = { localization_key = BRM_eth_status_peace }
+}
+defined_text = {
+	name = BRM_eth_karenni_status
+	text = { trigger = { check_variable = { BRM_eth_karenni = 2 } } localization_key = BRM_eth_status_war }
+	text = { trigger = { check_variable = { BRM_eth_karenni = 1 } } localization_key = BRM_eth_status_ceasefire }
+	text = { trigger = { has_country_flag = BRM_eth_karenni_autonomy } localization_key = BRM_eth_status_autonomy }
+	text = { trigger = { has_country_flag = BRM_eth_karenni_bgf } localization_key = BRM_eth_status_bgf }
+	text = { localization_key = BRM_eth_status_peace }
+}
+defined_text = {
+	name = BRM_eth_mon_status
+	text = { trigger = { check_variable = { BRM_eth_mon = 2 } } localization_key = BRM_eth_status_war }
+	text = { trigger = { check_variable = { BRM_eth_mon = 1 } } localization_key = BRM_eth_status_ceasefire }
+	text = { trigger = { has_country_flag = BRM_eth_mon_autonomy } localization_key = BRM_eth_status_autonomy }
+	text = { trigger = { has_country_flag = BRM_eth_mon_bgf } localization_key = BRM_eth_status_bgf }
+	text = { localization_key = BRM_eth_status_peace }
+}
+defined_text = {
+	name = BRM_eth_arakan_status
+	text = { trigger = { check_variable = { BRM_eth_arakan = 2 } } localization_key = BRM_eth_status_war }
+	text = { trigger = { check_variable = { BRM_eth_arakan = 1 } } localization_key = BRM_eth_status_ceasefire }
+	text = { trigger = { has_country_flag = BRM_eth_arakan_autonomy } localization_key = BRM_eth_status_autonomy }
+	text = { trigger = { has_country_flag = BRM_eth_arakan_bgf } localization_key = BRM_eth_status_bgf }
+	text = { localization_key = BRM_eth_status_peace }
+}
+defined_text = {
+	name = BRM_eth_shan_status
+	text = { trigger = { check_variable = { BRM_eth_shan = 2 } } localization_key = BRM_eth_status_war }
+	text = { trigger = { check_variable = { BRM_eth_shan = 1 } } localization_key = BRM_eth_status_ceasefire }
+	text = { trigger = { has_country_flag = BRM_eth_shan_autonomy } localization_key = BRM_eth_status_autonomy }
+	text = { trigger = { has_country_flag = BRM_eth_shan_bgf } localization_key = BRM_eth_status_bgf }
+	text = { localization_key = BRM_eth_status_peace }
+}
+defined_text = {
+	name = BRM_eth_kachin_status
+	text = { trigger = { check_variable = { BRM_eth_kachin = 2 } } localization_key = BRM_eth_status_war }
+	text = { trigger = { check_variable = { BRM_eth_kachin = 1 } } localization_key = BRM_eth_status_ceasefire }
+	text = { trigger = { has_country_flag = BRM_eth_kachin_autonomy } localization_key = BRM_eth_status_autonomy }
+	text = { trigger = { has_country_flag = BRM_eth_kachin_bgf } localization_key = BRM_eth_status_bgf }
+	text = { localization_key = BRM_eth_status_peace }
+}
+defined_text = {
+	name = BRM_eth_chin_status
+	text = { trigger = { check_variable = { BRM_eth_chin = 2 } } localization_key = BRM_eth_status_war }
+	text = { trigger = { check_variable = { BRM_eth_chin = 1 } } localization_key = BRM_eth_status_ceasefire }
+	text = { trigger = { has_country_flag = BRM_eth_chin_autonomy } localization_key = BRM_eth_status_autonomy }
+	text = { trigger = { has_country_flag = BRM_eth_chin_bgf } localization_key = BRM_eth_status_bgf }
+	text = { localization_key = BRM_eth_status_peace }
+}
+defined_text = {
+	name = BRM_eth_wa_status
+	text = { trigger = { check_variable = { BRM_eth_wa = 2 } } localization_key = BRM_eth_status_war }
+	text = { trigger = { check_variable = { BRM_eth_wa = 1 } } localization_key = BRM_eth_status_ceasefire }
+	text = { trigger = { has_country_flag = BRM_eth_wa_autonomy } localization_key = BRM_eth_status_autonomy }
+	text = { trigger = { has_country_flag = BRM_eth_wa_bgf } localization_key = BRM_eth_status_bgf }
+	text = { localization_key = BRM_eth_status_peace }
+}
+defined_text = {
+	name = BRM_eth_wa_line
+	text = { trigger = { has_country_flag = BRM_eth_wa_active } localization_key = BRM_eth_wa_line_on }
+	text = { localization_key = BRM_eth_wa_line_off }
+}

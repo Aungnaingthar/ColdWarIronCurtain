@@ -1,0 +1,927 @@
+add_namespace = brmeth
+
+
+
+country_event = {
+	id = brmeth.1
+	title = brmeth.1.t
+	desc = brmeth.1.d
+	picture = GFX_kmt_burma
+	fire_only_once = yes
+	trigger = { tag = BRM has_country_flag = BRM_eth_initialized date > 1959.5.21 date < 1966.1.1 check_variable = { BRM_eth_shan = 0 } NOT = { has_country_flag = BRM_eth_shan_goodwill } NOT = { has_country_flag = BRM_eth_shan_autonomy } }
+	mean_time_to_happen = { days = 30 }
+	option = {
+		name = brmeth.1.a
+		BRM_eth_shan_to_war = yes set_variable = { BRM_eth_shan_str = 5 } BRM_eth_recalc = yes
+	}
+}
+
+country_event = {
+	id = brmeth.2
+	title = brmeth.2.t
+	desc = brmeth.2.d
+	picture = GFX_Burma_KW_3
+	fire_only_once = yes
+	trigger = { tag = BRM has_country_flag = BRM_eth_initialized date > 1961.2.5 date < 1968.1.1 check_variable = { BRM_eth_kachin = 0 } OR = { NOT = { has_country_flag = BRM_eth_kachin_goodwill } has_country_flag = BRM_eth_religion_anger } NOT = { has_country_flag = BRM_eth_kachin_autonomy } }
+	mean_time_to_happen = { days = 30 }
+	option = {
+		name = brmeth.2.a
+		BRM_eth_kachin_to_war = yes set_variable = { BRM_eth_kachin_str = 6 } if = { limit = { has_country_flag = BRM_eth_religion_anger } add_to_variable = { BRM_eth_kachin_str = 1 } } BRM_eth_recalc = yes
+	}
+}
+
+country_event = {
+	id = brmeth.3
+	title = brmeth.3.t
+	desc = brmeth.3.d
+	picture = GFX_PRC_Burma_1
+	fire_only_once = yes
+	trigger = { tag = BRM has_country_flag = BRM_eth_initialized date > 1989.4.17 NOT = { has_country_flag = BRM_eth_wa_active } NOT = { has_completed_focus = BRM_national_peace } }
+	mean_time_to_happen = { days = 20 }
+	option = {
+		name = brmeth.3.a
+		set_country_flag = BRM_eth_wa_active BRM_eth_wa_to_ceasefire = yes set_variable = { BRM_eth_wa_str = 8 } BRM_eth_recalc = yes
+	}
+	option = {
+		name = brmeth.3.b
+		set_country_flag = BRM_eth_wa_active BRM_eth_wa_to_war = yes set_variable = { BRM_eth_wa_str = 8 } BRM_eth_recalc = yes
+	}
+}
+
+country_event = {
+	id = brmeth.4
+	title = brmeth.4.t
+	desc = brmeth.4.d
+	picture = GFX_Burma_KW_3
+	fire_only_once = yes
+	trigger = { tag = BRM has_country_flag = BRM_eth_initialized date > 1994.2.24 date < 2001.1.1 check_variable = { BRM_eth_kachin = 2 } }
+	mean_time_to_happen = { days = 60 }
+	option = {
+		name = brmeth.4.a
+		BRM_eth_kachin_to_ceasefire = yes BRM_eth_recalc = yes
+	}
+	option = {
+		name = brmeth.4.b
+		add_war_support = 0.02
+	}
+}
+
+country_event = {
+	id = brmeth.5
+	title = brmeth.5.t
+	desc = brmeth.5.d
+	picture = GFX_Burma_KW_3
+	fire_only_once = yes
+	trigger = { tag = BRM has_country_flag = BRM_eth_initialized date > 1995.6.29 date < 2001.1.1 check_variable = { BRM_eth_mon = 2 } }
+	mean_time_to_happen = { days = 60 }
+	option = {
+		name = brmeth.5.a
+		BRM_eth_mon_to_ceasefire = yes BRM_eth_recalc = yes
+	}
+	option = {
+		name = brmeth.5.b
+		add_war_support = 0.02
+	}
+}
+
+country_event = {
+	id = brmeth.6
+	title = brmeth.6.t
+	desc = brmeth.6.d
+	picture = GFX_PRC_Burma_1
+	fire_only_once = yes
+	trigger = { tag = BRM has_country_flag = BRM_eth_initialized date > 2009.8.8 date < 2013.1.1 check_variable = { BRM_eth_wa = 1 } BRM_eth_military_rule = yes }
+	mean_time_to_happen = { days = 60 }
+	option = {
+		name = brmeth.6.a
+		BRM_eth_wa_to_war = yes set_variable = { BRM_eth_wa_str = 5 } BRM_eth_recalc = yes army_experience = 5
+	}
+	option = {
+		name = brmeth.6.b
+		add_political_power = -30
+	}
+}
+
+country_event = {
+	id = brmeth.7
+	title = brmeth.7.t
+	desc = brmeth.7.d
+	picture = GFX_Burma_KW_3
+	fire_only_once = yes
+	trigger = { tag = BRM has_country_flag = BRM_eth_initialized date > 2011.6.9 check_variable = { BRM_eth_kachin = 1 } NOT = { has_country_flag = BRM_eth_kachin_autonomy } NOT = { has_country_flag = BRM_eth_kachin_dev } }
+	mean_time_to_happen = { days = 60 }
+	option = {
+		name = brmeth.7.a
+		BRM_eth_kachin_to_war = yes set_variable = { BRM_eth_kachin_str = 7 } BRM_eth_recalc = yes
+	}
+}
+
+country_event = {
+	id = brmeth.8
+	title = brmeth.8.t
+	desc = brmeth.8.d
+	picture = GFX_Collapse_Burma_1
+	fire_only_once = yes
+	trigger = { tag = BRM has_country_flag = BRM_eth_initialized date > 2018.12.1 NOT = { check_variable = { BRM_eth_arakan = 2 } } NOT = { has_country_flag = BRM_eth_arakan_autonomy } NOT = { has_completed_focus = BRM_national_peace } }
+	mean_time_to_happen = { days = 90 }
+	option = {
+		name = brmeth.8.a
+		BRM_eth_arakan_to_war = yes set_variable = { BRM_eth_arakan_str = 7 } BRM_eth_recalc = yes
+	}
+}
+
+country_event = {
+	id = brmeth.9
+	title = brmeth.9.t
+	desc = brmeth.9.d
+	picture = GFX_Coup_in_Burma
+	fire_only_once = yes
+	trigger = { tag = BRM has_country_flag = BRM_eth_initialized has_completed_focus = BRM_state_administration_council }
+	mean_time_to_happen = { days = 15 }
+	option = {
+		name = brmeth.9.a
+		add_stability = -0.03 BRM_eth_karen_to_war = yes BRM_eth_karenni_to_war = yes BRM_eth_kachin_to_war = yes BRM_eth_chin_to_war = yes add_to_variable = { BRM_eth_karen_str = 3 } add_to_variable = { BRM_eth_karenni_str = 3 } add_to_variable = { BRM_eth_kachin_str = 3 } set_variable = { BRM_eth_chin_str = 5 } clamp_variable = { var = BRM_eth_karen_str min = 0 max = 10 } clamp_variable = { var = BRM_eth_karenni_str min = 0 max = 10 } clamp_variable = { var = BRM_eth_kachin_str min = 0 max = 10 } BRM_eth_recalc = yes
+	}
+}
+
+country_event = {
+	id = brmeth.10
+	title = brmeth.10.t
+	desc = brmeth.10.d
+	picture = GFX_PRC_Burma_1
+	fire_only_once = yes
+	trigger = { tag = BRM has_country_flag = BRM_eth_initialized date > 2023.10.27 has_completed_focus = BRM_state_administration_council NOT = { has_completed_focus = BRM_national_peace } }
+	mean_time_to_happen = { days = 20 }
+	option = {
+		name = brmeth.10.a
+		add_stability = -0.05 add_war_support = -0.05 set_country_flag = BRM_eth_wa_active BRM_eth_wa_to_war = yes set_variable = { BRM_eth_wa_str = 9 } BRM_eth_shan_to_war = yes set_variable = { BRM_eth_shan_str = 7 } add_to_variable = { BRM_eth_arakan_str = 2 } clamp_variable = { var = BRM_eth_arakan_str min = 0 max = 10 } BRM_eth_recalc = yes
+	}
+}
+
+country_event = {
+	id = brmeth.100
+	title = brmeth.100.t
+	desc = brmeth.100.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.100.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.110
+	title = brmeth.110.t
+	desc = brmeth.110.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	option = {
+		name = brmeth.110.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.120
+	title = brmeth.120.t
+	desc = brmeth.120.d
+	picture = GFX_Karen_Conflict_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.120.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.130
+	title = brmeth.130.t
+	desc = brmeth.130.d
+	picture = GFX_Karen_Conflict_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.130.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.140
+	title = brmeth.140.t
+	desc = brmeth.140.d
+	picture = GFX_Karen_Conflict_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.140.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.150
+	title = brmeth.150.t
+	desc = brmeth.150.d
+	picture = GFX_Karen_Conflict_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.150.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.160
+	title = brmeth.160.t
+	desc = brmeth.160.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.160.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.170
+	title = brmeth.170.t
+	desc = brmeth.170.d
+	picture = GFX_Karen_Conflict_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.170.a
+		set_temp_variable = { money_change_temp = -0.05 } cwic_change_money = yes add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = brmeth.101
+	title = brmeth.101.t
+	desc = brmeth.101.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.101.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.111
+	title = brmeth.111.t
+	desc = brmeth.111.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	option = {
+		name = brmeth.111.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.121
+	title = brmeth.121.t
+	desc = brmeth.121.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.121.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.131
+	title = brmeth.131.t
+	desc = brmeth.131.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.131.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.141
+	title = brmeth.141.t
+	desc = brmeth.141.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.141.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.151
+	title = brmeth.151.t
+	desc = brmeth.151.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.151.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.161
+	title = brmeth.161.t
+	desc = brmeth.161.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.161.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.171
+	title = brmeth.171.t
+	desc = brmeth.171.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.171.a
+		set_temp_variable = { money_change_temp = -0.05 } cwic_change_money = yes add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = brmeth.102
+	title = brmeth.102.t
+	desc = brmeth.102.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.102.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.112
+	title = brmeth.112.t
+	desc = brmeth.112.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	option = {
+		name = brmeth.112.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.122
+	title = brmeth.122.t
+	desc = brmeth.122.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.122.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.132
+	title = brmeth.132.t
+	desc = brmeth.132.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.132.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.142
+	title = brmeth.142.t
+	desc = brmeth.142.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.142.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.152
+	title = brmeth.152.t
+	desc = brmeth.152.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.152.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.162
+	title = brmeth.162.t
+	desc = brmeth.162.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.162.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.172
+	title = brmeth.172.t
+	desc = brmeth.172.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.172.a
+		set_temp_variable = { money_change_temp = -0.05 } cwic_change_money = yes add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = brmeth.103
+	title = brmeth.103.t
+	desc = brmeth.103.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.103.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.113
+	title = brmeth.113.t
+	desc = brmeth.113.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	option = {
+		name = brmeth.113.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.123
+	title = brmeth.123.t
+	desc = brmeth.123.d
+	picture = GFX_Collapse_Burma_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.123.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.133
+	title = brmeth.133.t
+	desc = brmeth.133.d
+	picture = GFX_Collapse_Burma_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.133.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.143
+	title = brmeth.143.t
+	desc = brmeth.143.d
+	picture = GFX_Collapse_Burma_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.143.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.153
+	title = brmeth.153.t
+	desc = brmeth.153.d
+	picture = GFX_Collapse_Burma_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.153.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.163
+	title = brmeth.163.t
+	desc = brmeth.163.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.163.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.173
+	title = brmeth.173.t
+	desc = brmeth.173.d
+	picture = GFX_Collapse_Burma_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.173.a
+		set_temp_variable = { money_change_temp = -0.05 } cwic_change_money = yes add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = brmeth.104
+	title = brmeth.104.t
+	desc = brmeth.104.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.104.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.114
+	title = brmeth.114.t
+	desc = brmeth.114.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	option = {
+		name = brmeth.114.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.124
+	title = brmeth.124.t
+	desc = brmeth.124.d
+	picture = GFX_kmt_burma
+	is_triggered_only = yes
+	option = {
+		name = brmeth.124.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.134
+	title = brmeth.134.t
+	desc = brmeth.134.d
+	picture = GFX_kmt_burma
+	is_triggered_only = yes
+	option = {
+		name = brmeth.134.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.144
+	title = brmeth.144.t
+	desc = brmeth.144.d
+	picture = GFX_kmt_burma
+	is_triggered_only = yes
+	option = {
+		name = brmeth.144.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.154
+	title = brmeth.154.t
+	desc = brmeth.154.d
+	picture = GFX_kmt_burma
+	is_triggered_only = yes
+	option = {
+		name = brmeth.154.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.164
+	title = brmeth.164.t
+	desc = brmeth.164.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.164.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.174
+	title = brmeth.174.t
+	desc = brmeth.174.d
+	picture = GFX_kmt_burma
+	is_triggered_only = yes
+	option = {
+		name = brmeth.174.a
+		set_temp_variable = { money_change_temp = -0.05 } cwic_change_money = yes add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = brmeth.105
+	title = brmeth.105.t
+	desc = brmeth.105.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.105.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.115
+	title = brmeth.115.t
+	desc = brmeth.115.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	option = {
+		name = brmeth.115.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.125
+	title = brmeth.125.t
+	desc = brmeth.125.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.125.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.135
+	title = brmeth.135.t
+	desc = brmeth.135.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.135.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.145
+	title = brmeth.145.t
+	desc = brmeth.145.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.145.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.155
+	title = brmeth.155.t
+	desc = brmeth.155.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.155.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.165
+	title = brmeth.165.t
+	desc = brmeth.165.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.165.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.175
+	title = brmeth.175.t
+	desc = brmeth.175.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.175.a
+		set_temp_variable = { money_change_temp = -0.05 } cwic_change_money = yes add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = brmeth.106
+	title = brmeth.106.t
+	desc = brmeth.106.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.106.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.116
+	title = brmeth.116.t
+	desc = brmeth.116.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	option = {
+		name = brmeth.116.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.126
+	title = brmeth.126.t
+	desc = brmeth.126.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.126.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.136
+	title = brmeth.136.t
+	desc = brmeth.136.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.136.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.146
+	title = brmeth.146.t
+	desc = brmeth.146.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.146.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.156
+	title = brmeth.156.t
+	desc = brmeth.156.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.156.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.166
+	title = brmeth.166.t
+	desc = brmeth.166.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.166.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.176
+	title = brmeth.176.t
+	desc = brmeth.176.d
+	picture = GFX_Burma_KW_3
+	is_triggered_only = yes
+	option = {
+		name = brmeth.176.a
+		set_temp_variable = { money_change_temp = -0.05 } cwic_change_money = yes add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = brmeth.107
+	title = brmeth.107.t
+	desc = brmeth.107.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.107.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.117
+	title = brmeth.117.t
+	desc = brmeth.117.d
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	option = {
+		name = brmeth.117.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.127
+	title = brmeth.127.t
+	desc = brmeth.127.d
+	picture = GFX_PRC_Burma_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.127.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.137
+	title = brmeth.137.t
+	desc = brmeth.137.d
+	picture = GFX_PRC_Burma_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.137.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.147
+	title = brmeth.147.t
+	desc = brmeth.147.d
+	picture = GFX_PRC_Burma_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.147.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.157
+	title = brmeth.157.t
+	desc = brmeth.157.d
+	picture = GFX_PRC_Burma_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.157.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.167
+	title = brmeth.167.t
+	desc = brmeth.167.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.167.a
+		
+	}
+}
+
+country_event = {
+	id = brmeth.177
+	title = brmeth.177.t
+	desc = brmeth.177.d
+	picture = GFX_PRC_Burma_1
+	is_triggered_only = yes
+	option = {
+		name = brmeth.177.a
+		set_temp_variable = { money_change_temp = -0.05 } cwic_change_money = yes add_stability = -0.01
+	}
+}

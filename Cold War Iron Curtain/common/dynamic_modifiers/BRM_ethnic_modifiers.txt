@@ -1,0 +1,7 @@
+BRM_ethnic_conflicts = {
+	icon = GFX_idea_KMT_Warlord_armies
+	enable = { always = yes }
+	stability_factor = BRM_eth_stab
+	political_power_gain = BRM_eth_pp
+	production_speed_buildings_factor = BRM_eth_build
+}

@@ -78,6 +78,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 10
 			add_tech_bonus = { name = BRM_counterinsurgency bonus = 0.5 uses = 1 category = land_doctrine }
+			BRM_eth_focus_counterinsurgency = yes
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -1022,6 +1023,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_war_support = 0.03
+			BRM_eth_focus_end_civil_war = yes
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -1054,6 +1056,7 @@ focus_tree = {
 			add_political_power = 75
 			add_stability = 0.03
 			BRM_step_internal_conflict = yes
+			BRM_eth_focus_panglong_spirit = yes
 		}
 		ai_will_do = { factor = 4 }
 	}
@@ -1095,6 +1098,7 @@ focus_tree = {
 				add_stability = 0.03
 				add_political_power = 50
 			}
+			BRM_eth_focus_karen_question = yes
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -1114,6 +1118,7 @@ focus_tree = {
 			else = {
 				add_timed_idea = { idea = BRM_minority_trust days = 730 }
 			}
+			BRM_eth_focus_kachin_chin_hills = yes
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -1134,6 +1139,7 @@ focus_tree = {
 			else = {
 				add_stability = 0.03
 			}
+			BRM_eth_focus_shan_states = yes
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -1149,6 +1155,7 @@ focus_tree = {
 		prerequisite = { focus = BRM_shan_states }
 		completion_reward = {
 			BRM_step_internal_conflict = yes
+			BRM_eth_focus_nationalities_settlement = yes
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -1328,6 +1335,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_war_support = 0.05
+			BRM_eth_focus_state_religion = yes
 		}
 		ai_will_do = { factor = 2 }
 	}
@@ -2815,6 +2823,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_manpower = 5000
+			BRM_eth_focus_ceasefire_deals = yes
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -2965,6 +2974,7 @@ focus_tree = {
 			BRM_go_nug = yes
 			BRM_weaken_spring_revolution = yes
 			add_stability = 0.03
+			BRM_eth_focus_federal_democracy_charter = yes
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -2986,6 +2996,7 @@ focus_tree = {
 				add_ideas = BRM_union_secured
 			}
 			add_stability = 0.05
+			BRM_eth_focus_national_peace = yes
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3050,6 +3061,7 @@ focus_tree = {
 			add_stability = 0.05
 			if = { limit = { NOT = { has_idea = BRM_federal_democracy } } add_ideas = BRM_federal_democracy }
 			if = { limit = { has_idea = BRM_democratic_opening } swap_ideas = { remove_idea = BRM_democratic_opening add_idea = BRM_democratic_opening_2 } }
+			BRM_eth_focus_federal_constitution = yes
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3246,6 +3258,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_manpower = 5000
+			BRM_eth_focus_nationwide_ceasefire = yes
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3261,6 +3274,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_political_power = 75
+			BRM_eth_focus_peace_conference = yes
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3276,6 +3290,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_timed_idea = { idea = BRM_minority_trust days = 730 }
+			BRM_eth_focus_rakhine_commission = yes
 		}
 		ai_will_do = { factor = 1 }
 	}

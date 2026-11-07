@@ -1,0 +1,31 @@
+# Burma ethnic insurgency system
+BRM_eth_federal_talks = {
+	OR = {
+		has_completed_focus = BRM_panglong_spirit
+		has_completed_focus = BRM_federal_seminar
+		has_completed_focus = BRM_peace_conference
+		has_completed_focus = BRM_federal_constitution
+		has_completed_focus = BRM_federal_democracy_charter
+	}
+}
+BRM_eth_military_rule = {
+	OR = {
+		has_completed_focus = BRM_revolutionary_council
+		has_completed_focus = BRM_slorc
+		has_completed_focus = BRM_state_administration_council
+	}
+	NOT = { has_completed_focus = BRM_thein_sein_reforms }
+	NOT = { has_completed_focus = BRM_national_peace }
+}
+BRM_eth_any_conflict = {
+	OR = {
+		check_variable = { BRM_eth_karen > 0 }
+		check_variable = { BRM_eth_karenni > 0 }
+		check_variable = { BRM_eth_mon > 0 }
+		check_variable = { BRM_eth_arakan > 0 }
+		check_variable = { BRM_eth_shan > 0 }
+		check_variable = { BRM_eth_kachin > 0 }
+		check_variable = { BRM_eth_chin > 0 }
+		check_variable = { BRM_eth_wa > 0 }
+	}
+}

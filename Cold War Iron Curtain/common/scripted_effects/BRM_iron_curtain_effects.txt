@@ -22,6 +22,8 @@ BRM_game_start_setup = {
 			BRM_setup_1980_start = yes
 		}
 	}
+	# ethnic armed conflicts (Ethnic Affairs decisions)
+	BRM_eth_init = yes
 }
 
 BRM_swap_iron_curtain_spirits = {

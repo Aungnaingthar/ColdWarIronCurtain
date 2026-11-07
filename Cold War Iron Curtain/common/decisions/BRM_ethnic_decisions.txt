@@ -1,0 +1,946 @@
+BRM_ethnic_category = {
+	BRM_eth_karen_talks = {
+		icon = generic_political_discourse
+		visible = { always = yes check_variable = { BRM_eth_karen = 2 } }
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			random_list = {
+				35 = {
+					modifier = { factor = 2 check_variable = { BRM_eth_karen_str < 4 } }
+					modifier = { factor = 1.5 BRM_eth_federal_talks = yes }
+					modifier = { factor = 1.5 date > 1989.1.1 }
+					modifier = { factor = 0.5 check_variable = { BRM_eth_karen_str > 7 } }
+					BRM_eth_karen_to_ceasefire = yes
+					country_event = { id = brmeth.100 }
+				}
+				65 = {
+					country_event = { id = brmeth.110 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+	BRM_eth_karen_offensive = {
+		icon = generic_army_support
+		visible = { always = yes check_variable = { BRM_eth_karen = 2 } }
+		available = { check_variable = { currentMoney > 0.15 } has_manpower > 5000 }
+		cost = 25
+		fire_only_once = no
+		days_re_enable = 90
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.15 } cwic_change_money = yes
+			add_manpower = -3000
+			random_list = {
+				55 = {
+					modifier = { factor = 1.3 has_completed_focus = BRM_counterinsurgency }
+					modifier = { factor = 0.7 check_variable = { BRM_eth_karen_str > 7 } }
+					set_temp_variable = { BRM_eth_by = 3 } BRM_eth_karen_weaken = yes
+					army_experience = 5
+					country_event = { id = brmeth.130 }
+				}
+				30 = {
+					set_temp_variable = { BRM_eth_by = 1 } BRM_eth_karen_weaken = yes
+					country_event = { id = brmeth.140 }
+				}
+				15 = {
+					add_to_variable = { BRM_eth_karen_str = 1 }
+					clamp_variable = { var = BRM_eth_karen_str min = 0 max = 10 }
+					add_stability = -0.02
+					country_event = { id = brmeth.150 }
+				}
+			}
+			if = {
+				limit = { check_variable = { BRM_eth_karen_str < 0.5 } }
+				BRM_eth_karen_to_ceasefire = yes
+				set_variable = { BRM_eth_karen_str = 2 }
+				country_event = { id = brmeth.160 }
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 check_variable = { BRM_eth_karen_str > 5 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+		}
+	}
+	BRM_eth_karen_autonomy = {
+		icon = generic_civil_support
+		visible = { always = yes check_variable = { BRM_eth_karen = 1 } NOT = { has_country_flag = BRM_eth_karen_autonomy } }
+		available = { BRM_eth_federal_talks = yes NOT = { BRM_eth_military_rule = yes } }
+		cost = 75
+		complete_effect = {
+			BRM_eth_karen_to_peace = yes
+			set_country_flag = BRM_eth_karen_autonomy
+			add_stability = 0.02
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_eth_karen_bgf = {
+		icon = generic_prepare_civil_war
+		visible = { always = yes check_variable = { BRM_eth_karen = 1 } date > 2009.1.1 BRM_eth_military_rule = yes }
+		cost = 50
+		days_re_enable = 365
+		complete_effect = {
+			random_list = {
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_karen_str < 5 } }
+					BRM_eth_karen_to_peace = yes
+					set_country_flag = BRM_eth_karen_bgf
+					add_manpower = 5000
+				}
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_karen_str > 6 } }
+					BRM_eth_karen_to_war = yes
+					add_to_variable = { BRM_eth_karen_str = 2 }
+					clamp_variable = { var = BRM_eth_karen_str min = 0 max = 10 }
+					country_event = { id = brmeth.120 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_karen_development = {
+		icon = generic_money_bag
+		visible = { always = yes check_variable = { BRM_eth_karen = 1 } NOT = { has_country_flag = BRM_eth_karen_dev } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.2 } }
+		custom_cost_text = BRM_eth_cost_development
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 } cwic_change_money = yes
+			set_country_flag = { flag = BRM_eth_karen_dev days = 1825 value = 1 }
+			set_temp_variable = { BRM_eth_by = 1 } BRM_eth_karen_weaken = yes
+			add_stability = 0.01
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_karenni_talks = {
+		icon = generic_political_discourse
+		visible = { always = yes check_variable = { BRM_eth_karenni = 2 } }
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			random_list = {
+				35 = {
+					modifier = { factor = 2 check_variable = { BRM_eth_karenni_str < 4 } }
+					modifier = { factor = 1.5 BRM_eth_federal_talks = yes }
+					modifier = { factor = 1.5 date > 1989.1.1 }
+					modifier = { factor = 0.5 check_variable = { BRM_eth_karenni_str > 7 } }
+					BRM_eth_karenni_to_ceasefire = yes
+					country_event = { id = brmeth.101 }
+				}
+				65 = {
+					country_event = { id = brmeth.111 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+	BRM_eth_karenni_offensive = {
+		icon = generic_army_support
+		visible = { always = yes check_variable = { BRM_eth_karenni = 2 } }
+		available = { check_variable = { currentMoney > 0.15 } has_manpower > 5000 }
+		cost = 25
+		fire_only_once = no
+		days_re_enable = 90
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.15 } cwic_change_money = yes
+			add_manpower = -3000
+			random_list = {
+				55 = {
+					modifier = { factor = 1.3 has_completed_focus = BRM_counterinsurgency }
+					modifier = { factor = 0.7 check_variable = { BRM_eth_karenni_str > 7 } }
+					set_temp_variable = { BRM_eth_by = 3 } BRM_eth_karenni_weaken = yes
+					army_experience = 5
+					country_event = { id = brmeth.131 }
+				}
+				30 = {
+					set_temp_variable = { BRM_eth_by = 1 } BRM_eth_karenni_weaken = yes
+					country_event = { id = brmeth.141 }
+				}
+				15 = {
+					add_to_variable = { BRM_eth_karenni_str = 1 }
+					clamp_variable = { var = BRM_eth_karenni_str min = 0 max = 10 }
+					add_stability = -0.02
+					country_event = { id = brmeth.151 }
+				}
+			}
+			if = {
+				limit = { check_variable = { BRM_eth_karenni_str < 0.5 } }
+				BRM_eth_karenni_to_ceasefire = yes
+				set_variable = { BRM_eth_karenni_str = 2 }
+				country_event = { id = brmeth.161 }
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 check_variable = { BRM_eth_karenni_str > 5 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+		}
+	}
+	BRM_eth_karenni_autonomy = {
+		icon = generic_civil_support
+		visible = { always = yes check_variable = { BRM_eth_karenni = 1 } NOT = { has_country_flag = BRM_eth_karenni_autonomy } }
+		available = { BRM_eth_federal_talks = yes NOT = { BRM_eth_military_rule = yes } }
+		cost = 75
+		complete_effect = {
+			BRM_eth_karenni_to_peace = yes
+			set_country_flag = BRM_eth_karenni_autonomy
+			add_stability = 0.02
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_eth_karenni_bgf = {
+		icon = generic_prepare_civil_war
+		visible = { always = yes check_variable = { BRM_eth_karenni = 1 } date > 2009.1.1 BRM_eth_military_rule = yes }
+		cost = 50
+		days_re_enable = 365
+		complete_effect = {
+			random_list = {
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_karenni_str < 5 } }
+					BRM_eth_karenni_to_peace = yes
+					set_country_flag = BRM_eth_karenni_bgf
+					add_manpower = 5000
+				}
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_karenni_str > 6 } }
+					BRM_eth_karenni_to_war = yes
+					add_to_variable = { BRM_eth_karenni_str = 2 }
+					clamp_variable = { var = BRM_eth_karenni_str min = 0 max = 10 }
+					country_event = { id = brmeth.121 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_karenni_development = {
+		icon = generic_money_bag
+		visible = { always = yes check_variable = { BRM_eth_karenni = 1 } NOT = { has_country_flag = BRM_eth_karenni_dev } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.2 } }
+		custom_cost_text = BRM_eth_cost_development
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 } cwic_change_money = yes
+			set_country_flag = { flag = BRM_eth_karenni_dev days = 1825 value = 1 }
+			set_temp_variable = { BRM_eth_by = 1 } BRM_eth_karenni_weaken = yes
+			add_stability = 0.01
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_mon_talks = {
+		icon = generic_political_discourse
+		visible = { always = yes check_variable = { BRM_eth_mon = 2 } }
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			random_list = {
+				35 = {
+					modifier = { factor = 2 check_variable = { BRM_eth_mon_str < 4 } }
+					modifier = { factor = 1.5 BRM_eth_federal_talks = yes }
+					modifier = { factor = 1.5 date > 1989.1.1 }
+					modifier = { factor = 0.5 check_variable = { BRM_eth_mon_str > 7 } }
+					BRM_eth_mon_to_ceasefire = yes
+					country_event = { id = brmeth.102 }
+				}
+				65 = {
+					country_event = { id = brmeth.112 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+	BRM_eth_mon_offensive = {
+		icon = generic_army_support
+		visible = { always = yes check_variable = { BRM_eth_mon = 2 } }
+		available = { check_variable = { currentMoney > 0.15 } has_manpower > 5000 }
+		cost = 25
+		fire_only_once = no
+		days_re_enable = 90
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.15 } cwic_change_money = yes
+			add_manpower = -3000
+			random_list = {
+				55 = {
+					modifier = { factor = 1.3 has_completed_focus = BRM_counterinsurgency }
+					modifier = { factor = 0.7 check_variable = { BRM_eth_mon_str > 7 } }
+					set_temp_variable = { BRM_eth_by = 3 } BRM_eth_mon_weaken = yes
+					army_experience = 5
+					country_event = { id = brmeth.132 }
+				}
+				30 = {
+					set_temp_variable = { BRM_eth_by = 1 } BRM_eth_mon_weaken = yes
+					country_event = { id = brmeth.142 }
+				}
+				15 = {
+					add_to_variable = { BRM_eth_mon_str = 1 }
+					clamp_variable = { var = BRM_eth_mon_str min = 0 max = 10 }
+					add_stability = -0.02
+					country_event = { id = brmeth.152 }
+				}
+			}
+			if = {
+				limit = { check_variable = { BRM_eth_mon_str < 0.5 } }
+				BRM_eth_mon_to_ceasefire = yes
+				set_variable = { BRM_eth_mon_str = 2 }
+				country_event = { id = brmeth.162 }
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 check_variable = { BRM_eth_mon_str > 5 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+		}
+	}
+	BRM_eth_mon_autonomy = {
+		icon = generic_civil_support
+		visible = { always = yes check_variable = { BRM_eth_mon = 1 } NOT = { has_country_flag = BRM_eth_mon_autonomy } }
+		available = { BRM_eth_federal_talks = yes NOT = { BRM_eth_military_rule = yes } }
+		cost = 75
+		complete_effect = {
+			BRM_eth_mon_to_peace = yes
+			set_country_flag = BRM_eth_mon_autonomy
+			add_stability = 0.02
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_eth_mon_bgf = {
+		icon = generic_prepare_civil_war
+		visible = { always = yes check_variable = { BRM_eth_mon = 1 } date > 2009.1.1 BRM_eth_military_rule = yes }
+		cost = 50
+		days_re_enable = 365
+		complete_effect = {
+			random_list = {
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_mon_str < 5 } }
+					BRM_eth_mon_to_peace = yes
+					set_country_flag = BRM_eth_mon_bgf
+					add_manpower = 5000
+				}
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_mon_str > 6 } }
+					BRM_eth_mon_to_war = yes
+					add_to_variable = { BRM_eth_mon_str = 2 }
+					clamp_variable = { var = BRM_eth_mon_str min = 0 max = 10 }
+					country_event = { id = brmeth.122 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_mon_development = {
+		icon = generic_money_bag
+		visible = { always = yes check_variable = { BRM_eth_mon = 1 } NOT = { has_country_flag = BRM_eth_mon_dev } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.2 } }
+		custom_cost_text = BRM_eth_cost_development
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 } cwic_change_money = yes
+			set_country_flag = { flag = BRM_eth_mon_dev days = 1825 value = 1 }
+			set_temp_variable = { BRM_eth_by = 1 } BRM_eth_mon_weaken = yes
+			add_stability = 0.01
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_arakan_talks = {
+		icon = generic_political_discourse
+		visible = { always = yes check_variable = { BRM_eth_arakan = 2 } }
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			random_list = {
+				35 = {
+					modifier = { factor = 2 check_variable = { BRM_eth_arakan_str < 4 } }
+					modifier = { factor = 1.5 BRM_eth_federal_talks = yes }
+					modifier = { factor = 1.5 date > 1989.1.1 }
+					modifier = { factor = 0.5 check_variable = { BRM_eth_arakan_str > 7 } }
+					BRM_eth_arakan_to_ceasefire = yes
+					country_event = { id = brmeth.103 }
+				}
+				65 = {
+					country_event = { id = brmeth.113 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+	BRM_eth_arakan_offensive = {
+		icon = generic_army_support
+		visible = { always = yes check_variable = { BRM_eth_arakan = 2 } }
+		available = { check_variable = { currentMoney > 0.15 } has_manpower > 5000 }
+		cost = 25
+		fire_only_once = no
+		days_re_enable = 90
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.15 } cwic_change_money = yes
+			add_manpower = -3000
+			random_list = {
+				55 = {
+					modifier = { factor = 1.3 has_completed_focus = BRM_counterinsurgency }
+					modifier = { factor = 0.7 check_variable = { BRM_eth_arakan_str > 7 } }
+					set_temp_variable = { BRM_eth_by = 3 } BRM_eth_arakan_weaken = yes
+					army_experience = 5
+					country_event = { id = brmeth.133 }
+				}
+				30 = {
+					set_temp_variable = { BRM_eth_by = 1 } BRM_eth_arakan_weaken = yes
+					country_event = { id = brmeth.143 }
+				}
+				15 = {
+					add_to_variable = { BRM_eth_arakan_str = 1 }
+					clamp_variable = { var = BRM_eth_arakan_str min = 0 max = 10 }
+					add_stability = -0.02
+					country_event = { id = brmeth.153 }
+				}
+			}
+			if = {
+				limit = { check_variable = { BRM_eth_arakan_str < 0.5 } }
+				BRM_eth_arakan_to_ceasefire = yes
+				set_variable = { BRM_eth_arakan_str = 2 }
+				country_event = { id = brmeth.163 }
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 check_variable = { BRM_eth_arakan_str > 5 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+		}
+	}
+	BRM_eth_arakan_autonomy = {
+		icon = generic_civil_support
+		visible = { always = yes check_variable = { BRM_eth_arakan = 1 } NOT = { has_country_flag = BRM_eth_arakan_autonomy } }
+		available = { BRM_eth_federal_talks = yes NOT = { BRM_eth_military_rule = yes } }
+		cost = 75
+		complete_effect = {
+			BRM_eth_arakan_to_peace = yes
+			set_country_flag = BRM_eth_arakan_autonomy
+			add_stability = 0.02
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_eth_arakan_bgf = {
+		icon = generic_prepare_civil_war
+		visible = { always = yes check_variable = { BRM_eth_arakan = 1 } date > 2009.1.1 BRM_eth_military_rule = yes }
+		cost = 50
+		days_re_enable = 365
+		complete_effect = {
+			random_list = {
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_arakan_str < 5 } }
+					BRM_eth_arakan_to_peace = yes
+					set_country_flag = BRM_eth_arakan_bgf
+					add_manpower = 5000
+				}
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_arakan_str > 6 } }
+					BRM_eth_arakan_to_war = yes
+					add_to_variable = { BRM_eth_arakan_str = 2 }
+					clamp_variable = { var = BRM_eth_arakan_str min = 0 max = 10 }
+					country_event = { id = brmeth.123 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_arakan_development = {
+		icon = generic_money_bag
+		visible = { always = yes check_variable = { BRM_eth_arakan = 1 } NOT = { has_country_flag = BRM_eth_arakan_dev } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.2 } }
+		custom_cost_text = BRM_eth_cost_development
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 } cwic_change_money = yes
+			set_country_flag = { flag = BRM_eth_arakan_dev days = 1825 value = 1 }
+			set_temp_variable = { BRM_eth_by = 1 } BRM_eth_arakan_weaken = yes
+			add_stability = 0.01
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_shan_talks = {
+		icon = generic_political_discourse
+		visible = { always = yes check_variable = { BRM_eth_shan = 2 } }
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			random_list = {
+				35 = {
+					modifier = { factor = 2 check_variable = { BRM_eth_shan_str < 4 } }
+					modifier = { factor = 1.5 BRM_eth_federal_talks = yes }
+					modifier = { factor = 1.5 date > 1989.1.1 }
+					modifier = { factor = 0.5 check_variable = { BRM_eth_shan_str > 7 } }
+					BRM_eth_shan_to_ceasefire = yes
+					country_event = { id = brmeth.104 }
+				}
+				65 = {
+					country_event = { id = brmeth.114 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+	BRM_eth_shan_offensive = {
+		icon = generic_army_support
+		visible = { always = yes check_variable = { BRM_eth_shan = 2 } }
+		available = { check_variable = { currentMoney > 0.15 } has_manpower > 5000 }
+		cost = 25
+		fire_only_once = no
+		days_re_enable = 90
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.15 } cwic_change_money = yes
+			add_manpower = -3000
+			random_list = {
+				55 = {
+					modifier = { factor = 1.3 has_completed_focus = BRM_counterinsurgency }
+					modifier = { factor = 0.7 check_variable = { BRM_eth_shan_str > 7 } }
+					set_temp_variable = { BRM_eth_by = 3 } BRM_eth_shan_weaken = yes
+					army_experience = 5
+					country_event = { id = brmeth.134 }
+				}
+				30 = {
+					set_temp_variable = { BRM_eth_by = 1 } BRM_eth_shan_weaken = yes
+					country_event = { id = brmeth.144 }
+				}
+				15 = {
+					add_to_variable = { BRM_eth_shan_str = 1 }
+					clamp_variable = { var = BRM_eth_shan_str min = 0 max = 10 }
+					add_stability = -0.02
+					country_event = { id = brmeth.154 }
+				}
+			}
+			if = {
+				limit = { check_variable = { BRM_eth_shan_str < 0.5 } }
+				BRM_eth_shan_to_ceasefire = yes
+				set_variable = { BRM_eth_shan_str = 2 }
+				country_event = { id = brmeth.164 }
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 check_variable = { BRM_eth_shan_str > 5 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+		}
+	}
+	BRM_eth_shan_autonomy = {
+		icon = generic_civil_support
+		visible = { always = yes check_variable = { BRM_eth_shan = 1 } NOT = { has_country_flag = BRM_eth_shan_autonomy } }
+		available = { BRM_eth_federal_talks = yes NOT = { BRM_eth_military_rule = yes } }
+		cost = 75
+		complete_effect = {
+			BRM_eth_shan_to_peace = yes
+			set_country_flag = BRM_eth_shan_autonomy
+			add_stability = 0.02
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_eth_shan_bgf = {
+		icon = generic_prepare_civil_war
+		visible = { always = yes check_variable = { BRM_eth_shan = 1 } date > 2009.1.1 BRM_eth_military_rule = yes }
+		cost = 50
+		days_re_enable = 365
+		complete_effect = {
+			random_list = {
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_shan_str < 5 } }
+					BRM_eth_shan_to_peace = yes
+					set_country_flag = BRM_eth_shan_bgf
+					add_manpower = 5000
+				}
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_shan_str > 6 } }
+					BRM_eth_shan_to_war = yes
+					add_to_variable = { BRM_eth_shan_str = 2 }
+					clamp_variable = { var = BRM_eth_shan_str min = 0 max = 10 }
+					country_event = { id = brmeth.124 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_shan_development = {
+		icon = generic_money_bag
+		visible = { always = yes check_variable = { BRM_eth_shan = 1 } NOT = { has_country_flag = BRM_eth_shan_dev } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.2 } }
+		custom_cost_text = BRM_eth_cost_development
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 } cwic_change_money = yes
+			set_country_flag = { flag = BRM_eth_shan_dev days = 1825 value = 1 }
+			set_temp_variable = { BRM_eth_by = 1 } BRM_eth_shan_weaken = yes
+			add_stability = 0.01
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_kachin_talks = {
+		icon = generic_political_discourse
+		visible = { always = yes check_variable = { BRM_eth_kachin = 2 } }
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			random_list = {
+				35 = {
+					modifier = { factor = 2 check_variable = { BRM_eth_kachin_str < 4 } }
+					modifier = { factor = 1.5 BRM_eth_federal_talks = yes }
+					modifier = { factor = 1.5 date > 1989.1.1 }
+					modifier = { factor = 0.5 check_variable = { BRM_eth_kachin_str > 7 } }
+					BRM_eth_kachin_to_ceasefire = yes
+					country_event = { id = brmeth.105 }
+				}
+				65 = {
+					country_event = { id = brmeth.115 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+	BRM_eth_kachin_offensive = {
+		icon = generic_army_support
+		visible = { always = yes check_variable = { BRM_eth_kachin = 2 } }
+		available = { check_variable = { currentMoney > 0.15 } has_manpower > 5000 }
+		cost = 25
+		fire_only_once = no
+		days_re_enable = 90
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.15 } cwic_change_money = yes
+			add_manpower = -3000
+			random_list = {
+				55 = {
+					modifier = { factor = 1.3 has_completed_focus = BRM_counterinsurgency }
+					modifier = { factor = 0.7 check_variable = { BRM_eth_kachin_str > 7 } }
+					set_temp_variable = { BRM_eth_by = 3 } BRM_eth_kachin_weaken = yes
+					army_experience = 5
+					country_event = { id = brmeth.135 }
+				}
+				30 = {
+					set_temp_variable = { BRM_eth_by = 1 } BRM_eth_kachin_weaken = yes
+					country_event = { id = brmeth.145 }
+				}
+				15 = {
+					add_to_variable = { BRM_eth_kachin_str = 1 }
+					clamp_variable = { var = BRM_eth_kachin_str min = 0 max = 10 }
+					add_stability = -0.02
+					country_event = { id = brmeth.155 }
+				}
+			}
+			if = {
+				limit = { check_variable = { BRM_eth_kachin_str < 0.5 } }
+				BRM_eth_kachin_to_ceasefire = yes
+				set_variable = { BRM_eth_kachin_str = 2 }
+				country_event = { id = brmeth.165 }
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 check_variable = { BRM_eth_kachin_str > 5 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+		}
+	}
+	BRM_eth_kachin_autonomy = {
+		icon = generic_civil_support
+		visible = { always = yes check_variable = { BRM_eth_kachin = 1 } NOT = { has_country_flag = BRM_eth_kachin_autonomy } }
+		available = { BRM_eth_federal_talks = yes NOT = { BRM_eth_military_rule = yes } }
+		cost = 75
+		complete_effect = {
+			BRM_eth_kachin_to_peace = yes
+			set_country_flag = BRM_eth_kachin_autonomy
+			add_stability = 0.02
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_eth_kachin_bgf = {
+		icon = generic_prepare_civil_war
+		visible = { always = yes check_variable = { BRM_eth_kachin = 1 } date > 2009.1.1 BRM_eth_military_rule = yes }
+		cost = 50
+		days_re_enable = 365
+		complete_effect = {
+			random_list = {
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_kachin_str < 5 } }
+					BRM_eth_kachin_to_peace = yes
+					set_country_flag = BRM_eth_kachin_bgf
+					add_manpower = 5000
+				}
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_kachin_str > 6 } }
+					BRM_eth_kachin_to_war = yes
+					add_to_variable = { BRM_eth_kachin_str = 2 }
+					clamp_variable = { var = BRM_eth_kachin_str min = 0 max = 10 }
+					country_event = { id = brmeth.125 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_kachin_development = {
+		icon = generic_money_bag
+		visible = { always = yes check_variable = { BRM_eth_kachin = 1 } NOT = { has_country_flag = BRM_eth_kachin_dev } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.2 } }
+		custom_cost_text = BRM_eth_cost_development
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 } cwic_change_money = yes
+			set_country_flag = { flag = BRM_eth_kachin_dev days = 1825 value = 1 }
+			set_temp_variable = { BRM_eth_by = 1 } BRM_eth_kachin_weaken = yes
+			add_stability = 0.01
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_chin_talks = {
+		icon = generic_political_discourse
+		visible = { always = yes check_variable = { BRM_eth_chin = 2 } }
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			random_list = {
+				35 = {
+					modifier = { factor = 2 check_variable = { BRM_eth_chin_str < 4 } }
+					modifier = { factor = 1.5 BRM_eth_federal_talks = yes }
+					modifier = { factor = 1.5 date > 1989.1.1 }
+					modifier = { factor = 0.5 check_variable = { BRM_eth_chin_str > 7 } }
+					BRM_eth_chin_to_ceasefire = yes
+					country_event = { id = brmeth.106 }
+				}
+				65 = {
+					country_event = { id = brmeth.116 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+	BRM_eth_chin_offensive = {
+		icon = generic_army_support
+		visible = { always = yes check_variable = { BRM_eth_chin = 2 } }
+		available = { check_variable = { currentMoney > 0.15 } has_manpower > 5000 }
+		cost = 25
+		fire_only_once = no
+		days_re_enable = 90
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.15 } cwic_change_money = yes
+			add_manpower = -3000
+			random_list = {
+				55 = {
+					modifier = { factor = 1.3 has_completed_focus = BRM_counterinsurgency }
+					modifier = { factor = 0.7 check_variable = { BRM_eth_chin_str > 7 } }
+					set_temp_variable = { BRM_eth_by = 3 } BRM_eth_chin_weaken = yes
+					army_experience = 5
+					country_event = { id = brmeth.136 }
+				}
+				30 = {
+					set_temp_variable = { BRM_eth_by = 1 } BRM_eth_chin_weaken = yes
+					country_event = { id = brmeth.146 }
+				}
+				15 = {
+					add_to_variable = { BRM_eth_chin_str = 1 }
+					clamp_variable = { var = BRM_eth_chin_str min = 0 max = 10 }
+					add_stability = -0.02
+					country_event = { id = brmeth.156 }
+				}
+			}
+			if = {
+				limit = { check_variable = { BRM_eth_chin_str < 0.5 } }
+				BRM_eth_chin_to_ceasefire = yes
+				set_variable = { BRM_eth_chin_str = 2 }
+				country_event = { id = brmeth.166 }
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 check_variable = { BRM_eth_chin_str > 5 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+		}
+	}
+	BRM_eth_chin_autonomy = {
+		icon = generic_civil_support
+		visible = { always = yes check_variable = { BRM_eth_chin = 1 } NOT = { has_country_flag = BRM_eth_chin_autonomy } }
+		available = { BRM_eth_federal_talks = yes NOT = { BRM_eth_military_rule = yes } }
+		cost = 75
+		complete_effect = {
+			BRM_eth_chin_to_peace = yes
+			set_country_flag = BRM_eth_chin_autonomy
+			add_stability = 0.02
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_eth_chin_bgf = {
+		icon = generic_prepare_civil_war
+		visible = { always = yes check_variable = { BRM_eth_chin = 1 } date > 2009.1.1 BRM_eth_military_rule = yes }
+		cost = 50
+		days_re_enable = 365
+		complete_effect = {
+			random_list = {
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_chin_str < 5 } }
+					BRM_eth_chin_to_peace = yes
+					set_country_flag = BRM_eth_chin_bgf
+					add_manpower = 5000
+				}
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_chin_str > 6 } }
+					BRM_eth_chin_to_war = yes
+					add_to_variable = { BRM_eth_chin_str = 2 }
+					clamp_variable = { var = BRM_eth_chin_str min = 0 max = 10 }
+					country_event = { id = brmeth.126 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_chin_development = {
+		icon = generic_money_bag
+		visible = { always = yes check_variable = { BRM_eth_chin = 1 } NOT = { has_country_flag = BRM_eth_chin_dev } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.2 } }
+		custom_cost_text = BRM_eth_cost_development
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 } cwic_change_money = yes
+			set_country_flag = { flag = BRM_eth_chin_dev days = 1825 value = 1 }
+			set_temp_variable = { BRM_eth_by = 1 } BRM_eth_chin_weaken = yes
+			add_stability = 0.01
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_wa_talks = {
+		icon = generic_political_discourse
+		visible = { has_country_flag = BRM_eth_wa_active check_variable = { BRM_eth_wa = 2 } }
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		complete_effect = {
+			random_list = {
+				35 = {
+					modifier = { factor = 2 check_variable = { BRM_eth_wa_str < 4 } }
+					modifier = { factor = 1.5 BRM_eth_federal_talks = yes }
+					modifier = { factor = 1.5 date > 1989.1.1 }
+					modifier = { factor = 0.5 check_variable = { BRM_eth_wa_str > 7 } }
+					BRM_eth_wa_to_ceasefire = yes
+					country_event = { id = brmeth.107 }
+				}
+				65 = {
+					country_event = { id = brmeth.117 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 2 }
+	}
+	BRM_eth_wa_offensive = {
+		icon = generic_army_support
+		visible = { has_country_flag = BRM_eth_wa_active check_variable = { BRM_eth_wa = 2 } }
+		available = { check_variable = { currentMoney > 0.15 } has_manpower > 5000 }
+		cost = 25
+		fire_only_once = no
+		days_re_enable = 90
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.15 } cwic_change_money = yes
+			add_manpower = -3000
+			random_list = {
+				55 = {
+					modifier = { factor = 1.3 has_completed_focus = BRM_counterinsurgency }
+					modifier = { factor = 0.7 check_variable = { BRM_eth_wa_str > 7 } }
+					set_temp_variable = { BRM_eth_by = 3 } BRM_eth_wa_weaken = yes
+					army_experience = 5
+					country_event = { id = brmeth.137 }
+				}
+				30 = {
+					set_temp_variable = { BRM_eth_by = 1 } BRM_eth_wa_weaken = yes
+					country_event = { id = brmeth.147 }
+				}
+				15 = {
+					add_to_variable = { BRM_eth_wa_str = 1 }
+					clamp_variable = { var = BRM_eth_wa_str min = 0 max = 10 }
+					add_stability = -0.02
+					country_event = { id = brmeth.157 }
+				}
+			}
+			if = {
+				limit = { check_variable = { BRM_eth_wa_str < 0.5 } }
+				BRM_eth_wa_to_ceasefire = yes
+				set_variable = { BRM_eth_wa_str = 2 }
+				country_event = { id = brmeth.167 }
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = {
+			base = 0
+			modifier = { add = 1 check_variable = { BRM_eth_wa_str > 5 } }
+			modifier = { factor = 0 check_variable = { currentMoney < 3 } }
+		}
+	}
+	BRM_eth_wa_autonomy = {
+		icon = generic_civil_support
+		visible = { has_country_flag = BRM_eth_wa_active check_variable = { BRM_eth_wa = 1 } NOT = { has_country_flag = BRM_eth_wa_autonomy } }
+		available = { BRM_eth_federal_talks = yes NOT = { BRM_eth_military_rule = yes } }
+		cost = 75
+		complete_effect = {
+			BRM_eth_wa_to_peace = yes
+			set_country_flag = BRM_eth_wa_autonomy
+			add_stability = 0.02
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_eth_wa_bgf = {
+		icon = generic_prepare_civil_war
+		visible = { has_country_flag = BRM_eth_wa_active check_variable = { BRM_eth_wa = 1 } date > 2009.1.1 BRM_eth_military_rule = yes }
+		cost = 50
+		days_re_enable = 365
+		complete_effect = {
+			random_list = {
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_wa_str < 5 } }
+					BRM_eth_wa_to_peace = yes
+					set_country_flag = BRM_eth_wa_bgf
+					add_manpower = 5000
+				}
+				50 = {
+					modifier = { factor = 1.5 check_variable = { BRM_eth_wa_str > 6 } }
+					BRM_eth_wa_to_war = yes
+					add_to_variable = { BRM_eth_wa_str = 2 }
+					clamp_variable = { var = BRM_eth_wa_str min = 0 max = 10 }
+					country_event = { id = brmeth.127 }
+				}
+			}
+			BRM_eth_recalc = yes
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+	BRM_eth_wa_development = {
+		icon = generic_money_bag
+		visible = { has_country_flag = BRM_eth_wa_active check_variable = { BRM_eth_wa = 1 } NOT = { has_country_flag = BRM_eth_wa_dev } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.2 } }
+		custom_cost_text = BRM_eth_cost_development
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 } cwic_change_money = yes
+			set_country_flag = { flag = BRM_eth_wa_dev days = 1825 value = 1 }
+			set_temp_variable = { BRM_eth_by = 1 } BRM_eth_wa_weaken = yes
+			add_stability = 0.01
+		}
+		ai_will_do = { factor = 0.5 }
+	}
+}
