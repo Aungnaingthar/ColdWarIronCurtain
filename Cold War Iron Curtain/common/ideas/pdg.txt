@@ -18,7 +18,7 @@ ideas = {
 		PDG_Greek_Civil_War_Mod = {
 
 			removal_cost = -1
-			picture = generic_
+			picture = promotion_reaction_riot_icon
 			allowed = {
 				always = no #Added via focus 
 			}

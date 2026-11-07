@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		Greek_Civil_War = {
-			picture = goal_unknown
+			picture = regression_reaction_riot_icon
 			allowed = {
 				always = no
 			}
@@ -16,7 +16,7 @@ ideas = {
 			}
 		}
 		KKE_party_strength_Very_Low = {
-			picture = goal_unknown
+			picture = cpsu_party_strength
 			allowed = {
 				always = no
 			}
@@ -30,7 +30,7 @@ ideas = {
 			}
 		}
 		KKE_party_strength_Low = {
-			picture = goal_unknown
+			picture = cpsu_party_strength
 			allowed = {
 				always = no
 			}
@@ -44,7 +44,7 @@ ideas = {
 			}
 		}
 		KKE_party_strength_Insignificant = {
-			picture = goal_unknown
+			picture = cpsu_party_strength
 			allowed = {
 				always = no
 			}
@@ -58,7 +58,7 @@ ideas = {
 			}
 		}
 		KKE_party_strength_Moderate = {
-			picture = goal_unknown
+			picture = cpsu_party_strength
 			allowed = {
 				always = no
 			}
@@ -72,7 +72,7 @@ ideas = {
 			}
 		}
 		KKE_party_strength_High = {
-			picture = goal_unknown
+			picture = cpsu_party_strength
 			allowed = {
 				always = no
 			}
@@ -86,7 +86,7 @@ ideas = {
 			}
 		}
 		KKE_party_strength_Very_High = {
-			picture = goal_unknown
+			picture = cpsu_party_strength
 			allowed = {
 				always = no
 			}
@@ -100,7 +100,7 @@ ideas = {
 			}
 		}
 		Ionnia_Film_Academy = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -114,7 +114,7 @@ ideas = {
 			}
 		}
 		Balkan_Economic_Cooperation_Extremely_Low = {
-			picture = goal_unknown
+			picture = centralise_industry
 			allowed = {
 				always = no
 			}
@@ -128,7 +128,7 @@ ideas = {
 			}
 		}
 		Balkan_Economic_Cooperation_Low = {
-			picture = goal_unknown
+			picture = idea_ISR_economy_recession
 			allowed = {
 				always = no
 			}
@@ -142,7 +142,7 @@ ideas = {
 			}
 		}
 		Greek_Pioneers = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -155,7 +155,7 @@ ideas = {
 			}
 		}
 		YUG_idea_economic_aid = {
-			picture = goal_unknown
+			picture = centralise_industry
 			allowed = {
 				always = no
 			}
@@ -171,7 +171,7 @@ ideas = {
 			}
 		}
 		LEEA_Death_Squads = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -185,7 +185,7 @@ ideas = {
 			}
 		}
 		GPLA_Power_Vaccume = {
-			picture = goal_unknown
+			picture = recently_nationalized_industry
 			allowed = {
 				always = no
 			}
@@ -200,7 +200,7 @@ ideas = {
 			}
 		}
 		Fascist_Remnants_Very_High = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -213,7 +213,7 @@ ideas = {
 			}
 		}
 		Fascist_Remnants_High = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -226,7 +226,7 @@ ideas = {
 			}
 		}
 		Fascist_Remnants_Medium = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -239,7 +239,7 @@ ideas = {
 			}
 		}
 		Fascist_Remnants_Low = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -252,7 +252,7 @@ ideas = {
 			}
 		}
 		Fascist_Remnants_Very_low = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -265,7 +265,7 @@ ideas = {
 			}
 		}
 		Austrian_Stasi = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -280,7 +280,7 @@ ideas = {
 			}
 		}
 		Wiretapping = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -293,7 +293,7 @@ ideas = {
 			}
 		}
 		The_Ministry_of_Worker_wellbeing = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -307,7 +307,7 @@ ideas = {
 			}
 		}
 		Stasi_Oversight = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -320,7 +320,7 @@ ideas = {
 			}
 		}
 		Military_Effectiveness_very_low = {
-			picture = goal_unknown
+			picture = PAK_British_Army_Advisor
 			allowed = {
 				always = no
 			}
@@ -337,7 +337,7 @@ ideas = {
 			}
 		}
 		Military_Effectiveness_low = {
-			picture = goal_unknown
+			picture = PAK_British_Army_Advisor
 			allowed = {
 				always = no
 			}
@@ -354,7 +354,7 @@ ideas = {
 			}
 		}
 		Military_Effectiveness_Standard = {
-			picture = goal_unknown
+			picture = Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War
 			allowed = {
 				always = no
 			}
@@ -366,7 +366,7 @@ ideas = {
 			}
 		}
 		Military_Effectiveness_Moderate = {
-			picture = goal_unknown
+			picture = Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War
 			allowed = {
 				always = no
 			}
@@ -383,7 +383,7 @@ ideas = {
 			}
 		}
 		Military_Effectiveness_High = {
-			picture = goal_unknown
+			picture = SIA_Thailand_Army_Signal_Corps
 			allowed = {
 				always = no
 			}
@@ -400,7 +400,7 @@ ideas = {
 			}
 		}
 		Military_Effectiveness_Extremely_High = {
-			picture = goal_unknown
+			picture = Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War
 			allowed = {
 				always = no
 			}
@@ -417,7 +417,7 @@ ideas = {
 			}
 		}
 		Integrated_Stasi_Agencies = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -432,7 +432,7 @@ ideas = {
 			}
 		}
 		Military_Effectiveness_Extremely_Higher = {
-			picture = goal_unknown
+			picture = SIA_Thailand_Army_Signal_Corps
 			allowed = {
 				always = no
 			}
@@ -449,7 +449,7 @@ ideas = {
 			}
 		}
 		Austrian_Pioneers = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -462,7 +462,7 @@ ideas = {
 			}
 		}
 		High_Artistic_Standards = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -477,7 +477,7 @@ ideas = {
 			}
 		}
 		Red_Army_Power_Vaccume = {
-			picture = goal_unknown
+			picture = SIA_Thailand_Army_Signal_Corps
 			allowed = {
 				always = no
 			}
@@ -492,7 +492,7 @@ ideas = {
 			}
 		}
 		Mitteleuropaischer_Wirtschaftspakt_Extremely_Low = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -506,7 +506,7 @@ ideas = {
 			}
 		}
 		Soviet_Grain_Shipments = {
-			picture = goal_unknown
+			picture = Soviet_Army_Advisory
 			allowed = {
 				always = no
 			}
@@ -520,7 +520,7 @@ ideas = {
 			}
 		}
 		Contaminated_Countryside = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -534,7 +534,7 @@ ideas = {
 			}
 		}
 		Traditional_Artwork = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -548,7 +548,7 @@ ideas = {
 			}
 		}
 		Secularization_Campaign_Phase_1 = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -563,7 +563,7 @@ ideas = {
 			}
 		}
 		Secularization_Campaign_Phase_2 = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -578,7 +578,7 @@ ideas = {
 			}
 		}
 		Secularization_Campaign_Phase_3 = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -594,7 +594,7 @@ ideas = {
 			}
 		}
 		Secularization_Campaign_Phase_4 = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -609,7 +609,7 @@ ideas = {
 			}
 		}
 		Secularization_Campaign_Phase_5 = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -624,7 +624,7 @@ ideas = {
 			}
 		}
 		Secularization_Campaign_Phase_6 = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -639,7 +639,7 @@ ideas = {
 			}
 		}
 		Buddhist_Cult_Non_Existant = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -658,7 +658,7 @@ ideas = {
 			}
 		}
 		Buddhist_Cult_Extremely_Low = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -678,7 +678,7 @@ ideas = {
 			}
 		}
 		Buddhist_Cult_Low = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -698,7 +698,7 @@ ideas = {
 			}
 		}
 		Buddhist_Cult_Medium = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -718,7 +718,7 @@ ideas = {
 			}
 		}
 		Buddhist_Cult_Growing = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -738,7 +738,7 @@ ideas = {
 			}
 		}
 		Buddhist_Cult_Moderate = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -758,7 +758,7 @@ ideas = {
 			}
 		}
 		Buddhist_Cult_High = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -778,7 +778,7 @@ ideas = {
 			}
 		}
 		Buddhist_Cult_Extremely_High = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -798,7 +798,7 @@ ideas = {
 			}
 		}
 		Buddhist_Cult_Absolute = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -818,7 +818,7 @@ ideas = {
 			}
 		}
 		Finnish_Pioneers = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -831,7 +831,7 @@ ideas = {
 			}
 		}
 		German_Pioneers = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -844,7 +844,7 @@ ideas = {
 			}
 		}
 		Polish_Pioneers = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -857,7 +857,7 @@ ideas = {
 			}
 		}
 		Czechoslovak_Pioneers = {
-			picture = goal_unknown
+			picture = Soviet_Army_Advisory
 			allowed = {
 				always = no
 			}
@@ -870,7 +870,7 @@ ideas = {
 			}
 		}
 		Hungarian_Pioneers = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -883,7 +883,7 @@ ideas = {
 			}
 		}
 		Romanian_Pioneers = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -909,7 +909,7 @@ ideas = {
 			}
 		}
 		Albanian_Pioneers = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -935,7 +935,7 @@ ideas = {
 			}
 		}
 		Mongolian_Pioneers = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -948,7 +948,7 @@ ideas = {
 			}
 		}
 		Korean_Pioneers = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -961,7 +961,7 @@ ideas = {
 			}
 		}
 		Chinese_Pioneers = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -974,7 +974,7 @@ ideas = {
 			}
 		}
 		Vietnamese_Pioneers = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -987,7 +987,7 @@ ideas = {
 			}
 		}
 		Malaysian_Pioneers = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -1000,7 +1000,7 @@ ideas = {
 			}
 		}
 		Uyghur_Pioneers = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -1013,7 +1013,7 @@ ideas = {
 			}
 		}
 		malaria_Outbreak = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -1027,7 +1027,7 @@ ideas = {
 			}
 		}
 		rampant_trenchfoot = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -1041,7 +1041,7 @@ ideas = {
 			}
 		}
 		PDG_The_64th_Fighter_Aviation_Corps = {
-			picture = goal_unknown
+			picture = Gauchaur_Air_Base
 			allowed = {
 				always = no
 			}
@@ -1056,7 +1056,7 @@ ideas = {
 			}
 		}
 		Resistance_Level_Civil_Disobedience = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -1073,7 +1073,7 @@ ideas = {
 			}
 		}
 		Resistance_Level_Widespread_Protests = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -1090,7 +1090,7 @@ ideas = {
 			}
 		}
 		Resistance_Level_Riots_and_Looting = {
-			picture = goal_unknown
+			picture = promotion_reaction_riot_icon
 			allowed = {
 				always = no
 			}
@@ -1107,7 +1107,7 @@ ideas = {
 			}
 		}
 		Resistance_Level_Disorganized_Insurrection = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -1124,7 +1124,7 @@ ideas = {
 			}
 		}
 		Resistance_Level_Well_Organized_Insurrection = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -1141,7 +1141,7 @@ ideas = {
 			}
 		}
 		Resistance_Level_Regional_Civil_War = {
-			picture = goal_unknown
+			picture = regression_reaction_riot_icon
 			allowed = {
 				always = no
 			}
@@ -1158,7 +1158,7 @@ ideas = {
 			}
 		}
 		Turkish_Pioneers = {
-			picture = goal_unknown
+			picture = SOV_soviet_hegemony
 			allowed = {
 				always = no
 			}
@@ -1171,7 +1171,7 @@ ideas = {
 			}
 		}
 		Kurdish_Pioneers = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -1184,7 +1184,7 @@ ideas = {
 			}
 		}
 		Upward_Mobility = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -1199,7 +1199,7 @@ ideas = {
 			}
 		}
 		Kadroist_Zealotry = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -1216,7 +1216,7 @@ ideas = {
 			}
 		}
 		Kurdish_Diaspora = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -1230,7 +1230,7 @@ ideas = {
 			}
 		}
 		Developement_Process_1 = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -1248,7 +1248,7 @@ ideas = {
 			}
 		}
 		Developement_Process_2 = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -1266,7 +1266,7 @@ ideas = {
 			}
 		}
 		Developement_Process_3 = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -1284,7 +1284,7 @@ ideas = {
 			}
 		}
 		Developement_Process_4 = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -1302,7 +1302,7 @@ ideas = {
 			}
 		}
 		Developement_Process_5 = {
-			picture = goal_unknown
+			picture = Soviet_Agriculture
 			allowed = {
 				always = no
 			}
@@ -1320,7 +1320,7 @@ ideas = {
 			}
 		}
 		Developement_Process_6 = {
-			picture = goal_unknown
+			picture = recently_nationalized_industry
 			allowed = {
 				always = no
 			}
@@ -1338,7 +1338,7 @@ ideas = {
 			}
 		}
 		Developement_Process_7 = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -1356,7 +1356,7 @@ ideas = {
 			}
 		}
 		Developement_Process_8 = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -1374,7 +1374,7 @@ ideas = {
 			}
 		}
 		Tapeworm_Outbreak = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -1389,7 +1389,7 @@ ideas = {
 			}
 		}
 		hepatitis_B_Outbreak = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -1406,7 +1406,7 @@ ideas = {
 			}
 		}
 		Cholera_Outbreak = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -1546,7 +1546,7 @@ ideas = {
 			}
 		}
 		American_War_Involvement = {
-			picture = goal_unknown
+			picture = Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War
 			allowed = {
 				always = no
 			}
@@ -1560,7 +1560,7 @@ ideas = {
 			}
 		}
 		Laotian_Civil_War_Involvement = {
-			picture = goal_unknown
+			picture = regression_reaction_riot_icon
 			allowed = {
 				always = no
 			}
@@ -1574,7 +1574,7 @@ ideas = {
 			}
 		}
 		Burmese_Civil_War_Involvement = {
-			picture = goal_unknown
+			picture = regression_reaction_strike_icon
 			allowed = {
 				always = no
 			}
@@ -1588,7 +1588,7 @@ ideas = {
 			}
 		}
 		Cambodian_Civil_War_Involvement = {
-			picture = goal_unknown
+			picture = regression_reaction_strike_icon
 			allowed = {
 				always = no
 			}
@@ -1602,7 +1602,7 @@ ideas = {
 			}
 		}
 		Malaysian_Recon = {
-			picture = goal_unknown
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -1616,7 +1616,7 @@ ideas = {
 			}
 		}
 		Malaysian_Expeditionary_Force = {
-			picture = goal_unknown
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -1653,7 +1653,7 @@ ideas = {
 			}
 		}
 		Oil_Disaster = {
-			picture = goal_unknown
+			picture = slot_materiel_manufacturer
 			allowed = {
 				always = no
 			}
@@ -1670,7 +1670,7 @@ ideas = {
 			}
 		}
 		Oil_Disaster2 = {
-			picture = goal_unknown
+			picture = centralise_industry
 			allowed = {
 				always = no
 			}
@@ -1687,7 +1687,7 @@ ideas = {
 			}
 		}
 		Oil_Disaster3 = {
-			picture = goal_unknown
+			picture = slot_industrial_concern
 			allowed = {
 				always = no
 			}
@@ -1703,7 +1703,7 @@ ideas = {
 			}
 		}
 		Oil_Disaster4 = {
-			picture = goal_unknown
+			picture = slot_materiel_manufacturer
 			allowed = {
 				always = no
 			}
@@ -1719,7 +1719,7 @@ ideas = {
 			}
 		}
 		PDG_Mixed_Economy = {
-			picture = goal_unknown
+			picture = mixed_economy
 			allowed = {
 				always = no
 			}
@@ -1733,7 +1733,7 @@ ideas = {
 			}
 		}
 		Heavy_Metal_Poisoning = {
-			picture = goal_unknown
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}

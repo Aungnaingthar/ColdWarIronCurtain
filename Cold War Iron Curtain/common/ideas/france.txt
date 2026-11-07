@@ -660,7 +660,7 @@ ideas = {
 				always = no
 			}
 			removal_cost = -1
-			picture = generic_
+			picture = recently_nationalized_industry
 			modifier = {
 				production_speed_state_infrastructure_factor = 0.1
 				production_speed_infrastructure_factor = 0.1

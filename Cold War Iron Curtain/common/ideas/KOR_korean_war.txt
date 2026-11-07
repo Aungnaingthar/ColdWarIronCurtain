@@ -13,7 +13,7 @@ ideas = {
 			}
 		}
 		KOR_delaying_action = {
-			picture = generic_
+			picture = PAK_British_Army_Advisor
 			allowed = {
 				always = no
 			}
@@ -24,7 +24,7 @@ ideas = {
 			}
 		}
 		KOR_defensive_posture = {
-			picture = generic_
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -35,7 +35,7 @@ ideas = {
 			}
 		}
 		KOR_to_the_amnok_river = {
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -47,7 +47,7 @@ ideas = {
 			}
 		}
 		KOR_hill_warfare = {
-			picture = generic_
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}

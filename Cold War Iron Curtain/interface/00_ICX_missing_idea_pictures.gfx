@@ -1,0 +1,833 @@
+# Iron Curtain Expanded: national spirit pictures that spirits use but no file defined.
+# Each points at an existing Iron Curtain spirit picture on the same topic. Sorted first so a real
+# definition (base game or a later Iron Curtain update) loads after it.
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_Aerospatiale"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Armscor"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Bong_Dao_Bo_Shipyards"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Bulgarian_Pioneers"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_KMT_Shanghai_Reforms_Nationwide"
+		texturefile = "gfx/interface/ideas/peoples_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_Sugar_industry"
+		texturefile = "gfx/interface/policyicons/promotion_reaction_riot_icon_large.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DAP_Helicopteros"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DEI_more_solid_foodsystem"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DEI_solid_foodsystem"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Djakovic"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EGY_farouks_regency"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EGY_technical_advisors"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FN_Herstal"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_First_Machine_Industry_Bureau"
+		texturefile = "gfx/interface/ideas/KharkivMorozovMachineBuildingDesignBureau.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_BRU_British_Oil_Pressure"
+		texturefile = "gfx/interface/ideas/centralized_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_BRU_Combat_Malaria_idea"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_BRU_Development_Plan_idea"
+		texturefile = "gfx/interface/ideas/ALB/Companies/ALB_Radio_Tirana.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_BRU_Discontent"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_BRU_Foreign_Students"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_BRU_Maura_Deepwater_Port"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_BRU_New_Oil_Deal"
+		texturefile = "gfx/interface/ideas/recently_nationalized_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_BRU_Rebuilding"
+		texturefile = "gfx/interface/ideas/PAK/MIO/PAK_British_Army_Advisor.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_BRU_Seria_Gas_Pipeline"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_BRU_Shell_Company"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_BRU_White_Rajah_Dynasty"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_NBO_Jungle_Warfare"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_NBO_Sarawak_Petroleum"
+		texturefile = "gfx/interface/ideas/NBO/MIO/NBO_Sarawak_Petroleum.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_NBO_Sarawakian_Advisors"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_NBO_Standard_Oil"
+		texturefile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_american_warboats"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_bank_e_melli"
+		texturefile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_brand_new_tvs"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_cia_savak_cooperation_i"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_fighting_spirit"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_immortal_gaurds"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_increased_oil_production"
+		texturefile = "gfx/interface/idea_slot_industrial_concern.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_iranian_arj_company"
+		texturefile = "gfx/interface/ideas/Iranian_oil_company.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_khomeinis_shadow"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_martial_law"
+		texturefile = "gfx/interface/goals/left_wing_state_police.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_nuclear_energy_rush"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_oil_producer"
+		texturefile = "gfx/interface/idea_slot_industrial_concern.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_persian_economy"
+		texturefile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_persian_wraith"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_retake_whats_ours_i"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_shah_imprisioned"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_thirst_for_vengence"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_weak_imperial_senate"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_PER_weak_opec"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_RWA_king_kigeli_V"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_RWA_king_mutara_III"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_american_adviSOMs"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_generic_communism_drift_bonus"
+		texturefile = "gfx/interface/ideas/PAK/MIO/PAK_British_Army_Advisor.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_idea_Hospital"
+		texturefile = "gfx/interface/ideas/idea_ISR_economy_recession.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_idea_eurasian_revolutionary_line"
+		texturefile = "gfx/interface/ideas/socialist_utopia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_idea_one_class_one_will_one_future"
+		texturefile = "gfx/interface/ideas/peoples_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_idea_roit_police_idea"
+		texturefile = "gfx/interface/ideas/KGB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_idea_the_political_soldier"
+		texturefile = "gfx/interface/ideas/Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_idea_volksgemeinschaft_des_sozialismus"
+		texturefile = "gfx/interface/ideas/SIA/companies/SIA_Thailand_Army_Signal_Corps.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_idea_volksmacht_uber_parteimacht"
+		texturefile = "gfx/interface/ideas/ALB/Companies/Soviet_Army_Advisory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_army"
+		texturefile = "gfx/interface/ideas/LIB/MIO/LIB_Ministry_of_National_Defense.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_laos_stratos"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_law_511"
+		texturefile = "gfx/interface/goals/left_wing_state_police.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_paul"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_war_devastation"
+		texturefile = "gfx/interface/policyicons/promotion_reaction_riot_icon_large.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_General_Dynamics_Aircraft"
+		texturefile = "gfx/interface/ideas/NEP/Gauchaur_Air_Base.png"
+	}
+	spriteType = {
+		name = "GFX_idea_HOL_banned_unions"
+		texturefile = "gfx/interface/policyicons/regression_reaction_strike_icon_large.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HOL_booming_economy"
+		texturefile = "gfx/interface/ideas/idea_ISR_economy_recession.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HOL_defense_spending_spree"
+		texturefile = "gfx/interface/ideas/SIA/companies/SIA_Thailand_Army_Signal_Corps.png"
+	}
+	spriteType = {
+		name = "GFX_idea_HOL_mass_collectivisation"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HOL_welfare_state"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Hospital"
+		texturefile = "gfx/interface/ideas/ALB/Companies/Soviet_Army_Advisory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Hospital_research"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_IRE_catholic"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_IRE_heavy_industry"
+		texturefile = "gfx/interface/idea_slot_industrial_concern.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_republic2"
+		texturefile = "gfx/interface/ideas/idea_ISR_economy_recession.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Idea_Soviet_Zaibatsu"
+		texturefile = "gfx/interface/ideas/Idea_Soviet_Zaibatsu.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Inner_Monglia_First_Machine_Bureau"
+		texturefile = "gfx/interface/ideas/KharkivMorozovMachineBuildingDesignBureau.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_KEA"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KTG_Gold_Trade"
+		texturefile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_LBA_Senussi_Order"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_LEC_high_reserves"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_LIB_bailout_usa"
+		texturefile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_LIT_crown_3"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MAL_Strategic_Hamlet_Program"
+		texturefile = "gfx/interface/ideas/ALB/Companies/Soviet_Army_Advisory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MON_conscript_conquered"
+		texturefile = "gfx/interface/ideas/SIA/companies/SIA_Thailand_Army_Signal_Corps.png"
+	}
+	spriteType = {
+		name = "GFX_idea_NOR_syndicalist_industry_idea"
+		texturefile = "gfx/interface/ideas/recently_nationalized_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Nokia"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Norinco"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PAR_colorado_investigation"
+		texturefile = "gfx/interface/ideas/centralized_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PAR_constitutional_promise"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PAR_state_interventionism"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Communist_Party_of_China_Vanguardist_Strengh"
+		texturefile = "gfx/interface/ideas/idea_SOV_soviet_hegemony.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Conflict_Between_Gao_Gang_and_Wang_Ming"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Gao_Gang_Dongbei_Peoples_Government_Planning"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Intellectual_Research_Institutes_for_Xie_Wenhuan"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Kang_Sheng_Counter_revolutionary_Campaign"
+		texturefile = "gfx/interface/ideas/socialist_utopia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Mao_Zedong_Influence_Heavy"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Mao_Zedong_Influence_Increased"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Mao_Zedong_Influence_Medium"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Mao_Zedong_Influence_Predominant"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Mao_Zedong_Influence_Small"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Retreat_to_Dongbei"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Sun_Yat_Sen_Moscow_University_Doctrine"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_SOV_50s_Zhongyang_Jihua_weiyuanhui"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_administration_integration_1"
+		texturefile = "gfx/interface/ideas/administration_integration_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Panghyon_Aircraft_Manufactury"
+		texturefile = "gfx/interface/ideas/SIA/MIO/SIA_Air_Force_Aeronautical_Workshops.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_general_school"
+		texturefile = "gfx/interface/ideas/Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_land_reforms"
+		texturefile = "gfx/interface/ideas/sovagriculture.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Ryo_Kyong_su_Tank_Factory"
+		texturefile = "gfx/interface/ideas/centralized_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_Isan_famine"
+		texturefile = "gfx/interface/policyicons/regression_reaction_strike_icon_large.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_Luang_Phibunsongkram"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_Phaos_Scheme_idea"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_Phibuns_Gamble_idea"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_Rama_IX"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_Sarit_Supremacy_idea"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_economic_modernization"
+		texturefile = "gfx/interface/ideas/idea_ISR_economy_recession.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_neutrality_idea"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SMI_Widespread_Slavery"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SZC_opium_monopoly"
+		texturefile = "gfx/interface/ideas/centralized_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SZC_opium_spread"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Sarawak_Steamship_Company"
+		texturefile = "gfx/interface/ideas/SWK/MIO/SWK_Sarawak_Steamship_Company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Sky_West_Helicoptors"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TEX_protect_pioneer_women"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TIB_50s_14th_Dalai_Lama"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UK_military_loyal_idea"
+		texturefile = "gfx/interface/ideas/Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_technical_advisors"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Utva"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VIN_Liberation_War"
+		texturefile = "gfx/interface/ideas/huk/mio/HUK_Peoples_Liberation_Army_Arsenal_Bonifacio.png"
+	}
+	spriteType = {
+		name = "GFX_idea_YitzhakBenZvi"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Yugoslav_Pioneers"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_agency_logo_gre_idea"
+		texturefile = "gfx/interface/ideas/KGB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_army_cooperation"
+		texturefile = "gfx/interface/ideas/Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_black_nationalist"
+		texturefile = "gfx/interface/ideas/ALB/Companies/ALB_Radio_Tirana.png"
+	}
+	spriteType = {
+		name = "GFX_idea_brittish_stoicism"
+		texturefile = "gfx/interface/ideas/ALB/Companies/ALB_Radio_Tirana.png"
+	}
+	spriteType = {
+		name = "GFX_idea_centralized_banks"
+		texturefile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_centralized_industry"
+		texturefile = "gfx/interface/ideas/centralized_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_child_soldiers"
+		texturefile = "gfx/interface/ideas/PAK/MIO/PAK_British_Army_Advisor.png"
+	}
+	spriteType = {
+		name = "GFX_idea_city_growth"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_city_propaganda"
+		texturefile = "gfx/interface/ideas/ALB/Companies/ALB_Radio_Tirana.png"
+	}
+	spriteType = {
+		name = "GFX_idea_commonwealth"
+		texturefile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism_purge"
+		texturefile = "gfx/interface/goals/left_wing_state_police.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_constitutional_promise"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_coopers_motors_limited"
+		texturefile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_death_men"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_decrease_spending"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_desert_officers_2"
+		texturefile = "gfx/interface/ideas/Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_education_increase"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_educational_spending"
+		texturefile = "gfx/interface/ideas/ALB/Companies/Soviet_Army_Advisory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_einstein"
+		texturefile = "gfx/interface/ideas/usa/einstein.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_encourage_population_growth"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_four_guns"
+		texturefile = "gfx/interface/ideas/SIA/companies/SIA_Thailand_Army_Signal_Corps.png"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_coins"
+		texturefile = "gfx/interface/ideas/centralized_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_comecon"
+		texturefile = "gfx/interface/ideas/socialist_utopia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_crown"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_defence_bonus"
+		texturefile = "gfx/interface/ideas/PAK/MIO/PAK_British_Army_Advisor.png"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_destruction"
+		texturefile = "gfx/interface/policyicons/promotion_reaction_riot_icon_large.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_economic_crisis"
+		texturefile = "gfx/interface/policyicons/regression_reaction_strike_icon_large.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_free_trade"
+		texturefile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_loans"
+		texturefile = "gfx/interface/ideas/centralized_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_officer"
+		texturefile = "gfx/interface/ideas/KGB.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_plane"
+		texturefile = "gfx/interface/ideas/NEP/Gauchaur_Air_Base.png"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_research_increase"
+		texturefile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_research_reduction"
+		texturefile = "gfx/interface/ideas/idea_badhealthcare.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_scales"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_syndicalist_worker"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_trade"
+		texturefile = "gfx/interface/ideas/vie/companies/Ministry_NatEcon_Trade_Industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_trade_bonus"
+		texturefile = "gfx/interface/ideas/socialist_utopia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_government"
+		texturefile = "gfx/interface/ideas/peoples_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_gulag_expanded"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_guns_shield"
+		texturefile = "gfx/interface/ideas/guns_shield.png"
+	}
+	spriteType = {
+		name = "GFX_idea_home_of_the_revolution"
+		texturefile = "gfx/interface/ideas/Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_Francisco_Bolognesi"
+		texturefile = "gfx/interface/ideas/idea_Francisco_Bolognesi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_SAU_production_eff"
+		texturefile = "gfx/interface/idea_slot_industrial_concern.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_generic_constitutional_guarantee"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_generic_foreign_capital"
+		texturefile = "gfx/interface/idea_slot_materiel_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_generic_free_trade"
+		texturefile = "gfx/interface/factions/Leader_of_the_Free_World.png"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_stalingrad_tractor_factory"
+		texturefile = "gfx/interface/ideas/centralized_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_increase_spending"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jap_occupation"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_laogai_3"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nationalized_energy"
+		texturefile = "gfx/interface/ideas/Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nationalized_resources"
+		texturefile = "gfx/interface/ideas/Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nationalized_steel"
+		texturefile = "gfx/interface/ideas/recently_nationalized_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_omar_mukhtar"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_one_party_state"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_pacifism"
+		texturefile = "gfx/interface/ideas/Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pan_arabism_drift_bonus"
+		texturefile = "gfx/interface/ideas/PAK/MIO/PAK_British_Army_Advisor.png"
+	}
+	spriteType = {
+		name = "GFX_idea_partizan"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_pioneers"
+		texturefile = "gfx/interface/ideas/ALB/Companies/Soviet_Army_Advisory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_protesters_shot_icon"
+		texturefile = "gfx/interface/ideas/peoples_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_reduced_mil_spending"
+		texturefile = "gfx/interface/ideas/SIA/companies/SIA_Thailand_Army_Signal_Corps.png"
+	}
+	spriteType = {
+		name = "GFX_idea_roc_advisors"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_roit_police_idea"
+		texturefile = "gfx/interface/goals/left_wing_state_police.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_secularism"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_soap"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_soviet_development"
+		texturefile = "gfx/interface/ideas/idea_SOV_soviet_hegemony.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_soviet_loans"
+		texturefile = "gfx/interface/ideas/socialist_utopia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_student_protest"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_offices"
+		texturefile = "gfx/interface/ideas/centralized_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_umberto_ii"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_urban_economies"
+		texturefile = "gfx/interface/ideas/centralized_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_urban_planning"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_usa_support"
+		texturefile = "gfx/interface/ideas/Antiquated_Health_System.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_warlords"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_weapons_banned"
+		texturefile = "gfx/interface/ideas/Kemalist_Nigeria_national_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_woman"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_yya"
+		texturefile = "gfx/interface/factions/Central_Government_of_the_Republic_of_Indonesia.png"
+	}
+}

@@ -7,7 +7,7 @@ ideas = {
 			}
 		}
 		KOR_national_security_act = {
-			picture = generic_
+			picture = left_wing_state_police
 			allowed = {
 				always = no
 			}
@@ -38,7 +38,7 @@ ideas = {
 			}
 		}
 		KOR_national_defense_student_corps = {
-			picture = generic_
+			picture = PAK_British_Army_Advisor
 			allowed = {
 				always = no
 			}
@@ -51,7 +51,7 @@ ideas = {
 			}
 		}
 		KOR_withdrawal_of_the_US_Army = {
-			picture = generic_
+			picture = Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War
 			allowed = {
 				always = no
 			}
@@ -65,7 +65,7 @@ ideas = {
 			}
 		}	
 		KOR_korea_us_mutual_defence_treaty = {
-			picture = generic_
+			picture = Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War
 			allowed = {
 				always = no
 			}
@@ -76,7 +76,7 @@ ideas = {
 			}
 		}
 		KOR_additional_aid_for_civilians_from_rok = {
-			picture = generic_
+			picture = slot_materiel_manufacturer
 			allowed = {
 				always = no
 			}
@@ -87,7 +87,7 @@ ideas = {
 			}
 		}
 		KOR_liaison_office = {
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -99,7 +99,7 @@ ideas = {
 			}
 		}
 		KOR_joint_advisory_commission_korea = {
-			picture = generic_
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -115,7 +115,7 @@ ideas = {
 			}
 		}
 		KOR_reformed_currency = {
-			picture = generic_
+			picture = slot_materiel_manufacturer
 			allowed = {
 				always = no
 			}
@@ -126,7 +126,7 @@ ideas = {
 			}
 		}
 		KOR_korean_stock_market = {
-			picture = generic_
+			picture = centralise_industry
 			allowed = {
 				always = no
 			}
@@ -139,7 +139,7 @@ ideas = {
 			}
 		}
 		KOR_enlarged_police_force = {
-			picture = generic_
+			picture = soviet_repression
 			allowed = {
 				always = no
 			}
@@ -152,7 +152,7 @@ ideas = {
 			}
 		}
 		KOR_postwar_reconstruction = {
-			picture = generic_
+			picture = Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War
 			allowed = {
 				always = no
 			}
@@ -163,7 +163,7 @@ ideas = {
 			}
 		}
 		KOR_rapid_postwar_reconstruction = {
-			picture = generic_
+			picture = SIA_Thailand_Army_Signal_Corps
 			allowed = {
 				always = no
 			}
@@ -174,7 +174,7 @@ ideas = {
 			}
 		}
 		KOR_the_king_or_a_president = {
-			picture = generic_
+			picture = Antiquated_Health_System
 			allowed = {
 				always = no
 			}
@@ -186,7 +186,7 @@ ideas = {
 			}
 		}
 		KOR_egalitarian_values = {
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -197,7 +197,7 @@ ideas = {
 			}
 		}
 		KOR_tax_raises = {
-			picture = generic_
+			picture = slot_materiel_manufacturer
 			allowed = {
 				always = no
 			}
@@ -211,7 +211,7 @@ ideas = {
 			}
 		}
 		KOR_agricultural_subsidies = {
-			picture = generic_
+			picture = Soviet_Agriculture
 			allowed = {
 				always = no
 			}
@@ -224,7 +224,7 @@ ideas = {
 			}
 		}
 		KOR_healthcare_programs = {
-			picture = generic_
+			picture = bad_healthcare
 			allowed = {
 				always = no
 			}
@@ -237,7 +237,7 @@ ideas = {
 			}
 		}
 		KOR_anticommunist_sentiment = {
-			picture = generic_
+			picture = Soviet_Army_Advisory
 			allowed = {
 				always = no
 			}
@@ -250,7 +250,7 @@ ideas = {
 			}
 		}
 		KOR_kim_koo_thought = {
-			picture = generic_
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}
@@ -264,7 +264,7 @@ ideas = {
 			}
 		}
 		KOR_governmentled_economic_planning = {
-			picture = generic_
+			picture = slot_materiel_manufacturer
 			allowed = {
 				always = no
 			}
@@ -275,7 +275,7 @@ ideas = {
 			}
 		}
 		KOR_half_stateintervention_capitalism = {
-			picture = generic_
+			picture = slot_materiel_manufacturer
 			allowed = {
 				always = no
 			}
@@ -287,7 +287,7 @@ ideas = {
 			}
 		}
 		KOR_returned_judges = {
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -300,7 +300,7 @@ ideas = {
 			}
 		}
 		KOR_ilminism = {
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			allowed = {
 				always = no
 			}
@@ -313,7 +313,7 @@ ideas = {
 			}
 		}
 		KOR_total_loyalty = {
-			picture = generic_
+			picture = kemalist_nigeria
 			allowed = {
 				always = no
 			}

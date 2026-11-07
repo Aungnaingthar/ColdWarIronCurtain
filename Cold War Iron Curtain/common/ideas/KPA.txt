@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		KPA_diplomatic_protection_from_the_second_world = {
-			picture = generic_		
+			picture = Antiquated_Health_System		
 			allowed = {
 				always = no
 			}

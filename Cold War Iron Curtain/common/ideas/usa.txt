@@ -520,7 +520,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 
 			equipment_bonus = {
 				light_tank_chassis = {
@@ -535,7 +535,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 
 			equipment_bonus = {
 				medium_tank_destroyer_chassis = {
@@ -550,7 +550,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Antiquated_Health_System
 
 			equipment_bonus = {
 				infantry_equipment = {
@@ -565,7 +565,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 
 			equipment_bonus = {
 				medium_tank_chassis = {
@@ -580,7 +580,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Galati_Naval_Constanta
 
 			equipment_bonus = {
 				screen_hull_medium = {
@@ -599,7 +599,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = slot_naval_manufacturer
 
 			equipment_bonus = {
 				cv_fighter_equipment = {
@@ -614,7 +614,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = kemalist_nigeria
 
 			equipment_bonus = {
 				cv_fighter_equipment = {
@@ -629,7 +629,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 
 			equipment_bonus = {
 				utility_helicopter_equipment = {
@@ -644,7 +644,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Indian_Air_Force_Advisor
 
 			modifier = {
 				max_command_power = 150
@@ -657,7 +657,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = kemalist_nigeria
 
 			equipment_bonus = {
 				fighter_equipment = {
@@ -672,7 +672,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Antiquated_Health_System
 
 			equipment_bonus = {
 				utility_helicopter_equipment = {
@@ -691,7 +691,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 
 			equipment_bonus = {
 				attack_helicopter_equipment = {
@@ -706,7 +706,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = kemalist_nigeria
 
 			modifier = {
 				production_speed_buildings_factor = 0.2
@@ -719,7 +719,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = bad_healthcare
 
 			modifier = {
 				research_speed_factor = 0.05
@@ -731,7 +731,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 
 			modifier = {
 				industrial_capacity_factory = 0.2
@@ -745,7 +745,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = centralise_industry
 
 			modifier = {
 				industrial_capacity_factory = -0.25
@@ -758,7 +758,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 
 			modifier = {
 				production_speed_buildings_factor = -0.25
@@ -771,7 +771,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = SIA_Thailand_Army_Signal_Corps
 
 			modifier = {
 				experience_gain_army_factor = 0.05
@@ -788,7 +788,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = slot_naval_manufacturer_alt
 
 			modifier = {
 				experience_gain_navy_unit_factor = 0.3
@@ -806,7 +806,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Central_Government_of_the_Republic_of_Indonesia
 
 			modifier = {
 				air_accidents_factor = -0.5
@@ -821,7 +821,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = Antiquated_Health_System
 
 			modifier = {
 				army_artillery_attack_factor = 0.15
@@ -834,7 +834,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_
+			picture = slot_naval_manufacturer
 
 			modifier = {
 				supply_node_range = 0.1

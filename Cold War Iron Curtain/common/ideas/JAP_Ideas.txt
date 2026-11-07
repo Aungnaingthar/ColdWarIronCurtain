@@ -1970,7 +1970,7 @@ ideas = {
 		}
 
 		JAP_round_clock_production_idea = {
-			picture = WIP
+			picture = slot_industrial_concern
 			modifier = {
 				stability_factor = -0.03
 				industrial_capacity_factory = 0.15
@@ -1979,7 +1979,7 @@ ideas = {
 		}
 
 		JAP_japans_defense_industry_idea = {
-			picture = WIP
+			picture = Home_of_The_Revolution_and_Victors_of_The_Great_Patriotic_War
 			modifier = {
 				production_speed_arms_factory_factor = 0.15
 				production_speed_dockyard_factor = 0.15
@@ -1987,7 +1987,7 @@ ideas = {
 		}
 
 		JAP_reinvesting_special_procurement_boom_idea1 = {
-			picture = WIP
+			picture = PAK_British_Army_Advisor
 			modifier = {
 				research_speed_factor = 0.1
 			}
@@ -1995,7 +1995,7 @@ ideas = {
 
 		JAP_reinvesting_special_procurement_boom_idea2 = {
 			name = JAP_reinvesting_special_procurement_boom_idea1
-			picture = WIP
+			picture = Antiquated_Health_System
 			modifier = {
 				research_speed_factor = 0.1
 				production_speed_industrial_complex_factor = 0.15
@@ -2004,7 +2004,7 @@ ideas = {
 
 		JAP_reinvesting_special_procurement_boom_idea3 = {
 			name = JAP_reinvesting_special_procurement_boom_idea1
-			picture = WIP
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			modifier = {
 				research_speed_factor = 0.1
 				production_speed_industrial_complex_factor = 0.15
@@ -2013,14 +2013,14 @@ ideas = {
 		}
 
 		JAP_reinvesting_special_procurement_boom2_idea1 = {
-			picture = WIP
+			picture = soviet_repression
 			modifier = {
 				stability_factor = 0.05
 			}
 		}
 
 		JAP_reinvesting_special_procurement_boom2_idea2 = {
-			picture = WIP
+			picture = kemalist_nigeria
 			name = JAP_reinvesting_special_procurement_boom2_idea1
 			modifier = {
 				stability_factor = 0.05
@@ -2030,7 +2030,7 @@ ideas = {
 
 		JAP_reinvesting_special_procurement_boom2_idea3 = {
 			name = JAP_reinvesting_special_procurement_boom2_idea1
-			picture = WIP
+			picture = Antiquated_Health_System
 			modifier = {
 				stability_factor = 0.05
 				MONTHLY_POPULATION = 0.10
@@ -2039,7 +2039,7 @@ ideas = {
 		}
 
 		JAP_asian_technical_cooperation_program_idea = {
-			picture = WIP
+			picture = Central_Government_of_the_Republic_of_Indonesia
 			modifier = {
 				consumer_goods_factor = 0.03
 				trade_opinion_factor = 0.15
@@ -2048,7 +2048,7 @@ ideas = {
 		}
 
 		JAP_technical_assistance_idea = {
-			picture = WIP
+			picture = centralise_industry
 			modifier = {
 				research_speed_factor = 0.03
 				production_speed_buildings_factor = 0.05
