@@ -2009,4 +2009,8 @@ focus_tree = {
 			custom_effect_tooltip = gulag_factor_decrease_TT
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_ADR_50s_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_ADR_50s_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

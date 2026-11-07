@@ -1089,4 +1089,8 @@ focus_tree = {
 		}
 		prerequisite = { focus = ALB_a_new_constitution }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_1950s_Albania_Anti_Communist_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_1950s_Albania_Anti_Communist_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

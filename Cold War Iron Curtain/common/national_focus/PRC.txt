@@ -28,4 +28,8 @@ focus_tree = {
 
     
     #1960.2.1-1966.8.8
+	# >>> ICX dev >>>
+	shared_focus = ICX_PRC_National_Focus_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_PRC_National_Focus_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

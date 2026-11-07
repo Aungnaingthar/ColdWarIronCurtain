@@ -430,4 +430,8 @@ focus_tree = {
 			set_country_flag = Poll_Tax_and_Literacy_Ban_vote
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_Stassen_1956_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_Stassen_1956_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

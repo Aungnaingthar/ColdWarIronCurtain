@@ -1174,4 +1174,8 @@ focus_tree = {
 			navy_experience = 25
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_70s_FIN_E70_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_70s_FIN_E70_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

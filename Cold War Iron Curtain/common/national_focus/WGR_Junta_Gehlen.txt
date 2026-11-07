@@ -3486,4 +3486,8 @@ focus_tree = {
 			clr_country_flag = WGR_Gehlen_Junta_Almost_Done
         }
     }
+	# >>> ICX dev >>>
+	shared_focus = ICX_WGR_Junta_Gehlen_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_WGR_Junta_Gehlen_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

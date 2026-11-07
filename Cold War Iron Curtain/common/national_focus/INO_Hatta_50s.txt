@@ -741,4 +741,8 @@ focus_tree = {
 			add_ideas = INO_Diplomacy_the_Cure_of_Dishonesty
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_INO_Hatta_50s_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_INO_Hatta_50s_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

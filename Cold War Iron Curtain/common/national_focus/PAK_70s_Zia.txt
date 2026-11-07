@@ -396,4 +396,8 @@ focus_tree = {
 }
 
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_PAK_70s_Zia_E70_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_PAK_70s_Zia_E70_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

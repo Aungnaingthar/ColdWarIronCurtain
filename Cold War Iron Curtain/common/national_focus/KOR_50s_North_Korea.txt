@@ -184,4 +184,8 @@ focus_tree = {
 		relative_position_id = KOR_50s_presidents_regionwide_tour_in_the_north
 		prerequisite = { focus = KOR_50s_presidents_regionwide_tour_in_the_north }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_KOR_50s_North_Korea_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_KOR_50s_North_Korea_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

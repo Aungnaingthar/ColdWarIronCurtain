@@ -3140,4 +3140,8 @@ increase_Military_Unease = yes
 
 	}
 
+	# >>> ICX dev >>>
+	shared_focus = ICX_50s_TUR_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_50s_TUR_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

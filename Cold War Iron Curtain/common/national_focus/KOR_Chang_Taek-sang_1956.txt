@@ -253,4 +253,8 @@ focus_tree = {
 		relative_position_id = KOR_CHANGTAEKSANG56_mass_privatization_act
 		prerequisite = { focus = KOR_CHANGTAEKSANG56_mass_privatization_act }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_KOR_Chang_Taeksang_1956_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_KOR_Chang_Taeksang_1956_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

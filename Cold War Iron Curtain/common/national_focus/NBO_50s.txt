@@ -1263,4 +1263,8 @@ focus_tree = {
             focus = NBO_50s_Emulate_UMNO_Polciies
         }
     }
+	# >>> ICX dev >>>
+	shared_focus = ICX_NBO_50s_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_NBO_50s_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

@@ -426,4 +426,8 @@ focus_tree = {
 			set_country_flag = Consumer_Product_Safety_Act_Vote
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_RFK_1968_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_RFK_1968_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

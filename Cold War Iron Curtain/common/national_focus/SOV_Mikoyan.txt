@@ -615,4 +615,8 @@ focus_tree = {
 		prerequisite = { focus = SOV_Mikoyan_national_youth_congress_of_soviet_peoples }
 	}
 
+	# >>> ICX dev >>>
+	shared_focus = ICX_SOV_Mikoyan_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_SOV_Mikoyan_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

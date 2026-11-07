@@ -2401,4 +2401,8 @@ focus_tree = {
 			country_event = Bengal_Question.1
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_50s_PAK_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_50s_PAK_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

@@ -1961,4 +1961,8 @@ focus_tree = {
 			set_variable = { THIS.idea_date_@token:capitalism = global.num_days }
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_BAH_1950s_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_BAH_1950s_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

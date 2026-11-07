@@ -685,4 +685,8 @@ focus_tree = {
 		prerequisite = { focus = KHR_Ext_protect_the_volga_from_industrial_waste }
 	}
 
+	# >>> ICX dev >>>
+	shared_focus = ICX_SOV_Khruschev_Extended_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_SOV_Khruschev_Extended_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

@@ -2209,4 +2209,8 @@ focus_tree = {
 			focus = LBA_Import_British_Weaponry
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_50s_LBA_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_50s_LBA_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

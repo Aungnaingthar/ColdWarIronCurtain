@@ -346,4 +346,8 @@ focus_tree = {
 		relative_position_id = KOR_KIMKOO52_revitalize_the_korean_traditional_culture
 		prerequisite = { focus = KOR_KIMKOO52_revitalize_the_korean_traditional_culture }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_KOR_Kim_Koo_1952_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_KOR_Kim_Koo_1952_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

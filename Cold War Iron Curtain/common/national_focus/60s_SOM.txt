@@ -4183,4 +4183,8 @@ focus_tree = {
 			add_ideas = embrace_free_trade
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_SOM_1960s_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_SOM_1960s_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

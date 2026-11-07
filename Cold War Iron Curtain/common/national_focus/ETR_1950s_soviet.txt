@@ -2638,4 +2638,8 @@ focus_tree = {
 			set_variable = { THIS.idea_date_@token:revolutionary_fervor = global.num_days }
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_ETR_1950s_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_ETR_1950s_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

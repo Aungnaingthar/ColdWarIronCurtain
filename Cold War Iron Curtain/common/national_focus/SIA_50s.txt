@@ -6866,4 +6866,8 @@ focus_tree = {
 
 		ai_will_do = { factor = 1 }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_SIA_1950s_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_SIA_1950s_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

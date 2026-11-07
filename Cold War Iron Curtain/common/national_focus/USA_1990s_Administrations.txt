@@ -135,6 +135,10 @@ focus_tree = {
 		y = 9
 		completion_reward = { add_ideas = USA90_digital_economy add_to_variable = { USA_90S_PUBLIC_MANDATE = 8 } USA90_clamp_variables = yes USA90_update_state_ideas = yes }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_1992_DEMOCRATIC_E90_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_1992_DEMOCRATIC_E90_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }
 
 focus_tree = {
@@ -274,6 +278,10 @@ focus_tree = {
 		y = 9
 		completion_reward = { add_to_variable = { USA_90S_PUBLIC_MANDATE = 8 } add_political_power = 100 USA90_clamp_variables = yes USA90_update_state_ideas = yes }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_1992_REPUBLICAN_E90_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_1992_REPUBLICAN_E90_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }
 
 focus_tree = {
@@ -415,6 +423,10 @@ focus_tree = {
 		y = 9
 		completion_reward = { add_political_power = 125 set_country_flag = USA90_2000_transition_prepared }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_1996_DEMOCRATIC_E90_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_1996_DEMOCRATIC_E90_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }
 
 focus_tree = {
@@ -525,4 +537,8 @@ focus_tree = {
 		y = 9
 		completion_reward = { add_political_power = 125 set_country_flag = USA90_2000_transition_prepared }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_1996_REPUBLICAN_E90_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_1996_REPUBLICAN_E90_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

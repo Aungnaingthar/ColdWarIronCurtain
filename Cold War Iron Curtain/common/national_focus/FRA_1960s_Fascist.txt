@@ -632,4 +632,8 @@ focus_tree = {
 			}
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_FRA_1960s_Fascist_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_FRA_1960s_Fascist_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

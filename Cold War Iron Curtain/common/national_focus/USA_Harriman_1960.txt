@@ -377,4 +377,8 @@ focus_tree = {
 			remove_ideas = US_Steel_Price_Hike
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_Harriman_1960_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_Harriman_1960_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

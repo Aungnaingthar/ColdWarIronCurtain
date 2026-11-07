@@ -319,4 +319,8 @@ focus_tree = {
 			country_event = French_Hinh.3
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_VIE_50s_French_Hinh_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_VIE_50s_French_Hinh_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

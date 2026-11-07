@@ -3818,4 +3818,8 @@ focus_tree = {
 		relative_position_id = YUG_heavily_subsidise_public_institutions
 
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_YUG_70s_E70_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_YUG_70s_E70_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

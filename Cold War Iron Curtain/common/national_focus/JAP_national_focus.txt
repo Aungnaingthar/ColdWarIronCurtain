@@ -4941,4 +4941,8 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_Send_Letters_Chou_Enlai
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_Japan_historical_focus_tree_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_Japan_historical_focus_tree_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

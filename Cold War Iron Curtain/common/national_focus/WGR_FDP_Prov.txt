@@ -736,6 +736,10 @@ focus_tree = {
             custom_effect_tooltip = WGR_Please_Allies_tt
         }
     }
+	# >>> ICX dev >>>
+	shared_focus = ICX_WGR_FDP_Prov_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_WGR_FDP_Prov_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }
 
 #focus = {

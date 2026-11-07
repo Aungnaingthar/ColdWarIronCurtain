@@ -319,4 +319,8 @@ focus_tree = {
 		relative_position_id = KOR_CHOUGHPYUNGOK56_lobby_for_international_recognition
 		prerequisite = { focus = KOR_CHOUGHPYUNGOK56_lobby_for_international_recognition }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_KOR_Chough_Pyungok_1956_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_KOR_Chough_Pyungok_1956_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

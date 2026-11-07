@@ -423,4 +423,8 @@ focus_tree = {
 			set_variable = { THIS.idea_date_@token:minimum_wages_2 = global.num_days }
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_Warren_1956_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_Warren_1956_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

@@ -3706,6 +3706,10 @@ completion_reward = {
 	add_ideas = General_Amnesty_Declared
 			}
 }
+	# >>> ICX dev >>>
+	shared_focus = ICX_DOM_60s_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_DOM_60s_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }
 
 

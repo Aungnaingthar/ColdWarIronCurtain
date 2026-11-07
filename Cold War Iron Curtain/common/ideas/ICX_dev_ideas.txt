@@ -1,0 +1,68 @@
+# Era economy branches (ICX): timed national spirits
+ideas = {
+	country = {
+		ICX_dev_E50_plan = {
+			picture = CHI_Economic_Plans
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		ICX_dev_E60_plan = {
+			picture = economic_recovery_effort
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		ICX_dev_E70_plan = {
+			picture = economic_affairs_commission
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.08
+				consumer_goods_factor = -0.02
+			}
+		}
+		ICX_dev_E80_plan = {
+			picture = Industrial_Reconstruction
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.08
+				production_factory_max_efficiency_factor = 0.03
+			}
+		}
+		ICX_dev_E90_plan = {
+			picture = SIA_economic_modernization
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_office_park_factor = 0.1
+			}
+		}
+		ICX_dev_E00_plan = {
+			picture = trade_offices
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.08
+				industrial_capacity_factory = 0.03
+			}
+		}
+		ICX_dev_E10_plan = {
+			picture = urban_economies
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.08
+				research_speed_factor = 0.03
+			}
+		}
+	}
+}

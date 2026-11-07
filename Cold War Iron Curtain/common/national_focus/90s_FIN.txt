@@ -1129,4 +1129,8 @@ focus_tree = {
 		y = 13
 		completion_reward = { army_experience = 35 add_stability = 0.03 add_war_support = 0.03 }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_FIN_1990S_E90_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_FIN_1990S_E90_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

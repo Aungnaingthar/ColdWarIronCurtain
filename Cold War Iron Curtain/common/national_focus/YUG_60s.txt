@@ -3846,4 +3846,8 @@ focus_tree = {
 		y = 4
 		completion_reward = { }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_60s_YUG_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_60s_YUG_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

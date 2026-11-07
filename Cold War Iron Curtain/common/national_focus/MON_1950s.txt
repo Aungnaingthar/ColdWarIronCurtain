@@ -2134,4 +2134,8 @@ focus_tree = {
 			remove_ideas = soviet_client
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_MON_1950s_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_MON_1950s_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

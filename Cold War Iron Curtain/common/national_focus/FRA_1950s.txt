@@ -5805,4 +5805,8 @@ focus = {
 		}
 	}
 }
+	# >>> ICX dev >>>
+	shared_focus = ICX_FRA_1950s_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_FRA_1950s_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

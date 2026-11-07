@@ -4600,4 +4600,8 @@ focus_tree = {
 			add_ideas = socialized_health_care
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_MOR_60s_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_MOR_60s_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

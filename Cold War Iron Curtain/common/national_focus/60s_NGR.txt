@@ -1384,4 +1384,8 @@ focus_tree = {
 			add_stability = -0.05
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_60s_NGR_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_60s_NGR_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

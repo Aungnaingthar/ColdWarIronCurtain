@@ -473,4 +473,8 @@ focus_tree = {
 			set_variable = { THIS.idea_date_@token:reformed_bureacracy = global.num_days }
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_Stassen_1952_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_Stassen_1952_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

@@ -484,4 +484,8 @@ focus_tree = {
 			news_event = Russel_Court_Packing.2
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_Russell_1952_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_Russell_1952_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

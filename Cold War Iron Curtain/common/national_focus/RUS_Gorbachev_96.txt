@@ -470,4 +470,8 @@ focus_tree = {
 		x = 0
 		y = 2
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_RUS_Gorbachev_96_E90_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_RUS_Gorbachev_96_E90_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

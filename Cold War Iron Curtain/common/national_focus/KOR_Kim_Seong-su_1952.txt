@@ -286,4 +286,8 @@ focus_tree = {
 		relative_position_id = KOR_KIMSEONGSU52_build_fortifications_in_the_border_area
 		prerequisite = { focus = KOR_KIMSEONGSU52_build_fortifications_in_the_border_area }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_KOR_Kim_Seongsu_1952_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_KOR_Kim_Seongsu_1952_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

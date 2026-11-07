@@ -225,4 +225,8 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_SOV_Brezhev_live_more_E80_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_SOV_Brezhev_live_more_E80_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

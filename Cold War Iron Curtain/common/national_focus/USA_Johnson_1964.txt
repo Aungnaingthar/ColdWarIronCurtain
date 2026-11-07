@@ -395,4 +395,8 @@ focus_tree = {
 			set_country_flag = Crime_Control_and_Safe_Streets_Act_Vote
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_Johnson_1964_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_Johnson_1964_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

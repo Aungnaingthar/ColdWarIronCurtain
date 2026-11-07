@@ -770,4 +770,8 @@ focus_tree = {
 }
 
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_60s_PAK_Ayub_Start_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_60s_PAK_Ayub_Start_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

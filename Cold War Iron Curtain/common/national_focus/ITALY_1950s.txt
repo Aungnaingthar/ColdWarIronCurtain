@@ -4296,4 +4296,8 @@ focus_tree = {
 			always = no
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_ITALY_1950s_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_ITALY_1950s_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

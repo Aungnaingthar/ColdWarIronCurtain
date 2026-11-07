@@ -2067,4 +2067,8 @@ focus_tree = {
 			set_variable = { THIS.idea_date_@token:industrial_subsidies = global.num_days }
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_QAT_1950s_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_QAT_1950s_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

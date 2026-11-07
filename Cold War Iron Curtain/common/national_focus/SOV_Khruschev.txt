@@ -1951,4 +1951,8 @@ focus_tree = {
 		prerequisite = { focus = SOV_invest_in_recon_drone_initiative }
 		mutually_exclusive = { focus = SOV_focus_on_jet_interceptors }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_SOV_Khruschev_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_SOV_Khruschev_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

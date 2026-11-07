@@ -248,4 +248,8 @@ focus_tree = {
 			custom_effect_tooltip = autocompleted_by_event
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_VIE_Initial_Political_49_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_VIE_Initial_Political_49_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

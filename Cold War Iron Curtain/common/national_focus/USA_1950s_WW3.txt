@@ -1648,4 +1648,8 @@ focus_tree = {
 			custom_effect_tooltip = Negotiated_Ending_Pro_US_TT
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_1950s_WW3_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_1950s_WW3_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

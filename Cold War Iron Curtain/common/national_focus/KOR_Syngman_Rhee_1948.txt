@@ -316,4 +316,8 @@ focus_tree = {
 		prerequisite = { focus = KOR_SYNGMANRHEE48_declaration_of_martial_law_in_busan }
 		prerequisite = { focus = KOR_SYNGMANRHEE48_call_local_elections_ahead_of_time }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_KOR_Syngman_Rhee_1948_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_KOR_Syngman_Rhee_1948_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

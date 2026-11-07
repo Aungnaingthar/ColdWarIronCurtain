@@ -118,4 +118,8 @@ focus_tree = {
 		relative_position_id = WPA_victorious_crown
 		prerequisite = { focus = WPA_victorious_crown }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_WPA_50s_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_WPA_50s_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

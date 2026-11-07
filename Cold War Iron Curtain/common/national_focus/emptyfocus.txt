@@ -1,8 +1,24 @@
 # This file must remain here in order to override the vanilla focus tree.
+# ICX: countries without a tree of their own get the era economy branches here.
 focus_tree = {
 	id = empty_focus
 	country = {
 		factor = 1
 	}
 	default = yes
+	continuous_focus_position = { x = 50 y = 1300 }
+	shared_focus = ICX_empty_focus_E50_00
+	shortcut = { name = ICX_dev_shortcut_E50 target = ICX_empty_focus_E50_00 scroll_wheel_factor = 0.75 }
+	shared_focus = ICX_empty_focus_E60_00
+	shortcut = { name = ICX_dev_shortcut_E60 target = ICX_empty_focus_E60_00 scroll_wheel_factor = 0.75 }
+	shared_focus = ICX_empty_focus_E70_00
+	shortcut = { name = ICX_dev_shortcut_E70 target = ICX_empty_focus_E70_00 scroll_wheel_factor = 0.75 }
+	shared_focus = ICX_empty_focus_E80_00
+	shortcut = { name = ICX_dev_shortcut_E80 target = ICX_empty_focus_E80_00 scroll_wheel_factor = 0.75 }
+	shared_focus = ICX_empty_focus_E90_00
+	shortcut = { name = ICX_dev_shortcut_E90 target = ICX_empty_focus_E90_00 scroll_wheel_factor = 0.75 }
+	shared_focus = ICX_empty_focus_E00_00
+	shortcut = { name = ICX_dev_shortcut_E00 target = ICX_empty_focus_E00_00 scroll_wheel_factor = 0.75 }
+	shared_focus = ICX_empty_focus_E10_00
+	shortcut = { name = ICX_dev_shortcut_E10 target = ICX_empty_focus_E10_00 scroll_wheel_factor = 0.75 }
 }

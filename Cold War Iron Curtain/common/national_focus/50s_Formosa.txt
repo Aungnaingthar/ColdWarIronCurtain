@@ -1514,4 +1514,8 @@ focus_tree = {
 			always = no
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_50s_Formosa_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_50s_Formosa_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

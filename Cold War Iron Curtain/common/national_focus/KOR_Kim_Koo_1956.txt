@@ -294,4 +294,8 @@ focus_tree = {
 		relative_position_id = KOR_KIMKOO56_national_reunification_above_all_matters
 		prerequisite = { focus = KOR_KIMKOO56_national_reunification_above_all_matters }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_KOR_Kim_Koo_1956_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_KOR_Kim_Koo_1956_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

@@ -216,4 +216,8 @@ focus_tree = {
 		relative_position_id = KOR_CHANGMYON60_implement_the_judicial_election_system
 		prerequisite = { focus = KOR_CHANGMYON60_implement_the_judicial_election_system }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_KOR_Chang_Myon_1960_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_KOR_Chang_Myon_1960_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

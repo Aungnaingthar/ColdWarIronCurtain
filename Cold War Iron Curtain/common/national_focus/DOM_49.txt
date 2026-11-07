@@ -2638,4 +2638,8 @@ focus_tree = {
 			news_event = DOM_Batista.2
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_DOM_49_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_DOM_49_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

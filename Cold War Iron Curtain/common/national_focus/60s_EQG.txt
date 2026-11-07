@@ -2322,4 +2322,8 @@ focus_tree = {
 			focus = EQG_expand_fernando_po_oil_refining
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_EQG_60s_1960s_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_EQG_60s_1960s_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

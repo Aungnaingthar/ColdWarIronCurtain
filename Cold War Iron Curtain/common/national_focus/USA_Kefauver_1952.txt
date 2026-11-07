@@ -491,4 +491,8 @@ focus_tree = {
 			add_research_slot = 1
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_Kefauver_1952_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_Kefauver_1952_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

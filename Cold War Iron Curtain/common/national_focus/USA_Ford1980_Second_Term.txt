@@ -378,4 +378,8 @@ focus_tree = {
 		search_filters = { IC_FILTER }
 
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_USA_Ford1980_Second_Term_E80_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_USA_Ford1980_Second_Term_E80_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

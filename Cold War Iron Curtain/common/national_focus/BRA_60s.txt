@@ -922,4 +922,8 @@ focus_tree = {
 		y = 25
 
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_BRA_60s_E60_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_BRA_60s_E60_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

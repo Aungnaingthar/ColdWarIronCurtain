@@ -2271,4 +2271,8 @@ focus_tree = {
 			add_ideas = rural_vanguard
 		}
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_1950s_ROM_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_1950s_ROM_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

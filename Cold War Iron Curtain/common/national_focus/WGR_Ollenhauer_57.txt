@@ -1086,4 +1086,8 @@ focus_tree = {
             custom_effect_tooltip = WGR_Increase_Nuclear_Program_Development_tt
         }
     }
+	# >>> ICX dev >>>
+	shared_focus = ICX_WGR_Ollenhauer_57_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_WGR_Ollenhauer_57_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

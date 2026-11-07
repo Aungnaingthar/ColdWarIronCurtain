@@ -2731,4 +2731,8 @@ focus_tree = {
 		relative_position_id = SOV_begins_experimental_applications_of_neural_networks_in_planning
 		prerequisite = { focus = SOV_begins_experimental_applications_of_neural_networks_in_planning }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_SOV_Ustinov_E80_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_SOV_Ustinov_E80_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }

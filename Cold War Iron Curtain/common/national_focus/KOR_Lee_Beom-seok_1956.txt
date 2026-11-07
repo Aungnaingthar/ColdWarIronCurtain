@@ -264,4 +264,8 @@ focus_tree = {
 		relative_position_id = KOR_LEEBEOMSEOK56_dominate_the_right_wing
 		prerequisite = { focus = KOR_LEEBEOMSEOK56_dominate_the_right_wing }
 	}
+	# >>> ICX dev >>>
+	shared_focus = ICX_KOR_Lee_Beomseok_1956_E50_00
+	shortcut = { name = ICX_dev_shortcut_economy target = ICX_KOR_Lee_Beomseok_1956_E50_00 scroll_wheel_factor = 0.75 }
+	# <<< ICX dev <<<
 }
