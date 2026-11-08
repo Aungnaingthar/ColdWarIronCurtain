@@ -1,0 +1,8 @@
+﻿l_english:
+ icx_cheat.1.t:0 "Cheat: Treasury"
+ icx_cheat.1.d:0 "Add or remove money for testing."
+ icx_cheat.1.a:0 "+$1 billion"
+ icx_cheat.1.b:0 "+$10 billion"
+ icx_cheat.1.c:0 "+$100 billion"
+ icx_cheat.1.e:0 "-$10 billion"
+ icx_cheat.1.f:0 "Close"

@@ -1,0 +1,14 @@
+# Cheat menu for testing (ICX). Open with the console: event icx_cheat.1
+add_namespace = icx_cheat
+country_event = {
+	id = icx_cheat.1
+	title = icx_cheat.1.t
+	desc = icx_cheat.1.d
+	picture = GFX_IMF_Generic_Event
+	is_triggered_only = yes
+	option = { name = icx_cheat.1.a set_temp_variable = { money_change_temp = 1 } cwic_change_money = yes }
+	option = { name = icx_cheat.1.b set_temp_variable = { money_change_temp = 10 } cwic_change_money = yes }
+	option = { name = icx_cheat.1.c set_temp_variable = { money_change_temp = 100 } cwic_change_money = yes }
+	option = { name = icx_cheat.1.e set_temp_variable = { money_change_temp = -10 } cwic_change_money = yes }
+	option = { name = icx_cheat.1.f }
+}
