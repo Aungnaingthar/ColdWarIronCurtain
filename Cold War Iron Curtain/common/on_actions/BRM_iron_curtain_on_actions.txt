@@ -42,6 +42,8 @@ on_actions = {
 			BRM_eth_monthly = yes
 			# Ka Pa Sa arms export contract payments
 			BRM_kps_monthly = yes
+			# customs income from border gates and economic zones (Economic Zones and Trade decisions)
+			BRM_x_monthly = yes
 		}
 	}
 }

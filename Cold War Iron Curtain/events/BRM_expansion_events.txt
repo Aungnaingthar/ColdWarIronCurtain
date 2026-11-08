@@ -1,0 +1,1078 @@
+add_namespace = brmx
+
+country_event = {
+	id = brmx.1
+	title = brmx.1.t
+	desc = brmx.1.d
+	picture = GFX_Burma_Agreement_1
+	is_triggered_only = yes
+	option = {
+		name = brmx.1.a
+		ai_chance = { factor = 5 }
+		BRM_build_civ = yes
+		BRM_build_infra = yes
+		set_temp_variable = { money_change_temp = -0.15 }
+		cwic_change_money = yes
+		add_stability = -0.02
+	}
+	option = {
+		name = brmx.1.b
+		ai_chance = { factor = 10 }
+		BRM_build_infra = yes
+		BRM_build_infra = yes
+		BRM_build_power = yes
+		set_temp_variable = { money_change_temp = -0.08 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.1.c
+		ai_chance = { factor = 5 }
+		add_tech_bonus = { name = brmx.1.c bonus = 0.5 uses = 1 category = construction_tech }
+		add_political_power = 20
+	}
+}
+
+country_event = {
+	id = brmx.2
+	title = brmx.2.t
+	desc = brmx.2.d
+	picture = GFX_Taiwan_Economic_Report_50s
+	is_triggered_only = yes
+	option = {
+		name = brmx.2.a
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = 0.1 }
+		cwic_change_money = yes
+		add_stability = -0.03
+	}
+	option = {
+		name = brmx.2.b
+		ai_chance = { factor = 8 }
+		set_temp_variable = { money_change_temp = 0.05 }
+		cwic_change_money = yes
+		if = { limit = { country_exists = SOV } SOV = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+		if = { limit = { country_exists = PRC } PRC = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+	}
+	option = {
+		name = brmx.2.c
+		ai_chance = { factor = 4 }
+		add_stability = 0.02
+		add_political_power = -20
+	}
+}
+
+country_event = {
+	id = brmx.3
+	title = brmx.3.t
+	desc = brmx.3.d
+	picture = GFX_aswan_construction
+	is_triggered_only = yes
+	option = {
+		name = brmx.3.a
+		ai_chance = { factor = 6 }
+		add_political_power = 15
+		set_temp_variable = { money_change_temp = 0.03 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.3.b
+		ai_chance = { factor = 6 }
+		BRM_build_infra = yes
+		set_temp_variable = { money_change_temp = -0.03 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.3.c
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = 0.06 }
+		cwic_change_money = yes
+		set_temp_variable = { corruption_change_temp = 0.01 }
+		cwic_change_corruption = yes
+	}
+}
+
+country_event = {
+	id = brmx.4
+	title = brmx.4.t
+	desc = brmx.4.d
+	picture = GFX_Merchants_eating_Dinner_Shanghai
+	is_triggered_only = yes
+	option = {
+		name = brmx.4.a
+		ai_chance = { factor = 6 }
+		set_temp_variable = { corruption_change_temp = -0.02 }
+		cwic_change_corruption = yes
+		add_stability = -0.02
+		add_political_power = 10
+	}
+	option = {
+		name = brmx.4.b
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = 0.05 }
+		cwic_change_money = yes
+		set_temp_variable = { corruption_change_temp = 0.02 }
+		cwic_change_corruption = yes
+		add_stability = 0.01
+	}
+}
+
+country_event = {
+	id = brmx.5
+	title = brmx.5.t
+	desc = brmx.5.d
+	picture = GFX_American_Aid_1
+	is_triggered_only = yes
+	option = {
+		name = brmx.5.a
+		ai_chance = { factor = 6 }
+		set_temp_variable = { money_change_temp = -0.1 }
+		cwic_change_money = yes
+		BRM_build_civ = yes
+	}
+	option = {
+		name = brmx.5.b
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = 0.05 }
+		cwic_change_money = yes
+		if = { limit = { country_exists = SOV } SOV = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+		if = { limit = { country_exists = PRC } PRC = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+	}
+	option = {
+		name = brmx.5.c
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = 0.05 }
+		cwic_change_money = yes
+		add_tech_bonus = { name = brmx.5.c bonus = 0.3 uses = 1 category = industry }
+	}
+}
+
+country_event = {
+	id = brmx.10
+	title = brmx.10.t
+	desc = brmx.10.d
+	picture = GFX_Pakistan_national_bank
+	is_triggered_only = yes
+	option = {
+		name = brmx.10.a
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = -0.15 }
+		cwic_change_money = yes
+		if = { limit = { country_exists = ENG } ENG = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+		if = { limit = { country_exists = RAJ } RAJ = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+	}
+	option = {
+		name = brmx.10.b
+		ai_chance = { factor = 8 }
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+		add_political_power = 10
+	}
+	option = {
+		name = brmx.10.c
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = 0.05 }
+		cwic_change_money = yes
+		add_stability = -0.02
+	}
+}
+
+country_event = {
+	id = brmx.11
+	title = brmx.11.t
+	desc = brmx.11.d
+	picture = GFX_Merchants_eating_Dinner_Shanghai
+	is_triggered_only = yes
+	option = {
+		name = brmx.11.a
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+		add_stability = 0.02
+		if = { limit = { country_exists = RAJ } RAJ = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+	}
+	option = {
+		name = brmx.11.b
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = 0.1 }
+		cwic_change_money = yes
+		add_stability = -0.02
+	}
+}
+
+country_event = {
+	id = brmx.12
+	title = brmx.12.t
+	desc = brmx.12.d
+	picture = GFX_Pakistan_national_bank
+	is_triggered_only = yes
+	option = {
+		name = brmx.12.a
+		ai_chance = { factor = 8 }
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+		add_stability = 0.03
+	}
+	option = {
+		name = brmx.12.b
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = 0.05 }
+		cwic_change_money = yes
+		add_stability = -0.03
+	}
+}
+
+country_event = {
+	id = brmx.13
+	title = brmx.13.t
+	desc = brmx.13.d
+	picture = GFX_SIA_Isan_Famine.1
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1967.6.1 date < 1968.1.1 has_completed_focus = BRM_x_soc_economy }
+	mean_time_to_happen = { days = 5 }
+	option = {
+		name = brmx.13.a
+		ai_chance = { factor = 8 }
+		set_temp_variable = { money_change_temp = -0.08 }
+		cwic_change_money = yes
+		BRM_build_agri = yes
+		add_stability = 0.02
+	}
+	option = {
+		name = brmx.13.b
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = -0.12 }
+		cwic_change_money = yes
+		add_stability = 0.04
+	}
+	option = {
+		name = brmx.13.c
+		ai_chance = { factor = 3 }
+		add_stability = -0.03
+		add_political_power = 15
+	}
+}
+
+country_event = {
+	id = brmx.14
+	title = brmx.14.t
+	desc = brmx.14.d
+	picture = GFX_JAP_Shipbuilding_3
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1974.5.25 date < 1974.9.1 has_completed_focus = BRM_x_soc_economy }
+	mean_time_to_happen = { days = 5 }
+	option = {
+		name = brmx.14.a
+		ai_chance = { factor = 6 }
+		set_temp_variable = { money_change_temp = -0.06 }
+		cwic_change_money = yes
+		add_stability = 0.04
+	}
+	option = {
+		name = brmx.14.b
+		ai_chance = { factor = 4 }
+		add_stability = -0.04
+		add_political_power = 20
+		army_experience = 5
+	}
+	option = {
+		name = brmx.14.c
+		ai_chance = { factor = 5 }
+		add_stability = 0.02
+		add_political_power = -10
+	}
+}
+
+country_event = {
+	id = brmx.15
+	title = brmx.15.t
+	desc = brmx.15.d
+	picture = GFX_German_State_Funeral
+	fire_only_once = yes
+	trigger = { tag = BRM date > 1974.12.1 date < 1975.3.1 has_completed_focus = BRM_revolutionary_council }
+	mean_time_to_happen = { days = 5 }
+	option = {
+		name = brmx.15.a
+		ai_chance = { factor = 4 }
+		add_stability = 0.03
+		add_political_power = -30
+	}
+	option = {
+		name = brmx.15.b
+		ai_chance = { factor = 3 }
+		add_stability = -0.06
+		add_political_power = 30
+	}
+	option = {
+		name = brmx.15.c
+		ai_chance = { factor = 8 }
+		add_stability = 0.02
+		add_political_power = -10
+	}
+}
+
+country_event = {
+	id = brmx.16
+	title = brmx.16.t
+	desc = brmx.16.d
+	picture = GFX_Taiwan_Economic_Report_50s
+	is_triggered_only = yes
+	option = {
+		name = brmx.16.a
+		ai_chance = { factor = 8 }
+		set_temp_variable = { money_change_temp = 0.15 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.16.b
+		ai_chance = { factor = 4 }
+		add_stability = 0.03
+	}
+	option = {
+		name = brmx.16.c
+		ai_chance = { factor = 4 }
+		BRM_build_agri = yes
+		add_stability = 0.02
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+	}
+}
+
+country_event = {
+	id = brmx.17
+	title = brmx.17.t
+	desc = brmx.17.d
+	picture = GFX_Generic_Common_Market
+	is_triggered_only = yes
+	option = {
+		name = brmx.17.a
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = 0.2 }
+		cwic_change_money = yes
+		BRM_econ_market = yes
+		add_political_power = -20
+	}
+	option = {
+		name = brmx.17.b
+		ai_chance = { factor = 8 }
+		set_temp_variable = { money_change_temp = 0.1 }
+		cwic_change_money = yes
+		add_stability = 0.01
+	}
+}
+
+country_event = {
+	id = brmx.18
+	title = brmx.18.t
+	desc = brmx.18.d
+	picture = GFX_CENTO_GENERIC_PROTEST
+	is_triggered_only = yes
+	option = {
+		name = brmx.18.a
+		ai_chance = { factor = 6 }
+		add_stability = -0.03
+		add_political_power = 20
+	}
+	option = {
+		name = brmx.18.b
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = -0.1 }
+		cwic_change_money = yes
+		add_stability = 0.02
+	}
+	option = {
+		name = brmx.18.c
+		ai_chance = { factor = 4 }
+		BRM_econ_market = yes
+		add_stability = 0.01
+		add_political_power = -20
+	}
+}
+
+country_event = {
+	id = brmx.20
+	title = brmx.20.t
+	desc = brmx.20.d
+	picture = GFX_Shanghai_reconstruction
+	is_triggered_only = yes
+	option = {
+		name = brmx.20.a
+		ai_chance = { factor = 6 }
+		BRM_build_civ = yes
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.20.b
+		ai_chance = { factor = 5 }
+		add_tech_bonus = { name = brmx.20.b bonus = 0.4 uses = 1 category = industry }
+		add_political_power = -10
+	}
+}
+
+country_event = {
+	id = brmx.21
+	title = brmx.21.t
+	desc = brmx.21.d
+	picture = GFX_JAP_Shipbuilding_3
+	is_triggered_only = yes
+	option = {
+		name = brmx.21.a
+		ai_chance = { factor = 5 }
+		add_stability = 0.03
+		set_temp_variable = { money_change_temp = -0.04 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.21.b
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = 0.08 }
+		cwic_change_money = yes
+		add_stability = -0.02
+	}
+}
+
+country_event = {
+	id = brmx.22
+	title = brmx.22.t
+	desc = brmx.22.d
+	picture = GFX_Burmese_Buddhism_0
+	is_triggered_only = yes
+	option = {
+		name = brmx.22.a
+		ai_chance = { factor = 7 }
+		add_stability = 0.02
+		BRM_build_civ = yes
+	}
+	option = {
+		name = brmx.22.b
+		ai_chance = { factor = 4 }
+		BRM_build_civ = yes
+		BRM_build_civ = yes
+		set_temp_variable = { money_change_temp = -0.1 }
+		cwic_change_money = yes
+	}
+}
+
+country_event = {
+	id = brmx.23
+	title = brmx.23.t
+	desc = brmx.23.d
+	picture = GFX_burma_communist
+	is_triggered_only = yes
+	option = {
+		name = brmx.23.a
+		ai_chance = { factor = 7 }
+		add_stability = 0.04
+	}
+	option = {
+		name = brmx.23.b
+		ai_chance = { factor = 3 }
+		add_manpower = 5000
+		add_stability = -0.04
+	}
+}
+
+country_event = {
+	id = brmx.30
+	title = brmx.30.t
+	desc = brmx.30.d
+	picture = GFX_Burma_Agreement_1
+	is_triggered_only = yes
+	option = {
+		name = brmx.30.a
+		ai_chance = { factor = 6 }
+		set_temp_variable = { money_change_temp = 0.15 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.30.b
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = 0.1 }
+		cwic_change_money = yes
+		add_stability = -0.02
+	}
+	option = {
+		name = brmx.30.c
+		ai_chance = { factor = 3 }
+		add_political_power = 20
+	}
+}
+
+country_event = {
+	id = brmx.31
+	title = brmx.31.t
+	desc = brmx.31.d
+	picture = GFX_ROC_50s_Mainland_KMT_Uranium_Mine
+	is_triggered_only = yes
+	option = {
+		name = brmx.31.a
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+		add_stability = 0.02
+		set_temp_variable = { corruption_change_temp = -0.01 }
+		cwic_change_corruption = yes
+	}
+	option = {
+		name = brmx.31.b
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = 0.1 }
+		cwic_change_money = yes
+		add_stability = -0.03
+	}
+}
+
+country_event = {
+	id = brmx.32
+	title = brmx.32.t
+	desc = brmx.32.d
+	picture = GFX_Pakistan_national_bank
+	is_triggered_only = yes
+	option = {
+		name = brmx.32.a
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = -0.15 }
+		cwic_change_money = yes
+		add_stability = 0.04
+	}
+	option = {
+		name = brmx.32.b
+		ai_chance = { factor = 6 }
+		add_stability = -0.02
+	}
+	option = {
+		name = brmx.32.c
+		ai_chance = { factor = 3 }
+		add_stability = -0.04
+		set_temp_variable = { corruption_change_temp = -0.02 }
+		cwic_change_corruption = yes
+	}
+}
+
+country_event = {
+	id = brmx.33
+	title = brmx.33.t
+	desc = brmx.33.d
+	picture = GFX_JAP_Shipbuilding_3
+	is_triggered_only = yes
+	option = {
+		name = brmx.33.a
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+		add_stability = 0.02
+	}
+	option = {
+		name = brmx.33.b
+		ai_chance = { factor = 6 }
+		BRM_build_civ = yes
+		if = { limit = { country_exists = JAP } JAP = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+		if = { limit = { country_exists = KOR } KOR = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+	}
+}
+
+country_event = {
+	id = brmx.34
+	title = brmx.34.t
+	desc = brmx.34.d
+	picture = GFX_Merchants_eating_Dinner_Shanghai
+	is_triggered_only = yes
+	option = {
+		name = brmx.34.a
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = 0.2 }
+		cwic_change_money = yes
+		set_temp_variable = { corruption_change_temp = 0.03 }
+		cwic_change_corruption = yes
+	}
+	option = {
+		name = brmx.34.b
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = 0.25 }
+		cwic_change_money = yes
+		add_political_power = -20
+	}
+}
+
+country_event = {
+	id = brmx.36
+	title = brmx.36.t
+	desc = brmx.36.d
+	picture = GFX_SIA_Isan_Famine.1
+	is_triggered_only = yes
+	option = {
+		name = brmx.36.a
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = -0.1 }
+		cwic_change_money = yes
+		add_stability = 0.02
+	}
+	option = {
+		name = brmx.36.b
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = 0.1 }
+		cwic_change_money = yes
+		add_stability = -0.02
+	}
+}
+
+country_event = {
+	id = brmx.37
+	title = brmx.37.t
+	desc = brmx.37.d
+	picture = GFX_Generic_Common_Market
+	is_triggered_only = yes
+	option = {
+		name = brmx.37.a
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = 0.2 }
+		cwic_change_money = yes
+		add_stability = -0.04
+		BRM_econ_market = yes
+	}
+	option = {
+		name = brmx.37.b
+		ai_chance = { factor = 6 }
+		set_temp_variable = { money_change_temp = 0.1 }
+		cwic_change_money = yes
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = brmx.40
+	title = brmx.40.t
+	desc = brmx.40.d
+	picture = GFX_Pakistan_national_bank
+	is_triggered_only = yes
+	option = {
+		name = brmx.40.a
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = -0.1 }
+		cwic_change_money = yes
+		add_stability = 0.02
+	}
+	option = {
+		name = brmx.40.b
+		ai_chance = { factor = 5 }
+		add_stability = -0.02
+		set_temp_variable = { money_change_temp = 0.05 }
+		cwic_change_money = yes
+	}
+}
+
+country_event = {
+	id = brmx.41
+	title = brmx.41.t
+	desc = brmx.41.d
+	picture = GFX_CENTO_GENERIC_PROTEST
+	is_triggered_only = yes
+	option = {
+		name = brmx.41.a
+		ai_chance = { factor = 6 }
+		add_stability = 0.03
+		set_temp_variable = { money_change_temp = -0.03 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.41.b
+		ai_chance = { factor = 3 }
+		add_stability = -0.04
+		set_temp_variable = { money_change_temp = 0.05 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.41.c
+		ai_chance = { factor = 5 }
+		add_stability = 0.02
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+	}
+}
+
+country_event = {
+	id = brmx.42
+	title = brmx.42.t
+	desc = brmx.42.d
+	picture = GFX_JAP_Shipbuilding_3
+	is_triggered_only = yes
+	option = {
+		name = brmx.42.a
+		ai_chance = { factor = 6 }
+		add_stability = 0.03
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.42.b
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = 0.08 }
+		cwic_change_money = yes
+		add_stability = -0.02
+	}
+}
+
+country_event = {
+	id = brmx.43
+	title = brmx.43.t
+	desc = brmx.43.d
+	picture = GFX_Shanghai_reconstruction
+	is_triggered_only = yes
+	option = {
+		name = brmx.43.a
+		ai_chance = { factor = 6 }
+		BRM_build_civ = yes
+		BRM_build_civ = yes
+		if = { limit = { country_exists = PRC } PRC = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+	}
+	option = {
+		name = brmx.43.b
+		ai_chance = { factor = 4 }
+		BRM_build_office = yes
+		set_temp_variable = { money_change_temp = 0.05 }
+		cwic_change_money = yes
+		add_political_power = -15
+	}
+}
+
+country_event = {
+	id = brmx.44
+	title = brmx.44.t
+	desc = brmx.44.d
+	picture = GFX_Shanghai_reconstruction
+	fire_only_once = yes
+	trigger = { tag = BRM date > 2020.3.23 date < 2020.7.1 always = yes }
+	mean_time_to_happen = { days = 5 }
+	option = {
+		name = brmx.44.a
+		ai_chance = { factor = 5 }
+		add_stability = 0.02
+		set_temp_variable = { money_change_temp = -0.15 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.44.b
+		ai_chance = { factor = 4 }
+		set_temp_variable = { money_change_temp = 0.05 }
+		cwic_change_money = yes
+		add_stability = -0.03
+	}
+	option = {
+		name = brmx.44.c
+		ai_chance = { factor = 6 }
+		set_temp_variable = { money_change_temp = -0.1 }
+		cwic_change_money = yes
+		add_stability = 0.03
+	}
+}
+
+country_event = {
+	id = brmx.45
+	title = brmx.45.t
+	desc = brmx.45.d
+	picture = GFX_Generic_Common_Market
+	is_triggered_only = yes
+	option = {
+		name = brmx.45.a
+		ai_chance = { factor = 6 }
+		add_stability = 0.02
+		add_political_power = 10
+	}
+	option = {
+		name = brmx.45.b
+		ai_chance = { factor = 4 }
+		BRM_build_civ = yes
+		BRM_build_civ = yes
+		set_temp_variable = { money_change_temp = 0.1 }
+		cwic_change_money = yes
+		if = { limit = { country_exists = PRC } PRC = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+		set_temp_variable = { corruption_change_temp = 0.01 }
+		cwic_change_corruption = yes
+	}
+}
+
+country_event = {
+	id = brmx.50
+	title = brmx.50.t
+	desc = brmx.50.d
+	picture = GFX_Pakistan_national_bank
+	is_triggered_only = yes
+	option = {
+		name = brmx.50.a
+		ai_chance = { factor = 6 }
+		set_temp_variable = { money_change_temp = 0.1 }
+		cwic_change_money = yes
+		set_temp_variable = { corruption_change_temp = 0.02 }
+		cwic_change_corruption = yes
+	}
+	option = {
+		name = brmx.50.b
+		ai_chance = { factor = 3 }
+		add_stability = -0.03
+		set_temp_variable = { money_change_temp = 0.05 }
+		cwic_change_money = yes
+	}
+}
+
+country_event = {
+	id = brmx.51
+	title = brmx.51.t
+	desc = brmx.51.d
+	picture = GFX_Bohla_Cyclone_1
+	fire_only_once = yes
+	trigger = { tag = BRM date > 2023.5.14 date < 2023.7.1 always = yes }
+	mean_time_to_happen = { days = 5 }
+	option = {
+		name = brmx.51.a
+		ai_chance = { factor = 6 }
+		add_stability = 0.03
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.51.b
+		ai_chance = { factor = 4 }
+		add_stability = -0.02
+		add_political_power = 10
+	}
+}
+
+country_event = {
+	id = brmx.52
+	title = brmx.52.t
+	desc = brmx.52.d
+	picture = GFX_Burma_Union_1
+	is_triggered_only = yes
+	option = {
+		name = brmx.52.a
+		ai_chance = { factor = 5 }
+		add_stability = 0.03
+	}
+	option = {
+		name = brmx.52.b
+		ai_chance = { factor = 5 }
+		army_experience = 20
+	}
+	option = {
+		name = brmx.52.c
+		ai_chance = { factor = 4 }
+		custom_effect_tooltip = BRM_x_tt_lit_3
+		hidden_effect = { every_owned_state = { limit = { is_core_of = ROOT } set_temp_variable = { literate_change = 3 } nep_ed_increase_literate = yes } }
+		add_stability = 0.01
+	}
+}
+
+country_event = {
+	id = brmx.53
+	title = brmx.53.t
+	desc = brmx.53.d
+	picture = GFX_aswan_construction
+	is_triggered_only = yes
+	option = {
+		name = brmx.53.a
+		ai_chance = { factor = 6 }
+		BRM_x_build_renewable = yes
+		BRM_x_build_renewable = yes
+		if = { limit = { country_exists = PRC } PRC = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+	}
+	option = {
+		name = brmx.53.b
+		ai_chance = { factor = 4 }
+		BRM_x_build_renewable = yes
+		add_tech_bonus = { name = brmx.53.b bonus = 0.3 uses = 1 category = electronics }
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+	}
+}
+
+country_event = {
+	id = brmx.60
+	title = brmx.60.t
+	desc = brmx.60.d
+	picture = GFX_news_event_oil_discovery
+	is_triggered_only = yes
+	option = {
+		name = brmx.60.a
+		ai_chance = { factor = 6 }
+		set_temp_variable = { money_change_temp = 0.15 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.60.b
+		ai_chance = { factor = 5 }
+		BRM_build_power = yes
+		BRM_build_civ = yes
+	}
+}
+
+country_event = {
+	id = brmx.61
+	title = brmx.61.t
+	desc = brmx.61.d
+	picture = GFX_SRT_Dam
+	is_triggered_only = yes
+	option = {
+		name = brmx.61.a
+		ai_chance = { factor = 6 }
+		set_temp_variable = { money_change_temp = -0.1 }
+		cwic_change_money = yes
+		add_stability = 0.02
+	}
+	option = {
+		name = brmx.61.b
+		ai_chance = { factor = 4 }
+		add_stability = -0.04
+	}
+}
+
+country_event = {
+	id = brmx.62
+	title = brmx.62.t
+	desc = brmx.62.d
+	picture = GFX_Taiwan_Economic_Report_50s
+	is_triggered_only = yes
+	option = {
+		name = brmx.62.a
+		ai_chance = { factor = 6 }
+		set_temp_variable = { money_change_temp = -0.06 }
+		cwic_change_money = yes
+		add_stability = 0.02
+	}
+	option = {
+		name = brmx.62.b
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = 0.04 }
+		cwic_change_money = yes
+		if = { limit = { country_exists = PRC } PRC = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+	}
+}
+
+country_event = {
+	id = brmx.63
+	title = brmx.63.t
+	desc = brmx.63.d
+	picture = GFX_Bohla_Cyclone_2
+	is_triggered_only = yes
+	option = {
+		name = brmx.63.a
+		ai_chance = { factor = 5 }
+		BRM_x_eth_arakan_ceasefire = yes
+	}
+	option = {
+		name = brmx.63.b
+		ai_chance = { factor = 5 }
+		army_experience = 10
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = brmx.64
+	title = brmx.64.t
+	desc = brmx.64.d
+	picture = GFX_ROC_50s_Mainland_KMT_Uranium_Mine
+	is_triggered_only = yes
+	option = {
+		name = brmx.64.a
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = -0.1 }
+		cwic_change_money = yes
+		add_stability = 0.02
+	}
+	option = {
+		name = brmx.64.b
+		ai_chance = { factor = 5 }
+		set_temp_variable = { money_change_temp = 0.1 }
+		cwic_change_money = yes
+		set_temp_variable = { corruption_change_temp = 0.01 }
+		cwic_change_corruption = yes
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = brmx.70
+	title = brmx.70.t
+	desc = brmx.70.d
+	picture = GFX_Burmese_Buddhism_0
+	is_triggered_only = yes
+	option = {
+		name = brmx.70.a
+		ai_chance = { factor = 5 }
+		custom_effect_tooltip = BRM_x_tt_lit_3
+		hidden_effect = { every_owned_state = { limit = { is_core_of = ROOT } set_temp_variable = { literate_change = 3 } nep_ed_increase_literate = yes } }
+		add_political_power = -10
+	}
+	option = {
+		name = brmx.70.b
+		ai_chance = { factor = 6 }
+		custom_effect_tooltip = BRM_x_tt_lit_1
+		hidden_effect = { every_owned_state = { limit = { is_core_of = ROOT } set_temp_variable = { literate_change = 1 } nep_ed_increase_literate = yes } }
+		add_stability = 0.01
+	}
+}
+
+country_event = {
+	id = brmx.71
+	title = brmx.71.t
+	desc = brmx.71.d
+	picture = GFX_ROC_50s_Mainland_KMT_Uranium_Mine
+	is_triggered_only = yes
+	option = {
+		name = brmx.71.a
+		ai_chance = { factor = 6 }
+		set_temp_variable = { money_change_temp = 0.05 }
+		cwic_change_money = yes
+		set_temp_variable = { corruption_change_temp = 0.02 }
+		cwic_change_corruption = yes
+	}
+	option = {
+		name = brmx.71.b
+		ai_chance = { factor = 4 }
+		add_political_power = 10
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = brmx.72
+	title = brmx.72.t
+	desc = brmx.72.d
+	picture = GFX_burma_communist
+	is_triggered_only = yes
+	option = {
+		name = brmx.72.a
+		ai_chance = { factor = 7 }
+		add_stability = 0.02
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+	}
+	option = {
+		name = brmx.72.b
+		ai_chance = { factor = 3 }
+		army_experience = 20
+		add_stability = -0.02
+	}
+}
+
+country_event = {
+	id = brmx.73
+	title = brmx.73.t
+	desc = brmx.73.d
+	picture = GFX_SIA_Isan_Famine.1
+	is_triggered_only = yes
+	option = {
+		name = brmx.73.a
+		ai_chance = { factor = 6 }
+		set_temp_variable = { money_change_temp = -0.05 }
+		cwic_change_money = yes
+		add_stability = 0.02
+	}
+	option = {
+		name = brmx.73.b
+		ai_chance = { factor = 3 }
+		add_stability = -0.03
+		army_experience = 5
+	}
+}
+

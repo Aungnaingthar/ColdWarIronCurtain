@@ -1,0 +1,388 @@
+# Burma economy decisions (ICX)
+BRM_x_economy_category = {
+	BRM_x_sez_thilawa_1 = {
+		icon = generic_industry
+		visible = { has_completed_focus = BRM_thilawa_sez }
+		available = { owns_state = 288 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.299 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_sez_thilawa_1
+		fire_only_once = yes
+		days_remove = 180
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.3 }
+			cwic_change_money = yes
+			add_political_power = -50
+		}
+		remove_effect = {
+			288 = { if = { limit = { is_owned_and_controlled_by = ROOT free_building_slots = { building = industrial_complex size > 1 include_locked = yes } } add_extra_state_shared_building_slots = 2 add_building_construction = { type = industrial_complex level = 2 instant_build = yes } } }
+			set_country_flag = BRM_x_sez_thilawa_1
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_sez_thilawa_2 = {
+		icon = generic_industry
+		visible = { has_completed_focus = BRM_thilawa_sez }
+		available = { owns_state = 288 has_country_flag = BRM_x_sez_thilawa_1 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.199 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_sez_thilawa_2
+		fire_only_once = yes
+		days_remove = 180
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 }
+			cwic_change_money = yes
+			add_political_power = -50
+		}
+		remove_effect = {
+			288 = { if = { limit = { is_owned_and_controlled_by = ROOT free_building_slots = { building = industrial_complex size > 1 include_locked = yes } } add_extra_state_shared_building_slots = 2 add_building_construction = { type = industrial_complex level = 2 instant_build = yes } } }
+			288 = { if = { limit = { is_owned_and_controlled_by = ROOT free_building_slots = { building = office_park size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 1 add_building_construction = { type = office_park level = 1 instant_build = yes } } }
+			set_country_flag = BRM_x_sez_thilawa_2
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_sez_thilawa_3 = {
+		icon = generic_industry
+		visible = { has_completed_focus = BRM_thilawa_sez }
+		available = { owns_state = 288 has_country_flag = BRM_x_sez_thilawa_2 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.399 } has_political_power > 74 }
+		custom_cost_text = BRM_x_cost_BRM_x_sez_thilawa_3
+		fire_only_once = yes
+		days_remove = 240
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.4 }
+			cwic_change_money = yes
+			add_political_power = -75
+		}
+		remove_effect = {
+			288 = { if = { limit = { is_owned_and_controlled_by = ROOT free_building_slots = { building = industrial_complex size > 2 include_locked = yes } } add_extra_state_shared_building_slots = 3 add_building_construction = { type = industrial_complex level = 3 instant_build = yes } } }
+			288 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } }
+			set_country_flag = BRM_x_sez_thilawa_3
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_sez_kyaukphyu_1 = {
+		icon = generic_industry
+		visible = { has_completed_focus = BRM_kyaukphyu }
+		available = { owns_state = 1186 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.399 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_sez_kyaukphyu_1
+		fire_only_once = yes
+		days_remove = 240
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.4 }
+			cwic_change_money = yes
+			add_political_power = -50
+		}
+		remove_effect = {
+			1186 = { if = { limit = { is_owned_and_controlled_by = ROOT free_building_slots = { building = dockyard size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 1 add_building_construction = { type = dockyard level = 1 instant_build = yes } } }
+			1186 = { if = { limit = { is_owned_and_controlled_by = ROOT } add_building_construction = { type = infrastructure level = 1 instant_build = yes } } }
+			set_country_flag = BRM_x_sez_kyaukphyu_1
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_sez_kyaukphyu_2 = {
+		icon = generic_industry
+		visible = { has_completed_focus = BRM_kyaukphyu }
+		available = { owns_state = 1186 has_country_flag = BRM_x_sez_kyaukphyu_1 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.299 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_sez_kyaukphyu_2
+		fire_only_once = yes
+		days_remove = 180
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.3 }
+			cwic_change_money = yes
+			add_political_power = -50
+		}
+		remove_effect = {
+			1186 = { if = { limit = { is_owned_and_controlled_by = ROOT free_building_slots = { building = industrial_complex size > 1 include_locked = yes } } add_extra_state_shared_building_slots = 2 add_building_construction = { type = industrial_complex level = 2 instant_build = yes } } }
+			set_country_flag = BRM_x_sez_kyaukphyu_2
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_sez_kyaukphyu_3 = {
+		icon = generic_industry
+		visible = { has_completed_focus = BRM_kyaukphyu }
+		available = { owns_state = 1186 has_country_flag = BRM_x_sez_kyaukphyu_2 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.299 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_sez_kyaukphyu_3
+		fire_only_once = yes
+		days_remove = 180
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.3 }
+			cwic_change_money = yes
+			add_political_power = -50
+		}
+		remove_effect = {
+			1186 = { if = { limit = { is_owned_and_controlled_by = ROOT } add_building_construction = { type = fossil_fuel_powerplant level = 1 instant_build = yes } } }
+			1186 = { if = { limit = { is_owned_and_controlled_by = ROOT free_building_slots = { building = industrial_complex size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 1 add_building_construction = { type = industrial_complex level = 1 instant_build = yes } } }
+			set_country_flag = BRM_x_sez_kyaukphyu_3
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_sez_dawei_1 = {
+		icon = generic_industry
+		visible = { has_completed_focus = BRM_x_dawei_sez }
+		available = { owns_state = 1212 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.199 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_sez_dawei_1
+		fire_only_once = yes
+		days_remove = 180
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.2 }
+			cwic_change_money = yes
+			add_political_power = -50
+		}
+		remove_effect = {
+			1212 = { if = { limit = { is_owned_and_controlled_by = ROOT } add_building_construction = { type = infrastructure level = 2 instant_build = yes } } }
+			if = { limit = { country_exists = SIA } SIA = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+			set_country_flag = BRM_x_sez_dawei_1
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_sez_dawei_2 = {
+		icon = generic_industry
+		visible = { has_completed_focus = BRM_x_dawei_sez }
+		available = { owns_state = 1212 has_country_flag = BRM_x_sez_dawei_1 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.399 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_sez_dawei_2
+		fire_only_once = yes
+		days_remove = 240
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.4 }
+			cwic_change_money = yes
+			add_political_power = -50
+		}
+		remove_effect = {
+			1212 = { if = { limit = { is_owned_and_controlled_by = ROOT free_building_slots = { building = dockyard size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 1 add_building_construction = { type = dockyard level = 1 instant_build = yes } } }
+			set_country_flag = BRM_x_sez_dawei_2
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_sez_dawei_3 = {
+		icon = generic_industry
+		visible = { has_completed_focus = BRM_x_dawei_sez }
+		available = { owns_state = 1212 has_country_flag = BRM_x_sez_dawei_2 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.299 } has_political_power > 74 }
+		custom_cost_text = BRM_x_cost_BRM_x_sez_dawei_3
+		fire_only_once = yes
+		days_remove = 180
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.3 }
+			cwic_change_money = yes
+			add_political_power = -75
+		}
+		remove_effect = {
+			1212 = { if = { limit = { is_owned_and_controlled_by = ROOT free_building_slots = { building = industrial_complex size > 1 include_locked = yes } } add_extra_state_shared_building_slots = 2 add_building_construction = { type = industrial_complex level = 2 instant_build = yes } } }
+			1212 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } }
+			set_country_flag = BRM_x_sez_dawei_3
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_gems_auction = {
+		icon = generic_money_bag
+		visible = { OR = { owns_state = 1259 owns_state = 640 owns_state = 1817 } }
+		available = { OR = { owns_state = 1259 owns_state = 640 owns_state = 1817 } }
+		days_re_enable = 365
+		complete_effect = {
+			custom_effect_tooltip = BRM_x_tt_gems_auction
+			hidden_effect = {
+				BRM_x_set_era = yes
+				set_temp_variable = { money_change_temp = 0.04 }
+				multiply_temp_variable = { money_change_temp = BRM_x_era }
+				if = { limit = { has_country_flag = BRM_x_gems_clean } multiply_temp_variable = { money_change_temp = 1.5 } }
+				cwic_change_money = yes
+			}
+			set_temp_variable = { corruption_change_temp = 0.005 }
+			cwic_change_corruption = yes
+		}
+		ai_will_do = { factor = 3 }
+	}
+	BRM_x_gems_crackdown = {
+		icon = Police_hat
+		visible = { OR = { owns_state = 1259 owns_state = 640 owns_state = 1817 } }
+		available = { always = yes }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.049 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_gems_crackdown
+		days_re_enable = 1095
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.05 }
+			cwic_change_money = yes
+			add_political_power = -50
+			set_temp_variable = { corruption_change_temp = -0.02 }
+			cwic_change_corruption = yes
+			BRM_x_gems_clean = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+	BRM_x_gate_muse = {
+		icon = Money_US_Dollars
+		visible = { always = yes }
+		available = { owns_state = 1190 date > 1988.1.1 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.049 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_gate_muse
+		fire_only_once = yes
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.05 }
+			cwic_change_money = yes
+			add_political_power = -50
+			custom_effect_tooltip = BRM_x_tt_gate_muse
+			set_country_flag = BRM_x_gate_muse
+			if = { limit = { country_exists = PRC } PRC = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+			set_temp_variable = { corruption_change_temp = 0.01 }
+			cwic_change_corruption = yes
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_gate_tachileik = {
+		icon = Money_US_Dollars
+		visible = { always = yes }
+		available = { owns_state = 788 date > 1990.1.1 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.049 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_gate_tachileik
+		fire_only_once = yes
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.05 }
+			cwic_change_money = yes
+			add_political_power = -50
+			custom_effect_tooltip = BRM_x_tt_gate_tachileik
+			set_country_flag = BRM_x_gate_tachileik
+			if = { limit = { country_exists = SIA } SIA = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+			set_temp_variable = { corruption_change_temp = 0.01 }
+			cwic_change_corruption = yes
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_gate_myawaddy = {
+		icon = Money_US_Dollars
+		visible = { always = yes }
+		available = { owns_state = 1264 date > 1990.1.1 check_variable = { BRM_eth_karen < 2 } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.049 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_gate_myawaddy
+		fire_only_once = yes
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.05 }
+			cwic_change_money = yes
+			add_political_power = -50
+			custom_effect_tooltip = BRM_x_tt_gate_myawaddy
+			set_country_flag = BRM_x_gate_myawaddy
+			if = { limit = { country_exists = SIA } SIA = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+			set_temp_variable = { corruption_change_temp = 0.01 }
+			cwic_change_corruption = yes
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_gate_tamu = {
+		icon = Money_US_Dollars
+		visible = { always = yes }
+		available = { owns_state = 1261 date > 1995.1.1 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.049 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_gate_tamu
+		fire_only_once = yes
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.05 }
+			cwic_change_money = yes
+			add_political_power = -50
+			custom_effect_tooltip = BRM_x_tt_gate_tamu
+			set_country_flag = BRM_x_gate_tamu
+			if = { limit = { country_exists = RAJ } RAJ = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_gate_maungdaw = {
+		icon = Money_US_Dollars
+		visible = { always = yes }
+		available = { owns_state = 1559 date > 1995.1.1 }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.049 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_gate_maungdaw
+		fire_only_once = yes
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.05 }
+			cwic_change_money = yes
+			add_political_power = -50
+			custom_effect_tooltip = BRM_x_tt_gate_maungdaw
+			set_country_flag = BRM_x_gate_maungdaw
+		}
+		ai_will_do = { factor = 5 }
+	}
+	BRM_x_develop_dry_zone = {
+		icon = bannereconomic
+		visible = { always = yes }
+		available = { OR = { 1262 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } 1259 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } 1261 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.399 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_develop_dry_zone
+		days_re_enable = 1095
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.4 }
+			cwic_change_money = yes
+			add_political_power = -50
+			custom_effect_tooltip = BRM_x_tt_BRM_x_develop_dry_zone
+			hidden_effect = {
+				1262 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } }
+				1259 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } }
+				1261 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } }
+			}
+		}
+		ai_will_do = { factor = 3 }
+	}
+	BRM_x_develop_delta = {
+		icon = bannereconomic
+		visible = { always = yes }
+		available = { OR = { 1263 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } 1267 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } 288 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.399 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_develop_delta
+		days_re_enable = 1095
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.4 }
+			cwic_change_money = yes
+			add_political_power = -50
+			custom_effect_tooltip = BRM_x_tt_BRM_x_develop_delta
+			hidden_effect = {
+				1263 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } }
+				1267 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } }
+				288 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } }
+			}
+		}
+		ai_will_do = { factor = 3 }
+	}
+	BRM_x_develop_hills = {
+		icon = bannereconomic
+		visible = { always = yes }
+		available = { OR = { AND = { check_variable = { BRM_eth_shan < 2 } 1190 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } } AND = { check_variable = { BRM_eth_kachin < 2 } 640 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } } AND = { check_variable = { BRM_eth_kachin < 2 } 1817 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } } AND = { check_variable = { BRM_eth_chin < 2 } 1260 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } } AND = { check_variable = { BRM_eth_karenni < 2 } 1265 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } } } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.499 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_develop_hills
+		days_re_enable = 1095
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.5 }
+			cwic_change_money = yes
+			add_political_power = -50
+			custom_effect_tooltip = BRM_x_tt_BRM_x_develop_hills
+			hidden_effect = {
+				if = { limit = { check_variable = { BRM_eth_shan < 2 } } 1190 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } } }
+				if = { limit = { check_variable = { BRM_eth_kachin < 2 } } 640 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } } }
+				if = { limit = { check_variable = { BRM_eth_kachin < 2 } } 1817 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } } }
+				if = { limit = { check_variable = { BRM_eth_chin < 2 } } 1260 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } } }
+				if = { limit = { check_variable = { BRM_eth_karenni < 2 } } 1265 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } } }
+			}
+		}
+		ai_will_do = { factor = 3 }
+	}
+	BRM_x_develop_coast = {
+		icon = bannereconomic
+		visible = { always = yes }
+		available = { OR = { 1212 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } AND = { check_variable = { BRM_eth_mon < 2 } 1266 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } } AND = { check_variable = { BRM_eth_arakan < 2 } 1186 = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } } } }
+		custom_cost_trigger = { check_variable = { currentMoney > 0.399 } has_political_power > 49 }
+		custom_cost_text = BRM_x_cost_BRM_x_develop_coast
+		days_re_enable = 1095
+		complete_effect = {
+			set_temp_variable = { money_change_temp = -0.4 }
+			cwic_change_money = yes
+			add_political_power = -50
+			custom_effect_tooltip = BRM_x_tt_BRM_x_develop_coast
+			hidden_effect = {
+				1212 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } }
+				if = { limit = { check_variable = { BRM_eth_mon < 2 } } 1266 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } } }
+				if = { limit = { check_variable = { BRM_eth_arakan < 2 } } 1186 = { if = { limit = { is_owned_and_controlled_by = ROOT BRM_x_can_upgrade = yes } Upgrade_State_effect = yes } } }
+			}
+		}
+		ai_will_do = { factor = 3 }
+	}
+}

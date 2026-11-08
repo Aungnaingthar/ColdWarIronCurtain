@@ -3473,6 +3473,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = { name = BRM_x_kta_report bonus = 0.5 uses = 1 category = industry }
 			add_tech_bonus = { name = BRM_x_kta_report bonus = 0.5 uses = 1 category = construction_tech }
+			country_event = { id = brmx.1 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3520,6 +3521,7 @@ focus_tree = {
 			add_stability = 0.03
 			set_temp_variable = { money_change_temp = 0.08 }
 			cwic_change_money = yes
+			country_event = { id = brmx.2 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3566,6 +3568,7 @@ focus_tree = {
 			cwic_change_money = yes
 			if = { limit = { country_exists = SOV } SOV = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
 			if = { limit = { country_exists = PRC } PRC = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+			country_event = { id = brmx.3 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3595,6 +3598,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.04
 			add_political_power = 40
+			country_event = { id = brmx.5 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3658,6 +3662,7 @@ focus_tree = {
 			add_political_power = 20
 			set_temp_variable = { corruption_change_temp = 0.02 }
 			cwic_change_corruption = yes
+			country_event = { id = brmx.4 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3830,6 +3835,7 @@ focus_tree = {
 			cwic_change_money = yes
 			BRM_econ_planned = yes
 			add_stability = -0.02
+			country_event = { id = brmx.10 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3848,6 +3854,7 @@ focus_tree = {
 			add_stability = -0.04
 			set_temp_variable = { corruption_change_temp = -0.02 }
 			cwic_change_corruption = yes
+			country_event = { id = brmx.12 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3882,6 +3889,7 @@ focus_tree = {
 			set_temp_variable = { corruption_change_temp = -0.03 }
 			cwic_change_corruption = yes
 			add_stability = -0.1
+			country_event = { id = brmx.18 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -3898,6 +3906,7 @@ focus_tree = {
 			BRM_econ_public = yes
 			set_temp_variable = { money_change_temp = 0.05 }
 			cwic_change_money = yes
+			country_event = { id = brmx.11 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -4004,6 +4013,7 @@ focus_tree = {
 			BRM_build_agri = yes
 			add_tech_bonus = { name = BRM_x_whole_township bonus = 0.5 uses = 1 category = agriculture }
 			add_stability = 0.02
+			country_event = { id = brmx.16 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -4123,6 +4133,7 @@ focus_tree = {
 			set_temp_variable = { money_change_temp = 0.2 }
 			cwic_change_money = yes
 			if = { limit = { country_exists = JAP } JAP = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+			country_event = { id = brmx.17 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -4229,6 +4240,7 @@ focus_tree = {
 			BRM_build_civ = yes
 			set_temp_variable = { money_change_temp = 0.1 }
 			cwic_change_money = yes
+			country_event = { id = brmx.21 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -4244,6 +4256,7 @@ focus_tree = {
 			BRM_build_civ = yes
 			add_tech_bonus = { name = BRM_x_japanese_partners bonus = 0.5 uses = 1 category = industry }
 			if = { limit = { country_exists = JAP } JAP = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+			country_event = { id = brmx.20 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -4391,6 +4404,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_ideas = BRM_xi_buddhist_economics
+			country_event = { id = brmx.22 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -4597,6 +4611,7 @@ focus_tree = {
 			BRM_build_agri = yes
 			BRM_build_agri = yes
 			add_stability = -0.05
+			country_event = { id = brmx.23 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -4742,6 +4757,7 @@ focus_tree = {
 			BRM_build_civ = yes
 			set_temp_variable = { money_change_temp = 0.1 }
 			cwic_change_money = yes
+			country_event = { id = brmx.30 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -4826,6 +4842,7 @@ focus_tree = {
 			BRM_econ_private = yes
 			set_temp_variable = { corruption_change_temp = 0.04 }
 			cwic_change_corruption = yes
+			country_event = { id = brmx.34 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -4934,6 +4951,7 @@ focus_tree = {
 			cwic_change_money = yes
 			set_temp_variable = { corruption_change_temp = -0.02 }
 			cwic_change_corruption = yes
+			country_event = { id = brmx.32 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -5026,6 +5044,7 @@ focus_tree = {
 			add_stability = -0.02
 			set_temp_variable = { corruption_change_temp = 0.02 }
 			cwic_change_corruption = yes
+			country_event = { id = brmx.36 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -5042,6 +5061,7 @@ focus_tree = {
 			cwic_change_money = yes
 			set_temp_variable = { corruption_change_temp = 0.03 }
 			cwic_change_corruption = yes
+			country_event = { id = brmx.31 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -5071,6 +5091,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_political_power = 30
 			if = { limit = { country_exists = PRC } PRC = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+			country_event = { id = brmx.33 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -5104,6 +5125,7 @@ focus_tree = {
 			add_stability = -0.03
 			set_temp_variable = { corruption_change_temp = -0.02 }
 			cwic_change_corruption = yes
+			country_event = { id = brmx.37 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -5417,6 +5439,7 @@ focus_tree = {
 			add_stability = 0.02
 			set_temp_variable = { corruption_change_temp = -0.02 }
 			cwic_change_corruption = yes
+			country_event = { id = brmx.40 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -5595,6 +5618,7 @@ focus_tree = {
 			BRM_build_civ = yes
 			set_temp_variable = { money_change_temp = 0.1 }
 			cwic_change_money = yes
+			country_event = { id = brmx.42 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -5642,6 +5666,7 @@ focus_tree = {
 			BRM_build_civ = yes
 			BRM_build_infra = yes
 			if = { limit = { country_exists = PRC } PRC = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+			country_event = { id = brmx.45 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -5823,6 +5848,7 @@ focus_tree = {
 			add_stability = -0.02
 			set_temp_variable = { corruption_change_temp = 0.02 }
 			cwic_change_corruption = yes
+			country_event = { id = brmx.50 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -6000,6 +6026,7 @@ focus_tree = {
 		completion_reward = {
 			set_temp_variable = { money_change_temp = 0.15 }
 			cwic_change_money = yes
+			country_event = { id = brmx.52 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -6212,6 +6239,7 @@ focus_tree = {
 		completion_reward = {
 			BRM_x_build_renewable = yes
 			BRM_x_build_renewable = yes
+			country_event = { id = brmx.53 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -6436,6 +6464,7 @@ focus_tree = {
 			1262 = { if = { limit = { is_owned_and_controlled_by = ROOT } add_resource = { type = oil amount = 3 } } }
 			set_temp_variable = { money_change_temp = 0.1 }
 			cwic_change_money = yes
+			country_event = { id = brmx.60 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -6626,6 +6655,7 @@ focus_tree = {
 			BRM_build_power = yes
 			BRM_build_power = yes
 			add_stability = -0.04
+			country_event = { id = brmx.61 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -6745,6 +6775,7 @@ focus_tree = {
 			set_temp_variable = { money_change_temp = 0.1 }
 			cwic_change_money = yes
 			add_stability = -0.02
+			country_event = { id = brmx.41 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -6792,6 +6823,7 @@ focus_tree = {
 			add_stability = -0.03
 			set_temp_variable = { corruption_change_temp = 0.02 }
 			cwic_change_corruption = yes
+			country_event = { id = brmx.64 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -7008,6 +7040,7 @@ focus_tree = {
 			set_temp_variable = { money_change_temp = 0.15 }
 			cwic_change_money = yes
 			BRM_build_agri = yes
+			country_event = { id = brmx.62 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -7095,6 +7128,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.03
 			BRM_build_agri = yes
+			country_event = { id = brmx.73 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -7509,6 +7543,7 @@ focus_tree = {
 			1186 = { if = { limit = { is_owned_and_controlled_by = ROOT free_building_slots = { building = dockyard size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 1 add_building_construction = { type = dockyard level = 1 instant_build = yes } } }
 			BRM_build_infra = yes
 			if = { limit = { country_exists = RAJ } RAJ = { add_opinion_modifier = { target = ROOT modifier = BRM_x_trade_partner } } }
+			country_event = { id = brmx.63 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -8057,6 +8092,7 @@ focus_tree = {
 			custom_effect_tooltip = BRM_x_tt_lit_6
 			hidden_effect = { every_owned_state = { limit = { is_core_of = ROOT } set_temp_variable = { literate_change = 6 } nep_ed_increase_literate = yes } }
 			add_stability = 0.02
+			country_event = { id = brmx.70 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -8542,6 +8578,7 @@ focus_tree = {
 		completion_reward = {
 			288 = { if = { limit = { is_owned_and_controlled_by = ROOT free_building_slots = { building = industrial_complex size > 0 include_locked = yes } } add_extra_state_shared_building_slots = 1 add_building_construction = { type = industrial_complex level = 1 instant_build = yes } } }
 			BRM_build_office = yes
+			country_event = { id = brmx.43 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -9331,6 +9368,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.03
 			BRM_x_eth_cpb_collapse = yes
+			country_event = { id = brmx.72 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -9373,6 +9411,7 @@ focus_tree = {
 		available = { date > 1994.2.24 }
 		completion_reward = {
 			BRM_x_eth_kachin_ceasefire = yes
+			country_event = { id = brmx.71 days = 2 }
 		}
 		ai_will_do = { factor = 1 }
 	}

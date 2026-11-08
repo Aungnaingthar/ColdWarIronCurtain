@@ -1,0 +1,31 @@
+# Burma expansion: era factor, gem crackdown and monthly income from border gates and economic zones (ICX)
+BRM_x_set_era = {
+	set_temp_variable = { BRM_x_era = 1 }
+	if = { limit = { date > 1988.1.1 } set_temp_variable = { BRM_x_era = 3 } }
+	if = { limit = { date > 2010.1.1 } set_temp_variable = { BRM_x_era = 6 } }
+}
+BRM_x_gems_clean = {
+	custom_effect_tooltip = BRM_x_tt_gems_clean
+	hidden_effect = { set_country_flag = { flag = BRM_x_gems_clean days = 730 value = 1 } }
+}
+BRM_x_monthly = {
+	set_temp_variable = { BRM_x_income = 0 }
+	if = { limit = { has_country_flag = BRM_x_gate_muse } add_to_temp_variable = { BRM_x_income = 0.0015 } }
+	if = { limit = { has_country_flag = BRM_x_gate_tachileik } add_to_temp_variable = { BRM_x_income = 0.001 } }
+	if = { limit = { has_country_flag = BRM_x_gate_myawaddy } add_to_temp_variable = { BRM_x_income = 0.0015 } }
+	if = { limit = { has_country_flag = BRM_x_gate_tamu } add_to_temp_variable = { BRM_x_income = 0.0008 } }
+	if = { limit = { has_country_flag = BRM_x_gate_maungdaw } add_to_temp_variable = { BRM_x_income = 0.0005 } }
+	if = { limit = { has_country_flag = BRM_x_sez_thilawa_2 } add_to_temp_variable = { BRM_x_income = 0.002 } }
+	if = { limit = { has_country_flag = BRM_x_sez_thilawa_3 } add_to_temp_variable = { BRM_x_income = 0.002 } }
+	if = { limit = { has_country_flag = BRM_x_sez_kyaukphyu_1 } add_to_temp_variable = { BRM_x_income = 0.0015 } }
+	if = { limit = { has_country_flag = BRM_x_sez_kyaukphyu_3 } add_to_temp_variable = { BRM_x_income = 0.003 } }
+	if = { limit = { has_country_flag = BRM_x_sez_dawei_2 } add_to_temp_variable = { BRM_x_income = 0.0015 } }
+	if = {
+		limit = { check_variable = { BRM_x_income > 0 } }
+		BRM_x_set_era = yes
+		multiply_temp_variable = { BRM_x_income = BRM_x_era }
+		set_temp_variable = { money_change_temp = BRM_x_income }
+		hidden_effect = { cwic_change_money = yes }
+	}
+	set_variable = { BRM_x_monthly_income = BRM_x_income }
+}

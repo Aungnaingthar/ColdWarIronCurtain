@@ -1,0 +1,4 @@
+BRM_x_economy_category = {
+	icon = generic_economy
+	allowed = { original_tag = BRM }
+}
