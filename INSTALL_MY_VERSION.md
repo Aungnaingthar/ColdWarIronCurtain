@@ -2,7 +2,11 @@
 
 This fork adds, on the `iron-curtain-expanded` branch:
 
-- A full Burma focus tree (220 focuses), events, loans and foreign relations
+- A full Burma focus tree (661 focuses, mostly economy), 44 historical events,
+  20 economy decisions, loans and foreign relations
+- An economy branch for each era (1950s to 2010s) in every country's focus tree
+- 103 historical events with choices for Thailand, Laos, Sri Lanka, Mexico,
+  Brazil, Argentina and Japan
 - Cabinet ministers and military staff for every country
 - Realistic weapon purchase prices (20 jets = $0.4B instead of $80B)
 - A picture for every national focus (about 6,000 placeholders replaced)
