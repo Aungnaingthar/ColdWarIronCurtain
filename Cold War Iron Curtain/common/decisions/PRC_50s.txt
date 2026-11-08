@@ -931,7 +931,7 @@ PRC_50s_The_Road_to_Socialism_categories = {
 				PRC_50s_socialist_transformation_re_time2 = -60
 			}
 			set_temp_variable = { temp_x = -1 }
-			PRC_socialist_transformation_update = yes
+			PRC_Socialist_Transformation_update = yes
 		}
 		priority = 35
 	   	cost = 50
@@ -963,7 +963,7 @@ PRC_50s_The_Road_to_Socialism_categories = {
             PRC_faction_struggle_system_faction_influence_change = yes
 			custom_effect_tooltip = PRC_50s_socialist_transformation_effect_in
 			set_temp_variable = { temp_x = 1 }
-			PRC_socialist_transformation_update = yes
+			PRC_Socialist_Transformation_update = yes
 		}
 		priority = 35
 	   	cost = 50
@@ -1000,7 +1000,7 @@ PRC_50s_The_Road_to_Socialism_categories = {
 				PRC_50s_socialist_transformation_re_time2 = -60
 			}
 			set_temp_variable = { temp_x = -1 }
-			PRC_socialist_transformation_update = yes
+			PRC_Socialist_Transformation_update = yes
 		}
 		priority = 30
 	   	cost = 50
@@ -1034,7 +1034,7 @@ PRC_50s_The_Road_to_Socialism_categories = {
             PRC_faction_struggle_system_faction_influence_change = yes
 			custom_effect_tooltip = PRC_50s_socialist_transformation_effect_in
 			set_temp_variable = { temp_x = 1 }
-			PRC_socialist_transformation_update = yes
+			PRC_Socialist_Transformation_update = yes
 		}
 		priority = 30
 	   	cost = 50
@@ -1065,7 +1065,7 @@ PRC_50s_The_Road_to_Socialism_categories = {
             set_temp_variable = { temp_y = 2 }
             PRC_faction_struggle_system_faction_influence_change = yes
 			set_temp_variable = { temp_x = -2 }
-			PRC_socialist_transformation_update = yes
+			PRC_Socialist_Transformation_update = yes
 		}
 		priority = 25
 	   	cost = 50
@@ -1096,7 +1096,7 @@ PRC_50s_The_Road_to_Socialism_categories = {
             set_temp_variable = { temp_y = 2 }
             PRC_faction_struggle_system_faction_influence_change = yes
 			set_temp_variable = { temp_x = 2 }
-			PRC_socialist_transformation_update = yes
+			PRC_Socialist_Transformation_update = yes
 		}
 		priority = 25
 	   	cost = 50

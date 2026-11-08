@@ -460,6 +460,7 @@ focus_tree = {
     }
     focus = {
         id = ETR_People's_War
+        text = ICX_fx_ETR_Peoples_War
         icon = GFX_ETR_People's_War
         cost = 4
         x = 1

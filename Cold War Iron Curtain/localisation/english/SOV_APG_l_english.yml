@@ -34,7 +34,7 @@
  SOV_patolichev_readmisiion:0 "Support for Patolichev Readmission"
  SOV_shyakhmetov_readmisiion:0 "Propose for Shyakhmetov Readmission"
  SOV_reorg_kgb:0 "Reorganization of a CSS (KGB)"
- SOV_ivashutin_kgb_head:0 "Nominate Ivashutin as a chairman".
+ SOV_ivashutin_kgb_head:0 "Nominate Ivashutin as chairman."
  SOV_clean_beria_kgb_remn:0 "Cleanup all Beria remnants"
  SOV_analyze_kgb:0 "Analyze CSS potential"
  SOV_reorg_secretariat:0 "Reorganization of a Secretariat"
@@ -69,7 +69,7 @@
  SOV_patolichev_readmisiion_desc:0 ""
  SOV_shyakhmetov_readmisiion_desc:0 ""
  SOV_reorg_kgb_desc:0 ""
- SOV_ivashutin_kgb_head_desc:0 "".
+ SOV_ivashutin_kgb_head_desc:0 ""
  SOV_clean_beria_kgb_remn_desc:0 ""
  SOV_analyze_kgb_desc:0 ""
  SOV_reorg_secretariat_desc:0 ""

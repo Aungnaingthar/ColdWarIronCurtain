@@ -26,6 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_All_for_the_Front!
+		text = ICX_fx_RUS_ANPILOV_All_for_the_Front
 		icon = GFX_generic_focus_politics_signed_decree
 		cost = 10.00
 		prerequisite = {
@@ -335,6 +336,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ANPILOV_Shoot_the_Embezzlers_Crooks_and_Thieves!
+		text = ICX_fx_RUS_ANPILOV_Shoot_the_Embezzlers_Crooks_and_Thieves
 		icon = GFX_MI_8_Shoot_Down
 		cost = 10.00
 		prerequisite = {

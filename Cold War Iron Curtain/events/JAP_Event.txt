@@ -160,7 +160,7 @@ add_namespace = JAP_reconstruction
                 promote_character = JAP_eisaku_sato
                 set_country_flag = JAP_Eisaku_Sato_Prime_Minister
                 mark_focus_tree_layout_dirty = yes
-                complete_national_focus = JAP_The_Sato_Administration
+                complete_national_focus = JAP_Sato_Administration
             }
         }
         option = {

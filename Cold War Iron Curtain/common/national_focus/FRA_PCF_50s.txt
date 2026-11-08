@@ -335,6 +335,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Minister_Étienne_Fajon 
+		text = ICX_fx_PCF_FRA_50s_Minister_Etienne_Fajon
 		icon = GFX_generic_focus_politics_sealed_letter
 		cost = 3.00
 		prerequisite = {
@@ -841,6 +842,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PCF_FRA_50s_Form_Second_People's_Front
+		text = ICX_fx_PCF_FRA_50s_Form_Second_Peoples_Front
 		icon = GFX_generic_focus_politics_scrutinised_document
 		cost = 2.00
 		prerequisite = {

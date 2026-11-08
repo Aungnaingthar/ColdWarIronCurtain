@@ -1052,7 +1052,7 @@ Haig88.1.d: "Truly, the United States under President Alexander Haig has been tr
  sdiFunds_cost_150: "§G$150B§! Funds"
  sdiFunds_cost_150_blocked: "§R$150B§! Funds"
  sdi_effect_tt: "Multiplies space spending by §R5%§!"
- sdi_increase_funding_effect_tt: "Increases Project §YFunding§! by §G$100B§! However it increases our Space spending policy by "§R5%§!
+ sdi_increase_funding_effect_tt: "Increases Project §YFunding§! by §G$100B§! However it increases our Space spending policy by §R5%§!"
  SAF_effect_tt: "Increases Space Expenditures by §R5%§!"
  SDI_recruit_scientists: "Recruit Scientists and Contractors"
  SDI_recruit_scientists_effect_tt: "Reduces §YFunds§! by §R$50B§! but increases §GProject Progress§"

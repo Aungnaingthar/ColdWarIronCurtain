@@ -4447,6 +4447,7 @@
 	}
 	shared_focus = {
 		id = USA_FP84_A_World_without_Nukes?
+		text = ICX_fx_USA_FP84_A_World_without_Nukes
 		text_icon = USA_focus_style
 		icon = GFX_generic_focus_politics_signed_decree
 		cost = 2

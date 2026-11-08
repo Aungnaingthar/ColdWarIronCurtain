@@ -2446,7 +2446,7 @@ date > 1956.08.20
 	}
 	completion_reward = {
 		remove_ideas = PRC_50s_Urban_and_Rural_Party_Organisations
-        remove_ideas = PRC_50s_Improvement_of_The_Status_of_Workers
+        remove_ideas = PRC_50s_Improvement_of_the_Status_of_Workers
         remove_ideas = PRC_50s_New_Intellectuals
         remove_ideas = PRC_50s_New_People_s_Constitution
         remove_ideas = PRC_Socialist_Economic_Foundation
@@ -9584,7 +9584,7 @@ shared_focus = {
         effect_tooltip = {
             add_political_power = 200
             add_war_support = 0.5
-            add_ideas = PRC_50s_Suppress_Internal_Antiparty_Elements
+            add_ideas = PRC_50s_Suppress_Internal_Anti-party_Elements
         }
     }
     ai_will_do = {

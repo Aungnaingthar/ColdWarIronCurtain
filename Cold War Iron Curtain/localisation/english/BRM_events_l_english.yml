@@ -140,9 +140,7 @@
  BRM_arms_imports:0 "Foreign Arms Imports"
  BRM_arms_imports_desc:0 "Imported weapons are reaching the front."
  brmfin.1.t:0 "A Loan for [BRM_loan_partner.GetName]"
- brmfin.1.d:0 "How much should we offer [BRM_loan_partner.GetName]? The loan carries 5% interest a year and is repaid monthly over 10 years, so they will pay back half as much again as they borrow.
-
-The money leaves our treasury §Ynow§!. If they refuse, it comes back."
+ brmfin.1.d:0 "How much should we offer [BRM_loan_partner.GetName]? The loan carries 5% interest a year and is repaid monthly over 10 years, so they will pay back half as much again as they borrow.\n\nThe money leaves our treasury §Ynow§!. If they refuse, it comes back."
  brmfin.1.a:0 "Offer $0.5 billion."
  brmfin.1.b:0 "Offer $1 billion."
  brmfin.1.c:0 "Offer $2 billion."

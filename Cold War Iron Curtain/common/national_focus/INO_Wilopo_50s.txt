@@ -456,7 +456,7 @@ focus_tree = {
 			set_temp_variable = {
 	            Credit_Progress_Adjuster = 5
             }
-			Increase_credit_rating_progress = yes
+			increase_credit_rating_progress = yes
 			every_owned_state = {
 				add_extra_state_shared_building_slots = 2
 			}
@@ -599,7 +599,7 @@ focus_tree = {
 			set_temp_variable = {
 	            Credit_Progress_Adjuster = 15
             }
-			Increase_credit_rating_progress = yes
+			increase_credit_rating_progress = yes
 			add_popularity = {
                 ideology = communism
                 popularity = 0.05
@@ -639,7 +639,7 @@ focus_tree = {
 			set_temp_variable = {
 	            Credit_Progress_Adjuster = 15
             }
-			Increase_credit_rating_progress = yes
+			increase_credit_rating_progress = yes
 			add_popularity = {
                 ideology = communism
                 popularity = 0.05

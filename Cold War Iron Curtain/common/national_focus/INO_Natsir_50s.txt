@@ -240,7 +240,7 @@ focus_tree = {
 			set_temp_variable = {
 	            Credit_Progress_Adjuster = 5
             }
-			Increase_credit_rating_progress = yes
+			increase_credit_rating_progress = yes
 			every_owned_state = {
                 set_temp_variable = { INO_Party_SUPPORT_LOCAL^6 = -0.05 }
             }
@@ -614,7 +614,7 @@ focus_tree = {
 			set_temp_variable = {
 	            Credit_Progress_Adjuster = 10
             }
-			Increase_credit_rating_progress = yes
+			increase_credit_rating_progress = yes
 		}
 	}
 	focus = {
@@ -636,7 +636,7 @@ focus_tree = {
 			set_temp_variable = {
 	            Credit_Progress_Adjuster = 5
             }
-			Increase_credit_rating_progress = yes
+			increase_credit_rating_progress = yes
 		}
 	}
 	focus = {
@@ -654,7 +654,7 @@ focus_tree = {
 			set_temp_variable = {
 	            Credit_Progress_Adjuster = 5
             }
-			Increase_credit_rating_progress = yes
+			increase_credit_rating_progress = yes
 			1981 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -726,7 +726,7 @@ focus_tree = {
 			set_temp_variable = {
 	            Credit_Progress_Adjuster = 5
             }
-			Increase_credit_rating_progress = yes
+			increase_credit_rating_progress = yes
 			add_timed_idea = {
                 idea = INO_Sumitro_Plan_Spirit
                 days = 200
@@ -752,7 +752,7 @@ focus_tree = {
 			set_temp_variable = {
 	            Credit_Progress_Adjuster = 5
             }
-			Increase_credit_rating_progress = yes
+			increase_credit_rating_progress = yes
 			842 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
