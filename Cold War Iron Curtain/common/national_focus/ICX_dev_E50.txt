@@ -77,7 +77,7 @@ shared_focus = { id = ICX_AFG_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_AFG_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 67 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_AFG_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 67 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_AFG_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -220,7 +220,7 @@ shared_focus = { id = ICX_1950s_Albania_Anti_Communist_E50_11 text = ICX_E50_11 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_1950s_Albania_Anti_Communist_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_1950s_Albania_Anti_Communist_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_1950s_Albania_Anti_Communist_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -363,7 +363,7 @@ shared_focus = { id = ICX_1950s_Albania_Communist_E50_11 text = ICX_E50_11 icon 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_1950s_Albania_Communist_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 55 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_1950s_Albania_Communist_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 55 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_1950s_Albania_Communist_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -506,7 +506,7 @@ shared_focus = { id = ICX_1950s_BUL_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_1950s_BUL_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 64 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_1950s_BUL_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 64 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_1950s_BUL_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -649,7 +649,7 @@ shared_focus = { id = ICX_1950s_CAN_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_1950s_CAN_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 75 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_1950s_CAN_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 75 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_1950s_CAN_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -792,7 +792,7 @@ shared_focus = { id = ICX_1950s_CZE_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_1950s_CZE_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 56 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_1950s_CZE_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 56 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_1950s_CZE_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -935,7 +935,7 @@ shared_focus = { id = ICX_1950s_Hungary_E50_11 text = ICX_E50_11 icon = GFX_gene
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_1950s_Hungary_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 53 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_1950s_Hungary_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 53 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_1950s_Hungary_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -1078,7 +1078,7 @@ shared_focus = { id = ICX_1950s_ROM_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_1950s_ROM_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_1950s_ROM_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_1950s_ROM_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -1221,7 +1221,7 @@ shared_focus = { id = ICX_DDR_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_DDR_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 56 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_DDR_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 56 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_DDR_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -1364,7 +1364,7 @@ shared_focus = { id = ICX_ETH_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ETH_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 44 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ETH_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 44 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ETH_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -1507,7 +1507,7 @@ shared_focus = { id = ICX_FIN_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_FIN_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 65 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_FIN_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 65 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_FIN_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -1650,7 +1650,7 @@ shared_focus = { id = ICX_50s_Formosa_E50_11 text = ICX_E50_11 icon = GFX_generi
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_50s_Formosa_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 81 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_50s_Formosa_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 81 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_50s_Formosa_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -1793,7 +1793,7 @@ shared_focus = { id = ICX_50s_GHA_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_50s_GHA_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 79 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_50s_GHA_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 79 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_50s_GHA_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -1936,7 +1936,7 @@ shared_focus = { id = ICX_GRE_50_E50_11 text = ICX_E50_11 icon = GFX_generic_foc
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GRE_50_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 80 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GRE_50_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 80 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GRE_50_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -2079,7 +2079,7 @@ shared_focus = { id = ICX_IRQ_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_IRQ_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 81 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_IRQ_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 81 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_IRQ_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -2222,7 +2222,7 @@ shared_focus = { id = ICX_50s_JOR_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_50s_JOR_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 56 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_50s_JOR_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 56 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_50s_JOR_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -2365,7 +2365,7 @@ shared_focus = { id = ICX_KEN_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KEN_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 56 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KEN_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 56 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KEN_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -2508,7 +2508,7 @@ shared_focus = { id = ICX_50s_KRD_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_50s_KRD_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 87 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_50s_KRD_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 87 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_50s_KRD_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -2651,7 +2651,7 @@ shared_focus = { id = ICX_50s_LAO_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_50s_LAO_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 72 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_50s_LAO_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 72 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_50s_LAO_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -2794,7 +2794,7 @@ shared_focus = { id = ICX_50s_LBA_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_50s_LBA_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_50s_LBA_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_50s_LBA_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -2937,7 +2937,7 @@ shared_focus = { id = ICX_50s_MEN_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_50s_MEN_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 41 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_50s_MEN_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 41 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_50s_MEN_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -3080,7 +3080,7 @@ shared_focus = { id = ICX_NGA_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_NGA_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 52 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_NGA_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 52 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_NGA_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -3223,7 +3223,7 @@ shared_focus = { id = ICX_50s_NIC_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_50s_NIC_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 52 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_50s_NIC_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 52 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_50s_NIC_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -3366,7 +3366,7 @@ shared_focus = { id = ICX_50s_PAK_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_50s_PAK_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 49 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_50s_PAK_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 49 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_50s_PAK_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -3509,7 +3509,7 @@ shared_focus = { id = ICX_50s_PAR_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_50s_PAR_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 54 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_50s_PAR_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 54 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_50s_PAR_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -3652,7 +3652,7 @@ shared_focus = { id = ICX_1950s_IRAN_E50_11 text = ICX_E50_11 icon = GFX_generic
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_1950s_IRAN_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 61 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_1950s_IRAN_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 61 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_1950s_IRAN_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -3795,7 +3795,7 @@ shared_focus = { id = ICX_50s_SRT_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_50s_SRT_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 87 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_50s_SRT_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 87 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_50s_SRT_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -3938,7 +3938,7 @@ shared_focus = { id = ICX_50s_TUR_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_50s_TUR_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 55 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_50s_TUR_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 55 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_50s_TUR_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -4081,7 +4081,7 @@ shared_focus = { id = ICX_ZIM_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ZIM_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 79 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ZIM_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 79 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ZIM_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -4224,7 +4224,7 @@ shared_focus = { id = ICX_ADR_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ADR_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 72 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ADR_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 72 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ADR_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -4367,7 +4367,7 @@ shared_focus = { id = ICX_BAH_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BAH_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BAH_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BAH_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -4510,7 +4510,7 @@ shared_focus = { id = ICX_BAN_East_Pakistan_Cofederation_E50_11 text = ICX_E50_1
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BAN_East_Pakistan_Cofederation_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 39 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BAN_East_Pakistan_Cofederation_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 39 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BAN_East_Pakistan_Cofederation_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -4653,7 +4653,7 @@ shared_focus = { id = ICX_BCP_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BCP_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 79 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BCP_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 79 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BCP_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -4796,7 +4796,7 @@ shared_focus = { id = ICX_BEL_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BEL_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 90 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BEL_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 90 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BEL_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -4939,7 +4939,7 @@ shared_focus = { id = ICX_BHU_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BHU_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 42 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BHU_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 42 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BHU_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -5082,7 +5082,7 @@ shared_focus = { id = ICX_BLZ_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BLZ_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 38 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BLZ_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 38 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BLZ_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -5225,7 +5225,7 @@ shared_focus = { id = ICX_BRA_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BRA_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BRA_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BRA_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -5368,7 +5368,7 @@ shared_focus = { id = ICX_Brunei_initial_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Brunei_initial_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 41 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Brunei_initial_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 41 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Brunei_initial_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -5511,7 +5511,7 @@ shared_focus = { id = ICX_1950s_Cambodia_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_1950s_Cambodia_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 64 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_1950s_Cambodia_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 64 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_1950s_Cambodia_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -5654,7 +5654,7 @@ shared_focus = { id = ICX_CCC_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_CCC_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 26 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_CCC_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 26 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_CCC_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -5797,7 +5797,7 @@ shared_focus = { id = ICX_COS_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_COS_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 58 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_COS_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 58 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_COS_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -5940,7 +5940,7 @@ shared_focus = { id = ICX_Colombia_1949_1953_National_Focus_E50_11 text = ICX_E5
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Colombia_1949_1953_National_Focus_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 32 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Colombia_1949_1953_National_Focus_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 32 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Colombia_1949_1953_National_Focus_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -6083,7 +6083,7 @@ shared_focus = { id = ICX_Congo_60s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Congo_60s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 54 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Congo_60s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 54 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Congo_60s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -6226,7 +6226,7 @@ shared_focus = { id = ICX_Cuba_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_f
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Cuba_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Cuba_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Cuba_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -6369,7 +6369,7 @@ shared_focus = { id = ICX_DOM_49_E50_11 text = ICX_E50_11 icon = GFX_generic_foc
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_DOM_49_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 75 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_DOM_49_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 75 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_DOM_49_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -6512,7 +6512,7 @@ shared_focus = { id = ICX_EBM_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_EBM_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 25 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_EBM_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 25 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_EBM_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -6655,7 +6655,7 @@ shared_focus = { id = ICX_EGY_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_EGY_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 64 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_EGY_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 64 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_EGY_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -6798,7 +6798,7 @@ shared_focus = { id = ICX_ETR_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ETR_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 67 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ETR_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 67 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ETR_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -6941,7 +6941,7 @@ shared_focus = { id = ICX_ETR_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ETR_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 26 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ETR_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 26 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ETR_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -7084,7 +7084,7 @@ shared_focus = { id = ICX_FRA_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_FRA_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 65 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_FRA_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 65 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_FRA_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -7227,7 +7227,7 @@ shared_focus = { id = ICX_FRA_PCF_50s_E50_11 text = ICX_E50_11 icon = GFX_generi
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_FRA_PCF_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 124 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_FRA_PCF_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 124 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_FRA_PCF_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -7370,7 +7370,7 @@ shared_focus = { id = ICX_FRA_SOV_50s_E50_11 text = ICX_E50_11 icon = GFX_generi
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_FRA_SOV_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 76 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_FRA_SOV_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 76 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_FRA_SOV_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -7513,7 +7513,7 @@ shared_focus = { id = ICX_FRE_50s_Indochina_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_FRE_50s_Indochina_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 49 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_FRE_50s_Indochina_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 49 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_FRE_50s_Indochina_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -7656,7 +7656,7 @@ shared_focus = { id = ICX_FUL_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_FUL_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 29 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_FUL_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 29 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_FUL_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -7799,7 +7799,7 @@ shared_focus = { id = ICX_GDR_1953_Dahlem_E50_11 text = ICX_E50_11 icon = GFX_ge
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1953_Dahlem_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1953_Dahlem_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1953_Dahlem_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -7942,7 +7942,7 @@ shared_focus = { id = ICX_GDR_1953_Grotewohl_E50_11 text = ICX_E50_11 icon = GFX
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1953_Grotewohl_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1953_Grotewohl_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1953_Grotewohl_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -8085,7 +8085,7 @@ shared_focus = { id = ICX_GDR_1953_Herrnstadt_E50_11 text = ICX_E50_11 icon = GF
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1953_Herrnstadt_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1953_Herrnstadt_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1953_Herrnstadt_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -8228,7 +8228,7 @@ shared_focus = { id = ICX_GDR_1953_Niekisch_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1953_Niekisch_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1953_Niekisch_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1953_Niekisch_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -8371,7 +8371,7 @@ shared_focus = { id = ICX_GDR_1953_Nuschke_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1953_Nuschke_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1953_Nuschke_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1953_Nuschke_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -8514,7 +8514,7 @@ shared_focus = { id = ICX_GDR_1953_Reimann_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1953_Reimann_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1953_Reimann_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1953_Reimann_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -8657,7 +8657,7 @@ shared_focus = { id = ICX_GDR_1953_Schirdewan_E50_11 text = ICX_E50_11 icon = GF
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1953_Schirdewan_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1953_Schirdewan_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1953_Schirdewan_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -8800,7 +8800,7 @@ shared_focus = { id = ICX_GDR_1953_Ulbricht_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1953_Ulbricht_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1953_Ulbricht_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1953_Ulbricht_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -8943,7 +8943,7 @@ shared_focus = { id = ICX_GDR_1953_Wirth_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1953_Wirth_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1953_Wirth_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1953_Wirth_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -9086,7 +9086,7 @@ shared_focus = { id = ICX_GDR_1955_Adam_E50_11 text = ICX_E50_11 icon = GFX_gene
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1955_Adam_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1955_Adam_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1955_Adam_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -9229,7 +9229,7 @@ shared_focus = { id = ICX_GDR_1955_Gerlach_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1955_Gerlach_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1955_Gerlach_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1955_Gerlach_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -9372,7 +9372,7 @@ shared_focus = { id = ICX_GDR_1955_Nuschke_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1955_Nuschke_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1955_Nuschke_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1955_Nuschke_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -9515,7 +9515,7 @@ shared_focus = { id = ICX_GDR_1955_Oelsner_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1955_Oelsner_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1955_Oelsner_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1955_Oelsner_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -9658,7 +9658,7 @@ shared_focus = { id = ICX_GDR_1956_Ackerman_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1956_Ackerman_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1956_Ackerman_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1956_Ackerman_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -9801,7 +9801,7 @@ shared_focus = { id = ICX_GDR_1956_Steinhoff_E50_11 text = ICX_E50_11 icon = GFX
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1956_Steinhoff_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1956_Steinhoff_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1956_Steinhoff_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -9944,7 +9944,7 @@ shared_focus = { id = ICX_GDR_1957_Neumann_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1957_Neumann_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1957_Neumann_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1957_Neumann_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -10087,7 +10087,7 @@ shared_focus = { id = ICX_GDR_Initial_Political_E50_11 text = ICX_E50_11 icon = 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_Initial_Political_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 60 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_Initial_Political_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 60 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_Initial_Political_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -10230,7 +10230,7 @@ shared_focus = { id = ICX_COM_GREECE_E50_11 text = ICX_E50_11 icon = GFX_generic
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_COM_GREECE_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 76 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_COM_GREECE_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 76 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_COM_GREECE_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -10373,7 +10373,7 @@ shared_focus = { id = ICX_HUK_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_HUK_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_HUK_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_HUK_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -10516,7 +10516,7 @@ shared_focus = { id = ICX_HUK_insurgency_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_HUK_insurgency_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 20 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_HUK_insurgency_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 20 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_HUK_insurgency_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -10659,7 +10659,7 @@ shared_focus = { id = ICX_HUM_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_HUM_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 33 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_HUM_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 33 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_HUM_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -10802,7 +10802,7 @@ shared_focus = { id = ICX_INDIA_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_INDIA_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 60 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_INDIA_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 60 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_INDIA_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -10945,7 +10945,7 @@ shared_focus = { id = ICX_Indonesia_50s_E50_11 text = ICX_E50_11 icon = GFX_gene
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Indonesia_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 15 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Indonesia_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 15 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Indonesia_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -11088,7 +11088,7 @@ shared_focus = { id = ICX_INO_Hatta_50s_E50_11 text = ICX_E50_11 icon = GFX_gene
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_INO_Hatta_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_INO_Hatta_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_INO_Hatta_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -11231,7 +11231,7 @@ shared_focus = { id = ICX_INO_LIB_50s_E50_11 text = ICX_E50_11 icon = GFX_generi
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_INO_LIB_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_INO_LIB_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_INO_LIB_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -11374,7 +11374,7 @@ shared_focus = { id = ICX_INO_Natsir_50s_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_INO_Natsir_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_INO_Natsir_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_INO_Natsir_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -11517,7 +11517,7 @@ shared_focus = { id = ICX_INO_Soekiman_50s_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_INO_Soekiman_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_INO_Soekiman_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_INO_Soekiman_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -11660,7 +11660,7 @@ shared_focus = { id = ICX_INO_Wilopo_50s_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_INO_Wilopo_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_INO_Wilopo_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 46 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_INO_Wilopo_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -11803,7 +11803,7 @@ shared_focus = { id = ICX_IRQ_Qasim_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_IRQ_Qasim_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 48 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_IRQ_Qasim_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 48 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_IRQ_Qasim_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -11946,7 +11946,7 @@ shared_focus = { id = ICX_ITALY_1950s_E50_11 text = ICX_E50_11 icon = GFX_generi
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ITALY_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 50 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ITALY_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 50 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ITALY_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -12089,7 +12089,7 @@ shared_focus = { id = ICX_JAP_alt_history_focus_tree_E50_11 text = ICX_E50_11 ic
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_JAP_alt_history_focus_tree_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 40 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_JAP_alt_history_focus_tree_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 40 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_JAP_alt_history_focus_tree_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -12232,7 +12232,7 @@ shared_focus = { id = ICX_Japan_historical_focus_tree_E50_11 text = ICX_E50_11 i
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Japan_historical_focus_tree_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 58 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Japan_historical_focus_tree_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 58 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Japan_historical_focus_tree_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -12375,7 +12375,7 @@ shared_focus = { id = ICX_KMT_1950s_Victory_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KMT_1950s_Victory_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 87 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KMT_1950s_Victory_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 87 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KMT_1950s_Victory_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -12518,7 +12518,7 @@ shared_focus = { id = ICX_KMT_Burma_50s_E50_11 text = ICX_E50_11 icon = GFX_gene
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KMT_Burma_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 34 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KMT_Burma_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 34 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KMT_Burma_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -12661,7 +12661,7 @@ shared_focus = { id = ICX_ROC_50s_Civil_War_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ROC_50s_Civil_War_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ROC_50s_Civil_War_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ROC_50s_Civil_War_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -12804,7 +12804,7 @@ shared_focus = { id = ICX_KOR_50s_North_Korea_E50_11 text = ICX_E50_11 icon = GF
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_50s_North_Korea_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 24 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_50s_North_Korea_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 24 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_50s_North_Korea_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -12947,7 +12947,7 @@ shared_focus = { id = ICX_KOR_Chang_Myon_1952_E50_11 text = ICX_E50_11 icon = GF
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Chang_Myon_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Chang_Myon_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Chang_Myon_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -13090,7 +13090,7 @@ shared_focus = { id = ICX_KOR_Chang_Taeksang_1952_E50_11 text = ICX_E50_11 icon 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Chang_Taeksang_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Chang_Taeksang_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Chang_Taeksang_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -13233,7 +13233,7 @@ shared_focus = { id = ICX_KOR_Chang_Taeksang_1956_E50_11 text = ICX_E50_11 icon 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Chang_Taeksang_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Chang_Taeksang_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Chang_Taeksang_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -13376,7 +13376,7 @@ shared_focus = { id = ICX_KOR_Cho_Bongam_1956_E50_11 text = ICX_E50_11 icon = GF
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Cho_Bongam_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Cho_Bongam_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Cho_Bongam_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -13519,7 +13519,7 @@ shared_focus = { id = ICX_KOR_Chough_Pyungok_1956_E50_11 text = ICX_E50_11 icon 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Chough_Pyungok_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Chough_Pyungok_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Chough_Pyungok_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -13662,7 +13662,7 @@ shared_focus = { id = ICX_KOR_Chough_Pyungok_1956_RD_E50_11 text = ICX_E50_11 ic
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Chough_Pyungok_1956_RD_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Chough_Pyungok_1956_RD_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Chough_Pyungok_1956_RD_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -13805,7 +13805,7 @@ shared_focus = { id = ICX_KOR_Jang_Joonha_1956_E50_11 text = ICX_E50_11 icon = G
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Jang_Joonha_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Jang_Joonha_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Jang_Joonha_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -13948,7 +13948,7 @@ shared_focus = { id = ICX_KOR_Kim_Koo_1952_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Kim_Koo_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Kim_Koo_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Kim_Koo_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -14091,7 +14091,7 @@ shared_focus = { id = ICX_KOR_Kim_Koo_1956_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Kim_Koo_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Kim_Koo_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Kim_Koo_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -14234,7 +14234,7 @@ shared_focus = { id = ICX_KOR_Kim_Seongsu_1952_E50_11 text = ICX_E50_11 icon = G
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Kim_Seongsu_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Kim_Seongsu_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Kim_Seongsu_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -14377,7 +14377,7 @@ shared_focus = { id = ICX_KOR_Lee_Beomseok_1952_E50_11 text = ICX_E50_11 icon = 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Lee_Beomseok_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Lee_Beomseok_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Lee_Beomseok_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -14520,7 +14520,7 @@ shared_focus = { id = ICX_KOR_Lee_Beomseok_1956_E50_11 text = ICX_E50_11 icon = 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Lee_Beomseok_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Lee_Beomseok_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Lee_Beomseok_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -14663,7 +14663,7 @@ shared_focus = { id = ICX_KOR_Syngman_Rhee_1948_E50_11 text = ICX_E50_11 icon = 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Syngman_Rhee_1948_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Syngman_Rhee_1948_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Syngman_Rhee_1948_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -14806,7 +14806,7 @@ shared_focus = { id = ICX_KOR_Syngman_Rhee_1952_E50_11 text = ICX_E50_11 icon = 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Syngman_Rhee_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Syngman_Rhee_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Syngman_Rhee_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -14949,7 +14949,7 @@ shared_focus = { id = ICX_KOR_Syngman_Rhee_1956_E50_11 text = ICX_E50_11 icon = 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Syngman_Rhee_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Syngman_Rhee_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Syngman_Rhee_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -15092,7 +15092,7 @@ shared_focus = { id = ICX_KOR_Yi_Siyeong_1952_E50_11 text = ICX_E50_11 icon = GF
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Yi_Siyeong_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Yi_Siyeong_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Yi_Siyeong_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -15235,7 +15235,7 @@ shared_focus = { id = ICX_KPA_50s_Political_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KPA_50s_Political_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 48 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KPA_50s_Political_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 48 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KPA_50s_Political_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -15378,7 +15378,7 @@ shared_focus = { id = ICX_KPA_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KPA_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 48 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KPA_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 48 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KPA_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -15521,7 +15521,7 @@ shared_focus = { id = ICX_LIB_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_LIB_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 78 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_LIB_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 78 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_LIB_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -15664,7 +15664,7 @@ shared_focus = { id = ICX_Lebanon_1950s_E50_11 text = ICX_E50_11 icon = GFX_gene
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Lebanon_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 54 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Lebanon_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 54 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Lebanon_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -15807,7 +15807,7 @@ shared_focus = { id = ICX_MAL_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_MAL_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 73 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_MAL_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 73 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_MAL_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -15950,7 +15950,7 @@ shared_focus = { id = ICX_MEO_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_MEO_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 24 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_MEO_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 24 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_MEO_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -16093,7 +16093,7 @@ shared_focus = { id = ICX_MLA_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_MLA_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 85 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_MLA_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 85 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_MLA_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -16236,7 +16236,7 @@ shared_focus = { id = ICX_MLA_Initial_Emergency_E50_11 text = ICX_E50_11 icon = 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_MLA_Initial_Emergency_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 33 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_MLA_Initial_Emergency_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 33 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_MLA_Initial_Emergency_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -16379,7 +16379,7 @@ shared_focus = { id = ICX_MON_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_MON_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_MON_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_MON_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -16522,7 +16522,7 @@ shared_focus = { id = ICX_MOR_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_MOR_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_MOR_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 51 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_MOR_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -16665,7 +16665,7 @@ shared_focus = { id = ICX_NBO_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_NBO_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 43 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_NBO_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 43 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_NBO_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -16808,7 +16808,7 @@ shared_focus = { id = ICX_NUN_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_NUN_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 34 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_NUN_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 34 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_NUN_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -16951,7 +16951,7 @@ shared_focus = { id = ICX_PRC_50s_OUTDATE_E50_11 text = ICX_E50_11 icon = GFX_ge
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PRC_50s_OUTDATE_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 82 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PRC_50s_OUTDATE_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 82 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PRC_50s_OUTDATE_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -17094,7 +17094,7 @@ shared_focus = { id = ICX_PHI_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PHI_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 80 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PHI_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 80 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PHI_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -17237,7 +17237,7 @@ shared_focus = { id = ICX_Portugal_1950s_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Portugal_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 80 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Portugal_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 80 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Portugal_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -17380,7 +17380,7 @@ shared_focus = { id = ICX_PQC_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PQC_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 21 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PQC_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 21 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PQC_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -17523,7 +17523,7 @@ shared_focus = { id = ICX_PRC_National_Focus_E50_11 text = ICX_E50_11 icon = GFX
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PRC_National_Focus_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 86 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PRC_National_Focus_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 86 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PRC_National_Focus_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -17666,7 +17666,7 @@ shared_focus = { id = ICX_PRC_50s_Interim_E50_11 text = ICX_E50_11 icon = GFX_ge
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PRC_50s_Interim_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 24 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PRC_50s_Interim_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 24 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PRC_50s_Interim_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -17809,7 +17809,7 @@ shared_focus = { id = ICX_PRC_SOV_50s_E50_11 text = ICX_E50_11 icon = GFX_generi
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PRC_SOV_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 82 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PRC_SOV_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 82 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PRC_SOV_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -17952,7 +17952,7 @@ shared_focus = { id = ICX_Poland_1949_E50_11 text = ICX_E50_11 icon = GFX_generi
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Poland_1949_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 55 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Poland_1949_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 55 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Poland_1949_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -18095,7 +18095,7 @@ shared_focus = { id = ICX_QAT_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_QAT_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 52 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_QAT_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 52 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_QAT_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -18238,7 +18238,7 @@ shared_focus = { id = ICX_ROC_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ROC_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 88 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ROC_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 88 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ROC_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -18381,7 +18381,7 @@ shared_focus = { id = ICX_ROM_50s_Gheorghe_Georghiu_Dejs_E50_11 text = ICX_E50_1
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ROM_50s_Gheorghe_Georghiu_Dejs_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 19 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ROM_50s_Gheorghe_Georghiu_Dejs_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 19 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ROM_50s_Gheorghe_Georghiu_Dejs_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -18524,7 +18524,7 @@ shared_focus = { id = ICX_SAF_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SAF_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 66 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SAF_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 66 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SAF_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -18667,7 +18667,7 @@ shared_focus = { id = ICX_SAU_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SAU_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 61 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SAU_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 61 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SAU_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -18810,7 +18810,7 @@ shared_focus = { id = ICX_SIA_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SIA_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 72 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SIA_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 72 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SIA_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -18953,7 +18953,7 @@ shared_focus = { id = ICX_SIK_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SIK_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 27 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SIK_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 27 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SIK_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -19096,7 +19096,7 @@ shared_focus = { id = ICX_SMK_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SMK_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 15 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SMK_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 15 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SMK_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -19239,7 +19239,7 @@ shared_focus = { id = ICX_SOV_Beria_Malenkov_E50_11 text = ICX_E50_11 icon = GFX
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SOV_Beria_Malenkov_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 128 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SOV_Beria_Malenkov_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 128 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SOV_Beria_Malenkov_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -19382,7 +19382,7 @@ shared_focus = { id = ICX_SOV_Beria_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SOV_Beria_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 34 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SOV_Beria_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 34 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SOV_Beria_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -19525,7 +19525,7 @@ shared_focus = { id = ICX_SOV_Bulganin_E50_11 text = ICX_E50_11 icon = GFX_gener
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SOV_Bulganin_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 20 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SOV_Bulganin_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 20 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SOV_Bulganin_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -19668,7 +19668,7 @@ shared_focus = { id = ICX_SOV_Kaganovich_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SOV_Kaganovich_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 38 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SOV_Kaganovich_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 38 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SOV_Kaganovich_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -19811,7 +19811,7 @@ shared_focus = { id = ICX_SOV_Molotov_E50_11 text = ICX_E50_11 icon = GFX_generi
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SOV_Molotov_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 28 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SOV_Molotov_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 28 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SOV_Molotov_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -19954,7 +19954,7 @@ shared_focus = { id = ICX_SOV_Stalin_E50_11 text = ICX_E50_11 icon = GFX_generic
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SOV_Stalin_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 39 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SOV_Stalin_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 39 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SOV_Stalin_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -20097,7 +20097,7 @@ shared_focus = { id = ICX_SOV_WW3_1950s_E50_11 text = ICX_E50_11 icon = GFX_gene
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SOV_WW3_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 32 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SOV_WW3_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 32 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SOV_WW3_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -20240,7 +20240,7 @@ shared_focus = { id = ICX_SWE_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SWE_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 44 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SWE_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 44 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SWE_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -20383,7 +20383,7 @@ shared_focus = { id = ICX_SWK_RAJ_50s_E50_11 text = ICX_E50_11 icon = GFX_generi
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SWK_RAJ_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 67 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SWK_RAJ_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 67 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SWK_RAJ_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -20526,7 +20526,7 @@ shared_focus = { id = ICX_Spain_1950s_E50_11 text = ICX_E50_11 icon = GFX_generi
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Spain_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 69 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Spain_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 69 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Spain_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -20669,7 +20669,7 @@ shared_focus = { id = ICX_TIB_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_TIB_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 60 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_TIB_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 60 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_TIB_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -20812,7 +20812,7 @@ shared_focus = { id = ICX_TIB_KMT_50s_E50_11 text = ICX_E50_11 icon = GFX_generi
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_TIB_KMT_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_TIB_KMT_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_TIB_KMT_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -20955,7 +20955,7 @@ shared_focus = { id = ICX_UGA_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_UGA_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 79 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_UGA_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 79 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_UGA_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -21098,7 +21098,7 @@ shared_focus = { id = ICX_UK50_E50_11 text = ICX_E50_11 icon = GFX_generic_focus
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_UK50_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 87 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_UK50_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 87 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_UK50_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -21241,7 +21241,7 @@ shared_focus = { id = ICX_USA_1950s_WW3_E50_11 text = ICX_E50_11 icon = GFX_gene
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_1950s_WW3_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 36 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_1950s_WW3_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 36 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_1950s_WW3_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -21384,7 +21384,7 @@ shared_focus = { id = ICX_USA_Dewey_1952_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Dewey_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Dewey_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Dewey_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -21527,7 +21527,7 @@ shared_focus = { id = ICX_USA_Dewey_1956_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Dewey_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Dewey_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Dewey_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -21670,7 +21670,7 @@ shared_focus = { id = ICX_USA_Eisenhower_1952_E50_11 text = ICX_E50_11 icon = GF
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Eisenhower_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Eisenhower_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Eisenhower_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -21813,7 +21813,7 @@ shared_focus = { id = ICX_USA_Eisenhower_1956_E50_11 text = ICX_E50_11 icon = GF
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Eisenhower_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Eisenhower_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Eisenhower_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -21956,7 +21956,7 @@ shared_focus = { id = ICX_USA_Eisenhower_DEM_1952_E50_11 text = ICX_E50_11 icon 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Eisenhower_DEM_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Eisenhower_DEM_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Eisenhower_DEM_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -22099,7 +22099,7 @@ shared_focus = { id = ICX_USA_Eisenhower_DEM_1956_E50_11 text = ICX_E50_11 icon 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Eisenhower_DEM_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Eisenhower_DEM_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Eisenhower_DEM_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -22242,7 +22242,7 @@ shared_focus = { id = ICX_USA_Halleck_1956_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Halleck_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Halleck_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Halleck_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -22385,7 +22385,7 @@ shared_focus = { id = ICX_USA_Harriman_1952_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Harriman_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Harriman_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Harriman_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -22528,7 +22528,7 @@ shared_focus = { id = ICX_USA_Harriman_1956_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Harriman_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Harriman_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Harriman_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -22671,7 +22671,7 @@ shared_focus = { id = ICX_USA_Kefauver_1952_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Kefauver_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Kefauver_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Kefauver_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -22814,7 +22814,7 @@ shared_focus = { id = ICX_USA_Kefauver_1956_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Kefauver_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Kefauver_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Kefauver_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -22957,7 +22957,7 @@ shared_focus = { id = ICX_USA_MacArthur_1952_E50_11 text = ICX_E50_11 icon = GFX
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_MacArthur_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_MacArthur_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_MacArthur_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -23100,7 +23100,7 @@ shared_focus = { id = ICX_USA_MacArthur_1956_E50_11 text = ICX_E50_11 icon = GFX
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_MacArthur_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_MacArthur_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_MacArthur_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -23243,7 +23243,7 @@ shared_focus = { id = ICX_USA_Martin_1956_E50_11 text = ICX_E50_11 icon = GFX_ge
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Martin_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Martin_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Martin_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -23386,7 +23386,7 @@ shared_focus = { id = ICX_USA_Nixon_1956_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Nixon_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Nixon_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Nixon_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -23529,7 +23529,7 @@ shared_focus = { id = ICX_USA_Russell_1952_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Russell_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Russell_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Russell_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -23672,7 +23672,7 @@ shared_focus = { id = ICX_USA_Russell_1956_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Russell_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Russell_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Russell_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -23815,7 +23815,7 @@ shared_focus = { id = ICX_USA_Stassen_1952_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Stassen_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Stassen_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Stassen_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -23958,7 +23958,7 @@ shared_focus = { id = ICX_USA_Stassen_1956_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Stassen_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Stassen_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Stassen_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -24101,7 +24101,7 @@ shared_focus = { id = ICX_USA_Stevenson_1952_E50_11 text = ICX_E50_11 icon = GFX
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Stevenson_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Stevenson_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Stevenson_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -24244,7 +24244,7 @@ shared_focus = { id = ICX_USA_Stevenson_1956_E50_11 text = ICX_E50_11 icon = GFX
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Stevenson_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Stevenson_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Stevenson_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -24387,7 +24387,7 @@ shared_focus = { id = ICX_USA_Truman_1948_E50_11 text = ICX_E50_11 icon = GFX_ge
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Truman_1948_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Truman_1948_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Truman_1948_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -24530,7 +24530,7 @@ shared_focus = { id = ICX_USA_Truman_1952_E50_11 text = ICX_E50_11 icon = GFX_ge
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Truman_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Truman_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Truman_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -24673,7 +24673,7 @@ shared_focus = { id = ICX_USA_Warren_1952_E50_11 text = ICX_E50_11 icon = GFX_ge
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Warren_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Warren_1952_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Warren_1952_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -24816,7 +24816,7 @@ shared_focus = { id = ICX_USA_Warren_1956_E50_11 text = ICX_E50_11 icon = GFX_ge
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Warren_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Warren_1956_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 129 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Warren_1956_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -24959,7 +24959,7 @@ shared_focus = { id = ICX_Uyghur_start_E50_11 text = ICX_E50_11 icon = GFX_gener
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Uyghur_start_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 25 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Uyghur_start_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 25 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Uyghur_start_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -25102,7 +25102,7 @@ shared_focus = { id = ICX_VIE_Bao_Dai_50_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_VIE_Bao_Dai_50_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_VIE_Bao_Dai_50_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_VIE_Bao_Dai_50_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -25245,7 +25245,7 @@ shared_focus = { id = ICX_VIE_CuongDe_50_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_VIE_CuongDe_50_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 59 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_VIE_CuongDe_50_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 59 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_VIE_CuongDe_50_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -25388,7 +25388,7 @@ shared_focus = { id = ICX_VIE_Initial_Political_49_E50_11 text = ICX_E50_11 icon
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_VIE_Initial_Political_49_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_VIE_Initial_Political_49_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 57 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_VIE_Initial_Political_49_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -25531,7 +25531,7 @@ shared_focus = { id = ICX_VIE_50s_French_Hinh_E50_11 text = ICX_E50_11 icon = GF
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_VIE_50s_French_Hinh_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 19 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_VIE_50s_French_Hinh_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 19 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_VIE_50s_French_Hinh_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -25674,7 +25674,7 @@ shared_focus = { id = ICX_VIN_1950s_E50_11 text = ICX_E50_11 icon = GFX_generic_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_VIN_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 136 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_VIN_1950s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 136 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_VIN_1950s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -25817,7 +25817,7 @@ shared_focus = { id = ICX_WGR_Adenauer_49_E50_11 text = ICX_E50_11 icon = GFX_ge
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_Adenauer_49_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 60 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_Adenauer_49_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 60 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_Adenauer_49_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -25960,7 +25960,7 @@ shared_focus = { id = ICX_WGR_Adenauer_53_E50_11 text = ICX_E50_11 icon = GFX_ge
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_Adenauer_53_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 62 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_Adenauer_53_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 62 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_Adenauer_53_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -26103,7 +26103,7 @@ shared_focus = { id = ICX_WGR_Adenauer_57_E50_11 text = ICX_E50_11 icon = GFX_ge
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_Adenauer_57_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 38 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_Adenauer_57_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 38 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_Adenauer_57_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -26246,7 +26246,7 @@ shared_focus = { id = ICX_WGR_CDU_Prov_E50_11 text = ICX_E50_11 icon = GFX_gener
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_CDU_Prov_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 37 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_CDU_Prov_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 37 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_CDU_Prov_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -26389,7 +26389,7 @@ shared_focus = { id = ICX_WGR_FDP_Prov_E50_11 text = ICX_E50_11 icon = GFX_gener
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_FDP_Prov_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 37 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_FDP_Prov_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 37 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_FDP_Prov_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -26532,7 +26532,7 @@ shared_focus = { id = ICX_WGR_Franke_53_E50_11 text = ICX_E50_11 icon = GFX_gene
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_Franke_53_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 47 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_Franke_53_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 47 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_Franke_53_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -26675,7 +26675,7 @@ shared_focus = { id = ICX_WGR_Franke_57_E50_11 text = ICX_E50_11 icon = GFX_gene
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_Franke_57_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 41 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_Franke_57_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 41 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_Franke_57_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -26818,7 +26818,7 @@ shared_focus = { id = ICX_WGR_Junta_Gehlen_E50_11 text = ICX_E50_11 icon = GFX_g
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_Junta_Gehlen_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 69 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_Junta_Gehlen_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 69 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_Junta_Gehlen_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -26961,7 +26961,7 @@ shared_focus = { id = ICX_WGR_Junta_Manstein_E50_11 text = ICX_E50_11 icon = GFX
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_Junta_Manstein_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 38 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_Junta_Manstein_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 38 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_Junta_Manstein_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -27104,7 +27104,7 @@ shared_focus = { id = ICX_WGR_Junta_Speidel_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_Junta_Speidel_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 59 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_Junta_Speidel_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 59 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_Junta_Speidel_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -27247,7 +27247,7 @@ shared_focus = { id = ICX_WGR_Ollenhauer_53_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_Ollenhauer_53_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 48 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_Ollenhauer_53_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 48 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_Ollenhauer_53_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -27390,7 +27390,7 @@ shared_focus = { id = ICX_WGR_Ollenhauer_57_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_Ollenhauer_57_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 38 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_Ollenhauer_57_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 38 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_Ollenhauer_57_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -27533,7 +27533,7 @@ shared_focus = { id = ICX_WGR_Reimann_49_E50_11 text = ICX_E50_11 icon = GFX_gen
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_Reimann_49_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 30 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_Reimann_49_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 30 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_Reimann_49_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -27676,7 +27676,7 @@ shared_focus = { id = ICX_WGR_Schumacher_49_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_Schumacher_49_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 45 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_Schumacher_49_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 45 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_Schumacher_49_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -27819,7 +27819,7 @@ shared_focus = { id = ICX_WGR_50s_Starting_Tree_E50_11 text = ICX_E50_11 icon = 
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_50s_Starting_Tree_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 30 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_50s_Starting_Tree_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 30 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_50s_Starting_Tree_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -27962,7 +27962,7 @@ shared_focus = { id = ICX_WPA_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WPA_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 19 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WPA_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 19 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WPA_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -28105,7 +28105,7 @@ shared_focus = { id = ICX_YANSA_50s_Victory_E50_11 text = ICX_E50_11 icon = GFX_
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_YANSA_50s_Victory_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 39 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_YANSA_50s_Victory_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 39 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_YANSA_50s_Victory_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -28248,7 +28248,7 @@ shared_focus = { id = ICX_YEM_50s_E50_11 text = ICX_E50_11 icon = GFX_generic_fo
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_YEM_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 53 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_YEM_50s_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 53 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_YEM_50s_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -28391,7 +28391,7 @@ shared_focus = { id = ICX_YUG_50sR_E50_11 text = ICX_E50_11 icon = GFX_generic_f
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_YUG_50sR_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 90 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_YUG_50sR_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 90 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_YUG_50sR_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { has_country_flag = ICX_E50_12_done }
@@ -28534,7 +28534,7 @@ shared_focus = { id = ICX_empty_focus_E50_11 text = ICX_E50_11 icon = GFX_generi
 	completion_reward = { ICX_E50_11_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_empty_focus_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_usa_american_aid_crates x = 5 y = 3 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_empty_focus_E50_12 text = ICX_E50_12 icon = GFX_generic_focus_diplomacy_globe_handshake x = 5 y = 3 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_empty_focus_E50_11 }
 	available = { date > 1951.1.1 }
 	bypass = { OR = { has_country_flag = ICX_E50_12_done date > 1966.1.1 } }

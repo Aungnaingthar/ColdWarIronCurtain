@@ -110,7 +110,7 @@ shared_focus = { id = ICX_70s_FIN_E70_15 text = ICX_E70_15 icon = GFX_generic_fo
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_70s_FIN_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 59 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_70s_FIN_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 59 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_70s_FIN_E70_01 }
 	mutually_exclusive = { focus = ICX_70s_FIN_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -259,7 +259,7 @@ shared_focus = { id = ICX_BAN_70s_First_General_Election_E70_15 text = ICX_E70_1
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BAN_70s_First_General_Election_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 38 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BAN_70s_First_General_Election_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 38 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BAN_70s_First_General_Election_E70_01 }
 	mutually_exclusive = { focus = ICX_BAN_70s_First_General_Election_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -408,7 +408,7 @@ shared_focus = { id = ICX_BAN_70s_JSD_E70_15 text = ICX_E70_15 icon = GFX_generi
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BAN_70s_JSD_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 36 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BAN_70s_JSD_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 36 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BAN_70s_JSD_E70_01 }
 	mutually_exclusive = { focus = ICX_BAN_70s_JSD_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -557,7 +557,7 @@ shared_focus = { id = ICX_BAN_70s_Khondaker_Mostaq_Ahmad_E70_15 text = ICX_E70_1
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BAN_70s_Khondaker_Mostaq_Ahmad_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 40 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BAN_70s_Khondaker_Mostaq_Ahmad_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 40 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BAN_70s_Khondaker_Mostaq_Ahmad_E70_01 }
 	mutually_exclusive = { focus = ICX_BAN_70s_Khondaker_Mostaq_Ahmad_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -706,7 +706,7 @@ shared_focus = { id = ICX_BAN_70s_Second_General_Election_E70_15 text = ICX_E70_
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BAN_70s_Second_General_Election_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 37 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BAN_70s_Second_General_Election_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 37 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BAN_70s_Second_General_Election_E70_01 }
 	mutually_exclusive = { focus = ICX_BAN_70s_Second_General_Election_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -855,7 +855,7 @@ shared_focus = { id = ICX_BAN_70s_Shafiullah_E70_15 text = ICX_E70_15 icon = GFX
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BAN_70s_Shafiullah_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 34 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BAN_70s_Shafiullah_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 34 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BAN_70s_Shafiullah_E70_01 }
 	mutually_exclusive = { focus = ICX_BAN_70s_Shafiullah_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -1004,7 +1004,7 @@ shared_focus = { id = ICX_BAN_70s_Ziaur_Rahman_Regime_E70_15 text = ICX_E70_15 i
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BAN_70s_Ziaur_Rahman_Regime_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 40 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BAN_70s_Ziaur_Rahman_Regime_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 40 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BAN_70s_Ziaur_Rahman_Regime_E70_01 }
 	mutually_exclusive = { focus = ICX_BAN_70s_Ziaur_Rahman_Regime_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -1153,7 +1153,7 @@ shared_focus = { id = ICX_COG_70s_Communism_E70_15 text = ICX_E70_15 icon = GFX_
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_COG_70s_Communism_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 77 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_COG_70s_Communism_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 77 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_COG_70s_Communism_E70_01 }
 	mutually_exclusive = { focus = ICX_COG_70s_Communism_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -1302,7 +1302,7 @@ shared_focus = { id = ICX_FRA_1970s_E70_15 text = ICX_E70_15 icon = GFX_generic_
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_FRA_1970s_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 48 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_FRA_1970s_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 48 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_FRA_1970s_E70_01 }
 	mutually_exclusive = { focus = ICX_FRA_1970s_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -1451,7 +1451,7 @@ shared_focus = { id = ICX_INDIA_70s_E70_15 text = ICX_E70_15 icon = GFX_generic_
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_INDIA_70s_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 70 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_INDIA_70s_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 70 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_INDIA_70s_E70_01 }
 	mutually_exclusive = { focus = ICX_INDIA_70s_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -1600,7 +1600,7 @@ shared_focus = { id = ICX_KMP_70s_E70_15 text = ICX_E70_15 icon = GFX_generic_fo
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KMP_70s_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 95 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KMP_70s_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 95 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KMP_70s_E70_01 }
 	mutually_exclusive = { focus = ICX_KMP_70s_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -1749,7 +1749,7 @@ shared_focus = { id = ICX_MLA_70s_E70_15 text = ICX_E70_15 icon = GFX_generic_fo
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_MLA_70s_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 77 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_MLA_70s_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 77 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_MLA_70s_E70_01 }
 	mutually_exclusive = { focus = ICX_MLA_70s_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -1898,7 +1898,7 @@ shared_focus = { id = ICX_PAK_1973_Coup_E70_15 text = ICX_E70_15 icon = GFX_gene
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PAK_1973_Coup_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 32 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PAK_1973_Coup_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 32 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PAK_1973_Coup_E70_01 }
 	mutually_exclusive = { focus = ICX_PAK_1973_Coup_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -2047,7 +2047,7 @@ shared_focus = { id = ICX_PAK_70s_70s_1977_Elections_E70_15 text = ICX_E70_15 ic
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PAK_70s_70s_1977_Elections_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 51 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PAK_70s_70s_1977_Elections_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 51 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PAK_70s_70s_1977_Elections_E70_01 }
 	mutually_exclusive = { focus = ICX_PAK_70s_70s_1977_Elections_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -2196,7 +2196,7 @@ shared_focus = { id = ICX_PAK_70s_70s_Bhutto_Start_E70_15 text = ICX_E70_15 icon
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PAK_70s_70s_Bhutto_Start_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 107 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PAK_70s_70s_Bhutto_Start_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 107 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PAK_70s_70s_Bhutto_Start_E70_01 }
 	mutually_exclusive = { focus = ICX_PAK_70s_70s_Bhutto_Start_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -2345,7 +2345,7 @@ shared_focus = { id = ICX_PAK_70s_70s_Democratic_1975_Elections_E70_15 text = IC
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PAK_70s_70s_Democratic_1975_Elections_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 57 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PAK_70s_70s_Democratic_1975_Elections_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 57 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PAK_70s_70s_Democratic_1975_Elections_E70_01 }
 	mutually_exclusive = { focus = ICX_PAK_70s_70s_Democratic_1975_Elections_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -2494,7 +2494,7 @@ shared_focus = { id = ICX_PAK_70s_Zia_E70_15 text = ICX_E70_15 icon = GFX_generi
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PAK_70s_Zia_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 37 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PAK_70s_Zia_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 37 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PAK_70s_Zia_E70_01 }
 	mutually_exclusive = { focus = ICX_PAK_70s_Zia_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -2643,7 +2643,7 @@ shared_focus = { id = ICX_PER_1973_E70_15 text = ICX_E70_15 icon = GFX_generic_f
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PER_1973_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 47 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PER_1973_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 47 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PER_1973_E70_01 }
 	mutually_exclusive = { focus = ICX_PER_1973_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -2792,7 +2792,7 @@ shared_focus = { id = ICX_PRC_70s_E70_15 text = ICX_E70_15 icon = GFX_generic_fo
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PRC_70s_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 71 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PRC_70s_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 71 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PRC_70s_E70_01 }
 	mutually_exclusive = { focus = ICX_PRC_70s_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -2941,7 +2941,7 @@ shared_focus = { id = ICX_SOV_Brezhnevite_E70_15 text = ICX_E70_15 icon = GFX_ge
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SOV_Brezhnevite_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 119 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SOV_Brezhnevite_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 119 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SOV_Brezhnevite_E70_01 }
 	mutually_exclusive = { focus = ICX_SOV_Brezhnevite_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -3090,7 +3090,7 @@ shared_focus = { id = ICX_TTM_70s_E70_15 text = ICX_E70_15 icon = GFX_generic_fo
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_TTM_70s_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 25 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_TTM_70s_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 25 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_TTM_70s_E70_01 }
 	mutually_exclusive = { focus = ICX_TTM_70s_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -3239,7 +3239,7 @@ shared_focus = { id = ICX_USA_Agnew_1974_E70_15 text = ICX_E70_15 icon = GFX_gen
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Agnew_1974_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Agnew_1974_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Agnew_1974_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Agnew_1974_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -3388,7 +3388,7 @@ shared_focus = { id = ICX_USA_Agnew_1976_E70_15 text = ICX_E70_15 icon = GFX_gen
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Agnew_1976_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Agnew_1976_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Agnew_1976_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Agnew_1976_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -3537,7 +3537,7 @@ shared_focus = { id = ICX_USA_Albert_1974_E70_15 text = ICX_E70_15 icon = GFX_ge
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Albert_1974_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Albert_1974_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Albert_1974_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Albert_1974_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -3686,7 +3686,7 @@ shared_focus = { id = ICX_USA_Brown_1976_E70_15 text = ICX_E70_15 icon = GFX_gen
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Brown_1976_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Brown_1976_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Brown_1976_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Brown_1976_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -3835,7 +3835,7 @@ shared_focus = { id = ICX_USA_Carter_1976_E70_15 text = ICX_E70_15 icon = GFX_ge
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Carter_1976_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Carter_1976_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Carter_1976_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Carter_1976_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -3984,7 +3984,7 @@ shared_focus = { id = ICX_USA_Ford_1974_E70_15 text = ICX_E70_15 icon = GFX_gene
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Ford_1974_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Ford_1974_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Ford_1974_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Ford_1974_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -4133,7 +4133,7 @@ shared_focus = { id = ICX_USA_Ford_1976_E70_15 text = ICX_E70_15 icon = GFX_gene
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Ford_1976_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Ford_1976_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Ford_1976_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Ford_1976_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -4282,7 +4282,7 @@ shared_focus = { id = ICX_USA_Humphrey_1972_E70_15 text = ICX_E70_15 icon = GFX_
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Humphrey_1972_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Humphrey_1972_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Humphrey_1972_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Humphrey_1972_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -4431,7 +4431,7 @@ shared_focus = { id = ICX_USA_McGovern_1972_E70_15 text = ICX_E70_15 icon = GFX_
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_McGovern_1972_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_McGovern_1972_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_McGovern_1972_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_McGovern_1972_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -4580,7 +4580,7 @@ shared_focus = { id = ICX_USA_McGovern_1976_E70_15 text = ICX_E70_15 icon = GFX_
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_McGovern_1976_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_McGovern_1976_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_McGovern_1976_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_McGovern_1976_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -4729,7 +4729,7 @@ shared_focus = { id = ICX_USA_Muskie_1972_E70_15 text = ICX_E70_15 icon = GFX_ge
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Muskie_1972_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Muskie_1972_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Muskie_1972_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Muskie_1972_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -4878,7 +4878,7 @@ shared_focus = { id = ICX_USA_Muskie_1976_E70_15 text = ICX_E70_15 icon = GFX_ge
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Muskie_1976_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Muskie_1976_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Muskie_1976_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Muskie_1976_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -5027,7 +5027,7 @@ shared_focus = { id = ICX_USA_Nixon_1972_E70_15 text = ICX_E70_15 icon = GFX_gen
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Nixon_1972_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Nixon_1972_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Nixon_1972_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Nixon_1972_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -5176,7 +5176,7 @@ shared_focus = { id = ICX_USA_RFK_1972_E70_15 text = ICX_E70_15 icon = GFX_gener
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_RFK_1972_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_RFK_1972_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_RFK_1972_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_RFK_1972_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -5325,7 +5325,7 @@ shared_focus = { id = ICX_USA_Reagen_1972_E70_15 text = ICX_E70_15 icon = GFX_ge
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Reagen_1972_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Reagen_1972_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Reagen_1972_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Reagen_1972_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -5474,7 +5474,7 @@ shared_focus = { id = ICX_USA_Reagen_1976_E70_15 text = ICX_E70_15 icon = GFX_ge
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Reagen_1976_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Reagen_1976_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Reagen_1976_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Reagen_1976_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -5623,7 +5623,7 @@ shared_focus = { id = ICX_USA_Rockefeller_1975_E70_15 text = ICX_E70_15 icon = G
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Rockefeller_1975_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 11 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Rockefeller_1975_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 11 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Rockefeller_1975_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Rockefeller_1975_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -5772,7 +5772,7 @@ shared_focus = { id = ICX_USA_Rockefeller_1976_E70_15 text = ICX_E70_15 icon = G
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Rockefeller_1976_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 13 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Rockefeller_1976_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 13 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Rockefeller_1976_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Rockefeller_1976_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -5921,7 +5921,7 @@ shared_focus = { id = ICX_USA_Wallace_1972_E70_15 text = ICX_E70_15 icon = GFX_g
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Wallace_1972_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Wallace_1972_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Wallace_1972_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Wallace_1972_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -6070,7 +6070,7 @@ shared_focus = { id = ICX_USA_Wallace_1976_E70_15 text = ICX_E70_15 icon = GFX_g
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Wallace_1976_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Wallace_1976_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Wallace_1976_E70_01 }
 	mutually_exclusive = { focus = ICX_USA_Wallace_1976_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -6219,7 +6219,7 @@ shared_focus = { id = ICX_YUG_70s_E70_15 text = ICX_E70_15 icon = GFX_generic_fo
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_YUG_70s_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 68 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_YUG_70s_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 68 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_YUG_70s_E70_01 }
 	mutually_exclusive = { focus = ICX_YUG_70s_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }
@@ -6368,7 +6368,7 @@ shared_focus = { id = ICX_empty_focus_E70_15 text = ICX_E70_15 icon = GFX_generi
 	completion_reward = { ICX_E70_15_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_empty_focus_E70_16 text = ICX_E70_16 icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle x = 19 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_empty_focus_E70_16 text = ICX_E70_16 icon = GFX_Generic_Worker x = 19 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_empty_focus_E70_01 }
 	mutually_exclusive = { focus = ICX_empty_focus_E70_17 }
 	available = { date > 1974.1.1 NOT = { has_country_flag = ICX_E70_17_done } }

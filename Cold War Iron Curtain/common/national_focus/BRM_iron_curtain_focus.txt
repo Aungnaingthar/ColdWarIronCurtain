@@ -3676,7 +3676,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_boc_venture
-		icon = GFX_generic_focus_trading_oil_barrels
+		icon = GFX_Exploit_Oil_Reserves
 		x = 74
 		y = 13
 		cost = 7
@@ -3746,7 +3746,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_sugar_mills
-		icon = GFX_KOR_50s_build_sugar_refineries
+		icon = GFX_Sugar
 		x = 78
 		y = 13
 		cost = 7
@@ -3806,7 +3806,7 @@ focus_tree = {
 	### E1b_socialist
 	focus = {
 		id = BRM_x_soc_economy
-		icon = GFX_generic_focus_politics_hammer_and_sickle
+		icon = GFX_generic_focus_politics_red_parliament
 		x = 71
 		y = 20
 		cost = 7
@@ -4009,7 +4009,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_workers_councils
-		icon = GFX_generic_focus_politics_worker_with_hammer_and_sickle
+		icon = GFX_Generic_Worker
 		x = 72
 		y = 21
 		cost = 7
@@ -4481,7 +4481,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_health_insurance
-		icon = GFX_Generic_Healthcare
+		icon = GFX_Expand_Medical_Access
 		x = 85
 		y = 22
 		cost = 7
@@ -4509,7 +4509,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_european_partners
-		icon = GFX_generic_focus_diplomacy_european_union
+		icon = GFX_generic_focus_diplomacy_globe_handshake
 		x = 86
 		y = 22
 		cost = 7
@@ -4999,7 +4999,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_irrigation_dams
-		icon = GFX_FocusHydroelectricDams
+		icon = GFX_Hydroelectric_Dams_New
 		x = 74
 		y = 30
 		cost = 7
@@ -5333,7 +5333,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_chinese_jvs
-		icon = GFX_generic_focus_diplomacy_chinese_flag
+		icon = GFX_generic_focus_diplomacy_chinese_hotline
 		x = 85
 		y = 29
 		cost = 7
@@ -5631,7 +5631,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_cmec
-		icon = GFX_generic_focus_diplomacy_chinese_flag
+		icon = GFX_generic_focus_diplomacy_chinese_hotline
 		x = 74
 		y = 37
 		cost = 7
@@ -5978,7 +5978,7 @@ focus_tree = {
 	### E1e_federal_economy
 	focus = {
 		id = BRM_x_federal_economy
-		icon = GFX_Federal
+		icon = GFX_generic_focus_politics_parliamentary_accord
 		x = 81
 		y = 43
 		cost = 7
@@ -6393,7 +6393,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_nationalise_boc
-		icon = GFX_generic_focus_trading_oil_barrels
+		icon = GFX_Exploit_Oil_Reserves
 		x = 98
 		y = 1
 		cost = 7
@@ -6486,7 +6486,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_zawtika
-		icon = GFX_generic_focus_trading_oil_barrels
+		icon = GFX_Exploit_Oil_Reserves
 		x = 98
 		y = 4
 		cost = 7
@@ -6614,7 +6614,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_salween_dams
-		icon = GFX_FocusHydroelectricDams
+		icon = GFX_Hydroelectric_Dams_New
 		x = 104
 		y = 4
 		cost = 7
@@ -7370,7 +7370,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_mandalay_muse_highway
-		icon = GFX_MLAHighway
+		icon = GFX_FocusBuildRoads
 		x = 132
 		y = 3
 		cost = 7
@@ -7470,7 +7470,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_thilawa_port
-		icon = GFX_generic_focus_diplomacy_singapore_harbour
+		icon = GFX_generic_focus_trading_dockside_crates
 		x = 134
 		y = 2
 		cost = 7
@@ -8238,7 +8238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_public_health
-		icon = GFX_Generic_Healthcare
+		icon = GFX_Expand_Medical_Access
 		x = 155
 		y = 1
 		cost = 7
@@ -8353,7 +8353,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_uhc
-		icon = GFX_Generic_Healthcare
+		icon = GFX_Expand_Medical_Access
 		x = 156
 		y = 3
 		cost = 7
@@ -8941,7 +8941,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_drone_factories
-		icon = GFX_SOV_invest_in_recon_drone_initiative
+		icon = GFX_Generic_Military_Production
 		x = 3
 		y = 14
 		cost = 7
@@ -8997,7 +8997,7 @@ focus_tree = {
 	### M_air
 	focus = {
 		id = BRM_x_air_expansion
-		icon = GFX_goal_generic_AirBases
+		icon = GFX_generic_focus_military_aircraft_wreath
 		x = 15
 		y = 8
 		cost = 7
@@ -9100,7 +9100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_new_air_bases
-		icon = GFX_goal_generic_AirBases
+		icon = GFX_generic_focus_military_aircraft_wreath
 		x = 15
 		y = 11
 		cost = 7
@@ -9170,7 +9170,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_hainan_chasers
-		icon = GFX_POR_British_River_Class_Frigates
+		icon = GFX_BluewaterNavy
 		x = 21
 		y = 10
 		cost = 7
@@ -9183,7 +9183,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_kyansittha_frigates
-		icon = GFX_POR_British_River_Class_Frigates
+		icon = GFX_BluewaterNavy
 		x = 21
 		y = 11
 		cost = 7
@@ -9514,7 +9514,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_federal_army
-		icon = GFX_Federal
+		icon = GFX_generic_focus_politics_parliamentary_accord
 		x = 34
 		y = 11
 		cost = 7
@@ -9685,7 +9685,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BRM_x_china_partnership
-		icon = GFX_generic_focus_diplomacy_chinese_flag
+		icon = GFX_generic_focus_diplomacy_chinese_hotline
 		x = 62
 		y = 7
 		cost = 7

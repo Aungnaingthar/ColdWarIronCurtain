@@ -96,7 +96,7 @@ shared_focus = { id = ICX_empty_focus_E10_13 text = ICX_E10_13 icon = GFX_generi
 	completion_reward = { ICX_E10_13_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_empty_focus_E10_14 text = ICX_E10_14 icon = GFX_Generic_Healthcare x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_empty_focus_E10_14 text = ICX_E10_14 icon = GFX_Expand_Medical_Access x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_empty_focus_E10_13 }
 	available = { date > 2012.1.1 }
 	bypass = { has_country_flag = ICX_E10_14_done }

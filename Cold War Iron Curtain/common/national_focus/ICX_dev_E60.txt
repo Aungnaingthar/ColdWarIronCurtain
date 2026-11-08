@@ -33,7 +33,7 @@ shared_focus = { id = ICX_BUL_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BUL_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 69 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BUL_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 69 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BUL_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -182,7 +182,7 @@ shared_focus = { id = ICX_BUL_60s_2_E60_04 text = ICX_E60_04 icon = GFX_Hydroele
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BUL_60s_2_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 80 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BUL_60s_2_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 80 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BUL_60s_2_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -331,7 +331,7 @@ shared_focus = { id = ICX_EQG_60s_1960s_E60_04 text = ICX_E60_04 icon = GFX_Hydr
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_EQG_60s_1960s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 58 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_EQG_60s_1960s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 58 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_EQG_60s_1960s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -480,7 +480,7 @@ shared_focus = { id = ICX_ETH_1960s_E60_04 text = ICX_E60_04 icon = GFX_Hydroele
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ETH_1960s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 49 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ETH_1960s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 49 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ETH_1960s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -629,7 +629,7 @@ shared_focus = { id = ICX_60s_FIN_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_FIN_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 73 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_FIN_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 73 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_FIN_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -778,7 +778,7 @@ shared_focus = { id = ICX_60s_GHA_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_GHA_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 66 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_GHA_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 66 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_GHA_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -927,7 +927,7 @@ shared_focus = { id = ICX_ITA_1960s_E60_04 text = ICX_E60_04 icon = GFX_Hydroele
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ITA_1960s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ITA_1960s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ITA_1960s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -1076,7 +1076,7 @@ shared_focus = { id = ICX_KEN_1960s_E60_04 text = ICX_E60_04 icon = GFX_Hydroele
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KEN_1960s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 80 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KEN_1960s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 80 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KEN_1960s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -1225,7 +1225,7 @@ shared_focus = { id = ICX_LBA_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_LBA_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 50 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_LBA_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 50 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_LBA_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -1374,7 +1374,7 @@ shared_focus = { id = ICX_MOR_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_MOR_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 66 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_MOR_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 66 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_MOR_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -1523,7 +1523,7 @@ shared_focus = { id = ICX_NGA_1960s_E60_04 text = ICX_E60_04 icon = GFX_Hydroele
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_NGA_1960s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_NGA_1960s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 102 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_NGA_1960s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -1672,7 +1672,7 @@ shared_focus = { id = ICX_60s_NGR_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_NGR_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 62 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_NGR_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 62 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_NGR_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -1821,7 +1821,7 @@ shared_focus = { id = ICX_60s_NIC_COM_E60_04 text = ICX_E60_04 icon = GFX_Hydroe
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_NIC_COM_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 59 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_NIC_COM_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 59 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_NIC_COM_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -1970,7 +1970,7 @@ shared_focus = { id = ICX_60s_PAK_1965_Alt_Elections_E60_04 text = ICX_E60_04 ic
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_PAK_1965_Alt_Elections_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_PAK_1965_Alt_Elections_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_PAK_1965_Alt_Elections_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -2119,7 +2119,7 @@ shared_focus = { id = ICX_60s_PAK_1970_Alt_Elections_E60_04 text = ICX_E60_04 ic
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_PAK_1970_Alt_Elections_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_PAK_1970_Alt_Elections_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_PAK_1970_Alt_Elections_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -2268,7 +2268,7 @@ shared_focus = { id = ICX_60s_PAK_Ayub_Khan_1965_E60_04 text = ICX_E60_04 icon =
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_PAK_Ayub_Khan_1965_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_PAK_Ayub_Khan_1965_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_PAK_Ayub_Khan_1965_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -2417,7 +2417,7 @@ shared_focus = { id = ICX_60s_PAK_Ayub_Start_E60_04 text = ICX_E60_04 icon = GFX
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_PAK_Ayub_Start_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_PAK_Ayub_Start_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_PAK_Ayub_Start_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -2566,7 +2566,7 @@ shared_focus = { id = ICX_60s_PAK_CML_Bhutto_E60_04 text = ICX_E60_04 icon = GFX
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_PAK_CML_Bhutto_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_PAK_CML_Bhutto_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_PAK_CML_Bhutto_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -2715,7 +2715,7 @@ shared_focus = { id = ICX_60s_PAK_Democratic_Ayub_E60_04 text = ICX_E60_04 icon 
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_PAK_Democratic_Ayub_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_PAK_Democratic_Ayub_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_PAK_Democratic_Ayub_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -2864,7 +2864,7 @@ shared_focus = { id = ICX_60s_PAK_Fatima_Jinnah_1965_E60_04 text = ICX_E60_04 ic
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_PAK_Fatima_Jinnah_1965_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_PAK_Fatima_Jinnah_1965_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_PAK_Fatima_Jinnah_1965_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -3013,7 +3013,7 @@ shared_focus = { id = ICX_60s_PAK_Yahya_Khan_E60_04 text = ICX_E60_04 icon = GFX
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_PAK_Yahya_Khan_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_PAK_Yahya_Khan_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 60 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_PAK_Yahya_Khan_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -3162,7 +3162,7 @@ shared_focus = { id = ICX_SOM_1960s_E60_04 text = ICX_E60_04 icon = GFX_Hydroele
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SOM_1960s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 62 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SOM_1960s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 62 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SOM_1960s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -3311,7 +3311,7 @@ shared_focus = { id = ICX_60s_SRT_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_SRT_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 69 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_SRT_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 69 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_SRT_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -3460,7 +3460,7 @@ shared_focus = { id = ICX_VIE_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_VIE_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 86 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_VIE_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 86 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_VIE_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -3609,7 +3609,7 @@ shared_focus = { id = ICX_60s_ZIM_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_ZIM_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 72 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_ZIM_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 72 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_ZIM_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -3758,7 +3758,7 @@ shared_focus = { id = ICX_generic_focus_60_E60_04 text = ICX_E60_04 icon = GFX_H
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_generic_focus_60_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 56 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_generic_focus_60_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 56 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_generic_focus_60_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -3907,7 +3907,7 @@ shared_focus = { id = ICX_ADR_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ADR_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 79 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ADR_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 79 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ADR_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -4056,7 +4056,7 @@ shared_focus = { id = ICX_BCP_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BCP_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 69 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BCP_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 69 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BCP_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -4205,7 +4205,7 @@ shared_focus = { id = ICX_Biafra_E60_04 text = ICX_E60_04 icon = GFX_Hydroelectr
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Biafra_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 38 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Biafra_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 38 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Biafra_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -4354,7 +4354,7 @@ shared_focus = { id = ICX_BRA_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BRA_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 42 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BRA_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 42 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BRA_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -4503,7 +4503,7 @@ shared_focus = { id = ICX_BRU_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_BRU_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 8 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_BRU_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 8 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_BRU_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -4652,7 +4652,7 @@ shared_focus = { id = ICX_DOC_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_DOC_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 39 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_DOC_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 39 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_DOC_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -4801,7 +4801,7 @@ shared_focus = { id = ICX_Cuba_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelec
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Cuba_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 114 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Cuba_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 114 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Cuba_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -4950,7 +4950,7 @@ shared_focus = { id = ICX_DOM_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_DOM_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 76 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_DOM_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 76 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_DOM_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -5099,7 +5099,7 @@ shared_focus = { id = ICX_DOM_Balaguer_E60_04 text = ICX_E60_04 icon = GFX_Hydro
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_DOM_Balaguer_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 78 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_DOM_Balaguer_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 78 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_DOM_Balaguer_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -5248,7 +5248,7 @@ shared_focus = { id = ICX_ENG_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_ENG_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 68 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_ENG_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 68 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_ENG_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -5397,7 +5397,7 @@ shared_focus = { id = ICX_FRA_1960s_E60_04 text = ICX_E60_04 icon = GFX_Hydroele
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_FRA_1960s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 45 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_FRA_1960s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 45 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_FRA_1960s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -5546,7 +5546,7 @@ shared_focus = { id = ICX_FRA_1960s_Communist_E60_04 text = ICX_E60_04 icon = GF
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_FRA_1960s_Communist_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 35 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_FRA_1960s_Communist_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 35 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_FRA_1960s_Communist_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -5695,7 +5695,7 @@ shared_focus = { id = ICX_FRA_1960s_Fascist_E60_04 text = ICX_E60_04 icon = GFX_
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_FRA_1960s_Fascist_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 35 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_FRA_1960s_Fascist_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 35 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_FRA_1960s_Fascist_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -5844,7 +5844,7 @@ shared_focus = { id = ICX_FRA_1960s_Junta_E60_04 text = ICX_E60_04 icon = GFX_Hy
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_FRA_1960s_Junta_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 35 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_FRA_1960s_Junta_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 35 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_FRA_1960s_Junta_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -5993,7 +5993,7 @@ shared_focus = { id = ICX_FRA_1960s_Maoist_E60_04 text = ICX_E60_04 icon = GFX_H
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_FRA_1960s_Maoist_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 69 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_FRA_1960s_Maoist_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 69 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_FRA_1960s_Maoist_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -6142,7 +6142,7 @@ shared_focus = { id = ICX_GDR_1960s_E60_04 text = ICX_E60_04 icon = GFX_Hydroele
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_GDR_1960s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 50 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_GDR_1960s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 50 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_GDR_1960s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -6291,7 +6291,7 @@ shared_focus = { id = ICX_COM_GREECE_60s_E60_04 text = ICX_E60_04 icon = GFX_Hyd
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_COM_GREECE_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 84 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_COM_GREECE_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 84 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_COM_GREECE_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -6440,7 +6440,7 @@ shared_focus = { id = ICX_HUN_60s_Kadar_E60_04 text = ICX_E60_04 icon = GFX_Hydr
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_HUN_60s_Kadar_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 81 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_HUN_60s_Kadar_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 81 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_HUN_60s_Kadar_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -6589,7 +6589,7 @@ shared_focus = { id = ICX_INDIA_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroele
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_INDIA_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 106 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_INDIA_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 106 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_INDIA_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -6738,7 +6738,7 @@ shared_focus = { id = ICX_IRAN_1960s_E60_04 text = ICX_E60_04 icon = GFX_Hydroel
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_IRAN_1960s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 71 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_IRAN_1960s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 71 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_IRAN_1960s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -6887,7 +6887,7 @@ shared_focus = { id = ICX_KOR_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 62 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 62 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -7036,7 +7036,7 @@ shared_focus = { id = ICX_KOR_Chang_Myon_1960_E60_04 text = ICX_E60_04 icon = GF
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KOR_Chang_Myon_1960_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 8 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KOR_Chang_Myon_1960_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 8 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KOR_Chang_Myon_1960_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -7185,7 +7185,7 @@ shared_focus = { id = ICX_KPA_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_KPA_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 55 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_KPA_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 55 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_KPA_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -7334,7 +7334,7 @@ shared_focus = { id = ICX_60s_KRD_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_KRD_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 65 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_KRD_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 65 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_KRD_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -7483,7 +7483,7 @@ shared_focus = { id = ICX_LIU_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_LIU_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 76 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_LIU_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 76 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_LIU_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -7632,7 +7632,7 @@ shared_focus = { id = ICX_MLA_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_MLA_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 83 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_MLA_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 83 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_MLA_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -7781,7 +7781,7 @@ shared_focus = { id = ICX_MZB_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_MZB_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 66 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_MZB_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 66 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_MZB_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -7930,7 +7930,7 @@ shared_focus = { id = ICX_PRC_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PRC_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 76 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PRC_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 76 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PRC_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -8079,7 +8079,7 @@ shared_focus = { id = ICX_Sawaba_60s_70s_E60_04 text = ICX_E60_04 icon = GFX_Hyd
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Sawaba_60s_70s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 30 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Sawaba_60s_70s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 30 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Sawaba_60s_70s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -8228,7 +8228,7 @@ shared_focus = { id = ICX_60s_POL_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_POL_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 90 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_POL_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 90 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_POL_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -8377,7 +8377,7 @@ shared_focus = { id = ICX_PRC_SOV_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroe
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_PRC_SOV_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 86 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_PRC_SOV_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 86 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_PRC_SOV_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -8526,7 +8526,7 @@ shared_focus = { id = ICX_RHO_Smith_1965_E60_04 text = ICX_E60_04 icon = GFX_Hyd
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_RHO_Smith_1965_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 58 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_RHO_Smith_1965_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 58 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_RHO_Smith_1965_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -8675,7 +8675,7 @@ shared_focus = { id = ICX_SAF_1960s_E60_04 text = ICX_E60_04 icon = GFX_Hydroele
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SAF_1960s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 91 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SAF_1960s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 91 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SAF_1960s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -8824,7 +8824,7 @@ shared_focus = { id = ICX_SOV_Khruschev_E60_04 text = ICX_E60_04 icon = GFX_Hydr
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SOV_Khruschev_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 36 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SOV_Khruschev_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 36 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SOV_Khruschev_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -8973,7 +8973,7 @@ shared_focus = { id = ICX_SOV_Khruschev_Extended_E60_04 text = ICX_E60_04 icon =
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SOV_Khruschev_Extended_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 25 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SOV_Khruschev_Extended_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 25 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SOV_Khruschev_Extended_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -9122,7 +9122,7 @@ shared_focus = { id = ICX_SOV_Mikoyan_E60_04 text = ICX_E60_04 icon = GFX_Hydroe
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_SOV_Mikoyan_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 24 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_SOV_Mikoyan_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 24 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_SOV_Mikoyan_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -9271,7 +9271,7 @@ shared_focus = { id = ICX_Saudi_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroele
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Saudi_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 40 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Saudi_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 40 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Saudi_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -9420,7 +9420,7 @@ shared_focus = { id = ICX_Simba_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroele
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_Simba_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 46 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_Simba_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 46 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_Simba_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -9569,7 +9569,7 @@ shared_focus = { id = ICX_UAR_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_UAR_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 58 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_UAR_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 58 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_UAR_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -9718,7 +9718,7 @@ shared_focus = { id = ICX_UGA_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_UGA_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 62 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_UGA_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 62 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_UGA_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -9867,7 +9867,7 @@ shared_focus = { id = ICX_USA_Goldwater_1964_E60_04 text = ICX_E60_04 icon = GFX
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Goldwater_1964_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Goldwater_1964_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Goldwater_1964_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -10016,7 +10016,7 @@ shared_focus = { id = ICX_USA_Goldwater_1968_E60_04 text = ICX_E60_04 icon = GFX
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Goldwater_1968_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Goldwater_1968_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Goldwater_1968_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -10165,7 +10165,7 @@ shared_focus = { id = ICX_USA_Halleck_1960_E60_04 text = ICX_E60_04 icon = GFX_H
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Halleck_1960_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Halleck_1960_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Halleck_1960_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -10314,7 +10314,7 @@ shared_focus = { id = ICX_USA_Harriman_1960_E60_04 text = ICX_E60_04 icon = GFX_
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Harriman_1960_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Harriman_1960_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Harriman_1960_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -10463,7 +10463,7 @@ shared_focus = { id = ICX_USA_Humphrey_1960_E60_04 text = ICX_E60_04 icon = GFX_
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Humphrey_1960_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Humphrey_1960_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Humphrey_1960_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -10612,7 +10612,7 @@ shared_focus = { id = ICX_USA_Humphrey_1964_E60_04 text = ICX_E60_04 icon = GFX_
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Humphrey_1964_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Humphrey_1964_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Humphrey_1964_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -10761,7 +10761,7 @@ shared_focus = { id = ICX_USA_Humphrey_1968_E60_04 text = ICX_E60_04 icon = GFX_
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Humphrey_1968_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Humphrey_1968_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Humphrey_1968_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -10910,7 +10910,7 @@ shared_focus = { id = ICX_USA_JFK_1960_E60_04 text = ICX_E60_04 icon = GFX_Hydro
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_JFK_1960_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_JFK_1960_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_JFK_1960_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -11059,7 +11059,7 @@ shared_focus = { id = ICX_USA_Johnson_1964_E60_04 text = ICX_E60_04 icon = GFX_H
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Johnson_1964_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Johnson_1964_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Johnson_1964_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -11208,7 +11208,7 @@ shared_focus = { id = ICX_USA_Johnson_1968_E60_04 text = ICX_E60_04 icon = GFX_H
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Johnson_1968_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Johnson_1968_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Johnson_1968_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -11357,7 +11357,7 @@ shared_focus = { id = ICX_USA_Martin_1960_E60_04 text = ICX_E60_04 icon = GFX_Hy
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Martin_1960_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Martin_1960_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Martin_1960_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -11506,7 +11506,7 @@ shared_focus = { id = ICX_USA_Nixon_1960_E60_04 text = ICX_E60_04 icon = GFX_Hyd
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Nixon_1960_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Nixon_1960_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Nixon_1960_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -11655,7 +11655,7 @@ shared_focus = { id = ICX_USA_Nixon_1964_E60_04 text = ICX_E60_04 icon = GFX_Hyd
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Nixon_1964_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Nixon_1964_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Nixon_1964_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -11804,7 +11804,7 @@ shared_focus = { id = ICX_USA_Nixon_1968_E60_04 text = ICX_E60_04 icon = GFX_Hyd
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Nixon_1968_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Nixon_1968_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Nixon_1968_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -11953,7 +11953,7 @@ shared_focus = { id = ICX_USA_RFK_1968_E60_04 text = ICX_E60_04 icon = GFX_Hydro
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_RFK_1968_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_RFK_1968_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_RFK_1968_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -12102,7 +12102,7 @@ shared_focus = { id = ICX_USA_Reagen_1968_E60_04 text = ICX_E60_04 icon = GFX_Hy
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Reagen_1968_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Reagen_1968_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Reagen_1968_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -12251,7 +12251,7 @@ shared_focus = { id = ICX_USA_Rockefeller_1964_E60_04 text = ICX_E60_04 icon = G
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Rockefeller_1964_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Rockefeller_1964_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Rockefeller_1964_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -12400,7 +12400,7 @@ shared_focus = { id = ICX_USA_Rockefeller_1968_E60_04 text = ICX_E60_04 icon = G
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Rockefeller_1968_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Rockefeller_1968_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Rockefeller_1968_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -12549,7 +12549,7 @@ shared_focus = { id = ICX_USA_Wallace_1968_E60_04 text = ICX_E60_04 icon = GFX_H
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_USA_Wallace_1968_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_USA_Wallace_1968_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 104 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_USA_Wallace_1968_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -12698,7 +12698,7 @@ shared_focus = { id = ICX_WGR_60s_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_WGR_60s_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 58 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_WGR_60s_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 58 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_WGR_60s_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -12847,7 +12847,7 @@ shared_focus = { id = ICX_60s_YUG_E60_04 text = ICX_E60_04 icon = GFX_Hydroelect
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_60s_YUG_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 90 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_60s_YUG_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 90 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_60s_YUG_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { has_country_flag = ICX_E60_05_done }
@@ -12996,7 +12996,7 @@ shared_focus = { id = ICX_empty_focus_E60_04 text = ICX_E60_04 icon = GFX_Hydroe
 	completion_reward = { ICX_E60_04_reward = yes }
 	ai_will_do = { factor = 1 }
 }
-shared_focus = { id = ICX_empty_focus_E60_05 text = ICX_E60_05 icon = GFX_MLAHighway x = 12 y = 2 cost = 7 search_filters = { IC_FILTER }
+shared_focus = { id = ICX_empty_focus_E60_05 text = ICX_E60_05 icon = GFX_FocusBuildRoads x = 12 y = 2 cost = 7 search_filters = { IC_FILTER }
 	prerequisite = { focus = ICX_empty_focus_E60_04 }
 	available = { date > 1962.1.1 }
 	bypass = { OR = { has_country_flag = ICX_E60_05_done date > 1976.1.1 } }
