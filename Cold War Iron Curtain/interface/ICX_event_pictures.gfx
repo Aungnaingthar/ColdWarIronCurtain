@@ -1,0 +1,207 @@
+# Event pictures cut to the 210x176 country-event size from tall news pictures (ICX)
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ICX_ev_news_event_summergames64"
+		texturefile = "gfx/event_pictures/ICX/news_event_summergames64.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_news_event_summergames68"
+		texturefile = "gfx/event_pictures/ICX/news_event_summergames68.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_news_event_oil_discovery"
+		texturefile = "gfx/event_pictures/ICX/news_event_oil_discovery.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Oil_Disaster1"
+		texturefile = "gfx/event_pictures/ICX/Oil_Disaster1.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Oil_Embargo_79"
+		texturefile = "gfx/event_pictures/ICX/Oil_Embargo_79.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_OilCrisis80s_1"
+		texturefile = "gfx/event_pictures/ICX/OilCrisis80s_1.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Chile_Earthquake"
+		texturefile = "gfx/event_pictures/ICX/Chile_Earthquake.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_news_Okinawa_Plane_Crash"
+		texturefile = "gfx/event_pictures/ICX/news_Okinawa_Plane_Crash.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_yellow_river_flood"
+		texturefile = "gfx/event_pictures/ICX/yellow_river_flood.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_aswan_construction"
+		texturefile = "gfx/event_pictures/ICX/aswan_construction.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_SRT_Dam"
+		texturefile = "gfx/event_pictures/ICX/SRT_Dam.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_iranian_oil"
+		texturefile = "gfx/event_pictures/ICX/iranian_oil.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_gabon_oil"
+		texturefile = "gfx/event_pictures/ICX/gabon_oil.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_WGR_Hamburg_Stock_Exchange"
+		texturefile = "gfx/event_pictures/ICX/WGR_Hamburg_Stock_Exchange.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_abuja_central_bank"
+		texturefile = "gfx/event_pictures/ICX/abuja_central_bank.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Thai_Econ_Crash"
+		texturefile = "gfx/event_pictures/ICX/Thai_Econ_Crash.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Thai_Insurgency"
+		texturefile = "gfx/event_pictures/ICX/Thai_Insurgency.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_LaosandCambodia"
+		texturefile = "gfx/event_pictures/ICX/LaosandCambodia.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_news_event_generic_sign_treaty2"
+		texturefile = "gfx/event_pictures/ICX/news_event_generic_sign_treaty2.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_KMT_LAND_REFORM_1"
+		texturefile = "gfx/event_pictures/ICX/KMT_LAND_REFORM_1.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Asian_Games"
+		texturefile = "gfx/event_pictures/ICX/Asian_Games.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_SIA_Isan_Famine_100"
+		texturefile = "gfx/event_pictures/ICX/SIA_Isan_Famine_100.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Rocket_Train"
+		texturefile = "gfx/event_pictures/ICX/Rocket_Train.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_JAP_Marunouchi_Line_Opening"
+		texturefile = "gfx/event_pictures/ICX/JAP_Marunouchi_Line_Opening.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_nixon_early_2"
+		texturefile = "gfx/event_pictures/ICX/nixon_early_2.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_American_Aid_5"
+		texturefile = "gfx/event_pictures/ICX/American_Aid_5.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Japan_Culture_2"
+		texturefile = "gfx/event_pictures/ICX/Japan_Culture_2.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_American_Aid_6"
+		texturefile = "gfx/event_pictures/ICX/American_Aid_6.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Brasilia"
+		texturefile = "gfx/event_pictures/ICX/Brasilia.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_American_Aid_1"
+		texturefile = "gfx/event_pictures/ICX/American_Aid_1.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Bohla_Cyclone_2"
+		texturefile = "gfx/event_pictures/ICX/Bohla_Cyclone_2.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Burma_Agreement_1"
+		texturefile = "gfx/event_pictures/ICX/Burma_Agreement_1.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_burma_communist"
+		texturefile = "gfx/event_pictures/ICX/burma_communist.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Adolfo_Ruiz_Cortines_election"
+		texturefile = "gfx/event_pictures/ICX/Adolfo_Ruiz_Cortines_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Adolfo_Lopez_Mateos_Election"
+		texturefile = "gfx/event_pictures/ICX/Adolfo_Lopez_Mateos_Election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Gustavo_Diaz_Ordaz_Election"
+		texturefile = "gfx/event_pictures/ICX/Gustavo_Diaz_Ordaz_Election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Luis_Echeverria_election"
+		texturefile = "gfx/event_pictures/ICX/Luis_Echeverria_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Jose_Lopez_Portillo_election"
+		texturefile = "gfx/event_pictures/ICX/Jose_Lopez_Portillo_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Miguel_de_la_Madrid_election"
+		texturefile = "gfx/event_pictures/ICX/Miguel_de_la_Madrid_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Carlos_Salinas_de_Gortari_election"
+		texturefile = "gfx/event_pictures/ICX/Carlos_Salinas_de_Gortari_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Ernesto_Zedillo_Election"
+		texturefile = "gfx/event_pictures/ICX/Ernesto_Zedillo_Election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Juscelino_Kubitschek_election"
+		texturefile = "gfx/event_pictures/ICX/Juscelino_Kubitschek_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Jose_Sarney_election"
+		texturefile = "gfx/event_pictures/ICX/Jose_Sarney_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Fernando_Collor_de_Mello_election"
+		texturefile = "gfx/event_pictures/ICX/Fernando_Collor_de_Mello_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Arturo_Frondizi_election"
+		texturefile = "gfx/event_pictures/ICX/Arturo_Frondizi_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Isabel_Peron_president"
+		texturefile = "gfx/event_pictures/ICX/Isabel_Peron_president.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Raul_Alfonsin_election"
+		texturefile = "gfx/event_pictures/ICX/Raul_Alfonsin_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Carlos_Menem_election"
+		texturefile = "gfx/event_pictures/ICX/Carlos_Menem_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Fernando_de_la_Rua_election"
+		texturefile = "gfx/event_pictures/ICX/Fernando_de_la_Rua_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Nestor_Kirchner_election"
+		texturefile = "gfx/event_pictures/ICX/Nestor_Kirchner_election.png"
+	}
+	spriteType = {
+		name = "GFX_ICX_ev_Cristina_Fernandez_de_Kirchner_Election"
+		texturefile = "gfx/event_pictures/ICX/Cristina_Fernandez_de_Kirchner_Election.png"
+	}
+}

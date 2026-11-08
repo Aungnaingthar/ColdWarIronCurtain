@@ -1,0 +1,6 @@
+# Opinion modifiers used by the historical events (ICX)
+opinion_modifiers = {
+	ICX_w_friendly = { value = 20 decay = 0.05 }
+	ICX_w_partner = { trade = yes value = 15 decay = 0.03 }
+	ICX_w_angry = { value = -20 decay = 0.05 }
+}
