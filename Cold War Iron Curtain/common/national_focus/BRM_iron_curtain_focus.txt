@@ -5996,7 +5996,7 @@ focus_tree = {
 		y = 44
 		cost = 7
 		prerequisite = { focus = BRM_x_federal_economy }
-		available = { date > 2021.8.1 }
+		available = { date > 2021.8.1 has_completed_focus = BRM_federal_democracy_charter }
 		completion_reward = {
 			set_temp_variable = { money_change_temp = 0.15 }
 			cwic_change_money = yes
@@ -6148,7 +6148,7 @@ focus_tree = {
 		y = 44
 		cost = 7
 		prerequisite = { focus = BRM_x_federal_economy }
-		available = { date > 2023.1.1 }
+		available = { date > 2023.1.1 has_completed_focus = BRM_federal_democracy_charter }
 		completion_reward = {
 			BRM_build_water = yes
 			BRM_build_state_infra = yes
@@ -6195,7 +6195,7 @@ focus_tree = {
 		x = 90
 		y = 43
 		cost = 7
-		available = { OR = { has_completed_focus = BRM_x_war_economy has_completed_focus = BRM_x_federal_economy } date > 2026.1.1 }
+		available = { OR = { has_completed_focus = BRM_x_war_economy has_completed_focus = BRM_x_federal_economy has_completed_focus = BRM_x_reform_decade } date > 2026.1.1 }
 		completion_reward = {
 			add_political_power = 30
 		}
