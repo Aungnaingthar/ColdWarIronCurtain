@@ -1335,6 +1335,14 @@ cwic_finalize_corp_exxon = {
 	}
 
 	set_variable = { global.CWIC_CORP_exxon_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_exxon } } set_global_flag = ICX_mnc_seed_exxon add_to_variable = { global.CWIC_CORP_exxon_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_exxon_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_exxon_cash } } set_temp_variable = { budget = global.CWIC_CORP_exxon_cash } }
+	set_variable = { global.CWIC_CORP_exxon_budget = budget }
+	set_variable = { global.CWIC_CORP_exxon_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_exxon_profit_last = gross }
@@ -1394,6 +1402,14 @@ cwic_finalize_corp_mobil = {
 	}
 
 	set_variable = { global.CWIC_CORP_mobil_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_mobil } } set_global_flag = ICX_mnc_seed_mobil add_to_variable = { global.CWIC_CORP_mobil_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_mobil_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_mobil_cash } } set_temp_variable = { budget = global.CWIC_CORP_mobil_cash } }
+	set_variable = { global.CWIC_CORP_mobil_budget = budget }
+	set_variable = { global.CWIC_CORP_mobil_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_mobil_profit_last = gross }
@@ -1453,6 +1469,14 @@ cwic_finalize_corp_chevron = {
 	}
 
 	set_variable = { global.CWIC_CORP_chevron_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_chevron } } set_global_flag = ICX_mnc_seed_chevron add_to_variable = { global.CWIC_CORP_chevron_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_chevron_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_chevron_cash } } set_temp_variable = { budget = global.CWIC_CORP_chevron_cash } }
+	set_variable = { global.CWIC_CORP_chevron_budget = budget }
+	set_variable = { global.CWIC_CORP_chevron_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_chevron_profit_last = gross }
@@ -1512,6 +1536,14 @@ cwic_finalize_corp_texaco = {
 	}
 
 	set_variable = { global.CWIC_CORP_texaco_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_texaco } } set_global_flag = ICX_mnc_seed_texaco add_to_variable = { global.CWIC_CORP_texaco_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_texaco_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_texaco_cash } } set_temp_variable = { budget = global.CWIC_CORP_texaco_cash } }
+	set_variable = { global.CWIC_CORP_texaco_budget = budget }
+	set_variable = { global.CWIC_CORP_texaco_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_texaco_profit_last = gross }
@@ -1571,6 +1603,14 @@ cwic_finalize_corp_gulf_oil = {
 	}
 
 	set_variable = { global.CWIC_CORP_gulf_oil_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_gulf_oil } } set_global_flag = ICX_mnc_seed_gulf_oil add_to_variable = { global.CWIC_CORP_gulf_oil_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_gulf_oil_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_gulf_oil_cash } } set_temp_variable = { budget = global.CWIC_CORP_gulf_oil_cash } }
+	set_variable = { global.CWIC_CORP_gulf_oil_budget = budget }
+	set_variable = { global.CWIC_CORP_gulf_oil_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_gulf_oil_profit_last = gross }
@@ -1630,6 +1670,14 @@ cwic_finalize_corp_amoco = {
 	}
 
 	set_variable = { global.CWIC_CORP_amoco_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_amoco } } set_global_flag = ICX_mnc_seed_amoco add_to_variable = { global.CWIC_CORP_amoco_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_amoco_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_amoco_cash } } set_temp_variable = { budget = global.CWIC_CORP_amoco_cash } }
+	set_variable = { global.CWIC_CORP_amoco_budget = budget }
+	set_variable = { global.CWIC_CORP_amoco_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_amoco_profit_last = gross }
@@ -1689,6 +1737,14 @@ cwic_finalize_corp_conoco = {
 	}
 
 	set_variable = { global.CWIC_CORP_conoco_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_conoco } } set_global_flag = ICX_mnc_seed_conoco add_to_variable = { global.CWIC_CORP_conoco_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_conoco_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_conoco_cash } } set_temp_variable = { budget = global.CWIC_CORP_conoco_cash } }
+	set_variable = { global.CWIC_CORP_conoco_budget = budget }
+	set_variable = { global.CWIC_CORP_conoco_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_conoco_profit_last = gross }
@@ -1748,6 +1804,14 @@ cwic_finalize_corp_sinclair_oil = {
 	}
 
 	set_variable = { global.CWIC_CORP_sinclair_oil_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_sinclair_oil } } set_global_flag = ICX_mnc_seed_sinclair_oil add_to_variable = { global.CWIC_CORP_sinclair_oil_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_sinclair_oil_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_sinclair_oil_cash } } set_temp_variable = { budget = global.CWIC_CORP_sinclair_oil_cash } }
+	set_variable = { global.CWIC_CORP_sinclair_oil_budget = budget }
+	set_variable = { global.CWIC_CORP_sinclair_oil_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_sinclair_oil_profit_last = gross }
@@ -1807,6 +1871,14 @@ cwic_finalize_corp_shell = {
 	}
 
 	set_variable = { global.CWIC_CORP_shell_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_shell } } set_global_flag = ICX_mnc_seed_shell add_to_variable = { global.CWIC_CORP_shell_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_shell_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_shell_cash } } set_temp_variable = { budget = global.CWIC_CORP_shell_cash } }
+	set_variable = { global.CWIC_CORP_shell_budget = budget }
+	set_variable = { global.CWIC_CORP_shell_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_shell_profit_last = gross }
@@ -1866,6 +1938,14 @@ cwic_finalize_corp_bp = {
 	}
 
 	set_variable = { global.CWIC_CORP_bp_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_bp } } set_global_flag = ICX_mnc_seed_bp add_to_variable = { global.CWIC_CORP_bp_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_bp_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_bp_cash } } set_temp_variable = { budget = global.CWIC_CORP_bp_cash } }
+	set_variable = { global.CWIC_CORP_bp_budget = budget }
+	set_variable = { global.CWIC_CORP_bp_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_bp_profit_last = gross }
@@ -1925,6 +2005,14 @@ cwic_finalize_corp_total_cfp = {
 	}
 
 	set_variable = { global.CWIC_CORP_total_cfp_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_total_cfp } } set_global_flag = ICX_mnc_seed_total_cfp add_to_variable = { global.CWIC_CORP_total_cfp_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_total_cfp_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_total_cfp_cash } } set_temp_variable = { budget = global.CWIC_CORP_total_cfp_cash } }
+	set_variable = { global.CWIC_CORP_total_cfp_budget = budget }
+	set_variable = { global.CWIC_CORP_total_cfp_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_total_cfp_profit_last = gross }
@@ -1984,6 +2072,14 @@ cwic_finalize_corp_eni = {
 	}
 
 	set_variable = { global.CWIC_CORP_eni_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_eni } } set_global_flag = ICX_mnc_seed_eni add_to_variable = { global.CWIC_CORP_eni_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_eni_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_eni_cash } } set_temp_variable = { budget = global.CWIC_CORP_eni_cash } }
+	set_variable = { global.CWIC_CORP_eni_budget = budget }
+	set_variable = { global.CWIC_CORP_eni_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_eni_profit_last = gross }
@@ -2043,6 +2139,14 @@ cwic_finalize_corp_iberia_cepsa = {
 	}
 
 	set_variable = { global.CWIC_CORP_iberia_cepsa_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_iberia_cepsa } } set_global_flag = ICX_mnc_seed_iberia_cepsa add_to_variable = { global.CWIC_CORP_iberia_cepsa_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_iberia_cepsa_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_iberia_cepsa_cash } } set_temp_variable = { budget = global.CWIC_CORP_iberia_cepsa_cash } }
+	set_variable = { global.CWIC_CORP_iberia_cepsa_budget = budget }
+	set_variable = { global.CWIC_CORP_iberia_cepsa_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_iberia_cepsa_profit_last = gross }
@@ -2102,6 +2206,14 @@ cwic_finalize_corp_statoil = {
 	}
 
 	set_variable = { global.CWIC_CORP_statoil_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_statoil } } set_global_flag = ICX_mnc_seed_statoil add_to_variable = { global.CWIC_CORP_statoil_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_statoil_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_statoil_cash } } set_temp_variable = { budget = global.CWIC_CORP_statoil_cash } }
+	set_variable = { global.CWIC_CORP_statoil_budget = budget }
+	set_variable = { global.CWIC_CORP_statoil_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_statoil_profit_last = gross }
@@ -2161,6 +2273,14 @@ cwic_finalize_corp_aramco = {
 	}
 
 	set_variable = { global.CWIC_CORP_aramco_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_aramco } } set_global_flag = ICX_mnc_seed_aramco add_to_variable = { global.CWIC_CORP_aramco_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_aramco_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_aramco_cash } } set_temp_variable = { budget = global.CWIC_CORP_aramco_cash } }
+	set_variable = { global.CWIC_CORP_aramco_budget = budget }
+	set_variable = { global.CWIC_CORP_aramco_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_aramco_profit_last = gross }
@@ -2220,6 +2340,14 @@ cwic_finalize_corp_pdvsa = {
 	}
 
 	set_variable = { global.CWIC_CORP_pdvsa_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_pdvsa } } set_global_flag = ICX_mnc_seed_pdvsa add_to_variable = { global.CWIC_CORP_pdvsa_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_pdvsa_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_pdvsa_cash } } set_temp_variable = { budget = global.CWIC_CORP_pdvsa_cash } }
+	set_variable = { global.CWIC_CORP_pdvsa_budget = budget }
+	set_variable = { global.CWIC_CORP_pdvsa_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_pdvsa_profit_last = gross }
@@ -2279,6 +2407,14 @@ cwic_finalize_corp_nnpc = {
 	}
 
 	set_variable = { global.CWIC_CORP_nnpc_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_nnpc } } set_global_flag = ICX_mnc_seed_nnpc add_to_variable = { global.CWIC_CORP_nnpc_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_nnpc_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_nnpc_cash } } set_temp_variable = { budget = global.CWIC_CORP_nnpc_cash } }
+	set_variable = { global.CWIC_CORP_nnpc_budget = budget }
+	set_variable = { global.CWIC_CORP_nnpc_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_nnpc_profit_last = gross }
@@ -2338,6 +2474,14 @@ cwic_finalize_corp_sonatrach = {
 	}
 
 	set_variable = { global.CWIC_CORP_sonatrach_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_sonatrach } } set_global_flag = ICX_mnc_seed_sonatrach add_to_variable = { global.CWIC_CORP_sonatrach_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_sonatrach_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_sonatrach_cash } } set_temp_variable = { budget = global.CWIC_CORP_sonatrach_cash } }
+	set_variable = { global.CWIC_CORP_sonatrach_budget = budget }
+	set_variable = { global.CWIC_CORP_sonatrach_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_sonatrach_profit_last = gross }
@@ -2397,6 +2541,14 @@ cwic_finalize_corp_pertamina = {
 	}
 
 	set_variable = { global.CWIC_CORP_pertamina_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_pertamina } } set_global_flag = ICX_mnc_seed_pertamina add_to_variable = { global.CWIC_CORP_pertamina_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_pertamina_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_pertamina_cash } } set_temp_variable = { budget = global.CWIC_CORP_pertamina_cash } }
+	set_variable = { global.CWIC_CORP_pertamina_budget = budget }
+	set_variable = { global.CWIC_CORP_pertamina_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_pertamina_profit_last = gross }
@@ -2456,6 +2608,14 @@ cwic_finalize_corp_pemex = {
 	}
 
 	set_variable = { global.CWIC_CORP_pemex_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_pemex } } set_global_flag = ICX_mnc_seed_pemex add_to_variable = { global.CWIC_CORP_pemex_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_pemex_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_pemex_cash } } set_temp_variable = { budget = global.CWIC_CORP_pemex_cash } }
+	set_variable = { global.CWIC_CORP_pemex_budget = budget }
+	set_variable = { global.CWIC_CORP_pemex_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_pemex_profit_last = gross }
@@ -2516,6 +2676,14 @@ cwic_finalize_corp_rio_tinto = {
 	}
 
 	set_variable = { global.CWIC_CORP_rio_tinto_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_rio_tinto } } set_global_flag = ICX_mnc_seed_rio_tinto add_to_variable = { global.CWIC_CORP_rio_tinto_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_rio_tinto_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_rio_tinto_cash } } set_temp_variable = { budget = global.CWIC_CORP_rio_tinto_cash } }
+	set_variable = { global.CWIC_CORP_rio_tinto_budget = budget }
+	set_variable = { global.CWIC_CORP_rio_tinto_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_rio_tinto_profit_last = gross }
@@ -2575,6 +2743,14 @@ cwic_finalize_corp_anglo_american = {
 	}
 
 	set_variable = { global.CWIC_CORP_anglo_american_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_anglo_american } } set_global_flag = ICX_mnc_seed_anglo_american add_to_variable = { global.CWIC_CORP_anglo_american_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_anglo_american_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_anglo_american_cash } } set_temp_variable = { budget = global.CWIC_CORP_anglo_american_cash } }
+	set_variable = { global.CWIC_CORP_anglo_american_budget = budget }
+	set_variable = { global.CWIC_CORP_anglo_american_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_anglo_american_profit_last = gross }
@@ -2634,6 +2810,14 @@ cwic_finalize_corp_de_beers = {
 	}
 
 	set_variable = { global.CWIC_CORP_de_beers_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_de_beers } } set_global_flag = ICX_mnc_seed_de_beers add_to_variable = { global.CWIC_CORP_de_beers_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_de_beers_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_de_beers_cash } } set_temp_variable = { budget = global.CWIC_CORP_de_beers_cash } }
+	set_variable = { global.CWIC_CORP_de_beers_budget = budget }
+	set_variable = { global.CWIC_CORP_de_beers_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_de_beers_profit_last = gross }
@@ -2693,6 +2877,14 @@ cwic_finalize_corp_lonrho = {
 	}
 
 	set_variable = { global.CWIC_CORP_lonrho_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_lonrho } } set_global_flag = ICX_mnc_seed_lonrho add_to_variable = { global.CWIC_CORP_lonrho_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_lonrho_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_lonrho_cash } } set_temp_variable = { budget = global.CWIC_CORP_lonrho_cash } }
+	set_variable = { global.CWIC_CORP_lonrho_budget = budget }
+	set_variable = { global.CWIC_CORP_lonrho_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_lonrho_profit_last = gross }
@@ -2752,6 +2944,14 @@ cwic_finalize_corp_inmetco = {
 	}
 
 	set_variable = { global.CWIC_CORP_inmetco_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_inmetco } } set_global_flag = ICX_mnc_seed_inmetco add_to_variable = { global.CWIC_CORP_inmetco_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_inmetco_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_inmetco_cash } } set_temp_variable = { budget = global.CWIC_CORP_inmetco_cash } }
+	set_variable = { global.CWIC_CORP_inmetco_budget = budget }
+	set_variable = { global.CWIC_CORP_inmetco_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_inmetco_profit_last = gross }
@@ -2811,6 +3011,14 @@ cwic_finalize_corp_inco = {
 	}
 
 	set_variable = { global.CWIC_CORP_inco_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_inco } } set_global_flag = ICX_mnc_seed_inco add_to_variable = { global.CWIC_CORP_inco_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_inco_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_inco_cash } } set_temp_variable = { budget = global.CWIC_CORP_inco_cash } }
+	set_variable = { global.CWIC_CORP_inco_budget = budget }
+	set_variable = { global.CWIC_CORP_inco_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_inco_profit_last = gross }
@@ -2870,6 +3078,14 @@ cwic_finalize_corp_alcoa = {
 	}
 
 	set_variable = { global.CWIC_CORP_alcoa_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_alcoa } } set_global_flag = ICX_mnc_seed_alcoa add_to_variable = { global.CWIC_CORP_alcoa_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_alcoa_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_alcoa_cash } } set_temp_variable = { budget = global.CWIC_CORP_alcoa_cash } }
+	set_variable = { global.CWIC_CORP_alcoa_budget = budget }
+	set_variable = { global.CWIC_CORP_alcoa_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_alcoa_profit_last = gross }
@@ -2929,6 +3145,14 @@ cwic_finalize_corp_kennecott = {
 	}
 
 	set_variable = { global.CWIC_CORP_kennecott_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_kennecott } } set_global_flag = ICX_mnc_seed_kennecott add_to_variable = { global.CWIC_CORP_kennecott_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_kennecott_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_kennecott_cash } } set_temp_variable = { budget = global.CWIC_CORP_kennecott_cash } }
+	set_variable = { global.CWIC_CORP_kennecott_budget = budget }
+	set_variable = { global.CWIC_CORP_kennecott_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_kennecott_profit_last = gross }
@@ -2988,6 +3212,14 @@ cwic_finalize_corp_anaconda_copper = {
 	}
 
 	set_variable = { global.CWIC_CORP_anaconda_copper_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_anaconda_copper } } set_global_flag = ICX_mnc_seed_anaconda_copper add_to_variable = { global.CWIC_CORP_anaconda_copper_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_anaconda_copper_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_anaconda_copper_cash } } set_temp_variable = { budget = global.CWIC_CORP_anaconda_copper_cash } }
+	set_variable = { global.CWIC_CORP_anaconda_copper_budget = budget }
+	set_variable = { global.CWIC_CORP_anaconda_copper_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_anaconda_copper_profit_last = gross }
@@ -3047,6 +3279,14 @@ cwic_finalize_corp_noranda = {
 	}
 
 	set_variable = { global.CWIC_CORP_noranda_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_noranda } } set_global_flag = ICX_mnc_seed_noranda add_to_variable = { global.CWIC_CORP_noranda_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_noranda_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_noranda_cash } } set_temp_variable = { budget = global.CWIC_CORP_noranda_cash } }
+	set_variable = { global.CWIC_CORP_noranda_budget = budget }
+	set_variable = { global.CWIC_CORP_noranda_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_noranda_profit_last = gross }
@@ -3106,6 +3346,14 @@ cwic_finalize_corp_sumitomo_mining = {
 	}
 
 	set_variable = { global.CWIC_CORP_sumitomo_mining_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_sumitomo_mining } } set_global_flag = ICX_mnc_seed_sumitomo_mining add_to_variable = { global.CWIC_CORP_sumitomo_mining_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_sumitomo_mining_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_sumitomo_mining_cash } } set_temp_variable = { budget = global.CWIC_CORP_sumitomo_mining_cash } }
+	set_variable = { global.CWIC_CORP_sumitomo_mining_budget = budget }
+	set_variable = { global.CWIC_CORP_sumitomo_mining_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_sumitomo_mining_profit_last = gross }
@@ -3165,6 +3413,14 @@ cwic_finalize_corp_gecamines = {
 	}
 
 	set_variable = { global.CWIC_CORP_gecamines_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_gecamines } } set_global_flag = ICX_mnc_seed_gecamines add_to_variable = { global.CWIC_CORP_gecamines_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_gecamines_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_gecamines_cash } } set_temp_variable = { budget = global.CWIC_CORP_gecamines_cash } }
+	set_variable = { global.CWIC_CORP_gecamines_budget = budget }
+	set_variable = { global.CWIC_CORP_gecamines_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_gecamines_profit_last = gross }
@@ -3225,6 +3481,14 @@ cwic_finalize_corp_united_fruit = {
 	}
 
 	set_variable = { global.CWIC_CORP_united_fruit_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_united_fruit } } set_global_flag = ICX_mnc_seed_united_fruit add_to_variable = { global.CWIC_CORP_united_fruit_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_united_fruit_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_united_fruit_cash } } set_temp_variable = { budget = global.CWIC_CORP_united_fruit_cash } }
+	set_variable = { global.CWIC_CORP_united_fruit_budget = budget }
+	set_variable = { global.CWIC_CORP_united_fruit_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_united_fruit_profit_last = gross }
@@ -3284,6 +3548,14 @@ cwic_finalize_corp_del_monte = {
 	}
 
 	set_variable = { global.CWIC_CORP_del_monte_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_del_monte } } set_global_flag = ICX_mnc_seed_del_monte add_to_variable = { global.CWIC_CORP_del_monte_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_del_monte_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_del_monte_cash } } set_temp_variable = { budget = global.CWIC_CORP_del_monte_cash } }
+	set_variable = { global.CWIC_CORP_del_monte_budget = budget }
+	set_variable = { global.CWIC_CORP_del_monte_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_del_monte_profit_last = gross }
@@ -3343,6 +3615,14 @@ cwic_finalize_corp_dole = {
 	}
 
 	set_variable = { global.CWIC_CORP_dole_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_dole } } set_global_flag = ICX_mnc_seed_dole add_to_variable = { global.CWIC_CORP_dole_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_dole_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_dole_cash } } set_temp_variable = { budget = global.CWIC_CORP_dole_cash } }
+	set_variable = { global.CWIC_CORP_dole_budget = budget }
+	set_variable = { global.CWIC_CORP_dole_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_dole_profit_last = gross }
@@ -3402,6 +3682,14 @@ cwic_finalize_corp_cargill = {
 	}
 
 	set_variable = { global.CWIC_CORP_cargill_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_cargill } } set_global_flag = ICX_mnc_seed_cargill add_to_variable = { global.CWIC_CORP_cargill_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_cargill_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_cargill_cash } } set_temp_variable = { budget = global.CWIC_CORP_cargill_cash } }
+	set_variable = { global.CWIC_CORP_cargill_budget = budget }
+	set_variable = { global.CWIC_CORP_cargill_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_cargill_profit_last = gross }
@@ -3461,6 +3749,14 @@ cwic_finalize_corp_adm = {
 	}
 
 	set_variable = { global.CWIC_CORP_adm_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_adm } } set_global_flag = ICX_mnc_seed_adm add_to_variable = { global.CWIC_CORP_adm_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_adm_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_adm_cash } } set_temp_variable = { budget = global.CWIC_CORP_adm_cash } }
+	set_variable = { global.CWIC_CORP_adm_budget = budget }
+	set_variable = { global.CWIC_CORP_adm_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_adm_profit_last = gross }
@@ -3520,6 +3816,14 @@ cwic_finalize_corp_bunge = {
 	}
 
 	set_variable = { global.CWIC_CORP_bunge_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_bunge } } set_global_flag = ICX_mnc_seed_bunge add_to_variable = { global.CWIC_CORP_bunge_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_bunge_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_bunge_cash } } set_temp_variable = { budget = global.CWIC_CORP_bunge_cash } }
+	set_variable = { global.CWIC_CORP_bunge_budget = budget }
+	set_variable = { global.CWIC_CORP_bunge_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_bunge_profit_last = gross }
@@ -3579,6 +3883,14 @@ cwic_finalize_corp_unilever = {
 	}
 
 	set_variable = { global.CWIC_CORP_unilever_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_unilever } } set_global_flag = ICX_mnc_seed_unilever add_to_variable = { global.CWIC_CORP_unilever_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_unilever_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_unilever_cash } } set_temp_variable = { budget = global.CWIC_CORP_unilever_cash } }
+	set_variable = { global.CWIC_CORP_unilever_budget = budget }
+	set_variable = { global.CWIC_CORP_unilever_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_unilever_profit_last = gross }
@@ -3638,6 +3950,14 @@ cwic_finalize_corp_nestle = {
 	}
 
 	set_variable = { global.CWIC_CORP_nestle_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_nestle } } set_global_flag = ICX_mnc_seed_nestle add_to_variable = { global.CWIC_CORP_nestle_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_nestle_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_nestle_cash } } set_temp_variable = { budget = global.CWIC_CORP_nestle_cash } }
+	set_variable = { global.CWIC_CORP_nestle_budget = budget }
+	set_variable = { global.CWIC_CORP_nestle_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_nestle_profit_last = gross }
@@ -3697,6 +4017,14 @@ cwic_finalize_corp_cadbury = {
 	}
 
 	set_variable = { global.CWIC_CORP_cadbury_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_cadbury } } set_global_flag = ICX_mnc_seed_cadbury add_to_variable = { global.CWIC_CORP_cadbury_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_cadbury_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_cadbury_cash } } set_temp_variable = { budget = global.CWIC_CORP_cadbury_cash } }
+	set_variable = { global.CWIC_CORP_cadbury_budget = budget }
+	set_variable = { global.CWIC_CORP_cadbury_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_cadbury_profit_last = gross }
@@ -3756,6 +4084,14 @@ cwic_finalize_corp_mitsui_bussan_agri = {
 	}
 
 	set_variable = { global.CWIC_CORP_mitsui_bussan_agri_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_mitsui_bussan_agri } } set_global_flag = ICX_mnc_seed_mitsui_bussan_agri add_to_variable = { global.CWIC_CORP_mitsui_bussan_agri_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_mitsui_bussan_agri_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_mitsui_bussan_agri_cash } } set_temp_variable = { budget = global.CWIC_CORP_mitsui_bussan_agri_cash } }
+	set_variable = { global.CWIC_CORP_mitsui_bussan_agri_budget = budget }
+	set_variable = { global.CWIC_CORP_mitsui_bussan_agri_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_mitsui_bussan_agri_profit_last = gross }
@@ -3816,6 +4152,14 @@ cwic_finalize_corp_gm = {
 	}
 
 	set_variable = { global.CWIC_CORP_gm_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_gm } } set_global_flag = ICX_mnc_seed_gm add_to_variable = { global.CWIC_CORP_gm_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_gm_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_gm_cash } } set_temp_variable = { budget = global.CWIC_CORP_gm_cash } }
+	set_variable = { global.CWIC_CORP_gm_budget = budget }
+	set_variable = { global.CWIC_CORP_gm_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_gm_profit_last = gross }
@@ -3875,6 +4219,14 @@ cwic_finalize_corp_ford = {
 	}
 
 	set_variable = { global.CWIC_CORP_ford_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_ford } } set_global_flag = ICX_mnc_seed_ford add_to_variable = { global.CWIC_CORP_ford_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_ford_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_ford_cash } } set_temp_variable = { budget = global.CWIC_CORP_ford_cash } }
+	set_variable = { global.CWIC_CORP_ford_budget = budget }
+	set_variable = { global.CWIC_CORP_ford_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_ford_profit_last = gross }
@@ -3934,6 +4286,14 @@ cwic_finalize_corp_chrysler = {
 	}
 
 	set_variable = { global.CWIC_CORP_chrysler_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_chrysler } } set_global_flag = ICX_mnc_seed_chrysler add_to_variable = { global.CWIC_CORP_chrysler_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_chrysler_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_chrysler_cash } } set_temp_variable = { budget = global.CWIC_CORP_chrysler_cash } }
+	set_variable = { global.CWIC_CORP_chrysler_budget = budget }
+	set_variable = { global.CWIC_CORP_chrysler_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_chrysler_profit_last = gross }
@@ -3993,6 +4353,14 @@ cwic_finalize_corp_vw = {
 	}
 
 	set_variable = { global.CWIC_CORP_vw_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_vw } } set_global_flag = ICX_mnc_seed_vw add_to_variable = { global.CWIC_CORP_vw_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_vw_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_vw_cash } } set_temp_variable = { budget = global.CWIC_CORP_vw_cash } }
+	set_variable = { global.CWIC_CORP_vw_budget = budget }
+	set_variable = { global.CWIC_CORP_vw_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_vw_profit_last = gross }
@@ -4052,6 +4420,14 @@ cwic_finalize_corp_fiat = {
 	}
 
 	set_variable = { global.CWIC_CORP_fiat_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_fiat } } set_global_flag = ICX_mnc_seed_fiat add_to_variable = { global.CWIC_CORP_fiat_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_fiat_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_fiat_cash } } set_temp_variable = { budget = global.CWIC_CORP_fiat_cash } }
+	set_variable = { global.CWIC_CORP_fiat_budget = budget }
+	set_variable = { global.CWIC_CORP_fiat_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_fiat_profit_last = gross }
@@ -4111,6 +4487,14 @@ cwic_finalize_corp_renault = {
 	}
 
 	set_variable = { global.CWIC_CORP_renault_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_renault } } set_global_flag = ICX_mnc_seed_renault add_to_variable = { global.CWIC_CORP_renault_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_renault_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_renault_cash } } set_temp_variable = { budget = global.CWIC_CORP_renault_cash } }
+	set_variable = { global.CWIC_CORP_renault_budget = budget }
+	set_variable = { global.CWIC_CORP_renault_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_renault_profit_last = gross }
@@ -4170,6 +4554,14 @@ cwic_finalize_corp_peugeot = {
 	}
 
 	set_variable = { global.CWIC_CORP_peugeot_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_peugeot } } set_global_flag = ICX_mnc_seed_peugeot add_to_variable = { global.CWIC_CORP_peugeot_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_peugeot_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_peugeot_cash } } set_temp_variable = { budget = global.CWIC_CORP_peugeot_cash } }
+	set_variable = { global.CWIC_CORP_peugeot_budget = budget }
+	set_variable = { global.CWIC_CORP_peugeot_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_peugeot_profit_last = gross }
@@ -4229,6 +4621,14 @@ cwic_finalize_corp_daimler_benz = {
 	}
 
 	set_variable = { global.CWIC_CORP_daimler_benz_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_daimler_benz } } set_global_flag = ICX_mnc_seed_daimler_benz add_to_variable = { global.CWIC_CORP_daimler_benz_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_daimler_benz_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_daimler_benz_cash } } set_temp_variable = { budget = global.CWIC_CORP_daimler_benz_cash } }
+	set_variable = { global.CWIC_CORP_daimler_benz_budget = budget }
+	set_variable = { global.CWIC_CORP_daimler_benz_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_daimler_benz_profit_last = gross }
@@ -4288,6 +4688,14 @@ cwic_finalize_corp_toyota = {
 	}
 
 	set_variable = { global.CWIC_CORP_toyota_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_toyota } } set_global_flag = ICX_mnc_seed_toyota add_to_variable = { global.CWIC_CORP_toyota_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_toyota_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_toyota_cash } } set_temp_variable = { budget = global.CWIC_CORP_toyota_cash } }
+	set_variable = { global.CWIC_CORP_toyota_budget = budget }
+	set_variable = { global.CWIC_CORP_toyota_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_toyota_profit_last = gross }
@@ -4347,6 +4755,14 @@ cwic_finalize_corp_nissan = {
 	}
 
 	set_variable = { global.CWIC_CORP_nissan_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_nissan } } set_global_flag = ICX_mnc_seed_nissan add_to_variable = { global.CWIC_CORP_nissan_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_nissan_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_nissan_cash } } set_temp_variable = { budget = global.CWIC_CORP_nissan_cash } }
+	set_variable = { global.CWIC_CORP_nissan_budget = budget }
+	set_variable = { global.CWIC_CORP_nissan_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_nissan_profit_last = gross }
@@ -4406,6 +4822,14 @@ cwic_finalize_corp_dupont = {
 	}
 
 	set_variable = { global.CWIC_CORP_dupont_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_dupont } } set_global_flag = ICX_mnc_seed_dupont add_to_variable = { global.CWIC_CORP_dupont_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_dupont_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_dupont_cash } } set_temp_variable = { budget = global.CWIC_CORP_dupont_cash } }
+	set_variable = { global.CWIC_CORP_dupont_budget = budget }
+	set_variable = { global.CWIC_CORP_dupont_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_dupont_profit_last = gross }
@@ -4465,6 +4889,14 @@ cwic_finalize_corp_dow = {
 	}
 
 	set_variable = { global.CWIC_CORP_dow_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_dow } } set_global_flag = ICX_mnc_seed_dow add_to_variable = { global.CWIC_CORP_dow_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_dow_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_dow_cash } } set_temp_variable = { budget = global.CWIC_CORP_dow_cash } }
+	set_variable = { global.CWIC_CORP_dow_budget = budget }
+	set_variable = { global.CWIC_CORP_dow_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_dow_profit_last = gross }
@@ -4524,6 +4956,14 @@ cwic_finalize_corp_basf = {
 	}
 
 	set_variable = { global.CWIC_CORP_basf_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_basf } } set_global_flag = ICX_mnc_seed_basf add_to_variable = { global.CWIC_CORP_basf_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_basf_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_basf_cash } } set_temp_variable = { budget = global.CWIC_CORP_basf_cash } }
+	set_variable = { global.CWIC_CORP_basf_budget = budget }
+	set_variable = { global.CWIC_CORP_basf_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_basf_profit_last = gross }
@@ -4583,6 +5023,14 @@ cwic_finalize_corp_bayer = {
 	}
 
 	set_variable = { global.CWIC_CORP_bayer_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_bayer } } set_global_flag = ICX_mnc_seed_bayer add_to_variable = { global.CWIC_CORP_bayer_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_bayer_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_bayer_cash } } set_temp_variable = { budget = global.CWIC_CORP_bayer_cash } }
+	set_variable = { global.CWIC_CORP_bayer_budget = budget }
+	set_variable = { global.CWIC_CORP_bayer_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_bayer_profit_last = gross }
@@ -4643,6 +5091,14 @@ cwic_finalize_corp_ge = {
 	}
 
 	set_variable = { global.CWIC_CORP_ge_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_ge } } set_global_flag = ICX_mnc_seed_ge add_to_variable = { global.CWIC_CORP_ge_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_ge_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_ge_cash } } set_temp_variable = { budget = global.CWIC_CORP_ge_cash } }
+	set_variable = { global.CWIC_CORP_ge_budget = budget }
+	set_variable = { global.CWIC_CORP_ge_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_ge_profit_last = gross }
@@ -4703,6 +5159,14 @@ cwic_finalize_corp_ibm = {
 	}
 
 	set_variable = { global.CWIC_CORP_ibm_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_ibm } } set_global_flag = ICX_mnc_seed_ibm add_to_variable = { global.CWIC_CORP_ibm_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_ibm_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_ibm_cash } } set_temp_variable = { budget = global.CWIC_CORP_ibm_cash } }
+	set_variable = { global.CWIC_CORP_ibm_budget = budget }
+	set_variable = { global.CWIC_CORP_ibm_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_ibm_profit_last = gross }
@@ -4762,6 +5226,14 @@ cwic_finalize_corp_rca = {
 	}
 
 	set_variable = { global.CWIC_CORP_rca_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_rca } } set_global_flag = ICX_mnc_seed_rca add_to_variable = { global.CWIC_CORP_rca_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_rca_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_rca_cash } } set_temp_variable = { budget = global.CWIC_CORP_rca_cash } }
+	set_variable = { global.CWIC_CORP_rca_budget = budget }
+	set_variable = { global.CWIC_CORP_rca_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_rca_profit_last = gross }
@@ -4821,6 +5293,14 @@ cwic_finalize_corp_att = {
 	}
 
 	set_variable = { global.CWIC_CORP_att_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_att } } set_global_flag = ICX_mnc_seed_att add_to_variable = { global.CWIC_CORP_att_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_att_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_att_cash } } set_temp_variable = { budget = global.CWIC_CORP_att_cash } }
+	set_variable = { global.CWIC_CORP_att_budget = budget }
+	set_variable = { global.CWIC_CORP_att_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_att_profit_last = gross }
@@ -4880,6 +5360,14 @@ cwic_finalize_corp_itt = {
 	}
 
 	set_variable = { global.CWIC_CORP_itt_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_itt } } set_global_flag = ICX_mnc_seed_itt add_to_variable = { global.CWIC_CORP_itt_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_itt_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_itt_cash } } set_temp_variable = { budget = global.CWIC_CORP_itt_cash } }
+	set_variable = { global.CWIC_CORP_itt_budget = budget }
+	set_variable = { global.CWIC_CORP_itt_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_itt_profit_last = gross }
@@ -4939,6 +5427,14 @@ cwic_finalize_corp_siemens = {
 	}
 
 	set_variable = { global.CWIC_CORP_siemens_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_siemens } } set_global_flag = ICX_mnc_seed_siemens add_to_variable = { global.CWIC_CORP_siemens_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_siemens_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_siemens_cash } } set_temp_variable = { budget = global.CWIC_CORP_siemens_cash } }
+	set_variable = { global.CWIC_CORP_siemens_budget = budget }
+	set_variable = { global.CWIC_CORP_siemens_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_siemens_profit_last = gross }
@@ -4998,6 +5494,14 @@ cwic_finalize_corp_philips = {
 	}
 
 	set_variable = { global.CWIC_CORP_philips_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_philips } } set_global_flag = ICX_mnc_seed_philips add_to_variable = { global.CWIC_CORP_philips_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_philips_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_philips_cash } } set_temp_variable = { budget = global.CWIC_CORP_philips_cash } }
+	set_variable = { global.CWIC_CORP_philips_budget = budget }
+	set_variable = { global.CWIC_CORP_philips_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_philips_profit_last = gross }
@@ -5057,6 +5561,14 @@ cwic_finalize_corp_olivetti = {
 	}
 
 	set_variable = { global.CWIC_CORP_olivetti_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_olivetti } } set_global_flag = ICX_mnc_seed_olivetti add_to_variable = { global.CWIC_CORP_olivetti_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_olivetti_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_olivetti_cash } } set_temp_variable = { budget = global.CWIC_CORP_olivetti_cash } }
+	set_variable = { global.CWIC_CORP_olivetti_budget = budget }
+	set_variable = { global.CWIC_CORP_olivetti_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_olivetti_profit_last = gross }
@@ -5116,6 +5628,14 @@ cwic_finalize_corp_sony = {
 	}
 
 	set_variable = { global.CWIC_CORP_sony_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_sony } } set_global_flag = ICX_mnc_seed_sony add_to_variable = { global.CWIC_CORP_sony_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_sony_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_sony_cash } } set_temp_variable = { budget = global.CWIC_CORP_sony_cash } }
+	set_variable = { global.CWIC_CORP_sony_budget = budget }
+	set_variable = { global.CWIC_CORP_sony_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_sony_profit_last = gross }
@@ -5175,6 +5695,14 @@ cwic_finalize_corp_panasonic = {
 	}
 
 	set_variable = { global.CWIC_CORP_panasonic_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_panasonic } } set_global_flag = ICX_mnc_seed_panasonic add_to_variable = { global.CWIC_CORP_panasonic_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_panasonic_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_panasonic_cash } } set_temp_variable = { budget = global.CWIC_CORP_panasonic_cash } }
+	set_variable = { global.CWIC_CORP_panasonic_budget = budget }
+	set_variable = { global.CWIC_CORP_panasonic_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_panasonic_profit_last = gross }
@@ -5234,6 +5762,14 @@ cwic_finalize_corp_toshiba = {
 	}
 
 	set_variable = { global.CWIC_CORP_toshiba_budget = budget }
+	# ICX fix: the base mod never gives companies starting money or a spending budget, so no invitation could ever succeed
+	if = { limit = { NOT = { has_global_flag = ICX_mnc_seed_toshiba } } set_global_flag = ICX_mnc_seed_toshiba add_to_variable = { global.CWIC_CORP_toshiba_cash = 3 } }
+	set_temp_variable = { budget = global.CWIC_CORP_toshiba_cash }
+	multiply_temp_variable = { budget = 0.25 }
+	clamp_temp_variable = { var = budget min = 0.25 max = 3 }
+	if = { limit = { check_variable = { budget > global.CWIC_CORP_toshiba_cash } } set_temp_variable = { budget = global.CWIC_CORP_toshiba_cash } }
+	set_variable = { global.CWIC_CORP_toshiba_budget = budget }
+	set_variable = { global.CWIC_CORP_toshiba_budget_remaining = budget }
 
 	# book-keeping
 	set_variable = { global.CWIC_CORP_toshiba_profit_last = gross }
