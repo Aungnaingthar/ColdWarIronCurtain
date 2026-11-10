@@ -2560,6 +2560,20 @@ ic_calc_trade_exports = {
 			add = chromium_exports
 		}
 	}
+	# ICX: resources other countries take through the normal HOI4 trade screen also earn money,
+	# at Iron Curtain's base prices (food is the rubber slot, nuclear material chromium, rare earths tungsten).
+	set_variable = {
+		ICX_vanilla_export_income = {
+			value = { value = resource_exported@oil multiply = global.oilBasePrice }
+			add = { value = resource_exported@steel multiply = global.steelBasePrice }
+			add = { value = resource_exported@aluminium multiply = global.aluminiumBasePrice }
+			add = { value = resource_exported@rubber multiply = global.foodBasePrice }
+			add = { value = resource_exported@chromium multiply = global.chromiumBasePrice }
+			add = { value = resource_exported@tungsten multiply = global.rareEarthBasePrice }
+		}
+	}
+	add_to_variable = { resource_income = ICX_vanilla_export_income }
+	add_to_variable = { trade_income = ICX_vanilla_export_income }
 }
 
 ic_calc_trade_imports = {
